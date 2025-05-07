@@ -1,1 +1,33 @@
-{}
+[
+  {
+    "Nome": "Nano",
+    "Riassunto": "I nani sono un popolo basso e tarchiato, spesso testardo, fiero e devoto.",
+    "Tratti": ["nano", "umanoide"],
+    "Descrizione": "I nani sono bassi e tarchiati, alti circa 30cm in meno rispetto alla maggior parte degli esseri umani. Hanno corpi larghi, compatti e corporature robuste. I nani di tutti i generi vanno fieri della lunghezza dei loro capelli e delle loro barbe, che spesso intrecciano in motivi elaborati, alcuni dei quali rappresentano clan specifici. Una barba lunga è un segno di maturità e onore in molti clan nanici.<br>I nani raggiungono solitamente la maturità fisica intorno ai 25 anni, anche se la loro cultura tradizionalista attribuisce maggiore importanza al completamento delle cerimonie di passaggio, uniche per ciascun clan, piuttosto che al raggiungimento di una certa età. Un nano può vivere in media fino a circa 350 anni.",
+    "HP": "10",
+    "Taglia": "Media",
+    "Velocita": "6m",
+    "Attributi": ["costituzione", "saggezza", "libero"],
+    "Difetto": "Carisma",
+    "Linguaggi": "Comune<br>Nanico<br>Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Gnomico, Goblin, Jotun, Orchesco, Petran, Sakvroth e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+    "Abilita": [
+      "Scurovisione@Puoi vedere nell'oscurità e nella penombra altrettanto bene quanto nella luce intensa, anche se la tua visione nell'oscurità è in bianco e nero.",
+      "Pugnale del Clan@Ricevi un pugnale del clan gratuitamente, poiché ti è stato donato alla nascita. Vendere questo pugnale è un grave tabù e ti attira il disprezzo degli altri nani."
+    ]
+  },
+  {
+    "Nome": "Elfo",
+    "Riassunto": "Gli elfi sono un popolo alto e longevo, con una forte tradizione artistica e magica.",
+    "Tratti": ["elfo", "umanoide"],
+    "Descrizione": "Anche se generalmente più alti degli umani, gli elfi possiedono una grazia fragile, accentuata da lineamenti allungati e orecchie marcatamente a punta. I loro occhi sono grandi e rotondi, con pupille vivaci e colorate che occupano tutta la parte visibile dell’occhio. Queste pupille donano loro un aspetto alieno e permettono una visione nitida anche con pochissima luce.<br>Gli elfi si adattano gradualmente all’ambiente e alle persone che li circondano, assumendo spesso tratti fisici che riflettono il loro habitat. Un elfo che ha vissuto per secoli in foreste primordiali potrebbe avere capelli verdi e dita nodose, mentre uno che vive nel deserto potrebbe mostrare pupille dorate e pelle color sabbia.<br>Gli elfi raggiungono la maturità fisica intorno ai 20 anni, ma non sono considerati emotivamente maturi da altri elfi fino a circa 100 anni. Un elfo può vivere in media fino a circa 600 anni.",
+    "HP": "6",
+    "Taglia": "Media",
+    "Velocita": "9m",
+    "Attributi": ["destrezza", "intelligenza", "libero"],
+    "Difetto": "costituzione",
+    "Linguaggi": "Comune<br>Elfico<br>Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Draconico, Empyrean, Fatato, Gnomico, Goblin, Kholo, Orchesco e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+    "Abilita": [
+      "Visione Crepuscolare@Puoi vedere nella penombra come se fosse luce intensa, quindi ignori la condizione di occultamento dovuta alla luce fioca."
+    ]
+  }
+]
