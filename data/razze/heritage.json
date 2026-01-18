@@ -1,0 +1,1941 @@
+[
+  {
+    "Nome": "Nano dal Sangue Antico",
+    "Razza": "nano",
+    "Desc": "Gli eroi nani del passato riuscivano a resistere alla magia dei nemici, e parte di quella resistenza si manifesta in te. Ottieni la reazione Richiamo al Sangue Antico. ###{\"nome\": \"Richiamo al Sangue Antico\", \"tipoAzz\": \"reazione\", \"tratti\": [\"Invacazione\", \"Primitivo\"], \"dettagli\": {\"Trigger\": \"Stai per effettuare un tiro salvezza contro un effetto magico, ma non hai ancora tirato.\"}, \"desc\": \"Il potere innato dei tuoi antenati contro la magia affiora in te, prima di svanire lentamente. Ottieni un bonus di circostanza di +1 fino alla fine di questo turno. Questo bonus si applica anche al tiro salvezza che ha attivato la reazione.\"}###",
+    "Mostrare": false
+  },
+  {
+    "Nome": "Nano dell’Incudine",
+    "Razza": "nano",
+    "Desc": "Sei discendente di un celebre artigiano e possiedi un talento straordinario. Altri nani potrebbero considerarlo una benedizione degli antenati o del Padre delle Forge stesso, a seconda di dove sei cresciuto. Ottieni addestramento in Artigianato (o in un’altra abilità se già sei addestrato in Artigianato) e ottieni il talento Artigianato Specializzato, ma puoi scegliere due specializzazioni invece di una sola.",
+    "Mostrare": false
+  },
+  {
+    "Nome": "Nano Custode della Morte",
+    "Razza": "nano",
+    "Desc": "I tuoi antenati erano guardiani delle tombe, e il loro potere di protezione contro la morte è stato trasmesso a te. Se ottieni un successo su un tiro salvezza contro un effetto con il tratto vuoto o creato da una creatura non morta, consideralo un successo critico.",
+    "Mostrare": false
+  },
+  {
+    "Nome": "Nano dal Cuore Elementale",
+    "Razza": "nano",
+    "Desc": "Sia per una connessione con la forgia di Torag, con gli azer del Piano del Fuoco, o con qualche altra fonte, puoi emanare un'esplosione di energia. I nani Mbe’ke e Taralu dell’Espanso Mwangi credono che questo dono provenga da draghi o spiriti elementali. Scegli uno dei seguenti tipi di danno: acido, freddo, elettricità o fuoco (non può essere cambiato dopo la scelta). Ottieni l’attività Emanazione Energetica.###{ \"nome\": \"Emanazione Energetica\", \"tipoAzz\": \"dueAzioni\", \"tratti\": [\"Evocazione\", \"Primitiva\"], \"dettagli\": { \"Frequenza\": \"Una volta al giorno\" }, \"desc\": \"L’energia esplode dal tuo corpo. Infliggi 1d6 danni del tipo scelto a tutte le creature adiacenti (Riflessi base, CD pari alla tua CD di classe o CD degli incantesimi, quella più alta). A partire dal 3° livello, e ogni 2 livelli successivi, i danni aumentano di 1d6.\" }###",
+    "Mostrare": false
+  },
+  {
+    "Nome": "Nano della Forgia",
+    "Razza": "nano",
+    "Desc": "Hai una notevole adattabilità agli ambienti caldi. Ottieni resistenza al fuoco pari alla metà del tuo livello (minimo 1) e tratti gli effetti ambientali di calore come se fossero di un grado meno estremo (calore incredibile diventa estremo, estremo diventa severo, e così via).",
+    "Mostrare": false
+  },
+  {
+    "Nome": "Nano Benedetto dalla Forgia",
+    "Razza": "nano",
+    "Desc": "Proveniente da una famiglia di Highhelm che venera una specifica divinità nanica, la tua nascita è stata benedetta dal patrono della tua famiglia, donandoti parte del suo potere. Scegli una divinità del pantheon nanico. Puoi lanciare l'incantesimo di 1° livello che quella divinità concede ai chierici (ad esempio lenire se il patrono è Bolka) come incantesimo divino innato una volta a settimana.",
+    "Mostrare": false
+  },
+  {
+    "Nome": "Nano Custode del Giuramento",
+    "Razza": "nano",
+    "Desc": "Fin da piccolo, non hai mai usato la menzogna per ottenere ciò che volevi e mentire ti mette a disagio. I più devoti credono che tu sia stato benedetto dal dio nanico del dovere, Kols. Ottieni un bonus di circostanza di +1 alle prove di Percezione per Intuire Motivazioni e alla CD di Percezione contro chi tenta di mentirti. Inoltre, ottieni un bonus di circostanza di +2 alle prove di Diplomazia per convincere quando stai dicendo la verità, e subisci una penalità di circostanza di –4 alle prove di Mentire e alla tua CD di Inganno contro chi cerca di capire se stai mentendo.",
+    "Mostrare": false
+  },
+  {
+    "Nome": "Nano della Roccia",
+    "Razza": "nano",
+    "Desc": "I tuoi antenati vivevano tra le antiche pietre delle montagne o nelle profondità della terra. Questo ti rende saldo come una roccia. Ottieni un bonus di circostanza di +2 alla tua CD di Tempra o Riflessi contro tentativi di Spostarti, Spingerti o Farti Cadere. Questo bonus si applica anche ai tiri salvezza contro magie o effetti che cercano di spostarti o metterti prono. Inoltre, se un effetto dovrebbe spostarti di 3 metri o più, vieni spostato solo della metà della distanza.",
+    "Mostrare": false
+  },
+  {
+    "Nome": "Nano dal Sangue Forte",
+    "Razza": "nano",
+    "Desc": "Hai un sangue robusto e resistente, capace di combattere i veleni. Ottieni resistenza al veleno pari alla metà del tuo livello (minimo 1), e ogni tuo successo su un TS contro un veleno ne riduce lo stadio di 2 (o di 1 se è virulento). Ogni successo critico contro un veleno in corso ne riduce lo stadio di 3 (o di 2 se è virulento).",
+    "Mostrare": false
+  },
+{
+    "Nome": "Elfo Antico",
+    "Razza": "elfo",
+    "Desc": "Nella tua lunga vita, hai sperimentato molti percorsi e stili diversi. Un tipico elfo antico ha almeno 100 anni, anche se potresti essere più giovane a discrezione del GM. Scegli una classe diversa dalla tua. Ottieni il talento di dedizione multiclass per quella classe, anche se non soddisfi il prerequisito di livello. Devi comunque soddisfare gli altri prerequisiti per ottenere il talento.",
+    "Mostrare": false
+},
+{
+    "Nome": "Elfo Artico",
+    "Razza": "elfo",
+    "Desc": "Vivi nelle profondità del nord ghiacciato e hai acquisito un'incredibile resistenza agli ambienti freddi, ottenendo resistenza al freddo pari alla metà del tuo livello (minimo 1). Tratti gli effetti ambientali di freddo come se fossero di un grado meno estremo (freddo incredibile diventa estremo, estremo diventa severo, e così via).",
+    "Mostrare": false
+},
+{
+    "Nome": "Elfo delle Caverne",
+    "Razza": "elfo",
+    "Desc": "Sei nato o hai trascorso molti anni in tunnel o caverne sotterranee dove la luce è scarsa. Ottieni scurovisione.",
+    "Mostrare": false
+},
+{
+    "Nome": "Elfo del Deserto",
+    "Razza": "elfo",
+    "Desc": "Vivi sotto il calore rovente del deserto, ottenendo un'incredibile resistenza agli ambienti caldi. Ottieni resistenza al fuoco pari alla metà del tuo livello (minimo 1), e gli effetti ambientali di calore sono di un grado meno estremo per te (calore incredibile diventa estremo, estremo diventa severo, e così via).",
+    "Mostrare": false
+},
+{
+    "Nome": "Elfo Veggente",
+    "Razza": "elfo",
+    "Desc": "Hai una capacità innata di percepire e comprendere i fenomeni magici. Puoi lanciare l'incantesimo di trucco ++individuare magia++ come incantesimo arcano innato a volontà. Un trucco è potenziato a un grado di incantesimo pari alla metà del tuo livello, arrotondato per eccesso. Inoltre, ottieni un bonus di circostanza di +1 alle prove per Identificare la Magia e per Decifrare Scritture di natura magica. Queste azioni di abilità utilizzano tipicamente Arcano, Natura, Occultismo o Religione.",
+    "Mostrare": false
+},
+{
+    "Nome": "Elfo Sussurrante",
+    "Razza": "elfo",
+    "Desc": "Le tue orecchie sono finemente sintonizzate, capaci di percepire anche i più lievi sussurri di suono. Ottieni un bonus di circostanza di +2 quando usi l'azione Cercare per trovare creature nascoste o non individuate entro 9m da te. Quando prendi di mira un avversario che è occultato o nascosto da te, riduci la CD del tiro piatto a 3 per un bersaglio occultato o 9 per uno nascosto. Questo beneficio non si applica se non puoi udire o se la creatura è incapace di produrre suoni (ad esempio se è affetta da un incantesimo di silenzio).",
+    "Mostrare": false
+},
+{
+    "Nome": "Elfo dei Boschi",
+    "Razza": "elfo",
+    "Desc": "Sei adattato alla vita nella foresta, nella giungla profonda o in un ambiente simile, e sai come arrampicarti sugli alberi e sfruttare la vegetazione a tuo vantaggio. Quando ti arrampichi su alberi, viti o altra vegetazione, ti muovi a metà della tua Velocità con un successo e alla tua Velocità piena con un successo critico (e ti muovi alla tua Velocità piena con un successo se possiedi Scalata Rapida). Questo non si applica se stai usando una Velocità di scalata.@Puoi sempre usare l'azione ++Mettersi al Riparo++ quando ti trovi in un terreno forestale per ottenere copertura, anche se non sei adiacente a un ostacolo dietro cui potresti normalmente metterti al riparo.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tanuki ascettico",
+    "Razza": "tanuki",
+    "Desc": "Si dice che la tua forma rotonda sia il risultato di calma e autocontrollo, non indulgenza. Ottieni l'olfatto come senso impreciso con una portata di 9 metri. Il GM di solito raddoppia la portata se sei a favore di vento rispetto a ciò che stai cercando di fiutare o la dimezza se sei controvento. Inoltre, ottieni un +2 bonus di circostanza ai tiri di Percezione ogni volta che cerchi di individuare cibo, bevanda o un oggetto consumabile ingerito (come una pozione o elisir) usando il tuo olfatto.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tanuki coraggioso",
+    "Razza": "tanuki",
+    "Desc": "Il tuo cuore batte con il coraggio di coloro che ti hanno preceduto, donandoti una bravura che solo un tanuki può dimostrare. Ogni volta che ottieni la condizione di fuga, ottieni anche un bonus di circostanza di +3 metri alle tue Velocità che dura finché stai fuggendo. Quando hai la condizione di fuga, invece di dover spendere tutte le tue azioni tentando di scappare, puoi agire normalmente per un'azione ma devi comunque spendere il resto delle tue azioni fuggendo. Ottieni anche l'abilità ++Ritirata tattica++.@###{\"nome\": \"Ritirata tattica\", \"tipoAzz\": \"reazione\", \"tratti\": [\"Emotivo\", \"Paura\", \"Mentale\", \"Tanuki\"], \"dettagli\": {\"Frequenza\": \"Una volta all'ora\", \"Trigger\": \"Ottieni la condizione di spaventato\"}, \"desc\": \"Realizzando che la discrezione è la parte migliore del valore, scegli di mettere distanza tra te e una minaccia. Ottieni la condizione di fuga fino all'inizio del tuo prossimo turno e muovi Stride.\"}###",
+    "Mostrare": false
+},
+{
+    "Nome": "Tanuki calmo",
+    "Razza": "tanuki",
+    "Desc": "Possiedi una serenità rara tra gli altri tanuki, che sembrano sempre perdere la calma. Ottieni un +1 bonus di circostanza ai tiri salvezza contro effetti emotivi. Se ottieni un successo a un tiro salvezza contro un effetto emotivo, ottieni un successo critico invece; se ottieni un fallimento, ottieni un fallimento critico.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tanuki risoluto",
+    "Razza": "tanuki",
+    "Desc": "Il tuo orgoglio nella tua vera forma di tanuki non conosce limiti. Ottieni la tua scelta tra Forma Quotidiana o Forma Teiera come talento di ascendenza bonus.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tanuki virtuoso",
+    "Razza": "tanuki",
+    "Desc": "Molti tanuki portano un fiasco di alcol per ricordarsi di agire con virtù, e secondo questi standard, sei davvero virtuoso. Ottieni resistenza al veleno pari a metà del tuo livello (minimo 1). Puoi mangiare e bere cose anche se sei nauseato. Non puoi diventare incapacitato dall'alcol convenzionale se non vuoi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Sarangay della luna piena",
+    "Razza": "sarangay",
+    "Desc": "Sei stato allevato in una tradizione sciamanica che trascende una singola comunità o heritage sarangay. Hai passato la tua giovinezza sotto la guida di un anziano sciamano, che ti ha insegnato a comunicare con gli spiriti nella speranza che un giorno userai quella conoscenza per consigliare e guidare il tuo popolo. Coloro della tua tradizione sono sacerdoti o sciamani che canalizzano gli spiriti e vedono cose che altri non possono. Ottieni un aumento di attributo all'ascendenza in Saggezza invece che in Forza, e ottieni un difetto di attributo in Costituzione invece che in Saggezza. Ottieni il talento di ascendenza ++Folk Healer++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Sarangay della mezza luna",
+    "Razza": "sarangay",
+    "Desc": "Proveni da una delle molte comunità itineranti che migrano stagionalmente lungo i vasti fiumi e montagne di Tian Xia, portando notizie e messaggi ai villaggi lungo il loro cammino. Il tuo popolo connette le comunità sarangay tra loro su grandi distanze ed è simboleggiato dalla mezza luna, che unisce luce e oscurità; così anche tu congiungi il buio dalla luce, il rosso dal blu, il vento dal mare. I tuoi antenati erano alti e robusti con pelliccia nera lucida, macchie o segni chiari, e corna corte e fortemente ricurve. Diventi addestrato in due skill Lore a tua scelta, e ottieni un +1 bonus di circostanza ai tiri di Ricordare Conoscenza usando quelle skill.",
+    "Mostrare": false
+},
+{
+    "Nome": "Sarangay della luna nuova",
+    "Razza": "sarangay",
+    "Desc": "Alcuni ti chiamano sarangay nano e la tua gente 'coloro che si nascondono'. Altri sussurrano che esci con la luna quando la luna 'va a caccia'—un detto popolare quando la luna nuova scompare dal cielo. I tuoi antenati sfuggenti costruivano i loro alloggi all'ombra di boschetti di bambù, e le tue comunità ancestrali apprezzavano la cautela e l'indipendenza, trasmettendo la conoscenza di camminare leggero e muoversi come fumo tra il bambù. I tuoi antenati avevano pelliccia marrone scuro o grigia con segni bianchi e una coppia di corna piatte e triangolari a forma di V. La tua taglia è Piccola invece che Media. Ottieni 10 Punti Ferita dall'ascendenza invece di 8 e un +2 bonus di circostanza ai tiri di Atletica per Spingere.",
+    "Mostrare": false
+},
+{
+    "Nome": "Sarangay della luna calante",
+    "Razza": "sarangay",
+    "Desc": "I tuoi antenati erano chiamati per la luna in transizione, sempre mutevole ed effimera. Sono custodi di arti segrete, proprio come la luna calante nasconde il suo volto, e le loro comunità erano molto rispettate per narratori, artisti e performer. Hai vissuto tra la tua comunità ai margini di foreste o fiumi, dove molte risposte arrivavano come enigmi, e hai imparato a vedere il mondo da prospettive diverse. Il tuo popolo è spesso di colore rosso o fulvo, con occhi prominenti e corna piatte e compatte. Diventi addestrato nella skill a tua scelta tra Acrobazia, Creazione o Performance. Una volta al giorno, quando ottieni un fallimento critico con la skill scelta, puoi rilanciare il tiro, prendendo il nuovo risultato anche se è peggiore. Rilanciare in questo modo è un effetto di fortuna.",
+    "Mostrare": false
+},
+{
+    "Nome": "Sarangay della luna crescente",
+    "Razza": "sarangay",
+    "Desc": "I tuoi antenati abitavano paludi, acquitrini e foreste allagate, dove affrontavano predatori feroci e formavano bande per reclamare risorse scarse. Benedetto dal crescente, sei uno degli evisceratori, e puoi affrontare minacce che si nascondono nelle acque torbide così come quelle che cacciano sulla terra. Sei un nuotatore potente con pelliccia marrone o grigia e corna ricurve all'indietro o verso il basso. Ottieni un +2 bonus di circostanza ai tiri di Atletica per Salto in Lungo o Nuotare.",
+    "Mostrare": false
+},
+{
+    "Nome": "Nato dagli animali",
+    "Razza": "yaoguai",
+    "Desc": "Eri un semplice animale finché il sole non ti ha illuminato. Forma Umanoide: Gli animali possono percepire il potere della tua presenza. Ottieni un +1 bonus di circostanza ai tiri di Intimidazione contro animali e bestie e non subisci penalità se tenti di Intimidire animali o bestie con cui non condividi una lingua. Forma Yaoguai: Puoi scattare come un animale. Se hai entrambe le mani libere, puoi aumentare la tua Velocità a 9 metri mentre corri a quattro zampe.",
+    "Mostrare": false
+},
+{
+    "Nome": "Nato dai celestiali",
+    "Razza": "yaoguai",
+    "Desc": "Un tempo eri un potente celestiale prima che una fuga o una grande punizione ti lasciasse intrappolato in un involucro mortale, con solo vaghi ricordi e poteri limitati. Grazie al tuo residuo potere divino, la tradizione di qualsiasi incantesimo o abilità magica ottenuta da un heritage o talento di ascendenza yaoguai è divina invece della tradizione normale (di solito occulta). Forma Umanoide: Frammenti di memoria divina permeano ancora la tua mente. Ottieni un +1 bonus di circostanza ai tiri di Religione. Forma Yaoguai: Il potere celestiale scorre attraverso di te. Scegli un cantrip dalla lista degli incantesimi divini. Puoi lanciare questo incantesimo come cantrip divino innato a volontà. Un cantrip è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
+    "Mostrare": false
+},
+{
+    "Nome": "Nato dagli elementi",
+    "Razza": "yaoguai",
+    "Desc": "Eri un aspetto della natura—pioggia, vento, un raggio di luce—finché le essenze selvagge non ti hanno donato un'anima. Grazie alla tua connessione naturale, la tradizione di qualsiasi incantesimo o abilità magica ottenuta da un heritage o talento di ascendenza yaoguai è primordiale invece della tradizione normale (di solito occulta). Forma Umanoide: Rimani in sintonia con il mondo naturale. Ottieni un +1 bonus di circostanza ai tiri di Sopravvivenza per Percepire la Direzione e non subisci penalità se non possiedi una bussola. Forma Yaoguai: Il potere della natura scorre attraverso di te, pronto a scatenarsi. Scegli electric arc, frostbite, ignition, needle darts, timber, scatter scree, slashing gust, o spout. Puoi lanciare questo incantesimo come cantrip primordiale innato a volontà. Un cantrip è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
+    "Mostrare": false
+},
+{
+    "Nome": "Nato dagli oggetti",
+    "Razza": "yaoguai",
+    "Desc": "Eri un oggetto finché la luna non ti ha donato vita. Scegli una skill Lore relativa al tipo di oggetto che eri; ad esempio, Conoscenza Cucina per un coltello da macellaio o Conoscenza Agricoltura per un rastrello. Diventi addestrato in questa skill. Forma Umanoide: Conservi i ricordi dei compiti che svolgevi come oggetto. Ottieni un +1 bonus di circostanza alla skill Lore ottenuta tramite questo heritage. Forma Yaoguai: Il tuo tempo come oggetto privo di mente rende più difficile influenzarti mentalmente. Se ottieni un successo su un effetto mentale, ottieni invece un successo critico.",
+    "Mostrare": false
+},
+{
+    "Nome": "Nato dalla vegetazione",
+    "Razza": "yaoguai",
+    "Desc": "Eri una pianta o un fungo finché la pioggia non ti ha donato una mente. Ottieni il tratto pianta o fungo a tua scelta. Forma Umanoide: Con la vegetazione fresca, puoi meglio aiutare chi è in difficoltà. Ottieni un +1 bonus di circostanza ai tiri di Medicina per Somministrare Pronto Soccorso. Forma Yaoguai: Quando qualcuno usa la skill Medicina per Curare le tue Ferite, aggiungi il tuo livello ai Punti Ferita recuperati da quel trattamento. Inoltre, la creatura che tenta il tiro ottiene un +1 bonus di circostanza se possiedi il tratto pianta e sei alla luce del sole, o il tratto fungo e sei nell'oscurità.",
+    "Mostrare": false
+},
+{
+    "Nome": "Negatore della carità di Lady Nanbyo",
+    "Razza": "yaksha",
+    "Desc": "Hai fatto un voto per liberare gli altri dalle calamità naturali. Il tuo voto ti concede la forza di trasportare 1 Bulk in più del normale prima di diventare appesantito e fino a un massimo di 2 Bulk in più, oltre a un +1 bonus di circostanza ai tiri di Atletica per Forzare o Scappare. Edict aggiuntivo: fai il possibile per aiutare o salvare chi è intrappolato o colpito da disastri naturali.",
+    "Mostrare": false
+},
+{
+    "Nome": "Negare la Caccia del Primogenito",
+    "Razza": "yaksha",
+    "Desc": "Hai fatto un voto per proteggere gli altri dalle crudeltà del Primo Mondo. Saggio riguardo alle abilità che influenzano la mente dei fey, il tuo voto ti concede resistenza mentale pari a metà del tuo livello (minimo 1) e un +2 bonus di circostanza ai tiri di Natura per Richiamare Conoscenza sui fey. Edict aggiuntivo: affronta i fey crudeli che incontri (finché hai una ragionevole possibilità di successo).",
+    "Mostrare": false
+},
+{
+    "Nome": "Negare la Rinascita del Traditore",
+    "Razza": "yaksha",
+    "Desc": "Hai fatto un voto per liberare gli altri da rakshasa e asura, che le leggende yaksha hanno condannato come parenti corrotti. Per contrastare i loro piani oscuri, il tuo voto ti concede ++Visione Crepuscolare++ e un +1 bonus di circostanza ai tiri di Percezione per Cercare o Percepire le Motivazioni di rakshasa e asura. Edict aggiuntivo: affronta rakshasa e asura che incontri (finché hai una ragionevole possibilità di successo); nel raro caso tu trovi un rakshasa o un asura benevolo, non sei obbligato ad affrontarli.",
+    "Mostrare": false
+},
+{
+    "Nome": "Rifugio dei Mille Tetti",
+    "Razza": "yaksha",
+    "Desc": "Hai fatto un voto per proteggere e nutrire i poveri. Il tuo voto ti concede destrezza con falegnameria, pentole da cucina e tessuti; diventi addestrato in Creazione e Conoscenza Cucina e ottieni il talento ++Improvise Tool++. Edict aggiuntivo: aiuta i poveri nella misura in cui puoi riparando le loro abitazioni e i vestiti o nutrendoli.",
+    "Mostrare": false
+},
+{
+    "Nome": "Rifugio dei Sentieri Senza Nuvole",
+    "Razza": "yaksha",
+    "Desc": "Hai fatto un voto per proteggere i viaggiatori smarriti e i perduti. Gli effetti di calore ambientale e di freddo ambientale sono per te uno step meno estremi (calore incredibile diventa estremo, freddo estremo diventa severo e così via), e ottieni un +1 bonus di circostanza ai tiri salvezza contro effetti o pericoli ambientali, come alluvioni, frane e tempeste di sabbia. Edict aggiuntivo: assiste i viaggiatori smarriti o incapacitati.",
+    "Mostrare": false
+},
+{
+    "Nome": "Rifugio di Terra e Foglia",
+    "Razza": "yaksha",
+    "Desc": "Hai fatto un voto per preservare le fondamenta stesse del santuario: la grande terra e tutto ciò che vi cresce sopra. Il tuo voto ti concede il potere spirituale della terra; ottieni un cantrip dalla lista di incantesimi primordiali. Puoi lanciare questo incantesimo come cantrip innato primordiale a volontà. Un cantrip è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso. Le tue radici nel mondo ti conferiscono il tratto pianta. Edict aggiuntivo: cura o rimuovi la corruzione e l'inquinamento dalle piante e dal suolo che incontri.",
+    "Mostrare": false
+},
+{
+    "Nome": " Vishkanya Elusivo",
+    "Razza": "vishkanya",
+    "Desc": "Il tuo corpo flessibile sembra innaturalmente fluido per alcuni, anche se raramente riescono a individuare cosa ci sia di strano. Puoi sfuggire facilmente ai nemici. Ottieni un +1 bonus di circostanza ai tiri per Scappare. Inoltre, ti muovi il doppio della velocità quando sei in Squeeze.",
+    "Mostrare": false
+},
+{
+    "Nome": "Vishkanya forte-veleno",
+    "Razza": "vishkanya",
+    "Desc": "Sei pratico nell'usare il tuo veleno in combattimento, permettendoti di impiegarlo in un attimo. La tua azione ++Envenom++ non attiva reazioni che normalmente scatenano un'azione di manipolazione. Inoltre, ottieni l'azione ++Venom Draw++###{\"nome\": \"Venom Draw\", \"tipoAzz\": \"azione\", \"tratti\": [], \"dettagli\": {\"Requisiti\": \"La tua azione Envenom non è stata usata\"}, \"desc\": \"Avveleni rapidamente la saliva velenosa sulla tua arma mentre la sguaini. Usa un'azione Interagisci per sguainare un'arma e poi Envenomarla. Questo consuma l'uso giornaliero di Envenom.\"}###",
+    "Mostrare": false
+},
+{
+    "Nome": "Vishkanya vecchio-sangue",
+    "Razza": "vishkanya",
+    "Desc": "Hai una linea matrilineare diretta con il gruppo originale di vishkanya sulle navi Vudrani che vennero a reclamare Jalmeray. Da allora, la tua famiglia si è adattata bene a una nuova vita nel Mare Interno. Diventi addestrato in Società (o un'altra abilità a tua scelta se sei già addestrato in Società) e ottieni a scelta il talento ++Courtly Graces++ o ++Streetwise++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Vishkanya prismatico",
+    "Razza": "vishkanya",
+    "Desc": "Le tue scaglie scintillano e catturano la luce in un display di colori inebriante. Diventi addestrato in Performance (o un'altra abilità a tua scelta se sei già addestrato in Performance) e ottieni il talento ++Fascinating Performance++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Vishkanya Custode della bilancia",
+    "Razza": "vishkanya",
+    "Desc": "Fai parte della famiglia di vishkanya nella tua comunità incaricata di tenere i registri della storia e delle esperienze del tuo popolo. La tua abilità da studioso ti conferisce una mente rapida. Una volta al giorno, puoi tentare di Richiamare Conoscenza come azione gratuita.",
+    "Mostrare": false
+},
+{
+    "Nome": "Vishkanya veleno-resistente",
+    "Razza": "vishkanya",
+    "Desc": "Il tuo corpo contiene non solo veleno ma numerosi antiveneni. Ottieni resistenza al veleno pari a metà del tuo livello (minimo 1) e ciascun tiro salvezza riuscito contro un avvelenamento riduce il suo stadio di 2, o di 1 per un veleno virulento. Ogni successo critico contro un veleno in corso riduce il suo stadio di 3, o di 2 per un veleno virulento.",
+    "Mostrare": false
+},
+{
+    "Nome": "Surki distruttore",
+    "Razza": "surki",
+    "Desc": "I tuoi artigli sono particolarmente duri e possono rompere sia la terra che i predatori. Ottieni un attacco non armato da artiglio che infligge 1d4 danni da taglio. I tuoi artigli appartengono al gruppo brawling e possiedono i tratti agile, finezza, non armato e versatile B.###{\"nome\": \"Evoluzione: cuneo-artiglio magico\", \"tipoAzz\": \"azione\", \"tratti\": [\"magico\"], \"dettagli\": {}, \"desc\": \"I nodi del polso proiettano magia in una cuneo da scavo resistente. Puoi spendere un'azione Interagisci per aumentare i danni del tuo attacco da artiglio a 1d6; conferire i tratti magico, distruttivo e versatile forza; e rimuovere il tratto agile. Puoi spendere un'altra azione per disattivare il cuneo e riportare l'artiglio alle statistiche normali.\"}###Evolution I tuoi nodi della caviglia possono emettere artigli magici per fissarti al suolo. Se un effetto ti costringerebbe a muoverti di 3 metri o più, puoi scegliere di muoverti solo per metà distanza. La trazione extra dagli artigli ti permette di Arrampicare con una mano occupata (o entrambe le mani se possiedi il talento ++Combat Climber++). Ottieni la reazione ++Trench Digging++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Surki Elytron",
+    "Razza": "surki",
+    "Desc": "Lo strato superiore del tuo carapace è particolarmente mobile e puoi spiegartelo per catturare l'aria mentre cadi. Non subisci danni da caduta, indipendentemente dalla distanza.###{\"nome\": \"Evoluzione: Ali luminose\", \"tipoAzz\": \"azione\", \"tratti\": [\"magico\"], \"dettagli\": {}, \"desc\": \"I nodi delle spalle si sono evoluti in una coppia di spine che puoi energizzare per proiettare un paio di ali luminose. Puoi lanciare ++fly++ come incantesimo innato una volta al giorno su te stesso; mentre le ali sono energizzate, emetti luce intensa in un raggio di 6 metri e luce fioca per i successivi 6 metri.\"}###Evolution I nodi delle spalle si sono evoluti in un ventaglio di membrane sottili che risuonano quando la magia le attraversa. Ottieni l'azione ++Stridulating Song++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Surki guscio-duro",
+    "Razza": "surki",
+    "Desc": "Il tuo carapace è molto più denso di quello degli altri surki, fornendoti un'armatura personale. Il tuo carapace è un'armatura media nel gruppo armatura a piastre che concede +4 bonus oggetto alla CA, un limite di Destrezza di +1, penalità ai tiri di abilità di –2, penalità alla velocità di –1.5m, un valore di Forza di +3 e possiede il tratto comfort. Non puoi indossare altre armature o rimuovere il carapace. Puoi incidere rune di armatura sul tuo carapace.###{\"nome\": \"Evoluzione: carapace rinforzato\", \"tipoAzz\": \"reazione\", \"tratti\": [\"magical\"], \"dettagli\": {}, \"desc\": \"Il sistema circolatorio magico tra i tuoi nodi diventa una rete rinforzante che rafforza il carapace con energia magica. Se sei colpito da un colpo critico che infligge danni fisici, puoi usare la tua reazione per tentare un tiro piatto DC 17. Se riesci, l'attacco diventa un colpo normale.\"}###Evolution I nodi addominali possono proiettare un campo che ti protegge dal tipo di magia a cui sei più abituato. Ottieni l'azione ++Dampening Harmonics++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Surki lanterna",
+    "Razza": "surki",
+    "Desc": "I nodi del tuo addome sono particolarmente luminosi. Puoi usare un'azione Interagisci per emettere luce dall'addome in un raggio di 6 metri (e luce fioca per i successivi 6 metri). Questa è una luce magica di livello pari al tuo. Puoi cambiare colore o spegnere la luce con un'altra azione Interagisci.###{\"nome\": \"Evoluzione: Raggio della lanterna\", \"tipoAzz\": \"azione\", \"tratti\": [\"luce\", \"fuoco\", \"magico\"], \"dettagli\": {\"Requisiti\": \"La luce della tua lanterna è accesa\"}, \"desc\": \"Le lenti dei tuoi arti proiettano la luce in un raggio bruciante. Infliggi 5d4 danni da fuoco a tutte le creature in una linea di 9 metri, con tiro salvezza Riflessi base contro il valore più alto tra DC della tua classe o DC dell'incantesimo. La luce della lanterna si spegne e non puoi usare di nuovo questa abilità o la luce della lanterna per 1d4 round. Dal livello 11 e ogni due livelli successivi, i danni aumentano di 1d4.\"}###Evolution Gli emettitori di luce secondari crescono dai nodi delle spalle lampeggiando in sincronia con la lanterna. Ottieni l'azione ++Lantern Strobe++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Strix planatore notturno",
+    "Razza": "strix",
+    "Desc": "Sei un uccello notturno dedicato, che sorveglia e caccia negli ambienti più privi di luce. Ottieni visione crepuscolare.",
+    "Mostrare": false
+},
+{
+    "Nome": "Strix predatore",
+    "Razza": "strix",
+    "Desc": "Proveni da una linea di strix con ali eccezionalmente ampie e artigli lunghi. Ottieni un attacco non armato da artiglio da mischia che infligge 1d4 danni da taglio. Il tuo attacco da artiglio è nel gruppo brawling e possiede i tratti agile, finezza e non armato.",
+    "Mostrare": false
+},
+{
+    "Nome": "Strix spazzino",
+    "Razza": "strix",
+    "Desc": "I tuoi antenati provenivano da una terra dove il cibo era scarso e le minacce numerose. Sei addestrato in Sopravvivenza. Ottieni il talento di abilità ++Forager++ come talento bonus. La tua accuratezza nella raccolta del cibo ti conferisce un bonus di circostanza +1 ai tiri di Sopravvivenza per Sussistere.",
+    "Mostrare": false
+},
+{
+    "Nome": "Strix delle coste",
+    "Razza": "strix",
+    "Desc": "Discendi da strix che si spostavano lungo le coste. Le tue piume sono particolarmente idrorepellenti e sagomate per il tuffo, permettendoti di catturare pesci e altre prede in acque basse. Sei addestrato in Atletica e ottieni il talento di abilità ++Underwater Marauder++ come talento bonus.",
+    "Mostrare": false
+},
+{
+    "Nome": "Strix canterino",
+    "Razza": "strix",
+    "Desc": "Discendi da una linea talentuosa di strix narratori. Dalle più alte montagne e paesaggi puri, dove i tuoi polmoni si riempiono di aria gloriosamente pulita, canti trilli, fischi e dolci melodie. Sebbene i suoni naturali ti predisponano al canto, le voci ti predisporranno all'imitazione. Ottieni un bonus di circostanza +1 ai tiri di Inganno per Improvvisare una voce imitata, dove il suono della voce è l'unico fattore; se sei maestro in Inganno, il bonus diventa +2. Ottieni anche un bonus di circostanza +1 ai tiri di Performance per cantare; se sei maestro in Performance, il bonus diventa +2.",
+    "Mostrare": false
+},
+{
+    "Nome": "Dijiang",
+    "Razza": "sprite",
+    "Desc": "Hai la forma di una palla senza volto, di pelle coriacea, con peluria corta, sei zampe e una connessione con il caos primordiale. Pur non avendo volto, testa, bocca, occhi o orecchie, riesci comunque a sentire, parlare, vedere, mangiare e respirare senza problemi (anche se non è chiaro esattamente come). La tua natura erratica significa che reagisci spesso agli stimoli in modi imprevedibili. Quando fallisci un tiro salvezza contro un effetto emotivo (ma non critico), ottieni invece un successo.",
+    "Mostrare": false
+},
+{
+    "Nome": "Draxie",
+    "Razza": "sprite",
+    "Desc": "Sei imparentato con i draghi fatati, e la tua discendenza risale alla morte del drago fatato più potente del Primo Mondo. Ottieni telepatia tattile, che ti permette di comunicare silenziosamente e mentalmente con qualsiasi creatura che tocchi, purché condividiate una lingua.",
+    "Mostrare": false
+},
+{
+    "Nome": "Gandharva",
+    "Razza": "sprite",
+    "Desc": "Discendi dai musicisti, poeti e danzatori auto-proclamati degli dei, con un corpo parte umanoide e parte cavallo o uccello. Se ottieni ali, esse hanno molti colori brillanti differenti. Grazie alla tua connessione celeste, la tradizione di qualsiasi incantesimo o abilità magica che ottieni da un talento di eredità o ascendenza sprite è divina invece che della sua tradizione normale. Diventi addestrato in Performance (o in un'altra abilità a scelta se sei già addestrato in Performance) e puoi lanciare ++summon instrument++ come cantrip divino innato.",
+    "Mostrare": false
+},
+{
+    "Nome": "Grig",
+    "Razza": "sprite",
+    "Desc": "Hai la parte posteriore di un grillo e adori l'arte e la musica. Le tue gambe da grillo ti conferiscono un bonus di circostanza +2 ai tiri di Atletica per Salto in Alto o in Lungo, e ottieni ++ghost sound++ come cantrip primordiale innato.",
+    "Mostrare": false
+},
+{
+    "Nome": "Kanchil",
+    "Razza": "sprite",
+    "Desc": "Hai la testa di un cervo topo e zoccoli al posto dei piedi, con la reputazione di essere astuto e persuasivo—capace di cavartela in situazioni difficili con giochi di parole e un po' di fortuna. Diventi addestrato in Inganno (o in un'altra abilità se sei già addestrato in Inganno). Ottieni un bonus di circostanza +1 ai tiri di Inganno per Mentire quando tenti specificamente di evitare pericoli o punizioni, ai DC di Inganno contro tiri per Scoprire Motivazioni volti a smascherare tali bugie, e ai tiri di iniziativa quando usi Inganno per l'iniziativa.",
+    "Mostrare": false
+},
+{
+    "Nome": "Leungli",
+    "Razza": "sprite",
+    "Desc": "Hai la testa di un pesce rosso o carpa e scaglie che combinano bianco, nero, arancione, rosso e oro in modo propizio. Se ottieni ali, esse appaiono simili ai peli vaporosi di un drago. Ottieni una Velocità di nuoto di 3 metri e il tratto anfibio. Come tutte le creature anfibie, puoi respirare sia in acqua che in aria.",
+    "Mostrare": false
+},
+{
+    "Nome": "Sprite luminoso",
+    "Razza": "sprite",
+    "Desc": "Irradi luce magica. Naturalmente emetti luce come una torcia; questa luce possiede i tratti evocazione, luce e primordiale. Puoi spegnere, riaccendere o cambiare il colore di questa luce usando un'azione singola, che possiede il tratto concentrazione.",
+    "Mostrare": false
+},
+{
+    "Nome": "Melixie",
+    "Razza": "sprite",
+    "Desc": "Hai le caratteristiche di un'ape, farfalla o altro insetto amante dei dolci. Puoi fare domande e ricevere risposte da artropodi (insetti, ragni, scorpioni, granchi e simili invertebrati), così come usare Diplomazia per impressionarli e chiedere loro cose. La maggior parte delle api, farfalle, falene e coleotteri hanno un atteggiamento iniziale indifferente o amichevole verso di te e ti concedono tempo per esporre il tuo caso, mentre altri artropodi reagiscono come farebbero con qualsiasi altro avventuriero.",
+    "Mostrare": false
+},
+{
+    "Nome": "Nyktera",
+    "Razza": "sprite",
+    "Desc": "Hai caratteristiche simili a un pipistrello, un'affinità per i pipistrelli e un udito impareggiabile. Finché puoi sentire normalmente, puoi usare l'azione ++Seek++ per percepire creature non rilevate in un cono di 18 metri invece che di 9 metri. Ottieni anche un bonus di circostanza +2 per localizzare creature non rilevate che puoi udire entro 9 metri con un'azione Seek.",
+    "Mostrare": false
+},
+{
+    "Nome": "Scheletro compatto",
+    "Razza": "scheletro",
+    "Desc": "Per compiti che richiedono un tocco più leggero, i resti di gnomo, goblin e mezzelfo sono più adatti rispetto a quelli di creature più grandi. Questi scheletri più piccoli e agili si adattano bene a un baule da viaggio, possono passare attraverso spazi stretti e evitano più facilmente di essere scoperti. La tua taglia è Piccola invece di Media. Ottieni il talento ++Quick Squeeze++ anche se non sei addestrato in Acrobatica. Gli spazi stretti che non richiedono l'attività Squeeze non costituiscono terreno difficile per te.",
+    "Mostrare": false
+},
+{
+    "Nome": "Scheletro foraggiato",
+    "Razza": "scheletro",
+    "Desc": "Gli umani, e chi più si avvicina fisicamente a loro, sono il materiale preferito dei necromanti. Sono facilmente reperibili e la loro fisiologia è stata studiata più approfonditamente, quindi questi scheletri possono essere facilmente prodotti in massa. Nonostante il nome, gli scheletri di scarto sono piuttosto agili come soldati a piedi grazie all'efficiente trasferimento di energia necromantica all'interno dei loro corpi. La tua Velocità base è di 9 metri invece di 7.5 metri.",
+    "Mostrare": false
+},
+{
+    "Nome": "Scheletro mostruoso",
+    "Razza": "scheletro",
+    "Desc": "Gli scheletri inumani vengono spesso creati sia per i loro attacchi fisici letali sia per il loro aspetto terrificante. Bestie e umanoidi mostruosi con scheletri particolari tendono a essere il fulcro della collezione di un necromante abbastanza esperto da evocarne uno. Ottieni un attacco senza armi con artiglio, corno, coda o ala che infligge 1d6 danni. Un artiglio infligge danni da taglio, un corno infligge danni perforanti, e una coda o un'ala infliggono danni da contundente. Questo attacco senza armi appartiene al gruppo corpo a corpo e possiede i tratti fintezza e senza armi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Scheletro cambiabile",
+    "Razza": "scheletro",
+    "Desc": "Costruito con le ossa di varie creature mutaforma, lo scheletro mutante mantiene una certa capacità di riconfigurazione, permettendogli di cambiare forma. Ottieni l'azione ++Rearrange Bones++###{\"nome\": \"Rearrange Bones\", \"tipoAzz\": \"azione\", \"tratti\": [\"manipulate\"], \"dettagli\": {}, \"desc\": \"Disponi le tue ossa nella forma dello scheletro di un umanoide Piccolo o Medio. Questo non cambia le tue Velocità, Attacchi o sensi normali. Se indossi abiti pesanti o stai impersonando uno scheletro, questo conta come predisposizione di un travestimento per l'uso di Impersonare con Inganno e concede un bonus di stato di +1 a quei tiri di Inganno.\"}###",
+    "Mostrare": false
+},
+{
+    "Nome": "Scheletro resistente",
+    "Razza": "scheletro",
+    "Desc": "Alcune condizioni pericolose non sono adatte a uno scheletro medio, quindi un necromante potrebbe scegliere di rianimare le ossa di un nano, orco o altra creatura con reputazione di robustezza. Hai 10 Punti Ferita invece di 6 e ottieni il talento ++Diehard++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Shoony cacciatore di sangue",
+    "Razza": "shoony",
+    "Desc": "I tuoi antenati erano famosi cacciatori di tracce, e porti nel tuo sangue lo stesso dono della caccia. Ottieni un senso speciale: olfatto impreciso con un raggio di 9 metri. Questo significa che puoi usare il tuo senso dell'olfatto per determinare la posizione di una creatura, anche se rimane nascosta. Inoltre, ottieni un bonus di circostanza di +2 ai tiri di Sopravvivenza per Seguire le creature che hai precedentemente percepito con il tuo olfatto.",
+    "Mostrare": false
+},
+{
+    "Nome": "Shoony pescatore",
+    "Razza": "shoony",
+    "Desc": "Proveni da una lunga linea di pescatori e hai ereditato i riflessi rapidi necessari per catturare e tirare a riva la grande preda. Se ottieni un successo in un tentativo di Afferramento, ottieni un successo critico; se ottieni un fallimento critico, ottieni un fallimento normale. Una creatura che ottiene un fallimento in un tiro per Disarmarti ottiene invece un fallimento critico.",
+    "Mostrare": false
+},
+{
+    "Nome": "Shoony canoista",
+    "Razza": "shoony",
+    "Desc": "Proveni da shoonies che hanno vissuto a lungo e con successo tra canneti e giunchi di paludi e acquitrini, e ti sei adattato alle sfide della vita vicino ad aree allagate. Ignori il terreno difficile e il terreno particolarmente difficile delle paludi. Quando ottieni un successo in un tiro per Nuotare, ottieni un successo critico.",
+    "Mostrare": false
+},
+{
+    "Nome": "Shoony pellicia-spessa",
+    "Razza": "shoony",
+    "Desc": "Sei un raro shoony proveniente da climi più freddi. Ottieni resistenza al freddo pari a metà del tuo livello (minimo 1), e consideri gli effetti del freddo ambientale come se fossero un gradino meno estremi (freddo incredibile diventa estremo, freddo estremo diventa severo e così via). Non hai bisogno di riuscire in un tiro piatto per colpire una creatura nascosta se quella creatura è nascosta solo dalla neve. A meno che tu non indossi equipaggiamento protettivo o ti metta al riparo, gli effetti del calore ambientale sono per te un gradino più estremi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Shisk custode del sapere",
+    "Razza": "shisk",
+    "Desc": "Sei cresciuto circondato da conoscenza e segreti. Diventi addestrato in una competenza di Conoscenze e in un'altra competenza basata su Intelligenza o Saggezza a tua scelta. Al 5° livello, diventi esperto nelle competenze scelte.",
+    "Mostrare": false
+},
+{
+    "Nome": "Shisk cappotto d'oca",
+    "Razza": "shisk",
+    "Desc": "Il tuo corpo ha sviluppato un meccanismo difensivo per staccare le tue spine nell'attaccante, permettendoti di difenderti dai predatori aggressivi, anche se ci vuole un po' di tempo perché le spine ricrescano. Ottieni la reazione ++Barbed Quills++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Penne uncinate",
+    "Razza": "shisk",
+    "Desc": "Stacchi delle spine nella carne del tuo aggressore. Infliggi 1d8 danni perforanti alla creatura che scatena l'evento (tiro salvezza base Riflessi usando il tuo DC di classe o DC incantesimo, quello più alto). Su un fallimento critico, la creatura subisce anche 1d4 danni da sanguinamento persistente mentre le tue spine si agganciano alla sua carne. Al 3° livello, e ogni 2 livelli successivi, questo danno aumenta di 1d8 e il danno perforante persistente aumenta di 1.",
+    "Mostrare": false
+},
+{
+    "Nome": "Shisk custode di incantesimi",
+    "Razza": "shisk",
+    "Desc": "La tua conoscenza magica ti permette di lanciare incantesimi semplici. Scegli tra occulta o primordiale. Ottieni un cantrip dalla lista degli incantesimi di quella tradizione magica. Puoi lanciare questo incantesimo come incantesimo innato a volontà, come incantesimo della tradizione scelta. Un cantrip è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
+    "Mostrare": false
+},
+{
+    "Nome": "Shisk passo di pietra",
+    "Razza": "shisk",
+    "Desc": "Navigare tra montagne e altri terreni rocciosi è per te naturale. Puoi ignorare il terreno difficile non magico causato da macerie e terreno irregolare fatto di pietra e terra.",
+    "Mostrare": false
+},
+{
+    "Nome": "Shisk stomaco-forte",
+    "Razza": "shisk",
+    "Desc": "Il tuo metabolismo è lento, permettendoti di stare giorni senza cibo e di processare le malattie a un ritmo più lento. Puoi restare 1 settimana senza cibo prima di iniziare a soffrire la fame. Inoltre, i tempi di insorgenza e la durata delle fasi di tutte le malattie e veleni che ti colpiscono sono aumentati del 50%. Se il tempo di insorgenza o la fase è istantaneo o dura solo 1 round, questa abilità non ha effetto.",
+    "Mostrare": false
+},
+{
+    "Nome": "Poppet fantasma",
+    "Razza": "poppet",
+    "Desc": "Ti sei risvegliato quando un frammento della forza vitale di un'altra persona e un frammento della sua anima—possibilmente, ma non sempre, al momento della sua morte—si sono incorporati nel tuo corpo costruito. Non ricordi nulla più che vaghi lampi della tua “vita precedente”, ma quella essenza vitale ti protegge ancora. Ottieni resistenza ai danni negativi pari a metà del tuo livello (minimo 1).",
+    "Mostrare": false
+},
+{
+    "Nome": "Poppet imbottito",
+    "Razza": "poppet",
+    "Desc": "Hai poco all'interno oltre a cotone, segatura o foglie secche. Non subisci danni da caduta, indipendentemente dalla distanza.",
+    "Mostrare": false
+},
+{
+    "Nome": "Poppet giocattolo",
+    "Razza": "poppet",
+    "Desc": "Hai la forma di un piccolo giocattolo o bambola da bambino, ma non permetti che la tua piccola taglia impedisca la gioia di vivere. Invece di Piccola, la tua taglia è Minuscola. Come altre creature Minuscole, non ricevi automaticamente copertura ridotta per essere nello spazio di una creatura più grande, ma le circostanze potrebbero permetterti di Cercare Copertura. Puoi acquistare armi, armature e altri oggetti per la tua taglia con le stesse statistiche dell'equipaggiamento normale, eccetto che le armi da mischia hanno per te una portata di 0 (o una portata 1.5m più corta del normale se hanno il tratto reach). Puoi entrare nello spazio di un'altra creatura, importante perché di solito devi entrare nello spazio di una creatura per attaccarla con colpi in mischia. Ricorda di adattare l'Ingombro degli oggetti e il tuo limite di Ingombro alla taglia Minuscola.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tsukumogami Poppet",
+    "Razza": "poppet",
+    "Desc": "Hai la forma e i ricordi di uno strumento comune. Scegli una competenza di Conoscenza relativa al tipo di strumento che eri; per esempio, Conoscenze Culinarie per un coltello o cucchiaio da cucina. Sei addestrato in questa competenza e ottieni un bonus di circostanza di +2 ai tiri per Aiutare con questa competenza. Se prendi il talento ++Helpful Poppet++, il bonus aumenta a +3. Mentre la maggior parte dei poppet è fatta di imbottitura, tessuto o metalli morbidi, alcuni tsukumogami sono fatti di altri materiali, cambiando la debolezza dei poppet al fuoco. Se il tuo corpo è principalmente legno o tessuto, hai la normale debolezza al fuoco dei poppet. Se il tuo corpo è principalmente metallo, sei invece debole all'elettricità; se è principalmente ceramica, sei invece debole al freddo.",
+    "Mostrare": false
+},
+{
+    "Nome": "Poppet a molla",
+    "Razza": "poppet",
+    "Desc": "Sei fatto principalmente di metalli morbidi, come stagno o argento, e la tua forza vitale risiede in un eccezionale meccanismo a orologeria nel tuo corpo. A condizione di caricare le linguette metalliche sul tuo corpo alcune volte al giorno, non hai bisogno di cibo o acqua per sopravvivere. Devi comunque respirare per ventilare i tuoi meccanismi interni e dormire per far riposare i tuoi meccanismi, proprio come altri poppet.",
+    "Mostrare": false
+},
+{
+    "Nome": "Poppet desiderato vivo",
+    "Razza": "poppet",
+    "Desc": "Sei stato desiderato alla vita, sia da un potente incantatore sia dal desiderio sincero di una persona innocente che ti amava molto. Sei la prova vivente che uno spirito speranzoso può superare ogni ostacolo. Se ottieni un successo in un tiro salvezza contro un effetto di emozione o paura, ottieni un successo critico invece.",
+    "Mostrare": false
+},
+{
+    "Nome": "Athamasi",
+    "Razza": "kashrishi",
+    "Desc": "Hai un set di piccoli arti secondari adattati per arrampicarti e appenderti agli alberi. Non puoi tenere o recuperare oggetti con questi arti, ma puoi Arrampicarti o Afferrare un Bordo anche se una o entrambe le mani principali sono occupate. Non sei in svantaggio durante l'Arrampicata.",
+    "Mostrare": false
+},
+{
+    "Nome": "Lethoci",
+    "Razza": "kashrishi",
+    "Desc": "Provenienti da una famiglia kashrishi adattata alle coste o a stagni e laghi interni. Ottieni un bonus di circostanza di +2 ai tiri di Atletica per Nuotare. Se fallisci critico un tiro di Atletica per Nuotare, ottieni un fallimento normale invece.",
+    "Mostrare": false
+},
+{
+    "Nome": "Nascent",
+    "Razza": "kashrishi",
+    "Desc": "Mentre la maggior parte dei kashrishi è completamente adattata al proprio ambiente al raggiungimento dell'età adulta, alcuni conservano potenziale inespresso fino a tarda età prima di sbloccarlo. Ottieni un talento di ascendenza kashrishi di 1° livello per cui soddisfi i prerequisiti, se presenti.",
+    "Mostrare": false
+},
+{
+    "Nome": "Trogloshi",
+    "Razza": "kashrishi",
+    "Desc": "Sei adattato alle regioni senza luce delle fitte giungle e delle profondità delle caverne, con carne morbida priva di pigmento e corna cristalline insolitamente chiare. Ottieni il talento di ascendenza ++Crystal Luminescence++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Xyloshi",
+    "Razza": "kashrishi",
+    "Desc": "Hai muscoli del collo prominenti che ti permettono di usare la corna facciale come strumento o arma. Ottieni un attacco a corna non armato che infligge 1d6 danni perforanti. La tua corna appartiene al gruppo di combattimento corpo a corpo e possiede i tratti agile, finesse e non armato.",
+    "Mostrare": false
+},
+{
+    "Nome": "Jotunborn custode",
+    "Razza": "jotunborn",
+    "Desc": "Il tuo lavoro come custode iivlar ti ha conferito una maggiore comprensione di queste creature sacre e la capacità di rintracciarle, per quanto elusive possano essere. Sei addestrato in Sopravvivenza e ottieni il talento ++Survey Wildlife++. Ottieni un bonus di circostanza di +1 ai tiri di Pista sugli animali.",
+    "Mostrare": false
+},
+{
+    "Nome": "Jotunborn attraversatore di piani",
+    "Razza": "jotunborn",
+    "Desc": "Sei stato scelto per la tua taglia più piccola che ti permette di muoverti facilmente tra le soglie planari. Generalmente servi come messaggero o esploratore, e l'esposizione ai piani ti ha conferito una scintilla di potere magico. Invece di essere Grande, la tua taglia è Media. Ottieni un cantrip dalla lista degli incantesimi occulti. Puoi lanciare questo incantesimo come incantesimo innato occulto a volontà. Un cantrip è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
+    "Mostrare": false
+},
+{
+    "Nome": "Jotunborn saggio",
+    "Razza": "jotunborn",
+    "Desc": "Ti è stato affidato il compito di mantenere le storie orali e cucite per la tua famiglia, il tuo clan o anche un intero insediamento. Sei addestrato in Società. Ottieni inoltre il talento generale ++Additional Lore++ per un'abilità di conoscenza a tua scelta.",
+    "Mostrare": false
+},
+{
+    "Nome": "Jotunborn guerriero",
+    "Razza": "jotunborn",
+    "Desc": "Il tuo corpo più robusto ti ha reso un recluta perfetto per il combattimento. Il dado danno per il tuo pugno aumenta a 1d6. Non subisci penalità quando effettui un attacco letale con il pugno.",
+    "Mostrare": false
+},
+{
+    "Nome": "Jotunborn tessitore",
+    "Razza": "jotunborn",
+    "Desc": "Hai padroneggiato l'arte della tessitura della seta iivlar, una tecnica che richiede grande attenzione ai dettagli. Sei addestrato in Creazione. Ottieni un bonus di circostanza di +1 ai tiri di Percezione per Cercare quando cerchi dettagli nascosti come porte segrete o trappole.",
+    "Mostrare": false
+},
+{
+    "Nome": "Goloma vista lunga",
+    "Razza": "goloma",
+    "Desc": "I tuoi occhi si sono adattati per vedere di più in condizioni meno favorevoli. Ottieni visione crepuscolare.",
+    "Mostrare": false
+},
+{
+    "Nome": "Goloma spaventoso",
+    "Razza": "goloma",
+    "Desc": "Il tuo volto ha un aspetto particolarmente inquietante. Sei addestrato in Intimidazione (o in un'altra abilità a scelta se eri già addestrato in Intimidazione) e ottieni il talento ++Intimidating Glare++ come talento bonus.",
+    "Mostrare": false
+},
+{
+    "Nome": "Goloma perspicace",
+    "Razza": "goloma",
+    "Desc": "Hai imparato a osservare i segni rivelatori di sentimenti pericolosi per aiutarti a evitare guai. Ottieni un bonus di circostanza di +1 alla CD di Percezione contro tentativi di mentire e ai tiri di Percezione per Scoprire le Intenzioni.",
+    "Mostrare": false
+},
+{
+    "Nome": "Goloma feroce",
+    "Razza": "goloma",
+    "Desc": "La chitina delle tue mani forma potenti artigli che ti permettono di difenderti. Ottieni un attacco disarmato artiglio che infligge 1d6 danni da taglio. I tuoi artigli appartengono al gruppo corpo a corpo e hanno i tratti agile, finezza e disarmato.",
+    "Mostrare": false
+},
+{
+    "Nome": "Goloma vigile",
+    "Razza": "goloma",
+    "Desc": "Hai imparato a essere consapevole non solo dei pericoli fisici evidenti, ma anche delle minacce magiche percepibili. Puoi lanciare il cantrip ++detect magic++ come incantesimo innato arcano a volontà. Un cantrip è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso. Inoltre, la tua consapevolezza ti permette di notare trappole magiche più facilmente. Il tuo grado di competenza in Percezione è considerato un passo migliore quando tenti di rilevare trappole magiche (Addestrato è considerato Esperto, Esperto è considerato Maestro, Maestro è considerato Leggendario).",
+    "Mostrare": false
+},
+{
+    "Nome": "Cenere antica",
+    "Razza": "ghoran",
+    "Desc": "La tua memoria è acuta e chiara, e ricordi moltissimo. Ricordi la calma prima della tempesta e il terreno dopo la pioggia, l'asprezza della magia e il sussurro di una canzone. Ricordi tutto. Diventi addestrato in un'abilità a scelta. Al 5° livello, diventi esperto in quell'abilità.",
+    "Mostrare": false
+},
+{
+    "Nome": "Giglio incantante",
+    "Razza": "ghoran",
+    "Desc": "Hai un profumo dolce e delicato, un aroma floreale come la fragranza inebriante dei gigli e il dolce profumo delle lilacche. Sei addestrato in Diplomazia (o in un'altra abilità se eri già addestrato in Diplomazia). Ottieni anche un bonus di circostanza di +1 ai tiri per Fare Impressione se il bersaglio può percepire il tuo profumo.",
+    "Mostrare": false
+},
+{
+    "Nome": "Quercia dura",
+    "Razza": "ghoran",
+    "Desc": "La maggior parte dei ghoran ha corpi di viti flessibili e steli duri, ma tu sei coperto da corteccia robusta e ruvida e le tue gambe sono stabili come radici. Ottieni un bonus di circostanza di +2 alla CD di Tempra o Riflessi contro tentativi di Afferrare o Far Cadere. Questo bonus si applica anche ai tiri salvezza contro effetti che ti afferrerebbero, ti immobilizzerebbero o ti farebbero cadere prono. Ottieni anche un bonus di circostanza di +2 ai tiri di Acrobatica per Bilanciamento.",
+    "Mostrare": false
+},
+{
+    "Nome": "Rosa spinata",
+    "Razza": "ghoran",
+    "Desc": "I tuoi bellissimi petali e la pelle apparentemente liscia nascondono spine silenziose per trafiggere gli incauti. Il tuo corpo è coperto da spine affilate per scoraggiare chi potrebbe prestarti attenzione. Ottieni la reazione ++Wicked Thorns++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Spine malvagie",
+    "Razza": "ghoran",
+    "Desc": "Diverse delle tue spine si staccano e si agganciano al corpo dell'attaccante. Infliggi 1d8 danni perforanti alla creatura che ha scatenato la reazione. La creatura effettua un tiro salvezza Riflessi base contro il valore più alto tra la tua CD di classe o CD incantesimo. In caso di fallimento critico, la creatura subisce anche 1d4 danni da sanguinamento persistente mentre le tue spine si conficcano nella sua carne. Al 3° livello, e ogni 2 livelli successivi, questo danno aumenta di 1d8 e il danno perforante persistente aumenta di 1.",
+    "Mostrare": false
+},
+{
+    "Nome": "Fleshwarp catafratto",
+    "Razza": "fleshwarp",
+    "Desc": "Il tuo scheletro temprato in battaglia è rinforzato con cartilagine e muscoli aggiuntivi per sostenere l'armatura su vasti campi di operazione, e la tua pelle è ornata con piccole speroni di cheratina flessibile e resistente per ottimizzare la presa e la distribuzione del peso dell'armatura. Ottieni il talento Armor Proficiency. Se la tua classe ti rende addestrato in tutti i tipi di armatura, diventi invece addestrato in Atletica (o un'abilità a scelta se sei già addestrato in Atletica) e ottieni il talento Armor Assist.",
+    "Mostrare": false
+},
+{
+    "Nome": "Fleshwarp creato",
+    "Razza": "fleshwarp",
+    "Desc": "Sei stato creato attraverso processi occulti o alchemici, come essere cresciuto in un vaso o cucito insieme dalle parti del corpo di altre creature da uno scienziato di Ustalav. Il tuo corpo artificiale è resistente; non hai bisogno di mangiare e non puoi morire di fame. Ottieni un bonus di circostanza di +2 ai tiri salvezza contro le malattie.",
+    "Mostrare": false
+},
+{
+    "Nome": "Fleshwarp scartato",
+    "Razza": "fleshwarp",
+    "Desc": "I biomanti e i mutagenisti che hanno alterato la tua forma ti hanno etichettato come 'scartabile al ritrovamento', un eufemismo per distruggerti sul posto. Anomalia tra le anomalie, il tuo corpo rifiuta ostinatamente gli sforzi dei creatori di carne che cercano di modellarti secondo le loro visioni grandiose, e le tue risposte immunitarie attenuano i peggiori effetti dei tentativi indesiderati di fleshwarping. Se ottieni un successo in un tiro salvezza contro un effetto di trasmutazione, ottieni un successo critico.",
+    "Mostrare": false
+},
+{
+    "Nome": "Fleshwarp mutato",
+    "Razza": "fleshwarp",
+    "Desc": "Trasformato da magia incontrollata, provieni dalle Mana Wastes o da un'altra regione similmente devastata dalla magia incontrollata. Grazie ai tuoi organi rinforzati o ridondanti, la CD per i tuoi tiri per recuperare dal danno da sanguinamento persistente è 10 invece di 15, e si riduce a 5 invece di 10 se ricevi assistenza particolarmente efficace nel recupero dal danno persistente.",
+    "Mostrare": false
+},
+{
+    "Nome": "Fleshwarp forma modificata",
+    "Razza": "fleshwarp",
+    "Desc": "Vittima di fleshwarping, probabilmente porti carne lassa, speroni ossei o caratteristiche di creature inumane che spuntano dalla tua pelle. Hai comunque trasformato il costo psichico della tua trasformazione in forza. Ottieni resistenza al danno mentale pari alla metà del tuo livello (minimo 1).",
+    "Mostrare": false
+},
+{
+    "Nome": "Fleshwarp chirurgicamente creato",
+    "Razza": "fleshwarp",
+    "Desc": "Le ondulazioni dei tuoi cigli corporei sono iper-sintonizzate sulle sorgenti di magia; vibrano con intuizioni sulle energie occulte e le loro vibrazioni ti avvertono della presenza di segreti. Ottieni il grado addestrato in Occultism. Se sei già addestrato in Occultism, diventi invece addestrato in un'altra abilità a scelta. Ottieni anche il talento Oddity Identification.",
+    "Mostrare": false
+},
+{
+    "Nome": "Fleshwarp tecnologico",
+    "Razza": "fleshwarp",
+    "Desc": "La tua trasformazione è dovuta alla manipolazione da parte di tecnologia avanzata, come quella presente in Numeria. Le tue emozioni sono smorzate e difficili da influenzare. Quando ottieni un successo in un tiro salvezza contro un effetto emotivo, ottieni un successo critico.",
+    "Mostrare": false
+},
+{
+    "Nome": "Rito di invocazione",
+    "Razza": "conrasu",
+    "Desc": "Hai potenziato il tuo esoscheletro con magia. Ottieni un cantrip dalla lista degli incantesimi arcani o occulti. Puoi lanciare questo incantesimo come incantesimo innato a volontà. Un cantrip viene innalzato a livello di incantesimo pari alla metà del tuo livello arrotondato per eccesso.",
+    "Mostrare": false
+},
+{
+    "Nome": "Rito di conoscenza",
+    "Razza": "conrasu",
+    "Desc": "Hai potenziato il tuo esoscheletro con una connessione a Axis, permettendoti di attingere alla conoscenza infinita del piano. Ottieni l'azione Call to Axis.###{\"nome\": \"Call to Axis\", \"tipoAzz\": \"azioneGratis\", \"tratti\": [\"Fortune\"], \"dettagli\": {\"Frequenza\": \"una volta al giorno\", \"Requisiti\": \"Stai per effettuare un tiro per Recall Knowledge\"}, \"desc\": \"Invocate la conoscenza di Axis per garantire l'accuratezza delle informazioni. Tiri un secondo dado e utilizzi il risultato più alto. Se tiri un fallimento critico, ottieni un fallimento normale. Se ottieni un successo, ottieni un successo critico.\"}###",
+    "Mostrare": false
+},
+{
+    "Nome": "Rito della luce",
+    "Razza": "conrasu",
+    "Desc": "Il tuo esoscheletro porta piccoli germogli che possono condividere la vita. Quando usi Sunlight Healing, puoi ripristinare i Punti Ferita di un alleato adiacente invece che di te stesso. L'alleato diventa temporaneamente immune a tutti gli usi di Sunlight Healing per 1 giorno.",
+    "Mostrare": false
+},
+{
+    "Nome": "Rito di passaggio",
+    "Razza": "conrasu",
+    "Desc": "Il tuo esoscheletro rimane connesso alle piante che lo hanno creato. Puoi ignorare il terreno difficile e irregolare causato dalla vegetazione. Inoltre, quando usi l'abilità Acrobatics per mantenere l'equilibrio su superfici strette o terreni irregolari nelle foreste, non sei considerato flat-footed. Quando ottieni un successo in uno di questi tiri di Acrobatics, ottieni un successo critico.",
+    "Mostrare": false
+},
+{
+    "Nome": "Rito di rinforzamento",
+    "Razza": "conrasu",
+    "Desc": "Il tuo esoscheletro intrecciato eguaglia le armature più dure che si possano trovare. Il tuo esoscheletro è un'armatura media del gruppo armatura a piastre che concede un bonus da oggetto di +4 alla CA, un limite di Destrezza di +1, una penalità ai tiri di –2, una penalità di velocità di –1.5m e un valore di Forza di 16, e possiede il tratto comfort. Non puoi mai indossare altre armature né rimuovere il tuo esoscheletro. Puoi incidere rune d'armatura sul tuo esoscheletro normalmente.",
+    "Mostrare": false
+},
+{
+    "Nome": "Animale scalatore",
+    "Razza": "animale risvegliato",
+    "Desc": "Sei un animale i cui arti sono adattati per afferrare, arrampicarsi e brachiare. Potresti essere agile e pronto a usare strumenti come uno scimpanzé o una lontra, oppure semplicemente un arrampicatore veloce come un orso, procione o bradipo. Hai una Velocità a terra di 6m, una Velocità di arrampicata di 6m, e un attacco animale a tua scelta (tipicamente artiglio, pugno o mascella).",
+    "Mostrare": false
+},
+{
+    "Nome": "Animale volante",
+    "Razza": "animale risvegliato",
+    "Desc": "Sei un animale che può volare per brevi o lunghi periodi, come un'aquila, pipistrello, ape o scoiattolo volante. Il processo di risveglio ha interrotto la tua capacità di volare liberamente come prima. Ciò che era automatico ora richiede concentrazione finché non diventa di nuovo automatico. Puoi comunque rallentare la discesa, quindi non subisci danni da caduta, indipendentemente dalla distanza. La tua Velocità a terra è 6m e hai un attacco animale a tua scelta (tipicamente becco, artiglio, mascella, artiglio alare o ala).",
+    "Mostrare": false
+},
+{
+    "Nome": "Animale corridore",
+    "Razza": "animale risvegliato",
+    "Desc": "Sei un animale progettato per correre a grande velocità sulla terra. Di solito corri su quattro zampe come un cane, ghepardo o iguana, ma potresti anche usare due gambe come un canguro, emù o pinguino. Hai una Velocità a terra di 9m e un attacco animale a tua scelta (tipicamente artiglio, mascella o coda).",
+    "Mostrare": false
+},
+{
+    "Nome": "Animale nuotatore",
+    "Razza": "animale risvegliato",
+    "Desc": "Sei un animale acquatico che si trova più a suo agio nell'acqua. Potresti trascorrere molto tempo in acqua come un alligatore, foca, balena o delfino, oppure aver bisogno dell'acqua per respirare come un pesce o alcuni crostacei. Hai un attacco animale a tua scelta (tipicamente artiglio, mascella o coda). Scegli se sei acquatico o abitante dell'acqua.@Acquatico: Ottieni il tratto acquatico e hai una Velocità di nuoto di 9m. Il tratto acquatico significa che respiri acqua ma non aria, e i tuoi attacchi senza armi contundenti e taglienti non subiscono la penalità usuale di –2 sott'acqua.@Abitante dell'acqua: Puoi trattenere il respiro sott'acqua per 10 minuti prima di aver bisogno di aria. Hai una Velocità di nuoto di 6m e, se puoi muoverti sulla terra, hai una Velocità base di 6m.",
+    "Mostrare": false
+},
+{
+    "Nome": "Automaton cacciatore",
+    "Razza": "automaton",
+    "Desc": "Sei stato progettato per servire come esploratore o assassino e hai un corpo che ricorda un predatore da branco come un grande felino o un lupo. Sebbene di solito ti muova come un quadrupede, puoi comunque stare in piedi e combattere come un bipede, permettendoti di usare tutta l'attrezzatura normalmente. Il tuo design quadrupede ti permette di muoverti velocemente; se hai entrambe le mani libere, puoi aumentare la tua Velocità a 9m quando corri su tutti e quattro.",
+    "Mostrare": false
+},
+{
+    "Nome": "Automaton mago",
+    "Razza": "automaton",
+    "Desc": "La camera che ospita il tuo nucleo ha una connessione più diretta con il resto della tua forma umanoide, permettendoti di attingere all'energia magica del nucleo. Ottieni un cantrip dalla lista degli incantesimi arcani. Puoi lanciare questo incantesimo come incantesimo innato arcano a volontà. Un cantrip è elevato a livello di incantesimo pari alla metà del tuo livello arrotondato per eccesso.",
+    "Mostrare": false
+},
+{
+    "Nome": "Automaton tiratore",
+    "Razza": "automaton",
+    "Desc": "La tua forma umanoide snella è progettata per velocità e precisione adatte al combattimento a distanza. Ottieni l'azione ++Automaton Aim++.@###{\"nome\": \"Automaton Aim\", \"tipoAzz\": \"azione\", \"tratti\": [\"Automaton\"], \"dettagli\": {}, \"desc\": \"Stabilisci il tuo corpo e osservi gli eventi del campo di battaglia per massimizzare la portata del tuo prossimo tiro. Riduci la penalità per sparare al secondo incremento di gittata della tua arma da –2 a 0 per il prossimo attacco a distanza che effettui in questo turno. Puoi usare questa azione una seconda volta nello stesso turno per ridurre la penalità del terzo incremento di gittata della tua arma da –4 a 0 per il prossimo attacco a distanza che effettui in questo turno.\"}###",
+    "Mostrare": false
+},
+{
+    "Nome": "Automaton guerriero",
+    "Razza": "automaton",
+    "Desc": "Con un design più robusto e potente, il tuo corpo è stato progettato per il combattimento. Hai una forma umanoide massiccia. Il dado dei danni per il tuo pugno aumenta a 1d6 invece di 1d4. Non subisci penalità quando effettui un attacco letale con il pugno o qualsiasi altro attacco senza armi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Android artigiano",
+    "Razza": "android",
+    "Desc": "Il tuo corpo è stato originariamente progettato per creare opere d'arte, strumenti complessi o mantenere macchinari avanzati. Diventi addestrato in Crafting (o un'altra abilità se eri già addestrato in Crafting) e ottieni il talento ++Specialty Crafting++ in una specialità a tua scelta.",
+    "Mostrare": false
+},
+{
+    "Nome": "Android impersonatore",
+    "Razza": "android",
+    "Desc": "Il tuo corpo è stato aumentato con processi e un aspetto pensati per integrarsi più facilmente tra gli umani. Diventi addestrato in Deception (o un'altra abilità se eri già addestrato in Deception). Non hai bisogno di un kit da travestimento quando tenti prove di Deception per impersonare un umano. Inoltre, ottieni un bonus di circostanza di +4 alle prove di Impersonate per fingere di essere una versione umana di te stesso, invece che un android. Questo bonus non si applica ad altre prove di Impersonate umani.",
+    "Mostrare": false
+},
+{
+    "Nome": "Android lavoratore",
+    "Razza": "android",
+    "Desc": "Il tuo corpo è adattato per sopportare difficoltà fisiche o svolgere lavori pesanti per lunghi periodi. Diventi addestrato in Athletics (o un'altra abilità se eri già addestrato in Athletics) e ottieni il talento ++Hefty Hauler++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Android poliglotto",
+    "Razza": "android",
+    "Desc": "Sei stato preprogrammato con una moltitudine di competenze linguistiche, probabilmente per agire come traduttore. Impari due nuove lingue, scelte tra lingue comuni e qualsiasi lingua non comune a cui hai accesso. Queste lingue assumono la stessa forma (segni o parlata) delle altre lingue che conosci. Se selezioni il talento ++Multilingual++, impari tre nuove lingue invece di due.",
+    "Mostrare": false
+},
+{
+    "Nome": "Android guerriero",
+    "Razza": "android",
+    "Desc": "Il tuo corpo è stato originariamente creato per funzionare come ufficiale di sicurezza o soldato. Sei un guerriero naturalmente dotato preprogrammato per il combattimento. Sei addestrato in tutte le armi semplici e marziali.",
+    "Mostrare": false
+},
+{
+    "Nome": "Anadi adattivo",
+    "Razza": "anadi",
+    "Desc": "Discendi da una linea di anadi che lavorarono per perfezionare la loro magia di trasformazione, permettendo loro di integrarsi in una più ampia varietà di culture. Scegli un'ascendenza comune, umanoide Media. La tua forma umana viene sostituita con una forma che corrisponde a questa scelta. Ottieni anche il talento ++Adopted Ancestry++ per l'ascendenza umanoide scelta.",
+    "Mostrare": false
+},
+{
+    "Nome": "Anadi policromatico",
+    "Razza": "anadi",
+    "Desc": "Il tuo corpo è coperto da peli eccezionalmente colorati che creano motivi vivaci e accattivanti, alcuni dei quali potrebbero apparire anche nella tua forma umana. Diventi addestrato in Performance (o in un'altra abilità se eri già addestrato in Performance) e ottieni il talento ++Impressive Performance++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Anadi intrappolante",
+    "Razza": "anadi",
+    "Desc": "Sei nato con zanne ad uncino che ti danno un vantaggio quando cacci nella tua vera forma. L'attacco con le tue zanne ottiene i tratti Grapple e Trip.",
+    "Mostrare": false
+},
+{
+    "Nome": "Anadi affusolato",
+    "Razza": "anadi",
+    "Desc": "I tuoi arti sono eccezionalmente lunghi in entrambe le forme, permettendoti di muoverti con sorprendente agilità. La tua Velocità aumenta da 7,5 m a 9 m.",
+    "Mostrare": false
+},
+{
+    "Nome": "Anadi velenoso",
+    "Razza": "anadi",
+    "Desc": "Le zanne della tua forma naturale sono in grado di inoculare veleno nei nemici. Ottieni l'abilità ++Anadi Venom++###{\"nome\": \"Anadi Venom\", \"tipoAzz\": \"azione\", \"tratti\": [], \"dettagli\": {\"Frequenza\": \"un numero di volte al giorno pari al tuo livello\"}, \"desc\": \"Avveleni le tue zanne. Se il prossimo attacco con le zanne che effettui prima della fine del tuo turno colpisce e infligge danno, l'attacco infligge 1d6 danno da veleno aggiuntivo. In caso di fallimento critico, il veleno viene sprecato come normale. Al 12° livello, questo danno da veleno aumenta a 2d6.\"}###",
+    "Mostrare": false
+},
+{
+    "Nome": "Ombra del cortigiano",
+    "Razza": "wayang",
+    "Desc": "La tua ombra danza accanto a te. Ottieni il talento di competenza ++Impressive Performance++ che ti permette di Fare una Buona Impressione usando Performance invece di Diplomazia. Una volta al giorno, se fallisci, ma non fallisci critico, un tiro per Fare una Buona Impressione, puoi farlo passare come parte di una performance, permettendoti di rilanciare il tiro; questo è un effetto fortuna.",
+    "Mostrare": false
+},
+{
+    "Nome": "Ombra dell'eremita",
+    "Razza": "wayang",
+    "Desc": "La tua ombra sembra in qualche modo piena di segreti e misteri—segreti che condivide con te. Scegli un cantrip dalla lista di incantesimi occulti. Puoi lanciare questo incantesimo come incantesimo innato occulto a volontà. Un cantrip è potenziato a un livello di incantesimo pari alla metà del tuo livello arrotondato per eccesso.",
+    "Mostrare": false
+},
+{
+    "Nome": "Ombra del navigatore",
+    "Razza": "wayang",
+    "Desc": "La tua ombra scivola sulla superficie dell'acqua, e così fai tu. Puoi camminare sulla superficie di acque calme e altri liquidi non dannosi, muovendoti a metà della tua Velocità normale. Puoi tentare di camminare anche sulla superficie di acqua corrente, sempre a metà Velocità, ma per farlo devi riuscire in un tiro di Acrobatica per Equilibrio usando la CD di un tiro di Nuoto per muoverti attraverso l'acqua; in caso di fallimento, cadi nell'acqua. Questo tiro di Acrobatica non richiede un'azione.",
+    "Mostrare": false
+},
+{
+    "Nome": "Ombra del frabbro",
+    "Razza": "wayang",
+    "Desc": "La tua ombra è densa e liquida, come se potesse spegnere il metallo più pregiato. Ottieni l'azione ++Inscribe Shadow Pamor++###{\"nome\": \"Inscribe Shadow Pamor\", \"tipoAzz\": \"azione\", \"tratti\": [\"occult\", \"shadow\"], \"dettagli\": {\"Frequenza\": \"una volta al minuto\"}, \"desc\": \"Immergi il tuo pugno o arma nella tua ombra, avvolgendola in un motivo ondulato simile a damasco di oscurità. Se la tua prossima azione è un Attacco, le ombre si attaccano al tuo nemico con il tuo attacco, oscurandone la visione. In caso di successo, il bersaglio del tuo Attacco diventa abbagliato fino all'inizio del tuo prossimo turno. Il bersaglio può usare un'azione Interagisci per strappare le ombre aderenti e rimuovere la condizione di abbagliamento. In caso di colpo critico, le ombre sono particolarmente ostinate e non possono essere strappate via.\"}###",
+    "Mostrare": false
+},
+{
+    "Nome": "Ombra del viaggiatore",
+    "Razza": "wayang",
+    "Desc": "La tua ombra si infiamma davanti a te, liberando il tuo percorso. La tua Velocità aumenta di 1.5 m.",
+    "Mostrare": false
+},
+{
+    "Nome": "Vanara Bandaagee",
+    "Razza": "vanara",
+    "Desc": "La tua famiglia è una delle tante che afferma di discendere dalla regale famiglia di vanara pacificatori chiamata Bandaagee. I Bandaagee sono il tipo più comune di vanara. Sei molto familiare con i segni della civiltà e ti muovi facilmente nelle comunità più affollate. Ignori il terreno difficile causato dalle folle.",
+    "Mostrare": false
+},
+{
+    "Nome": "Vanara Lahkgyan",
+    "Razza": "vanara",
+    "Desc": "I tuoi antenati vanara potrebbero essere nati a immagine di Ragdya, ma hanno trovato la sopravvivenza solo al servizio del suo nemico: il Lahkgya dal volto rosso. Hai denti affilati adatti a masticare e strappare la carne. Puoi sopravvivere solo con carne cruda. Hai un attacco disarmato ++Morsi++ che infligge 1d6 danni perforanti. Le tue mascelle appartengono al gruppo combattimento corpo a corpo e hanno i tratti finesse e disarmato.",
+    "Mostrare": false
+},
+{
+    "Nome": "Vanara Ragdyan",
+    "Razza": "vanara",
+    "Desc": "Custodi delle tradizioni e narratori di antiche storie, la tua famiglia traccia la sua discendenza da coloro nati direttamente dai capricci di Ragdya. Quando parli, gli altri sono inclini ad ascoltarti, forse a causa della scintilla divina della tua connessione con Ragdya. Ottieni un cantrip dalla lista di incantesimi divini; questo cantrip non può infliggere danni o causare danni diretti. Puoi lanciare questo incantesimo come incantesimo innato divino a volontà. Un cantrip è potenziato a un livello di incantesimo pari alla metà del tuo livello arrotondato per eccesso.",
+    "Mostrare": false
+},
+{
+    "Nome": "Vanara Wajaghand",
+    "Razza": "vanara",
+    "Desc": "I tuoi antenati furono costretti al lavoro dal rakshasa immortale Ravana, il Primo e l'Ultimo. Sebbene la loro astuzia durante la prigionia abbia salvato innumerevoli vite, e ora siano liberi, il tempo ha segnato la tua famiglia con cicatrici sulla mente che non guariranno mai del tutto, nemmeno attraverso le generazioni. Ottieni un bonus di circostanza di +1 ai tiri salvezza contro effetti emotivi, e ogni volta che ottieni un successo in un tiro salvezza contro un effetto emotivo, ottieni invece un successo critico.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tripkee veleno-nascosto",
+    "Razza": "tripkee",
+    "Desc": "Potresti essere piccolo, ma le ghiandole velenose nascoste nel tuo corpo celano una difesa mortale. Ottieni la reazione ++Pelle Tossica++###{\"nome\": \"Pelle Tossica\", \"tipoAzz\": \"reazione\", \"tratti\": [\"veleno\"], \"dettagli\": {\"Frequenza\": \"una volta all'ora\", \"Trigger\": \"Una creatura ti tocca, ad esempio afferrandoti, colpendoti con un attacco disarmato o usando un incantesimo a contatto contro di te\"}, \"desc\": \"Emani una tossina mortale. La creatura che ha attivato la reazione subisce 1d4 danni da veleno (tiro salvezza base Tempra usando il tuo DC di classe o DC incantesimo, il più alto). Dal 3° livello e ogni 2 livelli successivi, i danni aumentano di 1d4.\"}###",
+    "Mostrare": false
+},
+{
+    "Nome": "Tripkee del fiume",
+    "Razza": "tripkee",
+    "Desc": "I tuoi antenati vivono in acqua e vicino all'acqua. Ottieni una velocità di nuoto di 4.5 metri.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tripkee lingua-afferrante",
+    "Razza": "tripkee",
+    "Desc": "La tua lingua è particolarmente lunga e puoi lanciarla con straordinaria portata e precisione. Puoi usare la tua lingua per lanciare incantesimi a contatto e compiere azioni Interagisci molto semplici, come aprire alcuni tipi di porte non chiuse a chiave. La tua lingua non può compiere azioni che richiedono dita o significativa destrezza manuale, incluse azioni che richiederebbero un tiro di abilità, e non puoi usarla per tenere oggetti.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tripkee dita-appiccicose",
+    "Razza": "tripkee",
+    "Desc": "Le tue mani e i tuoi piedi emanano una pellicola che li aiuta ad aderire alle superfici. Ottieni un bonus di circostanza di +2 al tuo DC di Tempra e Riflessi contro tentativi di Disarmare, Spingere, Riposizionare o Far Cadere. Quando sali su alberi, liane e altra vegetazione, se ottieni un successo in un tiro Atletica per Salire, ottieni un successo critico invece.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tripkee pelle-spessa",
+    "Razza": "tripkee",
+    "Desc": "La tua pelle spessa e coriacea assomiglia a quella di un rospo. Ottieni 8 Punti Ferita dall'ascendenza invece di 6. Ottieni un bonus di circostanza di +1 ai tiri salvezza contro malattie e veleni.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tripkee tessuto",
+    "Razza": "tripkee",
+    "Desc": "Il robusto tessuto tra le tue mani e dita può rallentare qualsiasi caduta. Finché hai almeno una mano libera, non subisci danni da caduta, indipendentemente dalla distanza.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tengu dente di cane",
+    "Razza": "tengu",
+    "Desc": "Oltre al becco, la tua bocca presenta numerosi denti aguzzi e appuntiti. Alcune leggende affermano che le tue potenti mascelle possano persino mordere l'acciaio. Anche se non sei ancora così forte, i tuoi denti possono comunque infliggere ferite terribili. Il tuo attacco disarmato con il becco acquisisce il tratto letale d8.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tengu maledetto",
+    "Razza": "tengu",
+    "Desc": "La tua stirpe è stata esposta a maledizione dopo maledizione, e ora queste scivolano via dalle tue piume come pioggia. Se superi un tiro salvezza contro una maledizione o un effetto di sfortuna, ottieni un successo critico invece. Quando otterresti la condizione condannato, effettua una prova piatta a DC 17. In caso di successo, riduci di 1 il valore della condizione condannato che avresti ottenuto.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tengu custode delle montagne",
+    "Razza": "tengu",
+    "Desc": "Proveni da una linea di asceti tengu, lasciandoti un legame con gli spiriti del mondo e del Grande Oltre. Puoi lanciare il cantrip frusta vitale come incantesimo innato primordiale a volontà. Un cantrip è elevato a rango di incantesimo pari a metà del tuo livello arrotondato per eccesso. Ogni volta che lanci un incantesimo da un talento di heritage o ascendenza tengu, puoi decidere se sia un incantesimo divino o primordiale.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tengu nato dal cielo",
+    "Razza": "tengu",
+    "Desc": "Le tue ossa possono essere particolarmente leggere, potresti essere un raro tengu con ali, oppure il tuo legame con gli spiriti del vento e del cielo potrebbe essere più forte della media, rallentando la tua discesa nell'aria. Non subisci danni da caduta, indipendentemente dalla distanza della caduta.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tengu gettato dalla tempesta",
+    "Razza": "tengu",
+    "Desc": "Che sia per una benedizione di Hei Feng o per essere nato durante una tempesta, sei resistente alle tempeste. Ottieni resistenza all'elettricità pari a metà del tuo livello (minimo 1). Superi automaticamente la prova piatta per bersagliare una creatura nascosta se quella creatura è nascosta solo dalla pioggia o dalla nebbia.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tengu artigliato",
+    "Razza": "tengu",
+    "Desc": "I tuoi artigli sono affilati e forti quanto il tuo becco. Ottieni un attacco disarmato con gli artigli che infligge 1d4 danni taglienti. I tuoi artigli appartengono al gruppo corpo a corpo e possiedono i tratti agile, finezza, disarmato e versatile P.",
+    "Mostrare": false
+},
+{
+    "Nome": "Tengu Solcaonde",
+    "Razza": "tengu",
+    "Desc": "Sei uno dei rari tengu che può tagliare l'acqua come un uccello nell'aria e spesso si nasconde in fiumi o oceani dove pochi si aspettano di trovarti. Ottieni una velocità di nuoto di 4.5 metri.",
+    "Mostrare": false
+},
+{
+    "Nome": "Samsaran curatore",
+    "Razza": "samsaran",
+    "Desc": "Nella ricerca dell'illuminazione, le tue incarnazioni passate si sono allontanate dalle terre ancestrali di Zi Ha, esplorando le diverse nazioni di Tian Xia e altre parti di Golarion. Le tue incarnazioni passate hanno avuto incontri pericolosi durante i viaggi e spesso hai flashback nel curare ferite. Diventi addestrato in Medicina. Se otterresti automaticamente l'addestramento in Medicina (dal tuo background o dalla tua classe, per esempio), ottieni invece l'addestramento in un'abilità a scelta. Quando usi Medicina per Trattare Ferite su te stesso, puoi usare le tue tecniche speciali per aggiungere il tuo livello ai Punti Ferita recuperati dal trattamento.",
+    "Mostrare": false
+},
+{
+    "Nome": "Samsaran montanaro",
+    "Razza": "samsaran",
+    "Desc": "Le tue incarnazioni passate abitavano nelle caverne sulle montagne innevate di Tian Xia, quindi il tuo corpo è diventato abile nel sopravvivere alle tempeste gelide. Ottieni resistenza al freddo pari a metà del tuo livello (minimo 1). Tratti gli effetti di freddo ambientale come se fossero uno step meno estremi (freddo incredibile diventa estremo, freddo estremo diventa severo, e così via).",
+    "Mostrare": false
+},
+{
+    "Nome": "Samsaran oracolare",
+    "Razza": "samsaran",
+    "Desc": "Le tue vite passate ti hanno fornito una maggiore intuizione sul mondo spirituale e sugli eventi presenti e futuri, poiché la storia si ripete. Scegli arcano, divino o occulto. Ottieni un cantrip dalla lista degli incantesimi della tradizione magica scelta. Puoi Lanciare questo Incantesimo come incantesimo innato a volontà, come incantesimo della tradizione scelta. Un cantrip è elevato a rango di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
+    "Mostrare": false
+},
+{
+    "Nome": "Samsaran santuario",
+    "Razza": "samsaran",
+    "Desc": "Le tue incarnazioni passate sono rinati in santuari nel nord di Zi Ha, e ricordi di essere stato addestrato a concentrarti e focalizzarti per lunghi periodi di tempo. I tuoi flashback vaghi rivelano anche scritture utili nei libri che le tue vite passate avevano consumato avidamente.@###{\"nome\": \"Attivare—Toccare il Passato\", \"tipoAzz\": \"reazione\", \"tratti\": [\"fortuna\"], \"dettagli\": {\"Frequenza\": \"una volta al giorno\", \"Trigger\": \"Stai per tentare una prova per Richiamare Conoscenza\"}, \"desc\": \"Ti concentri sui frammenti di una vita passata per trovare un ricordo di un tomo o di una lezione applicabile dal tuo passato. Tiri una seconda volta e usi il risultato più alto. Se ottieni un fallimento critico, ottieni un fallimento normale. Se ottieni un successo, ottieni un successo critico.\"}###",
+    "Mostrare": false
+},
+{
+    "Nome": "Samsaran selvaggio",
+    "Razza": "samsaran",
+    "Desc": "Le tue vite precedenti sono rinati in vari ambienti remoti lontani dai principali insediamenti di Tian Xia e oltre. Le tue manifestazioni passate hanno dovuto imparare a sopravvivere da sole, e ricordi questa volontà di sopravvivere possedendo pochissime risorse. Diventi addestrato in Sopravvivenza. Se otterresti automaticamente l'addestramento in Sopravvivenza (dal tuo background o dalla tua classe, per esempio), ottieni invece l'addestramento in un'abilità a scelta. Puoi ignorare il terreno difficile causato da alberi, fogliame e sottobosco.",
+    "Mostrare": false
+},
+{
+    "Nome": "Ratto del profondo",
+    "Razza": "ratfolk",
+    "Desc": "I tuoi antenati vivevano più in profondità sottoterra rispetto agli altri ratfolk, concedendoti la capacità di vedere al buio. Ottieni visione nel buio.",
+    "Mostrare": false
+},
+{
+    "Nome": "Ratto del deserto",
+    "Razza": "ratfolk",
+    "Desc": "Sei originario di pianure aride e probabilmente sei cresciuto viaggiando lungo le strade. Se hai entrambe le mani libere, puoi aumentare la tua Velocità a 9 metri mentre corri a quattro zampe. Inoltre, gli effetti di calore ambientale sono per te uno step meno estremi e puoi resistere 10 volte più a lungo del normale prima di essere influenzato da fame o sete. Tuttavia, a meno che tu non indossi equipaggiamento protettivo o non trovi riparo, gli effetti di freddo ambientale sono per te uno step più estremi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Ratto muso-lungo",
+    "Razza": "ratfolk",
+    "Desc": "Il tuo lungo muso ti conferisce un olfatto più acuto rispetto alla maggior parte dei ratfolk. Ottieni +Impreciso come senso olfattivo con raggio di 9 metri, che ti permette di determinare la posizione di una creatura. Il GM solitamente raddoppia la portata se sei sottovento alla creatura o la dimezza se sei sopravento.@Inoltre, ottieni un bonus di circostanza +2 alle prove di Percezione per Cercare una creatura o un oggetto entro il raggio del tuo olfatto.",
+    "Mostrare": false
+},
+{
+    "Nome": "Ratto delle fogne",
+    "Razza": "ratfolk",
+    "Desc": "Proveni da una lunga linea di ratfolk con comunità situate nelle fogne sotto un grande insediamento. Sei immune alla malattia ++peste putrida++. Ottieni un bonus di circostanza +1 ai tiri salvezza contro malattie e veleni. Se ottieni un successo su un tiro salvezza contro una malattia o un veleno, ottieni un successo critico invece. Se possiedi un'altra capacità che migliorerebbe il tiro salvezza in questo modo (come la caratteristica di classe combattente temprato in battaglia), se ottieni un fallimento critico al tiro salvezza ottieni un fallimento normale invece.",
+    "Mostrare": false
+},
+{
+    "Nome": "Ratto delle ombre",
+    "Razza": "ratfolk",
+    "Desc": "I tuoi antenati vivevano in spazi oscuri sottoterra, conferendoti pelliccia scura e un aspetto vagamente innaturale. Ottieni il grado addestrato in Intimidire e puoi usare Intimidire per Costringere gli animali. Quando Demoralizzi un animale, non subisci penalità per non condividere una lingua con esso. Se otterresti automaticamente il grado addestrato in Intimidire (dal tuo background o dalla tua classe), ottieni il grado addestrato in un'altra abilità a scelta.@Gli atteggiamenti degli animali verso di te iniziano uno step peggiori del normale, solitamente partendo da ostile invece che indifferente per animali domestici, e ostile invece che sfavorevole per animali selvatici.",
+    "Mostrare": false
+},
+{
+    "Nome": "Ratto delle nevi",
+    "Razza": "ratfolk",
+    "Desc": "Hai un mantello più spesso e una corporatura più robusta per difenderti dal freddo, concedendoti resistenza al freddo pari a metà del tuo livello (minimo 1). Tratti gli effetti ambientali di freddo come se fossero uno step meno estremi (freddo incredibile diventa estremo, freddo estremo diventa severo, e così via).",
+    "Mostrare": false
+},
+{
+    "Nome": "Ratto dei tunnel",
+    "Razza": "ratfolk",
+    "Desc": "Puoi comprimere facilmente il tuo corpo e passare attraverso fessure. Ottieni il talento ++Compressa Veloce++ come talento bonus, anche se non sei addestrato in Acrobatica. Spazi stretti non sufficientemente stretti da richiedere l'azione Squeeze non costituiscono terreno difficile per te.",
+    "Mostrare": false
+},
+{
+    "Nome": "Nagaji incappucciato",
+    "Razza": "nagaji",
+    "Desc": "Hai la testa con cappuccio di un cobra sputatore, e come tali cobra puoi sparare getti di veleno dalla bocca. Ottieni un attacco a distanza non armato ++Sputo Velenoso++ con incremento di gittata di 3 metri che infligge 1d4 danni da veleno. Su un colpo critico, il bersaglio subisce danni persistenti da veleno pari al numero di dadi del danno dell'arma. Il tuo sputo non appartiene a un gruppo di armi né possiede effetti di specializzazione critica.",
+    "Mostrare": false
+},
+{
+    "Nome": "Nagaji scaro",
+    "Razza": "nagaji",
+    "Desc": "Ti distingui dalla maggior parte dei nagaji, con il corpo superiore di un bellissimo umano e il corpo inferiore di un serpente verde o bianco. Le leggende dicono che i tuoi antenati fossero serpenti fedeli elevati da Nalinivati piuttosto che nagaji creati dalla dea. Invece di un attacco non armato con zanne, possiedi un attacco con la coda che infligge 1d6 danni contundenti, è nel gruppo di armi da mischia e possiede i tratti agile e non armato. Ottieni un bonus di circostanza +2 al tuo DC Tempra o Riflessi contro tentativi di Aggrottare o Far Cadere. Questo bonus si applica anche ai tiri salvezza contro effetti che ti afferrerebbero, ti immobilizzerebbero o ti farebbero cadere a terra.",
+    "Mostrare": false
+},
+{
+    "Nome": "Nagaji lingua-luccicante",
+    "Razza": "nagaji",
+    "Desc": "Sei nato con un acuto senso della magia, capace di gustarne gli effetti unici nell'aria. Ottieni ++Sensomagia++ come senso vago con raggio di 9 metri; come tutti i sensi vaghi, è solo approssimativamente preciso come il senso dell'olfatto di un umano medio, quindi generalmente puoi prevedere solo se la magia è presente; tuttavia, ogni tradizione magica ha un gusto unico per te, permettendoti di identificare la tradizione della magia presente.",
+    "Mostrare": false
+},
+{
+    "Nome": "Nagaji titanico",
+    "Razza": "nagaji",
+    "Desc": "Sei stato cresciuto per essere un guerriero o una guardia del corpo, e la tua dieta specializzata e i muscoli prominenti hanno reso le tue scaglie forti come piastre corazzate. Le tue scaglie sono armatura media nel gruppo delle armature a piastre che forniscono un bonus oggetto +4 alla CA, un limite di Destrezza di +1, una penalità ai tiri di controllo di –2, una penalità alla Velocità di –1,5 metri, un valore di Forza di 16 e possiedono il tratto confortevole. Non puoi mai indossare altra armatura o rimuovere le tue scaglie. Puoi incidere rune di armatura sulle tue scaglie.",
+    "Mostrare": false
+},
+{
+    "Nome": "Nagaji scudo-velenoso",
+    "Razza": "nagaji",
+    "Desc": "La tua connessione intrinseca con nagas e serpenti comuni ti concede una resistenza innata a ogni tipo di tossina. Ottieni resistenza al veleno pari a metà del tuo livello (minimo 1) e un bonus di circostanza +1 a tutti i tiri salvezza contro il veleno.",
+    "Mostrare": false
+},
+{
+    "Nome": "Nagaji dente-frusta",
+    "Razza": "nagaji",
+    "Desc": "Hai un collo lungo e flessibile che può arricciarsi in una posa d'attacco come quello di un serpente. I tuoi muscoli sorprendentemente potenti ti permettono di mordere con grande distanza e velocità. Ottieni l'azione ++Sollevare Collo++.@###{\"nome\": \"Sollevare Collo\", \"tipoAzz\": \"azione\", \"tratti\": [\"\"], \"dettagli\": {}, \"desc\": \"Sollevi la testa in posizione d'attacco. L'attacco con zanne fornito dalla tua ancestrie nagaji ottiene una gittata di 3 metri fino alla fine del tuo turno.\"}###",
+    "Mostrare": false
+},
+{
+    "Nome": "Minotauro toro-fantasma",
+    "Razza": "minotauro",
+    "Desc": "Il tuo pelo è pallido come la morte, forse per qualche connessione tua o della tua famiglia con l'aldilà, che ti permette di orientarti sovrannaturalmente. Puoi lanciare ++Conoscere la Via++ come incantesimo innato occulti a volontà. Un cantrip è innalzato a grado di incantesimo pari alla metà del tuo livello arrotondato per eccesso. Inoltre, ottieni un bonus di circostanza +1 contro incantesimi o effetti che causano la condizione confuso.",
+    "Mostrare": false
+},
+{
+    "Nome": "Minotauro delle caverne ghiacciate",
+    "Razza": "minotauro",
+    "Desc": "Il tuo pelo cresce spesso e caldo, adatto alle montagne ghiacciate in cui risiedi. Ottieni resistenza al freddo pari a metà del tuo livello (minimo 1). Gli effetti ambientali di freddo sono per te un gradino meno estremi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Minotauro piccolo-corno",
+    "Razza": "minotauro",
+    "Desc": "Sebbene non meno potente, la tua struttura (e le tue corna) è più piccola rispetto a quella della maggior parte degli altri minotauri. Invece di Grande, la tua taglia è Media. Il tuo attacco non armato con le corna infligge 1d6 danni perforanti invece di 1d8, ma possiede il tratto agile.",
+    "Mostrare": false
+},
+{
+    "Nome": "Minotauro girovagante",
+    "Razza": "minotauro",
+    "Desc": "I tuoi zoccoli sono larghi e potenti, perfetti per liberare detriti mentre cammini. Diventi addestrato in Sopravvivenza (o un'altra abilità se già addestrato in essa) e ottieni il talento di abilità ++Esperto del Terreno++. Ignori il terreno difficile causato da suolo naturale irregolare mentre ti trovi nel terreno scelto per il tuo talento Esperto del Terreno.",
+    "Mostrare": false
+},
+{
+    "Nome": "Minotauro anima di pietra",
+    "Razza": "minotauro",
+    "Desc": "La tua profonda connessione con pietra e muri ti permette di evocare enormi lastre di granito che crollano sui nemici. Ottieni l'attività ++Sollevare Lastre++.@###{\"nome\": \"Sollevare Lastre\", \"tipoAzz\": \"azione\", \"tratti\": [], \"dettagli\": {}, \"desc\": \"Spesse lastre di pietra si sollevano attorno a te prima di inclinarsi. Infliggi 1d6 danni contundenti a tutte le creature adiacenti (riflessi base contro il tuo DC di classe o DC di incantesimo, quello più alto). Su un fallimento critico, la creatura è anche abbattuta. Dal 3° livello e ogni 2 livelli successivi, questo danno aumenta di 1d6.\"}###",
+    "Mostrare": false
+},
+{
+    "Nome": "Minotauro inseguitore",
+    "Razza": "minotauro",
+    "Desc": "Nonostante la tua struttura pesante, cammini su zoccoli folti che attutiscono i tuoi passi, permettendoti di sorprendere la preda. Diventi addestrato in Furtività (o un'altra abilità se già addestrato in essa) e ottieni il talento di abilità ++Cacciatore del Terreno++, ma devi scegliere detriti come terreno e puoi Muoverti Silenziosamente al massimo 3 metri invece di 1,5 metri senza tentare un tiro di Furtività.",
+    "Mostrare": false
+},
+{
+    "Nome": "Merfolk degli abissi",
+    "Razza": "merfolk",
+    "Desc": "Vivi molto, molto al di sotto della superficie dell'oceano. La tua coda da pesce potrebbe assomigliare a quella di un viperfish o di un pesce lanterna, e potresti avere occhi luminosi o pelle traslucida. I merfolk abissali hanno una reputazione inquietante, ma possono esistere anche nei reami più privi di luce. Ottieni visione crepuscolare e sei immune alla pressione schiacciante delle profondità oceaniche.",
+    "Mostrare": false
+},
+{
+    "Nome": "Merfolk Carcharodon",
+    "Razza": "merfolk",
+    "Desc": "Come temibile merfolk squalo, la tua metà inferiore è simile a quella di uno dei predatori apicali dell'oceano. Come uno squalo, puoi annusare il sangue da notevole distanza. Ottieni l'olfatto come senso impreciso con portata di 9 metri. Tuttavia, puoi annusare sangue versato fino a 36 metri nell'aria e 150 metri sott'acqua.",
+    "Mostrare": false
+},
+{
+    "Nome": "Merfolk pelagico",
+    "Razza": "merfolk",
+    "Desc": "Sei un merfolk dei mari aperti. La tua coda ha il motivo dei tonni e aringhe argentati che nuotano a milioni nel tuo territorio di caccia. L'acqua obbedisce alla tua volontà e, con una parola rapida, puoi avvolgere te stesso in un manto d'acqua. Ottieni l'azione ++Onda Protettiva++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Onda Protettiva",
+    "Razza": "merfolk",
+    "Desc": "Alzi una barriera magica di correnti turbinanti. Fino all'inizio del tuo prossimo turno, la prima volta che subisci danni da acido o fuoco, ottieni resistenza a quel danno pari a metà del tuo livello (minimo 1). La resistenza è pari al tuo livello se sei immerso nell'acqua, se hai già lanciato un incantesimo con il tratto acqua o se hai usato un'altra abilità con il tratto acqua in questo turno.",
+    "Mostrare": false
+},
+{
+    "Nome": "Merfolk della barriera corallina",
+    "Razza": "merfolk",
+    "Desc": "Sei cresciuto tra coralli colorati e banchi di pesci tropicali. Rispetto alla maggior parte dei merfolk, il tuo corpo ha colori vivaci con strisce, macchie e motivi simili a un pesce pagliaccio o angelo. Sei abituato agli abitanti occasionalmente tossici della tua casa e poco infastidito da punture o veleni lievi. Ottieni resistenza al veleno pari a metà del tuo livello (minimo 1) e ogni tiro salvezza riuscito contro un veleno riduce il suo stadio di 2, o di 1 per un veleno virulento. Ogni successo critico contro un veleno persistente riduce il suo stadio di 3, o di 2 per un veleno virulento.",
+    "Mostrare": false
+},
+{
+    "Nome": "Merfolk pesce-vela",
+    "Razza": "merfolk",
+    "Desc": "La metà inferiore del tuo corpo assomiglia a quella di un potente pesce vela, completa di grande pinna dorsale. Usando questa pinna, puoi muoverti più velocemente nell'acqua e saltare più lontano. La tua Velocità di nuoto aumenta a 9 metri. Quando tenti un Salto in Alto o un Salto in Lungo, ottieni un bonus di circostanza +1 al tiro di Atletica e puoi nuotare invece di camminare prima di tentare il salto.",
+    "Mostrare": false
+},
+{
+    "Nome": "Bakuwa Lizardfolk",
+    "Razza": "lizardfolk",
+    "Desc": "Il tuo corpo è coperto da piastre ossee. Le tue piastre sono armatura media nel gruppo delle armature di piastre che conferiscono un bonus oggetto +4 alla CA, un limite di Destrezza di +1, una penalità ai tiri di –2, una penalità alla Velocità di –1,5 m, un valore di Forza di +3 e possiedono i tratti acquadinamico e confortevole. Non puoi mai indossare altre armature né rimuovere le tue piastre. Puoi incidere rune magiche sulle tue piastre.",
+    "Mostrare": false
+},
+{
+    "Nome": "Scaglia di Scogliera Lizardfolk",
+    "Razza": "lizardfolk",
+    "Desc": "Le tue dita dei piedi sono adatte ad afferrare e arrampicarsi. Ottieni il talento ++Arrampicata da Combattimento++ come talento bonus e, finché non indossi calzature, puoi usare le piastre adesive dei tuoi piedi per arrampicarti, lasciando le mani libere. Inoltre, se ottieni un successo in un tiro di Atletica per Arrampicarti, ottieni un successo critico invece.",
+    "Mostrare": false
+},
+{
+    "Nome": "Saltatore di Nuvole Lizardfolk",
+    "Razza": "lizardfolk",
+    "Desc": "Il tuo corpo è leggero con membrane di pelle lungo gli arti che catturano l'aria sotto di te. Finché puoi agire e hai abbastanza spazio, puoi aprire le membrane per rallentare qualsiasi caduta quanto basta per evitare danni (la possibilità di farlo dipende dalla discrezione del GM).",
+    "Mostrare": false
+},
+{
+    "Nome": "Frilled Lizardfolk",
+    "Razza": "lizardfolk",
+    "Desc": "Puoi spiegare il collare del collo e flettere le spine dorsali, Demoralizzando i tuoi nemici. Quando lo fai, Demoralizzare perde il tratto uditivo e guadagna il tratto visivo, e non subisci penalità quando tenti di Demoralizzare una creatura che non comprende la tua lingua. Ottieni anche l'azione ++Approccio Minaccioso++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Approccio Minaccioso",
+    "Razza": "lizardfolk",
+    "Desc": "Ti muovi per trovarsi adiacente a un nemico e lo Demoralizzi. Se ottieni un successo, il nemico è spaventato 2 invece che spaventato 1.",
+    "Mostrare": false
+},
+{
+    "Nome": "Makari Lizardfolk",
+    "Razza": "lizardfolk",
+    "Desc": "Hai un muso simile a un tronco e un legame con il divino. La tradizione di qualsiasi incantesimo o abilità magica ottenuta da un talento o ascendenza lizardfolk è divina invece della sua tradizione normale (di solito primordiale). Ottieni a tua scelta i cantrip ++Lancia Divina++ o ++Guardia Proibente++, che puoi lanciare come cantrip innato divino a volontà. Un cantrip è innalzato a un livello di incantesimo pari a metà del tuo livello arrotondato per eccesso. Quando lanci questo cantrip, perde il tratto manipolare, poiché lo lanci solo ruggendo e spiegando il tuo muso.",
+    "Mostrare": false
+},
+{
+    "Nome": "Camminatore della Sabbia Lizardfolk",
+    "Razza": "lizardfolk",
+    "Desc": "Le tue scaglie spesse ti aiutano a trattenere l'acqua e combattere il sole. Ottieni resistenza al fuoco pari a metà del tuo livello (minimo 1). Gli effetti di calore ambientale sono per te di un gradino meno estremi e puoi resistere 10 volte più a lungo del normale prima di essere influenzato da fame o sete. Tuttavia, a meno che tu non indossi protezioni o prenda riparo, gli effetti di freddo ambientale sono per te di un gradino più estremi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Lizardfolk Invisibile",
+    "Razza": "lizardfolk",
+    "Desc": "Puoi cambiare il colore della pelle per mimetizzarti con l'ambiente, facendo piccoli cambiamenti con un'azione singola e cambiamenti drammatici in un'ora. Quando sei in un'area dove la tua colorazione è simile all'ambiente (per esempio verde foresta in una foresta), puoi usare l'applicazione minore di un'azione singola di questa capacità per fare cambiamenti localizzati che ti aiutano a mimetizzarti, ottenendo un bonus di circostanza +2 ai tiri di Furtività finché l'ambiente non cambia colorazione o motivo.",
+    "Mostrare": false
+},
+{
+    "Nome": "Lizardfolk Paludoso",
+    "Razza": "lizardfolk",
+    "Desc": "La tua famiglia discende dalla più comune ascendenza lizardfolk e sei abituato agli ambienti acquatici. Ottieni una Velocità di nuoto di 4,5 metri.",
+    "Mostrare": false
+},
+{
+    "Nome": "Cacciatore di Legno Lizardfolk",
+    "Razza": "lizardfolk",
+    "Desc": "Ti muovi facilmente attraverso foreste e giungle fitte, usando ogni ramo o cespuglio. Puoi sempre usare l'azione ++Prendere Copertura++ quando sei in terreno forestale o giungla per ottenere copertura, anche se non sei accanto a un ostacolo dietro cui normalmente potresti ripararti. Ottieni il talento ++Cacciatore di Terreni++, anche se non sei addestrato in Furtività, e devi scegliere il sottobosco come terreno scelto.",
+    "Mostrare": false
+},
+{
+    "Nome": "Arrampicatore di Caverna Kobold",
+    "Razza": "kobold",
+    "Desc": "Vivi in una casa orientata verticalmente e sei un arrampicatore consumato. Ottieni il talento di competenza ++Arrampicata da Combattimento++ anche se non soddisfi i prerequisiti. Puoi usare i tuoi piedi artigliati e la coda per arrampicarti, lasciando le mani libere. Inoltre, se riesci in un tiro di Atletica per Arrampicarti, ottieni un successo critico invece di un successo normale.",
+    "Mostrare": false
+},
+{
+    "Nome": "Cacciatore di Caverne Kobold",
+    "Razza": "kobold",
+    "Desc": "Sei nato in un tunnel stretto condiviso con un essere di energia primordiale della terra, che ti ha reso agile e flessibile. Quando ti arrampichi su pareti rocciose, stalattiti e altre formazioni naturali, ti muovi alla metà della tua Velocità con un successo e alla Velocità piena con un successo critico (e ti muovi alla Velocità piena con un successo se hai Arrampicata Veloce). Questo non ti riguarda se stai usando una Velocità di arrampicata. Se ottieni un successo in un tiro di Acrobatica per Strisciare, ottieni un successo critico invece.",
+    "Mostrare": false
+},
+{
+    "Nome": "Kobold Squamato",
+    "Razza": "kobold",
+    "Desc": "Grazie all'associazione della tua tana con un drago, le tue scaglie sono più robuste di quelle degli altri kobold. Ottieni 10 Punti Ferita dalla tua ascendenza invece di 6. Ottieni un bonus di circostanza +1 ai tiri salvezza contro il respiro del drago, effetti con il tratto sonno e effetti che ti paralizzerebbero.",
+    "Mostrare": false
+},
+{
+    "Nome": "Cuore Elementale Kobold",
+    "Razza": "kobold",
+    "Desc": "Quando sei nato, hai preso come imprinting una creatura fortemente associata a uno dei Piani Elementali, come un elementale o un genio. Scegli aria, terra, fuoco, metallo, acqua o legno per il tuo benefattore elementale. Ottieni resistenza pari a metà del tuo livello (minimo 1) al tipo di danno associato al tuo benefattore elementale: freddo per aria, elettricità per terra, fuoco per fuoco, sonico per metallo, acido per acqua o veleno per legno.",
+    "Mostrare": false
+},
+{
+    "Nome": "Scrivano Celeste Kobold",
+    "Razza": "kobold",
+    "Desc": "Il tuo legame con saggi e celesti draghi imperiali ha portato altri a cercare il tuo consiglio. Puoi parlare Draconico. Ogni volta che fallisci critico un tiro di Diplomazia per Fare una Buona Impressione o Richiedere, ottieni un fallimento normale invece.",
+    "Mostrare": false
+},
+{
+    "Nome": "Kobold Caduta Potente",
+    "Razza": "kobold",
+    "Desc": "La tua vicinanza a un potente kaiju ti ha reso forte e robusto. Ottieni 10 Punti Ferita dalla tua ascendenza invece di 6. Invece dei normali aumenti e difetti di attributo, puoi scegliere di ottenere un aumento a Forza, un aumento a Carisma e un difetto a Intelligenza.",
+    "Mostrare": false
+},
+{
+    "Nome": "Corno Magico Kobold",
+    "Razza": "kobold",
+    "Desc": "Poiché sei nato vicino a una potente fonte di magia, una traccia di essa scorre nelle tue vene. Scegli un cantrip comune dalla lista degli incantesimi arcani. Puoi lanciare questo incantesimo come incantesimo innato arcano a volontà. Un cantrip è innalzato a un livello di incantesimo pari a metà del tuo livello arrotondato per eccesso. Sei addestrato nelle statistiche del modificatore di attacco e della CD degli incantesimi, e la tua abilità chiave di incantesimo è Carisma.",
+    "Mostrare": false
+},
+{
+    "Nome": "Muso Forte Kobold",
+    "Razza": "kobold",
+    "Desc": "La tua tana è nota per le potenti mascelle e denti affilati, utili a difendersi dai predatori naturali o per venerazione di una bestia potente. Ottieni un attacco in mischia ++Mascelle++ che infligge 1d6 danni perforanti. Le tue mascelle appartengono al gruppo lotta e hanno i tratti finesse e disarmato.",
+    "Mostrare": false
+},
+{
+    "Nome": "Allagamento di Tunnel Kobold",
+    "Razza": "kobold",
+    "Desc": "Sei cresciuto in una tana attraversata da passaggi subacquei, naturali o scavati, e sei stato influenzato da un potente essere acquatico o da un'entità primordiale dell'acqua. Ottieni una Velocità di nuoto di 4,5 metri.",
+    "Mostrare": false
+},
+{
+    "Nome": "Coda Velenosa Kobold",
+    "Razza": "kobold",
+    "Desc": "Grazie alla vicinanza di una creatura velenosa alla tua tana, sei nato con uno sperone vestigiale nella coda che secerne veleno mortale. Ottieni l'azione ++Veleno della Coda++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Veleno della Coda",
+    "Razza": "kobold",
+    "Desc": "Applichi il veleno della tua coda a un'arma perforante o tagliente. Se il tuo prossimo Colpo con quell'arma prima della fine del tuo prossimo turno va a segno e infligge danni, infliggi danni da veleno persistente pari al tuo livello al bersaglio.",
+    "Mostrare": false
+},
+{
+    "Nome": "Inviato Celestiale Kitsune",
+    "Razza": "kitsune",
+    "Desc": "Che sia per la grazia di Daikitsu o per antenati devoti, hai un forte legame con il divino, che ti conferisce certe protezioni. Ottieni la reazione ++Invocare il Privilegio Celeste++ e la tua forma alternativa è un umanoide comune di taglia Media diffuso nella tua area di crescita (tipicamente umano), chiamata forma senza coda.",
+    "Mostrare": false
+},
+{
+    "Nome": "Campi Oscuri Kitsune",
+    "Razza": "kitsune",
+    "Desc": "Puoi usare la tua presenza inquietante per Demoralizzare sottilmente gli altri. Quando lo fai, Demoralizzare perde il tratto uditivo e acquisisce il tratto visivo, e non subisci penalità quando tenti di Demoralizzare una creatura che non comprende la tua lingua. Ottieni anche la reazione ++Paura Rinfrancante++ e la tua forma alternativa è una volpe, che ha le statistiche di una forma parassita di 1° livello.",
+    "Mostrare": false
+},
+{
+    "Nome": "Terre Selvagge Kitsune",
+    "Razza": "kitsune",
+    "Desc": "Sei una creatura del mondo materiale, con un'affinità più vicina alle terre selvagge che alla società urbana. Ottieni un attacco in mischia ++Mascelle++ che infligge 1d6 danni perforanti. Le tue mascelle appartengono al gruppo lotta e hanno i tratti finesse e disarmato. La tua forma alternativa è una volpe, che ha le statistiche di una forma parassita di 1° livello.",
+    "Mostrare": false
+},
+{
+    "Nome": "Cielo Vuoto Kitsune",
+    "Razza": "kitsune",
+    "Desc": "Il tuo spirito è aperto ai segreti dell'aldilà, concedendoti maggiore accesso alla magia kitsune. Ottieni il talento di ascendenza ++Familiarità con gli Incantesimi Kitsune++. La tua forma alternativa è un umanoide comune di taglia Media diffuso nella tua area di crescita (tipicamente umano), chiamata forma senza coda.",
+    "Mostrare": false
+},
+{
+    "Nome": "Vento Gelato Kitsune",
+    "Razza": "kitsune",
+    "Desc": "I tuoi antenati attraversarono la Corona del Mondo o risiedevano su picchi innevati. Ottieni resistenza al freddo pari a metà del tuo livello (minimo 1). Tratti gli effetti del freddo ambientale come se fossero un grado meno estremi (freddo incredibile diventa estremo, freddo estremo diventa severo, e così via). La tua forma alternativa è un umanoide comune di taglia Media diffuso nella tua area di crescita (tipicamente umano), chiamata forma senza coda.",
+    "Mostrare": false
+},
+{
+    "Nome": "Echi di Palazzo Kitsune",
+    "Razza": "kitsune",
+    "Desc": "Discendi da kitsune che possedevano poteri di persuasione così convincenti da poter entrare in un palazzo all'alba e diventare il potere dietro il trono entro sera. Ottieni l'azione ++Sussurro Persuasivo++ e la tua forma alternativa è un umanoide comune di taglia Media diffuso nella tua area di crescita (tipicamente umano), chiamata forma senza coda.",
+    "Mostrare": false
+},
+{
+    "Nome": "Sussurro Persuasivo",
+    "Razza": "kitsune",
+    "Desc": "Intrecci le tue parole con echi della magia dei tuoi antenati. Se la tua prossima azione è Richiedere, ottieni gli effetti del talento ++Richiesta Spudorata++ e se la tua prossima azione è Mentire, ottieni gli effetti del talento ++Confabulator++. Se fallisci critico in uno dei tiri, il bersaglio e chiunque ti abbia visto fallire diventa immune al tuo Sussurro Persuasivo per un giorno, senza necessariamente sapere che hai tentato di incantarli.",
+    "Mostrare": false
+},
+{
+    "Nome": "Kholo Formica",
+    "Razza": "kholo",
+    "Desc": "Sei un kholo dai lineamenti acuti e grandi orecchie alto circa 0.9m. Molti dubitano che tu sia davvero un kholo. La tua taglia è Piccola invece di Media. Sei addestrato in Inganno (o in un'altra abilità se eri già addestrato in Inganno). Ottieni un bonus di circostanza +1 ai tiri di Inganno per Mentire quando dichiari specificamente innocenza, ai DC di Inganno contro i tiri di Senso del Motivo per scoprire tali bugie, e ai tiri di iniziativa quando usi Inganno per l'iniziativa.",
+    "Mostrare": false
+},
+{
+    "Nome": "Kholo delle Caverne",
+    "Razza": "kholo",
+    "Desc": "I cantastorie narrano antiche storie secondo cui i kholo vivevano in caverne e sottoterra prima che la maggior parte della tua specie si avventurasse alla luce. Sei un ritorno a questi antichi, con un petto ampio e marchi che assomigliano a brevi strisce nere invece di macchie. I tuoi occhi sono sviluppati per vedere perfettamente al buio, un vantaggio prezioso per il tuo clan. Ottieni scurovisione.",
+    "Mostrare": false
+},
+{
+    "Nome": "Kholo Cane",
+    "Razza": "kholo",
+    "Desc": "Sei un kholo dal corpo agile con una struttura preistorica, quasi canina. Anche se ti muovi tipicamente come un quadrupede, puoi comunque stare in piedi e combattere come un bipede, permettendoti di usare normalmente tutte le attrezzature. Se hai entrambe le mani libere, puoi aumentare la tua Velocità a 9m mentre corri a quattro zampe.",
+    "Mostrare": false
+},
+{
+    "Nome": "Grande Kholo",
+    "Razza": "kholo",
+    "Desc": "Sei un kholo imponente e potente, con pelliccia fulva e macchie marroni sulla pelle. Ottieni 10 Punti Ferita dalla tua discendenza invece di 8 e ottieni un bonus di circostanza +1 ai tiri di Atletica per Riposizionare, Spingere o Far Cadere.",
+    "Mostrare": false
+},
+{
+    "Nome": "Kholo Dolcefiato",
+    "Razza": "kholo",
+    "Desc": "Sei un kholo a strisce con pelliccia chiara e un alito stranamente piacevole, che puoi usare per incantare le tue prede. Sei addestrato in Diplomazia (o in un'altra abilità se eri già addestrato in Diplomazia). Ottieni inoltre un bonus di circostanza +1 ai tiri per Fare Buona Impressione se il bersaglio può percepire il tuo alito.",
+    "Mostrare": false
+},
+{
+    "Nome": "Kholo Invernale",
+    "Razza": "kholo",
+    "Desc": "Sei un kholo robusto coperto da folta pelliccia a ciuffi che ti permette di sopravvivere negli inverni rigidi dei territori freddi. Ottieni resistenza al freddo pari a metà del tuo livello (minimo 1). Tratti gli effetti del freddo ambientale come se fossero un grado meno estremi (freddo incredibile diventa estremo, freddo estremo diventa severo, e così via).",
+    "Mostrare": false
+},
+{
+    "Nome": "Kholo Strega",
+    "Razza": "kholo",
+    "Desc": "Sei un kholo dal pelo scuro e arruffato capace di produrre suoni davvero insoliti. Puoi lanciare il cantrip Figment come incantesimo innato occulto a volontà. Un cantrip viene elevato a un livello di incantesimo pari a metà del tuo livello arrotondato per eccesso. Inoltre, ottieni un bonus di circostanza +1 ai tiri per Creare una Distrazione e Per Imita usando solo la voce.",
+    "Mostrare": false
+},
+{
+    "Nome": "Hobgoblin Elfofobico",
+    "Razza": "hobgoblin",
+    "Desc": "I hobgoblin furono creati molto tempo fa dai goblin inaffidabili e prolifici per essere usati come esercito contro gli elfi. Sebbene gli elfi abbiano infine liberato i hobgoblin dalla loro schiavitù, alcuni hobgoblin conservano una resistenza ancestrale alla magia, che chiamano 'magia elfica'. Ottieni la reazione Resistere alla magia elfica.###{\"nome\": \"Resistere alla magia elfica\", \"tipoAzz\": \"reazione\", \"tratti\": [], \"dettagli\": {}, \"desc\": \"Quando tenti un tiro salvezza contro un effetto magico ma non hai ancora tirato, la tua resistenza ancestrale alla magia ti protegge. Ottieni un bonus di circostanza +1 al tiro salvezza innescato. Se l'effetto innescato è arcano, ottieni invece un bonus di circostanza +2.\"}###",
+    "Mostrare": false
+},
+{
+    "Nome": "Hobgoblin Capo Piccolo",
+    "Razza": "hobgoblin",
+    "Desc": "Proveni da una lunga linea di hobgoblin che comandavano goblin. Sei più piccolo degli altri hobgoblin, ma i goblin ascoltano comunque qualsiasi comando che urli. Ottieni il talento di competenza Group Coercion. Se ottieni un successo a un tiro di Intimidazione per Coercere un goblin, ottieni un successo critico invece; se ottieni un fallimento critico, ottieni un fallimento normale.",
+    "Mostrare": false
+},
+{
+    "Nome": "Hobgoblin Gambe Corte",
+    "Razza": "hobgoblin",
+    "Desc": "Hai un busto più lungo e spalle più larghe della maggior parte degli hobgoblin, facendo sembrare le tue gambe corte per confronto. Ciò ti conferisce un nucleo muscolare forte e abbassa il centro di gravità—caratteristiche che ti aiutano a cavalcare e arrampicarti—e hai imparato a cavalcare fin da molto giovane. Ottieni il talento Ride. Inoltre, non sei impreparato mentre ti arrampichi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Hobgoblin Fumoso",
+    "Razza": "hobgoblin",
+    "Desc": "La tua famiglia è stata composta da alchimisti, ingegneri e scienziati per generazioni, lavorando su progetti che portano fumo e fuoco sul campo di battaglia. Ottieni resistenza al fuoco pari a metà del tuo livello (minimo 1). Ottieni automaticamente successo al tiro piatto DC 5 per colpire una creatura nascosta se quella creatura è nascosta solo dal fumo.",
+    "Mostrare": false
+},
+{
+    "Nome": "Hobgoblin Pelle d'Acciaio",
+    "Razza": "hobgoblin",
+    "Desc": "Quando sei tagliato o bruciato, il tuo corpo risponde formando calli duri ma flessibili sul sito della ferita. Col tempo, le sezioni più vulnerabili del tuo corpo diventano più dure e resistenti ai danni. Molti hobgoblin con pelle d'acciaio usano intenzionalmente lame e fiamme per segnarsi con motivi intricati, anche se non è universale. Il tuo tiro piatto per recuperare da danni persistenti fisici (incluso sanguinamento), energetici o da veleno è DC 13 (anziché DC 15), o DC 8 se ricevi assistenza particolarmente efficace.",
+    "Mostrare": false
+},
+{
+    "Nome": "Hobgoblin Marciatore Caldo",
+    "Razza": "hobgoblin",
+    "Desc": "Proveni da una linea di mercenari erranti costantemente in marcia e che si procurano cibo lungo il cammino. Se fallisci, ma non critici, nel sopravvivere in natura, puoi comunque nutrirti con pasti poveri. Durante l'esplorazione, puoi Hustle per il doppio del tempo prima di doverti fermare.",
+    "Mostrare": false
+},
+{
+    "Nome": "Hobgoblin Sottoterra",
+    "Razza": "hobgoblin",
+    "Desc": "I tuoi antenati vivevano sottoterra. Le tue orecchie sono più grandi di quelle degli altri hobgoblin e sensibili agli echi. Mentre sei sottoterra, quando prendi di mira un avversario nascosto o celato, riduci la DC del tiro piatto a 3 per un bersaglio celato o 9 per uno nascosto. Inoltre, se ottieni un successo in un tiro di Acrobatica per Squeeze, ottieni un successo critico invece.",
+    "Mostrare": false
+},
+{
+    "Nome": "Fetchling Luminoso",
+    "Razza": "fetchling",
+    "Desc": "Il tuo corpo dimostra che l'ombra non può esistere senza luce. Forse i tuoi occhi brillano più intensamente o le tue vene pulsano occasionalmente di luce. Emetti luce fioca entro 1,5m da te. Puoi attivare o sopprimere questa capacità come azione, che ha il tratto concentrazione. Inoltre, puoi far brillare frammenti della tua ombra e lanciare Luci danzanti e Luce come trucchetti innati occulti. I trucchetti sono potenziati a un livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
+    "Mostrare": false
+},
+{
+    "Nome": "Fetchling Profondo",
+    "Razza": "fetchling",
+    "Desc": "I tuoi antenati abitavano nelle regioni più profonde e insidiose del Piano dell'Ombra. Potresti lanciare un'ombra più densa, avere un battito più lento o trovare conforto nell'abbraccio delle tenebre. Ottieni resistenza al freddo o al negativo pari a metà del tuo livello (minimo 1), scelta quando acquisisci questo heritage.",
+    "Mostrare": false
+},
+{
+    "Nome": "Fetchling Liminale",
+    "Razza": "fetchling",
+    "Desc": "Proveni da una linea di fetchling con un legame più stretto con il Piano Etereo e i Piani Ombra, condividendo l'affinità di quei regni con l'intermedio e l'invisibile. Ottieni un bonus di circostanza +1 per individuare creature non rilevate entro 18m usando l'azione Cercare. Il tuo tiro piatto per colpire creature nascoste è DC 3 invece di DC 5, e il tiro piatto per colpire creature non rilevate è DC 9 invece di DC 11.",
+    "Mostrare": false
+},
+{
+    "Nome": "Fetchling Risoluto",
+    "Razza": "fetchling",
+    "Desc": "I tuoi antenati hanno affrontato a lungo l'orrore—nel Piano dell'Ombra o altrove—e tu possiedi la loro forza mentale. Quando ottieni un successo a un tiro salvezza contro un effetto emotivo, ottieni invece un successo critico.",
+    "Mostrare": false
+},
+{
+    "Nome": "Fetchling Spirito",
+    "Razza": "fetchling",
+    "Desc": "L'esposizione dei tuoi antenati al Piano dell'Ombra ha causato grandi cambiamenti fisici. I tuoi capelli o la pelle a volte appaiono inconsistenti, e sei più esile e agile rispetto agli altri fetchling. Sei di taglia Piccola invece che Media. Ottieni il grado di addestrato in Acrobatica, il talento Quick Squeeze e un bonus di circostanza +1 alle prove di Acrobatica per Rotolare Attraverso. Se saresti automaticamente addestrato in Acrobatica (dal tuo background o classe, per esempio), invece diventi addestrato in una competenza a tua scelta.",
+    "Mostrare": false
+},
+{
+    "Nome": "Centauro Oratore in Erba",
+    "Razza": "centauro",
+    "Desc": "Sei nato con una scintilla di magia che potrebbe indirizzarti verso diventare un Greenspeaker o un Faithspeaker. Scegli divino o primordiale. Se scegli divino, sei un Faithspeaker. Se scegli primordiale, sei un Greenspeaker. Questa scelta non può essere cambiata. Ottieni un trucchetto dalla lista di incantesimi scelta. Puoi lanciare questo incantesimo come incantesimo innato a volontà. Un trucchetto è potenziato a un livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
+    "Mostrare": false
+},
+{
+    "Nome": "Centauro Velocecomevento",
+    "Razza": "centauro",
+    "Desc": "Hai un corpo snello e sei capace di raggiungere velocità incredibili solo con gli zoccoli. La tua Velocità aumenta di 1,5m.",
+    "Mostrare": false
+},
+{
+    "Nome": "Centauro Zoccolo di Ferro",
+    "Razza": "centauro",
+    "Desc": "I tuoi zoccoli sono incredibilmente forti e servono come armi formidabili. Ottieni un attacco senz’armi con zoccolo che infligge 1d6 danni contundenti. I tuoi zoccoli appartengono al gruppo corpo a corpo e possiedono i tratti finezza e senz’armi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Centauro Mantello Maculato",
+    "Razza": "centauro",
+    "Desc": "Il tuo mantello è maculato o a strisce, concedendoti un camuffamento naturale nel tuo ambiente domestico. Scegli un terreno tra i seguenti: artico, deserto, foresta, montagna, pianura o palude. Nel terreno scelto, ottieni un bonus di circostanza +1 alle prove di Furtività per Nascondersi o Muoversi Silenziosamente e alle prove di Inganno per Fingere.",
+    "Mostrare": false
+},
+{
+    "Nome": "Centauro Andatura da Pony",
+    "Razza": "centauro",
+    "Desc": "Sei più piccolo della maggior parte degli altri centauri, ma non meno agile. Invece di Grande, la tua taglia è Media. Ottieni un bonus di circostanza +1 ai tiri salvezza Riflessi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Catfolk Artigliato",
+    "Razza": "catfolk",
+    "Desc": "La tua famiglia possiede artigli particolarmente lunghi e affilati capaci di infliggere ferite sanguinanti con un colpo malvagio. Ottieni un attacco senz’armi con artiglio che infligge 1d6 danni da taglio. I tuoi artigli appartengono al gruppo corpo a corpo e possiedono i tratti agile, finezza e senz’armi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Catfolk Flessibile",
+    "Razza": "catfolk",
+    "Desc": "Hai ereditato una flessibilità superiore alla maggior parte degli umanoidi. Non consideri gli spazi stretti che non richiedono di comprimerti come terreno difficile. Inoltre, ottieni un bonus di circostanza +1 alle prove quando tenti di Fuggire.",
+    "Mostrare": false
+},
+{
+    "Nome": "Catfolk Cacciatore",
+    "Razza": "catfolk",
+    "Desc": "Proveni da una lunga linea di cacciatori e pisteur esperti e possiedi un senso dell’olfatto particolarmente acuto. Ottieni percezione dell’odore imprecisa con una portata di 9m, che ti permette di usare il senso dell’olfatto per determinare la posizione di una creatura. Il GM di solito raddoppia la portata se sei sottovento rispetto alla creatura o la dimezza se sei sopravento.@Inoltre, ottieni un bonus di circostanza +2 per Seguire una creatura o un oggetto se l’hai già annusato.",
+    "Mostrare": false
+},
+{
+    "Nome": "Catfolk della Giungla",
+    "Razza": "catfolk",
+    "Desc": "Discendi da predatori della giungla e puoi muoverti rapidamente attraverso cespugli e sottobosco. Ignori il terreno difficile derivante dalla vegetazione, e il terreno molto difficile derivante dalla vegetazione è considerato solo terreno difficile per te.",
+    "Mostrare": false
+},
+{
+    "Nome": "Catfolk Liminale",
+    "Razza": "catfolk",
+    "Desc": "Hai ereditato una vicinanza agli angoli remoti del mondo, dove i confini tra le dimensioni si assottigliano. Puoi lanciare il trucchetto rilevare magia come incantesimo innato occulto a volontà. Un trucchetto è potenziato a metà del tuo livello arrotondato per eccesso. Ottieni inoltre un bonus di circostanza +1 alle prove di Occultismo per Richiamare Conoscenza su creature provenienti da piani diversi dall’Universo.",
+    "Mostrare": false
+},
+{
+    "Nome": "Catfolk Nove Vite",
+    "Razza": "catfolk",
+    "Desc": "La tua famiglia sembra sempre risollevarsi dai disastri, non per robustezza fisica o abilità specializzate, ma per pura fortuna. Altri catfolk sussurrano che tu abbia nove vite. Quando stai morendo, non aggiungi il tuo valore da morente alla CD delle prove di Recupero (di solito la CD è 10). Inoltre, ottieni il talento generale Tenace.",
+    "Mostrare": false
+},
+{
+    "Nome": "Catfolk dalle Orecchie Acute",
+    "Razza": "catfolk",
+    "Desc": "Sei nato con grandi orecchie espressive che si muovono con il tuo umore e si drizzano a ogni suono inaspettato. Ottieni un bonus di circostanza +2 per individuare creature non rilevate che puoi udire entro 9m con un’azione Cercare. Finché sei consapevole di una creatura tramite il suono, una volta per round le tue orecchie possono aiutarti a Segnalare la creatura a tutti gli alleati come azione gratuita.",
+    "Mostrare": false
+},
+{
+    "Nome": "Catfolk Invernale",
+    "Razza": "catfolk",
+    "Desc": "Hai un folto mantello di pelliccia che ti protegge dal freddo. Ottieni resistenza al freddo pari a metà del tuo livello (minimo 1). Consideri gli effetti di freddo ambientale come se fossero un grado meno severo (freddo incredibile diventa estremo, freddo estremo diventa grave, e così via).",
+    "Mostrare": false
+},
+{
+    "Nome": "Azarketi a Scaglie Antiche",
+    "Razza": "azarketi",
+    "Desc": "La tua discendenza proviene da azarketi che rimangono fedeli alle loro radici delle profondità marine. Separato dalla società terrestre, sei un estraneo a qualsiasi mondo sopra i mille sottometri di profondità. Ottieni scurovisione. Il tuo corpo è costellato di punti fosforescenti che emettono una luce guida e ti aiutano a comunicare. I punti—situati principalmente su viso, braccia e mani—illuminano un raggio di 3m attorno a te con luce fioca. Puoi attivare, disattivare o cambiare la disposizione delle luci come un’azione, che ha il tratto concentrazione.",
+    "Mostrare": false
+},
+{
+    "Nome": "Azarketi Bentonico",
+    "Razza": "azarketi",
+    "Desc": "La tua stirpe risale ad azarketi che vivono nelle profondità marine, e puoi sopportare le fredde profondità più facilmente della maggior parte. Ottieni resistenza al freddo pari a metà del tuo livello e non consideri il freddo ambientale come un grado più severo quando sei bagnato. Ti adatti automaticamente ai cambiamenti di pressione derivanti dalla profondità dell’acqua senza subire effetti negativi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Azarketi Immunizzato",
+    "Razza": "azarketi",
+    "Desc": "I tuoi antenati dovettero sopravvivere in acque inquinate che rendevano ogni respiro tossico. Ottieni resistenza al veleno pari a metà del tuo livello (minimo 1). Inoltre, puoi sopravvivere fuori dall’acqua per 72 ore prima di iniziare a soffocare.",
+    "Mostrare": false
+},
+{
+    "Nome": "Azarketi Respiro di Nebbia",
+    "Razza": "azarketi",
+    "Desc": "Discendi da azarketi che migrarono verso ambienti terrestri in grado di sostenere il loro bisogno d’acqua. Nel tempo, la tua gente si è adattata alla vita sulla terra sia culturalmente che fisicamente, fino ad arrivare ad azarketi nati con capelli umani come i loro antenati Azlanti. Non hai più bisogno di essere immerso in acqua ogni 24 ore per mantenere la tua pelle e puoi invece nebulizzare o bagnare la pelle con acqua per vivere comodamente. La tua velocità terrestre è di 7.5m, ma la tua velocità di nuoto è di soli 4.5m.",
+    "Mostrare": false
+},
+{
+    "Nome": "Azarketi a Vista Torbida",
+    "Razza": "azarketi",
+    "Desc": "Vivi in acque torbide e ti sei abituato alla vita in un ambiente a bassa visibilità. Hai bisogno solo di una prova piatta con CD 3 quando prendi di mira una creatura occultata e una prova piatta con CD 9 quando prendi di mira una creatura nascosta.",
+    "Mostrare": false
+},
+{
+    "Nome": "Azarketi Fluviale",
+    "Razza": "azarketi",
+    "Desc": "Provenite da azarketi che hanno abbandonato gli oceani per le acque dolci della vita nell'entroterra. La geografia variegata dei fiumi ti ha richiesto di sviluppare abilità fisiche avanzate per nuotare contro le rapide, saltare attraverso acque zampillanti e navigare abilmente tra canali bassi e stretti. Quando riesci in una prova di Atletica per nuotare, ottieni invece un successo critico.",
+    "Mostrare": false
+},
+{
+    "Nome": "Azarketi Spinoso",
+    "Razza": "azarketi",
+    "Desc": "Le tue pinne nascondono spine velenose lanciabili. Hai un attacco senz’armi a distanza con spina che possiede il tratto senz’armi, infligge 1d4 danni da veleno, ha un incremento di gittata di 3m ed è nel gruppo delle armi da dardo.",
+    "Mostrare": false
+},
+{
+    "Nome": "Azarketi Tattile",
+    "Razza": "azarketi",
+    "Desc": "La tua pelle può rilevare i più piccoli cambiamenti nelle correnti oceaniche. Ottieni percezione tramite onde imprecisa con una portata di 9m, che ti permette di percepire i movimenti nell’acqua attorno a te. Ottieni inoltre un bonus di circostanza +1 alle prove di Sopravvivenza per orientarti in ambienti acquatici.",
+    "Mostrare": false
+},
+{
+    "Nome": "Azarketi Talassico",
+    "Razza": "azarketi",
+    "Desc": "Risalite da azarketi che hanno vissuto la loro vita tra i grandi oceani e mari del mondo. Sai come usare le correnti e la magia primordiale dell’acqua per guidare i tuoi attacchi. Ottieni il talento di abilità Predatore Sottomarino e i tuoi attacchi a distanza perforanti non dimezzano gli incrementi di gittata quando combatti contro bersagli sott’acqua.",
+    "Mostrare": false
+},
+{
+    "Nome": "Athamaru Corallino",
+    "Razza": "athamaru",
+    "Desc": "Il corallo ricopre alcune parti del tuo corpo, fornendo uno strato naturale di difesa. Gli athamaru corallini spesso scelgono Simbionti Corallini e altri talenti di ascendenza correlati. Le piastre di corallo sono un'armatura media del gruppo delle armature a piastre che garantisce un bonus oggetto di +4 alla CA, un limite di Destrezza di +1, una penalità alle prove di –2, una penalità alla Velocità di –1.5m, un valore di Forza di +3 e possiede i tratti idrodinamico e confortevole. Non puoi mai indossare altre armature o rimuovere il corallo. Puoi incidere rune d'armatura sul corallo.",
+    "Mostrare": false
+},
+{
+    "Nome": "Athamaru Speranzoso",
+    "Razza": "athamaru",
+    "Desc": "Hai iniziato a prepararti per diventare una matriarca athamaru, e probabilmente ti stai allontanando dalla tua comunità per prepararti meglio come leader. Come parte del cambiamento fisico, sei notevolmente più alto di prima. Invece di essere di taglia Media, la tua taglia è Grande (vedi le regole per i personaggi giocanti di taglia Grande). Inoltre, infondi nei tuoi alleati una sensazione di speranza. Hai un’aura di 3m che concede a qualsiasi alleato al suo interno un bonus di circostanza +1 ai tiri salvezza contro la paura; questo è un effetto di emozione e mentale.",
+    "Mostrare": false
+},
+{
+    "Nome": "Athamaru Caleidoscopico",
+    "Razza": "athamaru",
+    "Desc": "Le tue scaglie sono un tripudio di colori che scintillano alla luce. In aree di luce intensa o fioca, ottieni un bonus di circostanza +1 alle prove di Intrattenere. Ottieni anche la reazione Ricerca di Bagliore.###{\"nome\": \"Ricerca di Bagliore\", \"tipoAzz\": \"reazione\", \"tratti\": [\"sfortuna\"], \"dettagli\": {\"innesco\": \"Una creatura tenta una prova piatta per colpirti a causa della tua occultazione.\"}, \"desc\": \"Proietti le tue scaglie luminose negli occhi della creatura, rendendo difficile per essa individuare la tua posizione esatta. La creatura deve tirare due volte la prova piatta e prendere il risultato peggiore.\"}###",
+    "Mostrare": false
+},
+{
+    "Nome": "Athamaru Spinato",
+    "Razza": "athamaru",
+    "Desc": "Acuti aculei sulla tua testa possono penetrare profondamente i tuoi nemici. La maggior parte degli athamaru usa tali aculei per difendersi, ma un colpo di testa ben temporizzato può essere devastantemente efficace. Ottieni un attacco senz’armi in mischia con aculei che infligge 1d6 danni perforanti. I tuoi aculei appartengono al gruppo delle armi da lotta e possiedono i tratti agile, finezza e senz’armi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Orco delle Badlands",
+    "Razza": "orco",
+    "Desc": "Provenite da terre aride bruciate dal sole, dove gambe lunghe e la capacità di resistere agli elementi vi hanno aiutato a prosperare. Potete Affrettarvi per il doppio del tempo durante l’esplorazione prima di dovervi fermare e trattate gli effetti ambientali di calore come se fossero di un grado meno estremo (calore incredibile diventa estremo, estremo diventa severo, e così via).",
+    "Mostrare": false
+},
+{
+    "Nome": "Orco Pronto alla Battaglia",
+    "Razza": "orco",
+    "Desc": "Discendete da una stirpe di terrificanti comandanti da campo di battaglia. Diventate addestrati in Intimidazione e ottenete il talento di abilità Sguardo Intimidatorio.",
+    "Mostrare": false
+},
+{
+    "Nome": "Orco delle Profondità",
+    "Razza": "orco",
+    "Desc": "Le vostre mani callose e gli occhi rossi testimoniano una vita trascorsa nelle oscure profondità delle caverne montane, dove avete imparato a combattere su scogliere rocciose e sopravvivere con risorse minime. Ottenete il talento di abilità Competenza Terreno per il terreno sotterraneo e il talento Scalatore da Combattimento.",
+    "Mostrare": false
+},
+{
+    "Nome": "Orco Sepolcrale",
+    "Razza": "orco",
+    "Desc": "Siete stati esposti a potenti energie necromantiche che avrebbero dovuto uccidervi—ma siete sopravvissuti. La vostra pelle è fredda, umida e grigia. Ottenete resistenza ai danni del vuoto pari alla metà del vostro livello (minimo 1). Ottenete inoltre un bonus di circostanza +1 ai tiri salvezza contro effetti con il tratto morte o vuoto.",
+    "Mostrare": false
+},
+{
+    "Nome": "Orco dalle Cicatrici del Clan",
+    "Razza": "orco",
+    "Desc": "Fate parte di una comunità orchesca che pratica la scarificazione o il tatuaggio rituale. I segni sulla vostra pelle mostrano la vostra eccezionale resistenza e vitalità. Ottenete 12 Punti Ferita dalla vostra ascendenza invece di 10. Ottenete inoltre il talento Tenace.",
+    "Mostrare": false
+},
+{
+    "Nome": "Orco della Pioggia",
+    "Razza": "orco",
+    "Desc": "Siete nati in una foresta pluviale dove solo intricati intrecci di alberi offrono protezione dalle piogge torrenziali e dalle inondazioni improvvise. Avete imparato a muovervi abilmente nel terreno della giungla e a resistere ai vari mali comuni negli ambienti umidi. Ottenete un bonus di circostanza +2 alle prove di Atletica per Arrampicarvi o Nuotare e un bonus di circostanza +1 ai tiri salvezza contro le malattie.",
+    "Mostrare": false
+},
+{
+    "Nome": "Orco Invernale",
+    "Razza": "orco",
+    "Desc": "I vostri antenati sono sopravvissuti in climi freddi. Diventate addestrati in Sopravvivenza e trattate gli effetti ambientali di freddo come se fossero di un grado meno estremo (freddo incredibile diventa estremo, estremo diventa severo, e così via).",
+    "Mostrare": false
+},
+{
+    "Nome": "Leshy Cactus",
+    "Razza": "leshy",
+    "Desc": "Spine ricoprono il tuo corpo. Ottieni un attacco senz'armi con le spine che infligge 1d6 danni perforanti. Le tue spine appartengono al gruppo delle armi da lotta e hanno i tratti finezza e senz'armi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Leshy Crisantemo",
+    "Razza": "leshy",
+    "Desc": "Assomigli a un bambino umano, ma con una grande corona di crisantemi che cresce dalla tua testa, ornata come quella di un imperatore. Questi petali possiedono proprietà medicinali, garantendoti un bonus di circostanza +1 ai tiri salvezza contro i veleni. Inoltre, durante le tue preparazioni giornaliere, puoi strappare in modo innocuo alcuni petali dalla tua testa e immergerli in acqua fresca per creare un singolo antidoto minore, che assume la forma di un tè. Al 6° livello, invece, crei un antidoto moderato; al 10°, uno superiore; e al 14°, uno maggiore. Il tè perde la sua efficacia se non viene consumato prima delle tue prossime preparazioni giornaliere.",
+    "Mostrare": false
+},
+{
+    "Nome": "Leshy Frutto",
+    "Razza": "leshy",
+    "Desc": "Il tuo corpo produce continuamente piccoli frutti imbevuti di magia primordiale. Ogni giorno all'alba, un nuovo frutto matura. Tu o un alleato potete rimuovere questo frutto come un'azione di Interazione. Se una creatura vivente che può trarre nutrimento dai frutti lo consuma come un'azione di Interazione entro un'ora, recupera 1d8 Punti Ferita, più 1d8 aggiuntivo per ogni 2 tuoi livelli oltre il 1°. Questo effetto ha i tratti guarigione e vitalità.",
+    "Mostrare": false
+},
+{
+    "Nome": "Leshy Fungo",
+    "Razza": "leshy",
+    "Desc": "Il tuo corpo è stato creato da funghi che crescono all'ombra di caverne e alberi, e ti senti a tuo agio in caverne e tane oscure. Ottieni scurovisione. Perdi il tratto pianta e ottieni il tratto fungo.",
+    "Mostrare": false
+},
+{
+    "Nome": "Leshy Zucca",
+    "Razza": "leshy",
+    "Desc": "Hai una grande zucca come cranio e, poiché non hai un cervello fisico, puoi usare lo spazio all'interno della tua testa. Puoi conservare una collezione di oggetti fino a 1 Ingombro all'interno della tua testa. La CD delle prove per rubare oggetti dall'interno della tua testa aumenta di 4. Inoltre, se conservi solo un oggetto nella tua testa, puoi estrarlo senza sforzo nella tua mano come parte di un'altra azione per usare l'oggetto. Estrarre l'oggetto conferisce a quest'altra azione il tratto manipolare.",
+    "Mostrare": false
+},
+{
+    "Nome": "Leshy Foglia",
+    "Razza": "leshy",
+    "Desc": "Il tuo corpo è composto principalmente da fogliame naturale e, come una foglia che cade da un albero, atterri con particolare grazia. Non subisci danni dalle cadute, indipendentemente dalla distanza da cui cadi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Leshy Loto",
+    "Razza": "leshy",
+    "Desc": "Galleggi senza sforzo sulla superficie dell'acqua. Puoi camminare sulla superficie di acque calme e altri liquidi non dannosi, muovendoti a metà della tua Velocità normale. Puoi anche tentare di Bilanciarti per muoverti sulla superficie di acque correnti, usando la CD di una prova di Nuotare per muoverti attraverso l'acqua. Quando lo fai, non puoi muoverti più velocemente di metà della tua Velocità, e se fallisci o fallisci criticamente, cadi in acqua invece degli effetti normali.",
+    "Mostrare": false
+},
+{
+    "Nome": "Leshy Bambino di Pesca",
+    "Razza": "leshy",
+    "Desc": "Il tuo spirito leshy ha preso dimora in un enorme frutto di pesca prima che il tuo corpo ne emergesse, forse emulando un eroe del passato nato nello stesso modo. Assomigli a un bambino umano, ma con un rossore perenne sulla pelle e forse alcune foglie di pesco che crescono dal tuo corpo. Lo spirito naturale dentro di te mette a proprio agio certi animali. Puoi porre domande e ricevere risposte da animali domestici e da allevamento, come cani o fagiani, e puoi usare Diplomazia per Fare una Buona Impressione e per Fare Richieste a loro. La maggior parte degli animali addomesticati ha un atteggiamento iniziale indifferente o amichevole nei tuoi confronti e ti concede tempo per esporre le tue ragioni, mentre altri animali reagiscono a te come a qualsiasi altro avventuriero.",
+    "Mostrare": false
+},
+{
+    "Nome": "Leshy Pino",
+    "Razza": "leshy",
+    "Desc": "Secerni una linfa densa e appiccicosa dalla tua corteccia, che rende più facile arrampicarti e trattenere il tuo equipaggiamento. Ottieni il talento Scalatore da Combattimento come talento bonus e ottieni un bonus di circostanza +2 alla tua CD di Riflessi contro i tentativi di Disarmarti.",
+    "Mostrare": false
+},
+{
+    "Nome": "Leshy Radice",
+    "Razza": "leshy",
+    "Desc": "Il tuo corpo è fatto di radici resistenti che ti ancorano saldamente al suolo. Ottieni 10 Punti Ferita dalla tua ascendenza invece di 8. Puoi restare senza luce solare per 2 settimane prima di iniziare a morire di fame. Ottieni un bonus di circostanza +2 alla tua CD di Tempra o Riflessi contro i tentativi di Riposizionarti, Spingerti o Farti Cadere. Questo bonus si applica anche ai tiri salvezza contro incantesimi o effetti che tentano di muoverti o buttarti a terra.",
+    "Mostrare": false
+},
+{
+    "Nome": "Leshy Alga Marina",
+    "Razza": "leshy",
+    "Desc": "Il tuo corpo è fatto di alghe intrecciate e sei a tuo agio sott'acqua come sulla terraferma. Ottieni una Velocità di nuoto di 6m e puoi sempre respirare sott'acqua. Tuttavia, la tua Velocità terrestre è ridotta di 1.5m (a 6m per la maggior parte dei leshy alga marina).",
+    "Mostrare": false
+},
+{
+    "Nome": "Leshy Vite",
+    "Razza": "leshy",
+    "Desc": "Le tue liane prensili ti garantiscono un'abilità impareggiabile nell'arrampicarti. Non hai bisogno di avere mani libere per Arrampicarti. Inoltre, se ottieni un successo in una prova di Atletica per Arrampicarti, ottieni invece un successo critico.",
+    "Mostrare": false
+},
+{
+    "Nome": "Umano Abile",
+    "Razza": "umano",
+    "Desc": "La tua ingegnosità ti permette di addestrarti in una vasta varietà di abilità. Diventi addestrato in un'abilità a tua scelta. Al 5° livello, diventi esperto nell'abilità scelta.",
+    "Mostrare": false
+},
+{
+    "Nome": "Umano Versatile",
+    "Razza": "umano",
+    "Desc": "La versatilità e l'ambizione dell'umanità hanno alimentato la sua ascesa fino a diventare l'ascendenza più comune nella maggior parte delle nazioni del mondo. Seleziona un talento generale a tua scelta per il quale soddisfi i prerequisiti (come per il tuo talento di ascendenza, puoi selezionare questo talento generale in qualsiasi momento durante la creazione del personaggio).",
+    "Mostrare": false
+},
+{
+    "Nome": "Umano Toccato dall'Inverno",
+    "Razza": "umano",
+    "Desc": "Il potere dell'inverno scorre in te. Questa ascendenza è più comune tra i Jadwiga di Irrisen, a causa della loro discendenza da Baba Yaga, e tra alcuni Erutaki toccati dagli spiriti. Ottieni resistenza al freddo pari alla metà del tuo livello (minimo 1), e tratti gli effetti ambientali di freddo come se fossero di un grado meno estremo (freddo incredibile diventa estremo, estremo diventa severo, e così via).",
+    "Mostrare": false
+},
+{
+    "Nome": "Halfling Coraggioso",
+    "Razza": "halfling",
+    "Desc": "La tua stirpe è nota per mantenere la calma e resistere alla paura nei momenti difficili. Quando ottieni un successo in un tiro salvezza contro un effetto di emozione, ottieni invece un successo critico.",
+    "Mostrare": false
+},
+{
+    "Nome": "Halfling delle Colline",
+    "Razza": "halfling",
+    "Desc": "Abituata a una vita tranquilla tra le colline, la tua gente trova riposo e rilassamento particolarmente rigeneranti, soprattutto quando si concede qualche comfort. Quando recuperi Punti Ferita durante la notte, aggiungi il tuo livello ai Punti Ferita recuperati. Quando qualcuno usa la competenza Medicina per Curare le tue Ferite, puoi mangiare uno spuntino per aggiungere il tuo livello ai Punti Ferita che recuperi dal loro trattamento.",
+    "Mostrare": false
+},
+{
+    "Nome": "Halfling Maledetto",
+    "Razza": "halfling",
+    "Desc": "Sei nato con una strana benedizione: privo della tipica fortuna degli halfling, puoi invece manipolare la sorte degli altri. Non puoi mai prendere il talento ++Fortuna degli Halfling++ e ottieni l'azione ++Jettatura++.###{\"nome\": \"Jettatura\", \"tipoAzz\": \"dueAzioni\", \"tratti\": [\"Maledizione\", \"Occulto\"], \"dettagli\": {\"Frequenza\": \"una volta al giorno\"}, \"desc\": \"Puoi maledire un'altra creatura con goffaggine. Questa maledizione ha una gittata di 9m e devi essere in grado di vedere il tuo bersaglio. Il bersaglio effettua un tiro salvezza su Volontà contro la tua CD di classe o CD degli incantesimi, a seconda di quale sia più alta.@++Successo++ Il bersaglio non è influenzato ed è temporaneamente immune per 24 ore.@++Fallimento++ Il bersaglio è goffo 1 per 1 minuto.@++Fallimento Critico++ Il bersaglio è goffo 2 per 1 minuto.\"}###",
+    "Mostrare": false
+},
+{
+    "Nome": "Halfling Nomade",
+    "Razza": "halfling",
+    "Desc": "I tuoi antenati hanno viaggiato di luogo in luogo per generazioni, mai contenti di stabilirsi. Ottieni due lingue aggiuntive a tua scelta, selezionate tra le lingue comuni e non comuni a te disponibili, e ogni volta che prendi il talento ++Multilingue++, ottieni un'altra nuova lingua.",
+    "Mostrare": false
+},
+{
+    "Nome": "Halfling Osservatore",
+    "Razza": "halfling",
+    "Desc": "I tuoi sensi affinati ti mettono rapidamente in guardia dal pericolo o dagli inganni. Ottieni un bonus di circostanza di +1 alla tua CD di Percezione, ma non alle prove di Percezione.",
+    "Mostrare": false
+},
+{
+    "Nome": "Halfling del Crepuscolo",
+    "Razza": "halfling",
+    "Desc": "I tuoi antenati hanno compiuto molti atti segreti sotto la copertura del crepuscolo, nel bene o nel male, e col tempo hanno sviluppato la capacità di vedere al crepuscolo oltre la normale vista acuta degli halfling. Ottieni visione in penombra.",
+    "Mostrare": false
+},
+{
+    "Nome": "Halfling dei Boschi Selvaggi",
+    "Razza": "halfling",
+    "Desc": "Provenendo dalle profondità di una giungla o di una foresta, hai imparato a usare la tua piccola taglia per farti strada tra la vegetazione e altri ostacoli. Ignori qualsiasi terreno difficile causato da piante e funghi, come cespugli, rampicanti e sottobosco.",
+    "Mostrare": false
+},
+{
+    "Nome": "Goblin Pellebruciata",
+    "Razza": "goblin",
+    "Desc": "I tuoi antenati hanno sempre avuto una connessione con il fuoco e una pelle più spessa, che ti permette di resistere alle ustioni. Ottieni resistenza al fuoco pari alla metà del tuo livello (minimo 1). Puoi anche recuperare più facilmente dall'essere in fiamme. La tua prova piatta per rimuovere danni da fuoco persistenti ha una CD 10 invece di 15, che si riduce a CD 5 se un'altra creatura usa un'azione particolarmente appropriata per aiutarti.",
+    "Mostrare": false
+},
+{
+    "Nome": "Goblin Dokkaebi",
+    "Razza": "goblin",
+    "Desc": "I tuoi antenati hanno padroneggiato la magia basata sulle illusioni, donandoti una comprensione innata di essa. Puoi lanciare ++illusione minore++ come trucco occulto innato a volontà. Un trucco è potenziato a un grado di incantesimo pari alla metà del tuo livello, arrotondato per eccesso. Ottieni inoltre un bonus di circostanza di +1 ai tiri salvezza su Volontà contro illusioni.",
+    "Mostrare": false
+},
+{
+    "Nome": "Goblin Ferrorosso",
+    "Razza": "goblin",
+    "Desc": "Puoi sopravvivere con cibo che la maggior parte delle persone considererebbe avariato. Puoi nutrirti con pasti poveri in un insediamento finché i rifiuti sono facilmente disponibili, senza usare l'attività di tempo libero Sostentarsi. Puoi mangiare e bere anche quando sei nauseato.@Ottieni un bonus di circostanza di +2 ai tiri salvezza contro afflizioni, contro l'acquisizione della condizione nauseato e per rimuovere la condizione nauseato. Quando ottieni un successo in un tiro salvezza su Tempra influenzato da questo bonus, ottieni invece un successo critico. Tutti questi benefici si applicano solo quando l'afflizione o la condizione derivano da qualcosa che hai ingerito.",
+    "Mostrare": false
+},
+{
+    "Nome": "Goblin Dentiaguzzi",
+    "Razza": "goblin",
+    "Desc": "I denti della tua famiglia sono armi formidabili. Ottieni un attacco senz’armi con le mascelle che infligge 1d6 danni perforanti. Le tue mascelle appartengono al gruppo da rissa e hanno i tratti destrezza e senz’armi.",
+    "Mostrare": false
+},
+{
+    "Nome": "Goblin delle Nevi",
+    "Razza": "goblin",
+    "Desc": "Sei abituato a vivere in terre gelide e hai la pelle che varia dal blu cielo al blu navy, così come una pelliccia blu. Ottieni resistenza al freddo pari alla metà del tuo livello (minimo 1). Tratti gli effetti ambientali di freddo come se fossero di un grado meno estremo (freddo incredibile diventa estremo, estremo diventa severo, e così via).",
+    "Mostrare": false
+},
+{
+    "Nome": "Goblin con Coda",
+    "Razza": "goblin",
+    "Desc": "Hai una coda potente, probabilmente perché discendi da una comunità di goblin scimmia. Ottieni un bonus di circostanza di +2 alle prove di Atletica per Arrampicarti, ottieni ++Scalatore da Combattimento++ come talento bonus e riduci di una il numero di mani libere richieste per Arrampicarti o Far Cadere.",
+    "Mostrare": false
+},
+{
+    "Nome": "Goblin Arboricolo",
+    "Razza": "goblin",
+    "Desc": "Ti sei adattato particolarmente bene a vivere in ambienti boschivi. Finché ti trovi in una foresta o giungla, ottieni un bonus di circostanza di +2 alle prove di Furtività per Nasconderti e Muoverti Silenziosamente, alle prove di Sopravvivenza per Sostentarti, e alla tua CD di Sopravvivenza per Coprire le Tracce.",
+    "Mostrare": false
+},
+{
+    "Nome": "Goblin Indistruttibile",
+    "Razza": "goblin",
+    "Desc": "Sei in grado di riprenderti facilmente dalle ferite grazie a un cranio eccezionalmente spesso, ossa cartilaginee o qualche altra benedizione mista. Ottieni 10 Punti Ferita dalla tua ascendenza invece di 6. Quando cadi, riduci i danni da caduta che subisci come se fossi caduto da metà della distanza effettiva.",
+    "Mostrare": false
+},
+{
+    "Nome": "Gnomo Camaleontico",
+    "Razza": "gnomo",
+    "Desc": "Il colore dei tuoi capelli e della tua pelle è mutevole, forse a causa di una magia latente derivante dalle influenze del Primo Mondo o di effetti di illusione persistenti. Puoi modificare lentamente la vivacità e il colore esatto, e la colorazione può variare in diverse parti del corpo, permettendoti di creare motivi o altri disegni colorati. Serve un'azione per piccoli cambiamenti localizzati e fino a un'ora per cambiamenti drastici in tutto il corpo. Mentre dormi, i colori cambiano da soli in sintonia con i tuoi sogni, dandoti una colorazione insolita ogni mattina. Quando ti trovi in un'area in cui la tua colorazione è simile all'ambiente (per esempio verde foresta in una foresta), puoi usare un'azione singola per fare piccoli cambiamenti localizzati progettati per aiutarti a confonderti con l'ambiente circostante. Questo ti concede un bonus di circostanza di +2 alle prove di Furtività finché l'ambiente intorno a te non cambia in colorazione o motivo.",
+    "Mostrare": false
+},
+{
+    "Nome": "Gnomo Fatato",
+    "Razza": "gnomo",
+    "Desc": "Il sangue delle fate scorre nelle tue vene, saturandoti della loro magia e rendendoti veramente uno di loro. Ottieni il tratto ++fatato++, in aggiunta ai tratti ++gnomo++ e ++umanoide++. Scegli un trucco dalla lista degli incantesimi primordiali. Puoi lanciare questo incantesimo come incantesimo primordiale innato a volontà. Un trucco è potenziato a un grado di incantesimo pari alla metà del tuo livello, arrotondato per eccesso. Puoi cambiare questo trucco con un altro dalla stessa lista una volta al giorno meditando per riallinearti con il Primo Mondo; questa è un'attività di 10 minuti che ha il tratto ++concentrazione++.",
+    "Mostrare": false
+},
+{
+    "Nome": "Gnomo Kijimuna",
+    "Razza": "gnomo",
+    "Desc": "I tuoi antenati vivevano sugli alberi e pescavano in tutte le acque di Tian Xia. Ottieni la tua scelta tra i seguenti benefici. Una volta effettuata, questa scelta non può essere cambiata.@Puoi arrampicarti su qualsiasi albero di banyan. Ottieni il talento Scalatore da Combattimento, e se ottieni un successo nella prova di Atletica per Arrampicarti, ottieni invece un successo critico.@Puoi catturare qualsiasi pesce. Ottieni una Velocità di nuoto di 4.5m.",
+    "Mostrare": false
+},
+{
+    "Nome": "Gnomo Sensoriale",
+    "Razza": "gnomo",
+    "Desc": "Vedi tutti i colori come più vividi, senti tutti i suoni come più ricchi e percepisci soprattutto gli odori con incredibile dettaglio. Ottieni un senso speciale: olfatto impreciso con una portata di 9m. Questo significa che puoi usare il tuo olfatto per determinare la posizione esatta di una creatura. Il GM di solito raddoppia la portata se ti trovi sottovento rispetto alla creatura o la dimezza se ti trovi sopravento.@Inoltre, ottieni un bonus di circostanza di +2 alle prove di Percezione ogni volta che cerchi di localizzare una creatura non individuata che si trova entro la portata del tuo olfatto.",
+    "Mostrare": false
+},
+{
+    "Nome": "Gnomo Umbrale",
+    "Razza": "gnomo",
+    "Desc": "Che sia per una connessione con fate oscure o ombrose, per discendenza dagli gnomi sotterranei conosciuti come drathnelar, o per un'altra fonte, puoi vedere nell'oscurità totale. Ottieni scurovisione.",
+    "Mostrare": false
+},
+{
+    "Nome": "Gnomo Vivace",
+    "Razza": "gnomo",
+    "Desc": "Hai un'incredibile connessione con l'energia positiva che fluisce attraverso il Primo Mondo, rendendo più difficile per l'energia negativa colpire la tua forza vitale. Ottieni resistenza all'energia negativa pari alla metà del tuo livello (minimo 1). Quando hai la condizione condannato, questa ti influenza come se il suo valore fosse 1 inferiore a quello reale (condannato 1 non ha effetto, condannato 2 ti fa morire a morente 3, e così via).",
+    "Mostrare": false
+},
+{
+    "Nome": "Gnomo della Fonte Magica",
+    "Razza": "gnomo",
+    "Desc": "Un'altra fonte di magia ha su di te un'influenza maggiore rispetto alla magia primordiale della tua stirpe fatata. Questa connessione può derivare da un piano occulto o da un antico canto occulto; da una divinità, un celestiale o un demone; da un residuo magico lasciato da una guerra di maghi; o da un'antica magia runica.@Scegli arcana, divina o occulta. Ottieni un trucco dalla lista di incantesimi della tradizione magica scelta. Puoi lanciare questo incantesimo come incantesimo innato a volontà, appartenente alla tradizione scelta. Un trucco è potenziato a un grado di incantesimo pari alla metà del tuo livello, arrotondato per eccesso. Ogni volta che ottieni un incantesimo primordiale innato da un talento di stirpe gnoma, cambia la sua tradizione da primordiale a quella che hai scelto.",
+    "Mostrare": false
+},
+  {
+    "Nome": "Aiuvarin",
+    "Razza": "Universale",
+    "Desc": "Hai elfi, o forse altri aiuvarin, nel tuo albero genealogico. Hai orecchie a punta e altri segni evidenti dell’eredità elfica. Ottieni il tratto elfo, il tratto aiuvarin e visione crepuscolare. Inoltre, quando acquisisci un talento razziale, puoi scegliere tra talenti aiuvarin, elfi e quelli della tua razza.",
+    "Dettagli": "Gli aiuvarin sono i discendenti degli elfi e di individui di altre stirpi, come gli umani, o di due aiuvarin. Sono comunemente noti come “mezzelfi”. Non hanno una patria propria e spesso vivono ai margini delle culture dei genitori, cercando di trovare un proprio posto nel mondo. Fisicamente, mostrano tratti elfi come le orecchie a punta e una corporatura slanciata, ma non hanno gli occhi alieni tipici degli elfi. Vivono più a lungo degli umani (circa 150 anni), ma non quanto gli elfi, il che può rendere difficile costruire legami duraturi con entrambe le comunità di origine. Molti aiuvarin sviluppano inclinazioni artistiche o si dedicano all’intrattenimento, come risposta al loro senso di estraneità culturale.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Dromaar",
+    "Razza": "Universale",
+    "Desc": "La forza orchesca scorre nel tuo sangue. Hai una sfumatura verdastra sulla pelle e altri indicatori dell’eredità orchesca. Ottieni il tratto orco, il tratto dromaar e visione crepuscolare. Quando acquisisci un talento razziale, puoi scegliere tra talenti dromaar, orchi e quelli della tua razza.",
+    "Dettagli": "I dromaar sono i figli di orchi e membri di altre stirpi, solitamente umani. Con l’integrazione degli orchi nella lotta contro il Tiranno Sussurrante, i dromaar sono sempre più comuni. Il termine “dromaar” viene dalla lingua orchesca e si riferisce ai tamburini che guidano gli eserciti in battaglia — un simbolo di orgoglio e rinnovamento culturale per gli orchi. Esteticamente, i dromaar presentano pelle con sfumature verdi e altri tratti orchi. Possono essere emarginati nelle società umane, dove spesso vengono considerati rozzi o pericolosi, trovando lavoro in settori faticosi o pericolosi, oppure rifugiandosi tra gli orchi o nella natura selvaggia. Nella società orchesca, invece, sono più accettati e possono sfruttare i punti di forza delle loro origini miste per distinguersi. Un dromaar nato da un genitore umano vive in media fino a circa 70 anni.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Aphorite",
+    "Razza": "Universale",
+    "Desc": "Sei nato con una connessione ad Axis, il Piano della Legge. Ottieni il tratto aphorite, in aggiunta ai tratti della tua razza. Ottieni anche visione crepuscolare oppure scurovisione se la tua razza possiede già la visione crepuscolare. Quando acquisisci un talento razziale, puoi scegliere tra talenti aphorite e quelli della tua razza.",
+    "Dettagli": "Gli aphorite furono creati dagli axiomiti, esseri nativi della Città Eterna di Axis, il piano della Legge pura. Inizialmente servivano come mediatori tra gli axiomiti e gli imprevedibili mortali, unendo logica e libero arbitrio. Con il tempo, sempre più aphorite nacquero tra i mortali, acquisendo aspetto e personalità più simili a loro, ma mantenendo i segni della loro origine cosmica. Gli aphorite hanno pelle metallica coperta da polvere cristallina, una forte propensione alla logica, abilità nell’artigianato e un’inclinazione naturale per l’ordine e la cooperazione. Pur mantenendo un legame con la Legge cosmica, sono individui autonomi. Giocare un aphorite significa interpretare un personaggio legato all’ordine universale, sospeso tra destino calcolato e libero arbitrio.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Ardande",
+    "Razza": "Universale",
+    "Desc": "Discendi da elementali del legno o possiedi un’altra forma di eredità influenzata dal Piano Elementale del Legno. Potresti avere pelle verde e muschiosa, viticci che crescono al posto dei capelli, o arti sottili simili a ramoscelli. Ottieni il tratto ardande, in aggiunta ai tratti della tua ascendenza. Ottieni anche visione crepuscolare, oppure scurovisione se la tua razza possiede già la visione crepuscolare. Quando acquisisci un talento razziale, puoi scegliere tra talenti ardande, geniekin e quelli della tua razza.",
+    "Dettagli": "Gli ardande sono dei geniekin, ovvero discendenti planari con forti legami all’elemento legno. Hanno carne composta da legno e linfa che scorre nelle vene al posto del sangue. Discendono da elementali del legno, kizidhar, driadi, draghi delle foreste, oppure sono nati sotto l’influenza di potenti forze elementali del Primo Mondo o del Piano del Legno. Ogni ardande è legato a un lignaggio specifico del legno — come i fiori primaverili, i ceppi marci pieni di vita, o la linfa che cola dalla corteccia — che può riflettere l’ambiente in cui è nato o la sua discendenza planare. Alcuni esempi sono gli springsoul, nati in foreste magiche e rigogliose, o i moldersoul, influenzati da forze oscure e decadenti. Scegliere di giocare un ardande significa interpretare un personaggio che incarna la resistenza, l’adattabilità e il nutrimento offerti dall’essenza del legno elementale.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Changeling",
+    "Razza": "Universale",
+    "Desc": "Tua madre era una strega. L'eterocromia dei tuoi occhi è il segno più evidente di questa discendenza, ma potresti avere anche un fisico più esile, pelle pallida e capelli scuri rispetto agli altri membri della tua stirpe. Ottieni il tratto changeling. Ottieni anche visione crepuscolare, oppure scurovisione se la tua stirpe possiede già visione crepuscolare. Quando acquisisci un talento razziale, puoi scegliere tra talenti changeling e quelli della stirpe del tuo altro genitore.",
+    "Dettagli": "Esistono leggende in molte culture su bambini rapiti e sostituiti da mostri, ma spesso le vere colpevoli sono le streghe: madri dirette o fonti magiche di stranezze attraverso rituali del loro coven. I changeling spesso iniziano la vita come orfani o reietti. Benché esternamente somiglino agli altri membri della loro stirpe, i changeling si distinguono per gli occhi di colore diverso: uno corrisponde alla linea paterna, l'altro alla strega madre, spesso in tonalità innaturali come il viola o il verde acceso. Questo rende difficile nascondere la propria natura e può portare all'esclusione sociale. Crescendo, sviluppano altri tratti ereditati dalla madre, come artigli, scurovisione o poteri magici innati. I changeling possono essere di qualsiasi genere, ma le femmine sono particolarmente vulnerabili alla Chiamata, una pulsione psichica che le spinge ad abbandonare la vita mortale per unirsi a un coven e diventare a loro volta streghe. Chi conosce le proprie origini spesso teme la Chiamata e lotta per resisterle, mentre chi ne è ignaro può cadere preda di questa spinta misteriosa senza comprenderne il motivo.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Dhampir",
+    "Razza": "Universale",
+    "Dettagli": "La prole mortale dei vampiri non morti è intrappolata tra vita e non morte, mortalità e immortalità, esistenza mondana e magia potente. I dhampir godono di una lunga durata della vita e di un fascino ultraterreno, ma il loro pallore spettrale e la natura della loro discendenza rendono difficile la loro vita nelle società umanoidi.@Molti chiamano i vampiri figli della notte, ma sono i dhampir che possono davvero rivendicare quel titolo. Questi figli mortali dei vampiri camminano sul confine tra vita e non morte non solo fisiologicamente, ma anche nel loro status sociale, temperamento e visione del mondo. Le circostanze che circondano la nascita di un dhampir sono rare, complesse e spesso avvolte da orribili voci. Alcuni dhampir sono figli di un mortale e di un genitore vampirico, mentre altri nascono da coloro che sono stati trasformati in vampiri durante la gravidanza. Altri ancora sorgono da rituali occulti o altre influenze soprannaturali che impongono una maledizione vampirica su un neonato mortale. La vita di un dhampir è spesso difficile; pochi genitori vampirici hanno l'inclinazione di crescere un figlio mortale, mentre le comunità mortali trovano la carne giallastra, gli occhi penetranti e la presenza inquietante di un dhampir sgradevoli, nel migliore dei casi.@Nonostante siano creature viventi, i dhampir reagiscono all'energia vitale e del vuoto come se fossero non morti, il che li rende indesiderati in molte comunità sacre e spesso li spinge verso le arti necromantiche. I dhampir non sono immortali, ma invecchiano molto più lentamente della maggior parte dei mortali, con una durata di vita simile a quella di un elfo. I dhampir hanno difficoltà a generare figli propri, e quei pochi nati da un dhampir non sono mai dhampir. Un dhampir generalmente somiglia a un membro della stirpe del genitore non vampiro, ma con un pallore spettrale e occhi così chiari da sembrare avere solo pupille puntiformi e nessuna iride. Tutti i dhampir hanno incisivi allungati, alcuni quasi lunghi quanto quelli di un vero vampiro. Molti possiedono grazia, bellezza e fascino nonostante il loro aspetto inquietante.",
+    "Desc": "Sei il discendente di un vampiro, metà vivente e metà non morto, dotato di uno straordinario fascino e grazia, un pallore privo di sangue e incisivi allungati. Ottieni il tratto dhampir, in aggiunta ai tratti della tua stirpe. Hai la capacità di guarigione del vuoto, il che significa che subisci danni dall'energia vitale e vieni curato dagli effetti del vuoto come se fossi un non morto. Ottieni anche visione in penombra, oppure ottieni visione crepuscolare se la tua stirpe ha già la visione in penombra. Puoi scegliere tra talenti da dhampir e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Dragonblood",
+    "Razza": "Universale",
+    "Dettagli": "Mentre esistono molti modi in cui un mortale può essere imbevuto di poteri draconici, i dragonblood possiedono un'affinità naturale innata. I figli nati da una discendenza draconica o benedetti da una divinità draconica si trovano sul confine tra mortale e drago, spesso assumendo sembianze draconiche e mostrando personalità forti.@I draghi sono creature potenti e molti si sono profondamente coinvolti nella vita degli altri. Alcuni possono essere venerati da gruppi di umanoidi più piccoli, agendo come loro protettori o, in rari casi, come divinità incarnate. Altri assumono forma umanoide per vivere all'interno di una civiltà come loro pari, a volte nascondendo la loro vera identità per osservare o manipolare. Qualunque sia l'intento del drago durante questi periodi, esso lascia un'impronta indelebile sulle persone che incontra, che queste se ne rendano conto o meno. Un bambino può nascere come risultato di tale influenza, e questi discendenti sono conosciuti come dragonblood.@Un dragonblood può nascere da qualsiasi stirpe e trovarsi praticamente in qualsiasi regione di Golarion, poiché i draghi tendono ad andare dove vogliono. Alcuni dragonblood possiedono tratti draconici evidenti, dalle mani artigliate alle ali coriacee fino a una possente coda rettiliana; queste caratteristiche ricordano sempre aspetti simili del drago antenato del dragonblood. Per esempio, il discendente di un drago d’adamantio potrebbe avere spesse scaglie simili a piastre sul petto. Altri dragonblood assomigliano più ai draghi che all’altra metà della loro discendenza, portando molti a scambiarli per coboldi, iruxi o altre stirpi rettiliane; tali dragonblood orgogliosi della propria discendenza draconica sono rapidi nel correggere l’errore. Ci sono anche dragonblood il cui aspetto esteriore suggerisce solo un accenno di sangue draconico: potrebbero avere una leggera lucentezza sulla pelle o piccole corna, ma spesso possiedono una grande forza di personalità o abilità magiche innate.@Le aree in cui i draghi hanno maggiore influenza o significato culturale presentano una popolazione di dragonblood più elevata rispetto ad altre. I paesi di Tian Xia sono spesso chiamati gli Imperi dei Draghi poiché molti draghi assumono ruoli attivi nelle società umanoidi locali. Un leader nelle Terre dei Re Linnorm che subisce una maledizione dopo aver ucciso un linnorm potrebbe scoprire che gli occhi del suo prossimo figlio brillano di una luce arcana. Le comunità che rendono omaggio agli dèi drago Apsu o Dahak possono anche essere benedette con nascite di dragonblood.",
+    "Desc": "Discendi in qualche modo da un drago. Le tue caratteristiche fisiche potrebbero mostrarlo esteriormente, con una coppia di corna draconiche, chiazze di pelle squamosa o persino una coda, oppure potresti sviluppare una riserva interna di potere draconico. Ottieni il tratto dragonblood, in aggiunta ai tratti della tua stirpe. Aggiungi Draconico all'elenco delle lingue aggiuntive della tua stirpe (permettendoti di sceglierlo come lingua se il tuo modificatore di Intelligenza è positivo). Quando ottieni un successo a un tiro salvezza contro un effetto di paura, ottieni invece un successo critico. Puoi scegliere tra talenti dragonblood e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Duskwalker",
+    "Razza": "Universale",
+    "Dettagli": "Un duskwalker non nasce; viene invece creato, manifestandosi come un bambino mortale in un luogo con stretti legami con la morte. Essi incarnano i poteri solenni dei psicopompi, guardiani immortali e pastori dei morti, e mantengono una fascinazione e una profonda comprensione della morte per tutta la loro vita. Più unici rispetto ad altre stirpi versatili, i duskwalker non hanno diverse linee di discendenza.@I primi duskwalker si manifestarono come risultato di un patto tra due potenti psicopompi, guardiani e guide immortali delle anime dopo la morte. Uno credeva che le anime che avevano aiutato a preservare il ciclo della vita e della morte—ma che avevano perso la vita prematuramente—meritassero la reincarnazione, mentre l'altro riteneva che ciò avrebbe violato troppo quel ciclo stesso. Alla fine, i duskwalker nacquero come compromesso tra i due psicopompi: tali rinascite potevano avvenire, ma con frequenza limitata. Solo un numero finito di duskwalker può esistere in un dato momento.@Quando un duskwalker muore e affronta il giudizio finale, un nuovo duskwalker si incarna entro un anno da un'anima meritevole, tipicamente in un luogo lontano dal luogo di nascita del precedente. I duskwalker si manifestano in luoghi con una connessione sacra alla morte, come cimiteri o templi, e iniziano la loro vita nell'adolescenza. Nessun duskwalker è capace di generare o concepire figli biologici, ma questo non impedisce loro di formare famiglie, tipicamente attraverso l'adozione.@I duskwalker hanno una comprensione innata del ciclo della vita e della morte. Nella maggior parte dei casi, questo si manifesta come un profondo rispetto per tale ciclo e li spinge verso occupazioni che li aiutano a proteggerlo, come cacciatori di non morti, ostetriche, imbalsamatori e sacerdoti.",
+    "Desc": "Grazie a un antico patto, la tua anima è stata reincarnata come duskwalker, uno scion planare con una connessione ai psicopompi e al Boneyard. Ottieni il tratto duskwalker. Ottieni anche visione in penombra, oppure ottieni visione crepuscolare se la tua stirpe ha già la visione in penombra. Né il tuo corpo né il tuo spirito possono mai diventare non morti. Puoi scegliere tra talenti da duskwalker e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Ganzi",
+    "Razza": "Universale",
+    "Dettagli": "Figli del caos, i ganzi nascono dal ribollente fermento del Maelstrom indomabile, il mare primordiale di tutta la creazione. Il loro sangue crepita con la promessa del cambiamento e del potere grezzo della creazione liberata.@Mentre alcuni ganzi nascono da mortali che si sono mescolati con le entità informi del Maelstrom, e altri discendono da coloro che hanno navigato quel vuoto ceruleo, molti altri nascono in luoghi in cui il Piano Materiale si sfilaccia verso il caos. Qualunque siano le loro origini, tutti i ganzi condividono la stessa potente essenza.@Più di qualsiasi altro scion planare, i ganzi tendono ad apparire in linee di sangue altrimenti stabili e non notevoli. Sebbene ciò sia talvolta motivo di scandalo in comunità meno aperte di mente, la maggior parte dei bambini ganzi cresce felice e amata come qualsiasi altro bambino. I bambini ganzi mostrano spesso un'energia incontenibile e una birichineria di buon cuore. Alcuni, con il tempo, crescono superando queste tendenze.@Se desideri un personaggio che incarna lo spontaneo e l'imprevedibile, che sfugge a ogni categorizzazione pur trovando affinità con altri anticonformisti, dovresti giocare un ganzi.",
+    "Desc": "Il tuo sangue è toccato dal caos primordiale. Ottieni il tratto ganzi in aggiunta ai tratti della tua stirpe. Ottieni resistenza a un singolo tipo di danno pari alla metà del tuo livello; all'inizio di ogni giorno, determina casualmente se questa resistenza si applica ai danni da acido, elettricità o sonoro. Ottieni inoltre un bonus di circostanza +1 ai tiri salvezza contro effetti che ti farebbero ottenere la condizione controllato. Puoi scegliere tra talenti ganzi e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Hungerseed",
+    "Razza": "Universale",
+    "Dettagli": "Comunemente chiamati mezz’oni o onispawn, questi hungerseed—così chiamati per i leggendari appetiti degli oni—sono spesso giovani difficili, poiché i loro temperamenti adolescenziali spesso superano il loro buon senso.@Gli oni in Tian Xia sono comunemente visti come creature malvagie soddisfatte solo da sangue e carneficina. Tuttavia, non tutti hanno tali appetiti violenti, e anche i peggiori non sono così distanti dai mortali più golosi o ambiziosi. Si raccontano spesso storie di umani che prendono una sposa oni nei villaggi rurali e, occasionalmente, nasce un bambino con le caratteristiche corna degli oni o un terzo occhio. Comunemente chiamati mezz’oni o onispawn, questi hungerseed—così chiamati per i leggendari appetiti degli oni—sono spesso giovani difficili, poiché i loro temperamenti adolescenziali spesso superano il loro buon senso.@Gli hungerseed appaiono incredibilmente diversi fisicamente. Molte caratteristiche, come la pelle, le corna, i piedi e i capelli, sono spesso influenzate dal loro genitore oni e, mentre molti condividono la corporatura imponente di un oni, altri hanno fisici snelli e agili o sono persino notevolmente più bassi di entrambi i genitori. Camminano su una sottile linea tra mortale e soprannaturale, con un piede artigliato in ciascun mondo.@Come nazione controllata dagli oni, Chu Ye ha la più alta popolazione di hungerseed in Tian Xia. Sebbene gli hungerseed possano occupare quasi ogni professione, spesso scelgono ruoli da combattimento per onorare la loro eredità oni. Molti di loro si sentono più sicuri a Chu Ye che in altre regioni, poiché non devono affrontare i pregiudizi legati alla loro discendenza. Tuttavia, alcuni si sentono fuori posto per non essere completamente oni e diventano vagabondi. Altri formano bande di mercenari, per trovare lavoro e un senso di cameratismo condiviso nella loro eredità mista.",
+    "Desc": "Uno dei tuoi genitori era un oni o un hungerseed. Possiedi un paio di corna, di dimensioni variabili da piccoli coni a lunghe protrusioni. Potresti avere altri segni della tua discendenza, come pelle colorata, zanne e artigli o un terzo occhio sulla fronte. Ottieni il tratto oni. Ottieni un attacco senz’armi con le corna che infligge 1d6 danni perforanti ed è nel gruppo rissa. Puoi scegliere tra talenti hungerseed e talenti della stirpe dell’altro tuo genitore ogni volta che ottieni un talento di stirpe.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Ifrit",
+    "Razza": "Universale",
+    "Dettagli": "Gli ifrit discendono da creature come efreet, salamandre e draghi di magma. La scintilla della fiamma ancestrale conferisce loro la reputazione di essere passionali, se non capricciosi.@Gli ifrit spesso sviluppano relazioni personali tra sé e l’idea del fuoco, sentendo di incarnarlo mentalmente o spiritualmente, oltre che fisicamente. Alcuni ifrit si identificano con l’energia mutevole del fuoco, le sue proprietà illuminanti o la sua natura distruttiva.@Alcuni ifrit condividono fin dalla nascita una connessione con aspetti specifici del fuoco elementale, come la luce, la cenere o la lava; questo è chiamato lignaggio ifrit. Gli ifrit hanno spesso lo stesso lignaggio dei loro genitori, anche se talvolta nascono con lignaggi diversi dalle loro famiglie o da genitori che non ne possiedono uno. I lignaggi possono manifestarsi nei bambini ifrit come riflesso del luogo in cui sono nati—per esempio, gli ifrit cindersoul a volte nascono in aree soggette a incendi boschivi. Possono anche derivare dalla stirpe planare dell’ifrit, come un ifrit brightsoul con un antenato celestiale legato al fuoco come un peri. Gli ifrit del magma con lignaggio lavasoul sono più spesso discendenti di draghi di magma o di altri elementali del fuoco legati alla lava.",
+    "Desc": "Discendi da elementali del fuoco o porti il marchio delle Sfere Interne, e i tuoi tratti mostrano l’influenza che il fuoco elementale esercita su di te. Ottieni il tratto ifrit, in aggiunta ai tratti della tua stirpe. Ottieni resistenza al fuoco pari alla metà del tuo livello (minimo 1) e tratti gli effetti di calore ambientale come se fossero di un grado meno severo (calore incredibile diventa estremo, estremo diventa severo e così via). Puoi scegliere tra talenti ifrit e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Nephilim",
+    "Razza": "Universale",
+    "Dettagli": "I nephilim sono influenzati dalla magia divina delle Sfere Esterne, spesso con tratti infernali o celestiali.@Innumerevoli leggende narrano di interazioni tra mortali ed esseri immortali, e dei figli nati da tali incontri. Questi figli, noti come scion planari, sono mortali che ereditano l'essenza soprannaturale di un altro piano, la quale si manifesta attraverso i loro tratti fisici distintivi e poteri ultraterreni. Questa sezione presenta le regole per i nephilim, scion planari che possono far risalire la loro eredità extraplanare a celestiali, demoni, monaci cosmici e altre entità che spesso si immischiano negli affari religiosi dei mortali.@Un devoto sacerdote di Erastil riceve la visita di un angelo in gioventù, e molti anni dopo genera un figlio con la testa di un cervo e una voglia a forma del simbolo religioso di Erastil, un arco e una freccia. Una potente strega impedisce un'incursione dalle Fenditure Esterne, ma una scheggia di potere demoniaco infonde il bambino che porta in grembo, che nasce con zanne e una coppia di piccole corna. Una carovana planare viaggia nel Multiverso finché i suoi ranghi non si riempiono di bambini che possiedono zoccoli demoniaci e aureole angeliche. Questi bambini, noti come nephilim, possiedono l'ambizione e la capacità di crescita e cambiamento tipiche dei loro antenati mortali, ma anche una parte del potere e dell'aspetto di un'entità o di entità immortali le cui energie hanno influenzato la loro discendenza.@I nephilim sono difficili da classificare per natura. Alcuni possiedono sia tratti demoniaci che angelici, mentre altri hanno abilità che sfidano le categorie definite dagli studiosi. Tuttavia, molti nephilim mostrano tratti che indicano chiaramente la loro linea di sangue. I nephilim che portano il potere degli archon, talvolta detti portatori della legge, possono mostrare occhi dorati o aure infuocate, mentre i nephilim discendenti dai diavoli, detti hellspawn, possono avere pelle rossa e piedi zoccoluti.@Sebbene il termine nephilim descriva ampiamente questi individui, alcune culture usano il nome empyrean o cambion per riferirsi rispettivamente ai nephilim con influenza celestiale o demoniaca. Altri nephilim vengono talvolta chiamati aphorite o ganzi, sebbene questa voce si concentri solo su empyrean e cambion.@Se vuoi un personaggio infuso soprannaturalmente con il potere dei Piani Esterni, dal aspetto sorprendente e notevole, e con legami personali che potrebbero estendersi oltre i confini dell'Universo, dovresti giocare un nephilim.",
+    "Desc": "La tua natura è influenzata da celestiali, demoni o monaci cosmici. Ciò si manifesta come una combinazione di tratti che tradiscono la tua eredità, come occhi dorati, un'aureola, corna o una coda. Ottieni il tratto nephilim, in aggiunta ai tratti della tua stirpe. Ottieni visione in penombra, oppure ottieni visione crepuscolare se la tua stirpe ha già la visione in penombra. Puoi scegliere tra talenti nephilim e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Oread",
+    "Razza": "Universale",
+    "Dettagli": "L'influenza del Piano della Terra scorre nella famiglia di un oread, spesso provenendo da un antenato shaitan o drago di cristallo. Gli oread tendono a essere stoici, costanti e affidabili, ma nascondono profondità che non si vedono in superficie.@Gli oread possono essere lenti a rivelare il loro vero io, o forse, più accuratamente, possiedono abbastanza profondità e mistero da rivelare nuovi e inaspettati aspetti di sé ogni giorno. Di solito sentono di personificare determinati aspetti della terra, della pietra o di altri minerali o sedimenti, come la resilienza tenace di una scogliera contro l'erosione, la generosità e il nutrimento del suolo fertile o la versatilità dell'utilità di metallo e pietra.@Gli oread nati con una connessione speciale a un particolare sottoinsieme della terra elementale, come cristallo, polvere o fango, possono avere un lignaggio oread. Un lignaggio può essere ereditato lungo una linea di sangue familiare, oppure manifestarsi spontaneamente nei bambini oread. Può derivare dal luogo in cui vissero gli antenati di un oread, come accade spesso per gli oread dustsoul, molti dei quali nascono in un deserto o in famiglie di agricoltori da generazioni. I lignaggi possono anche essere il risultato di specifiche eredità planari. Gli oread gemsoul hanno spesso un drago di cristallo nella loro discendenza, mentre gli oread miresoul discendono dalle creature più fangose della terra elementale.",
+    "Desc": "Un antenato elementale della terra ha influenzato la tua linea di sangue, e i tuoi tratti evidenziano questa connessione planare elementale. Potresti avere una lucentezza cristallina o metallica sulla pelle o sui capelli, carne ruvida e pietrosa o occhi scintillanti come gemme. Ottieni il tratto oread, in aggiunta ai tratti della tua stirpe. Ottieni anche visione in penombra, oppure ottieni visione crepuscolare se la tua stirpe ha già la visione in penombra. Puoi scegliere tra talenti oread e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Suli",
+    "Razza": "Universale",
+    "Dettagli": "I suli sono geniekin che incarnano una mescolanza di elementi, più comunemente aria, terra, fuoco e acqua. Sono tipicamente discendenti dei jann, geni di tutti e quattro gli elementi che vagano per il Piano Materiale invece di dimorare nei Piani Elementali.@Alla nascita, un suli somiglia alla propria stirpe mortale, senza manifestare la propria eredità ultraterrena fino all'adolescenza, quando si risveglia nel suo potere elementale. Forti nel corpo e nella volontà, i suli sono dinamici e in continuo cambiamento, e la maggior parte sente di incarnare tutti gli elementi insieme o i tratti di elementi diversi in momenti diversi. Alcuni si vedono come aventi molteplici aspetti o volti della propria personalità—uno per ogni elemento—che alternano nel corso di giorni o settimane.",
+    "Desc": "Discendi da un janni o incarni in qualche modo una dicotomia di forze planari elementali opposte. Ottieni il tratto suli, in aggiunta ai tratti della tua stirpe. Ottieni anche visione in penombra, oppure ottieni visione crepuscolare se la tua stirpe ha già la visione in penombra. Puoi scegliere tra talenti suli e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Sylph",
+    "Razza": "Universale",
+    "Dettagli": "I sylph sono un popolo intenso e vivace, volubile e tempestoso. Questi scion planari hanno parentela con esseri dell'aria elementale come djinni, stalker invisibili e draghi delle nuvole.@I sylph amano seguire i propri ritmi, passando da un'energia selvaggia che attira tutti gli sguardi all'incarnare lo spirito delle brezze invisibili che svaniscono senza lasciare traccia. Spesso costruiscono la loro identità attorno alla percezione del loro legame personale con l'elemento dell'aria, identificandosi con una brezza gentile, un lampo improvviso o una tempesta incontrollabile.@Alcuni sylph nascono con una connessione a un aspetto estremamente specifico dell'aria elementale, come fumo, tempeste o gas tossici. Sebbene accada, raramente un bambino nasce con un lignaggio diverso da quello dei genitori, poiché i geniekin di solito trasmettono questi doni insoliti alla loro discendenza. I lignaggi possono manifestarsi nei sylph come risultato del luogo di nascita, ad esempio quando i sylph stormsoul nascono in regioni soggette a tornado o tempeste di vento. Un lignaggio può anche riflettere l'eredità elementale del sylph, come nel caso dei sylph smokesoul, che spesso discendono dai belker. I sylph fumesoul, invece, sono associati a gas velenosi o comunque irrespirabili.",
+    "Desc": "Discendi da elementali dell'aria o sei nato sotto l'influenza di questo elemento. Ottieni il tratto sylph, in aggiunta ai tratti della tua stirpe. Ottieni anche visione in penombra, oppure visione crepuscolare se la tua stirpe ha già la visione in penombra. Puoi scegliere tra talenti sylph e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Talos",
+    "Razza": "Universale",
+    "Dettagli": "I talos, geniekin dotati di magia proveniente dal Piano del Metallo, risuonano con il potenziale illimitato del minerale grezzo, lo splendore prezioso dell'oro lucidato o il suono indulgente di un martello che riforgia una lama spezzata.@Man mano che il Piano del Metallo rinnova i contatti con gli altri piani, la sua influenza sulle linee di sangue dei discendenti dei suoi abitanti elementali dà origine a un numero sempre crescente di scion planari conosciuti come talos. Ciò non è limitato solo ai neonati — può manifestarsi anche in adulti con connessioni latenti, alimentate dall’esplosione della magia metallica elementale che si propaga attraverso l’Universo. Altri lignaggi sono rimasti su Golarion sin da prima del ritiro del piano elementale, spesso scambiati per altri scion planari come oread o aphorite. Alcuni lignaggi talos possiedono un legame intrinseco con un particolare aspetto del metallo elementale, come metalli ferrosi a base di ferro, metalli preziosi lucenti o i rari metalli liquidi come mercurio o djezet. Spesso, ma non sempre, questi talos condividono il lignaggio con i propri genitori. I talos si trovano più frequentemente tra alchimisti, fabbri, inventori e minatori—chiunque lavori con il metallo per vivere.",
+    "Desc": "I tuoi tratti fisici riflettono l'influenza che una zuhra o un altro elementale del metallo ha avuto sulla tua linea di sangue. La tua pelle probabilmente ha una lucentezza metallica, che varia dal bagliore opaco del minerale grezzo alla lucentezza brillante di una lama nuova, con l'usura dell'età o della fatica che si manifesta sotto forma di ossidazione, ruggine o corrosione. I tuoi capelli possono sembrare oro filato, acciaio intrecciato, fili di rame o catene intrecciate. Ottieni il tratto talos, in aggiunta ai tratti della tua stirpe. Ottieni resistenza all’elettricità pari a metà del tuo livello (minimo 1). Puoi lanciare l’incantesimo trucchetto ++Rileva Metallo++ come incantesimo innato arcano a volontà. Un trucchetto è potenziato a un grado di incantesimo pari a metà del tuo livello arrotondato per eccesso.@Puoi scegliere tra talenti talos, talenti geniekin e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Undine",
+    "Razza": "Universale",
+    "Dettagli": "Questi mortali dinamici e fluidi fanno risalire la loro discendenza a creature del Piano dell'Acqua, come marid, mefit acquatici e draghi salmastri.@Le undine attraversano spesso la vita in una serie di fasi mutevoli, con interessi che crescono, si affievoliscono o a volte si trasformano completamente, mentre i vecchi amori vengono abbandonati per nuovi interessi. La struttura fornisce una concentrazione necessaria alla vita delle undine e, senza obiettivi forti o il sostegno di chi le circonda, possono trovarsi intrappolate in uno stato di stagnazione e sconforto. La maggior parte delle undine sente di personificare specifici aspetti dell'acqua, vedendosi come la forza e la potenza delle onde, la velocità e tenacia di una corrente fluviale o la calma di un lago o stagno tranquillo. Altre si identificano con tutti questi aspetti e altro ancora, con i loro comportamenti che mutano come le maree da una situazione all'altra.@Le undine nate con una connessione a un particolare sottoinsieme dell'acqua elementale, come ghiaccio, salamoia o nebbia, possono avere un lignaggio undine specifico. Questi lignaggi vengono solitamente trasmessi dai genitori ai figli, come per gli altri geniekin, ma occasionalmente un bambino nasce con un lignaggio mai visto prima nella famiglia. A volte i lignaggi sono il risultato del luogo in cui vissero gli antenati di un’undine, come nel caso delle undine rimesoul, nate nei freddi paesi settentrionali o sulle cime delle montagne. Altre volte sono legati all’eredità elementale dell’undine, come accade spesso per le undine brinesoul, che di solito discendono dai draghi salmastri. Le undine mistsoul possono avere una connessione distante ma potente con l'acqua elementale, o persino un pizzico di aria elementale nel loro lignaggio.",
+    "Desc": "Un antenato elementale dell’acqua influenza la tua linea di sangue. Ottieni il tratto undine, in aggiunta ai tratti della tua stirpe. Ottieni una Velocità di Nuoto di 3m e il tratto anfibio. Come tutte le creature con il tratto anfibio, puoi respirare sia acqua che aria. Puoi scegliere tra talenti undine e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Pelle-bestiale",
+    "Razza": "Universale",
+    "Dettagli": "I beastkin possiedono straordinarie capacità derivate dal mondo animale, che consentono loro di trasformarsi parzialmente o completamente in animali, conferendo zanne letali, sensi acuti e altri tratti simili. Un beastkin cammina sul confine tra natura e società, vivendo con un piede in ciascuna.@Beastkin è un termine generico per qualsiasi persona che abbia acquisito la capacità di trasformarsi parzialmente o completamente in un animale attraverso vari mezzi, mantenendo comunque un equilibrio con il proprio lato umanoide. La maggior parte dei beastkin nasce da licantropi o ha un antenato licantropo nella propria discendenza. La maledizione potrebbe non manifestarsi completamente nel figlio di un licantropo, donando al bambino la natura trasformativa della propria stirpe senza la debolezza all’argento o la perdita di controllo durante la luna piena. Nati o creati, i licantropi di solito considerano tali beastkin con grande rispetto, poiché incarnano molte delle loro forze senza alcuna delle loro debolezze.@Oltre ai licantropi, esistono vari altri modi per diventare un beastkin. In alcuni casi, una divinità o uno spirito della natura può concedere a un individuo scelto il potere della trasformazione. Altri hanno acquisito i poteri dei beastkin a causa di un trucco dei folletti o di una reazione insolita alla magia di metamorfosi. Ci sono persino voci secondo cui alcuni rari beastkin potrebbero essere animali mutaforma che hanno acquisito la forma di un'ascendenza senziente, piuttosto che il contrario.@Se desideri un personaggio che cammina sul confine tra razionalità e istinto, a suo agio sia nella società che nella natura selvaggia ma separato da entrambe, dovresti giocare un beastkin.",
+    "Desc": "Il sangue di una bestia scorre nelle tue vene, donandoti la ferocia e la forza degli animali. Solo le creature con il tratto umanoide possono prendere l’eredità versatile beastkin. Scegli un tipo di animale, come pipistrello, aquila, squalo, ragno, tirannosauro, vespa o lupo. Questo è il tipo di animale legato alla tua eredità ed è noto come il tuo animale innato. Ottieni i tratti bestia e beastkin, in aggiunta ai tratti della tua stirpe. Ottieni la capacità ++Cambia Forma++. La forma ibrida di un beastkin è la sua forma naturale. Puoi scegliere tra talenti beastkin e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.### {\"nome\": \"Cambia Forma\", \"tipoAzz\": \"azione\", \"tratti\": [\"Concentrazione\", \"Metamorfosi\", \"Primordiale\", \"Trasmutazione\"], \"desc\": \"Ti trasformi nella tua forma umanoide o ibrida. Ogni forma ha un aspetto specifico e costante, e la maggior parte dei beastkin rimane di default nella forma ibrida. In forma ibrida, appari come una combinazione tra la tua stirpe e il tuo animale innato. Mentre sei in forma ibrida, ottieni un colpo senz'armi con le mascelle che rispecchia i tratti del tuo animale innato (zanne per i pipistrelli, becchi per le aquile, mandibole per le vespe, e così via). Le tue mascelle infliggono 1d4 danni perforanti, hanno i tratti agile, finezza e senz'armi, e appartengono al gruppo di armi da lotta. Nella tua forma umanoide, mantieni l’aspetto della tua stirpe originale.\" } ###",
+    "Mostrare": true
+  },
+  {
+    "Nome": "Riflesso",
+    "Razza": "Universale",
+    "Dettagli": "Le storie di duplicati malevoli vengono comunemente raccontate intorno ai falò per spaventare i compagni. In queste storie, il duplicato nasce da un rituale fallito o dall’esposizione a un misterioso artefatto, ed è intento a sostituire la creatura che ha replicato. La maggior parte considera tali storie semplici leggende, ma tali duplicati di riflessione sono reali. Mentre alcuni desiderano sostituire i loro progenitori, altri vogliono semplicemente forgiare una nuova vita per sé, dove nessuno conosca le loro origini.@I metodi di creazione variano, ma tutte le riflessioni sono duplicati di qualcun altro esistente nel mondo. Alcune emergono da specchi letterali, sviluppando una vita propria una volta liberate dal Pallore Echeggiante. Rituali o incantesimi focalizzati sugli specchi possono creare riflessioni indipendenti, sia deliberatamente che accidentalmente, così come il pericolo magico noto come ++Specchio dell’Ombra++, che sostituisce coloro che vi si guardano con duplicati malevoli. Alcune riflessioni sono create come cloni magici da incantatori, solo per ribellarsi ai loro creatori o essere abbandonate, mentre altre nascono da magie di metamorfosi fallite.@Se vuoi un personaggio che cerchi di forgiare la propria identità nonostante la sua natura duplicata, con un forte legame con un altro personaggio da qualche parte nel mondo, dovresti giocare una riflessione.",
+    "Desc": "Sei stato creato come duplicato di un’altra creatura, intenzionalmente o accidentalmente, anche se potresti non conoscere le tue origini. A parte qualche piccolo segno distintivo, sembri identico al tuo progenitore. Ottieni il tratto reflection, in aggiunta ai tratti della tua stirpe. Non devi tentare prove di Inganno per impersonare il tuo progenitore, a meno che tu non interagisca con persone che lo conoscono personalmente o compia qualcosa che risulti palesemente fuori dal suo comportamento abituale. Il GM potrebbe richiederti di effettuare una prova di Inganno in altre circostanze, ad esempio se sei risorto da uno specchio e interagisci con qualcuno che ha visto un ritratto accurato del tuo progenitore e potrebbe notare un tratto distintivo sul lato opposto. Puoi scegliere tra talenti reflection e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.",
+    "Mostrare": true
+  }
+]

@@ -1,0 +1,1003 @@
+[
+  {
+    "Nome": "Nano",
+    "DescFisica": "I nani sono bassi e robusti, alti circa 30 cm in meno rispetto alla maggior parte degli esseri umani. Hanno corpi larghi, compatti e corporature massicce. I nani di tutti i generi sono orgogliosi della lunghezza dei loro capelli e delle loro barbe, che spesso intrecciano in motivi elaborati, alcuni dei quali rappresentano clan specifici. Una barba lunga è un segno di maturità e onore in molti clan nanici. I nani raggiungono solitamente la maturità fisica intorno ai 25 anni, anche se la loro cultura tradizionalista dà più importanza al completamento di cerimonie di passaggio uniche per ogni clan che al raggiungimento di una certa età. Un nano tipico può vivere fino a circa 350 anni.",
+    "Desc": "I nani sono un popolo basso e tarchiato, spesso testardo, fiero e devoto.",
+    "HP": "10",
+    "Taglia": "Media",
+    "Velocita": "6m",
+    "Boost": [
+      "Costituzione",
+      "Saggezza",
+      "Libero"
+    ],
+    "Difetto": "Carisma",
+    "Tratti": ["Nano", "Umanoide"],
+    "Lingua": "Comune@Nanico@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). @Scegli tra: Gnomesco, Goblin, Jotun, Orchesco, Petran, Sakvroth e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+    "Abilita": [
+      "++Scurovisione++@Puoi vedere nell’oscurità e nella penombra altrettanto bene che alla luce del giorno, anche se la tua visione nel buio è in bianco e nero.",
+      "++Pugnale del Clan++@Ricevi un pugnale del clan gratuitamente, poiché ti è stato donato alla nascita. Vendere questo pugnale del clan è un tabù gravissimo e ti attira il disprezzo degli altri nani."
+    ],
+    "Mostrare": true
+  },
+  {
+    "Nome": "Elfo",
+    "DescFisica": "Pur essendo generalmente più alti degli esseri umani, gli elfi possiedono una grazia fragile, accentuata da lineamenti allungati e orecchie appuntite. I loro occhi sono ampi e arrotondati, con pupille grandi e spesso dai colori vivaci che occupano l’intera parte visibile dell’occhio. Queste pupille donano loro un aspetto alieno e permettono una visione nitida anche con pochissima luce. Gli elfi si adattano gradualmente all’ambiente e ai compagni con cui vivono, e spesso assumono tratti fisici che riflettono il loro contesto. Un elfo che ha vissuto per secoli in foreste primordiali, ad esempio, potrebbe avere capelli verdastri e dita nodose, mentre uno che ha abitato nel deserto potrebbe presentare pupille dorate e pelle dello stesso tono. Gli elfi raggiungono la maturità fisica intorno ai 20 anni, ma non sono considerati pienamente maturi dal punto di vista emotivo dagli altri elfi fino a quando non si avvicinano al compimento del primo secolo di vita. Un elfo tipico può vivere fino a circa 600 anni.",
+    "Desc": "Gli elfi sono un popolo alto e longevo, con una forte tradizione legata all’arte e alla magia.",
+    "HP": "6",
+    "Taglia": "Media",
+    "Velocita": "9m",
+    "Boost": [
+      "Destrezza",
+      "Intelligenza",
+      "Libero"
+    ],
+    "Difetto": "Costituzione",
+    "Tratti": ["Elfo", "Umanoide"],
+    "Lingua": "Comune Elfico Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Draconico, Empireo, Fatato, Gnomesco, Goblin, Kholo, Orchesco e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+    "Abilita": [
+      "++Visione Crepuscolare++@Puoi vedere nella penombra come se fosse luce intensa, quindi ignori la condizione di occultamento dovuta alla luce fioca."
+    ],
+    "Mostrare": true
+  },
+{
+  "Nome": "Gnomo",
+  "DescFisica": "La maggior parte degli gnomi è alta poco più di 90 cm e pesa poco più di un bambino umano. Presentano una vasta gamma di colori naturali della pelle, dei capelli e degli occhi. Per gli gnomi che non hanno ancora cominciato a sbiadire, quasi ogni colore di capelli e occhi diverso dal bianco è possibile, con colori vivaci più frequenti, mentre le tonalità della pelle coprono uno spettro leggermente più ristretto e tendono verso toni terrosi e sfumature rosate, anche se occasionalmente verdi, nere o azzurro pallido. Gli gnomi raggiungono solitamente la maturità fisica all’età di 18 anni, anche se molti mantengono una curiosità infantile verso il mondo anche in età adulta. Uno gnomo può teoricamente vivere fino a qualsiasi età se riesce a tenere lontano lo Sbiadimento indefinitamente, ma in pratica raramente vivono più di circa 400 anni.",
+  "Desc": "Gnomi sono persone basse e robuste, con una curiosità insaziabile e abitudini eccentriche.",
+  "HP": "8",
+  "Taglia": "Piccola",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Costituzione",
+    "Carisma",
+    "Libero"
+  ],
+  "Difetto": "Forza",
+  "Tratti": ["Gnomo", "Umanoide"],
+  "Lingua": "Comune@Fatato@Gnomesco@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra: Draconico, Nanico, Elfico, Goblin, Jotun, Orchesco e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nella penombra come se fosse luce intensa, quindi ignori la condizione di occultamento dovuta alla luce fioca."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Goblin",
+  "DescFisica": "I goblin sono umanoidi tozzi con corpi larghi, arti esili e teste enormemente sproporzionate, con grandi orecchie e occhi rossi a capocchia di spillo. La loro pelle varia dal verde al grigio al blu, e spesso presentano cicatrici, bolle e irritazioni cutanee. I goblin sono alti in media circa 90 cm. La maggior parte è calva, con pochi o nessun pelo corporeo. I loro denti appuntiti cadono e ricrescono costantemente, e il loro metabolismo rapido li porta a mangiare di continuo e a schiacciare frequenti pisolini. Le mutazioni sono anche più comuni tra i goblin rispetto ad altre razze, e i goblin considerano solitamente le mutazioni particolarmente evidenti come segni di potere o fortuna. I goblin raggiungono l’adolescenza all’età di 3 anni e l’età adulta 4 o 5 anni dopo. Possono vivere 50 anni o più, ma senza qualcuno che li protegga da se stessi o dagli altri, pochi superano i 20 anni di età.",
+  "Desc": "I Goblin sono persone basse, intraprendenti ed energiche che per millenni sono state mal viste e temute.",
+  "HP": "6",
+  "Taglia": "Piccola",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Destrezza",
+    "Carisma",
+    "Libero"
+  ],
+  "Difetto": "Saggezza",
+  "Tratti": ["Goblin", "Umanoide"],
+  "Lingua": "Comune@Goblin@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra: Draconico, Nanico, Gnomesco, Halfling, Kholo, Orchesco e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Scurovisione++@Puoi vedere nell’oscurità e nella penombra altrettanto bene che alla luce del giorno, anche se la tua visione nel buio è in bianco e nero."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Halfling",
+  "DescFisica": "Gli halfling sono umanoidi bassi che assomigliano vagamente a esseri umani più piccoli. Raramente superano i 90 cm di altezza. Le proporzioni degli halfling variano: alcuni sembrano adulti umani più bassi con teste leggermente più grandi, mentre altri hanno proporzioni più simili a quelle di un bambino umano. La maggior parte degli halfling preferisce camminare scalza piuttosto che indossare scarpe, e chi lo fa sviluppa nel tempo piante dei piedi dure e callose. Ciuffi di capelli spessi, spesso ricci, riscaldano la parte superiore dei loro larghi piedi abbronzati. Le tonalità della pelle degli halfling tendono a colori caldi e ambrati, come il miele o il rovere, mentre il colore dei capelli varia dal biondo dorato chiaro al nero corvino. Gli halfling raggiungono la maturità fisica intorno ai 20 anni. Un halfling tipico può vivere fino a circa 150 anni.",
+  "Desc": "Gli Halfling sono persone basse e resistenti che mostrano notevole curiosità e senso dell'umorismo.",
+  "HP": "6",
+  "Taglia": "Piccola",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Destrezza",
+    "Saggezza",
+    "Libero"
+  ],
+  "Difetto": "Forza",
+  "Tratti": ["Halfling", "Umanoide"],
+  "Lingua": "Comune@Halfling@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra: Nanico, Elfico, Gnomesco, Goblin e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Occhi Acuti++@I tuoi occhi sono affilati, permettendoti di cogliere piccoli dettagli su creature occultate o persino invisibili che altri potrebbero non notare.@Ottieni un bonus di circostanza +2 quando usi l’azione Cercare per trovare creature nascoste o non individuate entro 9m da te.@Quando prendi di mira un avversario che è occultato o nascosto, riduci la CD della prova piatta a 3 per un bersaglio occultato o a 9 per uno nascosto."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Umano",
+  "DescFisica": "Le caratteristiche fisiche degli umani sono tanto varie quanto i climi del mondo. Gli umani possiedono una vasta gamma di colori della pelle e dei capelli, tipi di corporatura e tratti del viso. In generale, la loro pelle tende ad avere una tonalità più scura quanto più vicino all’equatore vivono loro o i loro antenati.@Gli umani raggiungono la maturità fisica intorno ai 15 anni, anche se la maturità mentale arriva qualche anno dopo. Un umano tipico può vivere fino a circa 90 anni. Gli umani hanno caratteristiche fisiche eccezionalmente mutevoli rispetto ad altre stirpi, con una maggiore variabilità in altezza, peso e altri parametri fisici.",
+  "Desc": "Gli Umani sono persone diverse e adattabili, con grande potenziale e profonde ambizioni.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Libero",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Umano", "Umanoide"],
+  "Lingua": "Comune@Lingue aggiuntive pari a 1 + il tuo modificatore di Intelligenza (se positivo).@Scegli tra la lista delle lingue comuni e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [],
+  "Mostrare": true
+},
+{
+  "Nome": "Leshy",
+  "DescFisica": "I leshy sono tanto vari quanto il materiale usato per creare i loro corpi, e di solito appaiono come un bizzarro miscuglio di varie piante o funghi. I loro corpi hanno una forma vagamente umanoide, con numerose caratteristiche della pianta o del fungo da cui sono stati creati. Un leshy tipico è alto circa 90 cm. I leshy iniziano la loro vita come adulti e non invecchiano.",
+  "Desc": "I Leshy sono spiriti della natura immortali posti in piccoli corpi vegetali, in cerca di esperienze nel mondo.",
+  "HP": "8",
+  "Taglia": "Piccola",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Costituzione",
+    "Saggezza",
+    "Libero"
+  ],
+  "Difetto": "Intelligenza",
+  "Tratti": ["Leshy", "Pianta"],
+  "Lingua": "Comune@Fatato@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Draconico, Elfico, Gnomesco, Goblin, Halfling, Sakvroth e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nella luce fioca come se fosse luce intensa, quindi ignori la condizione occultato dovuta alla luce fioca.",
+    "++Nutrimento Vegetale++@Ottieni nutrimento nello stesso modo in cui fanno le piante o i funghi che corrispondono al tuo tipo di corpo, tramite una combinazione di fotosintesi, assorbimento di minerali con le radici o assimilazione di materia in decomposizione.@Di norma non hai bisogno di pagare per il cibo. Se dipendi dalla fotosintesi e resti senza luce solare per 1 settimana, inizi a morire di fame.@Puoi trarre nutrimento da speciali bottiglie di luce solare invece che dalla luce naturale, ma queste bottiglie costano 10 volte il prezzo delle razioni standard (ovvero 40 sp)."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Orco",
+  "DescFisica": "Gli orchi sono alti e potentemente costruiti, con braccia lunghe e gambe tozze. Molti orchi superano i 2 metri di altezza, anche se tendono ad assumere posture ampie, quasi arcuate, e a curvarsi in avanti con le spalle. Gli orchi hanno la pelle ruvida, ossa spesse e muscoli duri come la roccia, il che li rende adatti alla guerra e ad altri compiti fisicamente impegnativi. Il colore della pelle degli orchi è tipicamente una tonalità di verde, anche se alcuni orchi presentano altre colorazioni che riflettono adattamenti ai loro ambienti.@Gli orchi considerano attraenti corporature possenti, pelle pesantemente cicatrizzata, grandi zanne e tatuaggi, indipendentemente dal genere. Gli orchi raggiungono la maturità fisica intorno ai 17 anni, e molti vivono fino a circa 60 anni.",
+  "Desc": "Gli Orchi sono persone fiere e forti con fisici temprati, che valorizzano la forza fisica e la gloria nel combattimento.",
+  "HP": "10",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Libero",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Orco", "Umanoide"],
+  "Lingua": "Comune@Orchesco@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Goblin, Jotun, Petran, Sakvroth e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Scurovisione++@Puoi vedere nell’oscurità e nella luce fioca altrettanto bene che nella luce intensa, anche se la tua visione nell’oscurità è in bianco e nero."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Athamaru",
+  "DescFisica": "Gli athamaru hanno un aspetto distintivo che ricorda quello dei pesci. La loro pelle dai colori vivaci spesso si abbina alle barriere coralline dove costruiscono le loro comunità. Frange, barbigli e pinne crestati contribuiscono al loro aspetto appariscente. L’enorme varietà di forme di cresta, motivi di scaglie e stili di pinne rende ogni individuo distinto, anche se le comunità condividono caratteristiche simili. Queste somiglianze sono spesso vantaggiose dal punto di vista ambientale, come scaglie che permettono loro di mimetizzarsi tra le alghe o dita dei piedi più lunghe in aree con fondali rocciosi.@Gli estranei notano spesso che gli athamaru hanno un odore caratteristico, dovuto ai feromoni, usati sia per la comunicazione che per la difesa. Sebbene il livello di controllo vari, tutti gli athamaru possono comunicare emozioni di base tramite segnali chimici, e ogni insediamento possiede variazioni uniche nei propri feromoni che fungono da impronta comunitaria.@I maestri dell’espressione feromonale possono comunicare concetti filosofici complessi esclusivamente in modo chimico, occupando un ruolo simile a quello dei maestri cantori in altre comunità.@Gli athamaru apprezzano gli ornamenti naturali che confondono il confine tra modifiche corporee e gioielli. Nelle aree dove cresce il corallo, la cura delle barriere e delle specie simbiotiche è un compito molto apprezzato. Alcuni modellano esemplari ancora vivi in orecchini o bracciali, guidando poi delicatamente la crescita del corallo. Questi pezzi restano spesso in circolazione per generazioni e sono considerati storia vivente della comunità.@Altri usi del corallo includono l’integrazione di parti del corallo nel corpo del portatore in simbiosi, in modo che il corallo fornisca nutrienti mentre l’athamaru garantisce accesso alla luce solare e ad acqua di qualità.",
+  "Desc": "Gli Athamarus sono umanoidi simili a pesci che formano comunità compatte sotto il mare, con villaggi di fratelli guidati da una matriarca comune.Coltivano alghe, addestrano anguille come cavalcature e creano elaborate opere d'arte in corallo.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "6m@Nuotare 7.5m",
+  "Boost": [
+    "Forza",
+    "Saggezza",
+    "Libero"
+  ],
+  "Difetto": "Intelligenza",
+  "Tratti": ["Non comune", "Anfibio", "Athamaru", "Umanoide"],
+  "Lingua": "Comune@Thalassic@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Alghollthu, Azlanti, Fatato, Tien e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nella luce fioca come se fosse luce intensa, quindi ignori la condizione occultato dovuta alla luce fioca."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Azarketi",
+  "DescFisica": "Gli azarketi appaiono come umani regali e atletici. La loro pelle morbida e idrofila varia in tonalità dal bianco perlaceo a sfumature rosate, verdastre o brune che ricordano il corallo. Gli azarketi con i capelli sono piuttosto rari; molti invece presentano pinne o creste squamose sulla testa. Come il popolo azlanti da cui discendono, spesso hanno occhi viola. La loro discendenza acquatica è evidente grazie alle tre paia di branchie su ciascun lato del collo, oltre che alle mani e ai piedi palmati. Gli azarketi sono noti per vivere più a lungo degli umani, anche se maturano più o meno alla stessa età.",
+  "Desc": "Gli Azarketis, eredi dell’eredità di un impero frammentato, mantengono le loro orgogliose tradizioni ma emergono ancora per interagire con il resto del mondo.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "6m@Nuotare 9m",
+  "Boost": [
+    "Costituzione",
+    "Carisma",
+    "Libero"
+  ],
+  "Difetto": "Saggezza",
+  "Tratti": ["Non comune", "Anfibio", "Azarketi", "Umanoide"],
+  "Lingua": "Comune@Alghollthu@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Aklo, Aquan, Azlanti, Draconico, Elfico, Sottocomune e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nella luce fioca come se fosse luce intensa e ignori la condizione occultato dovuta alla luce fioca.",
+    "++Idratazione++@Sebbene tu sia un essere anfibio ugualmente capace sulla terra e in acqua, il tuo corpo richiede che tu ritorni in ambienti acquatici almeno una volta ogni 24 ore. Devi immergerti in acqua per reidratare la tua pelle adattata all’acqua. Se non lo fai, la tua pelle inizia a screpolarsi e le branchie diventano dolorose. Dopo le prime 24 ore fuori dall’acqua, subisci una penalità di stato –1 ai tiri salvezza su Tempra. Dopo 48 ore, fatichi a respirare aria e inizi a soffocare finché non vieni riportato in acqua."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Catfolk",
+  "DescFisica": "Sebbene tutti i catfolk camminino eretti e abbiano pelliccia morbida, una coda, grandi orecchie e pupille verticali, mostrano almeno tanta varietà quanto i felini comuni. I catfolk hanno dita agili con artigli corti che di solito sono retrattili.@I catfolk maturano rapidamente e sono in grado di camminare già dopo pochi mesi, ma iniziano le loro carriere più o meno alla stessa età degli umani e vivono fino a 60 o 70 anni.",
+  "Desc": "I Catfolk sono umanoidi felini altamente sociali, inclini alla curiosità e al vagabondaggio.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Destrezza",
+    "Carisma",
+    "Libero"
+  ],
+  "Difetto": "Saggezza",
+  "Tratti": ["Non comune", "Catfolk", "Umanoide"],
+  "Lingua": "Amurrun@Comune@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Draconico, Elfico, Gnomesco, Goblin, Halfling, Iruxi, Jotun, Fatato e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nella luce fioca come se fosse luce intensa, quindi ignori la condizione occultato dovuta alla luce fioca.",
+    "++Atterrare in Piedi++@Quando cadi, subisci solo metà dei danni normali e non atterri prono."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Centauro",
+  "DescFisica": "I centauri hanno la forma di umani muscolosi con il corpo di cavallo dalla vita in giù. Sono robusti e stabili, capaci di trasportare carichi pesanti e ingombranti per lunghi periodi. I centauri mostrano grande variazione nelle dimensioni, nei capelli e nella colorazione, con la maggior parte che raggiunge in media 7 piedi di altezza e oltre 900 kg di peso. Sebbene la colorazione sia spesso ereditata, le marcature del mantello di un centauro sono imprevedibili, e molti sono orgogliosi dei distinti motivi, posizioni e sfumature cromatiche dei loro mantelli. Queste marcature sono presenti alla nascita e non cambiano nel corso della vita di un centauro. In passato, le marcature di un centauro venivano usate per predire il loro futuro. Sebbene questa tradizione sia caduta in disuso dalla morte delle profezie, alcune marcature particolarmente rare sono ancora oggi considerate fortunate o di cattivo auspicio.",
+  "Desc": "I Centauri sono nomadi metà umani e metà cavalli che percorrono liberamente le loro terre ancestrali. Sono esperti di sopravvivenza, con lunga storia di insegnamento, e affrontano il pericolo con abilità in tiro con l’arco, erboristeria e magia.",
+  "HP": "8",
+  "Taglia": "Grande",
+  "Velocita": "9m",
+  "Boost": [
+    "Forza",
+    "Saggezza",
+    "Libero"
+  ],
+  "Difetto": "Carisma",
+  "Tratti": ["Non comune", "Bestiale", "Centauro", "Umanoide"],
+  "Lingua": "Comune@Fatato@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Arboreo, Ciclope, Nanico, Elfico, Gnomesco, Halfling, Jotun e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nella oscurità e nella luce fioca come se fosse luce intensa, sebbene la tua visione nell’oscurità sia in bianco e nero.",
+    "++Montare++@Il tuo corpo equino è adatto a trasportare alleati fidati. Un PG può cavalcarti se è di una categoria di taglia inferiore alla tua (taglia Media, per la maggior parte dei centauri), invece delle due categorie normalmente necessarie.",
+    "++Robusto++@Aumenti i limiti massimi e di ingombro della Bulk di 2."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Fetchling",
+  "DescFisica": "La maggior parte del Piano delle Ombre appare come una versione alterata del Piano Materiale ma priva di colore. Le stesse forze del Piano delle Ombre hanno toccato i fetchling, la cui pelle varia su una scala monocromatica dal bianco puro al nero profondo, comprendendo tutte le sfumature di grigio intermedie. I loro corpi sono altrettanto diversi per forma e dimensione come gli umani, sebbene la maggior parte mostri una certa fluidità di movimento che ricorda le ombre in mutamento. Gli occhi riflettenti e privi di pupille dei fetchling possono penetrare l'oscurità. La caratteristica più notevole di un fetchling è la sua ombra, che quasi mai riflette fedelmente il corpo. Invece, le ombre dei fetchling possono avere forme o dimensioni incongrue, mentre altre tremolano, si muovono autonomamente o imitano l'ombra di un'altra creatura vicina.",
+  "Desc": "I Fetchling, un tempo umani e ora qualcosa di a parte, mostrano l’antica influenza del Piano d’Ombra attraverso carnagioni monocromatiche, occhi luminosi e l’emissione di ombre sovrannaturali.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Destrezza",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Non comune", "Umanoide", "Fetchling"],
+  "Lingua": "Comune@Lingua d'Ombra@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Aklo, Draconico, D'ziriak, Necril, Sottocomune e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nell'oscurità e nella luce fioca come se fosse luce intensa."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Hobgoblin",
+  "DescFisica": "I hobgoblin hanno teste larghe e calve e occhi piccoli, oltre a pelle grigia che diventa blu acciaio quando abbronzata. Sono notevolmente resistenti; i hobgoblin si riprendono rapidamente dalle malattie e sono in grado di sostenere sforzi prolungati con poca difficoltà.@I hobgoblin maturano rapidamente, e la maggior parte può camminare, parlare e impugnare un'arma già a 1 anno. Raggiungono l'adolescenza tra gli 8 e i 12 anni e l'età adulta intorno ai 14. Tipicamente vivono fino a 70 anni.",
+  "Desc": "Gli Hobgoblin sono più alti e forti dei loro parenti goblin, spesso organizzandosi in strutture militari.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Costituzione",
+    "Intelligenza",
+    "Libero"
+  ],
+  "Difetto": "Saggezza",
+  "Tratti": ["Non comune", "Umanoide", "Hobgoblin"],
+  "Lingua": "Comune@Goblin@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Draconico, Nano, Jotun, Halfling, Kholo, Orchesco e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nell'oscurità e nella luce fioca come se fosse luce intensa."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Kholo",
+  "DescFisica": "I kholo sono umanoidi simili a iene con musi corti, denti affilati e grandi orecchie rotonde ed espressive. I loro corpi sono coperti da pelliccia folta, più ruvida sulla schiena e più morbida e chiara su stomaco e gola, di solito in tonalità bianco sporco, sabbia o marrone; macchie e strisce sono comuni. I kholo misurano tipicamente tra 1,8 e 2,1 metri. Le donne sono di solito circa una testa più alte degli uomini e conseguentemente più forti. I kholo sono considerati adulti a 15 anni e vivono in media circa 60 anni.",
+  "Desc": "I Kholos sono umanoidi con testa di iena che abbracciano praticità e pragmatismo.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Forza",
+    "Intelligenza",
+    "Libero"
+  ],
+  "Difetto": "Saggezza",
+  "Tratti": ["Non comune", "Umanoide", "Kholo"],
+  "Lingua": "Comune@Kholo@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Draconico, Elfico, Fey, Iruxi, Necril, Orchesco e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nella luce fioca come se fosse luce intensa, ignorando la condizione di nascosto dovuta alla luce fioca.",
+    "++Morso++@I tuoi denti affilati e le mascelle potenti sono armi temibili. Hai un attacco a mani nude con le mascelle che infligge 1d6 danni perforanti. Le mascelle appartengono al gruppo corpo a corpo."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Kitsune",
+  "DescFisica": "I kitsune hanno orecchie vulpine vigili, musi appuntiti e artigli corti semi-retrattili su dita e piedi. La loro pelliccia è densa, con colori contrastanti, più spesso rossa, sabbia, nera o bianca. I kitsune hanno code folte che aumentano di numero man mano che affinano le loro abilità magiche innate, fino a nove.",
+  "Desc": "I Kitsune sono un popolo carismatico e arguto con un legame spirituale che conferisce molte abilità magiche, soprattutto la capacità di cambiare forma.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Carisma",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Non comune", "Umanoide", "Kitsune"],
+  "Lingua": "Comune@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Elfico, Gnomo, Goblin, Halfling, Nano, Silvano e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nella luce fioca come se fosse luce intensa, ignorando la condizione di nascosto dovuta alla luce fioca.",
+    "++Cambia Forma++@Come kitsune, ottieni l'abilità Cambia Forma.@###{\"nome\": \"Cambia Forma\", \"tipoAzz\": \"azione\", \"tratti\": [\"Divino\", \"Kitsune\", \"Polimorfismo\", \"Trasmutazione\"], \"dettagli\": {}, \"desc\": \"Ti trasformi in una forma alternativa specifica determinata dalla tua eredità. Se la tua eredità non elenca una forma, la tua forma alternativa è la forma senza coda, che è una discendenza umanoide comune di taglia Media diffusa dove sei cresciuto (tipicamente umano). Questa forma ha la stessa età e tipo di corpo della tua vera forma e possiede tratti fisici analoghi, come il colore dei capelli. Usare Cambia Forma conta come creare un travestimento per l'uso di Inganno. Perdi eventuali Colpi a mani nude ottenuti da un talento di eredità kitsune o ancestrale in questa forma. Puoi rimanere indefinitamente nella forma alternativa e puoi tornare alla tua vera forma kitsune usando nuovamente questa azione.\"}###"
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Kobold",
+  "DescFisica": "I koboldi sono piccoli (circa 0,9 m di altezza), umanoidi rettiliani con corpi snelli, code lunghe e corna robuste. Le loro caratteristiche spesso riflettono la natura del benefattore della loro tana, come ali draconiche vestigiali o crescite cristalline luminescenti. Queste differenze distinguono le tane, anche se tutti i koboldi sono generalmente facilmente riconoscibili come tali.",
+  "Desc": "I Kobold sono piccoli e rettiliani, con tratti marcati dal potere che scelgono di seguire.",
+  "HP": "6",
+  "Taglia": "Piccola",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Destrezza",
+    "Carisma",
+    "Libero"
+  ],
+  "Difetto": "Costituzione",
+  "Tratti": ["Non comune", "Umanoide", "Kobold"],
+  "Lingua": "Comune@Sakvroth@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Aklo, Diabolico, Draconico, Nano, Empyrean, Fey, Gnomo e Petran, e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nella luce fioca come se fosse luce intensa, ignorando la condizione di nascosto dovuta alla luce fioca."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Lizardfolk",
+  "DescFisica": "I lizardfolk variano a seconda del loro ambiente, ma condividono musi dentati e code lunghe e potenti. Molti presentano spuntoni dorsali o frange vistose sul collo che indicano la loro linea di clan. I lizardfolk raggiungono l'età adulta fisica a 15 anni e vivono fino a 120 anni. L'altezza media è tra 1,8 e 2,1 m, ma crescono per tutta la vita, aumentando forza e taglia con l'età.",
+  "Desc": "I Lizardfolk sono umanoidi squamosi con una storia che risale al passato remoto.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Forza",
+    "Saggezza",
+    "Libero"
+  ],
+  "Difetto": "Intelligenza",
+  "Tratti": ["Non comune", "Umanoide", "Lizardfolk"],
+  "Lingua": "Comune@Iruxi@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Amurrun, Boggard, Draconico, Elfico, Fey, Jotun, Thalassic e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Adattamento Acquatico++@La tua biologia rettiliana ti permette di trattenere il respiro a lungo. Ottieni il talento generale Controllo del Respiro come talento bonus.",
+    "++Artigli++@I tuoi artigli affilati offrono un'alternativa ai pugni degli altri umanoidi. Hai un attacco a mani nude con artigli che infligge 1d4 danni da taglio, appartiene al gruppo dei pugni, e possiede i tratti agile e finezza."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Merfolk",
+  "DescFisica": "I merfolk sono tra le ancestrie più distintive di Golarion; non si può confondere un merfolk con un altro. Dalla vita in su hanno corpi umanoidi potenti e tratti acquadinamici affilati. Gli occhi sono leggermente più grandi di quelli umani e molti hanno orecchie leggermente appuntite, simili a quelle degli aiuvarin. Sotto la vita, hanno corpi di grandi pesci, ciascuno con una lunga coda squamosa terminante in una pinna o in un paio di pinne.@I merfolk hanno tutti i colori di pelle e squame immaginabili. I corpi umanoidi hanno spesso tonalità simili a quelle degli umani o elfi della stessa area. I merfolk che vivono più lontano dalla terra assumono colorazioni simili a quelle dei pesci blu, grigi o verdi. I merfolk abissali hanno pelle grigio scuro, blu notte o traslucida.@Le code di pesce hanno colori simili alle popolazioni locali. Nelle zone temperate, hanno corpi argentati e iridescenti con tracce di grigio o blu; i merfolk tropicali mostrano colori brillanti, mentre quelli delle profondità hanno squame traslucide o strisce debolmente bioluminescenti.",
+  "Desc": "I Merfolk sono popolo acquatico metà umano e metà pesce, che vive in ogni oceano e mare di Golarion. Usano la magia come altri userebbero strumenti comuni, specialmente per controllare l’acqua, creare presagi e nei loro incantevoli canti.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "1.5m@7.5m",
+  "Boost": [
+    "Destrezza",
+    "Carisma",
+    "Libero"
+  ],
+  "Difetto": "Costituzione",
+  "Tratti": ["Non comune", "Umanoide", "Anfibio", "Merfolk"],
+  "Lingua": "Comune@Thalassic@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Aklo, Azlanti, Draconico, Elfico e Fey e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere in luce fioca come se fosse luce piena, ignorando la condizione nascosta dovuta alla luce fioca.",
+    "++Grazia Acquatica++@Quando ottieni un successo in un tiro salvezza contro un effetto d'acqua, ottieni un successo critico invece.",
+    "++Idratazione++@Il tuo corpo richiede di tornare in ambienti acquatici almeno una volta ogni 24 ore. Dopo le prime 24 ore fuori dall'acqua, subisci un malus di –1 ai tiri salvezza su Tempra. Dopo 48 ore, fatichi a respirare aria e inizi a soffocare finché non torni in acqua."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Minotauro",
+  "DescFisica": "I minotauri sono umanoidi alti e massicci con tratti bovini come corna, zoccoli e volti allungati. I loro motivi di pelliccia sono spesso monotoni in marrone scuro o nero, sebbene bianco o grigio non siano rari. Nonostante la grande statura, i minotauri sono sorprendentemente agili. I loro zoccoli poggiano su un punto di equilibrio delicato, rendendo i passi silenziosi e precisi. Quando necessario, i passi possono risuonare come tuoni.@Le corna dei minotauri sono motivo di orgoglio e spesso decorate con accessori di moda. Quelle più lunghe hanno anelli e catene in metalli rari o incisioni e colorazioni. Le corna più corte possono avere la pelliccia rasata alla base, tatuaggi circolari o punte metalliche.",
+  "Desc": "I Minotauri sono umanoidi bovini cornuti originati da un antico maleficio divino. Sono grandi, forti e maestri di arti e rompicapi, spesso impegnati in architettura e lavorazione della pietra. Si trovano meglio nei labirinti, naturali, artificiali o psicologici.",
+  "HP": "10",
+  "Taglia": "Grande",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Forza",
+    "Costituzione",
+    "Libero"
+  ],
+  "Difetto": "Carisma",
+  "Tratti": ["Non comune", "Bestiale", "Umanoide", "Minotauro"],
+  "Lingua": "Comune@Jotun@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Ciclope, Nanico, Fey, Petran, Sakvroth e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere in luce fioca come se fosse luce piena, anche se la tua visione nell'oscurità è in bianco e nero.",
+    "++Corna++@Le tue corna affilate sono letali come lance. Hai un attacco disarmato con corna che infligge 1d8 danni perforanti. Le corna sono nel gruppo di lotta e hanno il tratto disarmato."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Nagaji",
+  "DescFisica": "I nagaji mostrano notevoli differenze nell'aspetto. Alcuni hanno code oltre alle gambe, altri hanno artigli affilati su mani e piedi, e alcuni sono così diversi dai loro simili da essere scambiati per lamie. Le caratteristiche più comuni sono la testa serpentina e il corpo umanoide. Hanno occhi fissi come i serpenti e il corpo ricoperto di squame con motivi simili a serpenti o nagas. Il collo può essere lungo come un cigno o corto come un umano, e molti hanno una frangia di pelle o squame lungo la schiena. La forza è spesso notevole, con corporature robuste o muscolature snelle ma potenti come quelle di un serpente.",
+  "Desc": "Con corpi umanoidi e teste serpentine, i Nagaji sono araldi, compagni e servitori di potenti nagas. Nutrono profonda reverenza per luoghi sacri e verità spirituali, aspetto tanto intimidatorio quanto il loro aspetto.",
+  "HP": "10",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Forza",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Non comune", "Umanoide", "Nagaji", "Bestiale"],
+  "Lingua": "Comune@Nagaji@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Aklo, Amurrun, Aquan, Celestiale, Draconico, Sottocomune, Lingua d'Ombra, Tengu, Vanaran e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere in luce fioca come se fosse luce piena e ignori la condizione nascosta dovuta alla luce fioca.",
+    "++Zanne++@La tua bocca contiene file di denti uncini affilati o una coppia di zanne serpentine feroci. Ottieni un attacco disarmato con zanne che infligge 1d6 danni perforanti. Le zanne appartengono al gruppo di lotta e hanno i tratti finezza e disarmato."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Ratfolk",
+  "DescFisica": "I ratfolk hanno musi vibrissati, grandi orecchie e code prive di peli, e tipicamente occhi rossi e pelo corto marrone o nero. Un ratfolk comune è alto circa 1,2 m e pesa circa 36 kg. Tuttavia, i ratfolk variano considerevolmente; anche un singolo nucleo familiare può mostrare notevoli differenze nel colore del pelo, degli occhi o nelle dimensioni.@L'istinto spinge i ratfolk a mantenere la pulizia, rinforzato dalle loro strutture sociali. Poiché il loro aspetto è spesso considerato inquietante dagli altri umanoidi e possono essere scambiati per licantropi-ratto, i ratfolk spesso nascondono le loro caratteristiche fisiche con abiti multipli quando si muovono tra altre ancestrie.",
+  "Desc": "I Ratfolk sono piccoli, intelligenti e adattabili, con tratti da topo e amore per la comunità.",
+  "HP": "6",
+  "Taglia": "Piccola",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Destrezza",
+    "Intelligenza",
+    "Libero"
+  ],
+  "Difetto": "Forza",
+  "Tratti": ["Non comune", "Umanoide", "Ratfolk"],
+  "Lingua": "Comune@Ysoki@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Aklo, Draconico, Nanico, Gnomo, Goblin, Halfling, Kholo, Orco, Sakvroth o qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere in luce fioca come se fosse luce piena e ignori la condizione nascosta dovuta alla luce fioca.",
+    "++Denti Aghi++@I tuoi incisivi prominenti offrono un'alternativa ai pugni degli altri umanoidi. Ottieni un attacco disarmato con mascelle che infligge 1d4 danni perforanti. L'attacco appartiene al gruppo di lotta e ha i tratti agile e finezza."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Samsaran",
+  "DescFisica": "I samsaran riflettono la diversità di qualsiasi ascendenza avessero nella loro prima vita mortale, e solo alla prima rinascita assumono le caratteristiche uniche della loro specie. Il ciclo di reincarnazione conferisce ai samsaran tonalità di pelle blu, spesso pallida ma anche fino al blu notte più profondo. Hanno occhi privi di pupille, tipicamente pallidi, paragonabili alla luna. I samsaran hanno anche sangue trasparente e incolore, simile ad acqua cristallina.@Quando i samsaran muoiono, si reincarnano come neonati nati da una coppia umanoide di ascendenza non samsaran, spesso nell'area a cui un particolare samsaran era più legato nella vita precedente. Pur potendo condividere alcune caratteristiche della loro incarnazione precedente, la somiglianza è più simile a quella tra genitore e figlio piuttosto che una duplicazione identica. I samsaran invecchiano come gli umani e, se non muoiono per cause innaturali, muoiono di vecchiaia a 100 anni. I figli nati da samsaran vivono la prima vita come l'ascendenza mortale dei genitori e assumono il colore della pelle e degli occhi dei samsaran solo dopo la prima morte.",
+  "Desc": "Persone dalla pelle blu che provengono da Zi Ha; si reincarnano alla morte e ricordano frammenti delle vite passate. Sono comuni a Zi Ha, Po Li e Goka.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Costituzione",
+    "Saggezza",
+    "Libero"
+  ],
+  "Difetto": "Carisma",
+  "Tratti": ["Non comune", "Umanoide", "Samsaran"],
+  "Lingua": "Comune@Samsaran@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Chthonian, Diabolico, Draconico, Empyreal, Jotun, Petran, Pyric, Sussuran, Thalassic o qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Criptomnesia++@Conservi frammenti di conoscenza delle tue vite passate. Ottieni un bonus di circostanza di +1 ai tiri di abilità non addestrati.",
+    "++Visione Crepuscolare++@Puoi vedere in luce fioca come se fosse luce piena e ignori la condizione nascosta dovuta alla luce fioca.",
+    "++Anima Vagabonda++@La tua anima può tornare facilmente al ciclo di reincarnazione. Quando sei soggetto a risveglio dei morti, reincarnazione o rituali simili, il lanciatore principale utilizza il risultato con un grado di successo superiore al suo tiro. Torni sempre in vita come samsaran, anche se il rituale reincarnerebbe in un'altra razza."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Tanuki",
+  "DescFisica": "I tanuki sono umanoidi bassi che assomigliano a cani procione bipedi, di solito tra 0,9 e 1,2 m di altezza. Tendono ad avere corpi rotondi, con grandi pance che appaiono ancora più ampie grazie al loro spesso pelo. Il volto di un tanuki è altrettanto rotondo, con occhi ampi e vigili contornati da una maschera scura di pelo. I tanuki hanno una singola coda folta di cui vanno molto fieri e alla quale attribuiscono i loro poteri. Queste caratteristiche conferiscono ai tanuki una forte apprezzamento culturale per le forme tonde rispetto agli angoli appuntiti, come bambole daruma, porte circolari e la luna.@I tanuki indossano spesso abiti semplici e rustici, preferendo vesti semplici a fronzoli eleganti o gioielli lucenti. Tuttavia, i tanuki si danno da fare per festival e celebrazioni, che vedono come un'opportunità perfetta per godersi la vita al massimo. Molti tanuki portano sempre con sé un gilet rosso e un asciugamano da danza in caso di feste improvvisate.",
+  "Desc": "I Tanuki sono animali simili a procioni originari di Minkai o esseri sapienti con poteri mutaforma. Sono comuni a Minkai, nella Foresta degli Spiriti e a Goka.",
+  "HP": "10",
+  "Taglia": "Piccola",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Costituzione",
+    "Carisma",
+    "Libero"
+  ],
+  "Difetto": "Saggezza",
+  "Tratti": ["Non comune", "Umanoide", "Tanuki"],
+  "Lingua": "Comune@Tanuki@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Elfico, Fey, Gnomo, Goblin, Kitsune, Tengu o qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Cambia Forma++###{\"nome\": \"Cambia Forma\", \"tipoAzz\": \"azione\", \"tratti\": [\"concentrazione\", \"polimorfismo\", \"primordiale\", \"tanuki\"], \"dettagli\": {\"Descrizione aggiuntiva\": \"Puoi trasformarti in un cane procione comune, usando le statistiche della forma di parassita. Questa forma ha la stessa età e tipo di corpo della tua forma vera e tratti fisici simili, come il colore del pelo. Usare Cambia Forma conta come creare un travestimento per l'uso di Imita tramite Inganno. Perdi eventuali colpi disarmati ottenuti da un talento di ascendenza tanuki. Puoi rimanere in questa forma indefinitamente e tornare alla forma tanuki usando di nuovo questa azione.\"}, \"desc\": \"Ti trasformi in un cane procione comune, assumendo statistiche e tratti simili alla tua forma originale. Puoi usare questa forma indefinitamente e tornare alla forma tanuki con la stessa azione.\"}###"
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Tengu",
+  "DescFisica": "I tengu hanno molte caratteristiche aviarie. I loro volti terminano con becchi appuntiti e gli avambracci e le gambe inferiori squamati finiscono in artigli. Poiché le calzature chiuse tendono a calzare male se non fatte su misura, molti tengu indossano sandali aperti o semplicemente camminano a piedi nudi. Raramente superano 1,5 m di altezza e sono persino più leggeri di quanto suggerirebbero le loro piccole ossa cave. Un piccolo numero di tengu possiede ali vestigiali.",
+  "Desc": "I Tengu sono umanoidi aviani gregarî e intraprendenti che raccolgono conoscenza e tesori.",
+  "HP": "6",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Destrezza",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Non comune", "Umanoide", "Tengu"],
+  "Lingua": "Comune@Tengu@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Nano, Elfico, Halfling, Gnomo, Goblin, Fey o qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere in luce fioca come se fosse luce brillante, ignorando la condizione nascosto dovuta alla luce fioca.",
+    "++Becco Affilato++@Con il tuo becco affilato, non sei mai senza un'arma. Hai un attacco disarmato becco che infligge 1d6 danni perforanti. Il tuo becco fa parte del gruppo di armi da corpo a corpo e possiede i tratti destrezza e disarmato."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Tripkee",
+  "DescFisica": "I tripkee somigliano a rane arboricole umanoidi, con occhi grandi, bocche larghe e fisici esili. I loro corpi leggeri e le grandi dita offrono un'ottima presa durante l'arrampicata, mentre la loro pelle colorata fornisce un camuffamento efficace che varia in base all'ambiente in cui vivono—verde e marrone per i gruppi che abitano la giungla, blu e arancione per le comunità ripariali, e molti altri colori intermedi. Un tripkee cresce rapidamente, raggiungendo la taglia adulta di circa 0,6 m di altezza circa 3 anni dopo la schiusa, anche se sono considerati adulti intorno ai 12 anni. Raramente vivono oltre i 60 anni, anche se individui eccezionali occasionalmente arrivano a un secolo di vita.",
+  "Desc": "I Tripkees sono umanoidi simili a rane il cui spirito spesso supera le dimensioni fisiche.",
+  "HP": "6",
+  "Taglia": "Piccola",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Destrezza",
+    "Saggezza",
+    "Libero"
+  ],
+  "Difetto": "Forza",
+  "Tratti": ["Non comune", "Umanoide", "Tripkee"],
+  "Lingua": "Comune@Tripkee@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Boggard, Chthonian, Draconico, Elfico, Fey, Iruxi, Thalassic o qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere in luce fioca come se fosse luce brillante, ignorando la condizione nascosto dovuta alla luce fioca.",
+    "++Arrampicatore Naturale++@Ottieni un bonus di circostanza +2 alle prove di Atletica per Arrampicarsi."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Vanara",
+  "DescFisica": "I vanara sono umanoidi con caratteristiche simiane, inclusa una lunga coda prensile e piedi simili a mani. Raramente superano i 1,5 m di altezza, ma appaiono spesso più piccoli a causa dei loro corpi esili e agili. I vanara sono ricoperti da un sottile strato di pelliccia morbida su tutto il corpo. Questa pelliccia può essere color tan, marrone o dorato e raramente presenta macchie o striature. I capelli sulla testa dei vanara crescono più spessi e lussuosi; è facile acconciarli in stili elaborati, cosa che molti vanara amano fare. Questi capelli sono quasi sempre dello stesso colore della pelliccia corporea, ad eccezione dei rari vanara “mantobianco” con criniere di peli chiari e sottili, che possono nascere in qualsiasi famiglia vanara. I vanara hanno occhi grandi ed espressivi e bocche con denti smussati e incisivi appuntiti. I vanara diventano adulti a 13 anni e vivono generalmente circa 60 anni.",
+  "Desc": "I Vanara sono umanoidi simili a scimmie, curiosi e birichini, con pelo corto e morbido, occhi espressivi e lunghe code prensili. Mani e piedi agili li aiutano nella giungla dove vivono.",
+  "HP": "6",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Destrezza",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Non comune", "Umanoide", "Vanara"],
+  "Lingua": "Comune@Vanara@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Elfico, Gnomo, Infernale, Goblin, Silvano o qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Coda Prensile++@Puoi usare la tua lunga coda flessibile per eseguire azioni di Interazione che richiedono una mano libera, anche se entrambe le mani sono occupate. La tua coda non può eseguire azioni che richiedono dita o notevole destrezza manuale, inclusa qualsiasi azione che richiederebbe una prova per essere compiuta, e non puoi usarla per tenere oggetti."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Wayang",
+  "DescFisica": "Le difficoltà di una lotta interplanare e la vita sul mare o vicino ai mari di Tian Xia conferiscono a molti wayang corporature esili, e molti si portano con una gravitas che contrasta con la loro piccola statura. Nonostante lunghi viaggi sotto cieli sereni, la pelle dei wayang (che varia dal bianco avorio al nero legno del crepuscolo) non si scotta facilmente, una benedizione attribuita all'amore dell'oscurità per i suoi figli. Ombre spesse si muovono e danzano quasi come un secondo strato di pelle sui corpi dei wayang, proteggendoli dal bagliore del sole. I wayang decorano ulteriormente la loro pelle con intricati motivi di pittura, che i non-wayang spesso interpretano erroneamente come cicatrici o tatuaggi. Con concentrazione e addestramento, i wayang possono muovere le loro ombre indipendentemente dal corpo, un'abilità utilizzata efficacemente sia dai guerrieri sia dai narratori, sia per agevolare imboscate sia per illustrare performance. I wayang tendono a far crescere i capelli lunghi, costruire elaborate acconciature con conchiglie e corna per tenere i capelli in ordine e prediligono lunghe sciarpe o scialli sulle spalle.",
+  "Desc": "Piccoli abitanti originari del Netherworld, immigrati a Golarion dopo la Caduta della Terra.",
+  "HP": "8",
+  "Taglia": "Piccola",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Destrezza",
+    "Carisma",
+    "Libero"
+  ],
+  "Difetto": "Costituzione",
+  "Tratti": ["Non comune", "Umanoide", "Wayang"],
+  "Lingua": "Comune@Shadowtongue@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra D'ziriak, Diabolico, Minatan, Nagaji, Thalassic, Vudrani, Yaksha o qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nell'oscurità e in luce fioca così come vedi in piena luce."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Anadi",
+  "DescFisica": "Gli Anadi nella loro forma vera assomigliano a ragni di dimensioni umane con una varietà di colorazioni. Alcune tonalità appaiono semplici o smorzate, mentre altre rimangono sorprendenti e vivaci, con la maggior parte dei motivi ereditati dai genitori dell'anadi. Un anadi tipico misura cinque piedi di lunghezza dalle zampe anteriori a quelle posteriori quando è in posizione comoda.@Tutti gli anadi possiedono la capacità di trasformarsi in un aspetto umano. Questa forma può somigliare a qualsiasi etnia umana, ma di solito è una che si mimetizza con la regione di schiusa dell'anadi. Gli Anadi raggiungono la maturità fisica dopo 13 anni, passando attraverso più fasi di muta. Un anadi tipico vive circa 80 anni.",
+  "Desc": "Gli Anadi sono ragni sapienti e riservati delle giungle del Garund meridionale. Sebbene appaiano mutaforma per natura, le loro due forme derivano da magia attentamente sviluppata.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Destrezza",
+    "Saggezza",
+    "Libero"
+  ],
+  "Difetto": "Costituzione",
+  "Tratti": ["Raro", "Umanoide", "Anadi"],
+  "Lingua": "Anadi@Mwangi@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Draconico, Elfico, Gnoll, Iruxi, Orco, Silvano o qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Mutare Forma++@Puoi cambiare nella tua forma umana o da ragno. Ogni forma ha un aspetto specifico e persistente. Nella forma umana, non puoi usare attacchi disarmati concessi dalla tua ascendenza. Non sei senza difese quando arrampichi nella forma da ragno. Tuttavia, nella forma da ragno non puoi usare armi, scudi o altri oggetti impugnati, e le azioni con il tratto manipolare sono limitate a: lanciare un incantesimo con componenti somatiche, tessere seta o ragnatele, o semplici azioni di Interazione come aprire una porta sbloccata. Le tue zampe da ragno non possono eseguire azioni che richiedono dita o manualità significativa, inclusa qualsiasi azione che richieda un tiro per essere compiuta. Il GM può determinare altre azioni manipolative appropriate per le zampe da ragno.",
+    "++Zanne++@Sei nato con un mezzo naturale per cacciare e difenderti. Ottieni un attacco disarmato zanne che infligge 1d6 danni perforanti. Le tue zanne appartengono al gruppo combattimento e hanno i tratti finezza e disarmato."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Android",
+  "DescFisica": "Gli androidi sono stati creati a immagine dell'umanità; pertanto, le fucine producono androidi che rappresentano tutta l'umanità. Gli androidi mostrano grande diversità in colore e etnia, altezza e forma del corpo, e identità di genere. Gli androidi respirano, mangiano e dormono come un umano, sebbene siano incapaci di riproduzione biologica. I loro corpi contengono naniti microscopici, trasportati da un fluido troppo acquoso per essere sangue, che gestiscono i processi organici. Questi naniti sono controllati tramite circuiti biologici che assomigliano a tatuaggi e sono tipicamente situati sulle mani, gli avambracci, il viso o il collo dell'androide. Molti androidi possono sfruttare i loro naniti per aumentare l'efficienza del corpo, facendo brillare i circuiti.@Gli androidi non invecchiano. Invece, il loro aspetto organico diventa meno convincente nel tempo, facendoli apparire più artificiali. Dopo un secolo, la maggior parte degli androidi sente avvicinarsi la fine del proprio tempo e volontariamente rilascia l'anima nel Cimitero per affrontare il giudizio di Pharasma. I loro corpi si spengono, entrando in un'ibernazione priva di vita mentre i naniti iniziano il protocollo di restauro e reimpostano i corpi sintetici al loro stato originale. Dopo alcune settimane, una nuova anima entra nella forma dell'androide, innescando la reinizializzazione. Questo processo, chiamato Rinnovamento, è un evento da celebrare, simile alla nascita di un figlio. Coloro che muoiono per violenza non possono Rinnovare, quindi gli androidi fanno di tutto per proteggere se stessi e i loro simili dai danni.",
+  "Desc": "Gli Androidi sono meraviglie tecnologiche di un altro mondo, con corpi sintetici e anime viventi. La loro natura duplice li rende rapidi nel pensiero e calmi sotto pressione, ma a loro agio nella quiete e solitudine.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Destrezza",
+    "Intelligenza",
+    "Libero"
+  ],
+  "Difetto": "Carisma",
+  "Tratti": ["Raro", "Umanoide", "Android"],
+  "Lingua": "Comune@Androffano@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Abyssal, Celestiale, Draconico, Nanico, Sottocomune, Utopico o qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere in luce fioca come se fosse luce brillante e ignori la condizione nascosto dovuta alla luce fioca.",
+    "++Costruito++@Il tuo corpo sintetico resiste meglio alle affezioni rispetto agli organismi puramente biologici. Ottieni un bonus di circostanza +1 ai tiri salvezza contro malattie, veleni e radiazioni.",
+    "++Emotivamente Ignaro++@Ti è difficile comprendere ed esprimere emozioni complesse. Subisci una penalità di circostanza di –1 ai tiri di Diplomazia e Performance e ai tiri di Percezione per percepire motivazioni."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Automaton",
+  "DescFisica": "Gli automi condividono una costruzione comune: una miscela di metalli trattati magicamente e pietra. Questo design permette loro di resistere agli sforzi del combattimento diretto e li rende particolarmente robusti. I loro corpi pesanti possono muoversi rapidamente quanto altri combattenti, rendendo gli automi avversari intimidatori. Il design di un automa varia in base al ruolo che deve ricoprire. La maggior parte degli automi ha una forma umanoide di base, sebbene alcuni assumano forme simili ad animali. La maggior parte degli automi ha un solo occhio che emette una luce magica tenue. Ogni automa contiene inoltre un potente artefatto che ospita la sua anima individuale e utilizza una combinazione di energia vitale e planare come fonte di potere. Questi nuclei automa sono meraviglie di ingegneria magica, il cui metodo di creazione è andato perduto nel tempo.@Come costrutti, gli automi di solito non hanno bisogno di respirare, mangiare o dormire; tuttavia, il corpo di un automa deve espellere continuamente un esalato magico impercettibile. Questo processo richiede aria respirabile per evitare l'accumulo di esalato che potrebbe intasare i sistemi dell'automa, talvolta in modo fatale. Pertanto, gli automi possono comunque soffocare come le creature viventi. Sebbene non dormano, necessitano di un periodo di ricalibrazione e ripristino magico che stabilizza le energie all'interno del loro nucleo. Senza questo processo, un nucleo non è in grado di alimentare completamente l'automa, che entra in uno stato inefficiente (simile a un umanoide che non dorme 8 ore).@Gli automi non invecchiano e il design dei loro nuclei fornisce loro una fonte di energia apparentemente infinita. Molti automi esistenti oggi hanno migliaia di anni, i loro corpi efficienti come il giorno della creazione, anche se la loro mente può essersi deteriorata con il passare del tempo. Gli automi perduti nel tempo hanno generalmente incontrato una fine violenta. Il corpo di un automa è vulnerabile quanto qualsiasi altro costrutto, sebbene distruggere il nucleo sia più difficile. L'anima di un automa può rimanere intrappolata nel nucleo per anni dopo la distruzione del corpo. Questo era l'intento dei creatori originali, che speravano di fornire un'immortalità funzionale. In realtà, la distruzione del corpo porta più spesso a un malfunzionamento, richiedendo interventi magici come la resurrezione per restaurare completamente l'automa. Se il nucleo viene distrutto o malfunziona in modo catastrofico, esso rilascia lo spirito nel Fiume delle Anime.@In alcuni casi, un automa può imparare a influenzare consapevolmente o subconscientemente il suo nucleo. Questi automi imparano infine a liberare la loro anima dal nucleo, permettendo allo spirito di proseguire quando ritengono di aver vissuto una vita soddisfacente. Questo atto lascia l'automa come costrutto senziente, tipicamente ancora attivo ma incapace di fare altro che vagare senza meta e compiere occasionali atti di autodifesa.",
+  "Desc": "Gli Automi intelligenti ospitano vere anime e rappresentano ciò che resta del tentativo finale di un impero morente. Combinano ingegno tecnologico e potere magico, creando esseri unici a Golarion.",
+  "HP": "8",
+  "Taglia": "Media o Piccola",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Forza",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Raro", "Costrutto", "Automaton"],
+  "Lingua": "Comune@Utopico@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Abyssal, Aquan, Auran, Celestiale, Nanico, Elfico, Ignan, Infernale, Terran o qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione). A discrezione del GM, se possiedi ancora ricordi del tempo in Jistka, potresti parlare Jistka invece del Comune.",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere in luce fioca come se fosse luce brillante, ignorando la condizione nascosto dovuta alla luce fioca.",
+    "++Nucleo Automaton++@Il tuo corpo contiene un nucleo automa infuso con quintessenza planare che ti permette di compiere vari compiti e ospita la tua anima e energia vitale. Questa energia scorre attraverso di te come il sangue degli umanoidi. Sei una creatura vivente. Non possiedi le immunità tipiche dei costrutti, puoi essere influenzato da effetti che colpiscono creature viventi e puoi recuperare Punti Ferita normalmente tramite energia vitale. Non vieni distrutto quando raggiungi 0 Punti Ferita; invece la tua energia vitale cerca di mantenerti attivo anche in condizioni critiche; sei svenuto e inizi a morire quando raggiungi 0 PF.",
+    "++Corpo Costrutto++@I tuoi bisogni fisiologici sono diversi da quelli delle creature viventi. Non hai bisogno di mangiare o bere. Non devi dormire, ma necessiti comunque di un periodo quotidiano di riposo. Durante questo periodo, devi entrare in uno stato di standby recuperativo per 2 ore, simile al sonno ma sei consapevole dell'ambiente e non subisci penalità per essere incosciente. Se trascorri troppo tempo senza entrare nello stato di standby, diventi affaticato e non puoi recuperare finché non entri nello standby per 2 ore."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Animale Risvegliato",
+  "DescFisica": "Gli animali risvegliati sono molto simili nell'aspetto agli animali che erano un tempo. A prima vista, gli umanoidi hanno difficoltà a distinguere un animale risvegliato dagli altri della sua specie. Ad un esame più attento, la maggior parte degli umanoidi nota qualcosa di diverso negli occhi e nei movimenti di un animale risvegliato. L'animale risvegliato si muove in modo consapevole, e anche chi non sa che l'animale sia risvegliato percepisce questa differenza. Spesso gli animali risvegliati assumono abitudini di indossare vestiti e altri ornamenti, e usare strumenti, rendendo evidente la loro natura risvegliata.@Gli animali riconoscono immediatamente gli animali risvegliati e inizialmente reagiscono con timore. Se accolti, col tempo si avvicinano all'animale risvegliato. Ci vuole molto tempo perché un animale si senta davvero a suo agio intorno ai suoi simili risvegliati, ma col tempo può succedere.@Risvegli traumatici a volte creano differenze visive sorprendenti in un animale risvegliato. Ci sono racconti di orsi risvegliati con pelliccia rossa fiammeggiante e uccelli con piume spettrali.",
+  "Desc": "Gli Animali Risvegliati erano creature normali che hanno ottenuto coscienza, con una zampa nella natura e l’altra nel mondo delle città. Qualsiasi animale può essere risvegliato, offrendo grande varietà di personaggi.",
+  "HP": "6/8/10",
+  "Taglia": "Piccola, Media, Grande o Minuscola",
+  "Velocita": "Determinata dalla tua eredità",
+  "Boost": [
+    "Costituzione",
+    "Saggezza",
+    "Libero"
+  ],
+  "Difetto": "Intelligenza",
+  "Tratti": ["Raro", "Animale", "Risvegliato"],
+  "Lingua": "Comune@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra le lingue comuni e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Forma Risvegliata++@Il risveglio ha modificato la tua forma, permettendoti di parlare e stare su due gambe. Puoi indossare, impugnare, usare e manipolare oggetti. Quali arti usi per manipolare e quanti dipendono da te e dal GM, ma per le regole funziona come un umanoide con due mani.",
+    "++Mente Risvegliata++@Il risveglio ha modificato la tua mente. Non sei più un animale, ma puoi ancora porre domande, ricevere risposte e usare Diplomazia con animali della tua specie. Ricordando i tuoi istinti, puoi permetterti di essere influenzato da incantesimi ed effetti come se fossi un animale.",
+    "++Attacchi Animali++@La tua eredità ti fornisce un attacco disarmato speciale invece del pugno standard degli umanoidi. Questo attacco appartiene al gruppo armi da corpo a corpo. Collabora con il GM per determinare quale attacco possiedi, basandoti sul tipo di animale e i suggerimenti nella tua eredità, es. becco, artiglio o ala per un'aquila, pugno o coda per una scimmia, lingua o mascella per un rospo."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Conrasu",
+  "DescFisica": "La vera forma di un conrasu è un frammento astratto di essenza spirituale. Mentre il loro essere esiste oltre la percezione sensoriale degli umanoidi, agli occhi mortali il loro corpo somiglia solitamente a un globo di luce, oscurità o spazio. All'interno del globo fluttuano piccole punte di luce, leggermente oscurate come se fossero osservate attraverso una sostanza gelatinosa. Questi “nuclei” si circondano di corpi fatti di legno ancora vivente, creando la forma che la maggior parte delle persone riconosce come un conrasu. I conrasu stessi sono chiamati a un percorso e, una volta trovato, modellano telai per creare una forma adatta, portando a una grande varietà di apparizioni.@Con l'invecchiare, il legno verde flessibile del corpo di un conrasu si indurisce, causando la perdita di mobilità degli arti. I conrasu devono continuamente crescere nuovi bracci e radici per il loro esoscheletro vivente, lasciando i loro arti congelati come effigi immobili lungo il guscio.@I conrasu non possono mantenere la loro integrità senza i loro esoscheletri di legno. Un conrasu che perde il suo esoscheletro si dissolve e muore, anche se può essere riportato in vita con la magia come altri esseri.",
+  "Desc": "I Conrasu sono frammenti di forza cosmica dotati di coscienza che costruiscono esoscheletri intricati per interfacciarsi col mondo mortale. Parte integrante dei processi universali e al contempo distaccati, guardano agli eoni per comprendere la propria esistenza.",
+  "HP": "10",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Costituzione",
+    "Saggezza",
+    "Libero"
+  ],
+  "Difetto": "Carisma",
+  "Tratti": ["Raro", "Aeon", "Pianta"],
+  "Lingua": "Mwangi@Rasu@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Celestiale, Elfico, Iruxi, Silvano, Terran, Utopiano e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Guarigione Solare++@Un conrasu può entrare in uno stato meditativo di guarigione come attività di 10 minuti quando esposto alla luce diretta del sole, recuperando 1d8 Punti Ferita. Dal 3° livello e ogni 2 livelli successivi, questa guarigione aumenta di 1d8. Una volta che un conrasu ha recuperato Punti Ferita in questo modo, è temporaneamente immune a ulteriori utilizzi di Guarigione Solare per 1 giorno."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Fleshwarp",
+  "DescFisica": "I fleshwarp sono umanoidi, alti tra 1,5 e 2,1 m e con un peso da poco meno di 45 kg a oltre 135 kg. La proporzione e l'aspetto degli arti e delle caratteristiche differiscono ampiamente, ma i fleshwarp hanno funzionalmente due gambe, due braccia e una sola testa; un fleshwarp con più arti dovrebbe considerare un talento di ascendenza appropriato per riflettere questa variazione, o uno dei suoi arti potrebbe essere vestigiale e per lo più non funzionante. I fleshwarp differiscono molto nell'aspetto a causa delle circostanze uniche della loro creazione. Anche fratelli fleshwarp o due persone trasformate tramite la stessa procedura potrebbero apparire molto diversi.",
+  "Desc": "I Fleshwarp sono persone le cui forme sono state create o radicalmente trasformate da magia, alchimia o energie innaturali. Il loro aspetto non convenzionale può rendere difficile trovare un posto nel mondo.",
+  "HP": "10",
+  "Taglia": "Media o Piccola",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Costituzione",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Raro", "Aberrazione", "Umanoide"],
+  "Lingua": "Comune@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Aklo, Draconico, Nanico, Elfico, Goblin, Sottocomune e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nella luce fioca come se fosse luce brillante e ignori la condizione nascosta dovuta alla luce fioca.",
+    "++Anatomia Insolita++@Il tuo corpo non ortodosso resiste alle afflizioni fisiche destinate ad altre creature. Ottieni un bonus di circostanza +1 ai tiri salvezza contro malattie e veleni."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Ghoran",
+  "DescFisica": "Approssimativamente umanoide per dimensione e forma, il corpo di un ghoran è composto principalmente da materiale vegetale fibroso simile a una vite legnosa, con un volto che ricorda un enorme fiore colorato. I ghoran hanno un grande controllo sulla forma e sulla struttura del loro corpo: con alcune ore di sforzo, un ghoran può rendersi più alto o più basso, con arti lunghi o torace largo. Hanno la reputazione di avere un sapore dolce e erbaceo. La maggior parte delle persone trova questa qualità solo curiosa e non tenta di mordere, ma gli animali selvatici a volte li cercano e li attaccano. Sebbene possano imparare a sorridere o ridere per integrarsi con altre ascendenze, tendono a usare un diverso insieme di segnali emotivi, muovendo i petali del volto per mostrare felicità e facendo un suono frusciante quando agitati o arrabbiati.@Ogni ghoran ha una grande cavità nel torso che contiene un grande seme. Quando il corpo di un ghoran diventa troppo decrepito per funzionare, trasmette i suoi ricordi al seme e lo pianta nel terreno. Entro 1-2 mesi, un nuovo corpo di ghoran completa la crescita dal seme, e il ghoran originale collassa in un cumulo di materia organica inattiva. Questo curioso metodo di propagazione rende un ghoran vulnerabile, e molti ghoran sono protettivi riguardo al processo tra popoli non-ghoran.@Essendo piante, i ghoran non hanno una comprensione innata del genere nel senso umano. I ghoran che si trovano in compagnia di altre ascendenze talvolta adottano una forma più maschile o femminile, sebbene altrettanti non se ne curino.",
+  "Desc": "Questi esseri vegetali intelligenti, creati da un druido ormai morto, possiedono una sorta di immortalità attraverso i semi, salvo distruzione da eventi esterni oltre al semplice scorrere del tempo.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Costituzione",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Raro", "Umanoide", "Pianta"],
+  "Lingua": "Comune@Silvano@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Aklo, Draconico, Elfico, Gnomo, Jotun e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nella luce fioca come se fosse luce brillante e ignori la condizione nascosta dovuta alla luce fioca.",
+    "++Fotosintesi++@Ottieni nutrimento dalla fotosintesi. Tipicamente non devi pagare il cibo. Se resti senza luce solare per 1 settimana, inizi a morire di fame. Puoi ottenere nutrimento da bottiglie appositamente formulate di luce solare alchemica invece della luce naturale, ma queste bottiglie costano 10 volte più delle razioni standard (40 sp)."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Goloma",
+  "DescFisica": "I Goloma sono umanoidi con pelle ruvida che varia dal marrone caldo all'ebano, sebbene individui malaticci grigi o bianchi con albinismo non siano rari. Le loro dita e i piedi sono ricoperti da uno strato sottile di chitina. Il volto di un goloma è una cuneo oblungo di chitina liscia, quasi simile a una maschera di legno. Da questo volto sporgono otto occhi gelatinosi e luminosi. La bocca e la mascella di un goloma si trovano sotto la placca facciale, e una cresta ossea sporge dalla parte superiore del volto chitinoso. La parte posteriore della testa e del collo è ricoperta di capelli neri pieni di migliaia di piccoli occhi che scrutano. Questi occhi tendono a brillare e muoversi mentre guardano intorno—a molti è uno spettacolo inquietante.",
+  "Desc": "I Goloma temono la maggior parte degli altri e usano la loro insolita biologia per spaventare i predatori percepiti come pericolosi. Rare volte visti e poco compresi, i loro volti legnosi e multioculari incutono terrore.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "9m",
+  "Boost": [
+    "Saggezza",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Raro", "Umanoide"],
+  "Lingua": "Goloma@Mwangi@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Abissale, Aklo, Draconico, Elfico, Mezzelfico, Necril, Orchesco, Silvano e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Occhi Posteriori++@Hai occhi che puntano in diverse direzioni e notano istintivamente il movimento ai margini della tua visione. Quando usi l'azione base Cerca, puoi cercare creature in due aree invece che in una. Se è necessaria precisione, puoi selezionare due coni di 9m o due esplosioni di 4.5m entro la linea di vista invece di uno."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Jotunborn",
+  "DescFisica": "I Jotunborn sono grandi umanoidi, circa il doppio della dimensione di un umano medio, con la maggior parte dei jotunborn che raggiunge un'altezza di circa 3,6m e un peso superiore a 680 kg. I loro corpi sono particolarmente spessi e muscolosi, con muscoli delle spalle e del collo molto sviluppati. I toni della pelle dei jotunborn vanno generalmente dal viola pallido al blu e al grigio chiaro. Nonostante le grandi dimensioni, i jotunborn sono sorprendentemente agili e possono usare le loro gambe particolarmente potenti per muoversi a grande velocità. La maggior parte dei jotunborn raggiunge l'età adulta a 20 anni e può vivere fino a 200 anni. I jotunborn continuano a crescere lentamente con l'età, con i più vecchi che possono arrivare a 6 metri di altezza.@Oltre alle dimensioni, la caratteristica più notevole di un jotunborn sono i fili intrecciati lungo la superficie della pelle. I jotunborn allevano creature planari e insettoidi chiamate iivlar. La seta di un iivlar ha proprietà magiche minori e, quando intrecciata nella pelle, permette a un jotunborn di attingere direttamente a questi effetti magici. Un jotunborn può usare la magia per far brillare il proprio intreccio di luce, particolarmente utile per individuare altri jotunborn in luoghi sub-planari. Sebbene inizialmente sia un effetto magico, l'intreccio diventa così connesso al corpo di un jotunborn che l'effetto diventa infine puramente biologico, permettendo a un jotunborn di utilizzare l'intreccio anche in aree dove la magia non funziona. Alcuni jotunborn possono creare connessioni maggiori con il loro intreccio, sviluppando capacità magiche.",
+  "Desc": "I Jotunborn sono stati forgiati dal sangue di antichi giganti chiamati Titani, incaricati di sorvegliare l’Universo.",
+  "HP": "10",
+  "Taglia": "Grande",
+  "Velocita": "7,5m",
+  "Boost": [
+    "Forza",
+    "Saggezza",
+    "Libero"
+  ],
+  "Difetto": "Carisma",
+  "Tratti": ["Raro", "Gigante", "Umanoide"],
+  "Lingua": "Comune@Jotun@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Ciclope, Nanico, Empyreo, Fatato, Orchesco, Petrano, Lingua Oscura e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Intreccio Iivlar++@Fili planari prodotti da creature chiamate iivlar sono intrecciati nella tua pelle. Questi fili brillano di luce fioca in un'emanazione di 3m. Puoi sostenere l'effetto per spegnere, riattivare o modificare il colore di questa luce.",
+    "++Visione Crepuscolare++@Puoi vedere nella luce fioca come se fosse luce brillante, ignorando così la condizione di nascosto dovuta alla luce fioca."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Kashrishi",
+  "DescFisica": "I Kashrishi hanno corpi corti ma larghi con una forza notevole per le loro dimensioni. Tutti possiedono corna cristalline caratteristiche, sebbene queste possano crescere in varie configurazioni. I Kashrishi più comuni, gli xyloshi, hanno una grande corna principale e tra una e tre corna più piccole, solitamente disposte linearmente dalla punta del naso fino alla fronte.@La maggior parte dei kashrishi ha tonalità della pelle sabbia chiara o grigia, ma la colorazione può anche rispecchiare le tonalità delle corna cristalline; schemi di zaffiro, rubino o smeraldo non sono così rari da attirare l'attenzione di un altro kashrishi. I kashrishi con forti legami con creature specifiche dei loro ambienti possono assumere motivi o colorazioni della pelle che riflettono quelle creature. Alcune storie parlano persino di kashrishi con ali e motivi di farfalle che ricoprono il corpo, anche se nessun kashrishi del genere è stato visto nelle Terre Impossibili da almeno un secolo.",
+  "Desc": "I Kashrishi vivono in zone remote, esseri quieti con corpi robusti e corna cristalline distintive. Le loro abilità psichiche naturali li rendono empatici, ma talvolta gravati dai pensieri incessanti dei vicini.",
+  "HP": "8",
+  "Taglia": "Piccolo",
+  "Velocita": "7,5m",
+  "Boost": [
+    "Costituzione",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Raro", "Umanoide"],
+  "Lingua": "Comune@Kashrishi@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Aquan, Celestiale, Draconico, Fatato, Terran e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Senso Empatico++@I Kashrishi possono percepire lo stato emotivo attuale degli altri entro 4,5m. Questo si manifesta come una sensazione generale di felicità, rabbia o paura, senza dettagli specifici. Per coloro con cui hanno un legame emotivo, il contatto fisico può intensificare questa percezione, aumentando il livello di dettaglio e comprensione in base alla forza del legame. Funziona anche come senso impreciso che segnala la presenza, ma non la posizione precisa, di creature non prive di mente nell'area. Ottieni un bonus di circostanza +2 ai tiri di Percezione per Intuire le Motivazioni contro creature non prive di mente entro l'area del tuo senso empatico.",
+    "++Corna Luminose++@La tua corna reagisce all'energia psichica illuminandosi dolcemente. La corna emana luce fioca in un raggio di 3m fino all'inizio del tuo prossimo turno ogni volta che usi un'azione occulta ottenuta da un talento di ascendenza, lanci un incantesimo innato occulti o un incantesimo con tratto mentale."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Poppet",
+  "DescFisica": "I Poppet viventi sono sia umanoidi che costrutti, il che conferisce loro alcuni benefici e svantaggi di entrambe le categorie. I loro corpi sono solitamente fatti di legno e vimini, ma possono essere fatti anche di stoffa, pelle, latta, imbottitura o delicata ingranaggeria. In ogni caso, i Poppet bruciano o si sciolgono rapidamente e devono fare attenzione al fuoco. Non si assomigliano praticamente mai, poiché ciascuno è creato in circostanze uniche e insolite.@I Poppet sono completamente svegli e autocoscienti quando acquisiscono la senziente; sebbene all'inizio possano non sapere molto, guadagnano immediatamente intelligenza e coscienza. Devono respirare e dormire, e consumare cibo e acqua ogni giorno; attraverso una sorta di digestione magica possono riparare strappi, lacerazioni o abrasioni nella loro forma fisica. I Poppet non invecchiano come le creature carnose, ma si consumano lentamente sia fisicamente che mentalmente. Un Poppet che cura il corpo e la mente (e evita il fuoco) può vivere fino a 30 anni.",
+  "Desc": "I Poppets sono piccoli costrutti di base che aiutano i loro proprietari in compiti semplici. Talvolta acquisiscono coscienza, indipendenza e scintilla di vita, diventando liberi di determinare il proprio destino.",
+  "HP": "6",
+  "Taglia": "Piccolo",
+  "Velocita": "7,5m",
+  "Boost": [
+    "Costituzione",
+    "Carisma",
+    "Libero"
+  ],
+  "Difetto": "Destrezza",
+  "Tratti": ["Raro", "Costrutto", "Umanoide"],
+  "Lingua": "Comune@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Draconico, Nanico, Elfico, Gnomo, Goblin, Fatato e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nell'oscurità e in luce fioca come se fosse luce brillante, anche se la visione nell'oscurità è in bianco e nero.",
+    "++Costruito++@I materiali del tuo corpo resistono agli effetti che colpiscono la carne. Ottieni un bonus di circostanza +1 ai tiri salvezza contro effetti di morte, malattie e veleni, così come ai tiri salvezza contro effetti che ti darebbero le condizioni esausto, paralizzato o nauseato. La tua scintilla di vita significa che sei una creatura vivente e puoi essere curato dall'energia positiva e danneggiato da energia negativa come normale.",
+    "++Infiammabile++@Hai debolezza ai danni da fuoco pari a un terzo del tuo livello (minimo 1)."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Sarangay",
+  "DescFisica": "I Sarangay sono guerrieri alti con corpi umanoidi che quasi sempre hanno corporature naturalmente robuste. Hanno un'altezza media di circa 1,8-2,1m e fisici visibilmente muscolosi—i Sarangay descrivono spesso gli umani e altre ascendenze simili come “snelli” a causa della differenza tra le loro figure tipiche. I loro occhi sono sfere nere con crescenti bianchi per le pupille. Hanno grandi mani artigliate, mentre le gambe terminano in zoccoli capaci di abbattere alberi. I Sarangay raggiungono l'età adulta quando le loro corna raggiungono i 60 cm di lunghezza. I loro gioielli tendono a includere grandi placche di corna, anelli al naso e bracciali eccessivamente grandi in oro comune nelle foreste dove vivono i Sarangay.@Fin dalla nascita, ogni Sarangay ha una pietra gigante luccicante sulla fronte conosciuta come gemma della testa, che ospita la loro anima. Quando un Sarangay sceglie un partner, scambiano le gemme della testa tra di loro e restano innamorati per tutta la vita. Non sorprende che i Sarangay siano belligeranti contro chiunque tenti di rubare queste gemme. Purtroppo, la dimensione, la qualità e la rarità delle gemme della testa conferiscono loro un valore di mercato enorme, e le loro associazioni spirituali attirano maghi senza scrupoli. Nobili spietati di Tian Xia amano intagliare tali gemme come decorazioni o esporle sulle scrivanie e nelle loro lussuose residenze.",
+  "Desc": "I Sarangay sono potenti guerrieri con testa di bufalo che vivono nelle isole di Minata. Noti per le gemme magiche sulla fronte, considerate contenere la loro anima.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7,5m",
+  "Boost": [
+    "Forza",
+    "Carisma",
+    "Libero"
+  ],
+  "Difetto": "Saggezza",
+  "Tratti": ["Raro", "Umanoide"],
+  "Lingua": "Comune@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Empyreal, Fatato, Nagaji, Petran, Pyric, Sussurro, Thalassic, Yaksha e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Gemma della testa++@Sulla tua fronte è presente una gemma che ospita la tua anima. Quando lanci qualsiasi incantesimo o rituale per riportarti in vita, la tua gemma della testa intatta può sostituire il corpo. Sebbene tu possa rimuovere liberamente la gemma, è tipicamente impossibile per un'altra creatura rimuoverla o distruggerla forzatamente a meno che tu non sia ucciso o permanentemente incapacitato; a discrezione del GM, magie o abilità potenti possono aggirare questa restrizione. Se la gemma della testa viene rimossa o distrutta, può essere rigenerata tramite un rituale di un giorno. Quando ciò avviene, qualsiasi resto della gemma precedente si riduce immediatamente in polvere.",
+    "++Corna++@Le tue potenti corna sono armi formidabili. Hai un attacco a mani nude con le corna che infligge 1d6 danni perforanti e possiede il tratto spinta. Le tue corna appartengono al gruppo di combattimento corpo a corpo."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Shisk",
+  "DescFisica": "Gli Shisk hanno tratti e tonalità della pelle simili agli umani, solitamente dal marrone scuro al nero profondo. Sono più leggeri di quanto il loro corpo possa suggerire, a causa delle ossa cave. Gli Shisk non hanno peli corporei—invece, le loro schiene sono coperte da piumaggio vestigiale che cresce solo come spine ossee simili a penne calcificate. Sebbene gli Shisk non possano volare, queste spine sono più lunghe attorno alle braccia, come se un tempo avessero ali. Gli occhi di uno Shisk si restringono a fessure alla luce del sole e sono tipicamente caldi di colore, dal nocciola e marrone a colori più unici come rosso o ambra. Gli Shisk hanno due canini stretti e prominenti come denti frontali superiori, facendo sì che alcune persone li scambino per asanbosam o vampiri.",
+  "Desc": "Gli Shisk sono abitanti montani riservati, umanoidi con ossa e piume, che vivono in tunnel e caverne sotterranee. La loro passione per raccogliere e proteggere conoscenze esoteriche li spinge a esplorare il mondo esterno.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7,5m",
+  "Boost": [
+    "Intelligenza",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Raro", "Umanoide"],
+  "Lingua": "Mwangi@Shisk@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli qualsiasi lingua Comune e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere nell'oscurità e in penombra così bene come in luce piena, anche se la tua visione nell'oscurità è in bianco e nero."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Shoony",
+  "DescFisica": "Gli Shoony sono umanoidi tozzi e pelosi con facce canine appiattite e occhi neri e umidi. Il loro pelo può avere una varietà di tonalità e motivi, i colori più comuni sono fulvo o nero, e la loro pelle molle conferisce anche allo shoony più in forma un aspetto paffuto. Gli Shoony hanno code corte e ricce che a volte si agitano involontariamente quando lo shoony è contento o particolarmente eccitato o soddisfatto. Come i cani, gli shoony non possono sudare; ansimano per mitigare il calore e lo sforzo, e non è raro vedere uno shoony con la lingua sempre fuori.",
+  "Desc": "I Shoonies sono umanoidi minuscoli simili a cani bipedi, spesso scambiati per pacifisti deboli e isolati. Tuttavia, la loro perseveranza, etica del lavoro e abilità diplomatica li rendono tutt’altro che impotenti.",
+  "HP": "6",
+  "Taglia": "Piccola",
+  "Velocita": "7,5m",
+  "Boost": [
+    "Destrezza",
+    "Carisma",
+    "Libero"
+  ],
+  "Difetto": "Costituzione",
+  "Tratti": ["Raro", "Umanoide"],
+  "Lingua": "Comune@Shoony@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Nani, Gnomi, Goblin, Halfling, Terrani e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere in penombra come se fosse luce piena, ignorando quindi la condizione nascosto dovuta alla luce fioca.",
+    "++Muso Ottuso++@Il tuo piccolo muso ottuso e il sistema sinusale labirintico ti rendono resistente ai fenomeni che colpiscono il naso. Quando effettui un tiro salvezza contro minacce inalate (come veleni inalati) ed effetti olfattivi (come la puzza dei xulgath), ottieni il risultato un grado di successo migliore rispetto al risultato del tiro."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Scheletro",
+  "DescFisica": "A parte la completa mancanza di carne e organi, gli scheletri variano ampiamente nell'aspetto, riflettendo la grande diversità di tutti gli esseri viventi. Possono essere alti, bassi o ovunque nel mezzo. Gli scheletri di creature con corna, ali o code li mantengono, sebbene siano di solito inutili nel loro stato scheletrico. Gli scheletri risorti da resti freschi tendono ad avere ossa bianco candido, mentre quelli più vecchi tendono ad essere grigi o ingialliti. Gli scheletri che avventurano per un po' spesso possiedono lievi linee incrociate sulle ossa come cicatrici, indicando dove furono feriti in battaglie precedenti.",
+  "Desc": "Gli Scheletri sono tra i tipi più bassi di non-morti, tipicamente creature prive di intelletto, senza molte abilità dei non-morti più pericolosi. Tuttavia, ossa animate di draghi, giganti e altre grandi creature possono essere avversari temibili. Creature potenti possono mantenere parte della forza e intelligenza tornando come scheletri. Alcuni necromanti trasformano i loro nemici più forti in scheletri, assumendo di poterli controllare.",
+  "HP": "6",
+  "Taglia": "Media",
+  "Velocita": "7,5m",
+  "Boost": [
+    "Destrezza",
+    "Carisma",
+    "Libero"
+  ],
+  "Difetto": "Intelligenza",
+  "Tratti": ["Raro", "Non-morto"],
+  "Lingua": "Comune@Necril@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Aklo, Nani, Elfi, Infernale, Orchi, Sottocomune e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Non-morte++@Hai i benefici base dei non-morti. Per la tua fame da non-morto, non mangi carne come i ghoul né bevi sangue come i vampiri, ma raccogli ossa che puoi usare per aiutarti a riparare te stesso."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Sprite",
+  "DescFisica": "Gli sprite sono piccole fate le cui caratteristiche variano ampiamente in base alla loro discendenza. I Senza Ali—coloro con il potenziale per diventare potenti eroi e cattivi, inclusi tutti gli sprite PG—crescono lentamente le ali nel tempo man mano che il loro potenziale magico si manifesta, anche se alcuni non sviluppano mai ali. Quegli sprite con destini più modesti solitamente sviluppano le ali una volta raggiunta la piena maturità e padroneggiata la loro magia innata. Gli sprite raggiungono l'età adulta circa allo stesso ritmo degli umani, ma una fata tipica che riesce a evitare guai e pericoli può vivere 1.000 anni o più. Gli sprite del Piano Materiale che percepiscono la fine del loro tempo di solito ritornano al Primo Mondo per rinascere e ricominciare la loro avventura da capo.",
+  "Desc": "Gli Sprite sono minuscoli, capricciosi ed esuberanti, provenienti dal regno fatato del Primo Mondo. Amano scherzare, esplorare e tutto ciò che riguarda la magia.",
+  "HP": "6",
+  "Taglia": "Minuscola",
+  "Velocita": "6m",
+  "Boost": [
+    "Destrezza",
+    "Intelligenza",
+    "Libero"
+  ],
+  "Difetto": "Forza",
+  "Tratti": ["Raro", "Fata"],
+  "Lingua": "Comune@Silvano@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Celestiale, Draconico, Elfico, Gnomo, Goblin, Jotun e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere in luce fioca come se fosse luce piena e ignori la condizione nascosto dovuta alla luce fioca.",
+    "++Colpi Magici++@La tua magia innata pervade tutto il tuo essere. Tutti i tuoi Colpi sono magici, sia con attacchi in mischia che con armi."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Strix",
+  "DescFisica": "Gli Strix sono umanoidi influenzati da uccelli con artigli intimidatori e ali piumate che spuntano dalla schiena. Con un'altezza media di 6 piedi, gli strix sono più alti della maggior parte degli umani ma molto leggeri per la loro taglia. Gli strix sono considerati maturi a 14 anni e hanno una durata media della vita di 40 anni. Hanno orecchie appuntite e grandi occhi che sono tipicamente neri dalla sclera alla pupilla, ma occasionalmente appaiono di un colore dorato penetrante. Gli strix non possono muovere gli occhi indipendentemente dalla testa, risultando in movimenti scattanti distintivi mentre il loro sguardo passa da un bersaglio all'altro. I loro corpi sono solitamente tonici con muscolatura definita—un risultato della forza necessaria per flettere le ali.",
+  "Desc": "Gli Strix, noti come itarii nella loro lingua, sono umanoidi alati reclusi, devoti alle loro terre e tribù. Difendono le loro comunità con ampie ali e artigli affilati.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Destrezza",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Raro", "Umanoide", "Aviano"],
+  "Lingua": "Comune@Strix@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Draconico, Jotun, Gnomo, Infernale e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere in luce fioca come se fosse luce piena, quindi ignori la condizione nascosto dovuta alla luce fioca.",
+    "++Ali++@Tutti gli strix possiedono potenti ali. Anche se non tutti gli strix si concentrano sull'allenamento del volo, un forte battito delle loro ali permette loro di coprire distanze maggiori durante il salto. Quando salti orizzontalmente, ti muovi di 1.5m in più. Non fallisci automaticamente i tuoi tiri per Salto in Alto o Salto in Lungo se non corri almeno 3m prima. Inoltre, quando effettui un Salto in Lungo, puoi saltare fino a 3m oltre il risultato del tuo tiro di Atletica, pur rispettando il massimo normale della tua Velocità. Inoltre, non subisci danni da caduta, indipendentemente dalla distanza."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Surki",
+  "DescFisica": "Ciascuna delle tre fasi della vita dei surki differisce notevolmente. I surki larvali trascorrono i primi 10-100 anni della loro vita dormendo all'interno delle uova, aspettando di emergere quando hanno accumulato abbastanza magia latente e le condizioni ambientali sono adeguate. I surki larvali sono lunghi circa 0.6m e simili a larve con diversi nodi luminescenti visibili attraverso la loro carne traslucida. Le loro teste sono cornee, tonde e prive di occhi, e navigano principalmente usando la capacità di annusare la magia. Quattro delle sei gambe sono piccole, mentre le anteriori sono grandi e potenti artigli da scavo utilizzati per tunneling e per comunicare con le altre larve nella generazione mentre viaggiano dal nido. Una volta viaggiato a sufficienza e accumulata abbastanza magia, entrano in un bozzolo per diversi giorni, emergendo nella forma adulta vista più spesso in superficie.@I surki adulti hanno una forma approssimativamente bipede, stanno su due arti articolati e hanno due braccia che terminano con artigli a tre dita usati sia per scavare sia per produrre suoni percussivi usati nella lingua surki. Possiedono due antenne piumate e due lunghi barbigli sensoriali ai lati delle mandibole. I surki hanno una forma caratteristica arrotondata con diverse piastre cornee marrone-ruggine o arancioni lungo la schiena, e l'abbigliamento e la moda surki tendono a incorporare forme arrotondate o cinture attorno e sotto le piastre. I loro nodi magici sono distribuiti lungo tutto il corpo, raggruppandosi in addome, spalle e arti. Questi nodi continuano ad accumulare magia con l'età, utilizzandola per creare nuove adattazioni, spesso segnalate da intricati motivi luminescenti nel corno attorno al punto di cambiamento.@L'ultima fase del ciclo di vita dei surki è nota come forma evoluta, dopo che il surki entra nella sua grande metamorfosi. Un surki adulto forma un crisalide e cambia rapidamente nel corso di una sola sera. Meno drammatica fisicamente rispetto al passaggio da larva ad adulto, la forma evoluta porta con sé profonde capacità magiche risultanti da una vita di assorbimento e raffinamento della magia. I nodi dei surki evoluti si trasformano in organi complessi capaci di proiettare magia tangibile per vari scopi, dagli apparati da scavo fatti di pura forza ad ali luminose che sfidano la gravità. Questa forma finale è l'espressione ultima dell'individualità e delle adattazioni di ogni surki—una forma perfettamente adatta a soddisfare l'ambiente scelto o il ruolo desiderato.",
+  "Desc": "I Surki emergono ora dalle Darklands sotterranee con uno scavo generazionale verso la superficie. Questa specie insettoide e altamente metamorfica si nutre della magia latente circostante. Una volta sufficientemente raffinati, sviluppano adattamenti unici che consentono loro di proiettare magia in modi diversi, dalle zampe scavatrici alle ali energizzate.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Costituzione",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Raro", "Umanoide", "Insettiforme"],
+  "Lingua": "Comune@Surki@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Elfico, Fey, Sakvroth e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere al buio e in luce fioca come se fosse piena luce, anche se la tua visione al buio è in bianco e nero.",
+    "++Magifago++@I vari nodi nel tuo corpo assorbono magia latente dal mondo circostante. Non hai bisogno di mangiare o bere a meno che tu non sia in un ambiente particolarmente povero di magia (come le Terre del Mana). Scegli quale tradizione magica hai consumato maggiormente da larva; questo tipo di magia è diventato così radicato nel tuo corpo che cambia la tradizione di tutti gli incantesimi e azioni magiche dei surki in quella tradizione."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Vishkanya",
+  "DescFisica": "I vishkanya hanno un aspetto umanoide con tratti ofidici che diventano evidenti da vicino. Sono naturalmente alti e snelli con occhi dorati luminosi, pupille verticali e lingua biforcuta. Le loro piccole squame lisce variano da tonalità terrose di marroni e verdi a vivaci motivi colorati. Il colore dei capelli è tipicamente scuro, sebbene occasionalmente siano presenti tonalità più chiare in alcune ciocche. Le donne vishkanya sono di solito più alte degli uomini, sebbene nessuno smetta mai veramente di crescere. I vishkanya possono quindi raggiungere altezze di 2,1 metri o più in età avanzata.@Le famiglie miste vishkanya non sono sconosciute. I figli vishkanya di queste famiglie talvolta somigliano molto al genitore non-vishkanya, con pochi segni distintivi come denti canini aguzzi che indicano la loro discendenza. I vishkanya talvolta chiamano questi bambini “senza squame” o “sottili” ma li accolgono come qualsiasi altro membro della loro stirpe, anche se il loro aspetto può generare paranoia tra altre stirpi verso un popolo già frainteso.",
+  "Desc": "I Vishkanya sono umanoidi ofidi che portano un potente veleno nel sangue e nella saliva. Largamente fraintesi a causa delle vecchie storie sulla loro tossicità e abilità naturali, lavorano per diventare più di quanto le leggende raccontino.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Destrezza",
+    "Libero"
+  ],
+  "Difetto": "nessuno",
+  "Tratti": ["Raro", "Umanoide", "Ofidico"],
+  "Lingua": "Comune@Vishkanya@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Aklo, Aquan, Draconico, Elfico, Goblin, Sottocomune, Vanaran e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere in luce fioca come se fosse piena luce e ignori la condizione nascosto dovuta alla luce fioca.",
+    "++Veleno Innato++@Il tuo sangue trasporta tossine letali per tutti tranne che per te. Ottieni l'azione Envenom, che può applicare un veleno vishkanya minore. La CD per il tuo veleno è pari alla più alta tra la CD della tua classe o la CD degli incantesimi.",
+    "Envenom###{\"nome\": \"++Envenom++\", \"tipoAzz\": \"azione\", \"tratti\": [\"Vishkanya\"], \"dettagli\": {\"Frequenza\": \"una volta al giorno\"}, \"desc\": \"Attraverso l'uso di saliva o sangue, usi le tue tossine innate per applicare veleno vishkanya alla tua arma o a un munizionamento. Per usare il tuo sangue, devi essere ferito o puoi infliggerti 1 danno tagliente come parte dell'azione. Il veleno vishkanya rimane potente fino alla fine del tuo prossimo turno, o finché non lo utilizzi come normale veleno da ferita colpendo un bersaglio o fallendo critico un tiro per attacco.@Veleno vishkanya minore (ferita, veleno) Tiro Salvezza Tempra; Durata Massima 6 round; Fase 1 1d4 danno da veleno (1 round); Fase 2 1d4 danno da veleno (1 round); Fase 3 1d4 danno da veleno (1 round)\"}###"
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Yaksha",
+  "DescFisica": "I yaksha non nascono carne e sangue nel mondo. Questi spiriti guardiani si manifestano occasionalmente quando due condizioni sono soddisfatte: deve esistere un eccesso di emozioni positive in un'area selvaggia e deve sorgere un grande bisogno di protezione in questa terra. Quando entrambe le condizioni sono soddisfatte, i yaksha possono apparire per rispondere alle preghiere della gente comune e proteggere la terra oppressa.@I yaksha spesso appaiono come umani con fisici distintivi; alcuni sono alti circa 2,1 metri con muscolature potenti, altri sono robusti e non superano i 1,2 metri. Tutti possiedono lussuose chiome simili a banyan che legano in nodi superiori o sotto fazzoletti. Il potere primordiale dei voti yaksha può sostenerli per mille anni. Ironia della sorte, a causa della natura pericolosa dei loro voti, pochi yaksha vivono più di un secolo.",
+  "Desc": "I Yaksha sono spiriti divini che emigrarono a Golarion dal Primo Mondo.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Costituzione",
+    "Carisma",
+    "Libero"
+  ],
+  "Difetto": "Intelligenza",
+  "Tratti": ["Raro", "Spirito", "Yaksha"],
+  "Lingua": "Comune@Fey@Yaksha@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Empyrean, Diabolico, Nagaji, Tang, Tengu, Vudrani e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Visione Crepuscolare++@Puoi vedere in luce fioca come se fosse piena luce, ignorando la condizione nascosto dovuta alla luce fioca."
+  ],
+  "Mostrare": true
+},
+{
+  "Nome": "Yaoguai",
+  "DescFisica": "La forma originale di un yaoguai può essere praticamente qualsiasi cosa. È più semplice concludere che se qualcosa esiste, finché gode delle condizioni perfette per abbastanza tempo—di solito su scala di migliaia di anni—potrebbe diventare un yaoguai. Gli yaoguai ereditano una vasta gamma di caratteristiche basate sulla loro forma pre-risvegliata; un yaoguai nato da animali può avere pelliccia o orecchie appuntite; uno derivato da un oggetto può avere pelle simile a pietra o metallo. A causa del loro aspetto selvaggio, molti yaoguai avventurieri viaggiano di notte, suscitando sospetti. Così, trasformarsi in forma umanoide è una delle arti che gli yaoguai praticano meticolosamente, anche se tutto ciò che possono ottenere è una forma che conserva molte delle loro caratteristiche da yaoguai. Alcuni yaoguai preferiscono tale forma. Forse sono sicuri di non avere nulla da nascondere o apprezzano l'accesso facile ai loro poteri yaoguai in questa forma incompleta. Altri mirano a perfezionare la loro forma umanoide fino a diventare indistinguibili da qualsiasi altro umanoide.@Molti yaoguai nascono adulti, anche se le loro forme umanoidi possono apparire di qualsiasi età. La durata media della vita degli yaoguai, in generale, riflette spesso il loro potere. Gli yaoguai più potenti possono facilmente sfidare la durata di vita dei draghi, vivendo fino a diverse migliaia di anni, se non diventando immortali senza età. Voci abbondano, quindi, che gli yaoguai un tempo potrebbero aver governato gran parte di Tian Xia.",
+  "Desc": "Gli Yaoguai sono esseri che di solito iniziano la loro esistenza come semplici animali, oggetti o piante, ma trovano un modo per trascendere la loro forma originale attraverso il potere della coltivazione.",
+  "HP": "8",
+  "Taglia": "Media",
+  "Velocita": "7.5m",
+  "Boost": [
+    "Carisma",
+    "Costituzione",
+    "Libero"
+  ],
+  "Difetto": "Intelligenza",
+  "Tratti": ["Raro", "Umanoide", "Yaoguai"],
+  "Lingua": "Comune@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Aklo, Draconico, Elfico, Fey, Kitsune, Nagaji, Sakvroth, Tengu, Ysoki e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
+  "Abilita": [
+    "++Cambia Forma++###{\"nome\": \"Cambia Forma\", \"tipoAzz\": \"azione\", \"tratti\": [\"concentrazione\", \"occulto\", \"polimorfismo\", \"yaoguai\"], \"dettagli\": {\"Descrizione Azione\": \"Puoi trasformarti dalla tua vera forma yaoguai a una forma umanoide alternativa, che è una comune discendenza umanoide Media prevalente nel luogo in cui sei nato (tipicamente umano). Questa forma ha la stessa età apparente e tipo di corpo della tua forma yaoguai e tratti fisici grosso modo analoghi, come il colore dei capelli. Usare Cambia Forma conta come creare un travestimento per l'uso di Inganno su Impersonare. Puoi rimanere nella forma umanoide indefinitamente, ma torni alla forma yaoguai dopo 1 ora di incoscienza o 1 minuto dopo la morte.\"}, \"desc\": \"Trasformazione dalla forma yaoguai alla forma umanoide e viceversa, mantenendo caratteristiche fisiche e tratti analoghi.\"}###"
+  ],
+  "Mostrare": true
+}
+
+]
