@@ -1,0 +1,363 @@
+[
+    {
+        "Nome": "Riparazione improvvisata",
+        "Liv": 3,
+        "Azione": true,
+        "Tratti": ["Generale"],
+        "Dettagli": [],
+        "Desc": "###{\"nome\": \"Riparazione improvvisata\", \"tipoAzz\": \"treAzioni\", \"tratti\": [\"Generale\"], \"dettagli\": {}, \"desc\": \"Puoi rattoppare in fretta un equipaggiamento danneggiato, ma la riparazione temporanea manca della cura necessaria per renderla duratura. Rattoppi un oggetto rotto in tuo possesso o in possesso di una creatura consenziente adiacente. Fino a quando l’oggetto non subisce nuovamente danni, funziona comunque come un oggetto scadente del suo tipo.@Se si tratta di un oggetto magico o di un altro oggetto con attivazioni, non può essere attivato mentre è rattoppato, ma può essere usato per le sue funzioni normali (come colpire con un’arma o usare Blocco con Scudo con uno scudo).@@Questa attività non ripristina Punti Ferita all’oggetto, quindi esso rimane facile da distruggere. Una volta che l’oggetto viene riparato normalmente e non è più rotto, cessa anche di essere scadente.\"}###",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Ancestry adottata",
+        "Liv": 1,
+        "Azione": false,
+        "Tratti": ["Generale"],
+        "Dettagli": [],
+        "Desc": "Sei completamente immerso nella cultura e nelle tradizioni di un'altra ancestry, sia perché ci sei nato, perché hai superato un rito di passaggio, o grazie a un legame profondo di amicizia o romanticismo. Scegli un'ascendenza comune o un'altra ascendenza a cui hai accesso. Puoi selezionare talenti di ascendenza da quella ascendenza scelta, oltre a quelli della tua ascendenza originale, purché i talenti non richiedano caratteristiche fisiologiche che non possiedi, come determinato dal DM.",
+        "Mostrare": true
+    },
+    {
+"Nome": "Competenza nelle Armature",
+"Azione": false,
+"Desc": "Diventate addestrati nelle armature leggere. Se lo eravate già, ottenete competenza nelle armature medie. Se eravate addestrati in entrambe, diventate addestrati nelle armature pesanti. Se siete almeno di 13º livello, diventate esperti in quel tipo di armatura.@Speciale Potete selezionare questo talento più di una volta. Ogni volta ottenete addestramento nel tipo di armatura successivo, come descritto sopra.",
+"Dettagli": [],
+"Tratti": ["Generale"],
+"Liv": 1,
+"Mostrare": true
+},
+{
+"Nome": "Controllo del Respiro",
+"Azione": false,
+"Desc": "Potete respirare anche in aria pericolosa o rarefatta. Potete trattenere il respiro per 25 volte il normale prima di soffocare. Ottenete un bonus di circostanza +1 ai tiri salvezza contro minacce inalate, come veleni inalati, e se ottenete un successo a tale tiro salvezza, lo trattate come un successo critico.",
+"Dettagli": [],
+"Tratti": ["Generale"],
+"Liv": 1,
+"Mostrare": true
+},
+{
+"Nome": "Acume Sagace",
+"Azione": false,
+"Desc": "La vostra capacità di evitare pericoli o osservare dettagli supera quella della maggior parte dei vostri pari. Scegliete i tiri salvezza su Tempra, Riflessi, Volontà oppure Percezione. Diventate esperti nella scelta. Al 17º livello diventate maestri nella scelta.",
+"Dettagli": [],
+"Tratti": ["Generale"],
+"Liv": 1,
+"Mostrare": true
+},
+{
+"Nome": "Duro a Morire",
+"Azione": false,
+"Desc": "Ci vuole di più per uccidervi rispetto alla maggior parte delle persone. Morite per la condizione morente a morente 5 invece che a morente 4.",
+"Dettagli": [],
+"Tratti": ["Generale"],
+"Liv": 1,
+"Mostrare": true
+},
+{
+"Nome": "Mondi Diversi",
+"Azione": false,
+"Desc": "Le vostre esperienze in società differenti sono evolute in vite completamente distinte. Create una seconda identità per voi stessi, con un nome, una storia e un background diversi. Questa identità deve corrispondere a una delle ascendenze da cui potete selezionare talenti di ascendenza. Ottenete il grado di addestrato nell'abilità Conoscenze del secondo background scelto (ma non ottenete gli altri benefici del background) e ottenete un bonus di circostanza +4 alle prove di Inganno quando fate un'affermazione vera per la vostra seconda identità o quando vi camuffate come la vostra seconda identità.",
+"Dettagli": ["++Prerequisiti:++ capacità di selezionare talenti di ascendenza da più ascendenze"],
+"Tratti": ["Non Comune", "Generale"],
+"Liv": 1,
+"Mostrare": true
+},
+{
+"Nome": "Ripresa Rapida",
+"Azione": false,
+"Desc": "Il vostro corpo si riprende rapidamente dalle afflizioni. Recuperate il doppio dei Punti Ferita dal riposo. Ogni volta che ottenete un successo a un tiro salvezza su Tempra contro una malattia o veleno in corso, ne riducete lo stadio di 2, o di 1 contro una malattia o veleno virulento. Ogni successo critico riduce lo stadio di 3, o di 2 contro una versione virulenta. Inoltre, riducete la severità della condizione prosciugato di 2 quando riposate per una notte invece che di 1.",
+"Dettagli": ["++Prerequisiti:++ Costituzione +2"],
+"Tratti": ["Generale"],
+"Liv": 1,
+"Mostrare": true
+},
+{
+"Nome": "Passo Leggero",
+"Azione": false,
+"Desc": "Vi muovete con passo attento e rapido. Potete Effettuare un Passo in terreno difficile.",
+"Dettagli": ["++Prerequisiti:++ Destrezza +2"],
+"Tratti": ["Generale"],
+"Liv": 1,
+"Mostrare": true
+},
+{
+"Nome": "Velocità Aumentata",
+"Azione": false,
+"Desc": "Vi muovete più velocemente a piedi. La vostra Velocità aumenta di 1.5m.",
+"Dettagli": [],
+"Tratti": ["Generale"],
+"Liv": 1,
+"Mostrare": true
+},
+{
+"Nome": "Iniziativa Incredibile",
+"Azione": false,
+"Desc": "Reagite più rapidamente degli altri. Ottenete un bonus di circostanza +2 ai tiri di iniziativa.",
+"Dettagli": [],
+"Tratti": ["Generale"],
+"Liv": 1,
+"Mostrare": true
+},
+{
+"Nome": "Animale Domestico",
+"Azione": false,
+"Desc": "Avete un animale domestico: un animale Minuscolo di un tipo a vostra scelta, come un gatto, un uccello o un roditore. Ha il tratto servitore, il che significa che ottiene 2 azioni durante il vostro turno se usate Comandare un Animale per comandarlo; ciò sostituisce gli effetti usuali di Comandare un Animale e non richiede una prova di Natura. Un animale domestico non può effettuare Colpi.@Livello Il livello del vostro animale domestico è uguale al vostro.@Modificatori e CA I modificatori ai tiri salvezza e la CA del vostro animale domestico sono uguali ai vostri prima di applicare bonus o penalità di circostanza o di stato. Usa 3 + il vostro livello come modificatore per Percezione, Acrobazia e Furtività, e solo il vostro livello come modificatore per le altre prove di abilità. Non ha e non usa i propri modificatori di caratteristica e non può mai beneficiare di bonus derivanti da oggetti.@Punti Ferita Il vostro animale domestico ha 5 Punti Ferita per livello.@Sensi Il vostro animale domestico ha visione in penombra e può ottenere ulteriori sensi dalle abilità dell’animale domestico.@Velocità Il vostro animale domestico ha una Velocità di 7.5m. Potete invece scegliere un animale domestico acquatico, che respira in acqua invece che in aria e ha il tratto acquatico, nessuna Velocità terrestre e una Velocità di Nuotare di 7.5m.@Abilità dell’Animale Domestico Quando ottenete il vostro animale domestico, scegliete due delle seguenti abilità. Se il vostro animale è naturalmente dotato di una di queste abilità (ad esempio, un gufo ha una Velocità di Volare), dovete selezionare quell’abilità. Il vostro animale non può essere naturalmente dotato di più abilità di quante ne possa avere come animale domestico. In alcuni casi, il GM può aggiungere alcune abilità da famiglio descritte altrove alle abilità selezionabili:@Anfibio Ottiene il tratto anfibio, che gli permette di respirare sia aria che acqua, e possiede sia una Velocità terrestre che una Velocità di Nuotare, entrambe pari alla sua Velocità più alta.@Scavatore Ottiene una Velocità di Scavare di 1.5m, permettendogli di scavare buchi Minuscoli.@Arrampicatore Ottiene una Velocità di Scalare di 7.5m.@Visione Crepuscolare Ottiene visione crepuscolare.@Ecolocazione Può usare l’udito come senso preciso entro 6m.@Movimento Rapido Aumenta una delle sue Velocità da 7.5m a 12m.@Volatore Ottiene una Velocità di Volare di 7.5m.@Destrezza Manuale Può usare fino a due dei suoi arti come se fossero mani per compiere azioni di manipolare.@Olfatto Può usare l’olfatto come senso impreciso entro 9m.@Robusto I suoi Punti Ferita massimi aumentano di 2 per livello.@Speciale Potete ottenere un nuovo animale domestico riaddestrando questo talento, liberando quello precedente. Se in seguito ottenete un famiglio o un altro compagno che utilizza il talento Animale Domestico, potete immediatamente riaddestrare questo talento.",
+"Dettagli": [],
+"Tratti": ["Generale"],
+"Liv": 1,
+"Mostrare": true
+},
+{
+"Nome": "Cavalcare",
+"Azione": false,
+"Desc": "Quando Comandate un Animale su cui siete montati affinché compia un’azione di movimento (come Avanzare), riuscite automaticamente invece di dover tentare una prova. Qualsiasi animale su cui siete montati agisce nel vostro turno, come un servitore. Se Montate un animale in mezzo a un incontro, esso salta il suo turno successivo e poi agisce nel vostro turno seguente.",
+"Dettagli": [],
+"Tratti": ["Generale"],
+"Liv": 1,
+"Mostrare": true
+},
+{
+"Nome": "Blocco con lo Scudo",
+"Azione": true,
+"Desc": "###{\"nome\": \"Blocco con lo Scudo\", \"tipoAzz\": \"reazione\", \"tratti\": [\"Generale\"], \"dettagli\": {\"innesco\": \"Mentre avete lo scudo alzato, dovreste subire danni fisici (contundenti, perforanti o taglienti) da un attacco.\"}, \"desc\": \"Portate rapidamente lo scudo in posizione per deviare il colpo. Il vostro scudo impedisce che subiate un ammontare di danni pari alla sua Durezza. Voi e lo scudo subite gli eventuali danni rimanenti, potenzialmente rompendo o distruggendo lo scudo.\"}###",
+"Dettagli": ["++Trigger:++ Mentre avete lo scudo alzato, dovreste subire danni fisici da un attacco"],
+"Tratti": ["Generale"],
+"Liv": 1,
+"Mostrare": true
+},
+{
+"Nome": "Robustezza",
+"Azione": false,
+"Desc": "Il vostro corpo può sopportare più punizioni della maggior parte prima di cedere. Aumentate i vostri Punti Ferita massimi di un ammontare pari al vostro livello. Riducete la CD delle prove di recupero di 1.",
+"Dettagli": [],
+"Tratti": ["Generale"],
+"Liv": 1,
+"Mostrare": true
+},
+{
+"Nome": "Competenza nelle Armi",
+"Azione": false,
+"Desc": "Diventate addestrati in tutte le armi marziali. Se lo eravate già, diventate addestrati in un’arma avanzata a vostra scelta. Se siete almeno di 11º livello, diventate anche esperti in queste armi.@Speciale Potete selezionare questo talento più di una volta. Ogni volta diventate addestrati in un’arma avanzata.",
+"Dettagli": [],
+"Tratti": ["Generale"],
+"Liv": 1,
+"Mostrare": true
+},
+{
+"Nome": "Trucco Circense Aggiuntivo",
+"Azione": false,
+"Desc": "Il vostro trucco distintivo può avere un tratto aggiuntivo oltre al numero indicato nella progressione dei trucchi. Se il tratto aggiunto ha un’abilità associata (come Intimidazione per il tratto fuoco) e quell’abilità è una delle abilità di prova del trucco, le vostre prove con quell’abilità per Eseguire un Trucco non sono penalizzate se Eseguite un Trucco usando un’abilità diversa. Ad esempio, se il vostro trucco distintivo utilizza Acrobazia e Intimidazione come abilità di trucco e scegliete questo talento per aggiungere il tratto fuoco, potete Eseguire un Trucco usando Acrobazia (senza penalità), poi ancora Acrobazia (con penalità -5) e poi Intimidazione (senza penalità).",
+"Dettagli": ["++Prerequisiti:++ dovete avere un trucco distintivo"],
+"Tratti": ["Circense", "Generale"],
+"Liv": 3,
+"Mostrare": true
+},
+{
+"Nome": "Paragone Ancestrale",
+"Azione": false,
+"Desc": "Che sia tramite istinto, studio o magia, sentite un legame più profondo con la vostra ascendenza. Ottenete un talento di ascendenza di 1° livello.",
+"Dettagli": [],
+"Tratti": ["Generale"],
+"Liv": 3,
+"Mostrare": true
+},
+{
+"Nome": "Gestore di Mercenari",
+"Azione": false,
+"Desc": "Siete in grado di trovare e garantire lavoratori migliori della maggior parte delle persone. Quando ottenete i servizi di un mercenario, quel mercenario ottiene un bonus di circostanza +2 a tutte le prove di abilità. Questo bonus di circostanza si applica sia ai mercenari addestrati sia a quelli non addestrati e non influisce sul costo del servizio o del lavoro fornito.",
+"Dettagli": ["++Prerequisiti:++ Carisma 14"],
+"Tratti": ["Generale"],
+"Liv": 3,
+"Mostrare": true
+},
+{
+"Nome": "Riparazione Improvvisata",
+"Azione": true,
+"Desc": "###{\"nome\": \"Riparazione Improvvisata\", \"tipoAzz\": \"treAzioni\", \"tratti\": [\"Generale\"], \"dettagli\": {}, \"desc\": \"Potete rattoppare rapidamente un oggetto danneggiato, ma la riparazione temporanea manca dell’attenzione necessaria a un lavoro duraturo. Rattoppate un oggetto rotto in vostro possesso o in possesso di una creatura consenziente adiacente. Finché l’oggetto non subisce nuovamente danni, funziona come un oggetto scadente del suo tipo. Se è un oggetto magico o un oggetto con attivazioni, non può essere attivato mentre è rattoppato, ma può essere usato per funzioni normali (come colpire con un’arma o usare Blocco con lo Scudo). Questa attività non ripristina Punti Ferita, quindi l’oggetto rimane facile da distruggere. Una volta che l’oggetto viene riparato normalmente e non è più rotto, cessa anche di essere scadente.\"}###",
+"Dettagli": [],
+"Tratti": ["Generale"],
+"Liv": 3,
+"Mostrare": true
+},
+{
+"Nome": "Seguitore Acuto",
+"Azione": false,
+"Desc": "La vostra attenta osservazione degli alleati vi ha resi più abili nel seguirne la guida. Quando usate l’attività Seguire l’Esperto in modalità esplorazione, ottenete un bonus di circostanza +3 se l’alleato che seguite è un esperto e +4 se è un maestro.@Potete condividere le vostre osservazioni con gli altri per aiutare a coordinare meglio il gruppo. Se l’alleato che seguite possiede Alleati Silenziosi o un altro talento di abilità che permette al gruppo di effettuare una singola prova di abilità per un’attività di esplorazione usando il modificatore più basso, può invece usare il vostro modificatore, anche se non è il più basso.",
+"Dettagli": [],
+"Tratti": ["Generale"],
+"Liv": 3,
+"Mostrare": true
+},
+{
+"Nome": "Accelerare il Passo",
+"Azione": false,
+"Desc": "Guida con l’esempio e aiutate gli altri a superare i propri limiti. Quando fate Marcia Forzata in gruppo durante l’esplorazione, il vostro gruppo può mantenere la Marcia Forzata per lo stesso tempo del membro che potrebbe mantenerla più a lungo da solo.",
+"Dettagli": ["++Prerequisiti:++ Costituzione +2"],
+"Tratti": ["Generale"],
+"Liv": 3,
+"Mostrare": true
+},
+{
+"Nome": "Pianificatore Presciente",
+"Azione": false,
+"Desc": "++Requisiti++: non avete usato questa capacità dall’ultima volta in cui avete potuto acquistare beni@Create regolarmente piani complessi e contingenze, usando le vostre risorse per attuarli. Impiegate 1 minuto per togliere lo zaino e quindi estrarre con cura un oggetto che non avevate dichiarato in precedenza di aver acquistato—avevate intuito che vi sarebbe servito e lo avete comprato alla prima occasione. L’oggetto deve essere un’attrezzatura da avventura e non può essere un’arma, un’armatura, un oggetto alchemico, un oggetto magico o un altro tipo di tesoro. Deve essere comune, con livello non superiore a metà del vostro livello, e il suo Ingombro deve essere abbastanza basso da non avervi reso appesantiti portandolo.",
+"Dettagli": ["++Costo:++ il prezzo dell’oggetto scelto", "++Requisiti:++ non avete usato questa capacità dall’ultima volta in cui avete potuto acquistare beni"],
+"Tratti": ["Generale"],
+"Liv": 3,
+"Mostrare": true
+},
+{
+"Nome": "Salute Robusta",
+"Azione": false,
+"Desc": "La vostra fisiologia risponde particolarmente bene al primo soccorso. Ottenete un bonus di circostanza al numero di Punti Ferita che recuperate pari al vostro livello quando qualcuno ha successo nel Trattare le Ferite su di voi o usa Medicina da Battaglia su di voi. Dopo che voi o un alleato usate Medicina da Battaglia su di voi, diventate temporaneamente immuni a quella Medicina da Battaglia solo per 1 ora invece che per 1 giorno.",
+"Dettagli": [],
+"Tratti": ["Generale"],
+"Liv": 3,
+"Mostrare": true
+},
+{
+"Nome": "Sgattaiolare",
+"Azione": false,
+"Desc": "Puoi sfrecciare rapidamente sul terreno. Puoi Strisciare fino a metà della tua Velocità.",
+"Dettagli": ["++Prerequisiti:++ Destrezza 16; Scattante"],
+"Tratti": ["Generale"],
+"Liv": 3,
+"Mostrare": true
+},
+{
+"Nome": "Ricerca Meticolosa",
+"Azione": false,
+"Desc": "Ti prendi il tempo necessario per cercare per assicurarti di trovare tutto. Quando Cerchi, puoi impiegare il doppio del tempo. Normalmente ciò significa che Cerchi fino a un quarto della tua Velocità, fino a un massimo di 45m al minuto per controllare tutto, o 22.5m al minuto per controllare tutto prima di entrare in un'area.@Se lo fai e il GM tira la tua prova Segreta di Percepire per notare qualcosa, ottieni un bonus di circostanza +2 a quella prova di Percezione e, se hai successo, ottieni invece un successo critico.",
+"Dettagli": ["++Prerequisiti:++ Esperto in Percezione"],
+"Tratti": ["Generale"],
+"Liv": 3,
+"Mostrare": true
+},
+{
+"Nome": "Improvvisazione Non Addestrata",
+"Azione": false,
+"Desc": "Hai imparato a gestire situazioni quando sei fuori dalla tua profondità. Il tuo bonus di competenza alle prove di abilità non addestrate è pari al tuo livello –2. Questo migliora a livello –1 al 5° livello e al tuo livello completo al 7° livello. Questo non ti permette di usare le azioni addestrate dell'abilità.",
+"Dettagli": [],
+"Tratti": ["Generale"],
+"Liv": 3,
+"Mostrare": true
+},
+{
+"Nome": "Sanguesenso",
+"Azione": false,
+"Desc": "Sei straordinariamente sensibile alla presenza del sangue. Ottieni sanguesenso come senso impreciso con una portata di 4.5m. Questo ti permette di percepire la presenza di creature, vive o morte, che hanno sangue (inclusa la maggior parte delle creature non immuni al sanguinamento).@Allo stesso modo, puoi rilevare la presenza di sangue fresco in volumi di almeno mezzo litro, purché abbia meno di 24 ore.",
+"Dettagli": ["++Prerequisiti:++ Maestro in Percezione"],
+"Tratti": ["Non Comune", "Generale"],
+"Liv": 7,
+"Mostrare": true
+},
+{
+"Nome": "Ricerca Rapida",
+"Azione": false,
+"Desc": "Hai un metodo che ti permette di cercare ad alta velocità, trovando dettagli e segreti due volte più velocemente degli altri. Quando Cerchi, impieghi metà del tempo usuale per controllare una data area. Questo significa che, durante l'esplorazione, raddoppi la Velocità alla quale puoi muoverti garantendo comunque di aver Cercato un'area prima di entrarvi (fino a metà della tua Velocità).@Se sei leggendario in Percezione, invece Cerchi le aree quattro volte più velocemente.",
+"Dettagli": ["++Prerequisiti:++ Maestro in Percezione"],
+"Tratti": ["Generale"],
+"Liv": 7,
+"Mostrare": true
+},
+{
+"Nome": "Insensibile alla Morte",
+"Azione": false,
+"Desc": "Il tuo passato ti ha reso insensibile al richiamo della morte. La prima volta ogni giorno che recuperi Punti Ferita mentre sei morente, ottieni un bonus di circostanza ai PF recuperati pari al tuo livello e non ottieni la condizione ferito né aumenti il suo valore.",
+"Dettagli": ["++Prerequisiti:++ Tempra Ferrea; sei morto almeno una volta"],
+"Tratti": ["Generale"],
+"Liv": 7,
+"Mostrare": true
+},
+{
+"Nome": "Consumabile Preveggente",
+"Azione": false,
+"Desc": "Puoi prevedere in anticipo quali consumabili potresti aver bisogno. Quando usi Pianificatore Preveggente, puoi procurarti un oggetto consumabile dal tuo zaino invece di un equipaggiamento da avventura. L'oggetto consumabile deve comunque essere comune, con un livello non superiore a metà del tuo livello, e con un Ingombro tale da non averti reso ingombrato portandolo.",
+"Dettagli": ["++Prerequisiti:++ Pianificatore Preveggente"],
+"Tratti": ["Generale"],
+"Liv": 7,
+"Mostrare": true
+},
+{
+"Nome": "Supergustatore",
+"Azione": false,
+"Desc": "Hai raffinato il tuo palato e possiedi un gusto estremamente discriminante, capace di rilevare anomalie nel sapore e nella consistenza di cibi e bevande. Quando mangi o bevi qualcosa, tenti automaticamente di identificarne gli ingredienti, il che può avvertirti della presenza di alterazioni o additivi, come veleni.@Il GM tira una prova Segreta di Percezione contro una CD determinata dal livello del veleno; se il cibo o bevanda è avvelenato, con un successo apprendi che era avvelenato (ma non quale veleno). Se lo rilevi, puoi sputare in tempo il cibo o bevanda per non essere esposto a quel caso specifico del veleno (a meno che non riprendi a consumarlo).@Se lecchi o assaggi qualcosa mentre Investighi o tenti di Richiamare Conoscenze per identificarlo, e il gusto fornisce informazioni aggiuntive rilevanti (a discrezione del GM), ottieni un bonus di circostanza +2 alla prova.",
+"Dettagli": ["++Prerequisiti:++ Maestro in Percezione"],
+"Tratti": ["Generale"],
+"Liv": 7,
+"Mostrare": true
+},
+{
+"Nome": "Una Casa in Ogni Porto",
+"Azione": false,
+"Desc": "Hai una reputazione nelle città e nei villaggi che hai visitato, e i residenti sono sempre disposti ad aprirti le porte. Quando sei in una città o in un villaggio, durante il tempo libero, puoi spendere 8 ore per trovare un residente disposto a fornire alloggio a te e fino a sei alleati per un massimo di 24 ore senza costi. Lo standard di vita nell'alloggio acquisito è confortevole e vengono forniti pasti completi gratuiti.@Dopo 24 ore, devi pagare i prezzi standard per ulteriori alloggi e pasti o usare nuovamente questo talento per trovare un nuovo residente disposto ad ospitarti.",
+"Dettagli": ["++Prerequisiti:++ Carisma +3"],
+"Tratti": ["Tempo Libero", "Generale"],
+"Liv": 11,
+"Mostrare": true
+},
+{
+"Nome": "Risveglio di Axuma",
+"Azione": false,
+"Desc": "Scegli due trucchetti dalla lista degli incantesimi arcani. Puoi lanciare questi trucchetti a volontà come incantesimi innati arcani. Un trucchetto è elevato a un livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.@Poi scegli un incantesimo di 1° livello e uno di 2° livello dalla lista degli incantesimi arcani. Puoi lanciare ciascuno di questi incantesimi una volta al giorno come incantesimi innati arcani. Gli incantesimi acquisiti con questo talento devono essere incantesimi comuni o a cui hai accesso.",
+"Dettagli": ["++Prerequisiti:++ Esposizione al Pozzo di Axuma"],
+"Tratti": ["Non Comune", "Generale"],
+"Liv": 11,
+"Mostrare": true
+},
+{
+"Nome": "Vigore di Axuma",
+"Azione": false,
+"Desc": "Il tuo vigore concede a chi utilizza prove di Medicina per somministrarti Primo Soccorso o qualsiasi azione Trattamento su di te un bonus di circostanza +2 alla prova. Durante il Riposo a Lungo Termine, guarisci al doppio della velocità normale.",
+"Dettagli": ["++Prerequisiti:++ Esposizione al Pozzo di Axuma"],
+"Tratti": ["Non Comune", "Generale"],
+"Liv": 11,
+"Mostrare": true
+},
+{
+"Nome": "Capocarovana",
+"Azione": false,
+"Desc": "Sai come ottenere il massimo sforzo dai tuoi alleati sulla strada. Il tuo gruppo può Sfrecciare per ulteriori 20 minuti oltre il tempo massimo che il membro che potrebbe Sfrecciare più a lungo da solo può fare.",
+"Dettagli": ["++Prerequisiti:++ Accelera il Ritmo"],
+"Tratti": ["Generale"],
+"Liv": 11,
+"Mostrare": true
+},
+{
+"Nome": "Investitura Incredibile",
+"Azione": false,
+"Desc": "Hai un'incredibile capacità di investire più oggetti magici. Aumenta il limite dei tuoi oggetti investiti da 10 a 12.",
+"Dettagli": ["++Prerequisiti:++ Carisma +3"],
+"Tratti": ["Generale"],
+"Liv": 11,
+"Mostrare": true
+},
+{
+"Nome": "Esploratore Incredibile",
+"Azione": false,
+"Desc": "Quando esplori, sei particolarmente vigile al pericolo, concedendo ai tuoi alleati preziosi momenti per prepararsi a combattere. Quando utilizzi l'attività di Esploratore, concedi ai tuoi alleati un bonus di circostanza +2 ai tiri di iniziativa invece del +1 usuale.",
+"Dettagli": ["++Prerequisiti:++ Maestro in Percezione"],
+"Tratti": ["Esplorazione", "Generale"],
+"Liv": 11,
+"Mostrare": true
+},
+{
+"Nome": "Tenacia Sanguigna",
+"Azione": false,
+"Desc": "Il tuo sangue possiede proprietà rigenerative permanenti. Le penalità da indebolito e le penalità e PF persi da prosciugato ti influenzano come se i valori delle condizioni fossero inferiori di 1 rispetto al reale.@Ottieni anche resistenza 5 ai danni da sanguinamento persistente e riduci la CD delle prove per recuperare da sanguinamento persistente a 11, o 6 se ricevi assistenza particolarmente efficace.",
+"Dettagli": ["++Prerequisiti:++ Costituzione +4"],
+"Tratti": ["Non Comune", "Generale"],
+"Liv": 11,
+"Mostrare": true
+},
+{
+"Nome": "Percezione Vera",
+"Azione": false,
+"Desc": "Le tue capacità percettive e di elaborazione delle informazioni sensoriali sono così avanzate che noti piccole discrepanze in ogni tipo di illusione e trasformazione fisica. Sei costantemente sotto gli effetti di un incantesimo vista-vera di 6° grado, usando il tuo modificatore di Percezione per la prova di contrasto.",
+"Dettagli": ["++Prerequisiti:++ Leggendario in Percezione"],
+"Tratti": ["Rivelazione", "Generale"],
+"Liv": 19,
+"Mostrare": true
+}
+
+]
