@@ -1,0 +1,1755 @@
+[
+    {
+        "Nome": "Prescelto",
+        "Desc": "La tua nascita ha adempiuto a una profezia, e le persone a te vicine contano su di te per compiere grandi imprese. C'è una pressione intensa affinché tu sia all’altezza del compito, e la natura mutevole della profezia complica il tuo cammino.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Carisma, e uno è un incremento libero.@@Decidi insieme al tuo GM i dettagli della profezia in cui sei destinato a giocare un ruolo importante. Sei addestrato in un'abilità legata alla profezia e nell’abilità di Conoscenze (Divinazione). Ottieni l’azione gratuita Pedina della Profezia.###{\"nome\": \"Pedina della Profezia\", \"tipoAzz\": \"azioneGratis\", \"tratti\": [\"abiurazione\", \"divino\", \"fortuna\"], \"dettagli\": {\"Trigger\": \"Fallisci un tiro salvezza, un tiro per colpire o una prova di abilità.\"}, \"desc\": \"Pieghi la profezia a tuo favore, ma ciò avrà delle conseguenze in seguito. Ritira il tiro fallito. Devi usare il risultato del secondo tiro.@Per le 24 ore successive, il GM può obbligarti a ritirare un tiro salvezza, un tiro per colpire o una prova di abilità riuscita, mentre il destino riequilibra le sorti.@@Questo è un effetto di sfortuna. Non puoi usare di nuovo Pedina della Profezia finché il GM non utilizza questa opzione o non passano 24 ore, a seconda di quale evento si verifica per primo.\"}###",
+        "Boost": "Forza o carisma, libero",
+        "Skill": "conoscenza(divinazione)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Accolito",
+        "Desc": "Hai trascorso i tuoi primi anni in un monastero o in un chiostro religioso.@Potresti aver viaggiato nel mondo per diffondere il messaggio della tua religione oppure perché hai abbandonato gli insegnamenti della tua fede, ma in fondo porterai sempre con te le lezioni che hai appreso.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Religione e nell’abilità di Conoscenze (Scritture). Ottieni il talento di abilità Studioso del Canone.",
+        "Boost": "Intelligenza o saggezza, libero",
+        "Skill": "Religione, conoscenze(scritture)",
+        "Talento": "Studente del canone",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Espulso dall’Accademia",
+        "Desc": "Eri iscritto a una prestigiosa accademia di magia, ma da allora hai abbandonato gli studi. Forse c’è stato un incidente memorabile, forse sei dovuto tornare a occuparti di altre responsabilità, o forse era semplicemente troppo per te. Qualunque sia la ragione, la tua uscita dall’accademia ha plasmato la tua vita tanto quanto il tuo ingresso e ti ha condotto verso una vita di avventura.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Arcano e nell’abilità di Conoscenze (accademia). Ottieni il talento di abilità Conoscenza Dubiosa.",
+        "Boost": "Intelligenza o carisma, libero",
+        "Skill": "Arcano, conoscenze(accademia)",
+        "Talento": "Conoscenza dubiosa",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Acrobata",
+        "Desc": "In un circo o per strada, ti guadagnavi da vivere esibendoti come acrobata. Potresti esserti dato all’avventura quando i soldi sono venuti a mancare, oppure aver semplicemente deciso di usare meglio le tue abilità.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Destrezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Acrobazia e nell’abilità di Conoscenze (circo). Ottieni il talento di abilità Equilibrio Stabile.",
+        "Boost": "Forza o destrezza, libero",
+        "Skill": "Acrobazia, conoscenze(circo)",
+        "Talento": "Equilibrio stabile",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Agopuntore",
+        "Desc": "Hai studiato il qi e la sua capacità di guarire il corpo attraverso la valutazione e la regolazione del suo flusso. Conosci tecniche occulte originate a Chu Ye prima che i suoi maestri venissero scacciati quando gli oni presero il controllo. Potresti aver incontrato un maestro disposto a insegnare a uno studente desideroso, oppure aver provato sulla tua pelle il sollievo di questa pratica, portando il tuo interesse a livelli più elevati.@@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Destrezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Medicina e nell’abilità di Conoscenze (agopuntura). Ottieni il talento di abilità Medicina da Battaglia.",
+        "Boost": "Saggezza o destrezza, libero",
+        "Skill": "Medicina, conoscenze(agopuntura)",
+        "Talento": "Medicina da battaglia",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Aeronauta",
+        "Desc": "Hai padroneggiato le tecniche per pilotare ogni tipo di aeronave: palloni, dirigibili, veicoli alati o qualcosa di ancora più fantastico. Hai sviluppato competenze nell’uso di questi mezzi per il trasporto, l’esplorazione e la battaglia. Vivi per la vista maestosa che questi veicoli offrono molto al di sopra dello scontro e sai sfruttare i venti che riempiono i cieli.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Destrezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Atletica e nell’abilità di Conoscenze (pilotaggio). Ottieni il talento di abilità Sicurezza con Conoscenze (pilotaggio).",
+        "Boost": "Forza o destrezza, libero",
+        "Skill": "Atletica, conoscenze(pilotaggio)",
+        "Talento": "Sicurezza",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Fuorilegge di Alkenstar",
+        "Desc": "Sei un fuorilegge il cui primo crimine è stato rubare le armi dalle fabbriche di Alkenstar, permettendoti di dare inizio a una serie di crimini di proporzioni epiche. Non sai dove finirà la tua strada, ma probabilmente sarà una faccenda sanguinosa. La vita da avventuriero potrebbe perfino sembrare un sollievo rispetto a un’esistenza passata a fuggire per sempre dalle autorità di Alkenstar e dai loro alleati.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Costituzione, e uno è un incremento libero.@@Sei addestrato nell’abilità Furto e nell’abilità di Conoscenze (malavita). Ottieni il talento di abilità Furto Subdolo.",
+        "Boost": "Destrezza o costituzione, libero",
+        "Skill": "Furto, conoscenze(malavita)",
+        "Talento": "Furto subdolo",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Soggiornante di Alkenstar",
+        "Desc": "Sei arrivato ad Alkenstar perché avevi sentito parlare delle armi da fuoco, ma sei rimasto per l’atmosfera. O per le armi. In ogni caso, il giornalismo e la curiosità scientifica ti hanno aperto la porta a una vita di avventura. Ora continui ad avventurarti nella regione di Alkenstar, usando le tue abilità per affrontare qualunque situazione si presenti.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Società e nell’abilità di Conoscenze (ingegneria). Ottieni il talento di abilità Astuzia di Strada.",
+        "Boost": "Intelligenza o carisma, libero",
+        "Skill": "Società, conoscenze(ingegneria)",
+        "Talento": "Astuzia di Strada",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Forgiatore di Leghe",
+        "Desc": "La fabbricazione del metallo potrebbe essere una professione antica, ma tu ne rappresenti l’avanguardia. Hai studiato le proprietà dei diversi metalli, sperimentando combinazioni, esponendoli a vari elementi e processi, e ti sei persino addentrato nella natura metafisica del metallo nel tuo tentativo di dominarlo. Potresti aver intrapreso la vita dell’avventuriero per ottenere più fondi e materiali o per mettere alla prova i tuoi progetti.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di Conoscenze (Piano del Metallo). Ottieni il talento di abilità Specialità di Creazione.",
+        "Boost": "Forza o intelligenza, libero",
+        "Skill": "Artigianato, conoscenze(piano del metallo)",
+        "Talento": "Specialità di Creazione",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Amnesico",
+        "Desc": "Il tuo background è… beh… onestamente, non riesci a ricordarlo! Potresti avere vaghi presentimenti nel profondo della tua mente, correnti sotterranee di emozioni insolite o reazioni inaspettate verso certe persone o situazioni, ma in definitiva non sai chi fossi un tempo. Potresti avventurarti proprio per aiutarti a scoprire chi sei. Sta a te e al GM decidere come gestire la verità sul passato del tuo personaggio. Potresti lasciarla al GM come segreto, collaborare con lui oppure persino scegliere di lasciarla indecisa fino a più tardi. In ogni caso, tu e il GM dovreste determinare alcuni dettagli degni di nota sul tuo personaggio o sui suoi possedimenti per ottenere i primi indizi sul tuo passato.@@Ottieni tre incrementi di caratteristica liberi. Tu ne scegli due, e il GM sceglie il terzo in base ai primi indizi sulla possibile storia del tuo personaggio.",
+        "Boost": "libero, libero, libero",
+        "Skill": "",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Sussurratore di Animali",
+        "Desc": "Hai sempre sentito una connessione con gli animali, e imparare ad addestrarli è stato solo un piccolo passo in più. Durante i tuoi viaggi incontri continuamente creature diverse, stringendo amicizia con loro lungo il cammino.@@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Natura e in un’abilità di Conoscenze legata a un tipo di terreno abitato dagli animali che preferisci (come Conoscenze delle Pianure o Conoscenze delle Paludi). Ottieni il talento di abilità Addomesticare Animale.",
+        "Boost": "Saggezza o carisma, libero",
+        "Skill": "Natura, conoscenze(terreno)",
+        "Talento": "Addomesticare Animale",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Antimagico",
+        "Desc": "La magia non ha mai funzionato del tutto correttamente intorno a te. Forse sei diventato un utilizzatore di magia nonostante ciò, oppure sfrutti questa tua capacità unica per combattere altri incantatori.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.@@Sei addestrato in un’abilità di Conoscenze a tua scelta, purché non riguardi un argomento magico (come stabilito dal GM in caso di dubbio). Ogni volta che dovresti essere influenzato dalla magia, anche dalla tua stessa magia o da quella di un alleato, l’origine dell’effetto deve tentare una prova piatta con CD 3. In caso di fallimento, la magia non ti influenza (anche se mantiene i suoi effetti normali su chiunque altro). In caso di successo, la magia ti influenza e non è necessario tentare ulteriori prove piatte per lo stesso effetto magico, anche se dovesse influenzarti di nuovo in seguito.",
+        "Boost": "Costituzione o saggezza, libero",
+        "Skill": "conoscenze(non magiche)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Attivista Anti-Tecnologia",
+        "Desc": "Hai visto che genere di conseguenze porta la tecnologia: ambienti inquinati, lavoratori rimasti senza impiego o gravemente feriti e la lenta erosione della società, e hai giurato di informare il mondo di questi mali. Lo fai con lunghi e appassionati discorsi agli angoli delle strade e nelle piazze dei villaggi, oltre a parlare personalmente con i capi di varie gilde. Avventurarti nel mondo più ampio potrebbe aiutarti a diffondere il tuo messaggio ancora più lontano.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Intimidazione e nell’abilità di Conoscenze (gilde). Ottieni il talento di abilità Coercizione di Gruppo.",
+        "Boost": "Costituzione o carisma, libero",
+        "Skill": "Intimidazione, conoscenze(gilde)",
+        "Talento": "Coercizione di gruppo",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Rivoluzionario Arcano",
+        "Desc": "Hai combattuto contro leader e governi oppressivi, sfruttando antiche energie magiche per aiutare a liberare la tua comunità da eserciti molto più grandi e meglio equipaggiati. Usando metodi magici per molestare e sabotare i tuoi oppressori, hai imparato a sfruttare i loro punti ciechi e a usare le loro stesse risorse contro di loro.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Arcano e in un’abilità di Conoscenze legata all’insediamento che hai liberato. Ottieni il talento di abilità Identificazione Rapida.",
+        "Boost": "Destrezza o intelligenza, libero",
+        "Skill": "Arcano, conoscenze(insediamento)",
+        "Talento": "Identificazione rapida",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Archeologo",
+        "Desc": "Hai scavato abbastanza siti da sapere che le civiltà antiche non sono perdute: sono semplicemente sepolte e in attesa dello studioso giusto che le riporti alla luce e racconti la loro storia. Potresti aver lavorato come manovale o guida locale prima di apprendere tecniche archeologiche formali.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Società e nell’abilità di Conoscenze (architettura). Ottieni il talento di abilità Conoscenza Aggiuntiva legato a una cultura antica o alla storia di una cultura che hai studiato (come Conoscenze Azlanti o Conoscenze della Storia Osiriana).",
+        "Boost": "Costituzione o intelligenza, libero",
+        "Skill": "Società, conoscenze(architettura)",
+        "Talento": "Conoscenza Aggiuntiva",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Artigiano",
+        "Desc": "Come apprendista, hai praticato una specifica forma di costruzione o lavorazione artigianale, sviluppando abilità specializzate. Potresti essere stato l’apprendista di un fabbro, chino sulla forgia per innumerevoli ore, un giovane sarto intento a cucire abiti di ogni tipo o un maestro d’ascia che modellava gli scafi delle navi.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di Conoscenze (gilde). Ottieni il talento di abilità Specialità di Creazione.",
+        "Boost": "Forza o intelligenza, libero",
+        "Skill": "Artigianato, conoscenze(gilde)",
+        "Talento": "Specialità di Creazione",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Artista",
+        "Desc": "La tua arte è la tua più grande passione, qualunque forma essa assuma. L’avventura potrebbe aiutarti a trovare ispirazione o essere semplicemente un modo per sopravvivere finché non diventerai un artista famoso in tutto il mondo.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di Conoscenze (arte). Ottieni il talento di abilità Specialità di Creazione.",
+        "Boost": "Destrezza o carisma, libero",
+        "Skill": "Artigianato, conoscenze(arte)",
+        "Talento": "Specialità di Creazione",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Astrologo",
+        "Desc": "Gli astrologi osservano le stelle in cerca di segni e presagi, usando le loro posizioni nei cieli per tracciare il cammino di coloro che vivono sotto di esse. Mentre le sfere celesti si muovono, anche il destino stesso cambia. Hai studiato le stelle e imparato a divinare il tuo percorso seguendo la loro guida. Che siano state le stelle a chiamarti direttamente a una vita di avventura o che tu le usi per orientare la tua voglia di viaggiare, stai vivendo una vita d’avventura seguendo il loro volere.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Occultismo e nell’abilità di Conoscenze (astrologia). Ottieni il talento di abilità Identificazione delle Bizzarrie.",
+        "Boost": "Intelligenza o saggezza, libero",
+        "Skill": "Occultismo, conoscenze(astrologia)",
+        "Talento": "Identificazione delle Bizzarrie",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Augure Astrologico",
+        "Desc": "Durante i tuoi anni formativi, hai imparato che le stelle sono una porta verso poteri mistici o scorci sul futuro. Forse sei cresciuto immerso nella cultura iruxi o sei stato allevato in uno dei santuari lirgeni sopravvissuti. Hai studiato le costellazioni, usando i loro allineamenti per predire la fortuna (o la sfortuna) e ottenendo poteri magici diversi da quelli degli altri astrologi che conosci. Le tue letture potrebbero concentrarsi principalmente sulla Carovana Cosmica oppure potresti usare altre stelle come guida, come lo zodiaco di Tian Xia.@@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità di Conoscenze (astrologia). Puoi lanciare augurio come incantesimo innato divino una volta alla settimana, e gli effetti dell’incantesimo possono vedere fino a 1 ora nel futuro invece di 30 minuti.",
+        "Boost": "Saggezza o carisma, libero",
+        "Skill": "conoscenze(astrologia)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Terribile Scabbia",
+        "Desc": "Prima dell’Eviscerazione del 4707, il distretto di V’drysha era un grazioso quartiere sul margine meridionale di Ecanus. Ora è il Terribile, un’enorme palude di carne e tendini resistenti alla magia, che minaccia costantemente di inghiottire la città. Un tempo eri una Scabbia, impegnato a respingere la sua influenza. È un lavoro orribile e pericoloso, oltre che malpagato, ma hai almeno imparato abbastanza da imitare una tuta viscerale, l’armatura incantata e a tenuta stagna che ti proteggeva dai veleni e dalle pestilenze del Terribile.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Costituzione, e uno è un incremento libero.@@Sei addestrato nelle abilità Medicina e Conoscenze (carneforgiata). Sai anche come sigillare i tuoi vestiti o la tua armatura come una tuta viscerale. Durante le tue preparazioni giornaliere, puoi sigillare il tuo equipaggiamento. La prima volta ogni giorno in cui vieni esposto a un veleno o a una malattia senza subire danni fisici, l’equipaggiamento sigillato tenta di contrastarlo usando il tuo modificatore di Medicina come modificatore di contrasto.",
+        "Boost": "Destrezza o costituzione, libero",
+        "Skill": "Medicina, conoscenze(carneforgiata)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Rivoluzionario di Bachuan",
+        "Desc": "Il tuo cuore anela al cambiamento e arde per il tuo popolo. Ti rifiuti di conformarti alle leggi che ti vincolano e quindi ti ribelli in modi appariscenti. I tuoi capelli sono rasati oppure cresciuti selvaggi e sciolti. I tuoi abiti non seguono le convenzioni della società di Bachuan, spesso tagliati in forme sgargianti e tinti con colori vividi. Il tuo richiamo al cambiamento è una battaglia disperata e non tutte le ribellioni sono ben equipaggiate. Che tu scelga di combattere un altro giorno o di portare la tua causa nelle tue avventure, sta a te deciderlo.@@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Forza, e uno è un incremento libero.@@Sei addestrato nell’abilità Società e nell’abilità di Conoscenze (legge). Ottieni il talento di abilità Lingua dei Segni.",
+        "Boost": "Saggezza o forza, libero",
+        "Skill": "Società, conoscenze(legge)",
+        "Talento": "Lingua dei Segni",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Medico dei Vicoli",
+        "Desc": "Sei il medico a cui molti si rivolgono quando una clinica ufficiale o un guaritore non sono disponibili. Potresti esserti specializzato nel ricucire ferite da proiettile o avere un accordo stabile e riservato con una banda criminale per fornire i tuoi servizi a qualsiasi ora del giorno e della notte. In entrambi i casi, potresti esserti dato alla vita dell’avventuriero perché un ex cliente non è soddisfatto del tuo lavoro o perché i membri della guardia locale hanno iniziato a fare troppe domande.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Medicina e nell’abilità di Conoscenze (malavita). Ottieni il talento di abilità Chirurgia Rischiosa.",
+        "Boost": "Costituzione o saggezza, libero",
+        "Skill": "Medicina, conoscenze(malavita)",
+        "Talento": "Chirurgia rischiosa",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Bandito",
+        "Desc": "Il tuo passato include una buona dose di banditismo rurale, rapinando viaggiatori lungo le strade per tirare avanti. Che le tue rapine fossero autorizzate da un nobile locale o frutto di iniziativa personale, alla fine sei rimasto coinvolto nella vita dell’avventuriero. Ora l’avventura è il tuo mestiere, e anni passati ad accamparsi e a combattere scaramucce non hanno fatto che aiutarti.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Intimidazione e in un’abilità di Conoscenze legata al terreno in cui operavi (come Conoscenze del Deserto o Conoscenze delle Pianure). Ottieni il talento di abilità Coercizione di Gruppo.",
+        "Boost": "Destrezza o carisma, libero",
+        "Skill": "Intimidazione, conoscenze(terreno)",
+        "Talento": "Coercizione di gruppo",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Celestiale Bandito",
+        "Desc": "Un tempo eri qualcosa di soprannaturale: un agente celeste, un mietitore di anime, una fenice immortale o un tiranno demoniaco. Per qualche ragione, sei stato costretto a vivere in forma mortale. Potresti essere stato sigillato dal potere sacro di un monaco o crudelmente tradito e ucciso, ma più probabilmente i tuoi superiori ti hanno punito per la tua superbia. Non ricordi bene la tua vita precedente, ammesso che tu sia consapevole di essere stato qualcosa di più di ciò che sei ora, ma non sei stato completamente abbandonato dai poteri che un tempo governavano la tua esistenza. Spesso trovi una scintilla di illuminazione nel fallimento, mentre il destino ti spinge a correggere gli errori o le tragedie che hanno causato la tua caduta.@@Ottieni due incrementi di caratteristica liberi. Tu ne scegli uno, e il GM sceglie l’altro in base alla tua vita passata.@@Sei addestrato in un’abilità a tua scelta e in un’abilità di Conoscenze a tua scelta. Ottieni l’abilità Illuminazione nell’Avversità.###{\"nome\": \"Illuminazione nell’Avversità\", \"tipoAzz\": \"reazione\", \"tratti\": [], \"dettagli\": {\"Frequenza\": \"una volta al giorno\", \"Trigger\": \"Fallisci criticamente una prova di abilità con un’abilità ottenuta dal background celestiale bandito\"}, \"desc\": \"La prossima volta che tenti una prova di abilità usando l’abilità che ha innescato questa capacità entro il minuto successivo, tira due volte e usa il risultato migliore.\"}###",
+        "Boost": "libero, libero",
+        "Skill": "qualsiasi, conoscenze(qualsiasi)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Barbiere",
+        "Desc": "Tagli di capelli, odontoiatria, salassi e chirurgia: se richiede una mano ferma e un rasoio, sai farlo. Potresti esserti messo in viaggio per ampliare le tue competenze o per metterti alla prova contro un mondo che lascia i tuoi pazienti malconci e pieni di lividi.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Medicina e nell’abilità di Conoscenze (chirurgia). Ottieni il talento di abilità Chirurgia Rischiosa.",
+        "Boost": "Destrezza o saggezza, libero",
+        "Skill": "Medicina, conoscenze(chirurgia)",
+        "Talento": "Chirurgia rischiosa",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Oste",
+        "Desc": "Hai cinque specialità: sollevare barili, bere, lucidare boccali, bere e bere. Hai lavorato in una taverna, dove hai imparato a reggere l’alcool e a socializzare in modo rumoroso.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Diplomazia e nell’abilità di Conoscenze (alcol). Ottieni il talento di abilità Chiacchierone.",
+        "Boost": "Costituzione o carisma, libero",
+        "Skill": "Diplomazia, conoscenze(alcol)",
+        "Talento": "Chiacchierone",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Avvocato",
+        "Desc": "Pile di manuali legali, insegnanti severi ed esperienza in tribunale ti hanno istruito in materia di diritto. Sei capace di sostenere un’accusa o una difesa in aula e tendi a rimanere aggiornato sulle leggi locali, poiché non si sa mai quando potrebbe servirti conoscerle in fretta.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Diplomazia e nell’abilità di Conoscenze (legge). Ottieni il talento di abilità Coercizione di Gruppo.",
+        "Boost": "Intelligenza o carisma, libero",
+        "Skill": "Diplomazia, conoscenze(legge)",
+        "Talento": "Coercizione di Gruppo",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Meccanico da Battaglia",
+        "Desc": "Tutti i veicoli prima o poi si rompono, sia per l’usura sia per il contatto con il nemico, e qualcuno deve ripararli. Hai esperienza nel riparare veicoli aerei, terrestri e marittimi di ogni tipo e conosci bene il loro funzionamento e gli strumenti specializzati necessari.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di Conoscenze (veicoli). Ottieni il talento di abilità Riparazione Rapida.",
+        "Boost": "Intelligenza o saggezza, libero",
+        "Skill": "Artigianato, conoscenze(veicoli)",
+        "Talento": "Riparazione rapida",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Raccattatore di Campi di Battaglia",
+        "Desc": "Hai passato anni a rovistare tra i cadaveri degli eserciti e il loro equipaggiamento non appena le battaglie finivano, cercando oggetti dai morti da trasformare in qualcosa di valore. Anche se hai lasciato quella vita alle spalle, hai imparato molto sulla guerra e su come creare oggetti utili a partire da materiali recuperati.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di Conoscenze (guerra). Ottieni il talento di abilità Strumento improvvisato.",
+        "Boost": "Forza o intelligenza, libero",
+        "Skill": "Artigianato, conoscenze(guerra)",
+        "Talento": "Strumento improvvisato",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Benedetto dalla Bestia",
+        "Desc": "Un tempo hai liberato una bestia magica dalla prigionia e, intenzionalmente o come conseguenza indiretta di un’altra azione, la creatura riconoscente ti ha conferito una benedizione di libertà. Questa benedizione si manifesta fisicamente, forse sotto forma di canini allungati, unghie che crescono affilate, eccessiva peluria o altri tratti simili. Questa manifestazione fisica è puramente estetica e non fornisce alcun beneficio.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Sopravvivenza. Ottieni la reazione Chiarezza Bestiale.###{\"nome\": \"Chiarezza Bestiale\", \"tipoAzz\": \"reazione\", \"tratti\": [\"fortuna\"], \"dettagli\": {\"Frequenza\": \"una volta al giorno\", \"Trigger\": \"Fallisci un tiro salvezza contro un effetto di ammaliamento\"}, \"desc\": \"La tua manifestazione bestiale diventa più pronunciata e la tua mente ottiene un lampo di lucidità mentre i tuoi istinti prendono il sopravvento. Puoi ritirare il tiro salvezza che ha innescato questa reazione con un bonus di circostanza +2, ma devi usare il nuovo risultato.\"}###",
+        "Boost": "Destrezza o saggezza, libero",
+        "Skill": "Sopravvivenza",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Benedetto",
+        "Desc": "Sei stato benedetto da una divinità. Per una ragione sconosciuta e indipendentemente dalle tue reali convinzioni, una divinità ti ha concesso un dono da usare per il bene o per il male. La tua benedizione ti concede saggezza e intuizione per aiutarti nelle tue lotte. Potresti anche non conoscere l’identità dell’essere che ti ha benedetto, e la benedizione potrebbe avere un prezzo che scoprirai solo in seguito.@@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.@@Sei addestrato in un’abilità di Conoscenze associata alla divinità che ti ha benedetto (come Conoscenze di Shelyn), se ne conosci l’identità; altrimenti in un’abilità di Conoscenze scelta dal GM. Puoi lanciare guida come incantesimo innato divino a volontà, oppure ottieni una benedizione simile determinata dal GM.",
+        "Boost": "Saggezza o carisma, libero",
+        "Skill": "conoscenze(divinità)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Contabile",
+        "Desc": "Ti occupavi dei conti per una grande fattoria, per le imprese di un mercante o per una grande gilda cittadina. Tenevi traccia di spese, salari, profitti e di tutto ciò che riguardava il denaro, nel bene o nel male. Se nel bene, potresti avventurarti per imparare come altri esercitano questo mestiere. Se nel male, potresti essere in fuga da conseguenze imminenti, sperando che nessuno ti trovi.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Società e nell’abilità di Conoscenze (contabilità). Ottieni il talento di abilità Occhio per i Numeri.",
+        "Boost": "Intelligenza o saggezza, libero",
+        "Skill": "Società, conoscenze(contabilità)",
+        "Talento": "Occhio per i numeri",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Cacciatore di Taglie",
+        "Desc": "Consegnare i fuorilegge ti riempiva le tasche. Forse eri mosso da ideali altruistici e volevi rendere le strade più sicure, oppure il denaro era una motivazione più che sufficiente. Le tue tecniche per dare la caccia ai criminali si adattano facilmente alla vita dell’avventuriero.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Sopravvivenza e nell’abilità di Conoscenze (legge). Ottieni il talento di abilità Segugio Esperto.",
+        "Boost": "Forza o saggezza, libero",
+        "Skill": "Sopravvivenza, conoscenze(legge)",
+        "Talento": "Segugio esperto",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Cannoniere",
+        "Desc": "Hai servito come membro dell’equipaggio a bordo di una nave militare o di una nave pirata ed eri responsabile dell’uso e della manutenzione dei cannoni di bordo. Una schiena forte e riflessi pronti erano ugualmente importanti nei tuoi incarichi, e conosci bene gli esplosivi e i pericoli che comportano. Queste capacità ti sono molto utili nella tua nuova vita da avventuriero: rispetto al peso di un cannone, un carico di equipaggiamento che fa sbiancare i tuoi alleati ti strappa solo una risata.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Destrezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Atletica e nell’abilità di Conoscenze (guerra). Ottieni il talento di abilità Portatore Robusto.",
+        "Boost": "Forza o destrezza, libero",
+        "Skill": "Atletica, conoscenze(guerra)",
+        "Talento": "Portatore robusto",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Ciarlatano",
+        "Desc": "Hai viaggiato di luogo in luogo, vendendo false predizioni e olio di serpente in una città, fingendoti un nobile in esilio per sedurre un ricco erede nella successiva. Diventare un avventuriero potrebbe essere la tua prossima grande truffa o un tentativo di usare i tuoi talenti per una causa più grande. Forse è un po’ entrambe le cose, mentre ti rendi conto che, dopo aver finto di essere un eroe, sei diventato la maschera stessa.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Inganno e nell’abilità di Conoscenze (malavita). Ottieni il talento di abilità Bugiardo Affascinante.",
+        "Boost": "Intelligenza o carisma, libero",
+        "Skill": "Inganno, conoscenze(malavita)",
+        "Talento": "Bugiardo affascinante",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Figlio del Villaggio Gemello",
+        "Desc": "Sei nato in un villaggio in cui ogni persona ha un gemello con cui condivide un legame speciale. Ti sei trasferito nel mondo più ampio per ragioni tue, ma mantieni ancora una connessione indissolubile con il tuo gemello attraverso i sogni.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Carisma, e uno è un incremento libero.@@Sei addestrato nelle abilità Diplomazia e Conoscenze (Terre dei Sogni). Ottieni la capacità di comunicare con il tuo gemello nei sogni. Tu e il tuo gemello ottenete gli effetti di messaggio onirico ogni notte, solo tra di voi; questo non è un incantesimo, ma un effetto naturale. A meno che il tuo gemello non sia un altro PG, il GM interpreta il tuo gemello o riassume le vostre interazioni durante questi sogni.",
+        "Boost": "Costituzione o carisma, libero",
+        "Skill": "Diplomazia, conoscenze(terre dei sogni)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Giudice Itinerante",
+        "Desc": "Sei un giudice itinerante, un tribunale a cavallo che serve un gruppo di comunità nelle Terre Desolate del Mana o in una regione rurale simile. Ti presenti ogni paio di mesi, ascolti i casi accumulati dall’ultima visita, pronunci i verdetti e poi riparti verso la prossima città del tuo itinerario. Non è la vita più facile del mondo, ma è interessante, e ascolti casi davvero strani. È probabile che uno di questi casi ti abbia messo sulla strada dell’avventura.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Inganno e nell’abilità di Conoscenze (legge). Ottieni il talento di abilità Mentire a Me.",
+        "Boost": "Intelligenza o saggezza, libero",
+        "Skill": "Inganno, conoscenze(legge)",
+        "Talento": "Mentire a Me",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Combattente Meccanico",
+        "Desc": "Mentre altri usano le loro capacità ingegneristiche per curare i feriti o creare brillanti innovazioni, tu hai impiegato le tue abilità per riparare e modificare costrutti a orologeria che combattono in arene gladiatorie. Sai come elettrizzare la folla per il tuo gladiatore meccanico, che vinca o perda, e sai come ripararlo quando viene danneggiato. Queste capacità ti servono molto bene come avventuriero.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di Conoscenze (gladiatori). Ottieni il talento di abilità Professionista Esperto.",
+        "Boost": "Intelligenza o carisma, libero",
+        "Skill": "Artigianato, conoscenze(gladiatori)",
+        "Talento": "Professionista esperto",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Ricercatore di Orologeria",
+        "Desc": "Le nuove forme di tecnologia a orologeria ti affascinano incredibilmente, e hai studiato diversi esempi per capire dove potrebbero essere applicate al meglio. Un giorno potresti sviluppare una nuova macchina prototipo o trovare un modo per rendere queste tecnologie abbastanza pratiche da beneficiare tutti. Prima di allora, però, devi continuare le tue ricerche.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Società e nell’abilità di Conoscenze (ingegneria). Ottieni il talento di abilità Occhio per i Numeri.",
+        "Boost": "Destrezza o intelligenza, libero",
+        "Skill": "Società, conoscenze(ingegneria)",
+        "Talento": "Occhio per i numeri",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Decifratore di Codici",
+        "Desc": "Che tu sia al servizio di un’organizzazione militare per decifrare messaggi cifrati inviati da fazioni nemiche o lavori in modo indipendente per risolvere un enigma creato da una civiltà del passato, hai una mente portata per schemi e linguistica. Potresti persino usare nuovi dispositivi a orologeria per aiutarti nei tuoi sforzi.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Società e nell’abilità di Conoscenze (crittografia). Ottieni il talento di abilità Decifrare Contenuti.",
+        "Boost": "Intelligenza o saggezza, libero",
+        "Skill": "Società, conoscenze(crittografia)",
+        "Talento": "Decifrare Contenuti",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Carpentiere da Battaglia",
+        "Desc": "Hai trascorso innumerevoli ore a selezionare il legname, progettare strutture e costruire ogni tipo di edificio in legno, scudi, armi e strumenti. Sai individuare rapidamente i punti deboli delle fortificazioni in legno e determinare i modi migliori per rinforzarle o attaccarle.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di Conoscenze (ingegneria). Ottieni il talento di abilità Specialità di Creazione.",
+        "Boost": "Destrezza o intelligenza, libero",
+        "Skill": "Artigianato, conoscenze(ingegneria)",
+        "Talento": "Specialità di Creazione",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Cappellano da Battaglia",
+        "Desc": "Come membro del clero, eri responsabile del benessere spirituale e morale dei soldati e delle loro famiglie. Pur potendo essere un devoto di una divinità specifica, agivi come ambasciatore della chiesa nel suo insieme, offrendo supporto religioso in un contesto pluralistico e diversificato. Fornivi consiglio e assumevi il ruolo di amico critico, mediatore e riconciliatore per coloro sotto la tua cura. Potresti essere stato chiamato a guidare il culto, celebrare matrimoni e officiare funerali sia nei villaggi vicini sia in luoghi remoti.@@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Religione e in un’abilità di Conoscenze associata alla divinità che veneri. Ottieni il talento di abilità Riconoscere incantesimi.",
+        "Boost": "Saggezza o carisma, libero",
+        "Skill": "Religione, conoscenze(divinità)",
+        "Talento": "Riconoscere incantesimi",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Ricercatore della Concordanza",
+        "Desc": "Incaricato dalla Concordanza degli Elementi di studiare una varietà di enigmatici fenomeni planari, hai acquisito conoscenze molto specifiche sui piani e sulle interazioni tra di essi. Sebbene il lavoro del ricercatore sia di solito pacifico, la Concordanza potrebbe richiederti di scendere sul campo per analizzare situazioni planari instabili.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato in quattro delle seguenti abilità di Conoscenze: Conoscenze (Piano dell’Aria), Conoscenze (Piano della Terra), Conoscenze (Piano del Fuoco), Conoscenze (Piano del Metallo), Conoscenze (Piano dell’Acqua) o Conoscenze (Piano del Legno).",
+        "Boost": "Intelligenza o saggezza, libero",
+        "Skill": "conoscenze(piano dell’aria), conoscenze(piano della terra), conoscenze(piano del fuoco), conoscenze(piano del metallo)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Esploratore della Concordanza",
+        "Desc": "Sei stato assunto dalla Concordanza degli Elementi per cercare voci di fratture planari o altre prove di squilibri tra i piani. Dopo aver riferito alla Concordanza, questa inviava agenti meglio equipaggiati per gestire la situazione. Tuttavia, questo lavoro ti ha condotto in guai maggiori di quanto i tuoi datori di lavoro sospettino, e hai imparato a ottenere rapidamente le informazioni e a ritirarti con danni minimi.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Diplomazia e in una delle seguenti abilità di Conoscenze: Conoscenze (Piano dell’Aria), Conoscenze (Piano della Terra), Conoscenze (Piano del Fuoco), Conoscenze (Piano del Metallo), Conoscenze (Piano dell’Acqua) o Conoscenze (Piano del Legno). Ottieni il talento di abilità Chiacchierone.",
+        "Boost": "Costituzione o carisma, libero",
+        "Skill": "Diplomazia, conoscenze(piano)",
+        "Talento": "Chiacchierone",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Coscritto",
+        "Desc": "Come molti altri nel tuo insediamento, hai adempiuto prontamente al tuo dovere e hai servito nell’esercito una volta raggiunta la maggiore età. Con grande disappunto dei veterani incalliti che cercavano di togliertela, sei riuscito a conservare un briciolo della tua ingenuità anche mentre affrontavi gli orrori più cruenti della guerra. Hai imparato abbastanza di strategia e tattica da risultare pericoloso.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Costituzione, e uno è un incremento libero.@@Sei addestrato nell’abilità Società e nell’abilità di Conoscenze (guerra). Ottieni il talento di abilità Conoscenza dubiosa.",
+        "Boost": "Forza o costituzione, libero",
+        "Skill": "Società, conoscenze(guerra)",
+        "Talento": "Conoscenza dubiosa",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Cuoco",
+        "Desc": "Sei cresciuto nelle cucine di una taverna o di un altro locale di ristorazione e lì hai eccelso, diventando un cuoco eccezionale. Fornire pane, cucinare e fare un po’ di birrificazione di contorno: hai passato molto tempo lontano dagli sguardi. È giunto il momento di uscire nel mondo e vedere qualcosa con i tuoi occhi.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Sopravvivenza e nell’abilità di Conoscenze (cucina). Ottieni il talento di abilità Esperto di Cucina.",
+        "Boost": "Costituzione o intelligenza, libero",
+        "Skill": "Sopravvivenza, conoscenze(cucina)",
+        "Talento": "Esperto di Cucina",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Corriere",
+        "Desc": "In gioventù guadagnavi monete consegnando messaggi per persone ricche e influenti, sfrecciando tra le affollate strade cittadine. Il tuo impegno ostinato nel recapitare i messaggi è stato un ottimo addestramento per la vita dell’avventuriero.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Società e in un’abilità di Conoscenze legata alla tua città d’origine. Ottieni il talento di abilità Decifrare Contenuti.",
+        "Boost": "Destrezza o intelligenza, libero",
+        "Skill": "Società, conoscenze(città)",
+        "Talento": "Decifrare Contenuti",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Criminale",
+        "Desc": "Come indipendente senza scrupoli o come membro di un’organizzazione della malavita, hai vissuto una vita di crimine. Potresti essere diventato un avventuriero per cercare redenzione, per sfuggire alla legge o semplicemente per avere accesso a bottini più grandi e migliori.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Furtività e nell’abilità di Conoscenze (malavita). Ottieni il talento di abilità Contrabbandiere Esperto.",
+        "Boost": "Destrezza o intelligenza, libero",
+        "Skill": "Furtività, conoscenze(malavita)",
+        "Talento": "Contrabbandiere esperto",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Guaritore di Cristalli",
+        "Desc": "Le formazioni minerali possono essere cose bellissime, scintillanti e disposte in configurazioni geometriche. Per te, sono anche potenti strumenti naturali di guarigione. Potresti aver intrapreso la vita dell’avventuriero per dimostrare il tuo valore curando i sofferenti o per trovare nuovi cristalli con proprietà uniche da aggiungere alla tua collezione in crescita.@@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Natura e nell’abilità di Conoscenze (Piano della Terra). Ottieni il talento di abilità Medicina Naturale.",
+        "Boost": "Saggezza o carisma, libero",
+        "Skill": "Natura, conoscenze(piano della terra)",
+        "Talento": "Medicina naturale",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Cultista",
+        "Desc": "Eri (o sei ancora) un membro di un culto i cui riti possono includere danze sacre per garantire un raccolto abbondante o rituali oscuri che invocano poteri tenebrosi. Potresti aver intrapreso l’avventura per portare avanti gli obiettivi del tuo culto, per iniziarti ai più grandi misteri del mondo o per fuggire da pratiche o vincoli sgradevoli.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Occultismo e in un’abilità di Conoscenze legata alla tua divinità o al tuo culto. Ottieni il talento di abilità Istruito nei Segreti.",
+        "Boost": "Intelligenza o carisma, libero",
+        "Skill": "Occultismo, conoscenze(culto o divinità)",
+        "Talento": "Istruito nei segreti",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Curandero",
+        "Desc": "Hai appreso le arti curative della tua comunità brandendo la tua chonta cerimoniale, uno strumento che hai intagliato tu stesso e impregnato di oli ed erbe sacre. Questo processo ti ha aperto gli occhi su malanni di natura più mistica: spiriti maligni, infestazioni, possessioni e altro ancora. Probabilmente hai intrapreso la vita dell’avventuriero per combattere questi orrori, oppure sei fuggito da un male oltre il tuo potere di sconfiggere.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Medicina e nell’abilità di Conoscenze (erboristeria). Ottieni il talento di abilità Inoculazione.",
+        "Boost": "Costituzione o saggezza, libero",
+        "Skill": "Medicina, conoscenze(erboristeria)",
+        "Talento": "Inoculazione",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Maledetto",
+        "Desc": "Sei vittima di una maledizione personale o ereditaria. Attraverso grandi sforzi e studi occulti, hai imparato a respingere i peggiori effetti della maledizione e, per estensione, a proteggerti da altra magia dannosa. Tuttavia, la maledizione incombe ancora su di te e talvolta si manifesta in modi pericolosi.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.@@Sei addestrato nelle abilità Occultismo e Conoscenze (maledizioni). Ottieni la reazione Segno di Protezione. Tu e il GM dovreste determinare gli effetti completi della maledizione, anche se per ora ne hai arginati la maggior parte. Il GM determina le manifestazioni persistenti della maledizione su di te, che di solito includono almeno un effetto tematico costante o molto frequente e occasionali effetti più pericolosi.###{\"nome\": \"Segno di Protezione\", \"tipoAzz\": \"reazione\", \"tratti\": [\"concentrazione\"], \"dettagli\": {\"Frequenza\": \"una volta al minuto\", \"Trigger\": \"Stai per tentare un tiro salvezza contro un effetto magico, ma non hai ancora tirato\"}, \"desc\": \"Invochi il potere di un segno personale ed eldritch di protezione, che divampa intensamente prima di svanire lentamente. Ottieni un bonus di circostanza +2 al tiro salvezza che ha innescato la reazione, oppure un bonus di circostanza +3 se l’effetto è una maledizione.\"}###",
+        "Boost": "Intelligenza o carisma, libero",
+        "Skill": "Occultismo, conoscenze(maledizioni)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Impavido",
+        "Desc": "Da bambino hai scelto di affrontare ciascuna delle tue paure più profonde e, volta dopo volta, ne sei uscito vittorioso. Hai imparato a dominare la paura stessa e, con la sola forza di volontà e determinazione, riesci a scrollarti di dosso le esperienze spaventose più facilmente della maggior parte delle persone. Gli altri trovano difficile intimidirti al punto da farti rinunciare a ciò che ti sei prefissato.@@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Diplomazia. Ottieni la reazione Atto Indomabile.###{\"nome\": \"Atto Indomabile\", \"tipoAzz\": \"reazione\", \"tratti\": [\"fortuna\"], \"dettagli\": {\"Frequenza\": \"una volta al giorno\", \"Trigger\": \"Stai per tentare una prova\", \"Requisiti\": \"Sei spaventato\"}, \"desc\": \"Ti appoggi alla tua paura, usandola per darti coraggio. Puoi tirare due volte la prova che ha innescato questa reazione e usare il risultato migliore.\"}###",
+        "Boost": "Saggezza o carisma, libero",
+        "Skill": "Diplomazia",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Marinaio di Bordo",
+        "Desc": "Le onde ondeggianti dell’alto mare, il costante rollio del ponte sotto i piedi e le altezze scricchiolanti delle sartie di una nave ti sono familiari quanto la terraferma. Potresti aver lavorato su una semplice barca da pesca, su una galea di un ricco mercante, su una potente nave da guerra o persino su una caravella pirata. Che il tuo equipaggio si sia ritirato, la tua nave sia affondata o tu ti sia dato all’avventura per tenere tutto il bottino per te, conservi comunque un eccellente senso dell’equilibrio e riflessi pronti.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Destrezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Acrobazia e nell’abilità di Conoscenze (navigazione). Ottieni il talento di abilità Caduta da gatto.",
+        "Boost": "Forza o destrezza, libero",
+        "Skill": "Acrobazia, conoscenze(navigazione)",
+        "Talento": "Caduta da gatto",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Palombaro degli Abissi",
+        "Desc": "Le profondità zaffiro dei mari e i misteri che celano sotto la loro superficie hanno sempre stimolato il tuo interesse. La tua ossessione per gli abissi oceanici non può essere contenuta in un solo mondo, e hai letto tomi e diari sulla fonte di tutta l’acqua ovunque esista, sperando un giorno di comprendere i segreti acquatici del grande ignoto.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Atletica e nell’abilità di Conoscenze (Piano dell’Acqua). Ottieni il talento di abilità Predone Subacqueo.",
+        "Boost": "Forza o saggezza, libero",
+        "Skill": "Atletica, conoscenze(piano dell’acqua)",
+        "Talento": "Predone subacqueo",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Dendrologo",
+        "Desc": "Gli alberi crescono in ogni bioma e il tuo stupore per la loro capacità di conquistare qualsiasi terreno ti ha spinto a studiarli più a fondo. Gli alberi sono ovunque e il tuo studio ti porterà inevitabilmente sempre più lontano alla ricerca di nuove varietà, forse persino fino al Piano del Legno stesso.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Sopravvivenza e nell’abilità di Conoscenze (Piano del Legno). Ottieni il talento di abilità Esperto dei Terreni (foreste).",
+        "Boost": "Intelligenza o saggezza, libero",
+        "Skill": "Sopravvivenza, conoscenze(piano del legno)",
+        "Talento": "Esperto dei Terreni",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Vice-Sceriffo",
+        "Desc": "Anche se la tua vita ha preso varie svolte nel corso degli anni, un tempo eri stato nominato protettore legale di una comunità. Sebbene il ruolo fosse temporaneo e tu abbia poi restituito il distintivo, quella responsabilità ti ha plasmato. Ogni volta che una comunità è in difficoltà e lo sceriffo non si trova da nessuna parte, gli abitanti si rivolgono a te per catturare un criminale, salvare la prole del sindaco dai banditi o affrontare direttamente i fuorilegge.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Sopravvivenza e nell’abilità di Conoscenze (caccia). Ottieni il talento di abilità Segugio Esperto.",
+        "Boost": "Destrezza o saggezza, libero",
+        "Skill": "Sopravvivenza, conoscenze(caccia)",
+        "Talento": "Segugio esperto",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Detective",
+        "Desc": "Hai risolto crimini come ispettore di polizia o accettato incarichi per clienti facoltosi come investigatore privato. Potresti essere diventato un avventuriero come parte del tuo prossimo grande mistero, ma più probabilmente a causa delle conseguenze o degli strascichi di un caso precedente.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Società e nell’abilità di Conoscenze (malavita). Ottieni il talento di abilità Astuzia di Strada.",
+        "Boost": "Intelligenza o saggezza, libero",
+        "Skill": "Società, conoscenze(malavita)",
+        "Talento": "Astuzia di Strada",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Duplicato Scartato",
+        "Desc": "Qualcuno ti ha creato per uno scopo specifico. Una persona importante, che fosse un sovrano leggendario, un politico controverso o un rigido leader militare, aveva bisogno di un sosia per le apparizioni più pericolose. Usando una combinazione di scienza di frontiera e magia, sei stato commissionato e addestrato per emulare questa persona in ogni aspetto e l’hai sostituita in innumerevoli circostanze mortali. Potresti conoscere o meno il motivo della tua dismissione, ma chi ti ha scartato non ti ha eliminato del tutto. Ora il mondo è tuo da esplorare, ma “tu” potresti avere una reputazione audace o brutale, oppure l’individuo che duplicavi potrebbe essere morto da tempo. In ogni caso, il tuo stile di vita è cambiato drasticamente.@@Tu e il GM potete decidere come integrare la tua vita precedente nella storia. Il GM può tenere queste informazioni nascoste anche a te, oppure tu o un altro personaggio potete sapere cosa è accaduto. Potete anche lasciarle non specificate e definirle in seguito.@@Ottieni tre incrementi di caratteristica liberi. Tu ne scegli due e il GM sceglie il terzo in base agli attributi del personaggio che eri stato creato per duplicare.",
+        "Boost": "libero, libero, libero",
+        "Skill": "",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Discepolo dell’Ingranaggio",
+        "Desc": "Mentre molti considerano scienza e fede incompatibili, tu credi che il progresso scientifico sia la volontà della tua divinità. Forse sei un seguace di Brigh, Casandalee o di un altro dio della tecnologia, oppure vedi le fornaci e le scintille della modernità come l’ultima manifestazione della fiamma di Sarenrae o del fulmine di Gozreh. In ogni caso, sei sempre disposto a diffondere la parola della tua divinità e hai imparato un po’ di meccanica di base per dimostrare come il suo credo possa migliorare il tenore di vita comune.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e in un’abilità di Conoscenze legata alla divinità che veneri. Ottieni il talento di abilità Riparazione Rapida.",
+        "Boost": "Intelligenza o saggezza, libero",
+        "Skill": "Artigianato, conoscenze(divinità)",
+        "Talento": "Riparazione rapida",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Araldo della Rovina",
+        "Desc": "Nelle stelle non vedi guida né saggezza, ma una scintillante porta verso l’imminente fine di tutte le cose. Potresti essere cresciuto con questa ideologia, averla appresa dalla superstizione o aver ricevuto una visione profetica. In ogni caso, sei giunto a considerare le stelle e il potere che evocano come un sentiero verso la rovina, una maledizione con cui mettere in guardia le masse. Alcuni potrebbero ignorare i tuoi avvertimenti, mentre altri potrebbero unirsi a te per illuminare gli ignoranti. Per te non esiste verità più grande della fine che si avvicina, e sai che qualunque ne sia la causa, verrà dalle stelle, o forse le stelle sono solo un varco verso qualcosa di ancora più terrificante.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nelle abilità Occultismo e Conoscenze (stelle). Ottieni l’azione Sventura Stellare.###{\"nome\": \"Sventura Stellare\", \"tipoAzz\": \"azioneGratis\", \"tratti\": [\"divinazione\", \"sfortuna\", \"occulto\"], \"dettagli\": {\"Frequenza\": \"una volta al giorno\", \"Trigger\": \"Una creatura che puoi vedere sta per tentare un tiro salvezza, un tiro per colpire o una prova di abilità\", \"Requisiti\": \"Devi trovarti sotto il cielo notturno con le stelle visibili\"}, \"desc\": \"Invochi il potere di una stella funesta, aggravando la sfortuna del bersaglio. Il bersaglio deve tirare due volte la prova che ha innescato questa azione e usare il risultato peggiore.\"}###",
+        "Boost": "Intelligenza o saggezza, libero",
+        "Skill": "Occultismo, conoscenze(stelle)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Sognatore della Luna Verdeggiante",
+        "Desc": "Hai trascorso i tuoi primi anni tra le conseguenze di una delle grandi devastazioni. Sei sopravvissuto grazie alla tua intraprendenza e forse al favore del tuo patrono, e in seguito sei stato benedetto con abilità e determinazione, ma devi sempre attenerti ai suoi dettami, affinché la fame proveniente dalle profondità non torni a cercarti.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Sopravvivenza e nell’abilità di Conoscenze (Zevgavizeb). Ottieni il talento di abilità Disperazione di Ravening.",
+        "Boost": "Forza o saggezza, libero",
+        "Skill": "Sopravvivenza, conoscenze(zevgavizeb)",
+        "Talento": "Disperazione di Ravening",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Autista",
+        "Desc": "Vivi dietro i comandi di un veicolo e sai gestire qualunque cosa la strada, le onde o il cielo possano scagliarti contro. Ti avventuri per mettere alla prova le tue capacità con veicoli nuovi e interessanti.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Destrezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Acrobazia e nell’abilità di Conoscenze (guida) o Conoscenze (pilotaggio). Ottieni il talento di abilità Sicurezza con l’abilità di Conoscenze scelta.",
+        "Boost": "Forza o destrezza, libero",
+        "Skill": "Acrobazia, conoscenze(guida o pilotaggio)",
+        "Talento": "Sicurezza",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Discepolo di Droskar",
+        "Desc": "Sei cresciuto nella chiesa del Fabbro Oscuro, dove hai imparato il valore del duro lavoro e del raggiungimento della maestria professionale.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Intelligenza, e uno è un incremento libero.@@Ottieni il talento di abilità Addestramento nelle Abilità e sei addestrato nell’abilità di Conoscenze (Droskar).",
+        "Boost": "Costituzione o intelligenza, libero",
+        "Skill": "conoscenze(droskar)",
+        "Talento": "Addestramento nelle abilità",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Cacciatore d’Aquile",
+        "Desc": "Sei un cacciatore legato fin dalla giovinezza a un’aquila come compagno animale. Hai addestrato la tua aquila a cacciare con te, diventando al tempo stesso una tua estensione e una partner fidata su cui puoi contare. I popoli nomadi di Hongal hanno creato questa pratica per cacciare attraverso i loro terreni aspri. Dai la caccia a piccola selvaggina, tipicamente volpi e lepri, o partecipi a eventi di caccia attirando folle di spettatori. Forse è stata la prospettiva di un pubblico più vasto a chiamarti, o magari la promessa di prede più grandi al di fuori dei tuoi territori abituali. Chi può dire cosa spinga un cacciatore verso l’avventura?@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Natura e nell’abilità di Conoscenze (caccia). Ottieni il talento generale Animale Domestico e il talento di abilità Addomesticare Animale, ma puoi usare questi talenti solo per ottenere e addestrare aquile. Le tue aquile addestrate possono eseguire l’azione Aiutare quando tenti una prova di Natura, Percezione o Sopravvivenza. Questo beneficio si applica solo a te e ad altri personaggi con il background cacciatore d’aquile.",
+        "Boost": "Forza o saggezza, libero",
+        "Skill": "Natura, conoscenze(caccia)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Nato dall’Eclissi",
+        "Desc": "Sei nato nell’esatto momento di un’eclissi solare o lunare. Nel punto di congiunzione dell’eclissi, o poco dopo, una catastrofe si abbatté sull’area della tua nascita: forse colpì solo le persone intorno a te, una città intera o persino un’intera regione. Qualunque fosse la portata, i presenti al tuo arrivo giunsero a credere che l’eclissi fosse un presagio di sventura e che tu ne fossi l’araldo. Sei cresciuto ben consapevole che gli altri ti vedevano come un figlio della malasorte e, in una certa misura, avevano ragione.@@Scegli due incrementi di caratteristica. Uno deve essere a Carisma o Costituzione, e uno è un incremento libero.@@Decidi insieme al GM quale evento catastrofico ha coinciso con la tua nascita; sei addestrato in un’abilità di Conoscenze legata a quell’evento. Puoi lanciare presagio infausto come incantesimo innato occulto una volta al giorno. Dopo aver Lanciato questo Incantesimo, ma prima di riottenere la capacità di lanciarlo il giorno successivo, il GM può costringerti a ritirare un tiro salvezza, un tiro per colpire o una prova di abilità riuscita, mentre la sfortuna trova la via del ritorno verso di te. Questo è un effetto di sfortuna. Se questo effetto ti fa fallire la prova associata, puoi lanciare presagio infausto una seconda volta nello stesso giorno.",
+        "Boost": "Carisma o costituzione, libero",
+        "Skill": "conoscenze(evento catastrofico)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Contatto con Eidolon",
+        "Desc": "Sei entrato in contatto con un essere disincarnato di essenza magica noto come eidolon. Potresti aver forgiato un potente tramite con quell’eidolon, permettendoti di manifestarlo come evocatore, ma è molto più probabile che il contatto si sia perso col tempo, anche se non prima di aver appreso alcuni segreti solo a metà ricordati. Se hai perso il contatto, potresti essere diventato un avventuriero per cercare di raggiungere di nuovo l’eidolon o per assicurarti di essertene liberato per sempre.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Carisma, e uno è un incremento libero.@@Sei addestrato in Arcano, Natura, Occultismo o Religione (a tua scelta) e in un’abilità di Conoscenze legata alla creatura associata all’eidolon con cui sei entrato in contatto (come Conoscenze degli Angeli o Conoscenze dei Draghi). Ottieni il talento di abilità Conoscenza dubiosa.",
+        "Boost": "Costituzione o carisma, libero",
+        "Skill": "Arcano o natura o occultismo o religione, conoscenze(creatura dell’eidolon)",
+        "Talento": "Conoscenza dubiosa",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Infuso Elementale",
+        "Desc": "Sei stato esposto a una potente ondata di essenza elementale proveniente direttamente da un piano elementale, molto probabilmente a causa di una frattura planare. Il tuo corpo ha assorbito l’essenza elementale senza effetti negativi e ora essa si è condensata dentro di te. Con il tempo, hai imparato a proiettare il potere elementale in un modo sicuro per te ma comunque letale per gli altri.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Carisma, e uno è un incremento libero.@@Scegli un piano elementale: Aria, Terra, Fuoco, Metallo, Acqua o Legno. Sei addestrato nella corrispondente abilità di Conoscenze: Conoscenze (Piano dell’Aria), Conoscenze (Piano della Terra), Conoscenze (Piano del Fuoco), Conoscenze (Piano del Metallo), Conoscenze (Piano dell’Acqua) o Conoscenze (Piano del Legno). Ottieni inoltre un trucchetto in base al piano scelto: Aria: raffica d’aria; Terra: ghiaia dispersa; Fuoco: innesco; Metallo: dardi d’ago; Acqua: getto d’acqua; Legno: lettura delle radici. Puoi lanciare questo incantesimo come incantesimo innato primordiale a volontà.",
+        "Boost": "Costituzione o carisma, libero",
+        "Skill": "conoscenze(piano elementale)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Emissario",
+        "Desc": "Come diplomatico o messaggero, hai viaggiato in terre lontane e diverse. Comunicare con nuove persone e stringere alleanze era il tuo pane quotidiano.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Società e in un’abilità di Conoscenze legata a una città che hai visitato spesso. Ottieni il talento di abilità Poliglotto.",
+        "Boost": "Intelligenza o carisma, libero",
+        "Skill": "Società, conoscenze(città)",
+        "Talento": "Poliglotto",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Sussurri del Vuoto",
+        "Desc": "Un tempo conoscevi qualcuno, e ora conosci solo una vita ricucita e guarita, senza nemmeno una cicatrice rimasta. Senti le voci di anime cadute tra le crepe della realtà, creature rimosse dalla memoria, entità planari bandite e simili. I loro sussurri ti guidano.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Occultismo e nell’abilità di Conoscenze (fratture planari). Puoi effettuare prove di Conoscenze (fratture planari) per percepire fratture planari anche se non stai specificamente Investigando o Cercando, così come luoghi in cui la magia è stata usata per rimuovere dalla memoria l’esistenza di un oggetto o di una creatura.",
+        "Boost": "Intelligenza o saggezza, libero",
+        "Skill": "Occultismo, conoscenze(fratture planari)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Segnato dall’Energia",
+        "Desc": "L’esposizione a un evento magico significativo ti ha sovraccaricato di energia magica. Forse sei stato esposto a livelli pericolosi di energia che ti hanno lasciato in fin di vita, oppure l’energia si è accumulata a causa di una lunga esposizione a una potente fonte di magia.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione e uno è un incremento libero.@@Il tuo tratto magico innato è primordiale. Scegli acido, freddo, elettricità, fuoco, forza, negativo, positivo o sonoro. Sei addestrato in un’abilità di Conoscenze associata all’energia scelta (come Conoscenze del Fuoco) e ottieni resistenza a quel tipo di energia pari a metà del tuo livello (minimo 1).",
+        "Boost": "Costituzione, libero",
+        "Skill": "conoscenze(energia)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Intrattenitore",
+        "Desc": "Attraverso un’educazione nelle arti o una pratica ostinata, hai imparato a intrattenere le folle. Potresti essere stato un attore, un danzatore, un musicista, un illusionista da strada o qualsiasi altro tipo di artista.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Esibizione e nell’abilità di Conoscenze (teatro). Ottieni il talento di abilità Esibizione Affascinante.",
+        "Boost": "Destrezza o carisma, libero",
+        "Skill": "Esibizione, conoscenze(teatro)",
+        "Talento": "Esibizione affascinante",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Falso Medium",
+        "Desc": "Esistono persone in questo mondo capaci di squarciare il velo tra il regno dei vivi e quello dei morti, comunicando con gli spiriti. Tu… non sei una di loro. Tuttavia conosci abbastanza di occultismo, lettura a freddo e pratiche delle religioni locali da truffare la gente e alleggerire le loro borse. A differenza di un semplice ciarlatano, dietro i tuoi imbrogli c’è una certa metodologia occulta autentica, anche se questo è di scarso conforto per chi raggiri. Che tu abbia deciso di intraprendere una via più retta, sia stato colto sul fatto e abbia promesso di rimediare, o continui ancora a infilare qualche “seduta spiritica” tra un’avventura e l’altra, hai adottato uno stile di vita avventuroso spostandoti di luogo in luogo.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Occultismo e nell’abilità di Conoscenze (divinazione del futuro). Ottieni il talento di abilità Culto Ingannatore.",
+        "Boost": "Intelligenza o carisma, libero",
+        "Skill": "Occultismo, conoscenze(divinazione del futuro)",
+        "Talento": "Culto ingannatore",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Bracciante Agricolo",
+        "Desc": "Con una schiena forte e la conoscenza dei cicli stagionali, hai arato la terra e curato i raccolti. La tua fattoria potrebbe essere stata rasa al suolo dagli invasori, potresti aver perso la famiglia che ti legava a quella terra o potresti esserti semplicemente stancato della fatica, ma a un certo punto sei diventato un avventuriero.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Atletica e nell’abilità di Conoscenze (agricoltura). Ottieni il talento di abilità Sicurezza con Atletica.",
+        "Boost": "Costituzione o saggezza, libero",
+        "Skill": "Atletica, conoscenze(agricoltura)",
+        "Talento": "Sicurezza",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Colono",
+        "Desc": "Hai costruito la tua casa usando il legno degli alberi circostanti, l’hai sollevata dalla terra e l’hai chiamata casa. Pensavi che sarebbe stato il luogo in cui saresti invecchiato e morto. Ma, nonostante i tuoi sforzi, ti sbagliavi. La terra che un tempo ti nutriva è diventata sterile, la polvere ha invaso l’aria e soffocato il bestiame. Ora vaghi per il mondo come avventuriero. Stai cercando un nuovo luogo in cui stabilirti e riprovare, o sei rimasto disilluso dai tuoi vecchi sogni, spinto a cercare un nuovo scopo?@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Sopravvivenza e nell’abilità di Conoscenze (agricoltura). Ottieni il talento di abilità Raccoglitore.",
+        "Boost": "Costituzione o saggezza, libero",
+        "Skill": "Sopravvivenza, conoscenze(agricoltura)",
+        "Talento": "Raccoglitore",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Rivale del Destino",
+        "Desc": "Sei legato a un’altra persona o creatura da un rapporto di rivalità. Un tempo potreste essere stati vicini, prima che tutto andasse storto, oppure potrebbero averti cambiato la vita in modo drastico in un momento cruciale. Forse siete misticamente legati dal filo rosso del destino, o forse il vostro scontro era stato predetto dagli oracoli di Po Li. Qualunque sia la verità, il destino o la tua stessa volontà ti spingono ad andare avanti per affrontarli ancora una volta.@@Tu e il GM decidete chi è il tuo rivale e come si inserisce nella tua storia. Diventi addestrato in due abilità di Conoscenze legate al tuo rivale, scelte insieme al GM.@@Ottieni due incrementi di caratteristica liberi; tu ne scegli uno e il GM sceglie l’altro per completare il tuo rivale. Finché non ti trovi in presenza del tuo rivale, ottieni il talento generale Tenace e un bonus di circostanza +1 ai tiri salvezza contro la condizione condannato. Quando sei in presenza del tuo rivale, perdi questi benefici ma ottieni un bonus di circostanza +1 ai tiri per colpire e ai danni. Se il tuo rivale diventa tuo alleato o membro del tuo gruppo, ottieni nuovamente i benefici di Tenace e del bonus ai tiri salvezza finché ciò rimane vero.",
+        "Boost": "libero, libero",
+        "Skill": "conoscenze(rivale), conoscenze(rivale)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Favorito",
+        "Desc": "Sei un artista o intrattenitore elegante e addestrato per l’élite della società. Potresti essere un artigiano esperto, un maestro della scena, un ospite o accompagnatore molto richiesto, una promessa politica emergente o una cortigiana alla moda, ma hai attirato l’attenzione di un potente patrono politico. Che sia stata la pressione della tua professione o le aspettative del tuo patrono, qualunque cosa ti abbia spinto ad abbandonare la tua vita attuale per quella caotica dell’avventuriero doveva essere abbastanza forte da spezzare la tradizione.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.@@Sei addestrato in Diplomazia, Esibizione o Società. Sei inoltre addestrato in un’abilità di Conoscenze a tua scelta. Ottieni la reazione Fare il Nome. A discrezione del GM, puoi chiedere al tuo patrono ulteriore assistenza e favori, come supporto economico o politico. Devi mantenere il favore del tuo patrono per non perdere i benefici; cosa ciò comporti è deciso tra te e il GM, ma di solito implica non parlare o agire pubblicamente contro i desideri del patrono. Se offendi il tuo patrono, perdi Fare il Nome finché non ti riconcili con lui.###{\"nome\": \"Fare il Nome\", \"tipoAzz\": \"reazione\", \"tratti\": [\"uditorio\", \"fortuna\"], \"dettagli\": {\"Frequenza\": \"una volta al giorno\", \"Trigger\": \"Fallisci o fallisci criticamente una prova di Inganno, Diplomazia, Intimidazione o Società\"}, \"desc\": \"Ritira la prova di abilità che ha innescato questa reazione. Devi usare il secondo risultato, anche se è peggiore.\"}###",
+        "Boost": "Intelligenza o carisma, libero",
+        "Skill": "Diplomazia o esibizione o società, conoscenze(a scelta)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Figlio Selvaggio",
+        "Desc": "Hai trascorso la tua giovinezza nelle terre selvagge, vivendo a stretto contatto con gli animali o forse persino crescendo tra di loro. Hai un legame mistico e profondo con queste creature e ne hai tratto alcune capacità, anche se questo ha limitato il tuo sviluppo nelle attività mentali più articolate.@@Scegli un incremento di caratteristica. Deve essere a Forza, Destrezza o Costituzione.@@Sei addestrato nelle abilità Natura e Sopravvivenza. Ottieni visione crepuscolare (o scurovisione se avevi già visione crepuscolare), olfatto impreciso con portata di 9 m e il talento di abilità Raccoglitore.",
+        "Boost": "Forza o destrezza o costituzione",
+        "Skill": "Natura, sopravvivenza",
+        "Talento": "Raccoglitore",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Vincolato alle Fate",
+        "Desc": "Hai trascorso del tempo nel Primo Mondo o in un altro reame delle fate e non sei più esattamente la stessa persona di prima. Forse hai fatto un acquisto nel leggendario Mercato delle Streghe o ti sei abbandonato ai cibi e ai vini fatati. In ogni caso, volontariamente o meno, hai stretto un patto con le fate, i cui benefici hanno un prezzo.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità di Conoscenze (fate) e ottieni l’azione gratuita Fortuna delle Fate. Ottieni inoltre un anatema come parte del tuo patto con le fate. Se violi questo anatema, perdi Fortuna delle Fate finché non ricevi gli effetti di un rituale di espiazione riuscito usando l’abilità Natura. L’anatema esatto è deciso da te e dal GM, ma il requisito più comune è che tu debba soddisfare una singola richiesta di qualsiasi fata che conosca il tuo nome.###{\"nome\": \"Fortuna delle Fate\", \"tipoAzz\": \"azioneGratis\", \"tratti\": [\"concentrazione\", \"fortuna\"], \"dettagli\": {\"Frequenza\": \"una volta al giorno\", \"Trigger\": \"Stai per tentare una prova di abilità e non hai ancora tirato\"}, \"desc\": \"Tiri due volte la prova di abilità che ha innescato questa azione e usi il risultato migliore.\"}###",
+        "Boost": "Destrezza o carisma, libero",
+        "Skill": "conoscenze(fate)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Medico da Campo",
+        "Desc": "Nel caos della battaglia hai imparato ad adattarti a condizioni in rapido mutamento mentre prestavi soccorso ai feriti. Hai curato soldati, guardie o altri combattenti e appreso parecchio sulla logistica della guerra.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Medicina e nell’abilità di Conoscenze (guerra). Ottieni il talento di abilità Medicina da Battaglia.",
+        "Boost": "Costituzione o saggezza, libero",
+        "Skill": "Medicina, conoscenze(guerra)",
+        "Talento": "Medicina da battaglia",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Spezzarisse",
+        "Desc": "Hai un talento naturale nel percepire tensioni latenti e calmare animi esasperati. Ti affidi all’intuizione per capire come e quando la violenza sia imminente e alle tue capacità, diplomatiche e non solo, per disinnescare situazioni tese. Potresti aver scelto la vita dell’avventuriero per affrontare conflitti nuovi e sconosciuti, oppure potresti stare fuggendo da ritorsioni di coloro che prosperano nella violenza e detestano la tua capacità di mantenere la pace.@@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Diplomazia e in un’abilità di Conoscenze legata alla città o all’insediamento in cui vivevi quando sei diventato uno spezzarisse. Ottieni il talento di abilità Coercizione di Gruppo.",
+        "Boost": "Saggezza o carisma, libero",
+        "Skill": "Diplomazia, conoscenze(città o insediamento)",
+        "Talento": "Coercizione di Gruppo",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Guardiano del Fuoco",
+        "Desc": "Che tu abbia combattuto incendi nelle terre selvagge o nelle affollate strade cittadine, hai avuto a che fare a lungo con fiamme fuori controllo. Affrontando fumo denso e fumi tossici, hai abbattuto ostacoli per salvare persone intrappolate da una morte ardente e hai studiato la natura e l’origine del fuoco stesso per imparare a contrastarlo meglio.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Costituzione, e uno è un incremento libero.@@Sei addestrato nell’abilità Atletica e nell’abilità di Conoscenze (Piano del Fuoco). Ottieni il talento di abilità Controllo del Respiro.",
+        "Boost": "Forza o costituzione, libero",
+        "Skill": "Atletica, conoscenze(piano del fuoco)",
+        "Talento": "Controllo del respiro",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Seguace dei Firebrand",
+        "Desc": "Un tempo sei stato salvato o liberato da una situazione disperata da un gruppo di Firebrand e da allora aspiri a diventare uno di loro per continuare la loro eredità. Segui ancora le notizie delle loro imprese e speri un giorno di incontrare i tuoi eroi come compagni.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Carisma, e uno è un incremento libero.@@Sei addestrato a tua scelta nell’abilità Atletica o Esibizione, oltre che nell’abilità di Conoscenze (Firebrand). Ottieni il talento di abilità Sicurezza con l’abilità scelta.",
+        "Boost": "Forza o carisma, libero",
+        "Skill": "Atletica o esibizione, conoscenze(firebrand)",
+        "Talento": "Sicurezza",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Artista di Fuochi d’Artificio",
+        "Desc": "Poche celebrazioni a Tian-Xia sono complete senza uno spettacolo di fuochi d’artificio, e il tuo compito è assicurarti che tutto vada liscio. Carichi i fuochi, accendi le micce e coreografi l’esibizione, unendo lo spettacolo in un finale di luci ed esplosioni. Poi è il momento di fare i bagagli e passare alla prossima festività civica o festa religiosa. Naturalmente, chi viaggia per le strade con uno zaino pieno di esplosivi ad alto potenziale è destinato a imbattersi in qualche avventura lungo il cammino, e col tempo i tuoi fuochi d’artificio sono stati spesi anche al servizio di quella vita.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Esibizione e nell’abilità di Conoscenze (fuochi d’artificio). Ottieni il talento di abilità Esibizione Affascinante.",
+        "Boost": "Intelligenza o carisma, libero",
+        "Skill": "Esibizione, conoscenze(fuochi d’artificio)",
+        "Talento": "Esibizione affascinante",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Indovino",
+        "Desc": "I fili del destino ti sono chiari, poiché hai appreso molte forme tradizionali con cui la gente comune può divinare il futuro. Potresti aver usato queste capacità per guidare la tua comunità o semplicemente per guadagnare denaro. Tuttavia, anche il più lieve sguardo in queste pratiche ti collega ai misteri occulti dell’universo.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Occultismo e nell’abilità di Conoscenze (divinazione del futuro). Ottieni il talento di abilità Identificazione delle Bizzarrie.",
+        "Boost": "Intelligenza o carisma, libero",
+        "Skill": "Occultismo, conoscenze(divinazione del futuro)",
+        "Talento": "Identificazione delle Bizzarrie",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Spirito Libero",
+        "Desc": "Hai sempre vissuto la tua vita deviando dal sentiero tracciato per te. Come una foglia sospinta dal vento, il tuo viaggio ti porta dove vuole, offrendoti uno stile di vita libero dai vincoli delle aspettative. Anche se potresti avere amici e familiari in città o paesi specifici, hai scelto di non mettere radici per poter andare ovunque e fare qualunque cosa tu desideri.@@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Sopravvivenza e in un’abilità di Conoscenze legata a un insediamento o a un terreno specifico che hai attraversato. Ottieni il talento di abilità Raccoglitore.",
+        "Boost": "Saggezza o carisma, libero",
+        "Skill": "Sopravvivenza, conoscenze(insediamento o terreno)",
+        "Talento": "Raccoglitore",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Giocatore d’Azzardo",
+        "Desc": "Il brivido della vittoria ti ha attirato nei giochi di fortuna. Potrebbe essere stata un’attività redditizia che impallidiva rispetto ai veri rischi dell’avventura, oppure potresti essere caduto in cattive acque a causa del gioco e aver intrapreso l’avventura come via d’uscita da una spirale discendente.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Inganno e nell’abilità di Conoscenze (giochi). Ottieni il talento di abilità Mentire a Me.",
+        "Boost": "Destrezza o carisma, libero",
+        "Skill": "Inganno, conoscenze(giochi)",
+        "Talento": "Mentire a Me",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Benedetto dal Genio",
+        "Desc": "Hai cercato un potente genio e richiesto la sua benedizione, sperando di aumentare la tua fortuna. Il tuo desiderio era vago, ma la sorte e il genio ti hanno favorito con un effetto più potente di un desiderio ordinario, concedendoti frammenti di fortuna distorta dal desiderio per il resto della tua vita. Nel frattempo, altri geni dello stesso tipo ti riconoscono come benedetto da uno dei loro nobili più potenti e potrebbero trattarti con maggiore rispetto o invidia.@@Scegli due incrementi di caratteristica. Uno deve essere a Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Diplomazia e nell’abilità di Conoscenze (geni). Ottieni l’azione gratuita Desiderio di Fortuna.###{\"nome\": \"Desiderio di Fortuna\", \"tipoAzz\": \"azioneGratis\", \"tratti\": [\"arcano\", \"uditorio\", \"divinazione\", \"fortuna\"], \"dettagli\": {\"Frequenza\": \"una volta al giorno\", \"Trigger\": \"Stai per effettuare un tiro per colpire, un tiro salvezza o una prova di abilità\"}, \"desc\": \"Esprimi ad alta voce un desiderio di successo. Tira due volte la prova che ha innescato questa azione e usa il risultato migliore.\"}###",
+        "Boost": "Carisma, libero",
+        "Skill": "Diplomazia, conoscenze(geni)",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Gladiatore",
+        "Desc": "I giochi sanguinosi dell’arena ti hanno insegnato l’arte del combattimento. Prima di raggiungere la vera fama, hai lasciato o sei fuggito dall’arena per esplorare il mondo. La tua abilità nel versare sangue e attirare l’attenzione della folla trova nuova utilità nella vita dell’avventuriero.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Esibizione e nell’abilità di Conoscenze (gladiatori). Ottieni il talento di abilità Esibizione Impressionante.",
+        "Boost": "Forza o carisma, libero",
+        "Skill": "Esibizione, conoscenze(gladiatori)",
+        "Talento": "Esibizione Impressionante",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Mercante d’Armi Mano d’Oro",
+        "Desc": "Sei un agente nano della Loggia Mano d’Oro, un consorzio di mercanti nani con sede a Dongun Hold che mira a vendere armi da fuoco in lungo e in largo. L’Alto Re Anong Arunak non ha ancora espresso approvazione per questo metodo di distribuzione, ma nel frattempo continui a viaggiare, promuovendo le tue merci e offrendo occasionalmente dimostrazioni viscerali dell’enorme potere d’arresto delle tue armi. Queste dimostrazioni e vendite ti hanno dato un assaggio dell’avventura, e la costante minaccia della pirateria ti ha convinto dell’importanza di avventurarti in gruppo.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Diplomazia e nell’abilità di Conoscenze (mercatura). Ottieni il talento di abilità Coercizione di Gruppo.",
+        "Boost": "Destrezza o carisma, libero",
+        "Skill": "Diplomazia, conoscenze(mercatura)",
+        "Talento": "Coercizione di Gruppo",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Pettegolo",
+        "Desc": "Tutti hanno una zia impicciona, uno zio chiacchierone o un parente amante dei pettegolezzi. Proprio come loro, non ti dispiace il brusio del passaparola eterno. Che tu vada attivamente in cerca di voci o che ti trovi semplicemente nel posto giusto al momento giusto, hai sentito racconti di grandi imprese lontano dalle comodità di casa. Le notizie viaggiano, e dovresti farlo anche tu: perché non provare la vita dell’avventuriero?@@Scegli due incrementi di caratteristica. Uno deve essere a Carisma o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Diplomazia e in un’abilità di Conoscenze a tua scelta. Ottieni il talento di abilità Chiacchierone.",
+        "Boost": "Carisma o intelligenza, libero",
+        "Skill": "Diplomazia, conoscenze(a scelta)",
+        "Talento": "Chiacchierone",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Profanatore di Tombe",
+        "Desc": "Resurrezionista. Trafugatore di cadaveri. Qualunque sia il nome con cui ti chiamano, sai dove sono sepolti i corpi e quante monete frutteranno una volta dissotterrati. L’avventura ti viene naturale: nella tua mente i dungeon non sono altro che tombe sovradimensionate, così come il tornare a casa con il bottino senza farsi notare.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Destrezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Furtività e nell’abilità di Conoscenze (malavita). Ottieni il talento di abilità Contrabbandiere Esperto.",
+        "Boost": "Forza o destrezza, libero",
+        "Skill": "Furtività, conoscenze(malavita)",
+        "Talento": "Contrabbandiere esperto",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Guardia",
+        "Desc": "Hai servito nella guardia, per patriottismo o per bisogno di denaro. In ogni caso, sai come far parlare un sospetto difficile. Qualunque sia stato il motivo per cui hai lasciato la guardia, potresti vedere l’avventura come un modo per usare le tue capacità su una scala più ampia.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Intimidazione e nell’abilità di Conoscenze (legge) o Conoscenze (guerra). Ottieni il talento di abilità Coercizione Rapida.",
+        "Boost": "Forza o carisma, libero",
+        "Skill": "Intimidazione, conoscenze(legge o guerra)",
+        "Talento": "Coercizione rapida",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Armaiolo",
+        "Desc": "Fin da giovane sei stato apprendista di un armaiolo esperto e col tempo la tua abilità e conoscenza sono cresciute fino a eguagliare quelle del tuo maestro. Oggi puoi riparare, modificare o migliorare facilmente quasi ogni arma da fuoco che tu abbia visto e, anche se non l’hai mai incontrata prima, riesci a smontarla e capirne il funzionamento in breve tempo. Hai portato queste capacità in viaggio, usandole per aiutare te stesso e i tuoi alleati come avventuriero nella manutenzione di armi, scudi, armature e altro ancora.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di Conoscenze (ingegneria). Ottieni il talento di abilità Riparazione Rapida.",
+        "Boost": "Destrezza o intelligenza, libero",
+        "Skill": "Artigianato, conoscenze(ingegneria)",
+        "Talento": "Riparazione rapida",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Prescelto dall’Harrow",
+        "Desc": "A tua insaputa, una potente divinazione ha confermato che sei destinato alla grandezza. Questa divinazione allude a un grande potenziale che stai solo iniziando a comprendere.@@Scegli una carta dal mazzo dell’harrow e annotane il seme e l’allineamento. Il seme è collegato a una specifica caratteristica: martelli (Forza), chiavi (Destrezza), scudi (Costituzione), libri (Intelligenza), stelle (Saggezza), corone (Carisma).@@Scegli due incrementi di caratteristica. Uno deve essere alla caratteristica legata al seme della tua carta e uno è un incremento libero.@@Ottieni la capacità di lanciare un trucchetto occulto comune a tua scelta come incantesimo innato a volontà. Il trucchetto è intensificato a un livello di incantesimo pari a metà del tuo livello, arrotondato per eccesso. Quando lanci il trucchetto, puoi potenziarlo come azione gratuita, attingendo al potere dell’harrow e pescando una carta dal mazzo come parte delle azioni per Lanciare l’Incantesimo. Il beneficio dipende dall’allineamento della carta pescata:@@Corrispondenza totale: ottieni un bonus di circostanza +1 a un tiro salvezza a tua scelta (Tempra, Riflessi o Volontà) per 1 minuto.@Corrispondenza parziale: ottieni resistenza a un tipo di energia (acido, freddo, elettricità, fuoco o sonoro) pari al tuo livello per 1 minuto.@Nessuna corrispondenza: ottieni Punti Ferita temporanei pari al doppio del tuo livello per 1 minuto.@Allineamento opposto: ottieni un bonus di circostanza di 1.5 m alle tue Velocità per 1 minuto.@@Se potenzi il trucchetto in questo modo, non puoi lanciarlo di nuovo fino alle tue prossime preparazioni giornaliere.",
+        "Boost": "caratteristica del seme o libero",
+        "Skill": "",
+        "Talento": "",
+        "Mostrare": true
+    },
+    {
+        "Nome": "Guidato dall’Harrow",
+        "Desc": "Sei stato oggetto di una lettura dell’harrow in un momento cruciale della tua vita, come un compleanno importante o il raggiungimento dell’età adulta. La lettura è stata inquietantemente accurata e si è rivelata rilevante, nel bene o nel male, in più momenti di quanti tu possa liquidare come semplice coincidenza.@@Determina casualmente due semi dell’harrow legati al tuo personaggio, ciascuno riflesso di una specifica caratteristica. Puoi farlo pescando carte da un mazzo dell’harrow o tirando 1d6: 1 martelli (Forza), 2 chiavi (Destrezza), 3 scudi (Costituzione), 4 libri (Intelligenza), 5 stelle (Saggezza), 6 corone (Carisma). Il primo seme è la tua caratteristica allineata, il secondo è la tua caratteristica disallineata.@@Scegli due incrementi di caratteristica. Uno deve essere alla tua caratteristica allineata o disallineata e uno è un incremento libero.@@Sei addestrato a tua scelta in Occultismo, Esibizione o Società e nell’abilità di Conoscenze (harrow). Ottieni il talento di abilità Conoscenza dubiosa.",
+        "Boost": "caratteristica allineata o disallineata, libero",
+        "Skill": "Occultismo o esibizione o società, conoscenze(harrow)",
+        "Talento": "Conoscenza dubiosa",
+        "Mostrare": true
+    },
+    {
+  "Nome": "Infestato",
+  "Desc": "Sei seguito da uno spirito o da un’entità, fin dall’infanzia o da un evento cruciale. Tu e altri potreste aver visto questa entità. Hai studiato argomenti esoterici per cercare di comprendere la tua situazione, ma questa presenza nella tua vita resta un mistero. Qualunque cosa sia o desideri, influenza la tua vita in modi sottili e non sempre benefici. A volte l’entità ti aiuta, altre volte la sua influenza è malevola o dannosa. È più probabile che si manifesti in situazioni di forte stress.@@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.@@Sei addestrato in Occultismo e in un’abilità aggiuntiva in cui l’entità infestante è esperta, determinata dal GM. Ogni volta che tenti una prova di abilità con l’abilità dell’entità, il GM può offrirti un bonus di circostanza +1 alla prova, come se l’entità ti stesse Aiutando. Se accetti ma fallisci la prova, diventi spaventato 2 (spaventato 4 con un fallimento critico). Il valore iniziale di spaventato non può essere ridotto da effetti che ridurrebbero o prevenirebbero la condizione.",
+  "Boost": "Saggezza o carisma, libero",
+  "Skill": "Occultismo, un’abilità a scelta del GM",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Cittadino Infestato",
+  "Desc": "Sei cresciuto in una regione in cui i non morti si annidano ovunque. Potrebbe trattarsi di un dominio piccolo come il feudo di un vampiro o vasto come l’intera nazione di Ustalav. Come preoccupazione costante, i non morti hanno profondamente plasmato la tua vita. Vivere nella paura è diventata un’abilità quotidiana… così come implorare per la tua vita.@@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Diplomazia e in un’abilità di Conoscenze relativa al tuo insediamento natale. Ottieni il talento di abilità Nessun Motivo di Allarme.",
+  "Boost": "Saggezza o carisma, libero",
+  "Skill": "Diplomazia, conoscenze(insediamento natale)",
+  "Talento": "Nessun Motivo di Allarme",
+  "Mostrare": true
+},
+{
+  "Nome": "Erborista",
+  "Desc": "Come speziale formalmente addestrato o praticante rurale di medicina popolare, hai imparato le proprietà curative di varie erbe. Sei abile nel raccogliere i rimedi naturali appropriati in ogni tipo di ambiente e nel prepararli correttamente.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Natura e nell’abilità di Conoscenze (erboristeria). Ottieni il talento di abilità Medicina Naturale.",
+  "Boost": "Costituzione o saggezza, libero",
+  "Skill": "Natura, conoscenze(erboristeria)",
+  "Talento": "Medicina Naturale",
+  "Mostrare": true
+},
+{
+  "Nome": "Eremita",
+  "Desc": "In un luogo isolato, come una caverna, un’oasi remota o una dimora appartata, hai vissuto una vita di solitudine. L’avventura potrebbe rappresentare la tua prima uscita tra le altre persone dopo molto tempo. Potrebbe essere un gradito sollievo dalla solitudine o un cambiamento indesiderato, ma in entrambi i casi sei probabilmente ancora un po’ ruvido.@@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Intelligenza, e uno è un incremento libero.@@Sei addestrato a tua scelta in Natura o Occultismo, oltre che in un’abilità di Conoscenze legata al terreno in cui hai vissuto come eremita (come conoscenze(caverne) o conoscenze(deserto)). Ottieni il talento di abilità Conoscenza Dubiosa.",
+  "Boost": "Costituzione o intelligenza, libero",
+  "Skill": "Natura o occultismo, conoscenze(terreno)",
+  "Talento": "Conoscenza Dubiosa",
+  "Mostrare": true
+},
+{
+  "Nome": "Ficcanaso dell’Alta Società",
+  "Desc": "Le macchinazioni e gli intrighi della Corona del Re ti hanno addestrato a fare attenzione a chi sembra fuori posto. Hai imparato a notare quando la persona che ti versa il tè ha calli da spada, o quando chi indossa un’uniforme da guardia non lo è davvero.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Società e nell’abilità di Conoscenze (gilda). Ottieni il talento di abilità Grazie di Corte.",
+  "Boost": "Destrezza o intelligenza, libero",
+  "Skill": "Società, conoscenze(gilda)",
+  "Talento": "Grazie di Corte",
+  "Mostrare": true
+},
+{
+  "Nome": "Sicario",
+  "Desc": "La tua vita è davvero iniziata dopo la tua prima uccisione. Forse è stato per legittima difesa, forse un delitto passionale, o forse solo un incidente, quando eri un ragazzo nel posto sbagliato al momento sbagliato. Alla fine, il perché non conta. Te la sei cavata. E poi hai scoperto che forse non ti turbava quanto avrebbe dovuto. E forse, solo forse, avevi un talento che potevi usare per costruirti una vita. Un talento intriso di sangue e una vita intrisa di sangue, certo. Ma è la tua.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Destrezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Furtività e nell’abilità di Conoscenze (malavita). Ottieni il talento di abilità Predatore del Terreno, scegliendo un terreno appropriato ai luoghi in cui compi i tuoi omicidi.",
+  "Boost": "Forza o destrezza, libero",
+  "Skill": "Furtività, conoscenze(malavita)",
+  "Talento": "Predatore del Terreno",
+  "Mostrare": true
+},
+{
+  "Nome": "Scavatore Artiglio-Uncinato",
+  "Desc": "++Prerequisiti++ ascendenza kobold@Sei uno scavatore della tribù kobold Artiglio-Uncinato, nato sotto le strade di Absalom, con muscoli e mente temprati da anni passati a scavare nella roccia e nella terra e una sicurezza costruita sull’orgoglio per la tua eredità draconica.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato, nell’abilità di Conoscenze (miniere) e nell’abilità di Conoscenze (ingegneria). Ottieni il talento di abilità Strumento improvvisato.",
+  "Boost": "Forza o carisma, libero",
+  "Skill": "Artigianato, conoscenze(miniere), conoscenze(ingegneria)",
+  "Talento": "Strumento improvvisato",
+  "Mostrare": true
+},
+{
+  "Nome": "Ladro Braccato",
+  "Desc": "Tempo fa hai rubato un oggetto unico a un individuo misterioso. Potrebbe essere stato un pezzo di meccanismo a orologeria proveniente da una terra lontana o un’altra strana tecnologia. Potresti averlo ancora o averlo venduto, ma in ogni caso non riesci a scrollarti di dosso la sensazione di essere seguito e osservato, probabilmente da forze che vogliono recuperare ciò che hai preso. Per fortuna, la vita da avventuriero ti mantiene sempre in movimento.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Furto e nell’abilità di Conoscenze (malavita). Ottieni il talento di abilità Borseggiatore.",
+  "Boost": "Destrezza o saggezza, libero",
+  "Skill": "Furto, conoscenze(malavita)",
+  "Talento": "Borseggiatore",
+  "Mostrare": true
+},
+{
+  "Nome": "Cacciatore",
+  "Desc": "Hai braccato e abbattuto animali e altre creature selvatiche. Scuoiare le prede, ricavarne la carne e cucinarla facevano parte del tuo addestramento, e tutto ciò può fornirti risorse utili durante le avventure.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Sopravvivenza e nell’abilità di Conoscenze (concia). Ottieni il talento di abilità Osservazione della Fauna.",
+  "Boost": "Destrezza o saggezza, libero",
+  "Skill": "Sopravvivenza, conoscenze(concia)",
+  "Talento": "Osservazione della Fauna",
+  "Mostrare": true
+},
+{
+  "Nome": "Insorto",
+  "Desc": "Non eri solo un ribelle: eri un rivoluzionario, che combatteva per la promessa di una nazione nuova o migliore. Potresti credere ancora nella causa, oppure la vittoria o l’esilio potrebbero averti condotto su questo nuovo cammino per proclamare la tua gloria… o per sfuggire alle conseguenze della sconfitta.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Inganno e nell’abilità di Conoscenze (guerra). Ottieni il talento di abilità Diversione Prolungata.",
+  "Boost": "Forza o saggezza, libero",
+  "Skill": "Inganno, conoscenze(guerra)",
+  "Talento": "Diversione Prolungata",
+  "Mostrare": true
+},
+{
+  "Nome": "Gioielliere",
+  "Desc": "Come artigiano di professione, i tuoi materiali prediletti sono metalli e pietre preziose. Sei un gioielliere addestrato con occhio per la struttura e la bellezza. I tuoi progetti riflettono la tua creatività e anni di addestramento. Forse hai perfezionato il mestiere con tentativi ed errori, o forse ti è stato tramandato dalla famiglia. In ogni caso, hai scelto la vita dell’avventuriero.@@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di Conoscenze (gemme). Ottieni il talento di abilità Valutazione dell'Artigiano.",
+  "Boost": "Saggezza o intelligenza, libero",
+  "Skill": "Artigianato, conoscenze(gemme)",
+  "Talento": "Valutazione dell'Artigiano",
+  "Mostrare": true
+},
+{
+  "Nome": "Raccoglitore di Rottami",
+  "Desc": "Vivi secondo il detto che l’immondizia di qualcuno è il tesoro di un altro. Che tu setacci cumuli di rottami o dissotterri vecchi campi di battaglia, sei sempre alla ricerca di oggetti persi o scartati che potresti trasformare in qualcosa di utile. Più spesso che no, ciò che trovi è solo spazzatura… ma sei convinto che un giorno farai il colpo grosso. Hai persino intrapreso la vita da avventuriero per ampliare l’accesso a ogni sorta di rottame, equipaggiamento e bottino.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di Conoscenze (ingegneria) o Conoscenze (miniere). Ottieni il talento di abilità Valutazione dell'Artigiano.",
+  "Boost": "Destrezza o intelligenza, libero",
+  "Skill": "Artigianato, conoscenze(ingegneria) o conoscenze(miniere)",
+  "Talento": "Valutazione dell'Artigiano",
+  "Mostrare": true
+},
+{
+  "Nome": "Rottamaio",
+  "Desc": "Vivi ai margini della civiltà, rovistando tra i detriti lasciati indietro in cerca di gingilli interessanti da vendere o usare nelle tue creazioni. Sebbene tu abbia un terreno preferito in cui cercare, sai che i tesori più grandi emergono dove le persone fanno un uso maggiore della tecnologia.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Atletica e in un’abilità di Conoscenze relativa al terreno in cui recuperi rottami. Ottieni il talento di abilità Portatore Robusto.",
+  "Boost": "Forza o saggezza, libero",
+  "Skill": "Atletica, conoscenze(terreno)",
+  "Talento": "Portatore Robusto",
+  "Mostrare": true
+},
+{
+  "Nome": "Cacciatore di Kaiju",
+  "Desc": "Le terre di Tian Xia possono essere pericolose quanto sono belle e, come ogni terra, richiedono cacciatori. La preda di un cacciatore normale varia per dimensioni, con le più letali dotate di zanne velenose o morsi feroci. Un cacciatore di mostri deve essere pronto ad affrontare mali e terrori più soprannaturali. Come cacciatore di kaiju, ti avventuri nel Muro del Cielo, nella Giungla di Valashmai o in altre terre dove le ricompense sono immensamente più grandi. Una singola scaglia o piuma è il tuo trofeo più grandioso: la sopravvivenza della tua comunità è il tuo premio finale.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Destrezza, e uno è un incremento libero.@@Sei addestrato in Atletica e ottieni un talento di abilità di Atletica a tua scelta, più adatto allo stile di caccia che preferisci.@@Sei addestrato in Conoscenze (kaiju). Quando effettui una prova di Richiamare Conoscenze usando Conoscenze (kaiju) e hai in vista un oggetto che appartiene al kaiju su cui stai tentando la prova, ottieni un bonus di circostanza +1 alla prova di abilità. L’oggetto può variare da una scaglia a del muco, un’impronta o beni creati o ricavati.",
+  "Boost": "Forza o destrezza, libero",
+  "Skill": "Atletica, conoscenze(kaiju)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Manovale",
+  "Desc": "Hai trascorso anni svolgendo lavori fisici estenuanti. È stata una vita dura, ma in qualche modo sei sopravvissuto. Potresti aver abbracciato l’avventura come un modo più semplice per farti strada nel mondo, oppure potresti avventurarti agli ordini di qualcun altro.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Costituzione, e uno è un incremento libero.@@Sei addestrato nell’abilità Atletica e nell’abilità di Conoscenze (lavoro). Ottieni il talento di abilità Portatore Robusto.",
+  "Boost": "Forza o costituzione, libero",
+  "Skill": "Atletica, conoscenze(lavoro)",
+  "Talento": "Portatore Robusto",
+  "Mostrare": true
+},
+{
+  "Nome": "Eredità del Martello",
+  "Desc": "Il tuo ingresso nella vita criminale è stato favorito da un martello apparentemente innocuo che ti forniva ogni sorta di idee criminali innovative. Da allora non è più in tuo possesso, ma di tanto in tanto senti un sussurro flebile che ti spinge verso il crimine.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Carisma, e uno è un incremento libero.@@Sei addestrato nell’abilità Furto e nell’abilità di Conoscenze (ingegneria). Ottieni il talento di abilità Prestidigitazione Occultata.",
+  "Boost": "Destrezza o carisma, libero",
+  "Skill": "Furto, conoscenze(ingegneria)",
+  "Talento": "Prestidigitazione Occultata",
+  "Mostrare": true
+},
+{
+  "Nome": "Esperimento Magico",
+  "Desc": "In qualche momento della tua vita, persone potenti hanno condotto su di te esperimenti magici che ti hanno cambiato in modo permanente. Potresti esserti offerto volontariamente, oppure potrebbe essere stato contro la tua volontà. Porti ancora i segni, così come le capacità.@@Scegli un incremento di caratteristica. Deve essere a Costituzione.@@Sei addestrato in Occultismo e nell’abilità di Conoscenze (accademia).@@Ottieni una capacità speciale come risultato della sperimentazione magica. Collabora con il GM per selezionare una capacità appropriata dalla seguente lista o per crearne un’altra:@@Sensi Migliorati: ottieni visione crepuscolare (o scurovisione se avevi già visione crepuscolare) e un senso impreciso con raggio di 9 m, come olfatto, senso dei pensieri, tremorsenso o senso delle onde.@Pelle Resistente: gli esperimenti hanno reso la tua pelle più dura e resiliente a un particolare tipo di danno. Ottieni resistenza pari a metà del tuo livello (minimo 1) contro due dei seguenti tipi di danno da energia, uno scelto da te e uno dal GM: acido, freddo, elettricità, fuoco o sonoro.@Telepatia da Contatto: gli esperimenti hanno permesso al tuo corpo di collegare le menti tramite il contatto. Ottieni telepatia con le creature finché sei in contatto fisico con esse. Questo ti consente di comunicare mentalmente con qualsiasi creatura con cui sei in contatto fisico, purché condividiate una lingua. Non fornisce accesso speciale ai loro pensieri e non comunica più informazioni di quanto farebbe il linguaggio parlato.",
+  "Boost": "Costituzione",
+  "Skill": "Occultismo, conoscenze(accademia)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Mercante Magico",
+  "Desc": "Vendere oggetti magici non è come essere un mercante qualunque. Le merci che compri e vendi sono costose, rendendo ogni vendita rara e redditizia. Hai sviluppato una conoscenza della manifattura esperta per assicurarti di non cadere in truffe, poiché acquistare un singolo oggetto contraffatto può portare alla bancarotta. Che tu sia fallito e abbia dovuto trovare un altro impiego o che tu abbia intrapreso l’avventura per acquisire nuova merce, ora ti sei dedicato tu stesso alla vita da avventuriero.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di Conoscenze (mercantili). Ottieni il talento di abilità Valutazione dell'Artigiano.",
+  "Boost": "Intelligenza o saggezza, libero",
+  "Skill": "Artigianato, conoscenze(mercantili)",
+  "Talento": "Valutazione dell'Artigiano",
+  "Mostrare": true
+},
+{
+  "Nome": "Disadattato Magico",
+  "Desc": "Non capisci chi sostiene che il talento magico sia una sorta di fardello o una grande responsabilità; hai sempre usato la tua magia per causare guai e sfuggire alle conseguenze. Che diventare un avventuriero sia un tentativo di rimediare o solo un nuovo modo di combinare qualche marachella, sei entusiasta di vedere dove ti porterà e continui a divertirti usando le tue capacità per tirarti fuori dai guai.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.",
+  "Boost": "Destrezza o Intelligenza, libero",
+  "Skill": "Arcano, conoscenza(mondo criminale)",
+  "Talento": "Ingannare Oggetto Magico",
+  "Mostrare": true
+},
+{
+  "Nome": "Discepolo Marziale",
+  "Desc": "Ti sei dedicato a un addestramento intenso e a uno studio rigoroso per diventare un grande guerriero. La scuola che hai frequentato potrebbe essere stata un monastero tradizionalista, un’accademia militare d’élite o la sede locale di una prestigiosa organizzazione mercenaria.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Destrezza, e uno è un incremento libero.",
+  "Boost": "Forza o Destrezza, libero",
+  "Skill": "Acrobazia o Atletica, conoscenza(guerra)",
+  "Talento": ["Caduta da gatto", "Salto Rapido", "o"],
+  "Mostrare": true
+},
+{
+  "Nome": "Musicista Marziale",
+  "Desc": "Prima di essere abbastanza grande da unirti alle vere forze combattenti, hai trovato il tuo posto sul campo di battaglia suonando cornamuse, trombe o tamburi. Con questi strumenti di guerra aiutavi a dirigere le truppe in velocità e direzione, fornendo una cadenza pulsante per spingerle avanti e mantenerle motivate.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Carisma, e uno è un incremento libero.",
+  "Boost": "Destrezza o Carisma, libero",
+  "Skill": "Esibizione, conoscenza(guerra)",
+  "Talento": "Esibizione Impressionante",
+  "Mostrare": true
+},
+{
+  "Nome": "Meccanico",
+  "Desc": "I complessi meccanismi interni delle macchine non ti sono estranei. Che si tratti di dispositivi comuni o di complessi congegni a orologeria, sai cosa li fa funzionare e come mantenerli. Un gruppo di avventurieri potrebbe tenerti con sé per riparare il proprio equipaggiamento, oppure potresti viaggiare offrendo i tuoi rari servizi a chi ne ha bisogno—naturalmente a un prezzo!@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Intelligenza, e uno è un incremento libero.",
+  "Boost": "Forza o Intelligenza, libero",
+  "Skill": "Artigianato, conoscenza(ingegneria)",
+  "Talento": "Riparazione Rapida",
+  "Mostrare": true
+},
+{
+  "Nome": "Simbiosi Meccanica",
+  "Desc": "Che tu l’abbia scelta deliberatamente o ti sia stata imposta, un oggetto di bronzo a orologeria si è agganciato a una parte del tuo corpo. Potrebbe aver affondato i suoi aghi in te o aver serrato le sue zampe aracnidi attorno al collo, al torso o al braccio. In questa raccolta di ingranaggi e fili vive un’entità o uno spirito—che altre persone sentano o meno i suoi sussurri dipende da te. L’entità potrebbe essere un antico e terribile essere che ha raso al suolo villaggi con i suoi ospiti, oppure un brillante bambino dagli occhi stellati che capisce a malapena che non fai parte del suo corpo.@Hai studiato e cercato informazioni su queste rare macchine simili a granchi, diventando un esperto nel legare spiriti elementali o anime mortali a oggetti meccanici. Anche se hai diverse teorie su cosa possa essere l’entità simbiotica, non hai risposte definitive—potrebbe essere questo il motivo per cui sei diventato un avventuriero, o forse hai stretto un accordo con qualcuno per fartela rimuovere. L’entità potrebbe parlarti periodicamente, oppure solo quando vuole che tu faccia qualcosa in particolare o quando vi trovate in pericolo. Tu e il GM dovreste decidere le motivazioni dell’entità, o se debbano restare un segreto noto solo al GM.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@Sei addestrato in Arcano e in un’abilità aggiuntiva in cui l’entità a orologeria è particolarmente versata, determinata dal GM. Ogni volta che tenti una prova di abilità per l’abilità dell’entità, il GM può offrirti un bonus di circostanza +1 alla prova, come se l’entità ti stesse Aiutando. Se accetti ma fallisci la prova, l’entità si irrigidisce e sei stordito 1 (stordito 2 in caso di fallimento critico).",
+  "Boost": "Intelligenza o Saggezza, libero",
+  "Skill": "Arcano, un’abilità aggiuntiva determinata dal GM",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Orologiaio Medicinale",
+  "Desc": "Mentre altri vedono l’orologeria come una semplice innovazione meccanica, tu ne scorgi il potenziale per migliorare la salute dei pazienti. Potresti essere un esperto medico da campo che ha usato un costrutto rottamato per aiutare un soldato ferito, oppure un chirurgo d’avanguardia che ha scoperto come sostituire organi con meccanismi a orologeria sia più efficace che ripararli. Forse hai anche lavorato per “ottimizzare” corpi organici con raffinati macchinari, con o senza il permesso dei tuoi pazienti.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Saggezza, libero",
+  "Skill": "Medicina, conoscenza(ingegneria)",
+  "Talento": "Chirurgia Rischiosa",
+  "Mostrare": true
+},
+{
+  "Nome": "Mercante",
+  "Desc": "In una bottega polverosa, in una bancarella di mercato o in una carovana mercantile, barattavi merci in cambio di monete e beni di scambio. Le capacità che hai acquisito si applicano ancora alla vita da avventuriero, in cui un buon affare per un’armatura potrebbe salvarti la vita.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Carisma, libero",
+  "Skill": "Diplomazia, conoscenza(commercio)",
+  "Talento": "Cacciatore di Offerte",
+  "Mostrare": true
+},
+{
+  "Nome": "Minatore",
+  "Desc": "Ti guadagnavi da vivere strappando preziosi minerali dalle profondità senza luce della terra. L’avventurarsi poteva sembrare redditizio o affascinante rispetto a questo lavoro massacrante—e se dovrai tornare sottoterra, questa volta hai intenzione di farlo armato di una vera arma invece che di un piccone da minatore.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Forza o Saggezza, libero",
+  "Skill": "Sopravvivenza, conoscenza(mineraria)",
+  "Talento": "Esperto dei Terreni",
+  "Mostrare": true
+},
+{
+  "Nome": "Sopravvissuto del Mortuarium",
+  "Desc": "Hai studiato le arti necromantiche nella torre artigliata del Mortuarium, la più prestigiosa università di necromanzia di Yled. Sebbene l’addestramento fosse estenuante, ti sei diplomato—o sei fuggito—con corpo e mente intatti; molti dei tuoi pari non sono stati così fortunati. Potresti continuare a studiare la necromanzia per conto tuo, oppure l’esperienza potrebbe averti temprato sul campo, ma il Mortuarium ti ha instillato una profonda conoscenza dei principi necromantici e ti ha reso avvezzo alle energie che animano i morti.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Intelligenza, e uno è un incremento libero.@Ottieni la seguente reazione: ###{\"nome\":\"Avvezzo alla Morte\",\"tipoAzz\":\"reazione\",\"tratti\":[],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Trigger\":\"Subisci danni da un effetto con il tratto morte o negativo\"},\"desc\":\"Ottieni resistenza a quei danni pari a metà del tuo livello (minimo 1).\"}###",
+  "Boost": "Costituzione o Intelligenza, libero",
+  "Skill": "Arcano, conoscenza(necromanzia)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Prodigio Musicale",
+  "Desc": "Fin da giovane sei stato quasi soprannaturalmente dotato in un particolare tipo di musica. Le persone intorno a te erano certe che saresti cresciuto esibendoti nelle corti reali o diventando un compositore di fama mondiale, ma hai scelto invece una vita di avventura. Potresti aver rinunciato a quei sogni per trovare un tuo significato, oppure potresti scoprire che l’avventura ti permette di vivere emozioni ed imprese pure che un giorno potrai tradurre in una sinfonia meravigliosa.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Carisma, e uno è un incremento libero.",
+  "Boost": "Destrezza o Carisma, libero",
+  "Skill": "Esibizione, conoscenza(musica)",
+  "Talento": "Esecutore Virtuoso",
+  "Mostrare": true
+},
+{
+  "Nome": "Tutore Mistico",
+  "Desc": "Hai passato anni a prevedere, identificare e incanalare i talenti magici innati di chi ti circondava. Un mondo ricco di magia ti ha insegnato che non si può mai avere troppo addestramento quando tutti intorno a te sono capaci di magia.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@Il tuo tratto magico innato è arcano o occulto. Sei addestrato in Arcano o Occultismo, a seconda del tuo tratto magico innato, e in conoscenza(accademia).",
+  "Boost": "Intelligenza o Saggezza, libero",
+  "Skill": "Arcano o Occultismo, conoscenza(accademia)",
+  "Talento": "Riconoscere Incantesimi",
+  "Mostrare": true
+},
+{
+  "Nome": "Apprendista Necromante",
+  "Desc": "Hai fatto da apprendista presso un necromante—un’educazione dura in un campo in cui il cadavere che stavi dissezionando poteva improvvisamente animarsi e ogni artefatto magico sembrava mortale. Ora che sei per conto tuo, sei grato di aver imparato a identificare le minacce magiche in modo rapido e accurato.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Intelligenza, e uno è un incremento libero.",
+  "Boost": "Costituzione o Intelligenza, libero",
+  "Skill": "Arcano, conoscenza(necromanzia)",
+  "Talento": "Identificazione Rapida",
+  "Mostrare": true
+},
+{
+  "Nome": "Guardia Notturna",
+  "Desc": "Quando tutti gli altri dormono, tu sei di guardia. Potresti essere stato un membro della ronda in una metropoli brulicante, una guardia in un cimitero inquieto o un pastore solitario. Molte notti hai urlato avvertimenti nell’oscurità, incerto su cosa si celasse appena oltre il raggio della luce della tua lanterna. Più di una volta hai visto cose barcollare nel buio che non avrebbero mai dovuto essere in giro.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Carisma, e uno è un incremento libero.",
+  "Boost": "Forza o Carisma, libero",
+  "Skill": "Intimidazione, conoscenza(legale) o conoscenza(insediamento natale)",
+  "Talento": "Coercizione Rapida",
+  "Mostrare": true
+},
+{
+  "Nome": "Nobile",
+  "Desc": "Per la gente comune, la vita di un nobile sembra fatta di lusso idilliaco, ma crescendo come nobile o membro di una gentry emergente conosci la realtà: il destino di un nobile è fatto di obblighi e intrighi. Che tu cerchi di fuggire ai tuoi doveri diventando un avventuriero o di migliorare la tua posizione, hai scambiato sete e sfarzo per la vita dell’avventura.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Carisma, libero",
+  "Skill": "Società, conoscenza(genealogia) o conoscenza(araldica)",
+  "Talento": "Grazie di Corte",
+  "Mostrare": true
+},
+{
+  "Nome": "Navigatore Notturno",
+  "Desc": "Hai una grande affinità con i cieli notturni. Osservi le stelle e senti che ti parlano con messaggi segreti rivolti proprio a te, aiutandoti a orientarti o forse a determinare la tua prossima linea d’azione. Spesso le stelle ti hanno condotto in luoghi di grande avventura, dove hai trovato nuove esperienze e sfide. Potresti aver deciso di usare i tuoi talenti come guida per gruppi in viaggio, oppure aver preferito seguirli in un cammino personale guidato dalle stelle verso l’illuminazione.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Saggezza, e uno è un incremento libero.@Sei addestrato in Sopravvivenza. Ogni volta che puoi identificare chiaramente le stelle, se ottieni un successo in una prova per Percepire Direzione o per orientarti in altro modo, ottieni invece un successo critico; se ottieni un fallimento critico in una di queste prove, ottieni invece un fallimento.",
+  "Boost": "Destrezza o Saggezza, libero",
+  "Skill": "Sopravvivenza",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Nomade",
+  "Desc": "Viaggiando in lungo e in largo, hai appreso tattiche di base per sopravvivere sulla strada e in terre sconosciute, arrangiandoti con poche provviste e ancora meno comodità. Come avventuriero continui a viaggiare, spesso verso luoghi ancora più pericolosi.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.",
+  "Boost": "Costituzione o Saggezza, libero",
+  "Skill": "Sopravvivenza, conoscenza(terreno)",
+  "Talento": "Sicurezza",
+  "Mostrare": true
+},
+{
+  "Nome": "Bibliotecario Occulto",
+  "Desc": "Ore trascorse a leggere numerosi compendi dedicati a vari argomenti occulti hanno affinato la tua conoscenza di queste arti magiche più oscure. Potresti esserti dato all’avventura per finanziare l’acquisizione di tomi rari, per esplorare misteri occulti che non si trovano tra le pagine di un libro, o forse per mettere alla prova le tue capacità.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Saggezza, libero",
+  "Skill": "Occultismo, conoscenza(accademia)",
+  "Talento": "Istruito nei Segreti",
+  "Mostrare": true
+},
+{
+  "Nome": "Palombaro Oceanico",
+  "Desc": "Sei uno del popolo del mare, i sommozzatori che abitano le coste impervie. Immergendoti in profondità estranee senza né magia né riserve d’aria, il tuo compito è recuperare cibo marino per nutrire le tue comunità. I turisti vengono a guardarti, ascoltando i tuoi fischi e canti mentre allungano il collo per scorgere le perle che talvolta riporti in superficie. Potrebbero chiamarti sirena, ma tu sai meglio di così. Hai visto il vero popolo del mare mentre raccoglievi molluschi nelle tue reti. Sai di dover indossare il bianco per tenere lontani squali e pericoli peggiori. Quando avventura o tesori si trovano tra le onde, sei uno dei pochi che potrebbe davvero affrontarli.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.",
+  "Boost": "Costituzione o Saggezza, libero",
+  "Skill": "Atletica, conoscenza(oceano)",
+  "Talento": "Predone Subacqueo",
+  "Mostrare": true
+},
+{
+  "Nome": "Morso una Volta",
+  "Desc": "Dopo uno scontro con una creatura non morta, hai temuto di essere stato infettato. Che sia stato grazie a un intervento medico, alla fortuna o a una cattiva comprensione di come si diffonda la non-morte, le tue paure si sono placate. Tuttavia, il tuo incontro ravvicinato con la morte vivente ti ha insegnato il valore della vita. Fai tutto ciò che puoi per evitare la fine che credevi ti fosse destinata.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Destrezza o Saggezza, libero",
+  "Skill": "Medicina, conoscenza(non morti)",
+  "Talento": "Medicina da Battaglia",
+  "Mostrare": true
+},
+{
+  "Nome": "Missione Ultramondana",
+  "Desc": "Sei stato chiamato a servire uno scopo specifico—la tua divinità te l’ha detto, e quindi deve essere vero. Forse lo hai sempre saputo crescendo, oppure ti è stato rivelato un giorno in una visione, chiara come una campana e due volte più forte. Hai un compito che solo tu puoi portare a termine. La tua missione potrebbe essere pericolosa quanto uccidere un tiranno letale o semplice come aprire una porta specifica in un giorno preciso.@Dovresti collaborare con il GM su come gestire la verità del background del tuo personaggio o lasciare che sia il GM a deciderla in segreto. Questa chiamata all’azione è un messaggio della mente del personaggio, una manipolazione da parte di qualche entità soprannaturale, oppure veri e propri ordini impartiti da una delle divinità dell’ambientazione?@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.@Sei addestrato in Religione. Una volta per avventura, puoi chiedere ordini alla voce che credi essere una divinità e ricevere qualche tipo di istruzione—non ottieni mai spiegazioni, solo un comando di andare in un luogo o fare qualcosa. Seguire questi ordini non è sempre sicuro, ma di solito è interessante.",
+  "Boost": "Saggezza o Carisma, libero",
+  "Skill": "Religione",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Avanguardia a Cavallo",
+  "Desc": "In gioventù galoppavi a cavallo attraverso vaste praterie, servendo come avanguardia per il tuo insediamento, un esercito o un altro gruppo. Vedere così tante terre diverse ha acceso in te il desiderio di avventurarti ed esplorare il mondo, invece di limitarti a sfrecciare oltre di esso.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.",
+  "Boost": "Costituzione o Saggezza, libero",
+  "Skill": "Natura, conoscenza(pianure)",
+  "Talento": "Cavaliere Espresso",
+  "Mostrare": true
+},
+{
+  "Nome": "Esperienza con Ozem",
+  "Desc": "Tu o qualcuno a te vicino avete lavorato con i Cavalieri di Ozem prima della caduta di Lastwall. Oltre alla conoscenza dei principi e degli obiettivi dell’organizzazione, possiedi una comprensione pertinente della storia dell’ordine. Credi che vi siano preziose lezioni nelle imprese dei Cavalieri di Ozem.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Intelligenza, e uno è un incremento libero.",
+  "Boost": "Forza o Intelligenza, libero",
+  "Skill": "Società, conoscenza(guerra)",
+  "Talento": "Grazie di Corte",
+  "Mostrare": true
+},
+{
+  "Nome": "Reclutatore dei Pathfinder",
+  "Desc": "La Società dei Pathfinder è sempre alla ricerca di talento, ma raramente questo talento arriva per caso alla Loggia Principale. Che tu sia stato addestrato professionalmente per incoraggiare nuove reclute o che gli esploratori della Società abbiano individuato il tuo potenziale e ti abbiano cresciuto fin dall’infanzia, sei impegnato ad ampliare le fila della Società.@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.",
+  "Boost": "Saggezza o Carisma, libero",
+  "Skill": "Diplomazia, conoscenza(città visitata)",
+  "Talento": "Impressione di Gruppo",
+  "Mostrare": true
+},
+{
+  "Nome": "Pellegrino",
+  "Desc": "In gioventù hai compiuto diversi pellegrinaggi verso santuari importanti e luoghi sacri. Potresti essere stato un frate mendicante, un venditore di reliquie religiose (vere o fraudolente) o semplicemente un contadino che seguiva i dettami della propria fede. Qualunque siano ora gli scopi dei tuoi viaggi, la tua fede continua a proteggerti lungo la strada.@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.",
+  "Boost": "Saggezza o Carisma, libero",
+  "Skill": "Religione, conoscenza(divinità patrona)",
+  "Talento": "Simbolo del Pellegrino",
+  "Mostrare": true
+},
+{
+  "Nome": "Pilastro",
+  "Desc": "Non tutti i Cavalieri di Lastwall contribuiscono alla crociata attraverso il combattimento. I Pilastri forniscono manutenzione e servizi essenziali negli accampamenti, godendo dello stesso rango di cavaliere dei crociati e degli strateghi per cui l’ordine è noto. Hai trascorso del tempo come assistente tra i Pilastri, imparando come i non combattenti provvedano al benessere fisico e mentale di un esercito.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Saggezza, libero",
+  "Skill": "Medicina o Società o Sopravvivenza, conoscenza(lavoro)",
+  "Talento": "Conoscenza Aggiuntiva",
+  "Mostrare": true
+},
+{
+  "Nome": "Medico della Peste",
+  "Desc": "Le pestilenze spesso nascono da morti di massa e dai parassiti che proliferano dopo tali tragedie. Le città sotto assedio possono ammalarsi senza un’alimentazione adeguata e acqua pulita. La tua competenza in medicina ti consente di aiutare chi è colpito dalle malattie, e la tua visione del mondo è probabilmente segnata dall’aver visto così tanta sventura.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.",
+  "Boost": "Costituzione o Saggezza, libero",
+  "Skill": "Medicina, conoscenza(erboristeria)",
+  "Talento": "Inoculazione",
+  "Mostrare": true
+},
+{
+  "Nome": "Migrante Planare",
+  "Desc": "Il tuo luogo di nascita era su uno dei piani elementali, ma per qualche motivo hai viaggiato nell’Universo. Forse te ne sei andato in buoni rapporti, oppure sei stato cacciato e speri un giorno di tornare. Forse sei stato persino esiliato, e ogni riferimento a ciò porta dolore e risentimento. In ogni caso, nessun luogo ti è mai sembrato davvero casa da allora, e hai vagato portando con te i beni della tua vita ovunque tu vada. Vivi l’avventura forse alla ricerca di un posto a cui appartenere o di un modo per tornare al tuo piano d’origine e sistemare questioni irrisolte.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Costituzione, e uno è un incremento libero.",
+  "Boost": "Destrezza o Costituzione, libero",
+  "Skill": "Atletica, conoscenza(piano dell’aria) o conoscenza(piano della terra) o conoscenza(piano del fuoco) o conoscenza(piano del metallo) o conoscenza(piano dell’acqua) o conoscenza(piano del legno)",
+  "Talento": ["Portatore Robusto", "Pianificatore Presciente", "e"],
+  "Mostrare": true
+},
+{
+  "Nome": "Sussurratore di Piante",
+  "Desc": "Hai sempre avuto il pollice verde, capace di prenderti cura di piante che altri trovavano troppo difficili da coltivare e mantenere, con un’abilità che rasenta il magico. Durante i tuoi viaggi incontri ogni genere di nuove piante e creature vegetali, ampliando i tuoi orizzonti e approfondendo la tua comprensione della flora.@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.",
+  "Boost": "Saggezza o Carisma, libero",
+  "Skill": "Natura, conoscenza(piante)",
+  "Talento": "Medicina Naturale",
+  "Mostrare": true
+},
+{
+  "Nome": "Arruolato a Forza",
+  "Desc": "Erano cinque colpi o sei? In fin dei conti non importa, perché dopo che quelle brave persone hanno pagato da bere per tutta la sera, ti sei svegliato all’ultimo gradino della scala. Che tu fossi membro di un equipaggio su una nave, un coscritto in un esercito o qualcosa di peggio, non avevi altra direzione se non salire. Questo background di solito richiede l’accordo dell’intero gruppo per raccontare una storia che ti permetta di interpretare un personaggio che inizia l’avventura a causa di circostanze fuori dal proprio controllo. Tuttavia, puoi anche interpretare un personaggio che è stato arruolato a forza in passato ed è poi fuggito da quella vita.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Costituzione, e uno è un incremento libero.",
+  "Boost": "Forza o Costituzione, libero",
+  "Skill": "Atletica, conoscenza(lavoro)",
+  "Talento": "Aiuto per l'Armatura",
+  "Mostrare": true
+},
+{
+  "Nome": "Stampatore",
+  "Desc": "Tenendo il dito sul polso della città, scrivi un piccolo foglio di notizie da vendere agli angoli delle strade. Per raggiungere questo obiettivo affitti l’uso di una pressa da stampa, quindi hai familiarità con tali macchine. Tuttavia, le persone e le loro storie sono il tuo vero interesse, e vivi l’avventura per inseguire l’ultima grande notizia.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Carisma, libero",
+  "Skill": "Società, conoscenza(scribania)",
+  "Talento": "Poliglotto",
+  "Mostrare": true
+},
+{
+  "Nome": "Prigioniero",
+  "Desc": "Potresti essere stato imprigionato per dei crimini (che fossi colpevole o meno), oppure ridotto in schiavitù per una parte della tua crescita. Nella tua vita da avventuriero sfrutti appieno la libertà appena conquistata.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Costituzione, e uno è un incremento libero.",
+  "Boost": "Forza o Costituzione, libero",
+  "Skill": "Furtività, conoscenza(mondo criminale)",
+  "Talento": "Contrabbandiere Esperto",
+  "Mostrare": true
+},
+{
+  "Nome": "Scrivano di Lettere Professionista",
+  "Desc": "Ti guadagni da vivere leggendo e scrivendo lettere per persone desiderose di restare in contatto con i propri cari a grandi distanze. Molte di queste persone sono semianalfabete e non possono permettersi comunicazioni magiche, come gli incantesimi inviare o messaggio onirico. Non sei sempre fluente nelle numerose e disparate lingue che ti viene chiesto di trascrivere, ma con i tuoi numerosi libri e dizionari riesci a cavartela. I tuoi servizi sono importanti per la comunità, nonostante la tua professione sia una rarità.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.@Durante le tue preparazioni giornaliere, puoi scegliere una lingua aggiuntiva che conosci. Puoi cambiare questa lingua la prossima volta che effettui le tue preparazioni giornaliere.",
+  "Boost": "Intelligenza o Carisma, libero",
+  "Skill": "conoscenza(scribania)",
+  "Talento": ["Specialità di Creazione", "Poliglotto", "o"],
+  "Mostrare": true
+},
+{
+  "Nome": "Custode delle Pire",
+  "Desc": "Hai esperienza nella costruzione di pire funerarie. Potresti aver acceso roghi funebri nella Terra dei Re Linnorm, curato le fosse di cremazione di Cheliax o Vudra, oppure essere stato un carbonaio delle terre selvagge, usando la giusta miscela alchemica come accelerante. Qualunque sia il tuo credo, sai che nulla accompagna i defunti come la fiamma.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.",
+  "Boost": "Destrezza o Intelligenza, libero",
+  "Skill": "Artigianato, conoscenza(funebre)",
+  "Talento": "Creazione Alchemica",
+  "Mostrare": true
+},
+{
+  "Nome": "Quartiermastro",
+  "Desc": "Un esercito marcia sul proprio stomaco, e tu sei stato in prima linea nel garantire che le truppe fossero adeguatamente nutrite e rifornite. Grazie alla tua competenza logistica, sai quanto sia vitale tenere una presa salda sulle scorte necessarie. E quando i soldati chiedono oggetti senza le dovute autorizzazioni, sai come respingerli con uno sguardo gelido.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Carisma, libero",
+  "Skill": "Intimidazione, conoscenza(legale)",
+  "Talento": "Sguardo Intimidatorio",
+  "Mostrare": true
+},
+{
+  "Nome": "Fuggiasco di Geb",
+  "Desc": "I residenti viventi di Geb sono conosciuti come i rapidi, e nel complesso non è una condizione piacevole. Mentre alcuni dei rapidi cercano di trarre il meglio dalla loro sorte, o addirittura prosperano nella società dominata dai non morti di Geb, tu hai deciso che qualunque orrore il mondo esterno possa offrire impallidisce in confronto a quelli che compongono l’élite gebbita. E considerando che la fuga implica attraversare le Terre Devastate dal Mana, dovevi esserne davvero, davvero certo.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Saggezza, e uno è un incremento libero.@Sei addestrato in Furtività e conoscenza(non morti). Quando ti Nascondi o ti Muovi Furtivamente con successo, sei anche nascosto o occultato dai sensi vitali e da altri sensi speciali precisi posseduti dai non morti.",
+  "Boost": "Destrezza o Saggezza, libero",
+  "Skill": "Furtività, conoscenza(non morti)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Cresciuto nella Fede",
+  "Desc": "Che sia stato in un monastero, in una famiglia religiosa o semplicemente come parte della tua vita quotidiana, la tua crescita è stata intrisa nelle tradizioni di una fede o di una filosofia. Potresti essere rimasto devoto oppure esserti allontanato dal credo della tua infanzia, ma le tue capacità sono ancora fondate sulla tua devozione.@Scegli due incrementi di caratteristica. Uno deve essere a una caratteristica indicata come Attributo Divino della tua divinità e l’altro è un incremento libero.",
+  "Boost": "Attributo Divino della divinità, libero",
+  "Skill": "abilità associata alla divinità, conoscenza(divinità)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Anima Rinata",
+  "Desc": "Forze misteriose nelle Terre delle Seconde Anime ti hanno concesso una seconda possibilità di vita. Ricordi la tua esistenza prima della morte e ora vivi con una vita supplementare di conoscenze.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Intelligenza, e uno è un incremento libero.@Diventi addestrato in due abilità di conoscenza, scelte da te e dal GM tra le conoscenze associate alla tua vita passata. Al 3°, 7° e 15° livello ricevi incrementi di abilità che puoi applicare solo a queste conoscenze. In alcune situazioni analoghe alla tua vita precedente, frammenti di ricordi riaffiorano, aiutandoti o distraendoti. Il GM può offrirti un bonus di circostanza +1 alle prove di abilità con una di queste conoscenze o ad altre prove che riecheggiano la tua vita passata. Se accetti ma fallisci la prova, sei stordito mentalmente 1 per 1 minuto a causa della distrazione dei ricordi della vita passata, oppure stordito 2 per 1 minuto in caso di fallimento critico.",
+  "Boost": "Costituzione o Intelligenza, libero",
+  "Skill": "due conoscenza(vita passata)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Redento",
+  "Desc": "Un’unità dei Redentori Cremisi ti ha salvato da morte certa nelle Terre di Ghiaia. Hai trascorso del tempo con uno o più Redentori Cremisi mentre ti scortavano in salvo, imparando le usanze di questa fazione dei Cavalieri di Lastwall. Ti consideri per sempre in debito con loro e difendi senza esitazione la loro reputazione da qualsiasi accusa di doppiezza.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Carisma, e uno è un incremento libero.",
+  "Boost": "Costituzione o Carisma, libero",
+  "Skill": "Intimidazione, conoscenza(redentori cremisi)",
+  "Talento": "Coercizione di Gruppo",
+  "Mostrare": true
+},
+{
+  "Nome": "Investigatore dei Redenti",
+  "Desc": "Credi che il misterioso patrono dei Redentori Cremisi abbia un secondo fine che tormenta i Cavalieri di Lastwall. Qualunque cosa l’organizzazione ottenga dal patto, anche una forza misteriosa con una propria agenda e il bisogno di restare anonima ne trae beneficio. Hai fatto della tua missione scoprire quale sia questa agenda prima che il patrono decida di aver manipolato dall’ombra abbastanza a lungo.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Saggezza, libero",
+  "Skill": "Occultismo, conoscenza(redentori cremisi)",
+  "Talento": "Identificazione delle Bizzarrie",
+  "Mostrare": true
+},
+{
+  "Nome": "Rifugiato",
+  "Desc": "Provieni da una terra molto lontana da quella in cui ti trovi ora, spinto dalla guerra, da una pestilenza o semplicemente dalla ricerca di opportunità. Qualunque sia la tua origine o la ragione per cui hai lasciato la tua casa, in questa nuova terra ti senti un estraneo. L’avventura è un modo per mantenerti offrendo al contempo speranza a chi ne ha più bisogno.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.",
+  "Boost": "Costituzione o Saggezza, libero",
+  "Skill": "Società, conoscenza(insediamento d’origine)",
+  "Talento": "Astuzia di Strada",
+  "Mostrare": true
+},
+{
+  "Nome": "Dedizione Inesorabile",
+  "Desc": "I reclutatori invitano molti candidati come te ad addestrarsi per diventare Cavalieri di Lastwall, ma solo pochi selezionati superano la prova. Mentre altri hanno perso la determinazione, la tua perseveranza ha dato i suoi frutti. Il tuo impegno per la causa è stato così evidente da superare qualunque motivo avesse ostacolato i tuoi precedenti tentativi di unirti alla nuova Crociata Splendente.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Costituzione, e uno è un incremento libero.",
+  "Boost": "Forza o Costituzione, libero",
+  "Skill": "conoscenza(guerra)",
+  "Talento": "Acume Sagace",
+  "Mostrare": true
+},
+{
+  "Nome": "Agente di Rimesse",
+  "Desc": "Quando denaro, beni o merci devono essere spostati su grandi distanze, gli agenti di rimesse sono migliori e più affidabili dei mercenari locali. Conosci a fondo le rotte commerciali e i protocolli che le accompagnano. Anche se qualcuno potrebbe considerarti un comune avventuriero o mercenario, tu sai di poter portare a termine il lavoro meglio e in modo più sicuro di chiunque altro.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Intelligenza, e uno è un incremento libero.",
+  "Boost": "Costituzione o Intelligenza, libero",
+  "Skill": "Società, conoscenza(lavoro) o conoscenza(mercenari)",
+  "Talento": "Professionista Esperto",
+  "Mostrare": true
+},
+{
+  "Nome": "Corriere di Rapporti",
+  "Desc": "In tempo di guerra, gli eserciti possono spingersi lontano dalle sedi di governo che li hanno inviati o essere separati dai loro comandanti dal terreno. Grazie alla tua abilità in sella e alla tua affinità con gli animali usati come cavalcature, ti è stato affidato il compito di trasportare rapporti su una guerra in corso da un luogo all’altro. La velocità era di vitale importanza, e talvolta dovevi passare giorni interi in sella.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Forza o Saggezza, libero",
+  "Skill": "Natura, conoscenza(scuderie)",
+  "Talento": "Cavaliere Espresso",
+  "Mostrare": true
+},
+{
+  "Nome": "Ritornato",
+  "Desc": "Sei morto e miracolosamente tornato con una conoscenza dei reami oltre la morte e un legame più forte con la vita. Alcune anime dei morti e dei non morti potrebbero percepire con te una strana affinità istintiva.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.",
+  "Boost": "Costituzione o Saggezza, libero",
+  "Skill": "conoscenza(campo delle ossa)",
+  "Talento": ["Duro a Morire", "Conoscenza Aggiuntiva", "e"],
+  "Mostrare": true
+},
+{
+  "Nome": "Revenant",
+  "Desc": "Sei morto. Non ci sono molti dubbi al riguardo. Un proiettile nel cervello o un coltello alla gola, eri morto e sepolto. Poi ti sei rialzato. Forse avevi delle questioni irrisolte, oppure eri semplicemente così duro e ostinato che l’Inferno stesso ti ha sputato fuori. In ogni caso, sei tornato per un motivo.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Carisma, e uno è un incremento libero.@Sei addestrato in Religione e conoscenza(campo delle ossa). Sei ancora vivo, non un non morto, ma possiedi la capacità di guarigione del vuoto, il che significa che subisci danni dagli effetti di vitalità e vieni curato dagli effetti di vuoto come se fossi un non morto.",
+  "Boost": "Costituzione o Carisma, libero",
+  "Skill": "Religione, conoscenza(campo delle ossa)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Guaritore delle Radici",
+  "Desc": "Alcuni mali non possono essere curati solo con le erbe. Hai appreso anche rimedi rituali, invocando spiriti della natura per lenire i dolori e allontanare il malocchio. Unirti agli avventurieri ti ha dato compagnia lungo la strada, oltre a protezione da chi ti marchierebbe come un impostore—o peggio.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Saggezza, libero",
+  "Skill": "Occultismo, conoscenza(erboristeria)",
+  "Talento": "Magia Radice",
+  "Mostrare": true
+},
+{
+  "Nome": "Reale",
+  "Desc": "Sei un membro di spicco di una famiglia reale. Hai rinunciato alle routine quotidiane della vita di corte per intraprendere una missione avventurosa—forse sei una regina deposta che spera di riconquistare il trono, un principe in cerca di una vita più emozionante o l’erede di un sovrano impegnato in una missione segreta.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Carisma, libero",
+  "Skill": "Società",
+  "Talento": "Grazie di Corte",
+  "Mostrare": true
+},
+{
+  "Nome": "Nobile in Fuga",
+  "Desc": "Ci sono molte ragioni per cui il sangue nobile può abbandonare le proprie responsabilità. Che tu sia fuggito per sicurezza, per amore, per soddisfare un improvviso impulso di ribellione o per scappare da aspettative insopportabili, hai lasciato alle spalle la tua vita sfarzosa per una fatta di nuove esperienze. Tuttavia, quanto tu sia davvero preparato a una vita sulla strada è tutta un’altra questione.@Scegli due incrementi di caratteristica. Uno deve essere a Carisma o Intelligenza, e uno è un incremento libero.",
+  "Boost": "Carisma o Intelligenza, libero",
+  "Skill": "Diplomazia, conoscenza(genealogia) o conoscenza(araldica)",
+  "Talento": "Bon Mot",
+  "Mostrare": true
+},
+{
+  "Nome": "Corridore",
+  "Desc": "Hai servito come messaggero per una specifica fazione, gilda, casata o individuo, spesso consegnando messaggi con tempi molto stretti. Trovare il percorso più rapido dal punto A al punto B è la tua specialità, e hai imparato a sfruttare al massimo il tuo atletismo e le tue capacità di orientamento.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Intelligenza, e uno è un incremento libero.",
+  "Boost": "Forza o Intelligenza, libero",
+  "Skill": "Atletica, conoscenza(città)",
+  "Talento": "Salto Rapido",
+  "Mostrare": true
+},
+{
+  "Nome": "Sabotatore",
+  "Desc": "Che tu lo faccia per piacere personale o su incarico di una compagnia mercenaria o di un’organizzazione militare, hai un talento naturale nel distruggere le cose. Hai un istinto per individuare i punti deboli di oggetti e strutture e sai dove assestare un colpo di martello o lanciare una bomba alchemica. Vivi l’avventura per affinare le tue capacità o portare a termine una missione specifica.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Destrezza, e uno è un incremento libero.",
+  "Boost": "Forza o Destrezza, libero",
+  "Skill": "Furto, conoscenza(ingegneria)",
+  "Talento": "Prestidigitazione Occultata",
+  "Mostrare": true
+},
+{
+  "Nome": "Marinaio",
+  "Desc": "Hai sentito il richiamo del mare fin da giovane. Forse ti sei imbarcato su una nave mercantile, ti sei unito alla marina o sei finito con una ciurma di pirati e canaglie.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Destrezza, e uno è un incremento libero.",
+  "Boost": "Forza o Destrezza, libero",
+  "Skill": "Atletica, conoscenza(navigazione)",
+  "Talento": "Predone Subacqueo",
+  "Mostrare": true
+},
+{
+  "Nome": "Intrattenitore da Saloon",
+  "Desc": "Tutto ciò che vuoi è intrattenere la gente, ma puntualmente i guai sembrano seguirti. Sparatorie, risse, rapine e altri disastri colpiscono i locali in cui ti esibisci, e la voce si sparge in fretta. Restando sempre una città avanti rispetto ai pettegolezzi, potresti riuscire a suonare ancora un ingaggio, dominare un palco o gestire un tavolo.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Carisma, e uno è un incremento libero.",
+  "Boost": "Destrezza o Carisma, libero",
+  "Skill": "Esibizione, conoscenza(a scelta)",
+  "Talento": "Esecutore Virtuoso",
+  "Mostrare": true
+},
+{
+  "Nome": "Salvato dall’Orologeria",
+  "Desc": "Attraverso un combattimento sanguinoso, un terribile incidente o un sacrificio deliberato, hai perso una parte del tuo corpo che è stata sostituita con un meccanismo a orologeria. Che il tuo braccio sia ora una serie ronzante di pompe, bobine d’acciaio e ingranaggi di ferro; che il tuo cuore sia un intricato orologio di cristallo da caricare ogni giorno; o che la tua gamba sia un tubo metallico scolpito alimentato da molle d’adamantio e vapore, una parte di te richiede manutenzione e riparazioni regolari. Potresti aver ricevuto istruzioni dal brillante inventore che ti ha salvato, oppure esserti risvegliato su un campo di battaglia senza alcun ricordo dell’intervento o delle persone coinvolte. In ogni caso, possiedi le conoscenze necessarie per prenderti cura di te stesso—anche se questo significa caricare una chiave nel tuo stesso cuore o ricostruire un piede meccanico.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Intelligenza, e uno è un incremento libero.@Sei addestrato in Artigianato. Ogni giorno devi eseguire 10 minuti di manutenzione e caricare le tue parti a orologeria, altrimenti rischi il malfunzionamento dei componenti, con conseguenze che dipendono da ciò che è stato sostituito (determinate da te e dal GM). I tuoi componenti a orologeria ti permettono di reagire al pericolo con grande rapidità. Ottieni un bonus di circostanza +2 alle prove di iniziativa.",
+  "Boost": "Forza o Intelligenza, libero",
+  "Skill": "Artigianato",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Raccattatore",
+  "Desc": "Ti sei guadagnato da vivere rovistando tra ciò che la società getta via. Potresti averlo fatto solo per sopravvivere, oppure come mestiere, raccogliendo stracci, trasportando letame o simili. Anche se hai lasciato quella vita alle spalle, per abitudine tieni ancora un occhio fisso a terra.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Saggezza, libero",
+  "Skill": "Sopravvivenza, conoscenza(insediamento)",
+  "Talento": "Raccoglitore",
+  "Mostrare": true
+},
+{
+  "Nome": "Studioso",
+  "Desc": "Hai una naturale predisposizione per l’apprendimento e ti sei isolato dal mondo esterno per studiare tutto ciò che potevi. Nei libri hai letto di luoghi e meraviglie straordinarie, sognando sempre di vederle un giorno con i tuoi occhi. Alla fine, quella curiosità ti ha spinto ad abbandonare gli studi e diventare un avventuriero.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Saggezza, libero",
+  "Skill": "Arcano o Natura o Occultismo o Religione, conoscenza(accademia)",
+  "Talento": "Sicurezza",
+  "Mostrare": true
+},
+{
+  "Nome": "Erede degli Sterminatori",
+  "Desc": "Sei nato in una stirpe di cacciatori di non morti. Nella tua famiglia, l’uccisione dei non morti non è una semplice occupazione, ma un incarico di responsabilità quasi mistica tramandato di genitore in figlio. Nel corso delle generazioni, questa dedizione assoluta ha iniziato a manifestarsi in modi inquietanti durante il combattimento.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Intelligenza, e uno è un incremento libero.@Sei addestrato in Atletica e conoscenza(non morti). Puoi lanciare distruggere non morti come trucchetto divino innato. Puoi usare Intelligenza come caratteristica da incantatore per questo incantesimo innato.",
+  "Boost": "Forza o Intelligenza, libero",
+  "Skill": "Atletica, conoscenza(non morti)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Esploratore",
+  "Desc": "Hai chiamato la natura selvaggia casa tua mentre trovavi sentieri e guidavi i viaggiatori. La tua voglia di vagabondare potrebbe averti condotto alla vita dell’avventura, oppure potresti aver servito come esploratore per dei soldati e aver scoperto di apprezzare la battaglia.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Destrezza o Saggezza, libero",
+  "Skill": "Sopravvivenza, conoscenza(terreno esplorato)",
+  "Talento": "Raccoglitore",
+  "Mostrare": true
+},
+{
+  "Nome": "Veggente dei Morti",
+  "Desc": "Da molto tempo sei dotato della capacità di vedere e parlare con i defunti. Questo dono potrebbe essersi manifestato alla nascita oppure quando un incontro fortuito ti ha legato inestricabilmente agli spiriti dei morti. La loro presenza costante potrebbe sembrarti una maledizione, oppure offrirti una gradita compagnia.@Ottieni un incremento di caratteristica. Deve essere a Costituzione o Saggezza.@Sei addestrato in Religione e conoscenza(non morti). Ottieni in modo permanente gli effetti dell’incantesimo senso spirituale.",
+  "Boost": "Costituzione o Saggezza",
+  "Skill": "Religione, conoscenza(non morti)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Riflesso delle Sentinelle",
+  "Desc": "Che tu abbia assistito di persona alle loro imprese e gesta devote o abbia letto le cronache delle loro azioni, le Sentinelle Splendenti dei Cavalieri di Lastwall ti ispirano profondamente. Potresti idealizzarne la filosofia o sperare un giorno di unirti ai loro ranghi; le Sentinelle Splendenti sono la tua stella guida.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Carisma, e uno è un incremento libero.",
+  "Boost": "Forza o Carisma, libero",
+  "Skill": "Diplomazia, conoscenza(sentinelle splendenti)",
+  "Talento": "Nessun Motivo di Allarme",
+  "Mostrare": true
+},
+{
+  "Nome": "Servitore",
+  "Desc": "Hai ricoperto un ruolo di servitù, servendo nobili e guadagnandoti la loro fiducia come confidente della casa. Potresti essertene andato in buoni rapporti, oppure conoscere pericolosi segreti sui tuoi ex datori di lavoro. In ogni caso, ora vivi l’avventura per cambiare vita e scopri che in questo nuovo ruolo le abilità apprese continuano a esserti utili.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Carisma, e uno è un incremento libero.",
+  "Boost": "Destrezza o Carisma, libero",
+  "Skill": "Società, conoscenza(lavoro)",
+  "Talento": "Leggere le labbra",
+  "Mostrare": true
+},
+{
+  "Nome": "Drago delle Fogne",
+  "Desc": "Sei uno dei Draghi delle Fogne, nato nelle fogne di Absalom e temprato da una vita passata a difendere il tuo territorio.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.",
+  "Boost": "Destrezza o Intelligenza, libero",
+  "Skill": "Artigianato, conoscenza(kobold)",
+  "Talento": "Creatore di Trappole",
+  "Mostrare": true
+},
+{
+  "Nome": "Sceriffo",
+  "Desc": "Ricopri il titolo ufficiale di sceriffo o vice in una piccola comunità. Coloro che farebbero del male agli altri fuggono il tuo sguardo, poiché sanno che porta con sé la promessa di punizione. Proteggi la tua città, vegli su chi ha riposto fiducia in te e ti assicuri che chi arreca danno agli altri venga consegnato alla giustizia.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Carisma, e uno è un incremento libero.",
+  "Boost": "Destrezza o Carisma, libero",
+  "Skill": "Intimidazione, conoscenza(caccia)",
+  "Talento": "Coercizione di Gruppo",
+  "Mostrare": true
+},
+{
+  "Nome": "Vincolato al Segno",
+  "Desc": "Sei nato sotto la potente manifestazione di una specifica costellazione, e il suo legame con te è evidente. Ti senti più a tuo agio quando la tua costellazione è prominente e puoi attingere alla sua influenza di tanto in tanto. Quando ottieni questo background, scegli una costellazione specifica, come il Tordo o il Carro. La costellazione associata determina uno degli incrementi di caratteristica che ottieni e un incantesimo innato. L’elenco include benefici per le costellazioni della Carovana Cosmica, ma potresti essere nato sotto una costellazione diversa e ottenere benefici differenti come determinato dal GM.@Scegli due incrementi di caratteristica. Uno deve essere legato alla tua costellazione, e uno è un incremento libero.@Sei addestrato in conoscenza(astrologia). Ottieni inoltre la capacità di lanciare un incantesimo innato occulto, determinato dal tuo segno. La frequenza con cui puoi lanciare questo incantesimo è indicata di seguito; i trucchetti possono essere usati a volontà. Come di consueto, lanci gli incantesimi innati non trucchetto al livello minimo disponibile per quell’incantesimo e i trucchetti sono intensificati a metà del tuo livello. Inoltre, una volta durante il periodo di massima visibilità del tuo segno, puoi lanciare l’incantesimo del tuo segno senza consumarne l’uso normale.@Il Tordo (Destrezza): suono fantasma; a volontà@Il Portatore di Lanterna (Saggezza): luce; a volontà@Gli Sposi Novelli (Carisma): charme; una volta al giorno@Il Ponte (Costituzione): resistere agli elementi; una volta a settimana@La Figlia (Carisma): guida; a volontà@Il Cavaliere (Forza): destriero fantasma; una volta a settimana@Il Patriarca (Forza): conoscere direzione; a volontà@Il Carro (Costituzione): passo lungo; una volta a settimana@Il Branco (Destrezza): parlare con gli animali; una volta a settimana@La Madre (Saggezza): rimuovere paura; una volta a settimana@L’Osservatore delle Stelle (Intelligenza): colpo vero; una volta a settimana@Lo Straniero (Carisma): messaggio; a volontà@Il Seguace (Intelligenza): stabilizzare; a volontà",
+  "Boost": "caratteristica del segno, libero",
+  "Skill": "conoscenza(astrologia)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Allevatore di Seta",
+  "Desc": "Hai studiato e padroneggiato l’arte della sericoltura. L’allevamento dei bachi da seta per produrre seta è un’industria importante che richiede un’enorme quantità di studio e cura. La routine immutabile di un allevatore di seta potrebbe rendere qualsiasi avventura epica per contrasto, e forse proprio questa prospettiva ti ha spinto verso la vita dell’avventuriero.@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Intelligenza, e uno è un incremento libero.",
+  "Boost": "Saggezza o Intelligenza, libero",
+  "Skill": "Artigianato, conoscenza(sericoltura)",
+  "Talento": "Specialità di Creazione",
+  "Mostrare": true
+},
+{
+  "Nome": "Cavaliere dei Cieli",
+  "Desc": "La libertà di un uccello in volo è qualcosa da invidiare, e tu l’hai invidiata, ma non a lungo. Hai preso in prestito alianti meccanici o cercato i benefici del planare e del volo assistiti dalla magia, facendo qualsiasi cosa pur di osservare il mondo dall’alto con solo il vento a sostenerti. Il costo di queste esperienze potrebbe essere stato un fattore determinante nel tuo stile di vita avventuroso, oppure stai cercando nuovi metodi di volo da padroneggiare.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Destrezza o Saggezza, libero",
+  "Skill": "Acrobazia, conoscenza(piano dell’aria)",
+  "Talento": "Caduta da gatto",
+  "Mostrare": true
+},
+{
+  "Nome": "Canto degli Abissi",
+  "Desc": "Durante un viaggio per mare sei caduto fuoribordo, hai ingerito acqua salata e sei annegato. Tritoni, kelpie, serpenti marini o un altro abitante magico del mare hanno trascinato il tuo corpo incosciente dalle profondità salmastre. Avendo trascorso così tanto tempo sott’acqua, i tuoi polmoni erano pieni di acqua salata. Per ripristinare la tua capacità di respirare, hanno espirato nei tuoi polmoni e, così facendo, ti hanno condiviso la capacità di respirare sott’acqua. Sei tornato con la capacità di respirare acqua, oltre a una nuova conoscenza del tempo trascorso sotto le onde.@Ottieni un incremento di caratteristica. Deve essere a Forza, Costituzione o Carisma.@Sei addestrato in Atletica e conoscenza(oceano). Hai la capacità di respirare sott’acqua.@++Speciale++ Puoi scegliere di perdere la capacità di respirare aria quando ottieni questo background, diventando capace di respirare solo sott’acqua. Se lo fai, ottieni un secondo incremento di caratteristica, che è un incremento libero.",
+  "Boost": "Forza o Costituzione o Carisma",
+  "Skill": "Atletica, conoscenza(oceano)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Cercatore di Incantesimi",
+  "Desc": "La magia convenzionale riesce a trattenere la tua attenzione solo fino a un certo punto. Ti sei invece dedicato a comprendere incantesimi davvero esoterici, cosa che inevitabilmente ti spinge a esplorare il mondo e tutte le sue tradizioni arcane e occulte.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Saggezza, libero",
+  "Skill": "Arcano o Occultismo, conoscenza(biblioteca)",
+  "Talento": "Riconoscere Incantesimi",
+  "Mostrare": true
+},
+{
+  "Nome": "Osservatore",
+  "Desc": "Un occhio per i dettagli, un senso per il vento e una forte fiducia nel tuo istinto. Queste qualità ti hanno distinto quando si tratta di assistere un tiratore scelto nel preparare il colpo perfetto contro il bersaglio. Elevazione, velocità e copertura: tutti fattori vitali da considerare per compiere una vera impresa di tiro di precisione, e nessun cecchino potrebbe operare senza un osservatore esperto. Fin da giovane hai messo le tue capacità di osservatore al servizio della vita avventurosa. Che tu stia sparando in prima persona o fornendo supporto ad altri, i tuoi talenti ti garantiscono un vantaggio nella carriera di avventuriero.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Destrezza o Saggezza, libero",
+  "Skill": "Furtività, conoscenza(esplorazione)",
+  "Talento": "Predatore del Terreno",
+  "Mostrare": true
+},
+{
+  "Nome": "Scudiero",
+  "Desc": "Ti sei addestrato ai piedi di un cavaliere, curando il suo equipaggiamento e supportandolo nei tornei e in battaglia. Ora cerchi una sfida che dimostri il tuo valore per la piena investitura cavalleresca, oppure hai rinnegato sfarzo e cerimonie per metterti alla prova in combattimenti onesti, sebbene meno formali.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Costituzione, e uno è un incremento libero.",
+  "Boost": "Forza o Costituzione, libero",
+  "Skill": "Atletica, conoscenza(araldica) o conoscenza(guerra)",
+  "Talento": "Aiuto per l'Armatura",
+  "Mostrare": true
+},
+{
+  "Nome": "Senza Stelle",
+  "Desc": "Sei nato in una notte in cui non c’era nemmeno una stella nel cielo notturno. Anche se probabilmente ciò era dovuto a foschia, nuvole o altri fenomeni naturali, esiste sempre la possibilità che le stelle si siano nascoste da te di proposito. Non sei mai stato in grado di fare affidamento sulle stelle per guidarti e hai scelto di imporre la tua volontà sulla tua sorte invece di confidare nei cieli. Hai imparato a respingere le influenze esterne sul tuo destino, mantenendo il controllo della tua stessa vita.@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.@Ottieni la seguente azione: ###{\"nome\":\"Rivendicare il Destino\",\"tipoAzz\":\"azioneGratis\",\"tratti\":[\"divinazione\",\"occulto\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Trigger\":\"Stai per tentare una prova e sei influenzato da un effetto di fortuna o sfortuna che modifica la prova innescante\"},\"desc\":\"Spezzi l’influenza sulle tue sorti e rivendichi una presa stabile sul tuo destino. Ignori l’effetto di fortuna o sfortuna e puoi effettuare normalmente il tiro della prova innescante.\"}###",
+  "Boost": "Saggezza o Carisma, libero",
+  "Skill": "Occultismo, conoscenza(astrologia)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Predicatore di Strada",
+  "Desc": "Dimentica l’ortodossia della chiesa e i chiostri soffocanti: diffondere la parola del tuo dio tra la gente è la tua vocazione. Hai predicato agli angoli delle strade e nelle taverne, ai viandanti lungo la via e ai prigionieri alla gogna. L’avventura può portarti in ogni angolo del mondo. Quale chiamata potrebbe servire meglio a portare le tue sacre parole a nuove orecchie?@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.",
+  "Boost": "Saggezza o Carisma, libero",
+  "Skill": "Religione, conoscenza(divinità patrona)",
+  "Talento": "Conoscenza dubiosa",
+  "Mostrare": true
+},
+{
+  "Nome": "Monello di Strada",
+  "Desc": "Ti sei arrangiato vivendo di Borseggio per le strade di una grande città, senza mai sapere dove avresti trovato il prossimo pasto. Mentre alcuni si avventurano per la gloria, tu lo fai per sopravvivere.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Costituzione, e uno è un incremento libero.",
+  "Boost": "Destrezza o Costituzione, libero",
+  "Skill": "Furto, conoscenza(città)",
+  "Talento": "Borseggiatore",
+  "Mostrare": true
+},
+{
+  "Nome": "Venditore di Cibo da Strada",
+  "Desc": "Sei uno chef ispirato che cerca di farsi un nome lungo le strade del mondo. Viaggi con un carro di legno o ferro che funge sia da attività ambulante sia da rifugio. La mancanza di fondi o la lotta per trovare un posto dove piazzare il banco sono difficoltà quotidiane. Tuttavia, non c’è nessuno più affamato di un aspirante avventuriero, e tu sei molto conveniente, sempre pronto con il pasto perfetto.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Destrezza, e uno è un incremento libero.",
+  "Boost": "Forza o Destrezza, libero",
+  "Skill": "Artigianato, conoscenza(cucina)",
+  "Talento": "Esperto di Cucina",
+  "Mostrare": true
+},
+{
+  "Nome": "Studente di Magia",
+  "Desc": "Sei attualmente iscritto a una scuola di magia, dove stai apprendendo i fondamenti della tua tradizione magica. Che le tue avventure avvengano durante le pause tra i semestri, come parte di un programma di studio-lavoro o persino tra le mura dell’accademia stessa, dovrai imparare a bilanciare la tua doppia vita.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Saggezza, libero",
+  "Skill": "Arcano o Natura o Occultismo o Religione, conoscenza(accademia)",
+  "Talento": "Riconoscere Incantesimi",
+  "Mostrare": true
+},
+{
+  "Nome": "Danzatore del Sole",
+  "Desc": "Ti è stato insegnato che le benedizioni della Madre Ardente possono essere invitate tramite danze eseguite sotto la sua presenza, come nel salutare i primi raggi di calore in primavera. Potresti essere stato l’apprendista di un incantatore primordiale che desiderava incanalare il potere del sole nei propri rituali, oppure aver vissuto in una comunità che venera la Figlia della Carovana Cosmica attraverso manifestazioni di devozione al sole. Qualunque sia il caso, hai sviluppato un legame soprannaturale con il sole.@Scegli due incrementi di caratteristica. Uno deve essere a Carisma o Destrezza, e uno è un incremento libero.",
+  "Boost": "Carisma o Destrezza, libero",
+  "Skill": "Esibizione",
+  "Talento": "Esibizione Affascinante",
+  "Mostrare": true
+},
+{
+  "Nome": "Investigatore delle Impennate",
+  "Desc": "Da fiumi che incantano chiunque si avvicini a foreste che parlano attraverso messaggi onirici, hai visto e studiato molti tipi di terreni magici. Il mondo è così ricco di magia da poter influenzare la terra stessa, e hai viaggiato a lungo per imparare a identificare le anomalie del terreno magico ovunque esse emergano.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.",
+  "Boost": "Costituzione o Saggezza, libero",
+  "Skill": "Natura o Occultismo, conoscenza(terreno magico)",
+  "Talento": "Esperto dei Terreni",
+  "Mostrare": true
+},
+{
+  "Nome": "Millantatore",
+  "Desc": "Hai cavalcato un tornado, imbrigliato un fiume, mostrato il fondoschiena a un drago sotto la luna piena e abbattuto sei zombi con un solo proiettile. Almeno così dicono le storie, e anche se la gente non ci crede del tutto, è comunque incuriosita da te. Di certo le voci continuano a diffondersi, e sembrerebbe che tu abbia un destino unico… o che tu stia cercando di convincere il mondo di averlo.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Carisma, e uno è un incremento libero.",
+  "Boost": "Costituzione o Carisma, libero",
+  "Skill": "Esibizione",
+  "Talento": "Esibizione Impressionante",
+  "Mostrare": true
+},
+{
+  "Nome": "Esattore delle Tasse",
+  "Desc": "Detestato ma necessario, venivi inviato quando le tasse erano dovute. Svolgere il tuo lavoro poteva richiedere viaggi e persuasione, oppure eri responsabile della riscossione delle imposte sul commercio. In ogni caso, spesso significava sporcarsi le mani, e l’avventura ti è sembrata il passo successivo più logico.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Carisma, e uno è un incremento libero.",
+  "Boost": "Forza o Carisma, libero",
+  "Skill": "Intimidazione, conoscenza(insediamento)",
+  "Talento": "Coercizione Rapida",
+  "Mostrare": true
+},
+{
+  "Nome": "Insegnante",
+  "Desc": "Sei incredibilmente istruito, competente e forse persino formato per insegnare a bambini e adulti il mondo e le sue meraviglie. Dai libri alle lezioni, sei impegnato a trasmettere conoscenza a tutti. Tuttavia, non tutto può essere insegnato o appreso da un libro, così sei diventato un avventuriero per imparare certe materie in modo diretto e riportare quella saggezza ai tuoi studenti.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Saggezza, libero",
+  "Skill": "Esibizione o Società, conoscenza(accademia)",
+  "Talento": "Professionista Esperto",
+  "Mostrare": true
+},
+{
+  "Nome": "Dipendente dalla Tecnologia",
+  "Desc": "Un evento, che sia stato un incidente, un attacco o un disastro, ti ha lasciato orribilmente segnato dalla magia. Il tuo corpo non tollera più la guarigione magica e non puoi usare la magia, costringendoti a fare affidamento su gadget e ingegno laddove altri si fidano di incantesimi e oggetti magici. Potresti essere stato un esperto di magia in passato o averne avuto solo una conoscenza superficiale. Questo evento potrebbe averti ferito in modo visibile, ma indipendentemente dall’entità delle tue ferite, il tuo corpo non interagisce più in alcun modo con la magia curativa.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Intelligenza, e uno è un incremento libero.",
+  "Boost": "Costituzione o Intelligenza, libero",
+  "Skill": "Artigianato, Medicina",
+  "Talento": "Medicina da Battaglia",
+  "Mostrare": true
+},
+{
+  "Nome": "Cercatore di Brividi",
+  "Desc": "Un tempo sei sopravvissuto a una situazione di vita o di morte e l’hai trovata sorprendentemente esaltante; ora insegui quella sensazione di invincibilità che provi solo quando danzi con la morte. Il tuo desiderio di adrenalina ti spinge a scalare edifici, saltare dai tetti, superare baratri e compiere altre imprese che sfidano la morte.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Costituzione, e uno è un incremento libero.",
+  "Boost": "Forza o Costituzione, libero",
+  "Skill": "Atletica, conoscenza(ingegneria)",
+  "Talento": "Arrampicatore da Combattimento",
+  "Mostrare": true
+},
+{
+  "Nome": "Guardiano delle Maree",
+  "Desc": "Da dove provieni, l’oceano è la linfa vitale della tua comunità; sapere come cambia in base alla luna era parte integrante della vita quotidiana. Hai studiato le fasi lunari per prevedere l’innalzarsi e l’abbassarsi delle acque. Col tempo hai sviluppato una capacità soprannaturale di prevedere, con una certa accuratezza, l’arrivo di cambiamenti più violenti, come maremoti o tempeste in avvicinamento. A volte spettava a te avvertire gli insediamenti di questi imminenti disastri naturali.@Scegli due incrementi di caratteristica. Uno deve essere a Carisma o Intelligenza, e uno è un incremento libero.",
+  "Boost": "Carisma o Intelligenza, libero",
+  "Skill": "Natura, conoscenza(oceano)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Corriere di Tiffin",
+  "Desc": "Conosciuto da alcuni come dabbawala, lavori per un servizio di consegna, portando e riportando robusti contenitori tiffin con pranzi sostanziosi per chi non può permettersi di portare il pranzo con sé durante il tragitto mattutino. Forse hai visto qualcosa che non avresti dovuto durante le consegne. Forse desideri qualcosa di più di una vita ordinaria. In ogni caso, sai come preparare uno o due pranzi per le tue future avventure.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.",
+  "Boost": "Destrezza o Intelligenza, libero",
+  "Skill": "Società, conoscenza(lavoro)",
+  "Talento": "Astuzia di strada",
+  "Mostrare": true
+},
+{
+  "Nome": "Viaggiatore del Tempo",
+  "Desc": "Provieni da un’epoca diversa. Per tua scelta o a causa di un terribile incidente, una potente magia ti ha portato in questo tempo dal futuro o dal passato, ma non sei in grado di tornare indietro. Potresti provenire dalla Nuova Thassilon, un’intera nazione di viaggiatori del tempo.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.@Ottieni la seguente azione: ###{\"nome\":\"Piegare il Tempo\",\"tipoAzz\":\"azioneGratis\",\"tratti\":[\"occulto\",\"trasmutazione\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Trigger\":\"Inizia il tuo turno\"},\"desc\":\"Diventi rapido per questo turno. Puoi usare l’azione extra per Avanzare.\"}###",
+  "Boost": "Destrezza o Intelligenza, libero",
+  "Skill": "conoscenza(era passata) x3",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Riparatore",
+  "Desc": "Creare ogni genere di piccole invenzioni soddisfa il tuo bisogno di risolvere problemi. Le tue capacità ingegneristiche prendono una piega particolarmente creativa e nessuno sa cosa tirerai fuori la prossima volta. Potrebbe essere un dispositivo geniale dal potenziale enorme… oppure potrebbe esplodere.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.",
+  "Boost": "Destrezza o Intelligenza, libero",
+  "Skill": "Artigianato, conoscenza(ingegneria)",
+  "Talento": "Specialità di Creazione",
+  "Mostrare": true
+},
+{
+  "Nome": "Nato nella Tomba",
+  "Desc": "I tuoi genitori ti hanno concepito per un fine oscuro in un luogo contaminato dalla morte, come il tumulo di un wight, una fossa comune o un ossario. Le loro ragioni potrebbero essere un mistero, oppure potresti conoscere il loro grande disegno e cercare di sfuggirvi o di portarlo a compimento. In ogni caso, sei al massimo della tua pericolosità quando sei vicino alla morte.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Costituzione, e uno è un incremento libero.@Ottieni la seguente reazione: ###{\"nome\":\"Ultimo Dispetto\",\"tipoAzz\":\"reazione\",\"tratti\":[],\"dettagli\":{\"Frequenza\":\"una volta al giorno\",\"Trigger\":\"Sei ridotto a 0 Punti Ferita\"},\"desc\":\"Effettui un Colpo prima di cadere privo di sensi.\"}###",
+  "Boost": "Destrezza o Costituzione, libero",
+  "Skill": "conoscenza(non morti)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Costruttore di Giocattoli",
+  "Desc": "Ti diletti a creare piccoli gingilli per bambini di tutte le età, e vedere i loro volti illuminarsi grazie a una delle tue creazioni riempie il tuo cuore di gioia. Forse vendi le tue merci da una bottega specifica o dal retro di un carro mentre viaggi di città in città.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Carisma, libero",
+  "Skill": "Artigianato, conoscenza(mercantile)",
+  "Talento": "Specialità di Creazione",
+  "Mostrare": true
+},
+{
+  "Nome": "Apripista",
+  "Desc": "Le regioni inesplorate ti hanno sempre affascinato, e hai esplorato e mappato vasti territori al servizio di mercanti, governi o della tua stessa curiosità. Dove alcuni vedono uno spazio vuoto su una mappa, tu vedi il potenziale per qualcosa di nuovo e ancora sconosciuto.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.",
+  "Boost": "Costituzione o Saggezza, libero",
+  "Skill": "Sopravvivenza, conoscenza(cartografia)",
+  "Talento": "Esperto dei Terreni",
+  "Mostrare": true
+},
+{
+  "Nome": "Traduttore",
+  "Desc": "In gioventù hai imparato a trascrivere libri e tradurre pergamene per preservare la conoscenza o forse per aiutare ricchi mercanti e politici. Che tu abbia deciso di cercare la tua fortuna o sia attratto dal decifrare i codici più strani, la tua formazione linguistica guiderà le tue scoperte.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Carisma, libero",
+  "Skill": "Società, conoscenza(scriba)",
+  "Talento": "Poliglotto",
+  "Mostrare": true
+},
+{
+  "Nome": "Gourmet Itinerante",
+  "Desc": "Avendo avuto molto tempo per affinare le tue abilità culinarie, sai trarre il massimo da ogni piatto che crei. Hai grande esperienza nell’utilizzare ingredienti difficili e resistenti, poiché Zi Ha è nota per ospitare molte piante carnivore, funghi tossici e animali robusti e lanosi. Ci sono molte ragioni per cui uno chef esperto come te potrebbe cercare l’avventura, che sia per ampliare il proprio palato o per esplorare le cucine di altri paesi.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.",
+  "Boost": "Destrezza o Intelligenza, libero",
+  "Skill": "Sopravvivenza, conoscenza(cucina)",
+  "Talento": "Raccoglitore",
+  "Mostrare": true
+},
+{
+  "Nome": "Testimone del Tiranno",
+  "Desc": "Quando Tar-Baphon si è liberato da Gallowspire, lo hai visto emergere. Quando il lich sterminatore di dèi ha annientato Vigil e il Forziere di Roslar, sei fuggito in cerca di salvezza. E quando la pioggia necrotica ha spazzato le terre e il Giardino Sussurrante è cresciuto, hai resistito alle tempeste. Altri parlano di ciò che il ritorno del Tiranno Sussurrante ha fatto a Lastwall, ma tu eri lì. E questo ti ha cambiato.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Destrezza o Saggezza, libero",
+  "Skill": "conoscenza(non morti)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Becchino",
+  "Desc": "La gente muore. Questo è l’infelice fatto della vita su cui hai fondato la tua attività, perché ovunque le persone muoiano c’è bisogno di servizi funerari. Potresti essere un sacerdote di Pharasma o un professionista laico, ma il tuo compito è occuparti del corpo, confortare i dolenti e assicurarti che il defunto raggiunga la sua ricompensa finale con la dovuta dignità. Naturalmente, qualcuno nella tua posizione vede molte morti strane, e probabilmente una di queste ti ha messo sulla strada dell’avventura.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Saggezza, libero",
+  "Skill": "Medicina, conoscenza(non morti locali)",
+  "Talento": "Acume Forense",
+  "Mostrare": true
+},
+{
+  "Nome": "Rappresentante Sindacale",
+  "Desc": "Potresti aver lottato per una distribuzione più equa del minerale per il Sindacato dei Forgiatori di Metallo, per salari più alti degli chef nel Sindacato dei Provvigionatori o per contratti mercenari migliori per l’Unione di Ascia e Moneta. Qualunque sia il caso, hai esperienza nel mondo ad alta tensione del tavolo delle trattative, un’esperienza che si traduce sorprendentemente bene nella vita dell’avventuriero.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Carisma, e uno è un incremento libero.",
+  "Boost": "Intelligenza o Carisma, libero",
+  "Skill": "Diplomazia, conoscenza(legale)",
+  "Talento": "Negoziante di Contratti",
+  "Mostrare": true
+},
+{
+  "Nome": "Insignificante",
+  "Desc": "Il tuo volto è particolarmente anonimo, anche se la tua presenza o le tue azioni potrebbero non esserlo. Sai come sfruttare questo fatto a tuo vantaggio, rendendo difficile per le persone identificarti o raccogliere informazioni su di te.@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.",
+  "Boost": "Saggezza o Carisma, libero",
+  "Skill": "Inganno, conoscenza(recitazione)",
+  "Talento": "Diversione Prolungata",
+  "Mostrare": true
+},
+{
+  "Nome": "Veterano",
+  "Desc": "Hai visto più battaglie di quante tu riesca a ricordare e sei riuscito a superarle quasi sempre indenne. Nulla ti sorprende più, se non forse quando le cose vanno davvero secondo i piani. Sei sempre piacevolmente sorpreso quando riesci a sopravvivere a un altro giorno.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.",
+  "Boost": "Costituzione o Saggezza, libero",
+  "Skill": "Atletica, conoscenza(guerra)",
+  "Talento": "Aiuto per l'Armatura",
+  "Mostrare": true
+},
+{
+  "Nome": "Predicatore Errante",
+  "Desc": "Un tempo parlavi a una piccola congregazione in una chiesa fatiscente, ma quei giorni sono ormai alle spalle. La tua chiesa è stata distrutta, i fedeli dispersi, e ora vaghi per le terre con una copia consunta del tuo testo sacro in una mano e una fervente convinzione nell’altra.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.",
+  "Boost": "Costituzione o Saggezza, libero",
+  "Skill": "Religione, conoscenza(divinità)",
+  "Talento": "Simbolo del Pellegrino",
+  "Mostrare": true
+},
+{
+  "Nome": "Orfano di Guerra",
+  "Desc": "Gli orrori della guerra ti hanno lasciato orfano e solo, costringendoti a cavartela da solo finché non sei stato istruito sulle vie del mondo da un gruppo di giovani colpiti da un destino simile al tuo. Erano come una nuova famiglia, ma per sopravvivere dovevate vivere al di fuori della legge. Quei giorni sono finiti, ma ci sono certi trucchi che non dimenticherai mai.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Costituzione, e uno è un incremento libero.",
+  "Boost": "Destrezza o Costituzione, libero",
+  "Skill": "Furto, conoscenza(mondo criminale)",
+  "Talento": "Trucco Sporco",
+  "Mostrare": true
+},
+{
+  "Nome": "Affidato",
+  "Desc": "Quando eri giovane sei diventato l’affidato di un’altra casata: ospitato, nutrito ed educato, ma senza mai farne davvero parte. Forse dovevi occuparti dei loro bisogni in cambio del loro sostegno, oppure venivi mantenuto ma ignorato. Ora l’avventura è la tua occasione per crescere e vagare libero.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Carisma, e uno è un incremento libero.",
+  "Boost": "Costituzione o Carisma, libero",
+  "Skill": "Esibizione, conoscenza(genealogia)",
+  "Talento": "Esibizione Affascinante",
+  "Mostrare": true
+},
+{
+  "Nome": "Protetto dai Kami",
+  "Desc": "Hai vissuto tra i kami, attingendo a una fonte di potere spirituale che scorre profonda nella Foresta degli Spiriti. Hai sentito molte voci su ciò che si cela oltre la sicurezza della tua casa e, nel bene o nel male, ti hanno incuriosito. Qualunque siano le ragioni che ti hanno spinto a partire, resti legato all’entità che funge da tuo protettore. Che tu ritorni al luogo della tua nascita o trovi una nuova terra da chiamare casa dipende da te.@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@Ottieni un protettore che ti vincola a uno specifico animale, pianta, oggetto o luogo a tua scelta. Una volta al giorno puoi spendere un’azione Interagire per fondersi con il tuo protettore e recuperare Punti Ferita pari al tuo livello. Questa capacità ha il tratto guarigione.",
+  "Boost": "Intelligenza o Saggezza, libero",
+  "Skill": "Occultismo, conoscenza(spiriti)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Guerriero",
+  "Desc": "In gioventù ti sei gettato nella battaglia come mercenario, come difensore di un popolo nomade o come membro di una milizia o di un esercito. Potresti aver desiderato sfuggire alla struttura rigida di queste forze, oppure potresti essere sempre stato un guerriero indipendente come lo sei ora.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Costituzione, e uno è un incremento libero.",
+  "Boost": "Forza o Costituzione, libero",
+  "Skill": "Intimidazione, conoscenza(guerra)",
+  "Talento": "Sguardo Intimidatorio",
+  "Mostrare": true
+},
+{
+  "Nome": "Camminatore delle Distese",
+  "Desc": "Che tu sia cresciuto nelle Distese di Mana o in un altro luogo altrettanto desolato, hai imparato rapidamente che solo i forti sopravvivono. Tu e la tua famiglia siete stati costretti a eludere mostri, mutanti, magia selvaggia e peggio ancora, mentre ogni nuovo giorno annunciava la possibilità di un pericolo mai visto prima. Hai imparato ad adattarti alle condizioni peggiori e a raccogliere risorse e sopravvivere in un luogo in cui pochi altri oserebbero vivere.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Forza o Saggezza, libero",
+  "Skill": "Sopravvivenza, conoscenza(distese di mana)",
+  "Talento": "Raccoglitore",
+  "Mostrare": true
+},
+{
+  "Nome": "Tessitore",
+  "Desc": "Sei un tessitore esperto, capace di creare le tue opere a mano o al telaio. Che tu ti consideri o meno un artista, nessuno può negare la bellezza della tua arte. Tuttavia, la vita del tessitore non è tra le più emozionanti, e le tue dita fremono per l’avventura.@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Saggezza, e uno è un incremento libero.",
+  "Boost": "Destrezza o Saggezza, libero",
+  "Skill": "Artigianato, conoscenza(intreccio cesti) o conoscenza(arazzi) o conoscenza(tessuti)",
+  "Talento": "Specialità di Creazione",
+  "Mostrare": true
+},
+{
+  "Nome": "Ospite Consenziente",
+  "Desc": "Parli con spiriti che solo tu puoi percepire: brandelli evanescenti di anime perdute, guardiani domestici, spiriti ancestrali e altre entità. Puoi negoziare con questi esseri, permettendo loro di entrare nel tuo corpo per trasmetterti conoscenza o aiutarti in un compito in cambio di un favore.@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Carisma, e uno è un incremento libero.@Ottieni la seguente azione: ###{\"nome\":\"Ospitare Spirito\",\"tipoAzz\":\"azione\",\"tratti\":[\"esplorazione\",\"necromanzia\",\"occulto\"],\"dettagli\":{\"Frequenza\":\"una volta al giorno\"},\"desc\":\"Tenti una prova di abilità per svolgere un’attività di esplorazione, anche se normalmente richiederebbe di essere addestrato. Sei addestrato nell’abilità solo per il tempo necessario a effettuare quella singola prova (fino a un massimo di 10 minuti). Indipendentemente dall’esito della prova, entro le 24 ore successive devi compiere un piccolo favore per placare lo spirito che ti ha aiutato, determinato dal GM (di solito qualcosa legato alle sensazioni, come assaggiare un certo cibo, ascoltare una canzone specifica o fumare una pipa). Non puoi Ospitare Spirito di nuovo finché non hai compiuto il favore. Se non lo completi entro 24 ore, diventi affaticato finché l’obbligo non viene assolto.\"}###",
+  "Boost": "Saggezza o Carisma, libero",
+  "Skill": "conoscenza(spiriti)",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Desiderato Vivo",
+  "Desc": "Un tempo eri un semplice costrutto o una bambola inanimata, ma a causa di un desiderio profondamente sentito, tuo o di qualcun altro, hai preso vita e ora sei una creatura viva e respirante.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Carisma, e uno è un incremento libero.@Una volta al giorno puoi esprimere con fervore un desiderio per qualcosa che potresti ottenere con il tuo impegno come un’azione singola con il tratto concentrazione. Se lo fai, ottieni un bonus di circostanza +2 alla prima prova di abilità che tenti prima della fine del tuo turno per realizzare quel desiderio.",
+  "Boost": "Costituzione o Carisma, libero",
+  "Skill": "Diplomazia",
+  "Talento": "",
+  "Mostrare": true
+},
+{
+  "Nome": "Vincolato allo Zodiaco",
+  "Desc": "Indovini e oracoli sostengono che il segno zodiacale di una persona influenzi la sua personalità e il suo destino; anche se non è vero per tutti, sembra esserlo per te. Sei nato sotto una potente manifestazione di una specifica costellazione, corrispondente a un simbolo dello zodiaco. Quando ottieni questo background, scegli una costellazione specifica dall’elenco seguente. La costellazione associata determina uno degli incrementi di caratteristica che ottieni e un incantesimo innato. L’elenco include i benefici delle costellazioni dello Zodiaco degli Imperi del Drago, ma potresti essere nato sotto una costellazione diversa e ottenere benefici differenti come determinato dal GM.@Scegli due incrementi di caratteristica. Uno deve essere legato al tuo segno, e uno è un incremento libero.@Sei addestrato in conoscenza(astrologia). Ottieni inoltre la capacità di lanciare un incantesimo innato divino, determinato dal tuo segno. La frequenza con cui puoi lanciare questo incantesimo è indicata di seguito; i trucchetti possono essere usati a volontà. Come di consueto, lanci gli incantesimi innati non trucchetto al rango minimo disponibile per quell’incantesimo e i trucchetti sono intensificati a metà del tuo livello. Inoltre, una volta durante il periodo di massima influenza del tuo segno (di norma una volta all’anno), puoi lanciare l’incantesimo del tuo segno senza consumarne l’uso normale.@Il Drago degli Inferi (Intelligenza): accensione; a volontà@La Spadaccina (Destrezza): raffica di vento; a volontà@Il Drago del Mare (Costituzione): respirare sott’acqua; una volta a settimana@La Rondine (Destrezza): salto; una volta al giorno@Il Bue (Forza): trasporto potenziato; una volta al giorno@Il Drago Sovrano (Carisma): comando; una volta al giorno@L’Orco (Forza): paura; una volta al giorno@Il Drago della Foresta (Saggezza): liana avvolgente; a volontà@Il Fiore (Carisma): colori stordenti; una volta al giorno@Il Cane (Costituzione): mente lucida; una volta a settimana@Il Drago del Cielo (Intelligenza): benedizione; una volta al giorno@L’Arciere (Destrezza): colpo sicuro; una volta al giorno",
+  "Boost": "caratteristica del segno, libero",
+  "Skill": "conoscenza(astrologia)",
+  "Talento": "",
+  "Mostrare": true
+}
+
+]
