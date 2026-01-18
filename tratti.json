@@ -1,0 +1,1387 @@
+[
+  {
+    "Nome": "Aasimar",
+    "Desc": "Una creatura con questo tratto possiede l'eredità versatile aasimar. Gli aasimar sono discendenti planari nati da esseri celestiali. Un'abilità con questo tratto può essere usata o selezionata solo da aasimar."
+  },
+  {
+    "Nome": "Aberrazione",
+    "Desc": "Le aberrazioni sono creature provenienti da oltre i piani o corruzioni dell'ordine naturale."
+  },
+  {
+    "Nome": "Abiurazione",
+    "Desc": "Gli effetti e gli oggetti magici con questo tratto sono associati alla scuola di magia dell'abiurazione, tipicamente legata alla protezione o alle barriere."
+  },
+  {
+    "Nome": "Acido",
+    "Desc": "Gli effetti con questo tratto infliggono danni da acido. Le creature con questo tratto hanno una connessione con l'acido magico."
+  },
+  {
+    "Nome": "Additivo",
+    "Desc": "I talenti con il tratto additivo ti permettono di aggiungere sostanze speciali ai consumabili alchemici che crei quando usi Alchimia Rapida per creare un consumabile (non puoi usare additivi con le fiale rapide). Puoi aggiungere un solo additivo a un singolo oggetto alchemico, puoi aggiungere un additivo solo una volta per round, e la maggior parte delle capacità additive specifica un sottoinsieme di consumabili alchemici a cui possono essere applicate."
+  },
+  {
+    "Nome": "Modificato",
+    "Desc": "L'equipaggiamento è dotato di una modifica descritta nella sua voce. Questa modifica è integrata permanentemente nell'equipaggiamento, il che significa che non può riceverne un'altra né essere sostituita con una diversa. Se la modifica altera le statistiche base dell'oggetto, come l'aggiunta del tratto rumoroso, ciò è riflesso nella voce della tabella dell'equipaggiamento."
+  },
+  {
+    "Nome": "Modifica",
+    "Desc": "Gli oggetti con questo tratto sono pensati per alterare pezzi di equipaggiamento esistenti, tipicamente armature, scudi e armi. L'oggetto specifica quale tipo di equipaggiamento modifica. Una modifica che altera un'armatura non può modificare l'abbigliamento da esploratore. Un pezzo di equipaggiamento può essere influenzato da una sola modifica alla volta. Se non diversamente indicato, aggiungere o rimuovere una modifica richiede un'attività di 10 minuti e un kit da riparazione."
+  },
+  {
+    "Nome": "Aeon",
+    "Desc": "Questi monitor si considerano i difensori della realtà. Gli aeon tradizionali possiedono nature e forme dualistiche, incarnano una dicotomia di interessi e comunicano tramite una strana forma di trasmissione sensoriale telepatica chiamata “visualizzazione”. Gli assiomiti e le loro creazioni sono aeon, ma non condividono tutte le caratteristiche degli aeon tradizionali."
+  },
+  {
+    "Nome": "Aesir",
+    "Desc": "Gli aesir sono monitor spesso bellicosi, che affinano le proprie abilità in battaglia e si preparano a uno scontro finale alla fine del multiverso."
+  },
+  {
+    "Nome": "Conseguenza",
+    "Desc": "Questo tratto descrive talenti che rappresentano capacità speciali ottenute dopo l'esposizione a fenomeni strani e letali."
+  },
+  {
+    "Nome": "Agathion",
+    "Desc": "Questa famiglia di celestiali dalle fattezze animali è originaria del piano di Nirvana. La maggior parte degli agathion è sacra, possiede scurovisione e ha una debolezza all'empio."
+  },
+  {
+    "Nome": "Agile",
+    "Desc": "La penalità agli attacchi multipli che subisci con quest'arma nel secondo attacco del tuo turno è –4 invece di –5, e –8 invece di –10 nel terzo e nei successivi attacchi del turno."
+  },
+  {
+    "Nome": "Aria",
+    "Desc": "Gli effetti con il tratto aria manipolano o evocano aria. Quelli che manipolano l'aria non hanno effetto nel vuoto o in un'area priva d'aria. Le creature con questo tratto sono composte principalmente di aria o hanno una connessione con l'aria magica.\n\nI piani con questo tratto consistono per lo più in spazi aperti e aria con vari livelli di turbolenza, sebbene contengano anche rare isole di pietra fluttuante e altri elementi ed energie. I piani dell'aria di solito hanno atmosfere respirabili, ma possono includere nubi di gas acido o tossico. Le creature della terra spesso si trovano in difficoltà nei piani dell'aria, poiché c'è poco terreno solido da cui trarre orientamento, il che tende almeno a renderle a disagio."
+  },
+  {
+    "Nome": "Aiuvarin",
+    "Desc": "Una creatura con questo tratto possiede l'eredità versatile aiuvarin. Gli aiuvarin sono di ascendenza mista, inclusi elfi o altri aiuvarin. Un'abilità con questo tratto può essere usata o selezionata solo da aiuvarin."
+  },
+  {
+    "Nome": "Alchemico",
+    "Desc": "Gli oggetti alchemici sono alimentati da reazioni di reagenti alchemici. Se non diversamente indicato, gli oggetti alchemici non sono magici e non emanano un'aura magica.\n\nLe creature alchemiche sono parzialmente alimentate da reazioni alchemiche."
+  },
+  {
+  "Nome": "Alchimista",
+  "Desc": "Questo indica capacità della classe dell'alchimista."
+  },
+  {
+    "Nome": "Amp",
+    "Desc": "Un amp è una speciale forma-pensiero che modifica le proprietà dei tuoi trucchetti psionici. Ogni trucchetto psionico possiede il proprio amp, e i talenti con il tratto amp forniscono diversi amp che puoi applicare ai trucchetti psionici al posto dei loro amp normali."
+  },
+  {
+    "Nome": "Anfibio",
+    "Desc": "Una creatura anfibia può respirare sia in acqua sia nell'aria, anche al di fuori del proprio ambiente preferito, di solito indefinitamente ma almeno per alcune ore. Queste creature spesso possiedono una Velocità di nuotare. I loro Colpi senz'armi contundenti e taglienti non subiscono la consueta penalità di –2 per essere sott'acqua."
+  },
+  {
+    "Nome": "Anadi",
+    "Desc": "Un popolo schivo di Garund che ricorda dei ragni e può assumere forme umane."
+  },
+  {
+    "Nome": "Android",
+    "Desc": "Un'ascendenza umanoide sintetica creata tramite mezzi artificiali. Più comune in Numeria."
+  },
+  {
+    "Nome": "Angelo",
+    "Desc": "Questa famiglia di celestiali è originaria del piano di Nirvana."
+  },
+  {
+    "Nome": "Animale",
+    "Desc": "Un animale è una creatura con un'intelligenza relativamente bassa. In genere non possiede un modificatore di Intelligenza superiore a –4, non può parlare lingue e non può essere addestrato in abilità basate sull'Intelligenza."
+  },
+  {
+    "Nome": "Animista",
+    "Desc": "Indica capacità provenienti dalla classe dell'animista."
+  },
+  {
+    "Nome": "Anugobu",
+    "Desc": "Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."
+  },
+  {
+    "Nome": "Apex",
+    "Desc": "Quando Investi un oggetto che possiede il tratto apex, esso migliora uno dei tuoi attributi, aumentando il modificatore dell'attributo di 1 oppure portandolo a un totale di +4, scegliendo l'opzione che fornisce il valore più alto. Ottieni tutti i benefici del nuovo modificatore dell'attributo finché l'investitura rimane attiva: aumentare l'Intelligenza ti permette di diventare addestrato in un'abilità aggiuntiva e di imparare una nuova lingua, aumentare la Costituzione ti fornisce più Punti Ferita, e così via.\n\nUn oggetto apex fornisce questo beneficio solo la prima volta che viene investito in un periodo di 24 ore, e puoi beneficiare di un solo oggetto apex alla volta. Se tenti di investire un oggetto apex quando ne hai già uno investito, non ottieni l'aumento del modificatore dell'attributo, ma ottieni comunque gli altri effetti dell'Investire l'Oggetto."
+  },
+  {
+    "Nome": "Aphorite",
+    "Desc": "Un tipo di discendente planare originato da un essere proveniente da Axis, il Piano della Legge."
+  },
+  {
+    "Nome": "Apparizione",
+    "Desc": "Le apparizioni sono entità spirituali che in genere non possiedono il potere, la coesione o i legami necessari per entrare o influenzare il mondo fisico. A differenza di un fantasma o di uno spettro, un'apparizione non deve necessariamente essere stata una creatura vivente e può rappresentare la memoria spirituale di un luogo o di un evento particolarmente significativo. Le apparizioni dipendono dagli animisti per interagire con altre persone e cose e in genere non possono essere bersagliate o influenzate da incantesimi e capacità diverse da quelle dell'animista a cui sono sintonizzate. I talenti e le capacità dell'animista che influenzano gli spiriti influenzano le apparizioni solo se lo specificano esplicitamente.\n\nLe capacità dell'animista con il tratto apparizione coinvolgono una o più delle tue apparizioni che agiscono al tuo fianco. Devi essere sintonizzato con almeno un'apparizione per usare una capacità di apparizione, e alcune capacità possono specificare più precisamente nei loro requisiti con quale apparizione devi essere sintonizzato. In genere si presume che tu ti sintonizzi sempre con le tue apparizioni durante le tue preparazioni giornaliere, ma in alcune rare circostanze o come risultato di certe capacità dell'animista, le tue apparizioni possono essere disperse o separate da te per un certo periodo; non sei sintonizzato con apparizioni disperse."
+  },
+  {
+    "Nome": "Aquadinamico",
+    "Desc": "Questa armatura è progettata per l'uso sott'acqua, con un design affusolato e materiali galleggianti collocati in punti strategici. Non applichi la penalità alle prove dell'armatura alle prove di Acrobazia o Atletica effettuate in acqua o in liquidi simili."
+  },
+  {
+    "Nome": "Acquatico",
+    "Desc": "Le creature acquatiche sono a loro agio sott'acqua. I loro Colpi senz'armi contundenti e taglienti non subiscono la consueta penalità di –2 per essere sott'acqua. Le creature acquatiche possono respirare in acqua ma non nell'aria."
+  },
+  {
+    "Nome": "Arcano",
+    "Desc": "Questa magia proviene dalla tradizione arcana, che si basa su logica e razionalità. Tutto ciò che possiede questo tratto è magico.\n\nUna creatura con questo tratto è costituita principalmente da magia arcana o ha una forte connessione con essa."
+  },
+  {
+    "Nome": "Archetipo",
+    "Desc": "Questo talento appartiene a un archetipo."
+  },
+  {
+    "Nome": "Archon",
+    "Desc": "Questa famiglia di celestiali protegge il Paradiso."
+  },
+  {
+    "Nome": "Ardande",
+    "Desc": "Gli ardande sono discendenti planari originati dai kizidhar e da altri esseri del legno elementale."
+  },
+  {
+    "Nome": "Esercito",
+    "Desc": "Questo oggetto è collegato al sistema di Guerra."
+  },
+  {
+    "Nome": "Artefatto",
+    "Desc": "Gli oggetti con questo tratto sono artefatti. Questi oggetti magici non possono essere creati con mezzi normali e non possono essere danneggiati con mezzi ordinari. Gli artefatti sono sempre rari o unici."
+  },
+  {
+    "Nome": "Astrale",
+    "Desc": "Le creature astrali sono native del Piano Astrale. Possono sopravvivere agli effetti ambientali di base del Piano Astrale."
+  },
+  {
+    "Nome": "Asura",
+    "Desc": "Questi immondi sono manifestazioni fisiche di incidenti divini. Gli asura possiedono tipicamente scurovisione, immunità alle maledizioni e una debolezza al sacro."
+  },
+  {
+    "Nome": "Athamaru",
+    "Desc": "Gli athamaru sono umanoidi acquatici dall'aspetto simile a pesci."
+  },
+  {
+    "Nome": "Agganciata",
+    "Desc": "Un'arma agganciata deve essere combinata con un altro pezzo di equipaggiamento per essere utilizzata. Il tratto indica a quale tipo di oggetto l'arma deve essere attaccata. Devi impugnare o indossare l'oggetto a cui l'arma è attaccata per poterla usare per attaccare. Per esempio, le punte da scudo sono attaccate a uno scudo, permettendoti di attaccare con le punte invece di effettuare una botta di scudo. Un'arma attaccata è di solito imbullonata o integrata nell'oggetto a cui è fissata, e in genere un oggetto può avere una sola arma attaccata. Un'arma attaccata può essere fissata a un oggetto con 10 minuti di lavoro e una prova di Artigianato con CD 10 riuscita; questo include il tempo necessario a rimuovere l'arma da un oggetto precedente, se necessario. Se un oggetto viene distrutto, la sua arma attaccata può di solito essere recuperata."
+  },
+  {
+    "Nome": "Attacco",
+    "Desc": "Un'abilità con questo tratto implica un attacco. Per ogni attacco che effettui oltre al primo nel tuo turno, subisci una penalità agli attacchi multipli."
+  },
+  {
+    "Nome": "Uditivo",
+    "Desc": "Le azioni e gli effetti uditivi si basano sul suono. Un'azione con il tratto uditivo può essere eseguita con successo solo se la creatura che la usa può parlare o produrre in altro modo i suoni richiesti. Un incantesimo o un effetto con il tratto uditivo ha effetto solo se il bersaglio può udirlo. Questo vale solo per le parti dell'effetto basate sul suono, come determinato dal GM. Ciò è diverso da un effetto sonoro, che influenza comunque i bersagli che non possono sentire (come i bersagli sordi) purché l'effetto stesso produca suono."
+  },
+  {
+    "Nome": "Aura",
+    "Desc": "Un'aura è un'emanazione che fluisce costantemente da te, influenzando le creature entro un certo raggio. Aura può anche riferirsi alla firma magica di un oggetto."
+  },
+  {
+    "Nome": "Automa",
+    "Desc": "Gli automi sono costrutti viventi sostenuti da un nucleo magico."
+  },
+  {
+    "Nome": "Animale Risvegliato",
+    "Desc": "Gli animali risvegliati erano un tempo creature normali prima di ottenere la senzienza."
+  },
+  {
+    "Nome": "Azarketi",
+    "Desc": "Gli azarketi sono una derivazione degli umani adattata a vivere in comunità acquatiche. Possiedono branchie, dita palmate e piccole pinne, e possono sopravvivere sia dentro sia fuori dall'acqua."
+  },
+  {
+    "Nome": "Azata",
+    "Desc": "Questa famiglia di celestiali è originaria di Elysium."
+  },
+  {
+    "Nome": "Colpo alle Spalle",
+    "Desc": "Quando colpisci una creatura impreparata, quest'arma infligge 1 danno di precisione in aggiunta ai suoi danni normali. Il danno di precisione aumenta a 2 se l'arma è un'arma +3."
+  },
+  {
+    "Nome": "Rinculo",
+    "Desc": "Puoi usare lo slancio di un attacco mancato con quest'arma per preparare il tuo attacco successivo. Dopo aver mancato un attacco con quest'arma nel tuo turno, ottieni un bonus di circostanza +1 al tuo prossimo attacco con quest'arma prima della fine del tuo turno."
+  },
+  {
+    "Nome": "Stendardo",
+    "Desc": "I riferimenti al tuo stendardo indicano lo stendardo fornito dalla capacità di classe stendardo del comandante, che conferisce un bonus costante a tutti gli alleati entro la sua aura e influenza la portata e l'area di molte delle tue tattiche."
+  },
+  {
+    "Nome": "Barbaro",
+    "Desc": "Indica capacità provenienti dalla classe del barbaro."
+  },
+  {
+    "Nome": "Bardo",
+    "Desc": "Indica capacità provenienti dalla classe del bardo."
+  },
+  {
+    "Nome": "Bardatura",
+    "Desc": "Puoi acquistare armature speciali per animali, chiamate bardature. Tutti gli animali hanno un grado di competenza Addestrato nelle bardature leggere, e gli animali addestrati al combattimento sono Addestrati nelle bardature pesanti. Le bardature seguono le stesse regole delle armature, con le seguenti eccezioni. Il Prezzo e l'Ingombro della bardatura dipendono dalla taglia dell'animale. A differenza di un'armatura normale, il requisito di Forza della bardatura è indicato come modificatore, non come punteggio. Le bardature non possono essere incise con rune magiche, anche se possono esistere bardature magiche speciali."
+  },
+  {
+    "Nome": "Bestia",
+    "Desc": "Una creatura simile a un animale ma con un modificatore di Intelligenza pari a –3 o superiore è solitamente una bestia. A differenza di un animale, una bestia potrebbe essere in grado di parlare e ragionare."
+  },
+  {
+    "Nome": "Beastkin",
+    "Desc": "Umanoidi che possono trasformarsi parzialmente o completamente in forme animali."
+  },
+  {
+    "Nome": "Benefico",
+    "Desc": "Gli eventi benefici forniscono vantaggi e benefici al regno."
+  },
+  {
+    "Nome": "Blight",
+    "Desc": "Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."
+  },
+  {
+    "Nome": "Boggard",
+    "Desc": "I boggard sono umanoidi simili a rane. In genere possiedono scurovisione."
+  },
+  {
+    "Nome": "Bomba",
+    "Desc": "Una bomba alchemica combina componenti alchemici volatili che esplodono quando la bomba colpisce una creatura o un oggetto. La maggior parte delle bombe alchemiche infligge danni, anche se alcune producono altri effetti."
+  },
+  {
+    "Nome": "Respiro in Bottiglia",
+    "Desc": "I respiri in bottiglia sono bottiglie incantate di nuvole e nebbia, sviluppate per la prima volta dagli abitanti del Piano dell'Aria. Puoi Attivare un oggetto con il tratto respiro in bottiglia inalando il contenuto o facendo inalare un'altra creatura. Puoi far inalare un respiro in bottiglia a un'altra creatura solo se si trova entro la tua portata ed è consenziente o così indifesa da non poter opporre resistenza. Di solito è sufficiente una sola mano per consumare un respiro in bottiglia o per farlo inalare a un'altra creatura.\n\nIl respiro in bottiglia viene trattenuto nei polmoni dell'utilizzatore e i suoi effetti durano finché l'utilizzatore trattiene il respiro. Questo è in genere un numero massimo di round pari a 5 + il modificatore di Costituzione della creatura, ma questo tempo può essere ridotto a causa delle azioni della creatura o dei danni subiti, oppure esteso da capacità che aumentano il tempo per cui una creatura può trattenere il respiro.\n\nAlcuni consumabili di respiro in bottiglia hanno un effetto speciale quando vengono espirati. Poiché stai espirando il respiro, farlo consuma l'oggetto."
+  },
+  {
+    "Nome": "Incastro",
+    "Desc": "Un'arma con il tratto incastro è efficace nel danneggiare avversari in movimento. Quando ti Prepari a Colpire un avversario che si muove entro la tua portata, fino all'inizio del tuo prossimo turno i Colpi effettuati con l'arma con incastro infliggono 2 danni di precisione aggiuntivi per ogni dado di danno dell'arma."
+  },
+  {
+    "Nome": "Sventolare",
+    "Desc": "Il tratto sventolare indica una capacità che prevede che tu agiti o mostri attivamente il tuo stendardo. Per usare una capacità con il tratto sventolare, devi tenere lo stendardo in una mano o impugnare un'arma a cui è attaccato. Poiché devi segnalare attivamente con il tuo stendardo per dirigere i tuoi compagni di squadra mentre usi una tattica con il tratto sventolare, non puoi usare azioni gratuite o reazioni concesse come parte di una tattica di sventolare, a meno che non sia indicato diversamente."
+  },
+  {
+    "Nome": "Bravura",
+    "Desc": "Le azioni con questo tratto possono concedere panache, a seconda del risultato della prova coinvolta. Se riesci nella prova di un'azione di bravura, ottieni panache; se fallisci la prova (ma non con un fallimento critico), ottieni comunque panache, ma solo fino alla fine del tuo prossimo turno. Questi effetti possono essere applicati anche se l'azione non ha avuto altri effetti a causa di un fallimento o dell'immunità di una creatura."
+  },
+  {
+    "Nome": "Brutale",
+    "Desc": "Un attacco a distanza con questo tratto utilizza il modificatore di Forza invece di quello di Destrezza per il tiro per colpire."
+  },
+  {
+    "Nome": "Bugbear",
+    "Desc": "Una creatura con questo tratto è un goblinoide peloso e furtivo. I bugbear tendono a possedere scurovisione."
+  },
+  {
+    "Nome": "Edificio",
+    "Desc": "Il tratto edificio indica che la struttura è composta da una raccolta di siti al chiuso."
+  },
+  {
+    "Nome": "Baluardo",
+    "Desc": "L'armatura ti copre in modo così completo da fornirti benefici contro alcuni effetti dannosi. Nei Tiri Salvezza su Riflessi per evitare un effetto dannoso, come una palla di fuoco, aggiungi un modificatore di +3 invece del tuo modificatore di Destrezza."
+  },
+  {
+    "Nome": "Caligni",
+    "Desc": "Questi popoli sotterranei possiedono scurovisione e alcuni hanno il potere di creare oscurità."
+  },
+  {
+    "Nome": "Chiamata",
+    "Desc": "Tutti i personaggi mitici ottengono una Chiamata quando acquisiscono per la prima volta il potere mitico, di solito al 1° o al 2° livello. Le Chiamate definiscono lo scopo del potere mitico di un personaggio e forniscono un modo unico per recuperare Punti Mitici."
+  },
+  {
+    "Nome": "Campeggio",
+    "Desc": "Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."
+  },
+  {
+    "Nome": "Trucchetto",
+    "Desc": "Un incantesimo che puoi lanciare a volontà e che viene automaticamente potenziato a metà del tuo livello, arrotondato per eccesso."
+  },
+  {
+    "Nome": "Capacità",
+    "Desc": "Le armi con il tratto capacità hanno in genere più canne o camere in grado di contenere un dardo o una cartuccia di munizioni. Capacità è sempre accompagnato da un numero che indica il numero di canne o camere. Dopo aver sparato con un'arma a capacità, puoi selezionare la canna o la camera successiva caricata come azione Interagire che non richiede una mano libera. Puoi usare capacità che ti permettono o richiedono di Interagire per ricaricare per cambiare canna o camera di un'arma a capacità. Ogni canna o camera può essere ricaricata individualmente dopo essere stata usata, come azione Interagire separata."
+  },
+  {
+    "Nome": "Catalizzatore",
+    "Desc": "Gli oggetti con il tratto catalizzatore sono consumabili che alterano o amplificano incantesimi specifici. Usare un catalizzatore aggiunge il tratto maneggiare all'incantesimo. Attivare un catalizzatore fa parte del Lanciare l'Incantesimo. Il catalizzatore può aumentare il numero di azioni richieste per Lanciare l'Incantesimo, come indicato nella voce Attivazione del catalizzatore. Puoi estrarre il catalizzatore come parte del Lanciare l'Incantesimo."
+  },
+  {
+    "Nome": "Catfolk",
+    "Desc": "Una creatura con questo tratto appartiene all'ascendenza dei catfolk. I catfolk sono umanoidi con tratti felini. Un'abilità con questo tratto può essere usata o selezionata solo dai catfolk. Un oggetto con questo tratto è creato e utilizzato dai catfolk."
+  },
+  {
+    "Nome": "Cavalleria",
+    "Desc": "La cavalleria è composta da unità da combattimento montate."
+  },
+  {
+    "Nome": "Celestiale",
+    "Desc": "Le creature che provengono dai piani sacri o hanno una forte connessione con essi sono chiamate celestiali. I celestiali possono sopravvivere agli effetti ambientali di base dei piani della Sfera Esterna."
+  },
+  {
+    "Nome": "Turibolo",
+    "Desc": "Un oggetto con il tratto turibolo deve essere riempito di incenso per essere Attivato; l'attivazione accende l'incenso e fa sì che il turibolo emani una nube di fumo. Il fumo crea un'aura che si diffonde come emanazione dalla casella del turibolo. Il fumo dura 1 minuto ma viene immediatamente disperso da un vento forte (terminando l'attivazione) oppure se Dissolvi l'attivazione per spegnere l'incenso. Se non diversamente specificato, il fumo di un turibolo non è abbastanza denso da rendere le creature occultate, e puoi scegliere di essere immune al fumo di qualsiasi turibolo che Attivi. Devi tenere in mano un turibolo per Attivarlo, ma se lo Rilasci, l'incenso continua a bruciare dalla posizione del turibolo.\n\nUn turibolo magico richiede incenso, come indicato nella sua attivazione, che può essere acquistato nella maggior parte degli insediamenti. Puoi usare un oggetto di incenso alchemico o magico a questo scopo, ma la magia del turibolo sovrasta l'incenso e ne annulla eventuali altre proprietà magiche o alchemiche. In genere puoi usare il turibolo senza attivarlo per bruciare incenso come se fosse un turibolo comune."
+  },
+  {
+    "Nome": "Centauro",
+    "Desc": "I centauri hanno la parte superiore del corpo umanoide e la parte inferiore equina."
+  },
+  {
+    "Nome": "Uccisione Certa",
+    "Desc": "Questo tratto proviene dall'Adventure Path Pugni della Fenice di Rubino ed è strettamente legato a un luogo specifico visitato durante l'avventura. In un dato round può essere usata una sola Arte di Uccisione Certa."
+  },
+  {
+    "Nome": "Campione",
+    "Desc": "Indica capacità provenienti dalla classe del campione."
+  },
+  {
+    "Nome": "Changeling",
+    "Desc": "Una creatura con questo tratto possiede l'eredità versatile changeling. I changeling sono figli delle megere e membri di altre ascendenze umanoidi. Un'abilità con questo tratto può essere usata o selezionata solo dai changeling."
+  },
+  {
+    "Nome": "Caotico",
+    "Desc": "Gli effetti caotici spesso manipolano energie provenienti dai Piani Esterni allineati al caos e sono anatema per i servitori divini legali o dei di allineamento legale. Una creatura con questo tratto è di allineamento caotico."
+  },
+  {
+    "Nome": "Charau-ka",
+    "Desc": "Umanoidi simili a mandrilli che sono guerrieri brutali. Molti charau-ka vivono a Usaro."
+  },
+  {
+    "Nome": "Ammaliamento",
+    "Desc": "Nota di Nethys: questo tratto non è elencato nel Glossario; il suo unico utilizzo è come tratto per alcune capacità dei mostri."
+  },
+  {
+    "Nome": "Circo",
+    "Desc": "Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto. È usato come parte del sottosistema del circo dell'Adventure Path Maledizione dell'Estinzione."
+  },
+  {
+    "Nome": "Città",
+    "Desc": "Gli insediamenti con questo tratto tendono a essere relativamente grandi, con livelli che di solito vanno dal 5 al 7."
+  },
+  {
+    "Nome": "Civico",
+    "Desc": "Si tratta di un'attività di abilità del regno che può essere intrapresa durante la fase delle Attività Civiche."
+  },
+  {
+    "Nome": "Classe",
+    "Desc": "Gli archetipi con il tratto classe divergono in modo fondamentale dalle specialità della tua classe, pur rimanendo coerenti con il tema della classe stessa.\n\nPuoi selezionare un archetipo di classe solo se la tua classe soddisfa i criteri elencati nei prerequisiti dell'archetipo. Gli archetipi di classe alterano o sostituiscono sempre alcune delle capacità di classe statiche, oltre a fornire eventuali nuovi talenti.\n\nÈ possibile scegliere un archetipo di classe al 1° livello se esso altera o sostituisce alcune delle capacità iniziali della classe. L'abilità di 1° livello è presentata in modo simile a una capacità di classe e include i prerequisiti dell'archetipo di classe e le regole su come modifica la tua classe. Se selezioni questa abilità, devi scegliere il talento di dedizione di quell'archetipo al 2° livello e poi procedi normalmente. Non puoi mai avere più di un archetipo di classe."
+  },
+  {
+    "Nome": "Chierico",
+    "Desc": "Indica capacità provenienti dalla classe del chierico."
+  },
+  {
+    "Nome": "Arrampicata",
+    "Desc": "La mano che impugna quest'arma è liberamente disponibile per Arrampicarsi."
+  },
+  {
+    "Nome": "Meccanismo a Orologeria",
+    "Desc": "I costrutti a orologeria sono costrutti intricati e complessi che possono essere programmati per svolgere funzioni specifiche. Una creatura a orologeria deve essere caricata regolarmente per funzionare."
+  },
+  {
+    "Nome": "Coagulante",
+    "Desc": "Gli oggetti alchemici curativi con il tratto coagulante perdono efficacia quando molti vengono applicati in un breve periodo di tempo. Se una creatura recupera Punti Ferita da un oggetto con il tratto coagulante, quella creatura diventa temporaneamente immune al recupero di Punti Ferita da oggetti successivi con il tratto coagulante per 10 minuti (ma non è immune ad altri effetti di tali oggetti)."
+  },
+  {
+    "Nome": "Coatl",
+    "Desc": "Una famiglia di serpenti piumati soprannaturali che servono come guardiani e messaggeri nell'Universo per varie divinità sacre."
+  },
+  {
+    "Nome": "Rattoppato",
+    "Desc": "Quest'arma da fuoco è assemblata alla meglio ed è soggetta a incepparsi. Indipendentemente da quanto bene venga mantenuta, con un tiro per colpire fallito l'attacco manca automaticamente e devi effettuare una prova semplice con CD 5. Se fallisci questa prova, l'arma si inceppa."
+  },
+  {
+    "Nome": "Coda",
+    "Desc": "Gli strumenti con il tratto coda funzionano in gran parte come i bastoni e possiedono il tratto bastone. Ci sono due differenze: gli strumenti coda hanno la forma di strumenti musicali e possono essere preparati solo dai bardi. Poiché non sono fisicamente dei bastoni, non puoi attaccare con uno strumento coda né inciderlo con rune d'arma.\n\nIl processo di preparazione di uno strumento coda prevede l'esecuzione di parti significative di canzoni legate agli incantesimi contenuti nello strumento, siano esse brani tradizionali o composizioni originali. Questo lascia riverberi magici all'interno dello strumento che ti permettono di completare le canzoni suonandone la coda più avanti nel corso della giornata."
+  },
+  {
+    "Nome": "Freddo",
+    "Desc": "Gli effetti con questo tratto infliggono danni da freddo. Le creature con questo tratto hanno una connessione con il freddo magico."
+  },
+  {
+    "Nome": "Combinata",
+    "Desc": "Le armi combinate uniscono la funzionalità delle armi da mischia e delle armi a distanza in modi unici o insoliti. Un'arma combinata possiede una forma o modalità d'uso a distanza e una forma o modalità d'uso da mischia. La tabella delle armi combinate elenca prima le statistiche dell'arma a distanza e, subito sotto e rientrate, quelle dell'arma da mischia, appena sopra le munizioni. Passare dall'uso da mischia a quello a distanza (o viceversa) richiede un'azione Interagire. Tuttavia, se la tua ultima azione è stata un Colpo da mischia riuscito contro un nemico usando un'arma combinata, puoi effettuare un Colpo a distanza con l'arma combinata contro quello stesso nemico senza passare completamente alla modalità a distanza, sparando l'arma mentre colpisci con l'attacco da mischia. In questo caso, dopo il Colpo a distanza l'arma combinata ritorna alla modalità da mischia.\n\nPoiché un'arma combinata è una singola arma con due modalità d'uso, entrambe condividono eventuali rune fondamentali. Puoi applicare una runa di proprietà a un'arma combinata purché sia appropriata per almeno una delle due modalità; tuttavia, se solo una delle modalità soddisfa i requisiti della runa di proprietà, gli effetti della runa si applicano solo a quella modalità. Per esempio, un moschetto-ascia vorpal applica la runa vorpal solo quando viene usato come ascia. A causa della loro complessità, le armi combinate non possono avere un'altra arma, come una baionetta o un calcio rinforzato, attaccata ad esse."
+  },
+  {
+    "Nome": "Comodo",
+    "Desc": "L'armatura è così comoda che puoi riposare normalmente mentre la indossi."
+  },
+  {
+    "Nome": "Comandante",
+    "Desc": "Indica capacità provenienti dalla classe del comandante."
+  },
+  {
+    "Nome": "Commercio",
+    "Desc": "Si tratta di un'attività di abilità del regno che può essere intrapresa durante la fase delle Attività di Commercio."
+  },
+  {
+    "Nome": "Comune",
+    "Desc": "Qualsiasi cosa che non elenchi un altro tratto di rarità (non comune, raro o unico) possiede automaticamente il tratto comune. Questa rarità indica che un'abilità, un oggetto o un incantesimo è disponibile a tutti i giocatori che ne soddisfano i prerequisiti. Una creatura di questa rarità è generalmente conosciuta e può essere evocata con il relativo incantesimo di evocazione."
+  },
+  {
+    "Nome": "Compagno",
+    "Desc": "Un oggetto con questo tratto può essere indossato da un compagno animale o da una creatura simile. Un compagno può avere fino a due oggetti investiti."
+  },
+  {
+    "Nome": "Complesso",
+    "Desc": "Un pericolo con questo tratto agisce a turni durante un incontro."
+  },
+  {
+    "Nome": "Composito",
+    "Desc": "Un impulso composito combina più elementi. Puoi ottenere un impulso con il tratto composito solo se i tuoi elementi cinetici includono tutti gli elementi elencati nei tratti dell'impulso."
+  },
+  {
+    "Nome": "Occultabile",
+    "Desc": "Quest'arma è progettata per essere poco appariscente o facilmente occultabile. Ottieni un bonus di circostanza +2 alle prove di Furtività e alle CD per nascondere o occultare un'arma con questo tratto."
+  },
+  {
+    "Nome": "Concentrazione",
+    "Desc": "Un'azione con questo tratto richiede un certo grado di concentrazione mentale e disciplina."
+  },
+  {
+    "Nome": "Concussivo",
+    "Desc": "Queste armi colpiscono tanto schiacciando quanto perforando. Quando determini la resistenza o l'immunità di una creatura ai danni inflitti da quest'arma, utilizza la più debole tra la resistenza o immunità del bersaglio ai danni perforanti o contundenti. Per esempio, se una creatura fosse immune ai danni perforanti e non avesse resistenza o immunità ai danni contundenti, subirebbe danni pieni da un'arma concussiva. La resistenza o immunità a tutti i danni fisici, o a tutti i danni, si applica normalmente."
+  },
+  {
+    "Nome": "Evocazione",
+    "Desc": "Gli effetti e gli oggetti magici con questo tratto sono associati alla scuola di magia dell'evocazione, tipicamente legata alla convocazione, alla creazione, al teletrasporto o allo spostamento di oggetti da un luogo all'altro."
+  },
+  {
+    "Nome": "Conrasu",
+    "Desc": "Un popolo composto da forza cosmica dotata di coscienza e contenuta in esoscheletri unici. I conrasu creano e utilizzano queste armi."
+  },
+  {
+    "Nome": "Consacrazione",
+    "Desc": "Un incantesimo di consacrazione migliora un'area per un lungo periodo di tempo. Una determinata area può essere influenzata da un solo effetto di consacrazione alla volta. Un nuovo effetto tenta di contrastare qualsiasi effetto esistente nelle aree di sovrapposizione."
+  },
+  {
+    "Nome": "Costrutto",
+    "Desc": "Un costrutto è una creatura artificiale animata da una forza diversa dalla vitalità o dal vuoto."
+  },
+  {
+    "Nome": "Consumabile",
+    "Desc": "Un oggetto con questo tratto può essere usato una sola volta. Se non diversamente indicato, viene distrutto dopo l'attivazione. Gli oggetti consumabili includono oggetti alchemici e consumabili magici come pergamene e talismani. Un personaggio può Creare oggetti consumabili in lotti da quattro."
+  },
+  {
+    "Nome": "Contatto",
+    "Desc": "Un veleno da contatto viene attivato applicandolo a un oggetto o direttamente sulla pelle di una creatura vivente. La prima creatura che tocca l'oggetto influenzato deve tentare un tiro salvezza contro il veleno; se il veleno è applicato direttamente, la creatura deve tentare immediatamente un tiro salvezza quando il veleno entra in contatto con la pelle. I veleni da contatto non sono praticabili da applicare a una creatura tramite un attacco con arma, a causa delle difficoltà logistiche nel somministrarli senza avvelenare sé stessi. In genere, il tempo di insorgenza di un veleno da contatto è di 1 minuto."
+  },
+  {
+    "Nome": "Contingenza",
+    "Desc": "Gli incantesimi con questo tratto ti concedono un'azione durante la durata dell'incantesimo, in genere una reazione con un innesco speciale. Di solito hanno una lunga durata, come 24 ore. Puoi avere attivo un solo incantesimo con il tratto contingenza, o un solo incantesimo di contingenza, alla volta. Se lanci un altro incantesimo con il tratto contingenza o di contingenza, il nuovo lancio sostituisce quello precedente."
+  },
+  {
+    "Nome": "Continuo",
+    "Desc": "Gli eventi continui si svolgono durante più fasi Evento consecutive fino a quando l'evento non viene risolto (vedi la voce Risoluzione dell'evento)."
+  },
+  {
+  "Nome": "Contratto",
+  "Desc": "Un contratto è un tipo di oggetto che stabilisce magicamente un accordo tra più parti e in genere conferisce benefici magici."
+},
+{
+  "Nome": "Fusione Critici",
+  "Desc": "La fusione critici è un tratto per le armi combinate che ti concede due opzioni aggiuntive per l'effetto di specializzazione critica quando utilizzi la versione da mischia dell'arma combinata per effettuare un attacco da mischia mentre l'arma a distanza è carica. Se scegli di usarne una, essa sostituisce il normale effetto di specializzazione critica dell'uso da mischia.\n\nPrimo, se l'arma a distanza è un'arma da fuoco, puoi spararla per creare un forte boato e una concussione, utilizzando l'effetto di specializzazione critica delle armi da fuoco invece di quello del gruppo dell'arma da mischia. Secondo, puoi scegliere di sparare l'arma a distanza per aumentare l'impeto del colpo critico o colpire il nemico mentre attacchi in mischia, infliggendo 2 danni aggiuntivi per ogni dado di danno dell'arma. Entrambe queste opzioni scaricano l'arma a distanza, il che in genere significa che devi ricaricarla prima di poter sparare di nuovo."
+},
+{
+  "Nome": "Maledizione",
+  "Desc": "Una maledizione è un effetto che impone un'afflizione di lunga durata a una creatura. Le maledizioni sono sempre magiche e sono in genere il risultato di un incantesimo o di una trappola. Gli effetti con questo tratto possono essere rimossi solo da effetti che bersagliano specificamente le maledizioni."
+},
+{
+  "Nome": "Daemon",
+  "Desc": "Una famiglia di immondi provenienti da Abaddon."
+},
+{
+  "Nome": "Pericoloso",
+  "Desc": "Gli eventi pericolosi minacciano il regno."
+},
+{
+  "Nome": "Oscurità",
+  "Desc": "Gli effetti di oscurità spengono la luce non magica nell'area e possono contrastare luci magiche meno potenti. In genere devi bersagliare direttamente la magia di luce con la tua magia di oscurità per contrastarla, ma alcuni incantesimi di oscurità tentano automaticamente di contrastare la luce."
+},
+{
+  "Nome": "Darvakka",
+  "Desc": "Creature non morte entropiche deformate dal Mondo Sotterraneo e dal Vuoto."
+},
+{
+  "Nome": "Mortale",
+  "Desc": "Con un colpo critico, l'arma aggiunge un dado di danno dell'arma della dimensione indicata. Tira questo dado dopo aver raddoppiato i danni dell'arma. Questo aumenta a due dadi se l'arma possiede una runa di colpo potente superiore e a tre dadi se possiede una runa di colpo potente maggiore. Per esempio, uno stocco con una runa di colpo potente superiore infligge 2d8 danni perforanti extra con un colpo critico. Un'abilità che modifica la dimensione dei dadi di danno normali dell'arma non modifica la dimensione del dado letale."
+},
+{
+  "Nome": "Morte",
+  "Desc": "Un effetto con il tratto morte ti uccide immediatamente se ti riduce a 0 PF. Alcuni effetti di morte possono avvicinarti alla morte o ucciderti direttamente senza ridurti a 0 PF."
+},
+{
+  "Nome": "Dedizione",
+  "Desc": "Il talento di dedizione di ogni archetipo rappresenta l'impegno del tuo personaggio nell'apprendere un nuovo insieme di capacità, rendendo impossibile dividere la tua attenzione e perseguire un altro archetipo contemporaneamente. Una volta scelto un talento di dedizione, non puoi selezionarne un altro finché non completi la dedizione scegliendo altri due talenti del tuo archetipo attuale. Non puoi riaddestrare un talento di dedizione finché possiedi altri talenti di quell'archetipo."
+},
+{
+  "Nome": "Deviante",
+  "Desc": "Questo scudo è progettato per bloccare o deviare determinati tipi di attacchi o armi. Aumenta la Durezza dello scudo di 2 contro il tipo di attacco indicato."
+},
+{
+  "Nome": "Demone",
+  "Desc": "Una famiglia di immondi peccaminosi provenienti dalle Fenditure Esterne."
+},
+{
+  "Nome": "Dero",
+  "Desc": "Questa famiglia di umanoidi è composta dai discendenti di creature fatate cadute nell'oscurità e nella confusione dopo essere state abbandonate nelle Terre Oscure. Sono immuni alla confusione e vulnerabili alla luce solare."
+},
+{
+  "Nome": "Destino",
+  "Desc": "Il tratto destino indica il primo talento di un destino mitico. Devi essere un personaggio mitico di 12° livello per selezionare un destino e non puoi scegliere talenti successivi di quel destino mitico senza aver prima selezionato il talento destino."
+},
+{
+  "Nome": "Individuazione",
+  "Desc": "Gli effetti con questo tratto tentano di determinare la presenza o la posizione di una persona, di un oggetto o di un'aura."
+},
+{
+  "Nome": "Deviante",
+  "Desc": "Questo tratto descrive strane capacità soprannaturali o paranormali."
+},
+{
+  "Nome": "Diavolo",
+  "Desc": "Una famiglia di immondi regimentati provenienti dall'Inferno."
+},
+{
+  "Nome": "Dhampir",
+  "Desc": "Una creatura con questo tratto possiede l'eredità versatile dhampir. Questi umanoidi sono i discendenti dei vampiri e membri di altre ascendenze."
+}
+,{
+  "Nome": "Dinosauro",
+  "Desc": "Questi rettili sono sopravvissuti dai tempi preistorici."
+},
+{
+  "Nome": "Disarmare",
+  "Desc": "Puoi usare quest'arma per Disarmare utilizzando l'abilità Atletica anche se non hai una mano libera. Questo utilizza la portata dell'arma (se diversa dalla tua) e aggiunge l'eventuale bonus di oggetto dell'arma ai tiri per colpire come bonus di oggetto alla prova di Atletica. Se fallisci criticamente una prova per Disarmare usando l'arma, puoi lasciar cadere l'arma per subire gli effetti di un fallimento invece che di un fallimento critico. In caso di successo critico, hai comunque bisogno di una mano libera se vuoi impadronirti dell'oggetto."
+},
+{
+  "Nome": "Malattia",
+  "Desc": "Un effetto con questo tratto applica una o più malattie. Una malattia è in genere un'afflizione."
+},
+{
+  "Nome": "Div",
+  "Desc": "I div sono una famiglia di immondi generati dagli spiriti di geni malvagi nella desolazione di Abaddon. La maggior parte dei div è neutrale malvagia. In genere possiedono scurovisione superiore e una debolezza al ferro freddo e ai danni buoni."
+},
+{
+  "Nome": "Divinazione",
+  "Desc": "La scuola di magia della divinazione riguarda tipicamente l'ottenimento o il trasferimento di informazioni, oppure la previsione di eventi."
+},
+{
+  "Nome": "Divino",
+  "Desc": "Questa magia proviene dalla tradizione divina, traendo potere da divinità o fonti simili. Tutto ciò che possiede questo tratto è magico.\n\nUna creatura con questo tratto è costituita principalmente di magia divina o ha una forte connessione con essa."
+},
+{
+  "Nome": "Doppia Canna",
+  "Desc": "Quest'arma possiede due canne che vengono caricate separatamente. Puoi sparare entrambe le canne di un'arma a doppia canna con un singolo Colpo per aumentare di un grado il dado di danno dell'arma. Se l'arma possiede il tratto fatale, anche il dado fatale aumenta di un grado."
+},
+{
+  "Nome": "Intermezzo",
+  "Desc": "Una modalità di gioco in cui i personaggi non sono impegnati in avventure. I giorni passano rapidamente al tavolo e i personaggi svolgono attività a lungo termine."
+},
+{
+  "Nome": "Drago",
+  "Desc": "I draghi sono creature rettiliane, spesso alate o dotate del potere del volo. La maggior parte può esalare energia magica ed è immune al sonno e alla paralisi."
+},
+{
+  "Nome": "Sangue di Drago",
+  "Desc": "Una creatura con questo tratto possiede l'eredità versatile sangue di drago. Queste creature nascono da una stirpe draconica e spesso presentano tratti dall'aspetto draconico."
+},
+{
+  "Nome": "Sogno",
+  "Desc": "Le creature native della Dimensione dei Sogni possono possedere una vasta gamma di capacità, sebbene quelle associate al regno dell'incubo di Leng siano quasi sempre empie e immuni alle temperature gelide di quel reame."
+},
+{
+  "Nome": "Dromaar",
+  "Desc": "Una creatura con questo tratto possiede l'eredità versatile dromaar. I dromaar sono di ascendenza mista, inclusi orchi o altri dromaar. Un'abilità con questo tratto può essere usata o selezionata solo dai dromaar."
+},
+{
+  "Nome": "Drow",
+  "Desc": "Parenti sotterranei degli elfi, i drow possiedono tipicamente scurovisione e capacità magiche innate."
+},
+{
+  "Nome": "Droga",
+  "Desc": "Un oggetto con questo tratto è una droga, un veleno che fornisce benefici a breve termine insieme a effetti collaterali dannosi e conseguenze a lungo termine. Ogni volta che una creatura utilizza una determinata droga deve anche tentare un tiro salvezza contro la dipendenza da quella droga."
+},
+{
+  "Nome": "Druido",
+  "Desc": "Indica capacità provenienti dalla classe del druido."
+},
+{
+  "Nome": "Duskwalker",
+  "Desc": "Una creatura con questo tratto possiede l'eredità versatile duskwalker. I duskwalker sono discendenti planari infusi con l'energia soprannaturale degli psicopompi."
+},
+{
+  "Nome": "Nano",
+  "Desc": "Una creatura con questo tratto appartiene all'ascendenza dei nani. I nani sono un popolo robusto che vive spesso sottoterra e possiede tipicamente scurovisione. Un'abilità con questo tratto può essere usata o selezionata solo dai nani. Un oggetto con questo tratto è creato e utilizzato dai nani."
+},
+{
+  "Nome": "Terra",
+  "Desc": "Gli effetti con il tratto terra manipolano o evocano la terra. Quelli che manipolano la terra non hanno effetto in un'area priva di terra. Le creature con questo tratto sono costituite principalmente di terra o hanno una connessione con la terra magica.\n\nQuesti piani sono per lo più solidi. I viaggiatori che arrivano su un piano della terra rischiano il soffocamento se non raggiungono una caverna o un'altra sacca d'aria all'interno della materia solida del piano. Le creature che non possono scavare restano intrappolate nella sostanza del piano e devono tentare di scavare verso una sacca d'aria. Le creature dell'aria sono a disagio, poiché raramente hanno spazio sufficiente per muoversi liberamente anche nei cunicoli più ampi."
+}
+,{
+  "Nome": "Edificio Monumentale",
+  "Desc": "Il tratto edificio monumentale fornisce i suoi benefici a un insediamento una sola volta; se costruisci la stessa struttura un'ulteriore volta nello stesso insediamento, essa è puramente cosmetica."
+},
+{
+  "Nome": "Eidolon",
+  "Desc": "Una creatura con questo tratto è l'eidolon di un evocatore. Un'azione o un incantesimo con questo tratto può essere eseguito solo da un eidolon. Un oggetto con questo tratto può essere usato o indossato solo da un eidolon, e un eidolon non può usare oggetti che non possiedono questo tratto. Un eidolon può avere fino a due oggetti investiti."
+},
+{
+  "Nome": "Elettricità",
+  "Desc": "Gli effetti con questo tratto infliggono danni da elettricità. Una creatura con questo tratto ha una connessione con l'elettricità magica."
+},
+{
+  "Nome": "Elementale",
+  "Desc": "Gli elementali sono creature direttamente legate a un elemento e native dei piani elementali. Gli elementali non hanno bisogno di respirare."
+},
+{
+  "Nome": "Elfo",
+  "Desc": "Una creatura con questo tratto appartiene all'ascendenza degli elfi. Gli elfi sono un popolo misterioso con ricche tradizioni di magia e studio e possiedono tipicamente visione crepuscolare. Un'abilità con questo tratto può essere usata o selezionata solo dagli elfi. Un'arma con questo tratto è creata e utilizzata dagli elfi."
+},
+{
+  "Nome": "Elisir",
+  "Desc": "Gli elisir sono liquidi alchemici che vengono utilizzati bevendoli."
+},
+{
+  "Nome": "Emozione",
+  "Desc": "Questo effetto altera le emozioni di una creatura. Gli effetti con questo tratto possiedono sempre anche il tratto mentale. Le creature con addestramento speciale o che possiedono un'intelligenza meccanica o artificiale sono immuni agli effetti di emozione."
+},
+{
+  "Nome": "Ammaliamento",
+  "Desc": "Gli effetti e gli oggetti magici con questo tratto sono associati alla scuola di magia dell'ammaliamento, che tipicamente coinvolge il controllo mentale, l'alterazione delle emozioni e altri effetti mentali."
+},
+{
+  "Nome": "Trincerarsi",
+  "Desc": "Puoi posizionarti meglio all'interno dell'armatura o riposizionare le sue parti articolate per proteggerti da alcuni attacchi. Se sei Addestrato in quest'armatura, mentre la indossi puoi spendere una singola azione per ottenere un bonus di circostanza +1 alla CA contro un determinato tipo di attacco fino all'inizio del tuo prossimo turno. Il tratto trincerarsi elenca il tipo di attacco contro cui si applica questo bonus, tipicamente trincerarsi in mischia o trincerarsi a distanza."
+},
+{
+  "Nome": "Ambientale",
+  "Desc": "Un pericolo con questo tratto rappresenta qualcosa di pericoloso che fa parte del mondo naturale, come sabbie mobili o muffe nocive."
+},
+{
+  "Nome": "Erratico",
+  "Desc": "Il tempo rallenta e accelera, perciò un individuo potrebbe perdere o guadagnare tempo mentre si sposta tra i piani. Quando una creatura si muove da un piano con tempo erratico a uno con tempo normale, effettua una prova semplice con CD 11. Le creature che lasciano insieme un piano a tempo erratico condividono lo stesso risultato.\n\nSuccesso: il tempo è trascorso normalmente sul piano a tempo erratico.\nFallimento: per ogni ora trascorsa sul piano a tempo erratico, è trascorso 1 giorno sul piano a tempo normale.\nFallimento Critico: per ogni round trascorso sul piano a tempo erratico, è trascorso 1 giorno sul piano a tempo normale."
+},
+{
+  "Nome": "Esoterica",
+  "Desc": "Il tratto esoterica è presente in molti talenti e capacità di classe del taumaturgo che incorporano vari talismani, ninnoli soprannaturali e altri oggetti che porti con te. Le capacità con il tratto esoterica richiedono che tu sia in possesso della tua esoterica per poterle usare. Normalmente si presume che tu abbia sempre con te la tua esoterica, ma in alcune rare circostanze potresti non averla a portata di mano o potresti esserne stato privato insieme al tuo equipaggiamento."
+},
+{
+  "Nome": "Etereo",
+  "Desc": "Le creature eteree sono native del Piano Etereo. Possono sopravvivere agli effetti ambientali di base del Piano Etereo."
+},
+{
+  "Nome": "Malvagio",
+  "Desc": "Gli effetti malvagi spesso manipolano energie provenienti dai Piani Esterni allineati al male e sono antitetici ai servitori divini buoni o ai servitori di divinità buone. Una creatura con questo tratto è di allineamento malvagio."
+},
+{
+  "Nome": "Invocazione",
+  "Desc": "Gli effetti e gli oggetti magici con questo tratto sono associati alla scuola di magia dell'invocazione, che tipicamente coinvolge energie e forze elementali."
+},
+{
+  "Nome": "Evoluzione",
+  "Desc": "I talenti con questo tratto influenzano il tuo eidolon invece di te, tipicamente concedendogli capacità fisiche aggiuntive."
+},
+{
+  "Nome": "Exemplar",
+  "Desc": "Indica capacità provenienti dalla classe dell'Exemplar."
+}
+,{
+  "Nome": "Espandibile",
+  "Desc": "Un oggetto con il tratto espandibile aumenta fino a una dimensione specifica quando viene attivato. Se non diversamente indicato, lo spazio deve essere adiacente a te e sul terreno, e l'oggetto deve avere spazio libero sufficiente in cui espandersi; in caso contrario, l'attivazione non ha effetto. Quando l'effetto termina, l'oggetto espanso si disintegra se è un consumabile oppure ritorna alla sua dimensione normale se non è un consumabile."
+},
+{
+  "Nome": "Esplorazione",
+  "Desc": "Un'attività con questo tratto richiede più di un turno per essere utilizzata e può di solito essere usata solo durante la modalità di esplorazione."
+},
+{
+  "Nome": "Extradimensionale",
+  "Desc": "Questo effetto o oggetto crea uno spazio extradimensionale. Un effetto extradimensionale collocato all'interno di un altro spazio extradimensionale cessa di funzionare finché non viene rimosso."
+},
+{
+  "Nome": "Famoso",
+  "Desc": "Il tratto famoso aumenta il tuo punteggio di Fama quando la struttura viene costruita. Alcune strutture possiedono sia il tratto famoso sia quello infame; in questo caso applica quello che corrisponde alla preferenza del tuo regno (vedi Fama e Infamia)."
+},
+{
+  "Nome": "Fatale",
+  "Desc": "Il tratto fatale include una dimensione di dado. Con un colpo critico, il dado di danno dell'arma aumenta fino a quella dimensione invece della dimensione normale, e l'arma aggiunge un ulteriore dado di danno della dimensione indicata."
+},
+{
+  "Nome": "Mira Fatale",
+  "Desc": "È possibile tenere il calcio di quest'arma sotto un braccio per sparare con una sola mano, purché l'altra mano non stia impugnando un'arma, uno scudo o qualsiasi altro oggetto che richieda di essere mosso o posizionato per evitare che l'arma scivoli. Tuttavia, se utilizzi entrambe le mani, l'arma può effettuare attacchi fatali. Quando impugni l'arma con due mani, essa ottiene il tratto fatale con il dado di danno indicato. Tenere l'arma stabilmente sotto il braccio per sparare è molto più complesso che semplicemente rilasciare una mano, quindi per passare da una presa all'altra devi usare un'azione Interagire anziché Rilasciare o farlo come parte della ricarica."
+},
+{
+  "Nome": "Paura",
+  "Desc": "Gli effetti di paura evocano l'emozione della paura. Gli effetti con questo tratto possiedono sempre anche i tratti mentale ed emozione."
+},
+{
+  "Nome": "Fetchling",
+  "Desc": "Una creatura con questo tratto appartiene all'ascendenza dei fetchling. I fetchling erano un tempo umani, ma generazioni di vita nel Mondo Sotterraneo li hanno trasformati."
+},
+{
+  "Nome": "Fatoide",
+  "Desc": "Le creature del Primo Mondo sono chiamate fatoidi."
+},
+{
+  "Nome": "Immondo",
+  "Desc": "Le creature che provengono dai piani empî o hanno una forte connessione con essi sono chiamate immondi. Gli immondi possono sopravvivere agli effetti ambientali di base dei piani della Sfera Esterna."
+},
+{
+  "Nome": "Guerriero",
+  "Desc": "Indica capacità provenienti dalla classe del guerriero."
+},
+{
+  "Nome": "Polena",
+  "Desc": "Sebbene molte navi siano adornate con intagli decorativi, gli equipaggi più audaci talvolta procurano polene magiche per i loro vascelli. Installare un oggetto con il tratto polena richiede 1 ora. L'oggetto poi si modifica leggermente per adattarsi allo scopo della nave o al suo equipaggio, come determinato dalla creatura sintonizzata, ad esempio acquisendo tratti aviani su una nave tengu. Una nave può avere una sola polena attaccata alla volta; attaccarne un'altra sopprime tutte le polene.\n\nUna polena può essere attivata solo da una creatura sintonizzata con essa, un processo che richiede 1 ora e che può essere svolto mentre la creatura installa la polena. Solo una creatura può essere sintonizzata con la polena alla volta, se non diversamente indicato. La creatura sintonizzata può attivare la polena da qualsiasi punto a bordo della nave. In genere, il proprietario o il capitano della nave si sintonizza con la polena della propria imbarcazione.\n\nLe polene presentate qui presuppongono che i veicoli a cui sono attaccate siano navi a vela o simili imbarcazioni acquatiche, ma le polene possono essere modificate o create per funzionare anche su altri veicoli."
+},
+{
+  "Nome": "Accurata",
+  "Desc": "Puoi usare il tuo modificatore di Destrezza invece del modificatore di Forza per i tiri per colpire effettuati con quest'arma da mischia. Continui comunque a calcolare i danni usando la Forza."
+},
+{
+  "Nome": "Finale",
+  "Desc": "I finali sono spettacolari mosse conclusive che utilizzano il tuo panache. I finali possono essere usati solo con armi che infliggono danni aggiuntivi con colpo preciso (armi da mischia agili o accurate, oppure attacchi senz'armi, per la maggior parte degli schermidori). Puoi usare un finale solo se possiedi panache e perdi immediatamente il panache dopo aver eseguito un finale. Dopo aver usato un finale, non puoi usare azioni con il tratto attacco per il resto del tuo turno. Alcune azioni finale conferiscono anche un effetto in caso di fallimento; gli effetti aggiunti in caso di fallimento non si applicano in caso di fallimento critico. Se la tua azione finale ha successo, puoi comunque scegliere di applicare l'effetto da fallimento. Per esempio, potresti farlo quando un attacco non infligge danni a causa di una resistenza."
+},
+{
+  "Nome": "Finito",
+  "Desc": "I piani finiti consistono in una quantità limitata di spazio."
+},
+{
+  "Nome": "Fuoco",
+  "Desc": "Gli effetti con il tratto fuoco infliggono danni da fuoco oppure evocano o manipolano il fuoco. Quelli che manipolano il fuoco non hanno effetto in un'area priva di fuoco. Le creature con questo tratto sono costituite principalmente di fuoco o hanno una connessione con il fuoco magico.\n\nI piani con questo tratto sono composti da fiamme che bruciano continuamente senza una fonte di combustibile. I piani del fuoco sono estremamente ostili alle creature non di fuoco. Legno, carta, stoffa e altri materiali infiammabili non protetti prendono fuoco quasi immediatamente, e le creature che indossano abiti infiammabili non protetti prendono fuoco, subendo in genere 1d6 danni persistenti da fuoco. Le creature extraplanari subiscono danni ambientali da fuoco moderati alla fine di ogni round (talvolta danni ambientali minori nelle aree più sicure o danni maggiori o massicci in aree ancora più infuocate). Le creature di ghiaccio sono estremamente a disagio su un piano del fuoco, ammesso che non si sciolgano direttamente per il calore."
+}
+,{
+  "Nome": "Fleshwarp",
+  "Desc": "Un umanoide trasformato in modo così completo da forze esterne da diventare una nuova e unica ascendenza."
+},
+{
+  "Nome": "Flessibile",
+  "Desc": "L'armatura è malleabile e non ostacola la maggior parte delle azioni. Non applichi la sua penalità alle prove alle prove di Acrobazia o Atletica."
+},
+{
+  "Nome": "Fioritura",
+  "Desc": "Le azioni con il tratto fioritura sono tecniche speciali che richiedono uno sforzo eccessivo per essere eseguite frequentemente. Puoi usare solo un'azione con il tratto fioritura per round."
+},
+{
+  "Nome": "Scorrente",
+  "Desc": "Il flusso del tempo è costantemente più veloce o più lento. Una creatura potrebbe viaggiare su uno di questi piani, trascorrervi un anno e scoprire che nell'Universo è passata solo un'ora; in alternativa, potrebbe trascorrere un minuto su questo piano e scoprire che nell'Universo è passata un'ora."
+},
+{
+  "Nome": "Focus",
+  "Desc": "Un incantesimo che puoi lanciare spendendo un Punto Focus e che viene automaticamente potenziato a metà del tuo livello, arrotondato per eccesso."
+},
+{
+  "Nome": "Focalizzato",
+  "Desc": "Un oggetto con questo tratto può fornirti un Punto Focus aggiuntivo. Questo Punto Focus è separato dal tuo bacino di focus e non conta ai fini del limite massimo del bacino di focus. Puoi ottenere questo beneficio solo se possiedi un bacino di focus, e potrebbero esserci restrizioni su come il punto può essere utilizzato. Non puoi ottenere più di 1 Punto Focus al giorno da oggetti focalizzati."
+},
+{
+  "Nome": "Richiudibile",
+  "Desc": "Questo scudo può collassare in una forma più piccola fissata a un guanto per garantire stabilità e facilità di trasporto. Puoi usare un'azione Interagire per dispiegare o riporre lo scudo. Quando è dispiegato, puoi Alzare lo Scudo purché tu abbia quella mano libera o stia tenendo in quella mano un oggetto di Ingombro leggero che non sia un'arma. Lo scudo ostacola l'uso della mano mentre è dispiegato: sebbene tu possa comunque tenere oggetti in quella mano, non puoi impugnare armi con essa, azionare oggetti che richiedono due mani o attaccare con il guanto.\n\nUno scudo richiudibile deve essere fissato a un guanto per garantire stabilità. Può essere applicato a un oggetto con 10 minuti di lavoro e una prova di Artigianato con CD 10 riuscita; questo include il tempo necessario per rimuovere lo scudo da un guanto precedente, se necessario. Se il guanto viene distrutto, lo scudo richiudibile può di solito essere recuperato. La natura collassabile dello scudo rende impossibile fissarvi un'arma attaccata."
+},
+{
+  "Nome": "Forza",
+  "Desc": "Gli effetti con questo tratto infliggono danni da forza o creano oggetti fatti di pura forza magica."
+},
+{
+  "Nome": "Impattante",
+  "Desc": "Quest'arma diventa più pericolosa man mano che accumuli slancio. Quando attacchi con essa più di una volta nel tuo turno, il secondo attacco ottiene un bonus di circostanza ai danni pari al numero di dadi di danno dell'arma, e ogni attacco successivo ottiene un bonus di circostanza ai danni pari al doppio del numero di dadi di danno."
+},
+{
+  "Nome": "Formian",
+  "Desc": "Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."
+},
+{
+  "Nome": "Fortuna",
+  "Desc": "Un effetto di fortuna altera in modo benefico il modo in cui tiri i dadi. Non puoi mai avere più di un effetto di fortuna che influenzi un singolo tiro. Se più effetti di fortuna si applicherebbero, devi scegliere quale usare. Se un effetto di fortuna e un effetto di sfortuna si applicherebbero allo stesso tiro, i due si annullano a vicenda e tiri normalmente."
+},
+{
+  "Nome": "Mano Libera",
+  "Desc": "Quest'arma non occupa la tua mano, di solito perché è integrata nella tua armatura. Un'arma a mano libera non può essere Disarmata. Puoi usare la mano coperta dall'arma a mano libera per impugnare altri oggetti, eseguire azioni di maneggiare e così via. Non puoi attaccare con un'arma a mano libera se stai impugnando qualcosa con quella mano o la stai usando in altro modo. Quando non stai impugnando nulla e non stai usando diversamente la mano, puoi usare capacità che richiedono di avere una mano libera così come quelle che richiedono di impugnare un'arma in quella mano. Ogni mano può avere una sola arma a mano libera."
+},
+{
+  "Nome": "Fulu",
+  "Desc": "I fulu sono piccoli amuleti di carta che possono essere applicati a un'armatura, a uno scudo, a un'arma, a una creatura o persino a una struttura. Alcuni fulu sono composti da più amuleti e hanno effetto solo quando tutti sono stati applicati. I fulu normali hanno effetto immediatamente una volta applicati, mentre i fulu talismano producono un effetto solo una volta attivati. Una volta attivato, un fulu dura per la durata indicata e poi si consuma. Se non diversamente indicato, i fulu scadono un anno dopo essere stati creati, tornando a essere semplice carta.\n\nTutti i fulu possiedono i tratti fulu e consumabile. Inoltre, ogni fulu possiede un tratto di tradizione—arcana, divina, occulta o primordiale—determinato dalla tradizione magica del suo creatore. Per esempio, un fulu creato da un sacerdote avrebbe il tratto divino, mentre uno creato da una strega che traffica con il fato potrebbe avere il tratto occulto. Alcuni fulu possiedono anche il tratto talismano, se funzionano in modo simile ai talismani.\n\nIl blocco di statistiche di ciascun fulu indica il tipo di oggetto o creatura a cui può essere applicato. Applicare o rimuovere un fulu richiede l'uso dell'attività Applicare un Fulu, oppure dell'azione Applicare un Talismano se il fulu possiede anche il tratto talismano."
+},
+{
+  "Nome": "Fungo",
+  "Desc": "Le creature fungine possiedono il tratto fungo. Sono distinte dai funghi ordinari."
+}
+,{
+  "Nome": "Gadget",
+  "Desc": "I gadget sono invenzioni tecnologiche consumabili con utilizzi innovativi."
+},
+{
+  "Nome": "Ganzi",
+  "Desc": "Un discendente planare originato da un essere caotico del Maelstrom, come un protean."
+},
+{
+  "Nome": "Generale",
+  "Desc": "Un tipo di talento che qualsiasi personaggio può selezionare, indipendentemente da ascendenza e classe, purché soddisfi i prerequisiti. Puoi selezionare un talento con questo tratto quando la tua classe ti concede un talento generale."
+},
+{
+  "Nome": "Genio",
+  "Desc": "Le diverse famiglie di geni occupano posizioni di rilievo sui piani elementali. Possiedono potenti capacità magiche."
+},
+{
+  "Nome": "Geniekin",
+  "Desc": "Un termine ombrello per i discendenti planari originati da esseri dei Piani Elementali. I geniekin creano e utilizzano queste armi."
+},
+{
+  "Nome": "Ghoran",
+  "Desc": "I ghoran sono piante senzienti coltivate con forma umanoide e volti floreali."
+},
+{
+  "Nome": "Fantasma",
+  "Desc": "Le anime perdute che infestano il mondo come non morti incorporei sono chiamate fantasmi."
+},
+{
+  "Nome": "Ghoul",
+  "Desc": "I ghoul sono vili creature non morte che si nutrono di carne."
+},
+{
+  "Nome": "Ghul",
+  "Desc": "Non morti avidi e ingordi, originariamente formati a partire da geni."
+},
+{
+  "Nome": "Gigante",
+  "Desc": "I giganti sono enormi creature umanoidi."
+},
+{
+  "Nome": "Gigas",
+  "Desc": "Una delle prime creazioni dei titani. Le poche storie esistenti sulla loro origine suggeriscono che siano stati creati dal sangue di un titano ferito in una battaglia possente. Amnerion scolpì poi il proprio dominio dalle caverne sotto Iblydos e lo custodisce gelosamente."
+},
+{
+  "Nome": "Girtablilu",
+  "Desc": "I girtablilu hanno la parte superiore del corpo umanoide e la parte inferiore costituita dal corpo di uno scorpione gigantesco."
+},
+{
+  "Nome": "Gnomo",
+  "Desc": "Una creatura con questo tratto appartiene all'ascendenza degli gnomi. Gli gnomi sono un piccolo popolo abile nella magia che cerca nuove esperienze e possiede di solito visione crepuscolare. Un'abilità con questo tratto può essere usata o selezionata solo dagli gnomi. Un'arma con questo tratto è creata e utilizzata dagli gnomi."
+},
+{
+  "Nome": "Goblin",
+  "Desc": "Una creatura con questo tratto è un piccolo e frenetico goblinoide. I goblin tendono a possedere scurovisione. Un'abilità con questo tratto può essere usata o selezionata solo dai goblin. Un'arma con questo tratto è creata e utilizzata dai goblin."
+},
+{
+  "Nome": "Golem",
+  "Desc": "I golem sono un tipo speciale di costrutto. Sono immuni a quasi tutta la magia, ma la maggior parte possiede una debolezza verso incantesimi specifici."
+},
+{
+  "Nome": "Goloma",
+  "Desc": "Umanoidi schivi che possiedono innumerevoli occhi."
+},
+{
+  "Nome": "Buono",
+  "Desc": "Gli effetti buoni spesso manipolano energie provenienti dai Piani Esterni allineati al bene e sono antitetici ai servitori divini malvagi o ai servitori di divinità malvagie. Una creatura con questo tratto è di allineamento buono."
+},
+{
+  "Nome": "Innesto",
+  "Desc": "Un oggetto con il tratto innesto è un campione di tessuto vivente impiantato in un ospite. Diventa una parte permanente del corpo del soggetto e riduce di 1 il numero di oggetti che quella creatura può investire al giorno. Ogni innesto possiede il tratto investito per indicare questa limitazione: un innesto è come un oggetto investito che la creatura ospite è obbligata a investire. Se una creatura ottiene un nuovo innesto quando il suo limite di oggetti investiti è già stato ridotto a zero, il corpo dell'ospite rigetta l'innesto. Una volta completamente impiantato, un innesto non può subire danni separatamente.\n\nSe un innesto viene mai reciso dal corpo dell'ospite, può essere riattaccato da qualsiasi effetto che normalmente consenta di riattaccare arti o organi, come l'incantesimo rigenerazione. Un innestatore può rimuovere un innesto usando lo stesso processo richiesto per impiantarlo, anche se ciò non ripristina necessariamente eventuali organi sostituiti inizialmente dall'innesto. Gli innesti richiedono in genere condizioni di conservazione specializzate, come vasche alchemiche, per rimanere vitali al di fuori di un ospite. Gli innesti possono di solito essere potenziati nelle loro versioni superiori facendo applicare a un innestatore ulteriori interventi chirurgici, sviluppi mutageni o procedure mediche simili."
+}
+,{
+  "Nome": "Presa",
+  "Desc": "Puoi usare quest'arma per afferrare utilizzando l'abilità Atletica anche se non hai una mano libera. Questo utilizza la portata dell'arma (se diversa dalla tua) e aggiunge l'eventuale bonus di oggetto dell'arma ai tiri per colpire come bonus di oggetto alla prova di Atletica. Se fallisci criticamente una prova per Lottare usando l'arma, puoi lasciar cadere l'arma per subire gli effetti di un fallimento invece che di un fallimento critico."
+},
+{
+  "Nome": "Graveknight",
+  "Desc": "Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."
+},
+{
+  "Nome": "Gremlin",
+  "Desc": "Fate crudeli e dispettose, i gremlin si sono adattati alla vita nell'Universo."
+},
+{
+  "Nome": "Grimorio",
+  "Desc": "Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."
+},
+{
+  "Nome": "Grioth",
+  "Desc": "Un grioth è un alieno simile a un pipistrello che brandisce poteri occulti e può esistere nel vuoto oscuro dello spazio. Possiede scurovisione ed ecolocalizzazione."
+},
+{
+  "Nome": "Grippli",
+  "Desc": "I grippli sono una famiglia di umanoidi simili a rane. I grippli creano e utilizzano queste armi."
+},
+{
+  "Nome": "Guardiano",
+  "Desc": "Indica capacità provenienti dalla classe del guardiano."
+},
+{
+  "Nome": "Pistolero",
+  "Desc": "Indica capacità provenienti dalla classe del pistolero."
+},
+{
+  "Nome": "Megera",
+  "Desc": "Queste incantatrici malevole formano congreghe."
+},
+{
+  "Nome": "Halfling",
+  "Desc": "Una creatura con questo tratto appartiene all'ascendenza degli halfling. Questo piccolo popolo è composto da viandanti amichevoli considerati fortunati. Un'abilità con questo tratto può essere usata o selezionata solo dagli halfling. Un'arma con questo tratto è creata e utilizzata dagli halfling."
+},
+{
+  "Nome": "Ostacolante",
+  "Desc": "Un'arma con il tratto ostacolante include un arto o una flangia di disturbo. Dopo aver colpito con l'arma, puoi usare un'azione Interagire per infliggere al bersaglio una penalità di circostanza di –3 metri (–10 piedi) a tutte le sue Velocità. La penalità termina quando il bersaglio compie un'azione di movimento, all'inizio del tuo prossimo turno, se attacchi con l'arma, o se ti allontani dalla portata del bersaglio, a seconda di quale evento si verifichi per primo."
+},
+{
+  "Nome": "Hantu",
+  "Desc": "Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."
+},
+{
+  "Nome": "Imbrigliato",
+  "Desc": "Questo scudo presenta un supporto o un'apertura speciale progettata per reggere lance o altre armi da giostra. I giostratori spesso usano questi scudi come riserva in passaggi stretti o in altri luoghi dove non possono cavalcare una cavalcatura. Puoi usare un'azione Interagire per bloccare un'arma con il tratto giostra nello scudo, consentendoti di usare entrambe le mani per impugnare contemporaneamente scudo e arma. Se non impugni l'unità combinata con entrambe le mani, non puoi usare né l'arma né lo scudo.\n\nFinché hai lo scudo alzato, puoi ottenere il beneficio di giostra dell'arma come se fossi in sella. Poiché una parte significativa dell'arma deve essere sostenuta dietro lo scudo, la portata dell'arma è ridotta di 3 metri (5 piedi) se normalmente è superiore a tale valore."
+},
+{
+  "Nome": "Corte dei Tarocchi",
+  "Desc": "Questo tratto è associato al Mazzo del Destino e alla Corte dei Tarocchi. È limitato alla campagna Destino Rubato."
+},
+{
+  "Nome": "Infestazione",
+  "Desc": "Un pericolo con questo tratto è un'eco spirituale, spesso di qualcuno che ha subito una morte tragica. Mettere a riposo un'infestazione spesso comporta risolvere questioni irrisolte legate all'infestazione. Un'infestazione che non viene adeguatamente placata ritorna sempre dopo un certo tempo."
+},
+{
+  "Nome": "Guarigione",
+  "Desc": "Un effetto di guarigione ripristina il corpo di una creatura, in genere recuperando Punti Ferita, ma talvolta rimuovendo malattie o altri effetti debilitanti."
+},
+{
+  "Nome": "Pesante",
+  "Desc": "Uno scudo pesante è così massiccio che sollevarlo richiede maggiore sforzo. Alzare uno Scudo con il tratto pesante è un'attività di due azioni, a meno che il tuo modificatore di Forza sia pari o superiore al numero indicato nel tratto."
+},
+{
+  "Nome": "Araldo",
+  "Desc": "Quasi tutte le divinità possiedono un rappresentante specifico noto come araldo; gli araldi sono tanto vari nell'aspetto e nelle capacità quanto le divinità stesse. Una creatura con il tipo araldo è sempre unica."
+}
+,{
+  "Nome": "Maleficio",
+  "Desc": "Un maleficio è un incantesimo causato dall'attenzione e dall'intervento diretto del tuo patrono. Il tuo patrono non gradisce essere disturbato ripetutamente, quindi puoi lanciare solo un incantesimo con il tratto maleficio per turno; i tentativi di usarne un secondo falliscono automaticamente e di solito fanno sibilare il tuo famiglio per il disappunto, mentre il patrono rifiuta la tua invocazione."
+},
+{
+  "Nome": "Esagono-KM",
+  "Desc": "Gli eventi di esagono si svolgono in un esagono specifico del regno. Le prove di abilità per risolvere questi eventi ricevono bonus di oggetto solo dalle strutture che influenzano quell'esagono. Gli effetti degli eventi di esagono possono essere potenziati o indeboliti se il sito possiede (o non possiede) caratteristiche specifiche."
+},
+{
+  "Nome": "Alta Gravità",
+  "Desc": "Come nella gravità normale, i corpi di grande massa agiscono come centri di gravità, ma la forza relativa alle dimensioni del corpo è maggiore rispetto all'Universo. L'Ingombro di tutte le creature e gli oggetti è raddoppiato, il che significa che le creature abituate alla gravità normale possono trasportare solo la metà del carico. Le creature abituate alla gravità normale si muovono a metà Velocità e possono saltare solo per metà dell'altezza e della distanza. Gli attacchi fisici a distanza sono impossibili oltre il terzo incremento di gittata (anziché il sesto). Le creature che cadono in alta gravità subiscono danni contundenti pari alla distanza della caduta."
+},
+{
+  "Nome": "Intralciata",
+  "Desc": "Quest'armatura è così pesante e ingombrante da rallentarti in ogni caso. Subisci una penalità di –1,5 metri (–5 piedi) a tutte le tue Velocità (fino a un minimo di 1,5 metri). Questa penalità è separata e aggiuntiva rispetto alla penalità alla Velocità dell'armatura e si applica anche se la tua Forza o una capacità ti permette di ridurre o ignorare la penalità alla Velocità dell'armatura."
+},
+{
+  "Nome": "Hobgoblin",
+  "Desc": "Una creatura con questo tratto è un goblinoide alto e militarista. Gli hobgoblin tendono a possedere scurovisione. Un'abilità con questo tratto può essere usata o selezionata solo dagli hobgoblin. Un oggetto con questo tratto è creato e utilizzato dagli hobgoblin."
+},
+{
+  "Nome": "Sacro",
+  "Desc": "Gli effetti con il tratto sacro sono legati a potenti forze magiche di benevolenza e virtù. Spesso hanno effetti più forti sulle creature empie. Le creature con questo tratto sono fortemente devote a cause sacre e spesso possiedono una debolezza all'empio. Se una creatura con debolezza al sacro usa un oggetto o un effetto sacro, subisce danni dalla propria debolezza."
+},
+{
+  "Nome": "Hryngar",
+  "Desc": "Parenti sotterranei dei nani, gli hryngar possiedono tipicamente scurovisione, resistenza al veleno e sono infastiditi dalla luce intensa."
+},
+{
+  "Nome": "Umano",
+  "Desc": "Una creatura con questo tratto appartiene all'ascendenza umana. Gli umani sono un popolo estremamente variegato, noto per la propria adattabilità. Un'abilità con questo tratto può essere usata o selezionata solo dagli umani."
+},
+{
+  "Nome": "Umanoide",
+  "Desc": "Le creature umanoidi ragionano e agiscono in modo simile agli umani. In genere stanno erette e possiedono due braccia e due gambe."
+},
+{
+  "Nome": "Hungerseed",
+  "Desc": "Un termine usato per indicare coloro che possiedono ascendenza oni."
+},
+{
+  "Nome": "Ifrit",
+  "Desc": "Gli ifrit sono discendenti planari originati dagli efreet."
+},
+{
+  "Nome": "Ikeshti",
+  "Desc": "Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."
+},
+{
+  "Nome": "Ikon",
+  "Desc": "Un oggetto con il tratto ikon è un oggetto speciale fornito o creato dalla divinità di un Exemplar ed è così strettamente legato a quell'Exemplar da poter fungere da vaso sacro per il suo potere. Ottieni tre ikon al 1° livello. Ogni ikon possiede una capacità passiva di immanenza e una capacità attivata di trascendenza. Un talento con il tratto ikon infonde uno dei tuoi ikon di capacità aggiuntive. Ogni volta che ottieni un talento con il tratto ikon, scegli quale dei tuoi ikon ottiene tale capacità; se possiedi più ikon che soddisfano i requisiti d'uso del talento, puoi scegliere il talento più volte per applicarne gli effetti a un altro dei tuoi ikon. Questi talenti indicano in quale ikon possono essere infusi, e un numero qualsiasi di essi può essere infuso in un singolo ikon."
+},
+{
+  "Nome": "Illusione",
+  "Desc": "Gli effetti e gli oggetti magici con questo tratto coinvolgono stimoli sensoriali falsi."
+},
+{
+  "Nome": "Incommensurabile",
+  "Desc": "I piani incommensurabili sono di dimensioni impossibili da misurare, forse infinite."
+},
+{
+  "Nome": "Impulso",
+  "Desc": "Le principali azioni magiche utilizzate dai cinetisti sono chiamate impulsi. Puoi usare un impulso solo se la tua aura cinetica è attiva e sta canalizzando quell'elemento, e solo se hai una mano libera per modellare il flusso elementale. Il tratto impulso implica che l'azione possieda il tratto concentrazione, a meno che un'altra capacità non lo modifichi. Se un impulso ti consente di scegliere un elemento, puoi scegliere qualsiasi elemento che stai canalizzando, e l'impulso ottiene il tratto di quell'elemento."
+},
+{
+  "Nome": "Incapacita",
+  "Desc": "Un'abilità con questo tratto può rimuovere completamente un personaggio dal combattimento o addirittura ucciderlo, ed è più difficile da usare contro personaggi più potenti. Se un incantesimo possiede il tratto incapacità, qualsiasi creatura con un grado superiore a più del doppio del grado dell'incantesimo considera il risultato della propria prova per evitare l'incapacitazione come di un grado di successo migliore, oppure considera il risultato di qualsiasi prova effettuata dall'incantatore per incapacitarla come di un grado di successo peggiore. Se un altro effetto possiede il tratto incapacità, una creatura di livello superiore rispetto all'oggetto, alla creatura o al pericolo che genera l'effetto ottiene gli stessi benefici."
+}
+,{
+  "Nome": "Incarnato",
+  "Desc": "Un incantesimo con il tratto incarnato è simile, per tema, agli incantesimi che evocano creature, ma non evoca un servitore con il tratto evocato. Invece, quando viene evocata, la creatura incarnata esegue la sua azione Arrivo quando termini di Lanciare l'Incantesimo. Alla fine del tuo turno successivo, la creatura incarnata può Fare un Passo, Avanzare oppure compiere l'azione di un altro tipo di movimento che possiede (come Scalare o Scavare), quindi esegue la sua azione Partenza. L'incantesimo termina quindi. I nomi specifici delle azioni di Arrivo e Partenza sono indicati in corsivo dopo le parole “Arrivo” o “Partenza”, insieme ai relativi tratti.\n\nUna creatura evocata da un incantesimo incarnato agisce nel tuo interesse, dirige i suoi effetti lontano da te e dai tuoi alleati per quanto possibile e potrebbe ascoltare le tue richieste, ma prende comunque decisioni autonome. Se l'incantesimo indica che l'incarnato prende una decisione, è il GM a stabilire cosa farebbe l'incarnato. Nel corso di evocazioni multiple, potrebbe persino diventare più incline a fare esattamente ciò che desideri.\n\nL'incarnato non è pienamente una creatura. Non può compiere altre azioni, né può essere bersagliato o danneggiato da Colpi, incantesimi o altri effetti, a meno che questi non possano bersagliare o terminare un effetto di incantesimo (come dissolvi magie). Possiede una taglia ai fini di determinare il suo posizionamento per gli effetti, ma non blocca il movimento. Se applicabile, i suoi effetti utilizzano le tue CD degli incantesimi e il tuo modificatore di attacco con incantesimi."
+},
+{
+  "Nome": "Incorporeo",
+  "Desc": "Una creatura o un oggetto incorporeo non possiede una forma fisica. Può attraversare oggetti solidi, comprese le pareti. Quando si trova all'interno di un oggetto, una creatura incorporea non può percepire, attaccare o interagire con nulla al di fuori dell'oggetto e, se inizia il suo turno all'interno di un oggetto, è rallentata 1 fino alla fine del turno. Una creatura corporea e una incorporea possono attraversarsi a vicenda, ma non possono terminare il movimento nello stesso spazio.\n\nUna creatura incorporea non può tentare prove basate sulla Forza contro creature o oggetti fisici—solo contro quelli incorporei—a meno che tali oggetti non possiedano la runa di proprietà tocco fantasma. Allo stesso modo, una creatura corporea non può tentare prove basate sulla Forza contro creature o oggetti incorporei.\n\nLe creature incorporee sono solitamente immuni agli effetti o alle condizioni che richiedono un corpo fisico, come malattie, veleni e danni di precisione. In genere possiedono resistenza a tutti i danni (eccetto i danni da forza e i danni dei Colpi con la runa di proprietà tocco fantasma), con resistenza doppia contro i danni non magici."
+},
+{
+  "Nome": "Inevitabile",
+  "Desc": "Questi aeon costruiti sono stati creati dagli assiomiti. Ogni tipo di inevitabile è dedicato a un compito specifico. La maggior parte degli inevitabili possiede una debolezza ai danni caotici."
+},
+{
+  "Nome": "Infame",
+  "Desc": "Il tratto infame aumenta il tuo punteggio di Infamia quando la struttura viene costruita. Alcune strutture possiedono sia il tratto famoso sia quello infame; in questo caso applica quello che corrisponde alla preferenza del tuo regno (vedi Fama e Infamia)."
+},
+{
+  "Nome": "Fanteria",
+  "Desc": "La fanteria è composta da soldati o creature che si muovono a piedi."
+},
+{
+  "Nome": "Infrastruttura",
+  "Desc": "Il tratto infrastruttura indica che la struttura fornisce benefici a tutti i lotti di una Griglia Urbana senza occupare un lotto. Per una metropoli, ciò significa che devi costruire separatamente l'Infrastruttura per ciascuna Griglia Urbana che compone l'insediamento."
+},
+{
+  "Nome": "Infuso",
+  "Desc": "Un oggetto alchemico con il tratto infuso ha un tempo limitato prima di diventare inerte. Tutti gli effetti non permanenti dei tuoi oggetti alchemici infusi, con l'eccezione delle afflizioni come i veleni a lenta azione, terminano quando effettui nuovamente le tue preparazioni giornaliere."
+},
+{
+  "Nome": "Infusione",
+  "Desc": "Le azioni con il tratto infusione modificano i tuoi impulsi da cinetista. Devi usare un'azione di infusione immediatamente prima dell'azione di impulso che desideri alterare. Se utilizzi qualsiasi altra azione (incluse azioni gratuite e reazioni) subito dopo, diversa da un'azione di impulso, sprechi i benefici dell'azione di infusione. Eventuali effetti aggiuntivi conferiti da un'azione di infusione fanno parte dell'effetto dell'impulso, non dell'azione di infusione stessa."
+},
+{
+  "Nome": "Ingestione",
+  "Desc": "Un veleno ingerito viene attivato applicandolo a cibo o bevande destinati a essere consumati da una creatura vivente, oppure inserendolo direttamente nella bocca di una creatura vivente. Una creatura tenta un tiro salvezza contro tale veleno quando consuma il veleno o il cibo o la bevanda trattati. Il tempo di insorgenza dei veleni ingeriti varia tipicamente da 1 minuto a 1 giorno."
+},
+{
+  "Nome": "Inalazione",
+  "Desc": "Un veleno inalato viene attivato rilasciandolo dal suo contenitore. Una volta rilasciato, il veleno crea una nube che riempie un cubo di 3 metri (10 piedi) e dura 1 minuto o finché un vento forte non la disperde. Ogni creatura che entra nella nube è esposta al veleno e deve tentare un tiro salvezza contro di esso; una creatura consapevole del veleno prima di entrare nella nube può usare una singola azione per trattenere il respiro e ottenere un bonus di circostanza +2 al tiro salvezza per 1 round."
+},
+{
+  "Nome": "Iniezione",
+  "Desc": "Quest'arma può essere riempita con un liquido, di solito un veleno da ferita. Immediatamente dopo un attacco riuscito con l'arma, puoi iniettare nel bersaglio il contenuto caricato con una singola azione Interagire (se il bersaglio è consenziente, l'iniezione richiede in totale solo 1 azione Interagire). Ricaricare l'arma con una nuova sostanza richiede 3 azioni Interagire e l'uso di entrambe le mani."
+},
+{
+  "Nome": "Ferita",
+  "Desc": "Un veleno da ferita viene attivato applicandolo a un'arma o a munizioni e colpisce il bersaglio del primo Colpo effettuato usando l'oggetto avvelenato. Se quel Colpo ha successo e infligge danni perforanti o taglienti, il bersaglio deve tentare un tiro salvezza contro il veleno. Se il Colpo fallisce, il bersaglio non è influenzato, ma il veleno rimane sull'arma e puoi riprovare. In caso di fallimento critico, o se il Colpo non infligge danni taglienti o perforanti per qualsiasi altro motivo, il veleno è consumato ma il bersaglio non è influenzato. Solo un veleno da ferita può essere applicato a un'arma o a munizioni alla volta."
+}
+,{
+  "Nome": "Inscritto",
+  "Desc": "L'equipaggiamento, in genere un'armatura o uno scudo, è stato trattato per poter essere inciso con simboli magici usando gli stessi metodi della Creazione di una pergamena. Un indumento inscritto può contenere una sola pergamena incisa su di esso. Hai bisogno di una mano libera per Attivare la pergamena, ma non è necessario Interagire per estrarla. Puoi anche Attivare la magia per cancellare la pergamena attualmente contenuta nell'equipaggiamento. Non puoi incidere una nuova pergamena sull'equipaggiamento se ne è già presente una o se l'equipaggiamento è rotto."
+},
+{
+  "Nome": "Integrato",
+  "Desc": "Questo scudo è stato creato includendo un'arma nella sua struttura, che funziona come un'arma attaccata ma non può essere rimossa dallo scudo. Ciò impedisce anche di aggiungere altre armi attaccate allo scudo. I danni dell'arma integrata sono indicati accanto al tratto, ad esempio “integrato d6 S”, con eventuali tratti tra parentesi. Se non diversamente indicato nella descrizione dello scudo, un'arma integrata è un'arma marziale del gruppo armi da scudo e richiede una mano per attaccare. L'arma integrata può avere rune incise come le altre armi attaccate. Puoi continuare a combattere normalmente con l'arma integrata se lo scudo è rotto, ma se lo scudo viene distrutto anche l'arma viene distrutta."
+},
+{
+  "Nome": "Intelligente",
+  "Desc": "Un oggetto con questo tratto è intelligente e possiede una propria volontà e personalità, oltre a diverse statistiche che la maggior parte degli oggetti non ha. Gli oggetti intelligenti non possono essere creati con mezzi normali e sono sempre rari o unici."
+},
+{
+  "Nome": "Inventore",
+  "Desc": "Indica capacità provenienti dalla classe dell'inventore."
+},
+{
+  "Nome": "Investito",
+  "Desc": "Un personaggio può investire solo 10 oggetti magici che possiedono il tratto investito. Nessuno degli effetti magici dell'oggetto si applica se il personaggio non lo ha investito, né l'oggetto può essere attivato, anche se il personaggio continua a beneficiare dei normali vantaggi fisici derivanti dall'indossarlo (come un cappello che ripara dalla pioggia)."
+},
+{
+  "Nome": "Investigatore",
+  "Desc": "Indica capacità provenienti dalla classe dell'investigatore."
+},
+{
+  "Nome": "Jotunborn",
+  "Desc": "Una creatura con questo tratto appartiene all'ascendenza jotunborn. Gli jotunborn sono persone di grande taglia forgiate dal sangue di un antico gruppo di giganti chiamati titani e possiedono di solito visione crepuscolare. Un'abilità con questo tratto può essere usata o selezionata solo dagli jotunborn. Un'arma con questo tratto è creata e utilizzata dagli jotunborn."
+},
+{
+  "Nome": "Giostra",
+  "Desc": "Quest'arma è adatta al combattimento montato tramite un'imbracatura o mezzi simili. Quando sei in sella, se ti sei mosso di almeno 3 metri (10 piedi) con l'azione immediatamente precedente al tuo attacco, aggiungi a quell'attacco un bonus di circostanza ai danni pari al numero di dadi di danno dell'arma. Inoltre, mentre sei in sella, puoi impugnare l'arma con una mano, modificando il dado di danno al valore indicato. Come parte dell'azione per Montare una creatura, puoi cambiare la presa di un'arma da giostra a una mano. In seguito, cambiare presa richiede le stesse azioni descritte a pagina 268. Se smonti mentre impugni un'arma da giostra a una mano, puoi passare a usarla a due mani come parte di quell'azione se in quel momento hai una mano libera. In caso contrario, continuerai a tenere l'arma in una mano, ma senza impugnarla."
+},
+{
+  "Nome": "Kaiju",
+  "Desc": "Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."
+},
+{
+  "Nome": "Kami",
+  "Desc": "I kami sono spiriti dell'Universo che si legano a un oggetto o a un luogo specifico."
+},
+{
+  "Nome": "Kashrishi",
+  "Desc": "Un'ascendenza robusta che porta distintive corna di cristallo e possiede innate capacità psichiche."
+},
+{
+  "Nome": "Kholo",
+  "Desc": "Una creatura con questo tratto appartiene all'ascendenza kholo, umanoidi che ricordano le iene. Un'abilità con questo tratto può essere usata o selezionata solo dai kholo. Un oggetto con questo tratto è creato e utilizzato dai kholo."
+},
+{
+  "Nome": "Contraccolpo",
+  "Desc": "Un'arma con contraccolpo è estremamente potente e difficile da usare a causa del forte rinculo. Un'arma con contraccolpo infligge 1 danno aggiuntivo con tutti gli attacchi. Sparare con un'arma con contraccolpo impone una penalità di circostanza –2 al tiro per colpire, ma i personaggi con modificatore di Forza +2 o superiore ignorano questa penalità. Fissare un'arma con contraccolpo a un bipiede, treppiede o altro stabilizzatore può ridurre o annullare questa penalità."
+},
+{
+  "Nome": "Cinetista",
+  "Desc": "Indica capacità provenienti dalla classe del cinetista."
+},
+{
+  "Nome": "Regno",
+  "Desc": "Un regno ottiene talenti man mano che aumenta di livello. Alcuni talenti sono capacità di uso generale che si applicano costantemente. Altri concedono benefici ad attività o eventi specifici del regno o permettono ai regni di svolgere attività speciali. Ogni volta che un regno ottiene un talento, i giocatori possono selezionare qualsiasi talento il cui livello non superi quello del regno e di cui il regno soddisfi i prerequisiti."
+},
+{
+  "Nome": "Kitsune",
+  "Desc": "I kitsune sono umanoidi simili a volpi con una forma umanoide alternativa o una forma di volpe. Curiosi e creativi, hanno la reputazione di essere ingannatori."
+},
+{
+  "Nome": "Kobold",
+  "Desc": "Una creatura con questo tratto appartiene all'ascendenza dei kobold, umanoidi rettiliani solitamente di taglia Piccola e che possiedono tipicamente scurovisione. Un'abilità con questo tratto può essere usata o selezionata solo dai kobold."
+},
+{
+  "Nome": "Kovintus",
+  "Desc": "Umanoidi reclusi con un talento innato per la geomanzia; i kovintus hanno un legame intrinseco sia con la natura sia con la magia."
+}
+,{"Nome":"Lamellare","Desc":"L'armatura è composta da sezioni stratificate, quindi quando si rompe non è un problema così grave. La penalità di stato alla CA se questa armatura è rotta è –1 per un'armatura media rotta, –2 per un'armatura pesante rotta, oppure nessuna penalità per un'armatura leggera rotta."},
+{"Nome":"Lancia","Desc":"Un meccanismo all'interno di questo scudo può sparare proiettili, facendo sì che lo scudo funzioni anche come arma a distanza. Il tratto elenca il tipo di arma, come per esempio “dardo lanciabile”. Colpire con il lanciatore richiede lo stesso numero di mani del normale, eccetto che la mano che impugna lo scudo conta ai fini di questo totale, quindi un'arma a distanza a una mano richiederebbe solo una mano. Ricaricare richiede il normale numero di azioni Interagire, con un minimo di 1 azione, e non puoi usare la mano che tiene lo scudo per ricaricare."},
+{"Nome":"Legale","Desc":"Gli effetti legali spesso manipolano energia proveniente dai Piani Esterni allineati alla legge e sono antitetici ai servitori divini caotici o ai servitori divini di divinità caotiche. Una creatura con questo tratto è legale nell'allineamento."},
+{"Nome":"Leadership","Desc":"Questa è un'attività di abilità del Regno che può essere intrapresa durante la fase di Attività di Leadership."},
+{"Nome":"Eredità","Desc":"Una volta che hai giocato il Percorso di Avventura elencato, questi background rari possono diventare disponibili nelle tue future campagne dopo gli eventi di questo Percorso di Avventura."},
+{"Nome":"Leshy","Desc":"Una creatura con questo tratto è un membro dell'ascendenza leshy. Queste piccole creature vegetali o fungine hanno una forma umanoide. Un'abilità con questo tratto può essere usata o selezionata solo dai leshy. Un'arma con questo tratto è creata e usata dai leshy."},
+{"Nome":"Luce","Desc":"Gli effetti di luce superano l'oscurità non magica nell'area e possono contrastare l'oscurità magica. Di solito devi bersagliare direttamente la magia di oscurità con la tua magia di luce per contrastarla, ma alcuni incantesimi di luce tentano automaticamente di contrastare l'oscurità."},
+{"Nome":"Lilu","Desc":"Tutti i lilu sono immondi caotici malvagi che possono volare, sono immuni alle malattie, hanno un aspetto misto aviario e umanoide, possiedono scurovisione e senso vitale e resistono ai danni fisici (eccetto quelli da ferro freddo). La maggior parte possiede una selezione di incantesimi innati primordiali (spesso inclusa una versione primordiale di porta dimensionale)."},
+{"Nome":"Linea di Sangue","Desc":"Un talento con questo tratto indica la discendenza di un personaggio da un particolare tipo di creatura. Puoi avere solo un talento di linea di sangue. Puoi selezionare un talento di linea di sangue solo al 1° livello e non puoi riaddestrarti entrando o uscendo da questi talenti."},
+{"Nome":"Linguistico","Desc":"Un effetto con questo tratto dipende dalla comprensione del linguaggio. Un effetto linguistico che bersaglia una creatura funziona solo se il bersaglio comprende la lingua che stai usando."},
+{"Nome":"Litania","Desc":"Le litanie sono incantesimi di devozione speciali, tipicamente usati dai campioni e che richiedono una singola azione, che di solito conferiscono immunità temporanea a ulteriori litanie."},
+{"Nome":"Lucertoloide","Desc":"Una creatura con questo tratto è un membro dell'ascendenza dei lucertoloidi, una famiglia di umanoidi rettiliani. Un'abilità con questo tratto può essere usata o selezionata solo dai lucertoloidi."},
+{"Nome":"Bassa Gravità","Desc":"Come nella gravità normale, i corpi di grande massa agiscono come centri di gravità, ma la forza relativa alle dimensioni del corpo è inferiore rispetto all'Universo. Il Bulk di tutte le creature e gli oggetti è dimezzato, il che significa che le creature acclimatate alla gravità normale possono trasportare il doppio e saltare il doppio in altezza e distanza. Gli attacchi fisici a distanza sono possibili fino al dodicesimo incremento di gittata (invece del sesto). Le creature che cadono in bassa gravità non subiscono danni per i primi 10 piedi di caduta e poi subiscono danni contundenti pari a un quarto della distanza restante caduta."},
+{"Nome":"Pastiglia","Desc":"Attivi una pastiglia alchemica mettendola in bocca. Rimane lì, dissolvendosi lentamente e rilasciando i suoi ingredienti nel tempo. Puoi mordere una pastiglia per un effetto secondario. L'azione necessaria è indicata nell'oggetto. Non appena questo effetto secondario termina, la pastiglia è consumata e i suoi benefici per te finiscono. Puoi bere elisir, pozioni e bevande con una pastiglia in bocca, ma non puoi beneficiare di più di una pastiglia alla volta. Se hai due pastiglie in bocca contemporaneamente, entrambe diventano inerti. Puoi anche sputare una pastiglia come azione singola per terminarne l'effetto e renderla inerte. Una pastiglia si dissolve grazie ai suoi ingredienti alchemici, quindi di solito funziona anche se non hai saliva."},
+{"Nome":"Maftet","Desc":"I maftet hanno una parte superiore del corpo umanoide, una parte inferiore leonina e ali simili a quelle di un falco."},
+{"Nome":"Magico","Desc":"Qualcosa con il tratto magico è infuso di energie magiche non legate a una specifica tradizione di magia. Alcuni oggetti o effetti sono strettamente legati a una particolare tradizione di magia. In questi casi, l'oggetto ha invece il tratto arcano, divino, occulto o primordiale al posto del tratto magico. Ognuno di questi tratti indica che l'oggetto è magico."}
+,{"Nome":"Magus","Desc":"Questo indica capacità provenienti dalla classe del magus."},
+{"Nome":"Manovra","Desc":"Questo modificatore si applica a tutte le prove effettuate dall'armata per manovrare, sia per eseguire una tattica complessa sia per ridurre al minimo i danni e gli effetti derivanti da pericoli fisici insoliti."},
+{"Nome":"Manipolare","Desc":"Devi manipolare fisicamente un oggetto o compiere gesti per usare un'azione con questo tratto. Le creature prive di un'appendice adatta non possono eseguire azioni con questo tratto. Le azioni di Manipolare spesso innescano reazioni."},
+{"Nome":"Pasto","Desc":"Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."},
+{"Nome":"Meccanico","Desc":"Un pericolo con questo tratto è un oggetto fisico costruito."},
+{"Nome":"Mentale","Desc":"Un effetto mentale può alterare la mente del bersaglio. Non ha effetto su un oggetto o su una creatura priva di mente."},
+{"Nome":"Metamorfico","Desc":"Le cose cambiano tramite mezzi diversi dalla forza fisica o dalla magia. A volte gli incantesimi hanno effetti morfici. Altre volte, la natura del piano è sotto il controllo di una divinità o di un potere, oppure il piano cambia semplicemente in modo casuale."},
+{"Nome":"Metropoli","Desc":"Gli insediamenti con questo tratto sono le più grandi tra le città, spesso con un livello pari o superiore a 8."},
+{"Nome":"Microgravità","Desc":"Su questo piano c'è poca o nessuna gravità. Le creature fluttuano nello spazio a meno che non possano spingersi da una superficie o usare una qualche forza per propellersi attraverso il piano."},
+{"Nome":"Privo di Mente","Desc":"Una creatura priva di mente possiede attributi mentali programmati o rudimentali. La maggior parte, se non tutti, dei loro modificatori di attributi mentali è –5. Sono immuni a tutti gli effetti mentali."},
+{"Nome":"Spostamento Mentale","Desc":"Un'azione con questo tratto può sempre essere alterata per usare il potere grezzo della tua mente. Quando esegui questa azione, puoi scegliere di sostituire qualsiasi danno che infligge con danni mentali, conferirle il tratto mentale e sostituire qualsiasi tiro salvezza richiesto con un tiro salvezza su Volontà. L'azione perde qualsiasi tratto che corrisponda ai tipi di danno che non infligge più."},
+{"Nome":"Gregario","Desc":"I gregari sono creature che servono direttamente un'altra creatura. Il tuo gregario agisce nel tuo turno in combattimento, una volta per turno, quando spendi un'azione per impartirgli comandi. Per un compagno animale, Comandi un Animale; per un gregario che è un incantesimo o l'effetto di un oggetto magico, come un gregario evocato, Sostieni l'effetto; se non diversamente specificato, impartisci un comando verbale come azione singola con i tratti uditivo e concentrazione. Se non ricevono comandi, i gregari non usano azioni se non per difendersi o per sfuggire a un pericolo evidente. Se lasciati incustoditi per un tempo sufficientemente lungo, tipicamente 1 minuto, i gregari privi di mente di solito non agiscono, gli animali seguono i loro istinti e i gregari senzienti agiscono come preferiscono. Puoi avere un massimo di quattro gregari sotto il tuo controllo.\n\nUn gregario ha solo 2 azioni e 0 reazioni per turno, anche se determinate condizioni (come rallentato o accelerato) o capacità potrebbero fornire loro azioni aggiuntive o una reazione. Le modifiche alle azioni di un gregario avvengono quando ottiene le sue azioni per il round. Un gregario non può controllare altre creature."},
+{"Nome":"Minotauro","Desc":"I minotauri sono umanoidi bovini cornuti con una padronanza dei labirinti e degli enigmi."},
+{"Nome":"Sfortuna","Desc":"Un effetto di sfortuna altera negativamente il modo in cui tiri i dadi. Non puoi mai avere più di un effetto di sfortuna che alteri un singolo tiro. Se più effetti di sfortuna dovessero applicarsi, il GM decide quale sia il peggiore e lo applica. Se un effetto di fortuna e un effetto di sfortuna dovessero applicarsi allo stesso tiro, i due si annullano a vicenda e tiri normalmente."},
+{"Nome":"Missiva","Desc":"Una missiva è un pezzo di cancelleria magica che deve essere creato e composto prima di poter essere attivato. Tutte le missive hanno i tratti missiva e consumabile. Le missive sono spesso costruite in carta, pergamena o velina, ma qualsiasi altro materiale sottile e portatile che possa contenere scrittura o goffratura può essere trasformato in missiva. Dopo essere stata creata, la missiva è un foglio bianco finché non viene composto un messaggio su di essa, completandone la magia."},
+{"Nome":"Modifica","Desc":"Un talento con questo tratto altera la costruzione della tua innovazione. Se possiedi la capacità di classe riconfigurare, puoi riaddestrare più facilmente un talento di questo tipo."},
+{"Nome":"Modulare","Desc":"L'arma ha più configurazioni tra cui puoi passare usando un'azione Interagire. Tipicamente, passare tra le configurazioni di un'arma modulare le consente di infliggere diversi tipi di danno (elencati nel tratto, come “modulare B, P o S”), anche se è possibile che la descrizione di un'arma modulare elenchi configurazioni più complesse."}
+,{"Nome":"Monitor","Desc":"Le creature che provengono da Axis, dal Cimitero delle Anime o dal Maelstrom, o che hanno un forte legame con essi, sono chiamate monitor. I monitor possono sopravvivere agli effetti ambientali di base dei piani nella Sfera Esterna."},
+{"Nome":"Monaco","Desc":"Le capacità con questo tratto provengono dalla classe del monaco. Un'arma con questo tratto è usata principalmente dai monaci."},
+{"Nome":"Morale","Desc":"Questo modificatore si applica a tutte le prove effettuate dall'armata per evitare di diventare scossa o per resistere agli effetti."},
+{"Nome":"Morlock","Desc":"I morlock sono una famiglia di umanoidi pallidi che vivono nel sottosuolo e che, generazioni fa, erano normali esseri umani."},
+{"Nome":"Morfologico","Desc":"Gli effetti che alterano leggermente la forma di una creatura hanno il tratto morfologico. Tutti i Colpi concessi specificamente da un effetto morfologico sono magici. Puoi essere influenzato da più incantesimi morfologici contemporaneamente, ma se trasformi la stessa parte del corpo più di una volta, il secondo effetto morfologico tenta di contrastare il primo (nello stesso modo di due effetti di metamorfosi, come descritto in quel tratto).\n\nI tuoi effetti morfologici potrebbero anche terminare se vieni trasformato e l'effetto di metamorfosi invalida o sostituisce il tuo effetto morfologico. Il GM determina quali effetti morfologici possono essere usati insieme e quali no."},
+{"Nome":"Mortico","Desc":"I mortici sono umanoidi viventi con stretti legami con la non morte. Possiedono scurovisione, guarigione negativa e vulnerabilità al terreno consacrato, e possono diventare non morti trattenendo il respiro."},
+{"Nome":"Montato","Desc":"Le armi d'assedio montate occupano una certa dimensione e spazio e in genere hanno statistiche che permettono di attaccarle. Sono usate per la guerra su larga scala."},
+{"Nome":"Movimento","Desc":"Un'azione con questo tratto comporta lo spostamento da uno spazio a un altro."},
+{"Nome":"Multiclasse","Desc":"Gli archetipi con il tratto multiclasse rappresentano la diversificazione del tuo addestramento nelle specialità di un'altra classe. Non puoi selezionare il talento di dedizione di un archetipo multiclasse se sei un membro della classe con lo stesso nome."},
+{"Nome":"Mummia","Desc":"Una mummia è una creatura non morta creata a partire da un cadavere preservato."},
+{"Nome":"Munavri","Desc":"Umanoidi amichevoli che vivono nelle Terre Oscure, i munavri possiedono potenti capacità telecinetiche e psichiche."},
+{"Nome":"Munsahir","Desc":"I munsahir sono umanoidi elementali che risiedono sul Piano del Fuoco."},
+{"Nome":"Mutageno","Desc":"I mutageni sono un tipo speciale di elisir che trasmuta temporaneamente il corpo e la mente del soggetto. In genere, solo gli alchimisti possiedono l'esperienza necessaria per creare mutageni.\n\nUn mutageno conferisce sempre uno o più effetti benefici (elencati nella voce Beneficio) e uno o più effetti dannosi (indicati nella voce Svantaggio). I mutageni sono effetti di metamorfosi, e un effetto di metamorfosi successivo tenta di contrastare un effetto esistente; la prova di contrasto per un mutageno usa il livello dell'oggetto e un modificatore pari alla CD di quel livello – 10."},
+{"Nome":"Mutante","Desc":"Il mostro è mutato o si è evoluto, ottenendo benefici insoliti, svantaggi, o entrambi."},
+{"Nome":"Mitico","Desc":"Le opzioni con questo tratto concedono o utilizzano potere mitico. I talenti con il tratto mitico possono essere scelti solo da personaggi mitici, che in genere sono personaggi con una Chiamata mitica.\n\nI mostri con il tratto mitico hanno accesso a una riserva di Punti Mitici e sono particolarmente potenti per creature del loro livello. Molti mostri mitici sono resistenti o completamente immuni agli attacchi provenienti da creature e armi non mitiche.\n\nGli incantesimi con il tratto mitico richiedono la spesa di un Punto Mitico per essere lanciati, e gli oggetti con il tratto mitico richiedono la spesa di un Punto Mitico per usare le loro capacità attivate.\n\nLe armi con il tratto mitico superano le resistenze e le immunità dei mostri mitici."},
+{"Nome":"Naari","Desc":"I naari sono discendenti planari che derivano dagli efreet."}
+,{"Nome":"Nagaji","Desc":"I nagaji sono umanoidi robusti con pelle squamosa e teste serpentine, molti dei quali servono o rispettano i naga."},
+{"Nome":"Necromanzia","Desc":"Gli effetti e gli oggetti magici con questo tratto sono associati alla scuola di magia della necromanzia, tipicamente coinvolgendo le forze della vita e della morte."},
+{"Nome":"Nephilim","Desc":"Una creatura con questo tratto possiede l'eredità versatile nephilim. I nephilim sono discendenti planari derivati da esseri immortali provenienti da altri piani. Un'abilità con questo tratto può essere usata o selezionata solo dai nephilim."},
+{"Nome":"Nindoru","Desc":"I nindoru sono immondi caotici malvagi che nascono dalle corruzioni del ciclo della reincarnazione delle anime e vivono sul Piano Materiale. Sebbene spesso abbiano elementi nell'aspetto che li fanno sembrare non morti, sono in realtà esseri viventi. La maggior parte dei nindoru possiede scurovisione, è immune agli effetti di morte, ha debolezza all'argento e possiede il potere di manifestare oggetti o creature dai propri pensieri."},
+{"Nome":"Rumoroso","Desc":"Questa armatura è rumorosa ed è probabile che allerti altri della tua presenza. La penalità di prova dell'armatura si applica alle prove di Furtività anche se possiedi il modificatore di Forza richiesto."},
+{"Nome":"Non Letale","Desc":"Gli attacchi con quest'arma sono non letali e sono usati per rendere incoscienti le creature invece di ucciderle. Puoi usare un'arma non letale per effettuare un attacco letale con una penalità di circostanza di –2."},
+{"Nome":"Ninfa","Desc":"Questa famiglia di bellissime creature fatate ha forti legami con luoghi naturali."},
+{"Nome":"Giuramento","Desc":"I giuramenti aggiungono un ulteriore principio al tuo codice. Di solito puoi avere un solo talento con questo tratto."},
+{"Nome":"Occulto","Desc":"Questa magia proviene dalla tradizione occulta, richiamando misteri bizzarri ed effimeri. Tutto ciò che possiede questo tratto è magico.\n\nUna creatura con questo tratto è costituita principalmente da magia occulta o ha un forte legame con essa."},
+{"Nome":"Olio","Desc":"Gli oli sono gel, unguenti, paste o balsami magici che vengono tipicamente applicati a un oggetto e consumati nel processo."},
+{"Nome":"Olfattivo","Desc":"Un effetto olfattivo può influenzare solo le creature che possono sentirne l'odore. Questo si applica solo alle parti olfattive dell'effetto, come determinato dal GM."},
+{"Nome":"Oni","Desc":"Gli oni sono una famiglia di giganti brutali e mutaforma che un tempo erano kami."},
+{"Nome":"Melma","Desc":"Le melme sono creature con anatomie semplici. Tendono ad avere bassi modificatori degli attributi mentali e immunità agli effetti mentali e ai danni di precisione."},
+{"Nome":"Aperto","Desc":"Queste manovre funzionano solo come prima azione offensiva nel tuo turno. Puoi usare una manovra aperta solo se non hai ancora usato un'azione con il tratto attacco o aperto in questo turno."},
+{"Nome":"Oracolo","Desc":"Questo tratto indica capacità provenienti dalla classe dell'oracolo."},
+{"Nome":"Orco","Desc":"Una creatura con questo tratto è un membro dell'ascendenza degli orchi. Queste persone dalla pelle verde tendono ad avere scurovisione. Un'abilità con questo tratto può essere usata o selezionata solo dagli orchi. Un oggetto con questo tratto è creato e usato dagli orchi."},
+{"Nome":"Oread","Desc":"Gli oreadi sono discendenti planari derivati dai jabali."},
+{"Nome":"Sovraccarico","Desc":"Impulsi potenti sovraccaricano temporaneamente l'energia del tuo portale cinetico. Quando usi un impulso che possiede il tratto sovraccarico, la tua aura cinetica si disattiva finché non la rivitalizzi (tipicamente con Canalizzare Elementi). Spegnere il tuo elemento in modo così drastico è faticoso e, di conseguenza, puoi usare solo un impulso con sovraccarico per round, anche se riattivi il tuo portale cinetico."},
+{"Nome":"Paaridar","Desc":"Un paaridar è un umanoide che ha ottenuto aspetti fisici e capacità di una bestia potente tramite rituali magici corrotti."}
+,{"Nome":"Palinthanos","Desc":"Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."},
+{"Nome":"Parata","Desc":"Quest'arma può essere usata in modo difensivo per bloccare gli attacchi. Mentre impugni quest'arma, se la tua competenza con essa è addestrato o superiore, puoi spendere una singola azione per posizionare l'arma in modo difensivo, ottenendo un bonus di circostanza di +1 alla CA fino all'inizio del tuo prossimo turno."},
+{"Nome":"Magia Pervasiva","Desc":"Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto. Vedi qui per i dettagli."},
+{"Nome":"Fantasma","Desc":"Un fantasma è un'anima che si è allontanata dal Fiume delle Anime sul Piano Etereo prima di essere giudicata. In genere conserva i ricordi della propria vita prima della morte, ma non è un non morto."},
+{"Nome":"Pianta","Desc":"Le creature vegetali hanno il tratto pianta. Sono distinte dalle piante normali. Gli effetti magici con questo tratto manipolano o evocano piante o materia vegetale in qualche modo. Gli effetti che manipolano le piante non hanno effetto in un'area priva di piante."},
+{"Nome":"Veleno","Desc":"Un effetto con questo tratto somministra un veleno o infligge danni da veleno. Un oggetto con questo tratto è velenoso e potrebbe causare un'afflizione."},
+{"Nome":"Metamorfosi","Desc":"Questi effetti trasformano il bersaglio in una nuova forma. Un bersaglio non può essere sotto l'effetto di più di un effetto di metamorfosi alla volta. Se viene influenzato da un secondo effetto di metamorfosi, il secondo tenta di contrastare il primo. Se ha successo, entra in effetto; se fallisce, l'incantesimo non ha effetto su quel bersaglio. Tutti i Colpi concessi specificamente da un effetto di metamorfosi sono magici. Se non diversamente specificato, gli incantesimi di metamorfosi non permettono al bersaglio di assumere l'aspetto di una creatura individuale specifica, ma solo quello di una creatura generica di un tipo o di un'ascendenza generale.\n\nSe assumi una forma da battaglia con un incantesimo di metamorfosi, le statistiche speciali possono essere modificate solo da bonus di circostanza, bonus di stato e penalità. Se non diversamente indicato, la forma da battaglia ti impedisce di lanciare incantesimi, parlare e usare la maggior parte delle azioni di manipolare che richiedono mani. (In caso di dubbio su quale azione tu possa usare, decide il GM.) Il tuo equipaggiamento viene assorbito in te; le capacità costanti del tuo equipaggiamento continuano a funzionare, ma non puoi attivare alcun oggetto. Se un effetto di metamorfosi ti fa aumentare di taglia, devi avere spazio per espanderti oppure l'effetto viene interrotto."},
+{"Nome":"Ponderoso","Desc":"L'armatura ha parti mobili o altre complicazioni che allungano il tempo di reazione iniziale dell'indossatore. Mentre indossi l'armatura, subisci una penalità di –1 alle prove di iniziativa. Se non soddisfi il modificatore di Forza richiesto dall'armatura, questa penalità aumenta fino a essere pari alla penalità di prova dell'armatura, se è peggiore."},
+{"Nome":"Poppet","Desc":"Piccoli costrutti originariamente progettati per servire come compagni o servitori. Occasionalmente ottengono una scintilla di vita più grande, trasformandosi in creature indipendenti e senzienti."},
+{"Nome":"Portatile","Desc":"Le armi d'assedio portatili, come gli arieti, possono essere trasportate più facilmente e hanno un ruolo sia nella guerra sia nei conflitti più piccoli o nell'esplorazione."},
+{"Nome":"Possessione","Desc":"Gli effetti con questo tratto permettono a una creatura di proiettare la propria mente e il proprio spirito in un bersaglio. Una creatura immune agli effetti mentali non può usare un effetto di possessione. Mentre possiede un bersaglio, il vero corpo del possessore è incosciente (e non può svegliarsi normalmente), a meno che l'effetto di possessione non permetta alla creatura di entrare fisicamente nel bersaglio. Ogni volta che il bersaglio subisce danni, il possessore subisce metà di quel quantitativo come danni mentali.\n\nUn possessore perde i benefici di qualsiasi incantesimo o capacità attiva che influenzi il suo corpo fisico, ma ottiene i benefici degli incantesimi e delle capacità attive del bersaglio che influenzano il suo corpo. Un possessore può usare qualsiasi capacità del bersaglio che sia puramente fisica e non può usare nessuna delle proprie capacità eccetto incantesimi e capacità puramente mentali. Il GM decide se una capacità è puramente fisica o puramente mentale. Un possessore usa il modificatore di attacco del bersaglio, la CA, il tiro salvezza su Tempra, il tiro salvezza su Riflessi, Percezione e le abilità fisiche, e il proprio tiro salvezza su Volontà, le abilità mentali, il modificatore di attacco degli incantesimi e la CD degli incantesimi; i benefici degli oggetti investiti si applicano dove rilevante (gli oggetti investiti del possessore si applicano quando usa i propri valori, e quelli del bersaglio si applicano quando usa i valori del bersaglio). Un possessore non ottiene alcun beneficio dal lanciare incantesimi che normalmente influenzano solo il lanciatore, poiché non si trova nel proprio corpo. Il possessore deve usare le proprie azioni per far agire la creatura posseduta.\n\nSe un possessore raggiunge 0 Punti Ferita tramite qualsiasi combinazione di danni al proprio vero corpo e danni mentali dalla possessione, viene messo fuori combattimento come di consueto e la possessione termina immediatamente. Se il bersaglio raggiunge per primo 0 Punti Ferita, il possessore può scegliere se cadere incosciente con il corpo e continuare la possessione oppure terminare l'effetto come azione gratuita e tornare nel proprio corpo. Se il bersaglio muore, la possessione termina immediatamente e il possessore è stordito per 1 minuto."},
+{"Nome":"Pozione","Desc":"Una pozione è un liquido magico consumabile che viene attivato quando lo bevi."},
+{"Nome":"Prezioso","Desc":"I materiali di valore con proprietà speciali hanno il tratto prezioso. Possono essere sostituiti ai materiali base quando Crei oggetti."},
+{"Nome":"Predizione","Desc":"Gli effetti con questo tratto determinano ciò che è probabile accada nel prossimo futuro."}
+,{"Nome":"Pressione","Desc":"Le azioni con questo tratto ti permettono di dare seguito ad attacchi precedenti. Un'azione con il tratto pressione può essere usata solo se sei attualmente influenzato da una penalità da attacchi multipli. Non puoi usare un'azione di pressione quando non è il tuo turno, anche se usi l'attività Preparare.\n\nAlcune azioni con il tratto pressione forniscono anche un effetto in caso di fallimento. Gli effetti aggiunti in caso di fallimento non si applicano in caso di fallimento critico. Se la tua azione di pressione ha successo, puoi scegliere di applicare invece l'effetto di fallimento. (Per esempio, potresti volerlo fare quando un attacco non infligge danni a causa di una resistenza.)"},
+{"Nome":"Primordiale","Desc":"Questa magia proviene dalla tradizione primordiale, collegandosi al mondo naturale e all'istinto. Tutto ciò che possiede questo tratto è magico.\n\nUna creatura con questo tratto è costituita principalmente da magia primordiale o ha un forte legame con essa."},
+{"Nome":"Processato","Desc":"Un consumabile alchemico con il tratto processato può essere creato con Alchimia Rapida ma è troppo complesso per essere creato con una singola azione. Usare Alchimia Rapida per creare un oggetto processato richiede 1 minuto. Se l'oggetto richiederebbe più di 3 azioni per essere Attivato, il tempo durante il quale l'oggetto rimane potente dopo la creazione è pari al suo tempo di attivazione. Per esempio, un oggetto processato che richiede 10 minuti per essere Attivato rimarrebbe potente per 10 minuti quando creato con Alchimia Rapida, invece di rimanere potente solo fino all'inizio del tuo prossimo turno. Questo tratto non modifica altre specifiche di Alchimia Rapida. Potresti, per esempio, usare doppia infusione per creare due oggetti processati identici nell'arco di 1 minuto."},
+{"Nome":"Propulsivo","Desc":"Aggiungi metà del tuo modificatore di Forza (se positivo) ai tiri di danno con un'arma a distanza propulsiva. Se hai un modificatore di Forza negativo, aggiungi invece l'intero modificatore di Forza."},
+{"Nome":"Protean","Desc":"Una famiglia di monitor generati all'interno del Maelstrom, queste creature sono guardiani del disordine. In genere possiedono scurovisione e un'anatomia amorfa."},
+{"Nome":"Psiche","Desc":"La tua psiche deve essere scatenata per usare capacità che possiedono il tratto psiche, e tali capacità terminano automaticamente quando la tua psiche scatenata si placa."},
+{"Nome":"Psichico","Desc":"Questo tratto indica capacità provenienti dalla classe dello psichico."},
+{"Nome":"Psicopompo","Desc":"Una famiglia di monitor generati nel Cimitero delle Anime per trasportare le anime verso i Piani Esterni, la maggior parte degli psicopompi è di allineamento neutrale puro. In genere possiedono scurovisione, senso vitale e tocco spirituale, e sono immuni agli effetti di morte."},
+{"Nome":"Qlippoth","Desc":"Una famiglia di immondi provenienti dalle Fenditure Esterne, la maggior parte dei qlippoth è empia. Il loro aspetto influisce sulla mente dei non-qlippoth che li osservano."},
+{"Nome":"Radiazione","Desc":"Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."},
+{"Nome":"Ira","Desc":"Devi essere in ira per usare capacità con il tratto furia, e tali capacità terminano automaticamente quando smetti di essere in furia."},
+{"Nome":"Rakshasa","Desc":"I rakshasa sono spiriti divini che incarnano il profano. In genere possono Mutare Forma e hanno una debolezza al sacro."},
+{"Nome":"Gittata","Desc":"Questi attacchi elencano una gittata finita oppure un incremento di gittata, che segue le normali regole per gli incrementi di gittata."},
+{"Nome":"Sbilanciare a Distanza","Desc":"L'arma può essere usata per Sbilanciare con l'abilità Atletica entro il primo incremento di gittata dell'arma. La prova di abilità subisce una penalità di circostanza di –2. Puoi aggiungere il bonus di oggetto dell'arma ai tiri per colpire come bonus alla prova. Un'arma con sbilanciare a distanza non infligge alcun danno quando viene usata per Sbilanciare. Queste armi sono solitamente da lancio."},
+{"Nome":"Ranger","Desc":"Questo tratto indica capacità provenienti dalla classe del ranger."},
+{"Nome":"Raro","Desc":"Questa rarità indica che un elemento di regole è molto difficile da trovare nel mondo di gioco. Un talento, incantesimo, oggetto o simile raro è disponibile per i giocatori solo se il GM decide di includerlo nel gioco, tipicamente tramite la scoperta durante il gioco. Le creature con questo tratto sono rare. In genere non possono essere evocate. La CD delle prove di Richiamare Conoscenze relative a queste creature aumenta di 5."},
+{"Nome":"Ratajin","Desc":"Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."}
+,{"Nome":"Ratfolk","Desc":"Una creatura con questo tratto è un membro dell'ascendenza dei ratfolk. I ratfolk sono umanoidi che somigliano a ratti. Un'abilità con questo tratto può essere usata o selezionata solo dai ratfolk."},
+{"Nome":"Devastante","Desc":"Le armi devastanti sono particolarmente efficaci nel danneggiare oggetti, strutture e veicoli. Ogni volta che infliggi danni a un oggetto (inclusi scudi e oggetti animati), a una struttura o a un veicolo con un'arma devastante, l'oggetto subisce una quantità di danni aggiuntivi pari al doppio del numero di dadi di danno dell'arma."},
+{"Nome":"Portata","Desc":"Quest'arma può essere usata per attaccare nemici fino a 10 piedi di distanza invece che solo nemici adiacenti. Per le creature con portata, l'arma aumenta la loro portata di 5 piedi."},
+{"Nome":"Spericolato","Desc":"Le azioni con il tratto spericolato spingono il pilota e il veicolo oltre i normali parametri di operatività sicura, e il pilota rischia di perdere il controllo del veicolo. Quando esegue un'azione spericolata, il pilota deve prima tentare una prova di pilotaggio appropriata per mantenere il controllo del veicolo, con i seguenti effetti. Risolvi questa prova di pilotaggio prima di risolvere l'azione stessa.\n\nSuccesso L'azione avviene come descritto.\nFallimento Il veicolo si muove della sua Velocità in linea retta lungo la direzione più recente, deviando fino a 45 gradi a discrezione del GM, e diventa incontrollato."},
+{"Nome":"Recupero","Desc":"Le armi da recupero sono armi da lancio progettate per tornare al lanciatore quando mancano il bersaglio. Quando effettui un Colpo da lancio non riuscito con quest'arma, essa vola di nuovo nella tua mano dopo che il Colpo è completato, permettendoti di riprovare. Se le tue mani sono occupate quando l'arma ritorna, essa cade a terra nel tuo spazio."},
+{"Nome":"Riflesso","Desc":"Una creatura con questo tratto possiede l'eredità versatile riflesso. I riflessi sono esseri che sono copie di persone viventi, sia tramite clonazione, duplicazione planare o un altro meccanismo. Un'abilità con questo tratto può essere usata o selezionata solo dai riflessi."},
+{"Nome":"Regione","Desc":"Questa è un'attività di abilità del Regno che può essere intrapresa durante la fase di Attività di Regione."},
+{"Nome":"Reincarnato","Desc":"Questo raro talento di ascendenza è disponibile per qualsiasi personaggio che si sia reincarnato almeno una volta, sia come parte del proprio retroscena sia a causa di una reincarnazione avvenuta durante il gioco."},
+{"Nome":"Reliquia","Desc":"Nota di Nethys: questo tratto non è stato definito, ma è stato usato per i semi di reliquia e per le reliquie complete."},
+{"Nome":"Ricarica","Desc":"Sebbene tutte le armi richiedano un certo tempo per essere portate in posizione, molte armi a distanza devono anche essere caricate e ricaricate. Questa voce indica quante azioni Interagire sono necessarie per ricaricare tali armi. Questo valore può essere 0 se estrarre le munizioni e sparare con l'arma fanno parte della stessa azione. Se un oggetto richiede 2 o più azioni per essere ricaricato, il GM determina se devono essere eseguite insieme come un'attività, oppure se puoi spendere alcune di queste azioni durante un turno e le restanti durante il turno successivo.\n\nUn oggetto con una voce di “—” deve essere estratto per essere lanciato, il che di solito richiede un'azione Interagire, proprio come estrarre qualsiasi altra arma. Ricaricare un'arma a distanza ed estrarre un'arma da lancio richiedono entrambe una mano libera. Cambiare l'impugnatura per liberare una mano e poi posizionare le mani nell'impugnatura necessaria per usare l'arma sono entrambe incluse nelle azioni che spendi per ricaricare un'arma."},
+{"Nome":"A Ripetizione","Desc":"Un'arma a ripetizione è un tipo di arma a distanza con un tempo di ricarica più breve. Queste armi non possono essere caricate con singoli dardi o proiettili come le altre balestre e armi da fuoco; invece, richiedono un caricatore di munizioni specializzate da inserire in uno slot speciale. Una volta che il caricatore è in posizione, le munizioni vengono caricate automaticamente ogni volta che l'arma viene armata per sparare, riducendo la sua ricarica al valore indicato nella voce ricarica (tipicamente 0). Quando le munizioni si esauriscono, deve essere caricato un nuovo caricatore, il che richiede una mano libera e 3 azioni Interagire (per rimuovere il vecchio caricatore, recuperare il nuovo caricatore e inserire il nuovo caricatore al suo posto). Queste azioni non devono essere consecutive e sono le stesse di Interagire per ricaricare."},
+{"Nome":"Residenziale","Desc":"Una struttura residenziale aiuta ad alloggiare i cittadini dell'insediamento; un insediamento richiede almeno un lotto Residenziale per isolato per evitare di essere Sovraffollato."},
+{"Nome":"Risonante","Desc":"Quest'arma può canalizzare danni da energia. Ottieni l'azione gratuita Condurre Energia mentre impugni un'arma risonante."},
+{"Nome":"Rivelazione","Desc":"Gli effetti con questo tratto vedono le cose per quello che sono realmente."}
+,{"Nome":"Ladro","Desc":"Questo tratto indica capacità provenienti dalla classe del ladro."},
+{"Nome":"Saggorak","Desc":"Antichi fabbri nani di Saggorak progettarono una serie di rune di potenza spettacolare. Solo qualcuno con competenza leggendaria in Artigianato, oppure un artigiano nano esperto proveniente dalla città di Kovlar, può applicare, trasferire o rimuovere una runa con il tratto Saggorak.\n\nA causa della loro notevole potenza, tutte le rune di Saggorak occupano due slot di rune di proprietà e, di conseguenza, possono essere applicate solo ad armature e armi che abbiano almeno una runa di potenziamento +2."},
+{"Nome":"Sahkil","Desc":"I sahkil sono immondi che traggono piacere dal diffondere paura e inquietudine tra le creature mortali. In genere possiedono scurovisione, immunità alla paura e debolezza al sacro."},
+{"Nome":"Samsaran","Desc":"Persone dalla pelle blu originarie di Zi Ha, che si reincarnano alla morte e ricordano frammenti delle loro vite passate."},
+{"Nome":"Santificato","Desc":"Se sei sacro o empio, le tue azioni e i tuoi incantesimi santificati ottengono lo stesso tratto."},
+{"Nome":"Sarangay","Desc":"Potenti guerrieri con testa di carabao che vivono sulle isole di Minata. Sono noti per le gemme magiche nelle loro fronti che si dice contengano le loro anime."},
+{"Nome":"Satiro","Desc":"Non è stata fornita alcuna descrizione per questo tratto."},
+{"Nome":"Dispersione","Desc":"Quest'arma spara un grappolo di pallettoni in un'ampia rosata. Dispersione ha sempre associata un'area, che indica il raggio della rosata. In caso di colpo a segno, il bersaglio principale degli attacchi con un'arma a dispersione subisce i danni elencati, e il bersaglio e tutte le altre creature entro il raggio indicato attorno ad esso subiscono 1 punto di danno a spruzzo per ogni dado di danno dell'arma, dello stesso tipo dell'attacco iniziale."},
+{"Nome":"Pergamena","Desc":"Una pergamena contiene un singolo incantesimo che puoi lanciare senza spendere uno slot di incantesimo."},
+{"Nome":"Scrutare","Desc":"Un effetto di scrutare ti permette di vedere, udire o ottenere in altro modo informazioni sensoriali a distanza usando un sensore o un apparato, invece dei tuoi occhi e delle tue orecchie."},
+{"Nome":"Diavolo Marino","Desc":"Umanoidi malvagi che vivono negli oceani, i diavoli marini di solito possiedono scurovisione e senso delle onde."},
+{"Nome":"Segreto","Desc":"Il GM tira la prova per questa capacità in segreto."},
+{"Nome":"Sedacthy","Desc":"Umanoidi che vivono negli oceani e comunicano con la vita marina, e che di solito possiedono scurovisione e senso delle onde."},
+{"Nome":"Senziente","Desc":"Il piano cambia in base ai propri capricci."},
+{"Nome":"Serpentfolk","Desc":"I serpentfolk sono una famiglia di umanoidi serpentini."},
+{"Nome":"Insediamento","Desc":"Gli eventi di insediamento hanno luogo in un insediamento specifico. Le prove di abilità per risolvere questi eventi ricevono bonus di oggetto solo dalle strutture che fanno parte di quell'insediamento. Gli effetti degli eventi di insediamento possono essere potenziati o ridotti se il sito possiede (o manca di) caratteristiche specifiche."},
+{"Nome":"Seugathi","Desc":"Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."},
+{"Nome":"Shabti","Desc":"Uno shabti è un umanoide costruito originariamente destinato ad affrontare il giudizio per i peccati di una creatura vivente dopo la morte."},
+{"Nome":"Ombra","Desc":"Le ombre sono anime mortali che sono state giudicate e poi trasformate in creature native di altri piani. I postulanti possono sopravvivere agli effetti ambientali di base del loro piano natale."}
+,{"Nome":"Ombra","Desc":"La magia con questo tratto coinvolge le ombre o l'energia del Mondo dell'Oltretomba.\n\nI piani con questo tratto sono umbrali, con luce fioca e torbida. Nel Mondo dell'Oltretomba, il raggio di tutta la luce proveniente da fonti di luce e le aree degli incantesimi di luce sono dimezzati."},
+{"Nome":"Mutaforma","Desc":"Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."},
+{"Nome":"Lancio dello Scudo","Desc":"Uno scudo con questo tratto è progettato per essere lanciato come attacco a distanza. Quando viene lanciato, lo scudo è un'arma a distanza da lancio marziale. I suoi dadi di danno e il tipo di danno sono gli stessi del suo attacco di Colpo di Scudo, ma se lo scudo include un'arma attaccata o un'arma integrata, puoi scegliere di attaccare con essa invece quando lanci lo scudo. Aggiungi il tuo modificatore di Forza ai danni, come tipico di un'arma da lancio. Il tratto include anche l'incremento di gittata."},
+{"Nome":"Shisk","Desc":"Umanoidi riservati coperti di piumaggio osseo che risiedono nel sottosuolo."},
+{"Nome":"Shoony","Desc":"Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."},
+{"Nome":"Spingere","Desc":"Puoi usare quest'arma per Spingere con l'abilità Atletica anche se non hai una mano libera. Questo usa la portata dell'arma (se diversa dalla tua) e aggiunge il bonus di oggetto dell'arma ai tiri per colpire come bonus di oggetto alla prova di Atletica. Se fallisci criticamente una prova per Spingere usando l'arma, puoi lasciar cadere l'arma per subire gli effetti di un fallimento invece che di un fallimento critico."},
+{"Nome":"Assedio","Desc":"Le armate d'assedio si concentrano sul dispiegamento di macchine d'assedio piuttosto che sul combattimento personale."},
+{"Nome":"Siktempora","Desc":"Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."},
+{"Nome":"Semplice","Desc":"Non è stata fornita alcuna descrizione per questo tratto."},
+{"Nome":"Scheletro","Desc":"Questo non morto è creato animando lo scheletro di una creatura morta con energia del vuoto."},
+{"Nome":"Skelm","Desc":"Queste creature sono misantropi mostruosi e iracondi che cercano di controllare gli altri tramite rabbia e livore."},
+{"Nome":"Abilità","Desc":"Un talento generale con il tratto abilità migliora le tue abilità e le loro azioni oppure ti fornisce nuove azioni per un'abilità. Un talento con questo tratto può essere selezionato quando una classe concede un talento di abilità o un talento generale. I talenti di archetipo con il tratto abilità possono essere selezionati al posto di un talento di abilità se possiedi il talento di dedizione di quell'archetipo."},
+{"Nome":"Schermaglia","Desc":"Questo tratto indica capacità che possono essere usate solo durante incontri di schermaglia."},
+{"Nome":"Schermagliatore","Desc":"Gli schermagliatori consistono in un piccolo numero di unità altamente mobili."},
+{"Nome":"Skulk","Desc":"Gli skulk sono una famiglia di umanoidi la cui pelle può cambiare colorazione per favorire la furtività."},
+{"Nome":"Sonno","Desc":"Questo effetto fa addormentare una creatura o la rende assonnata."},
+{"Nome":"Trappola","Desc":"Trappole tipicamente costruite dai ranger, le trappole seguono regole speciali che permettono loro di essere costruite rapidamente e usate sul campo di battaglia."},
+{"Nome":"Sociale","Desc":"Le azioni e le capacità con il tratto sociale possono essere usate solo mentre un vigilante si trova nella propria identità sociale."}
+,{"Nome":"Sonoro","Desc":"Un effetto con il tratto sonoro funziona solo se produce suono, il che significa che non ha effetto in un'area di silenzio o nel vuoto. Questo è diverso da un incantesimo uditivo, che è efficace solo se il bersaglio può udirlo. Un effetto sonoro potrebbe infliggere danni sonori."},
+{"Nome":"Stregone","Desc":"Questo tratto indica capacità provenienti dalla classe dello stregone."},
+{"Nome":"Vincolato all'Anima","Desc":"Questi costrutti sono potenziati mentalmente da un frammento dell'anima di una creatura un tempo vivente."},
+{"Nome":"Cavalca-Anime","Desc":"I cavalca-anime sono aberrazioni quasi parassitarie che si attaccano alle anime mentre attraversano il Grande Oltre. A volte assumono i tratti dei piani."},
+{"Nome":"Pistola d'Incantesimi","Desc":"Il tratto pistola d'incantesimi appare sugli oggetti che possono generare un effetto magico che vola via come un proiettile. Puoi effettuare o un tiro per colpire con incantesimo con una pistola d'incantesimi oppure un tiro per colpire a distanza usando la tua competenza con le armi da fuoco semplici. Le pistole d'incantesimi hanno un incremento di gittata, che si applica indipendentemente dal tipo di tiro per colpire effettuato. Sebbene tu possa usare il tuo modificatore per le armi da fuoco semplici, una pistola d'incantesimi non è in realtà un'arma da fuoco. Non ottieni i danni di un Colpo con arma da fuoco, né altri benefici come la specializzazione del colpo critico. Allo stesso modo, non puoi caricare o ricaricare una pistola d'incantesimi, fissarvi talismani, effettuare un Colpo con pistola d'incantesimi come parte di un'azione che ti permette di effettuare un Colpo con arma da fuoco, e così via."},
+{"Nome":"Cuore d'Incantesimo","Desc":"I cuori d'incantesimo sono oggetti permanenti che funzionano in modo simile ai talismani. Fissi un cuore d'incantesimo usando l'attività Fissare un Cuore d'Incantesimo, che è per il resto identica a Fissare un Talismano. Rimane il limite di un talismano per oggetto: un oggetto può avere un cuore d'incantesimo o un talismano, non entrambi. Quando lanci un trucchetto da un cuore d'incantesimo, puoi usare il tuo tiro per colpire con incantesimo o la tua CD degli incantesimi se è più alta. Creare un cuore d'incantesimo richiede gli incantesimi che il cuore d'incantesimo può lanciare. Per esempio, una grande ghirlanda a cinque piume richiede camminare sull'aria, raffica di vento e muro di vento."},
+{"Nome":"Metamagia","Desc":"Le azioni con il tratto metamagia modificano le proprietà dei tuoi incantesimi. Devi usare un'azione di forma d'incantesimo direttamente prima di lanciare l'incantesimo che vuoi alterare. Se usi qualsiasi altra azione (incluse azioni gratuite e reazioni) diversa dal lanciare un incantesimo immediatamente dopo, sprechi i benefici dell'azione di forma d'incantesimo. Il beneficio viene perso anche se il tuo turno termina prima che tu lanci l'incantesimo. Qualsiasi effetto aggiuntivo aggiunto da un'azione di forma d'incantesimo fa parte dell'effetto dell'incantesimo, non dell'azione di forma d'incantesimo stessa."},
+{"Nome":"Colpo d'Incantesimo","Desc":"Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."},
+{"Nome":"Spirito","Desc":"Gli effetti con questo tratto possono influenzare creature con essenza spirituale e potrebbero infliggere danni spirituali. Una creatura con questo tratto è definita dalla sua essenza spirituale. Le creature spirituali spesso sono prive di una forma materiale."},
+{"Nome":"Spruzzo","Desc":"Alcune armi ed effetti, come le bombe alchemiche, hanno il tratto spruzzo. Quando usi un'arma o un effetto con il tratto spruzzo, non aggiungi il tuo modificatore di Forza al tiro di danno. Un'arma o un effetto a spruzzo infligge qualsiasi danno da spruzzo elencato al bersaglio in caso di fallimento, successo o successo critico, e a tutte le altre creature entro 5 piedi dal bersaglio in caso di successo o successo critico. In caso di fallimento critico, l'arma o l'effetto manca completamente, non infliggendo alcun danno. Somma i danni da spruzzo ai danni iniziali contro il bersaglio prima di applicare le resistenze o le debolezze del bersaglio. Non moltiplichi i danni da spruzzo in caso di colpo critico."},
+{"Nome":"Nato dalle Spore","Desc":"Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."},
+{"Nome":"Spriggan","Desc":"Imparentati con gli gnomi, gli spriggan tendono a essere malvagi e possono crescere di dimensioni fino a somigliare a giganti."},
+{"Nome":"Sprite","Desc":"Una famiglia di minuscole creature fatate alate con un forte legame con la magia primordiale."},
+{"Nome":"Bastone","Desc":"Questo oggetto magico contiene incantesimi di un tema particolare e permette a un incantatore di lanciare incantesimi aggiuntivi preparando il bastone."},
+{"Nome":"Stamina","Desc":"Questo tratto è stato creato dagli Archives of Nethys per aiutare a raggruppare meccaniche simili. Non proviene da una fonte pubblicata.\n\nDisponibile per l'uso nei giochi che utilizzano la Variante di Regole della Stamina."},
+{"Nome":"Posizione","Desc":"Una posizione è una strategia di combattimento generale in cui entri usando un azione con il tratto posizione e in cui rimani per un certo tempo. Una posizione dura finché non vieni messo fuori combattimento, finché i suoi requisiti (se presenti) non vengono violati, finché l incontro non termina, o finché non usi di nuovo un azione di posizione, a seconda di quale avvenga per primo. Dopo aver effettuato un azione con il tratto posizione, non puoi effettuarne un altra per 1 round. Puoi entrare o essere in una posizione solo in modalità incontro. Puoi Concludere una posizione."}
+,{"Nome":"Statico","Desc":"I visitatori non possono in alcun modo influenzare i residenti viventi del piano né gli oggetti che gli abitanti trasportano. Qualsiasi incantesimo che dovrebbe influenzare coloro che si trovano sul piano non ha effetto, a meno che il tratto statico non venga in qualche modo rimosso o soppresso."},
+{"Nome":"Vapore","Desc":"Gli oggetti con questo tratto sono alimentati da motori che fanno bollire l'acqua per produrre vapore e muovere i loro componenti."},
+{"Nome":"Stheno","Desc":"Le stheno sono umanoidi imparentati con le meduse, con serpenti al posto dei capelli."},
+{"Nome":"Gravità Strana","Desc":"Tutti i corpi dotati di massa sono centri di gravità con forza approssimativamente uguale. Una creatura può stare in piedi su qualsiasi oggetto solido che sia grande quanto o più grande di essa."},
+{"Nome":"Strigoi","Desc":"Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."},
+{"Nome":"Strix","Desc":"Gli strix sono umanoidi aviari con ali scure e grandi artigli. Tendono a vivere in comunità isolate."},
+{"Nome":"Struttura","Desc":"Un incantesimo, un'attivazione di oggetto o una capacità con il tratto struttura crea un edificio magico o un'altra struttura. La struttura deve essere creata su un appezzamento di terreno libero da altre strutture. La struttura si adatta al terreno naturale, adottando i requisiti strutturali necessari per essere costruita in quel luogo. La struttura si adatta attorno a piccole caratteristiche come stagni o guglie di roccia, ma non può essere creata sull'acqua o su altre superfici non solide. Se creata su neve, dune di sabbia o altre superfici morbide con una superficie solida sottostante, le fondamenta della struttura (se presenti) raggiungono il terreno solido. Se la struttura si trova su una superficie solida ma instabile, come una palude o un'area afflitta da tremori, tira una prova semplice con CD 3 ogni giorno; in caso di fallimento, la struttura inizia ad affondare o a crollare.\n\nLa struttura non danneggia le creature nell'area quando appare e non può essere creata all'interno di una folla o in un'area densamente popolata. Qualsiasi creatura catturata accidentalmente all'interno della struttura quando viene creata si ritrova illesa all'interno della struttura completa e ha sempre un percorso di fuga libero. Una creatura all'interno della struttura quando l'effetto termina non subisce danni e atterra in modo innocuo a terra se si trovava a un livello superiore della struttura."},
+{"Nome":"Gravità Soggettiva","Desc":"Tutti i corpi dotati di massa possono essere centri di gravità con la stessa forza, ma solo se una creatura non priva di mente lo desidera. Gli oggetti incustoditi, gli oggetti e le creature prive di mente trattano il piano come se avesse microgravità. Le creature su un piano con gravità soggettiva possono muoversi normalmente lungo una superficie solida immaginando il “basso” vicino ai propri piedi. Designare questa direzione verso il basso è un'azione gratuita con il tratto concentrazione. Se sospesa a mezz'aria, una creatura può replicare il volo scegliendo una direzione “verso il basso” e cadendo in quella direzione, muovendosi fino alla propria Velocità o Velocità di volo. Questo pseudo-volo utilizza l'azione Volare."},
+{"Nome":"Sottile","Desc":"Un incantesimo con il tratto sottile può essere lanciato senza incantazioni e non ha manifestazioni evidenti."},
+{"Nome":"Suli","Desc":"I suli sono discendenti planari derivati dai jann."},
+{"Nome":"Evocazione","Desc":"Gli incantesimi con il tratto evocazione possono evocare creature, tipicamente quelle con un tratto particolare. Tali creature si trovano nel Monster Core e in libri simili. Se non diversamente indicato, la creatura deve essere comune, ottiene il tratto evocato e deve apparire in uno spazio libero entro gittata sufficientemente grande da contenerla. Il livello massimo della creatura che l'incantesimo può evocare dipende dal grado dell'incantesimo, come indicato di seguito. L'incantesimo può comunque evocare una creatura di livello inferiore, se lo desideri. Queste regole si applicano solo agli incantesimi che hanno il tratto evocazione; altri incantesimi che chiamano o evocano oggetti o esseri ma che non possiedono il tratto, come evocare strumento, funzionano come spiegato nell'incantesimo."},
+{"Nome":"Evocato","Desc":"Una creatura chiamata da un incantesimo o da un effetto ottiene il tratto evocato. Una creatura evocata non può evocare altre creature, creare oggetti di valore o lanciare incantesimi che richiedono un costo. Possiede il tratto gregario. Se tenta di Lanciare un Incantesimo di grado pari o superiore a quello dell'incantesimo che l'ha evocata, sopraffà la magia di evocazione, facendo fallire il proprio incantesimo e terminando l'incantesimo di evocazione. Altrimenti, la creatura evocata utilizza le capacità standard di una creatura del suo tipo. In genere attacca i tuoi nemici al meglio delle sue capacità. Se puoi comunicare con essa, puoi tentare di impartirle comandi, ma il GM determina il grado in cui essa segue tali comandi.\n\nImmediatamente dopo che hai terminato di Lanciare l'Incantesimo, la creatura evocata usa le sue 2 azioni per quel turno. Una progenie o un'altra creatura generata da una creatura evocata ritorna al suo stato non alterato (di solito un cadavere nel caso delle progenie) una volta che la creatura evocata se ne va. Se non è chiaro quale dovrebbe essere questo stato, decide il GM. Le creature evocate possono essere bandite da vari incantesimi ed effetti. Vengono automaticamente bandite se ridotte a 0 Punti Ferita o se l'incantesimo che le ha chiamate termina."},
+{"Nome":"Evocatore","Desc":"Questo tratto indica capacità provenienti dalla classe dell'evocatore."},
+{"Nome":"Surki","Desc":"I surki sono un'ascendenza insettoide sotterranea che assorbe la magia ambientale ed evolve adattamenti unici."}
+,{"Nome":"Sciame","Desc":"Uno sciame è una massa o una nube di creature che funziona come un singolo mostro. La sua voce di taglia indica la dimensione dell'intera massa, anche se per la maggior parte degli sciami le singole creature che la compongono sono Minuscole. Uno sciame può occupare lo stesso spazio di altre creature e deve farlo per usare la sua azione dannosa. Uno sciame di solito ha debolezza agli effetti che infliggono danni su un'area (come gli incantesimi ad area e le armi a spruzzo). Gli sciami sono immuni alle condizioni afferrato, prono e trattenuto."},
+{"Nome":"Swashbuckler","Desc":"Questo tratto indica capacità provenienti dalla classe dello Swashbuckler."},
+{"Nome":"Spazzata","Desc":"Quest'arma effettua ampi attacchi oscillanti. Quando attacchi con quest'arma, ottieni un bonus di circostanza di +1 al tuo tiro per colpire se in questo turno hai già tentato di attaccare un bersaglio diverso usando quest'arma."},
+{"Nome":"Silfo","Desc":"I silfi sono discendenti planari derivati dai djinn."},
+{"Nome":"Tattica","Desc":"Le tattiche sono capacità speciali che implicano il segnalare ai tuoi alleati di eseguire manovre predeterminate. Per usare una capacità di tattica, devi avere uno o più alleati consenzienti che hai istruito in precedenza durante le tue preparazioni giornaliere, chiamati compagni di squadra. I tuoi compagni di squadra devono anche essere in grado di percepire il tuo segnale, sia quando lo pronunci o lo gridi (nel qual caso l'azione di tattica ottiene il tratto uditivo), sia segnalando fisicamente, tipicamente sventolando il tuo stendardo (nel qual caso ottiene il tratto visivo). Sebbene tu possa usare più azioni di tattica in un round, un personaggio non può rispondere a più di una tattica per round, indipendentemente dalla fonte. Non puoi Preparare una tattica.\n\nLe tattiche spesso concedono azioni o capacità che possono essere usate come azione gratuita; queste possono essere usate al di fuori del turno del compagno di squadra proprio come le reazioni."},
+{"Nome":"Talismano","Desc":"Un talismano è un piccolo oggetto fissato a un'armatura, a uno scudo o a un'arma (chiamato l'oggetto fissato). Devi impugnare o indossare un oggetto per attivare un talismano ad esso collegato. Una volta attivato, un talismano si consuma permanentemente."},
+{"Nome":"Talos","Desc":"I talos sono discendenti planari derivati dalle zuhrah."},
+{"Nome":"Tandem","Desc":"Le azioni con questo tratto coinvolgono te e il tuo eidolon che agite di concerto. Non puoi usare un'azione in tandem se tu o il tuo eidolon non potete agire, se non hai Manifestato il tuo Eidolon o se hai Manifestato il tuo Eidolon in un modo in cui non è un'entità separata (come con il talento Fondersi nell'Eidolon). Le azioni in tandem spesso permettono sia a te sia al tuo eidolon di compiere azioni separate, ma queste devono essere azioni eseguite separatamente da te e dal tuo eidolon; non puoi usare un'azione in tandem per compiere un'altra azione in tandem."},
+{"Nome":"Tane","Desc":"I Tane sono potenti creature create eoni fa dagli Anziani del Primo Mondo. Tutti i Tane trattano qualunque piano su cui si trovino come il loro piano natale."},
+{"Nome":"Tanggal","Desc":"Questa famiglia di aberrazioni cannibalistiche consiste in varie creature dalla forma umanoide che possono separare il proprio corpo in due parti durante la caccia."},
+{"Nome":"Tanuki","Desc":"Un nome che indica sia un animale simile a un procione nativo di Minkai sia i tanuki senzienti che possiedono poteri di mutaforma."},
+{"Nome":"Tatuaggio","Desc":"Un tatuaggio magico possiede il tratto tatuaggio. È permanentemente parte del corpo del soggetto e riduce di 1 il numero di oggetti che quella creatura può investire al giorno. Ogni tatuaggio possiede il tratto investito per indicare questa limitazione: un tatuaggio magico è come un oggetto investito che la creatura tatuata non ha scelta se non investire. Se il tatuaggio perde la sua magia o viene distrutto, non riduce più il tuo investimento.\n\nProprio come un oggetto magico fisico, un tatuaggio magico può essere contrastato da incantesimi come dissolvi magie o disgiunzione. Se viene distrutto, il tatuaggio svanisce dalla pelle.\n\nSe una creatura ottiene un nuovo tatuaggio magico quando il suo limite di oggetti investiti è già stato ridotto a zero, la magia del nuovo tatuaggio non riesce ad attecchire e diventa invece un tatuaggio non magico. Tuttavia, un tatuatore può alterare un tatuaggio esistente quando lo Crea, modificando quello vecchio in un tatuaggio magico diverso e rimuovendo il vecchio effetto. I tatuaggi magici possono di solito essere potenziati nelle loro versioni superiori facendo aggiungere o modificare il tatuaggio esistente da un tatuatore."},
+{"Nome":"Tè","Desc":"Il tè magico è un tipo di pozione. Si attiva quando lo bevi, consumandosi. Il tè magico possiede i tratti pozione e tè. Quando crei una dose di tè magico, le materie prime che fornisci sono sotto forma di foglie di tè insolite e costose. Il processo di creazione del tè magico include l'infusione delle foglie con reagenti magici, la purificazione dell'acqua e l'infusione del tè nell'acqua, ottenendo essenzialmente una pozione dal sapore particolarmente delizioso. Puoi attivare il tè magico con un'azione Interagire mentre lo bevi o lo fai bere a un'altra creatura, come se fosse una pozione. Puoi anche attivare il tè magico con un'attività di 10 minuti che richiede un servizio da tè pregiato (questi strumenti da artigiano possono essere condivisi da un massimo di quattro persone che svolgono simultaneamente questa attività) per preparare il tè e poi consumarlo o offrirlo a qualcuno durante una breve cerimonia del tè, dopo la quale gli effetti del tè magico hanno inizio; attivare il tè magico in questo modo ne potenzia l'effetto, come descritto nella sezione Cerimonia del Tè di ciascuna voce. Una volta bevuta una dose di tè magico, sei temporaneamente immune a quel particolare tipo di tè magico per 24 ore."}
+,{"Nome":"Lacerante","Desc":"Quest'arma è dotata di denti ricurvi che lasciano ferite sanguinanti. Quando colpisci una creatura con quest'arma, infligge 1 danno persistente da sanguinamento aggiuntivo. Questo aumenta a 2 danni persistenti da sanguinamento se l'arma possiede una runa di colpo superiore."},
+{"Nome":"Tecnologia","Desc":"Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."},
+{"Nome":"Telepatia","Desc":"Nota di Nethys: questo tratto non è stato elencato nel Glossario; il suo unico utilizzo è come tratto per alcune capacità dei mostri."},
+{"Nome":"Teletrasporto","Desc":"Gli effetti di teletrasporto spostano istantaneamente qualcosa da un punto dello spazio a un altro. Il teletrasporto di solito non innesca reazioni basate sul movimento."},
+{"Nome":"Tengu","Desc":"Una creatura con questo tratto è un membro dell'ascendenza tengu. I tengu sono umanoidi che somigliano a corvi. Un'abilità con questo tratto può essere usata o selezionata solo dai tengu. Un oggetto con questo tratto è creato e usato dai tengu."},
+{"Nome":"Vincolato","Desc":"Quest'arma è attaccata a una lunghezza di corda o catena che ti permette di recuperarla dopo che ha lasciato la tua mano. Se hai una mano libera (incluso il caso in cui tu abbia appena lanciato un'arma vincolata a due mani e abbia una mano che non impugna altro se non il vincolo dell'arma), puoi usare un'azione Interagire per tirare l'arma di nuovo nella tua presa dopo averla lanciata come attacco a distanza o dopo che è stata disarmata (a meno che non sia trattenuta da un'altra creatura)."},
+{"Nome":"Taumaturgo","Desc":"Questo tratto indica capacità provenienti dalla classe del taumaturgo."},
+{"Nome":"Lancio","Desc":"Puoi lanciare quest'arma come attacco a distanza; quando viene lanciata è un'arma a distanza. Aggiungi il tuo modificatore di Forza ai danni come faresti per un'arma da mischia. Quando questo tratto appare su un'arma da mischia, include anche l'incremento di gittata. Le armi a distanza con questo tratto usano l'incremento di gittata indicato nella voce Gittata dell'arma."},
+{"Nome":"Tiefling","Desc":"Una creatura con questo tratto possiede l'eredità versatile tiefling. I tiefling sono discendenti planari derivati dagli immondi. Un'abilità con questo tratto può essere usata o selezionata solo dai tiefling."},
+{"Nome":"Tempo","Desc":"Le creature del tempo sono native della Dimensione del Tempo. Non invecchiano e, sebbene alcune possano essere spinte da fame soprannaturali, non hanno bisogno di mangiare o bere per sopravvivere. Possono sopravvivere agli effetti ambientali di base della Dimensione del Tempo."},
+{"Nome":"Senza Tempo","Desc":"Il tempo continua a scorrere, ma i suoi effetti sono attenuati. Le creature su questi piani non avvertono fame, sete o gli effetti dell'invecchiamento o della guarigione naturale. Anche gli effetti di veleni, malattie e altri tipi di guarigione potrebbero essere attenuati su alcuni piani senza tempo. L'energia degli incantesimi e altri effetti continua comunque a dissiparsi, quindi le durate degli incantesimi e degli altri effetti funzionano normalmente. Il pericolo di questo tratto è che quando una creatura lascia un piano senza tempo ed entra in un piano con un altro tratto temporale, gli effetti di fame, sete, invecchiamento e altri effetti rallentati o arrestati dal tratto senza tempo si verificano retroattivamente nell'istante della transizione, causando potenzialmente la morte immediata per fame o vecchiaia."},
+{"Nome":"Titano","Desc":"I titani sono creature enormi e primordiali di potere quasi divino che precedono le razze mortali."},
+{"Nome":"Cittadina","Desc":"Gli insediamenti con questo tratto sono di dimensioni modeste, con un livello che solitamente varia da 2 a 4."},
+{"Nome":"Addestramento","Desc":"Un'arma da addestramento è progettata per essere usata nell'addestramento di un animale a partecipare al combattimento, identificando il bersaglio che l'animale deve attaccare. Colpire una creatura con un'arma da addestramento conferisce al tuo compagno animale o al tuo animale vincolato un bonus di circostanza di +1 al suo prossimo tiro per colpire contro quel bersaglio."},
+{"Nome":"Trascendenza","Desc":"La trascendenza incanala la potenza della scintilla divina di un Exemplar attraverso uno dei suoi ikon per superare il mortale e compiere un'impresa miracolosa. Ogni ikon possiede un'azione con il tratto trascendenza, e usarla è chiamato Innescare la Trascendenza. Per usare l'azione, la tua scintilla divina deve potenziare quell'ikon e devi avere l'ikon pronto all'uso (tipicamente impugnando un ikon arma o indossando un ikon indossabile). Immediatamente dopo aver Innescato la Trascendenza, la tua scintilla divina viene forzatamente espulsa da quell'ikon, andando a risiedere in un altro ikon a tua scelta. Puoi Innescare la Trascendenza solo una volta per round. Poiché proviene dalla tua scintilla divina, un'azione di trascendenza possiede il tratto divino."},
+{"Nome":"Trasmutazione","Desc":"Gli effetti e gli oggetti magici con questo tratto sono associati alla scuola di magia della trasmutazione, tipicamente cambiando la forma di qualcosa."}
+,{"Nome":"Trappola","Desc":"Un pericolo costruito per ostacolare gli intrusi."},
+{"Nome":"Prova","Desc":"I rituali con il tratto prova si estendono oltre le prove iniziali necessarie quando il rituale viene eseguito per la prima volta e in genere prevedono una condizione o un insieme di condizioni successive che devono essere soddisfatte prima di concedere tutti i loro benefici. I dettagli delle condizioni sono specificati in ciascun rituale individuale e possono variare dalla sconfitta di un numero stabilito di un particolare tipo di mostro all'esecuzione di un'altra impresa o risultato notevole."},
+{"Nome":"Sbilanciare","Desc":"Puoi usare quest'arma per Sbilanciare con l'abilità Atletica anche se non hai una mano libera. Questo utilizza la portata dell'arma (se diversa dalla tua) e aggiunge il bonus di oggetto dell'arma ai tiri per colpire come bonus di oggetto alla prova di Atletica. Se fallisci criticamente una prova per Sbilanciare usando l'arma, puoi lasciar cadere l'arma per subire gli effetti di un fallimento invece che di un fallimento critico."},
+{"Nome":"Tripkee","Desc":"Una creatura con questo tratto è un membro dell'ascendenza tripkee. I tripkee sono una famiglia di umanoidi simili a rane. Un'abilità con questo tratto può essere usata o selezionata solo dai tripkee. Un oggetto con questo tratto è creato e usato dai tripkee."},
+{"Nome":"Troll","Desc":"I troll sono creature giganti e brutali e sono ben noti per la capacità di trasformarsi in materiali inanimati."},
+{"Nome":"Truppa","Desc":"Una truppa è una collezione organizzata di creature componenti, tipicamente di taglia Piccola o Media, che agiscono come un insieme coeso. Nel corso di un numero sufficiente di attacchi e compagni abbattuti, le truppe si riducono di dimensioni. Una truppa possiede tipicamente le difese da truppa e le capacità di movimento da truppa, e la maggior parte delle truppe ha debolezze ai danni ad area e ai danni a spruzzo. Poiché sono costituite da più creature discrete, non possono essere evocate."},
+{"Nome":"Vero Nome","Desc":"Alcuni incantesimi, talenti e oggetti possiedono il tratto vero nome. Questo tratto indica che richiedono la conoscenza del vero nome di una creatura per poter essere usati."},
+{"Nome":"Gemellata","Desc":"Queste armi sono usate in coppia. Quando attacchi con un'arma gemella, aggiungi un bonus di circostanza al tiro di danno pari al numero di dadi di danno dell'arma se in questo turno hai già attaccato con un'arma diversa dello stesso tipo. Le armi devono essere dello stesso tipo, ma non è necessario che abbiano le stesse rune."},
+{"Nome":"A Due Mani","Desc":"Quest'arma può essere impugnata con due mani per cambiare il suo dado di danno dell'arma nel valore indicato. Questa modifica si applica a tutti i dadi di danno dell'arma."},
+{"Nome":"Senz'Armi","Desc":"Un attacco senz'armi utilizza il tuo corpo anziché un'arma fabbricata. Un attacco senz'armi non è un'arma, sebbene abbia un gruppo di armi e possa possedere tratti d'arma. Un attacco senz'armi non può essere Disarmato. Inoltre, non occupa una mano, anche se un pugno o un'altra appendice prensile in genere funziona come un'arma a mano libera."},
+{"Nome":"Senza Confini","Desc":"I piani senza confini si richiudono su se stessi quando una creatura raggiunge il “bordo” del piano."},
+{"Nome":"Non Comune","Desc":"Qualcosa di rarità non comune richiede un addestramento speciale o proviene da una particolare cultura o parte del mondo. Alcune scelte del personaggio concedono accesso a opzioni non comuni, e il GM può scegliere di consentire l'accesso a chiunque. Si sa meno delle creature non comuni rispetto a quelle comuni. In genere non possono essere evocate. La CD delle prove di Richiamare Conoscenze relative a queste creature aumenta di 2."},
+{"Nome":"Non Morto","Desc":"Un tempo viventi, queste creature sono state infuse dopo la morte con energia del vuoto e magia empia corruttrice dell'anima. Quando viene ridotta a 0 Punti Ferita, una creatura non morta viene distrutta. Le creature non morte subiscono danni dall'energia di vitalità e sono guarite dall'energia del vuoto, e non beneficiano degli effetti di guarigione di vitalità."},
+{"Nome":"Undine","Desc":"Gli undine sono discendenti planari derivati dai marid."},
+{"Nome":"Empio","Desc":"Gli effetti con il tratto empio sono legati a potenti forze magiche di crudeltà e peccato. Spesso hanno effetti più forti sulle creature sacre. Le creature con questo tratto sono fortemente devote a cause empie e spesso hanno debolezza al sacro. Se una creatura con debolezza all'empio usa un oggetto o un effetto empio, subisce danni dalla sua debolezza."},
+{"Nome":"Unico","Desc":"Un elemento di regole con questo tratto è unico nel suo genere. La CD delle prove di Richiamare Conoscenze relative alle creature con questo tratto aumenta di 10."},
+{"Nome":"Ascendenza Universale","Desc":"Questo tratto è stato creato dagli Archives of Nethys per aiutare a raggruppare meccaniche simili. Non proviene da una fonte pubblicata.\nUn talento con questo tratto è disponibile per tutte le ascendenze."},
+{"Nome":"Instabile","Desc":"Le azioni instabili sono applicazioni sperimentali della tua innovazione che nemmeno tu puoi prevedere completamente. Quando esegui un'azione instabile, tenta una prova semplice con CD 15 immediatamente dopo averne applicato gli effetti. Questa CD è 13 se sei leggendario in Artigianato. In caso di fallimento, l'innovazione ha un malfunzionamento spettacolare (sebbene innocuo), come uno sbuffo di fumo o una pioggia di scintille, e diventa incapace di essere usata per ulteriori azioni instabili. In caso di fallimento critico, subisci anche una quantità di danni da fuoco pari a metà del tuo livello. Puoi spendere 10 minuti per riaccordare la tua innovazione ed effettuare aggiustamenti per riportarla alla funzionalità, dopodiché puoi nuovamente usare azioni instabili con quell'innovazione.\n\nPer eseguire un'azione instabile, devi stare usando la tua innovazione (per esempio, indossando un'innovazione armatura o impugnando un'innovazione arma). Se possiedi un'innovazione gregario, alcune azioni instabili vengono eseguite dal gregario anziché da te. In questi casi, solo il gregario può eseguire quell'azione, e il gregario deve essere stato Comandato in quel turno per poterla eseguire. Se fallisci criticamente la prova semplice, il gregario subisce i danni al posto tuo.\n\nAlcune azioni hanno una voce Funzione Instabile, che puoi usare per aggiungere il tratto instabile per ottenere un beneficio maggiore. Se non sei in grado di usare azioni instabili, puoi comunque usare l'azione normalmente, ma non puoi usare la funzione instabile."}
+,{"Nome":"Mantenimento","Desc":"Questa è un'attività di abilità del Regno che può essere intrapresa durante la fase di Attività di Mantenimento."},
+{"Nome":"Urdefhan","Desc":"Gli urdefhan sono umanoidi che hanno stretto patti con i daimon, hanno pelle trasparente e bevono sangue."},
+{"Nome":"Vampiro","Desc":"Creature non morte assetate di sangue, i vampiri sono notoriamente versatili e difficili da distruggere."},
+{"Nome":"Vanara","Desc":"I vanara sono umanoidi simili a scimmie che condividono una devozione per l'addestramento monastico."},
+{"Nome":"Variabile","Desc":"Questo tratto è stato creato dagli Archives of Nethys per aiutare a raggruppare meccaniche simili. Non proviene da una fonte pubblicata.\nI tratti di una bomba alchemica variano tra bombe diverse."},
+{"Nome":"Veicolare","Desc":"Un'arma veicolare è attaccata a un veicolo o indossata da una cavalcatura e in genere può essere impugnata solo dal conducente del veicolo o dal cavaliere principale della cavalcatura. Il conducente o il cavaliere può controllare un'arma veicolare con le stesse mani che usa per guidare il veicolo o dirigere la cavalcatura. Un'arma veicolare può essere Disarmata facendo cadere i comandi (tipicamente le redini per una cavalcatura o un dispositivo di guida per un veicolo) dalle mani di chi la impugna."},
+{"Nome":"Velstrac","Desc":"Una famiglia di immondi del Mondo dell'Oltretomba associati al dolore e all'agonia. Tutti i velstrac possiedono una qualche forma di sguardo disturbante."},
+{"Nome":"Velenoso","Desc":"Queste armi iniettano veleno a ogni colpo. Quando colpisci una creatura con quest'arma, infligge 1 danno persistente da veleno aggiuntivo. Questo aumenta a 2 danni persistenti da veleno se l'arma possiede una runa di colpo superiore."},
+{"Nome":"Versatile","Desc":"Un'arma versatile può essere usata per infliggere un tipo di danno diverso da quello elencato. Questo tratto indica il tipo di danno alternativo. Per esempio, un'arma perforante con versatile S può infliggere danni perforanti o taglienti. Scegli il tipo di danno ogni volta che attacchi."},
+{"Nome":"Vigilante","Desc":"I tuoi talenti di classe e i talenti da vigilante sono associati alla tua identità da vigilante, e usarli mentre sei nella tua identità sociale può rischiare di esporti come vigilante. Se la tua identità viene esposta al pubblico, perdi i benefici della Dedizione del Vigilante per mascherarti, ma puoi spendere 1 settimana di tempo di inattività per creare una nuova identità sociale."},
+{"Nome":"Villaggio","Desc":"Gli insediamenti con questo tratto tendono a essere piccoli e di solito hanno un livello non superiore a 1."},
+{"Nome":"Virulento","Desc":"Le afflizioni con il tratto virulento sono più difficili da rimuovere. Devi riuscire in due tiri salvezza consecutivi per ridurre di 1 lo stadio di un'afflizione virulenta. Un successo critico riduce lo stadio di un'afflizione virulenta di solo 1 invece che di 2."},
+{"Nome":"Vishkanya","Desc":"Questi umanoidi lievemente ofidici hanno sangue e saliva velenosi."},
+{"Nome":"Visivo","Desc":"Un effetto visivo può influenzare solo le creature che possono vederlo. Questo si applica solo alle parti visibili dell'effetto, come determinato dal GM."},
+{"Nome":"Vitalità","Desc":"Gli effetti con questo tratto curano le creature viventi con energia proveniente dalla Forgia della Creazione, infliggono danni da energia di vitalità ai non morti o manipolano l'energia di vitalità.\n\nQuesti piani sono pervasi di energia vitale. I colori sono più brillanti, i fuochi più caldi, i rumori più forti e le sensazioni più intense. Alla fine di ogni round, una creatura non morta subisce almeno danni ambientali da vitalità minori. Nelle aree più potenti di un piano di vitalità, potrebbe invece subire danni da vitalità moderati o persino maggiori. Sebbene questo possa sembrare sicuro per le creature viventi, i piani di vitalità presentano un pericolo diverso. Le creature viventi recuperano un ammontare di PF ogni round pari ai danni ambientali da vitalità che i non morti subiscono nella stessa area. Se questo porterebbe la creatura vivente oltre i suoi PF massimi, l'eccesso diventa PF temporanei. A differenza del normale, questi PF temporanei si sommano tra loro e durano finché la creatura non lascia il piano. Se i PF temporanei di una creatura provenienti da un piano di vitalità superano mai i suoi PF massimi, essa esplode in una scarica di energia di vitalità sovraccarica, diffondendosi nell'area per generare nuove anime."},
+{"Nome":"Vocale","Desc":"Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."},
+{"Nome":"Vuoto","Desc":"Gli effetti con questo tratto curano le creature non morte con energia del vuoto, infliggono danni da vuoto alle creature viventi o manipolano l'energia del vuoto.\n\nI piani con questo tratto sono vaste distese vuote che risucchiano la vita dai viventi. Tendono a essere piani solitari e infestati, privi di colore e colmi di venti che trasportano i lamenti dei morti. Alla fine di ogni round, una creatura vivente subisce almeno danni ambientali da vuoto minori. Nelle aree più potenti di un piano del vuoto, potrebbe subire danni da vuoto moderati o persino maggiori alla fine di ogni round. Questi danni possiedono il tratto morte e, se una creatura vivente viene ridotta a 0 Punti Ferita da questi danni da vuoto e uccisa, si sgretola in cenere e può diventare un wraith (vedi Monster Core)."}
+,{"Nome":"Raffica","Desc":"Quest'arma a distanza è meno efficace a distanza ravvicinata. I tuoi attacchi contro bersagli che si trovano entro la distanza indicata subiscono una penalità di –2."},
+{"Nome":"Bacchetta","Desc":"Una bacchetta contiene un singolo incantesimo che puoi lanciare una volta al giorno."},
+{"Nome":"Errante","Desc":"Errante identifica i talenti da animista sintonizzati su particolari tipi di apparizioni. Questi talenti richiedono che tu ti sia sintonizzato con un'apparizione che soddisfi i loro prerequisiti quando li selezioni e rappresentano conoscenza e capacità tratte da quel legame specifico. Quando effettui le tue preparazioni giornaliere, puoi riaddestrare qualsiasi talento errante che conosci in qualsiasi altro talento errante disponibile al livello in cui hai ottenuto il talento scambiato (inclusi, come di consueto, i talenti erranti di livello inferiore). Devi soddisfare tutti gli altri prerequisiti del nuovo talento."},
+{"Nome":"Acqua","Desc":"Gli effetti con il tratto acqua manipolano o evocano acqua. Quelli che manipolano l'acqua non hanno effetto in un'area priva di acqua. Le creature con questo tratto sono costituite principalmente di acqua o hanno un legame con l'acqua magica.\n\nI piani con questo tratto sono per lo più liquidi. I visitatori che non possono respirare sott'acqua o raggiungere una sacca d'aria rischiano di annegare. Di solito si applicano le regole per il combattimento acquatico, inclusa l'impossibilità di lanciare incantesimi di fuoco o usare azioni con il tratto fuoco. Le creature con debolezza all'acqua subiscono danni pari al doppio della loro debolezza alla fine di ogni round."},
+{"Nome":"Wayang","Desc":"Piccole persone native del Mondo dell'Oltretomba. Immigrate su Golarion dopo Earthfall."},
+{"Nome":"Meteo","Desc":"Un evento meteorologico è un tipo di pericolo che si svolge in modalità esplorazione anziché in modalità incontro."},
+{"Nome":"Licantropo","Desc":"Queste creature mutaforma sono naturalmente in grado di passare tra forme animale, umanoide e ibrida oppure sono afflitte da una maledizione che le costringe a trasformarsi involontariamente."},
+{"Nome":"Pietra per Affilare","Desc":"Le pietre per affilare sono oggetti potenziati magicamente progettati per aumentare l'efficacia di un'arma; a volte assumono la forma di vere e proprie pietre, ma più spesso sono costruite con materiali che hanno un legame metaforico con l'effetto della pietra per affilare. Sono simili ai talismani, ma a differenza dei talismani non devono essere Fissate in anticipo. Le pietre per affilare possiedono il tratto pietra per affilare."},
+{"Nome":"Wight","Desc":"Un wight è una creatura non morta che drena la vita e fa la guardia a un sito di sepoltura."},
+{"Nome":"Caccia Selvaggia","Desc":"Le creature con il tratto caccia selvaggia non sono mai al di sotto del 14° livello. Possiedono scurovisione superiore, vista verde, acclimatazione planare, sguardo selvaggio, cooperazione istintiva, debolezza al ferro freddo, la capacità di parlare con piante e animali e il loro specifico legame di caccia selvaggia."},
+{"Nome":"Strega","Desc":"Questo tratto indica capacità provenienti dalla classe della strega."},
+{"Nome":"Mago","Desc":"Questo tratto indica capacità provenienti dalla classe del mago."},
+{"Nome":"Legno","Desc":"Gli effetti con il tratto legno evocano o manipolano il legno. Quelli che manipolano il legno non hanno effetto in un'area priva di legno. Le creature con questo tratto sono costituite principalmente di legno o hanno un legame con il legno magico.\n\nQuesti piani sono costituiti da alberi e altra flora intrecciati in schemi organici. I piani del legno sono spesso costruiti in modo perfetto per adattarsi al loro scopo o ambiente desiderato, ma di solito non sono apertamente ostili ai visitatori."},
+{"Nome":"Wraith","Desc":"Un wraith è una creatura non morta incorporea infusa di energia del vuoto e guidata da un odio verso tutta la vita."},
+{"Nome":"Wraithvine","Desc":"Nota di Nethys: non è stata fornita alcuna descrizione per questo tratto."},
+{"Nome":"Wyrwood","Desc":"Un wyrwood è un piccolo costrutto vivente senziente, creato in legno e alimentato da una pietra eonica o da una pietra magica simile."},
+{"Nome":"Xulgath","Desc":"Queste creature rettiliane sotterranee tendono ad avere scurovisione e a emanare un odore terribile."},
+{"Nome":"Yaksha","Desc":"Spiriti divini che emigrarono su Golarion dal Primo Mondo."}
+,{"Nome":"Yaoguai","Desc":"Esseri che di solito iniziano la loro esistenza come semplici animali, oggetti o piante, ma che hanno trovato un modo per trascendere le loro forme originarie attraverso il potere della coltivazione."},
+{"Nome":"Cortile","Desc":"Il tratto cortile indica che la struttura è principalmente un sito all'aperto."},
+{"Nome":"Zombi","Desc":"Questi non morti sono cadaveri in decomposizione privi di mente che bramano la carne dei viventi."}
+]

@@ -1,0 +1,136 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archetipi</title>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="wiki.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-sm">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+            <img src="/favicon.ico" alt="Home" width="30" height="24">
+        </a>
+        <span class="navbar-brand mb-0 h1">RAZZE</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <button class="btn btn-outline-success me-2" onclick='aggiorna("./classi.html?sezione=classes")'>Classi</button>
+            <button class="btn btn-outline-success me-2" onclick='aggiorna("./classi.html?sezione=archetipi")'>Archetipi</button>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <button class="btn btn-primary d-lg-none" id="sidebar-toggle" data-bs-toggle="offcanvas" data-bs-target="#sidebarOffcanvas">
+        ☰ Menu
+    </button>
+
+    <!-- Offcanvas Sidebar -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebarOffcanvas">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Navigazione</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div id="sidebar-mobile" class="bg-light p-3 border rounded shadow-sm"></div>
+        </div>
+    </div>
+    <div class="container-fluid p-3">
+        <div class="row">
+            <div class="col-lg-3 d-none d-lg-block border-end p-3 vh-100 overflow-auto" id ="sidebar-desktop-container">
+                <div id="sidebar-desktop"></div>
+            </div>
+            <div class="col-lg-9 p-3">
+                <div id="archetipi">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module">
+        import * as common from './common.js';
+        await common.init();
+        const htmlSidebar = common.creaSidebar();
+        const isMobile = window.matchMedia('(max-width: 767.98px)').matches;
+        if (isMobile) {
+        // Gestione sidebar mobile
+        common.render(document.getElementById("sidebar-mobile"),htmlSidebar);
+        } else {
+        // Gestione sidebar desktop
+        common.render(document.getElementById("sidebar-desktop"),htmlSidebar);
+        }
+        
+        const urlParams = new URLSearchParams(window.location.search);
+        const idArc = urlParams.get('id');
+        
+        common.aprireSidebar(idArc);
+
+        let path = "./data/classi/archetipi.json";
+        let dedication = (await common.restituisciDatoAttributi(path, ["Nome"], [idArc]))[0];
+        let archetipo = dedication.Archetipo[0];
+        let talenti = await common.restituisciDatoAttributi(path, ["Archetipo"], [archetipo]);
+
+        console.log(talenti);
+        
+    let listaTalenti = `<h2 class="mb-3">${archetipo}</h2><br>${common.controllaTesto(dedication.DescArc)}<br><br><h4>Talenti:</h4>`;
+    let sudTalenti = [];
+    for(let i = 0; i < talenti.length; i++){
+      let trovato = false;
+      for(let j = 0 ;j < sudTalenti.length && !trovato; j++) 
+        if(talenti[i].LivArc == sudTalenti[j][0]) {
+          sudTalenti[j][1].push(talenti[i]);
+          trovato = true;
+        }
+      if(!trovato) 
+        sudTalenti.push([talenti[i].LivArc, [talenti[i]]])
+    }
+
+    for(let i = 0; i < sudTalenti.length - 1; i++)
+      for(let j = i + 1; j < sudTalenti.length; j++)
+        if(sudTalenti[i][0] > sudTalenti[j][0]) {
+          let temp = sudTalenti[i];
+          sudTalenti[i] = sudTalenti[j];
+          sudTalenti[j] = temp;
+        }
+        
+    for(let i = 0; i < sudTalenti.length; i++) {
+        if(i != 0)listaTalenti += `<br>`;
+        listaTalenti += `<h5>Livello ${sudTalenti[i][0]}</h5>`;
+        listaTalenti += sudTalenti[i][1].map(t => `
+            <div class="card mb-3">
+                <div class="card-body"> ${t.Azione? `${common.controllaTesto(t.Desc)}` :
+                    `<h3 id="${common.controllaTesto(t.Nome)}">${common.controllaTesto(t.Nome)}</h3>
+                    ${common.creaGraficaTratti(t.Tratti)}
+                    <div>
+                        <Strong>Archetipo/i:</Strong> ${t.Archetipo.join(", ")}
+                    </div>
+                    ${t.Req != ""? `<div><strong>Requisti: </strong>${t.Req}</div>`: ""}
+                    <div>${common.controllaTesto(t.Desc)}</div><br><br>`
+                    }
+                    ${common.htmlBottoneCopia(t.Azione? common.creaCopiaAzione(t.Desc): `++{{14${common.controllaTestoIncolla(t.Nome)}}}++//${common.controllaTestoIncolla(t.Tratti.join(";"))}//++Archetipo/i:++ ${common.controllaTestoIncolla(t.Archetipo.join(", "))}@${t.Req != ""? common.controllaTestoIncolla(`++Requisti:++ ${t.Req}@`): ""}${common.controllaTestoIncolla(t.Desc)}`)}
+                    </div></div>`
+        ).join("");
+    }
+
+    console.log(listaTalenti);
+    common.render(document.getElementById("archetipi"), listaTalenti, true);
+        
+    common.aprireSidebar(idArc);
+    window.aggiorna = function(path) {
+        common.aggiornaUrl(path);
+    }
+    common.sBInit();
+    window.cerca = (valore) => {
+            common.sBCerca(valore);
+        };
+        window.copia = (testo) => {
+            common.copiaTesto(testo);
+        }
+    </script>
+</body>
+</html>

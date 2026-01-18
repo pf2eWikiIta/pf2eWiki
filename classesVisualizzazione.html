@@ -1,0 +1,358 @@
+<html lang="it" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classe</title>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link rel="stylesheet" href="wiki.css">
+  <style id="stile">
+    [id] {
+      scroll-margin-top: 80px; /* offset fisso per qualsiasi elemento con id */
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="/index.html">
+        <img src="/favicon.ico" alt="Bootstrap" width="30" height="24" class="me-2">
+        CLASSI
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto" id="bottoni">
+          <button class="btn btn-outline-light me-2" onclick='aggiorna("./classi.html?sezione=classes")'>Classi</button>
+          <button class="btn btn-outline-light me-2" onclick='aggiorna("./classi.html?sezione=archetipi")'>Archetipi</button>
+          <button class="btn btn-outline-light me-2" onclick='cambiaSezione("classi")'>Desc classe</button>
+          <button class="btn btn-outline-light me-2" onclick='cambiaSezione("talenti")'>Talenti classe</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Bottone sidebar mobile -->
+  <button class="btn btn-primary d-lg-none" id="sidebar-toggle" data-bs-toggle="offcanvas" data-bs-target="#sidebarOffcanvas">☰</button>
+
+  <!-- Sidebar offcanvas -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebarOffcanvas">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title">Navigazione</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div id="sidebar-mobile" class="p-2"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar desktop -->
+      <div class="col-lg-3 d-none d-lg-block border-end p-3 vh-100 overflow-auto" id ="sidebar-desktop-container">
+        <div id="sidebar-desktop"></div>
+      </div>
+
+      <!-- Contenuto principale -->
+      <div class="col-lg-9 p-3" id="contenuto">
+        <div id="descClasse" class="sezione"></div>
+        <div id="talenti" class="sezione"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS: identico al tuo -->
+  <script>
+    const desc = document.getElementById("descClasse");   
+    const sezTalenti = document.getElementById("talenti");   
+    window.sezExtra = [[], []];
+    function cambiaSezione(sezione) {
+      const desc = document.getElementById("descClasse");   
+      const sezTalenti = document.getElementById("talenti");  
+      desc.classList.remove("attiva");
+      sezTalenti.classList.remove("attiva");
+      for(let i = 0; i < window.sezExtra[1].length; i++)
+        window.sezExtra[1][i].classList.remove("attiva");
+      
+      switch (sezione) {
+        case "classi":
+          desc.classList.add("attiva");
+          return;
+        case "talenti":
+          sezTalenti.classList.add("attiva");
+          return;
+        default:
+          for(let i = 0; i < window.sezExtra[0].length; i++)
+            if(window.sezExtra[0][i] == sezione) {
+              window.sezExtra[1][i].classList.add("attiva");
+              return;
+            }
+      }
+    }
+    document.addEventListener('click', function (e) {
+    // Clic su un .btn o .nav-link dentro la collapse?
+    const trigger = e.target.closest('#navbarNavAltMarkup .btn, #navbarNavAltMarkup .nav-link');
+    if (!trigger) return;
+
+    const menu = document.getElementById('navbarNavAltMarkup');
+    if (!menu) return;
+
+    // Se non è aperto, non fare nulla
+    if (!menu.classList.contains('show')) return;
+
+    // Chiudi SEMPRE l'istanza (creandola se serve)
+    const bsCollapse = bootstrap.Collapse.getOrCreateInstance(menu);
+    bsCollapse.hide();
+    });
+  </script>
+
+  <script type="module">
+    import * as common from './common.js';
+
+    const path = "./data/classi/classes.json";
+    const pathTalenti = "./data/classi/archetipi.json";
+
+    await common.init();
+    const htmlSidebar = common.creaSidebar();
+    const isMobile = window.matchMedia('(max-width: 767.98px)').matches;
+
+    if (isMobile) {
+      // Gestione sidebar mobile
+      common.render(document.getElementById("sidebar-mobile"),htmlSidebar);
+    } else {
+      // Gestione sidebar desktop
+      common.render(document.getElementById("sidebar-desktop"),htmlSidebar);
+    }
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const idClasse = urlParams.get('id');
+    common.aprireSidebar(idClasse);
+    let dati = await common.restituisciOggetto(path, idClasse);
+    
+    // ---- LOGICA JAVASCRIPT IDENTICA ----
+    let nomiCompetenze = ["Percezione", "Tiri salvezza", "Abilita", "Attacchi", "Difese", "Incantesimi"];
+    let livComp = ["Non-addestrato", "Addestrato", "Esperto", "Maestro", "Leggenda"];
+    common.render(desc, `<h3>${idClasse}</h3>`);
+    common.render(desc, dati.Descrizione,true);
+    common.render(desc, `<br><br><h3>Competenze</h3>${livComp[dati.Competenze[0]]} in percezione`,true);
+    common.render(desc, `<br><br><h4>${nomiCompetenze[1]}</h4>${livComp[dati.Competenze[1][0]]} nei tiri salvezza su tempra`,true);
+    common.render(desc,`<br>${livComp[dati.Competenze[1][1]]} nei tiri salvezza su riflessi`,true);
+    common.render(desc, `<br>${livComp[dati.Competenze[1][2]]} nei tiri salvezza su volontá`, true);
+    for(let i = 2; i < 5; i++) {
+      common.render(desc, `<br><br><h4>${nomiCompetenze[i]}</h4>`, true);
+      for(let j = 0; j < dati.Competenze[i].length; j++) {
+          if(j != 0) common.render(desc, `<br>`, true);
+          common.render(desc, `${livComp[dati.Competenze[i][j].Liv]} ${dati.Competenze[i][j].Skill}`, true);
+      }
+    }
+    
+    common.render(desc, `<br><br>${livComp[dati.Competenze[5]]} nella CD delle classe`, true);
+    if(dati.Competenze.length == 7)
+      common.render(desc, `<br><br><h3>${nomiCompetenze[5]}</h3>${livComp[dati.Competenze[6][0]]} nei tiri per colpire degli incantesimi<br>${livComp[dati.Competenze[6][1]]} nella CD degli incantesimi`,true);
+    common.render(desc, `<br><br><h5>Main stat: ${dati.Caratteristica}<h5><h5>HP: ${dati.Hp} + con<h5><br><h3>Tabella privilegi</h3>`, true);
+    
+    let nomiPriv = [];
+    let descPriv = [];
+    for(let i = 0; i < dati.Tabella.length -1; i++) 
+      for(let j = i + 1; j < dati.Tabella.length; j++) 
+        if(dati.Tabella[i].Livello > dati.Tabella[j].Livello) {
+          let temp = dati.Tabella[j];
+          dati.Tabella[j] = dati.Tabella[i];
+          dati.Tabella[i] = temp;
+        } 
+
+  function splitOnce(str, sep) {
+    const i = str.indexOf(sep);
+    return i === -1
+      ? [str]                               // separatore non trovato → array intero
+      : [str.slice(0, i), str.slice(i + sep.length)];
+  }
+  
+  for(let i = 0; i < dati.Tabella.length; i++) {
+    let split = splitOnce(dati.Tabella[i].Desc,"@");
+    nomiPriv[i] = split[0];
+    descPriv[i] = split[1];
+  }
+
+
+    inserisciDati(dati.Tabella, nomiPriv);
+    if(dati.TabellaInc != undefined)
+      creaTabellaIncantesimi(dati.TabellaInc);
+
+
+    
+    let risultato = "<br><br>";
+    for (let i = 0; i < nomiPriv.length; i++) {
+      risultato += `
+        <div class="card mb-3" id="${nomiPriv[i]}">
+          <div class="card-body">
+            <h3>${nomiPriv[i]}&nbsp;&nbsp;&nbsp;&nbsp;Livello ${dati.Tabella[i].Livello}</h3>
+            ${common.controllaTesto(descPriv[i])}<br>
+            ${common.htmlBottoneCopia(common.controllaTestoIncolla(`++{{14${nomiPriv[i]}}}++@${descPriv[i]}`))}
+            <br>
+          </div>
+        </div>`;
+    }
+
+    common.render(desc, risultato, true);
+
+    function creaTabellaIncantesimi(dati) {
+      let nomeCol = ["Livello"];
+      let tabella = [[]];
+      for(let i = 0; i < 20; i++) tabella[0].push(`${i + 1}`);
+      for(let i = 0; i < dati.length; i++) {
+        nomeCol.push(i != 0? `${i}° Livello` : "Trucchetti");
+        let colonna = [];
+        for(let j = 0; j < 20; j++) colonna.push("-");
+        for(let j = 0; j < dati[i].length; j++) 
+          if(dati[i][j].Lf != undefined) 
+            for(let k = dati[i][j].Li - 1; k < dati[i][j].Lf; k++)
+              colonna[k] = dati[i][j].Num;
+          else
+            colonna[dati[i][j].Li - 1] = dati[i][j].Num;
+        tabella.push(colonna);
+      }
+
+      common.render(desc ,`<br><h3>Tabella degli incantesimi</h3>`, true);
+      common.render(desc,common.creaTabella(tabella, nomeCol), true);
+    }
+
+    function inserisciDati(tabella, nomiPriv) {
+      let priv = [];
+      for(let i = 0; i < nomiPriv.length; i ++) {
+        let rip = tabella[i].Ripetizione == undefined? 20 : tabella[i].Ripetizione;
+        let inizio = tabella[i].InizioRip == undefined? -1 : tabella[i].InizioRip;
+        let livello = dati.Tabella[i].Livello;
+        do {
+          let trovato = false;
+          for(let j = 0; j < priv.length; j++) 
+            if(priv[j][0] == livello) {
+              priv[j][1].push(`<a href="#${nomiPriv[i]}">${nomiPriv[i]}</a>`);
+              trovato = true;
+            }
+
+
+          if(!trovato) {
+            priv.push([livello, [`<a href="#${nomiPriv[i]}">${nomiPriv[i]}</a>`]]);
+          }
+
+          if(inizio == -1) {
+            livello += rip;
+          } else {
+            livello = inizio;
+            inizio = -1;
+          }
+        }while(livello < 21);
+      }
+
+      let tabellaHtml = "<table><tr><th>Livello</th><th>Privilegi</th></tr>";
+      for(let i = 0; i < 20; i++) {
+        let trovato = false;
+        tabellaHtml += `<tr><td>${i+1}</td><td>`;
+        for(let j = 0; j < priv.length && !trovato; j++) 
+          if(priv[j][0]-1 == i) {
+            tabellaHtml += `${priv[j][1].join(", ")}`;
+            trovato = true;
+          } 
+        if(!trovato) 
+          tabellaHtml += `--`;
+        tabellaHtml += `</td></tr>`;
+      }
+      tabellaHtml += "</table>";
+      common.render(desc, tabellaHtml, true);
+    }
+
+
+
+
+
+    let talenti = await common.restituisciDatoAttributi(pathTalenti, ["Tratti"], [[idClasse]]);
+    
+    let sudTalenti = [];
+    for(let i = 0; i < talenti.length; i++){
+      let trovato = false;
+      for(let j = 0 ;j < sudTalenti.length && !trovato; j++) 
+        if(talenti[i].Liv == sudTalenti[j][0]) {
+          sudTalenti[j][1].push(talenti[i]);
+          trovato = true;
+        }
+      if(!trovato) 
+        sudTalenti.push([talenti[i].Liv, [talenti[i]]])
+    }
+
+    for(let i = 0; i < sudTalenti.length - 1; i++)
+      for(let j = i + 1; j < sudTalenti.length; j++)
+        if(sudTalenti[i][0] > sudTalenti[j][0]) {
+          let temp = sudTalenti[i];
+          sudTalenti[i] = sudTalenti[j];
+          sudTalenti[j] = temp;
+        }
+        
+    let risultat = "";
+    for(let i = 0; i < sudTalenti.length; i++) {
+      risultat += `<br><h3>Livello ${sudTalenti[i][0]}</h3>`;
+      risultat += sudTalenti[i][1].map(t => 
+      `<div class="card mb-3">
+        <div class="card-body">
+          ${t.Azione? common.controllaTesto(t.Desc): 
+          `<h3 id="${common.controllaTesto(t.Nome)}">${common.controllaTesto(t.Nome)}</h3>
+          ${common.creaGraficaTratti(t.Tratti)}
+          ${t.Req != ""? common.controllaTesto(`++Prerequisiti:++ ${t.Req}`): ""}
+          <div>${common.controllaTesto(t.Desc)}</div>`}
+          <br>
+          ${common.htmlBottoneCopia(t.Azione? common.creaCopiaAzione(t.Desc): common.testoCopiaGenerico(t))}
+        </div>
+      </div>
+      `).join("");
+    }
+    common.render(document.getElementById("talenti"), risultat);
+
+    let sez = [];
+    for(let i = 0; i < dati.Sezioni.length; i++) {
+      let btn = document.getElementById("bottoni");
+      let cnt = document.getElementById("contenuto");
+      let nomSez = dati.Sezioni[i].Nome;
+      sez.push(nomSez);
+      common.render(btn, `<button class="btn btn-outline-success me-2" onclick='cambiaSezione("${nomSez}")'>${nomSez}</button>`, true);
+      let nuovaSez = `<div id = "${nomSez}" class ="sezione">`;
+      for(let j = 0; j < dati.Sezioni[i].Contenuti.length; j++)
+        nuovaSez += common.controllaTesto(dati.Sezioni[i].Contenuti[j]) + "<br><br>";
+      nuovaSez += "</div>";
+      common.render(contenuto, nuovaSez, true);
+    }
+
+    if(sez.length > 0) {
+      const selettori = sez.join(', ');
+      const idSel        = sez.map(id => `#${id}`).join(', ');
+      const idSelActive  = sez.map(id => `#${id}.attiva`).join(', ');
+      const regolaBase   = `${idSel} { display: none; }`;
+      const regolaAttiva = `${idSelActive} { display: block; }`;
+
+      let sheet = document.getElementById('stile');
+      sheet.appendChild(document.createTextNode(regolaBase));
+      sheet.appendChild(document.createTextNode(regolaAttiva));
+      let arrGlobale = [sez,[]];
+      for(let i = 0; i < sez.length; i++) {
+        arrGlobale[1].push(document.getElementById(sez[i]));
+      }
+      window.sezExtra = arrGlobale;
+    } else {
+      window.sezExtra = [[], []];
+    }
+    cambiaSezione("classi");
+
+    window.aggiorna = function(path) {
+      common.aggiornaUrl(path);
+    }
+
+    common.sBInit();
+window.cerca = (valore) => {
+            common.sBCerca(valore);
+        };  
+        window.copia = (testo) => {
+            common.copiaTesto(testo);
+        }
+        </script>
+</body>
+</html>
