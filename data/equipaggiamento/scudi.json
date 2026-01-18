@@ -1,0 +1,180 @@
+
+[
+    {
+  "Nome": "Brocchiero",
+  "Tratti": [],
+  "CA": 1,
+  "PenalitaVelocita": 0,
+  "Durezza": 3,
+  "Hp": "6",
+  "Sr": "3",
+  "Desc": "Questo scudo molto piccolo è uno dei preferiti da duellanti e guerrieri rapidi e con armature leggere. È tipicamente fatto d’acciaio e fissato all’avambraccio. Puoi Alzare lo Scudo con il tuo brocchiero purché tu abbia quella mano libera o stia tenendo in quella mano un oggetto leggero che non sia un’arma.",
+  "Mostrare": true
+},
+{
+  "Nome": "Scudo di Legno",
+  "Tratti": [],
+  "CA": 2,
+  "PenalitaVelocita": 0,
+  "Durezza": 3,
+  "Hp": "12",
+  "Sr": "6",
+  "Desc": "Sebbene esistano in una grande varietà di forme e dimensioni, la protezione offerta dagli scudi di legno deriva dalla robustezza dei materiali. Anche se sono meno costosi degli scudi d’acciaio, gli scudi di legno si rompono più facilmente.",
+  "Mostrare": true
+},
+{
+  "Nome": "Targa del Lanciatore di Incantesimi",
+  "Tratti": ["Inscritto"],
+  "CA": 1,
+  "PenalitaVelocita": 0,
+  "Durezza": 3,
+  "Hp": "12",
+  "Sr": "6",
+  "Desc": "Questo piccolo scudo è fatto di legno. Presenta uno speciale pannello di pergamena lungo la superficie interna che consente di scrivere.",
+  "Mostrare": true
+},
+{
+  "Nome": "Scudo di Pelle",
+  "Tratti": ["Deviante Contundente"],
+  "CA": 2,
+  "PenalitaVelocita": 0,
+  "Durezza": 4,
+  "Hp": "20",
+  "Sr": "10",
+  "Desc": "Gli scudi di pelle esistono in una grande varietà di forme e dimensioni. Tecniche di concia specializzate, combinate con pelli resistenti di creature come i grifoni, producono questi scudi particolarmente robusti. La pelle indurita mantiene comunque una certa flessibilità, riducendo l’impatto di attacchi di percussione e martellamento.",
+  "Mostrare": true
+},
+{
+  "Nome": "Scudo d’Acciaio",
+  "Tratti": [],
+  "CA": 2,
+  "PenalitaVelocita": 0,
+  "Durezza": 5,
+  "Hp": "20",
+  "Sr": "10",
+  "Desc": "Come gli scudi di legno, anche quelli d’acciaio sono disponibili in molte forme e dimensioni. Sebbene siano più costosi degli scudi di legno, sono molto più durevoli.",
+  "Mostrare": true
+},
+{
+  "Nome": "Klar",
+  "Tratti": ["Integrato 1d6 Tagliente", "Versatile Perforante"],
+  "CA": 1,
+  "PenalitaVelocita": 0,
+  "Durezza": 3,
+  "Hp": "10",
+  "Sr": "5",
+  "Desc": "Questo tradizionale armamento shoanti combina una corta lama metallica con il cranio di una grande lucertola cornuta, modellato come scudo. Lo scudo leggero consente attacchi rapidi con la sua lama integrata.",
+  "Mostrare": true
+},
+{
+  "Nome": "Rondache Pesante",
+  "Tratti": [],
+  "CA": 1,
+  "PenalitaVelocita": 0,
+  "Durezza": 5,
+  "Hp": "24",
+  "Sr": "12",
+  "Desc": "Simile per dimensioni a un brocchiero, questo scudo d’acciaio è progettato per assorbire il maggior numero possibile di colpi invece di deviare gli attacchi. Presenta diversi strati di metallo ed è rinforzato con ulteriore legno.",
+  "Mostrare": true
+},
+{
+  "Nome": "Scudo Meteora",
+  "Tratti": ["Lancio di Scudo 9 m"],
+  "CA": 2,
+  "PenalitaVelocita": 0,
+  "Durezza": 4,
+  "Hp": "16",
+  "Sr": "8",
+  "Desc": "Gli scudi meteora sono progettati specificamente per il lancio. Uno scudo meteora è fatto di acciaio sottile e dotato di cinghie a sgancio rapido, che consentono lanci facili e a lunga distanza.",
+  "Mostrare": true
+},
+{
+  "Nome": "Brocchiero a Guanto",
+  "Tratti": ["Richiudibile"],
+  "CA": 1,
+  "PenalitaVelocita": 0,
+  "Durezza": 3,
+  "Hp": "6",
+  "Sr": "3",
+  "Desc": "Questo scudo delle dimensioni di un brocchiero è segmentato, permettendogli di collassare in un alloggiamento fissato a un guanto per un facile trasporto. Un piccolo fermo consente di espandere rapidamente lo scudo in battaglia quando hai bisogno di difesa.",
+  "Mostrare": true
+},
+{
+  "Nome": "Scudo Imbragato",
+  "Tratti": ["Imbrigliato"],
+  "CA": 2,
+  "PenalitaVelocita": -1.5,
+  "Durezza": 5,
+  "Hp": "20",
+  "Sr": "10",
+  "Desc": "Questo grande scudo d’acciaio presenta un’apertura specializzata per sostenere lance e armi simili. Gli scudi imbragati sono una riserva comune per chi combatte con armi da giostra nel caso sia costretto a combattere senza la propria cavalcatura. Bilanciare l’arma nell’alloggiamento dello scudo è piuttosto scomodo, e le armi più lunghe, come le lance, devono essere tenute più vicino al corpo del normale per un supporto adeguato.",
+  "Mostrare": true
+},
+{
+  "Nome": "Disco Lama",
+  "Tratti": ["Integrato 1d6 Tagliente", "Lancio di Scudo 6 m"],
+  "CA": 1,
+  "PenalitaVelocita": 0,
+  "Durezza": 4,
+  "Hp": "16",
+  "Sr": "8",
+  "Desc": "Diverse piccole lame fiancheggiano il bordo esterno di questo scudo d’acciaio. Questo scudo da lancio specializzato è comune tra i guerrieri della Distesa del Mwangi, dove le sue lame possono tagliare la vegetazione mentre vola.",
+  "Mostrare": true
+},
+{
+  "Nome": "Scudo a Salva",
+  "Tratti": ["Deviante Fisico a Distanza"],
+  "CA": 2,
+  "PenalitaVelocita": 0,
+  "Durezza": 4,
+  "Hp": "20",
+  "Sr": "10",
+  "Desc": "Questo scudo d’acciaio specializzato presenta uno strato esterno di piastre angolate in legno o acciaio, che aiutano a deviare o reindirizzare i proiettili a distanza in arrivo, ma non offrono alcuna protezione aggiuntiva contro le armi da mischia.",
+  "Mostrare": true
+},
+{
+  "Nome": "Scudo Rubaspade",
+  "Tratti": ["Deviante Tagliente"],
+  "CA": 2,
+  "PenalitaVelocita": 0,
+  "Durezza": 4,
+  "Hp": "20",
+  "Sr": "10",
+  "Desc": "Questo scudo d’acciaio specializzato presenta diversi ampi uncini metallici lungo la sua superficie. Questi uncini aiutano a intercettare spade e altre lame, riducendo l’impatto dei loro attacchi in arrivo.",
+  "Mostrare": true
+},
+{
+  "Nome": "Scudo Lanciadardi",
+  "Tratti": ["Lancia Dardo"],
+  "CA": 1,
+  "PenalitaVelocita": 0,
+  "Durezza": 3,
+  "Hp": "12",
+  "Sr": "6",
+  "Desc": "Questo scudo di legno presenta un dispositivo a molla sulla sua superficie che può sparare dardi con grande forza. Un piccolo meccanismo all’interno dello scudo consente di lanciare un dardo anche mentre stai impugnando attivamente lo scudo o bloccando con esso.",
+  "Mostrare": true
+},
+{
+  "Nome": "Scudo Torre",
+  "Tratti": [],
+  "CA": 2,
+  "PenalitaVelocita": -1.5,
+  "Durezza": 5,
+  "Hp": "20",
+  "Sr": "10",
+  "Desc": "Questi scudi massicci possono essere usati per fornire copertura a quasi tutto il corpo. A causa delle loro dimensioni, sono tipicamente fatti di legno rinforzato con metallo. Ottenere il bonus di CA più alto richiede l’uso dell’azione Ripararsi mentre lo scudo è alzato.",
+  "Mostrare": true
+},
+{
+  "Nome": "Scudo Fortezza",
+  "Tratti": ["Ingombrante +2"],
+  "CA": 3,
+  "PenalitaVelocita": -3,
+  "Durezza": 6,
+  "Hp": "24",
+  "Sr": "12",
+  "Desc": "Conosciuti anche come muri portatili, questi scudi spessi e pesanti sono leggermente più grandi degli scudi torre. Come gli scudi torre, sono tipicamente fatti di legno rinforzato con metallo, ma molti sono realizzati con quantità maggiori di metallo o persino di pietra. Ottenere il bonus di CA più alto richiede l’uso dell’azione Ripararsi mentre lo scudo è alzato.",
+  "Mostrare": true
+}
+
+]
