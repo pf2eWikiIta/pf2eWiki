@@ -32,7 +32,7 @@
         "Mostrare": true
     },
     {
-        "Nome": "Agopuntore",
+        "Nome": "Agopuntore background",
         "Desc": "Hai studiato il qi e la sua capacità di guarire il corpo attraverso la valutazione e la regolazione del suo flusso. Conosci tecniche occulte originate a Chu Ye prima che i suoi maestri venissero scacciati quando gli oni presero il controllo. Potresti aver incontrato un maestro disposto a insegnare a uno studente desideroso, oppure aver provato sulla tua pelle il sollievo di questa pratica, portando il tuo interesse a livelli più elevati.@@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Destrezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Medicina e nell’abilità di Conoscenze (agopuntura). Ottieni il talento di abilità Medicina da Battaglia.",
         "Boost": "Saggezza o destrezza, libero",
         "Skill": "Medicina, conoscenze(agopuntura)",
@@ -1704,7 +1704,7 @@
   "Mostrare": true
 },
 {
-  "Nome": "Guerriero",
+  "Nome": "Guerriero background",
   "Desc": "In gioventù ti sei gettato nella battaglia come mercenario, come difensore di un popolo nomade o come membro di una milizia o di un esercito. Potresti aver desiderato sfuggire alla struttura rigida di queste forze, oppure potresti essere sempre stato un guerriero indipendente come lo sei ora.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Costituzione, e uno è un incremento libero.",
   "Boost": "Forza o Costituzione, libero",
   "Skill": "Intimidazione, conoscenza(guerra)",
