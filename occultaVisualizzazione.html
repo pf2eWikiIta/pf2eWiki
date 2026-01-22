@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Incantesimi</title>
+    <title id = "titolo">Incantesimi</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
@@ -52,20 +52,21 @@
     <script type="module">
         import * as common from './common.js';
         await common.init();
-        const htmlSidebar = common.creaSidebar();
-        const isMobile = window.matchMedia('(max-width: 767.98px)').matches;
-        if (isMobile) {
-        // Gestione sidebar mobile
-        common.render(document.getElementById("sidebar-mobile"),htmlSidebar);
-        } else {
-        // Gestione sidebar desktop
-        common.render(document.getElementById("sidebar-desktop"),htmlSidebar);
-        }
+        const isMobile = window.matchMedia('(max-width: 992px)').matches;
+
+        fetch("sidebar.html")
+        .then(response => response.text())
+        .then(data => {
+        if (isMobile)
+            common.render(document.getElementById("sidebar-mobile"), data);
+        else
+            common.render(document.getElementById("sidebar-desktop"),data);
+        });
         
         const urlParams = new URLSearchParams(window.location.search);
         const idInc = urlParams.get('id');
         common.aprireSidebar(idInc);
-
+        common.render(document.getElementById("titolo"), idInc);
         common.render(document.getElementById("contenitore"),await common.aprireIncantesimo("occulta", idInc));
 
         window.aggiorna= function(url) {
