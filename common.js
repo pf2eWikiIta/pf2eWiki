@@ -1,6 +1,4 @@
-let risultato = '';
 let links = [];
-let contaId = 0;
 let struttura;
 let listaTratti;
 
@@ -15,33 +13,6 @@ export async function init() {
   const res3 = await fetch('tratti.json');
   listaTratti = await res3.json();
   console.log('Struttura caricata:', struttura);
-}
-
-export function creaSidebar() {
-  risultato = '<div id="sidebar">';
-  creaListaSubdirectory(struttura, 0);
-  return risultato + "</div>";
-}
-
-function creaListaSubdirectory(dati, indentazione) {
-  for(let i = 0; i < dati.length; i++) {
-    if(dati[i].tipo == "directory") {
-      creaDiv(dati[i].nome, indentazione);
-      creaListaSubdirectory(dati[i].sottofile, indentazione + 1);
-      risultato += `</div>`;
-    } else {
-      let nomeFile = dati[i].nome.replace(".json", "");
-      creaDiv(nomeFile, indentazione);
-      for(let j = 0; j < dati[i].contenuto.length; j++) {
-        if(dati[i].contenuto[j].mostrare) {
-          let a = creaHtmlLink(vR(dati[i].contenuto[j].nome));
-          risultato += `${a}<br>`;
-        }
-          
-      }
-      risultato += `</div>`;
-    }
-  }
 }
 
 export function vR(testo) {
@@ -63,17 +34,6 @@ function creaLink(percorso) {
     default:
       console.log("wtf");
   }
-}
-
-function creaDiv(dato, indentazione) {
-  risultato += `
-  <div class="ms-${indentazione * 2} mb-1">
-    ${creaHtmlLink(vR(dato))}
-    <a class="btn btn-sm btn-outline-secondary ms-2" data-contenuto = "${dato}" data-bs-toggle="collapse" href="#${contaId}" role="button" aria-expanded="false" aria-controls="${contaId}">↓</a>
-  </div>
-  <div id="${contaId}" class="collapse ms-3">
-  `;
-  contaId++;
 }
 
 export function creaTabella(dati, nomeColonne, linkAutomatici = false, ordinare = false, idTabella = null) {
@@ -131,22 +91,14 @@ function creaGrafica(colonne, dati, linkAutomatici, ordinare) {
 }
 
 export function creaHtmlLink(testo) {
-  let iTondeAp = [], iTondeCl = [], iQuadreAp = [], iQuadreCl = [];
-  for(let i = 0; i < testo.length; i++) {
-    switch (testo[i]) {
-      case "(": iTondeAp.push(i); break;
-      case ")": iTondeCl.push(i); break;
-      case "[": iQuadreAp.push(i); break;
-      case "]": iQuadreCl.push(i); break;
-    }
-  }
-
-  for(let i = 0; i < iQuadreAp.length; i++) {
-    for(let j = 0; j < iTondeCl.length; j++) {
-      if(iTondeCl[j] + 1 == iQuadreAp[i]) {
-        testo = `${testo.slice(0, iTondeAp[j])}<a href='${restituisciLink(testo.slice(iQuadreAp[i] + 1, iQuadreCl[i]))}'>${testo.slice(iTondeAp[j] + 1, iTondeCl[j])}</a>${testo.slice(iQuadreCl[i] + 1)}`;
-      }
-    }
+  let pos;
+  let iT;
+  let iQ;
+  while(testo.indexOf(")[") != -1) {
+    pos = testo.indexOf(")[");
+    iT = testo.lastIndexOf("(", pos);
+    iQ = testo.indexOf("]", pos);
+    testo = `${testo.substring(0, iT)}<a href='${restituisciLink(testo.substring(pos + 2, iQ))}'>${testo.substring(iT + 1, pos)}</a>${testo.substring(iQ + 1)}`;
   }
   return testo;
 }
@@ -537,7 +489,7 @@ export async function apriTalento(path, id) {
   if(tal.Azione)
     return `<h2>${tal.Nome}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLivello ${tal.Liv}</h2>${controllaTesto(tal.Desc)}<br><br> ${htmlBottoneCopia(creaCopiaAzione(tal.Desc))}`;
   else {
-    let testo = `++{{14${tal.nome}}}++//${tal.Tratti.join(";")}//${tal.Dettagli.join("@")}@${controllaTestoIncolla(tal.Desc)}`;
+    let testo = `++{{14${tal.Nome}}}++//${tal.Tratti.join(";")}//${tal.Dettagli.join("@")}@${controllaTestoIncolla(tal.Desc)}`;
     return `<h2>${tal.Nome}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLivello ${tal.Liv}</h2>${creaGraficaTratti(tal.Tratti)}${controllaTesto(controllaTesto(tal.Dettagli.join("<br>")))}<br><br>${controllaTesto(tal.Desc)}<br><br>${htmlBottoneCopia(testo)}`;
   }
     
@@ -561,8 +513,14 @@ export function creaGraficaTratti(arr) {
     let nomeTratto = arr[i];
 
     let desc;
-    if(listaTratti.map(p => nomeTratto.toLowerCase().includes(p.Nome.toLowerCase())? "X":"o").includes("X"))
-      desc = listaTratti.filter(p => nomeTratto.toLowerCase().includes(p.Nome.toLowerCase()))[0].Desc;
+    if(listaTratti.map(p => nomeTratto.toLowerCase().includes(p.Nome.toLowerCase())? "X":"o").includes("X")) {
+      let ris = listaTratti.filter(p => nomeTratto.toLowerCase().includes(p.Nome.toLowerCase()));
+      desc = ris[0].Desc;
+      for(let i = 1; i < ris.length; i++)
+        if(nomeTratto == ris[i].Nome)
+          desc = ris[i].Desc;
+    }
+      
     else {
       console.log(nomeTratto);
       desc = "Tratto non trovato, segnalalo";
