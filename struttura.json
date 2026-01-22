@@ -28,7 +28,7 @@
             "mostrare": true
           },
           {
-            "nome": "Agopuntore",
+            "nome": "Agopuntore background",
             "mostrare": true
           },
           {
@@ -436,7 +436,7 @@
             "mostrare": true
           },
           {
-            "nome": "Guerriero",
+            "nome": "Guerriero background",
             "mostrare": true
           },
           {
@@ -1596,7 +1596,7 @@
             "mostrare": false
           },
           {
-            "nome": "Armatura Istantanea",
+            "nome": "Armatura Immediata",
             "mostrare": false
           },
           {
@@ -2620,7 +2620,7 @@
             "mostrare": false
           },
           {
-            "nome": "Bravado Vivace",
+            "nome": "Bravura Vivace",
             "mostrare": false
           },
           {
@@ -2848,7 +2848,7 @@
             "mostrare": false
           },
           {
-            "nome": "Canalizzazione Forma Incantesimo",
+            "nome": "Canalizzazione Metamagia",
             "mostrare": false
           },
           {
@@ -6192,7 +6192,7 @@
             "mostrare": false
           },
           {
-            "nome": "Elaborato Flourish",
+            "nome": "Elaborato Fioritura",
             "mostrare": false
           },
           {
@@ -7035,11 +7035,31 @@
             "mostrare": false
           },
           {
+            "nome": "Finale Barcollante",
+            "mostrare": false
+          },
+          {
+            "nome": "Finale Base",
+            "mostrare": false
+          },
+          {
             "nome": "Finale Brutale",
             "mostrare": false
           },
           {
+            "nome": "Finale Combinato",
+            "mostrare": false
+          },
+          {
+            "nome": "Finale Continuato",
+            "mostrare": false
+          },
+          {
             "nome": "Finale Disperato",
+            "mostrare": false
+          },
+          {
+            "nome": "Finale Doppio",
             "mostrare": false
           },
           {
@@ -7051,79 +7071,59 @@
             "mostrare": false
           },
           {
+            "nome": "Finale Illimitato",
+            "mostrare": false
+          },
+          {
+            "nome": "Finale Infilzante",
+            "mostrare": false
+          },
+          {
+            "nome": "Finale Letale",
+            "mostrare": false
+          },
+          {
+            "nome": "Finale Mirato",
+            "mostrare": false
+          },
+          {
+            "nome": "Finale Mobile",
+            "mostrare": false
+          },
+          {
+            "nome": "Finale Perfetto",
+            "mostrare": false
+          },
+          {
+            "nome": "Finale Preciso",
+            "mostrare": false
+          },
+          {
             "nome": "Finale Risonante",
             "mostrare": false
           },
           {
+            "nome": "Finale Ritirato",
+            "mostrare": false
+          },
+          {
+            "nome": "Finale Rivitalizzante",
+            "mostrare": false
+          },
+          {
+            "nome": "Finale Sanguinante",
+            "mostrare": false
+          },
+          {
+            "nome": "Finale Squilibrante",
+            "mostrare": false
+          },
+          {
+            "nome": "Finale Stordente",
+            "mostrare": false
+          },
+          {
             "nome": "Fingi Finché Non Ci Riesci",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Barcollante",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Base",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Combinato",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Continuato",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Doppio",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Illimitato",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Infilzante",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Letale",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Mirato",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Mobile",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Perfetto",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Preciso",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Ritirato",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Rivitalizzante",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Sanguinante",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Squilibrante",
-            "mostrare": false
-          },
-          {
-            "nome": "Finisher Stordente",
             "mostrare": false
           },
           {
@@ -11530,6 +11530,10 @@
             "mostrare": false
           },
           {
+            "nome": "Posizione Manipolatrice di Vitalità",
+            "mostrare": false
+          },
+          {
             "nome": "Posizione Medusa",
             "mostrare": false
           },
@@ -11711,10 +11715,6 @@
           },
           {
             "nome": "Possibilità Miracolosa",
-            "mostrare": false
-          },
-          {
-            "nome": "Postura Manipolatrice di Vitalità",
             "mostrare": false
           },
           {
@@ -13341,7 +13341,7 @@
             "mostrare": false
           },
           {
-            "nome": "Rovi Perforanti",
+            "nome": "Rovi Perforanti ",
             "mostrare": false
           },
           {
@@ -15932,7 +15932,7 @@
             "mostrare": false
           },
           {
-            "nome": "Vitalità Eclissata",
+            "nome": "Vitalita Eclissata",
             "mostrare": false
           },
           {
@@ -16322,7 +16322,7 @@
             "mostrare": true
           },
           {
-            "nome": "Senz'Armatura",
+            "nome": "Senz’Armatura",
             "mostrare": true
           },
           {
@@ -17012,10 +17012,6 @@
             "mostrare": true
           },
           {
-            "nome": "Marchio a Grilletto",
-            "mostrare": true
-          },
-          {
             "nome": "Martello Leggero",
             "mostrare": true
           },
@@ -17077,10 +17073,6 @@
           },
           {
             "nome": "Moschetto a Pietra Focaia",
-            "mostrare": true
-          },
-          {
-            "nome": "Moschetto-Ascia",
             "mostrare": true
           },
           {
@@ -17747,10 +17739,6 @@
           },
           {
             "nome": "Attrazione Gravitazionale",
-            "mostrare": true
-          },
-          {
-            "nome": "Attrazione Magnetica",
             "mostrare": true
           },
           {
@@ -18607,10 +18595,6 @@
           },
           {
             "nome": "Gemello Temporale",
-            "mostrare": true
-          },
-          {
-            "nome": "Gemma Frantumante",
             "mostrare": true
           },
           {
@@ -19674,6 +19658,10 @@
             "mostrare": true
           },
           {
+            "nome": "Repulsione Magnetica",
+            "mostrare": true
+          },
+          {
             "nome": "Resilienza della Montagna",
             "mostrare": true
           },
@@ -19835,10 +19823,6 @@
           },
           {
             "nome": "Runa di Messaggio",
-            "mostrare": true
-          },
-          {
-            "nome": "Sabbia Abrasiva",
             "mostrare": true
           },
           {
@@ -21874,10 +21858,6 @@
             "mostrare": true
           },
           {
-            "nome": "Manifestazione degli Spiriti",
-            "mostrare": true
-          },
-          {
             "nome": "Mantello di Luce",
             "mostrare": true
           },
@@ -22717,10 +22697,6 @@
           },
           {
             "nome": "Attrarre il Fulmine",
-            "mostrare": true
-          },
-          {
-            "nome": "Attrazione Magnetica",
             "mostrare": true
           },
           {
@@ -23569,10 +23545,6 @@
           },
           {
             "nome": "Ruota Entropica",
-            "mostrare": true
-          },
-          {
-            "nome": "Sabbia Abrasiva",
             "mostrare": true
           },
           {
@@ -24958,7 +24930,7 @@
             "mostrare": true
           },
           {
-            "nome": "Rovi Perforanti",
+            "nome": "Rovi Impalanti",
             "mostrare": true
           },
           {
@@ -27898,10 +27870,6 @@
             "mostrare": true
           },
           {
-            "nome": "Attrazione Magnetica",
-            "mostrare": true
-          },
-          {
             "nome": "Aurora di Domani",
             "mostrare": true
           },
@@ -28598,10 +28566,6 @@
             "mostrare": true
           },
           {
-            "nome": "Gemma Frantumante",
-            "mostrare": true
-          },
-          {
             "nome": "Germoglio Verdeggiante",
             "mostrare": true
           },
@@ -28807,10 +28771,6 @@
           },
           {
             "nome": "Manifestazione",
-            "mostrare": true
-          },
-          {
-            "nome": "Manifestazione degli Spiriti",
             "mostrare": true
           },
           {
@@ -29382,6 +29342,10 @@
             "mostrare": true
           },
           {
+            "nome": "Repulsione Magnetica",
+            "mostrare": true
+          },
+          {
             "nome": "Resilienza della Montagna",
             "mostrare": true
           },
@@ -29499,10 +29463,6 @@
           },
           {
             "nome": "Rondo del Ciclone",
-            "mostrare": true
-          },
-          {
-            "nome": "Sabbia Abrasiva",
             "mostrare": true
           },
           {
@@ -31646,6 +31606,10 @@
             "mostrare": false
           },
           {
+            "nome": "Silfo",
+            "mostrare": true
+          },
+          {
             "nome": "Spine malvagie",
             "mostrare": false
           },
@@ -31696,10 +31660,6 @@
           {
             "nome": "Sussurro Persuasivo",
             "mostrare": false
-          },
-          {
-            "nome": "Sylph",
-            "mostrare": true
           },
           {
             "nome": "Talos",
@@ -32021,7 +31981,7 @@
           },
           {
             "nome": "Aggrapparsi alla Vita",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Agguato della Murena",
@@ -32373,7 +32333,7 @@
           },
           {
             "nome": "Ascensione Fatata",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Aspetto Amorfo",
@@ -32613,7 +32573,7 @@
           },
           {
             "nome": "Calma Eldritch",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Calma Empatica",
@@ -32665,7 +32625,7 @@
           },
           {
             "nome": "Cannibalizzare la Magia",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Cannone del Nucleo",
@@ -32817,7 +32777,7 @@
           },
           {
             "nome": "Ci Vediamo all’Inferno",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Cinico",
@@ -32933,7 +32893,7 @@
           },
           {
             "nome": "Come uno Scarafaggio",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Commando delle Trappole",
@@ -33057,7 +33017,7 @@
           },
           {
             "nome": "Conoscenza del Camposanto",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Conoscenza della Comunità",
@@ -33393,7 +33353,7 @@
           },
           {
             "nome": "Derisore Reincarnato",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Destino dei Marinai",
@@ -33509,7 +33469,7 @@
           },
           {
             "nome": "Drenare Emozione",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Due Verità",
@@ -33525,7 +33485,7 @@
           },
           {
             "nome": "Echi Persistenti",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Echi nella Pietra",
@@ -33569,7 +33529,7 @@
           },
           {
             "nome": "Empatia Incarnata",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Empatia Non Morta",
@@ -34197,15 +34157,15 @@
           },
           {
             "nome": "Fratelli dall’Anima Animale",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Fratelli dall’Anima Vegetale",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Fratelli dall’Anima di Pietra",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Freccia Stellare",
@@ -34369,7 +34329,7 @@
           },
           {
             "nome": "Glamour",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Gloria Guadagnata",
@@ -34513,7 +34473,7 @@
           },
           {
             "nome": "Ho Fatto Molti Lavori",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Identità Sbagliata",
@@ -34529,7 +34489,7 @@
           },
           {
             "nome": "Il Dolore è Temporaneo",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Il Sangue Chiama Altro Sangue",
@@ -34597,7 +34557,7 @@
           },
           {
             "nome": "Influenza Fatata",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Inganno dello Specchio",
@@ -34765,7 +34725,7 @@
           },
           {
             "nome": "Liberare la Luce",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Liberarsi",
@@ -35201,7 +35161,7 @@
           },
           {
             "nome": "Mi Sembri Vagamente Familiare",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Mimetico Prudente",
@@ -35801,7 +35761,7 @@
           },
           {
             "nome": "Percepisco la Malevolenza",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Perdita della Coda",
@@ -35837,7 +35797,7 @@
           },
           {
             "nome": "Peso dell’Esperienza",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Pestone Levigante",
@@ -36141,7 +36101,7 @@
           },
           {
             "nome": "Questa Volta Porta il Corpo",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Rabbia dell'Antenato",
@@ -36313,7 +36273,7 @@
           },
           {
             "nome": "Riaddestramento Rapido",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Ricerca del Predatore",
@@ -36417,7 +36377,7 @@
           },
           {
             "nome": "Rinascita Linguistica",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Rinascita Solare",
@@ -36497,7 +36457,7 @@
           },
           {
             "nome": "Risolutezza Infrangibile",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Risolutezza Nobile",
@@ -36613,7 +36573,7 @@
           },
           {
             "nome": "Saggezza da un’Altra Vita",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Saggezza della Nonna",
@@ -37193,7 +37153,7 @@
           },
           {
             "nome": "Sonno dei Rinati",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Sopravvissuto agli Incantesimi",
@@ -37285,7 +37245,7 @@
           },
           {
             "nome": "Spirito Indomabile",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Spirito Senza Età",
@@ -37569,7 +37529,7 @@
           },
           {
             "nome": "Trascendenza Fatata",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Trascendere l'Azimut",
@@ -37880,7 +37840,7 @@
             "mostrare": false
           },
           {
-            "nome": "Vitalità alla Luce del Sole",
+            "nome": "Vitalita alla Luce del Sole",
             "mostrare": false
           },
           {
@@ -37996,23 +37956,11 @@
         "nome": "abilita.json",
         "contenuto": [
           {
-            "nome": "Acclimatazione ai Rami di Smeraldo",
-            "mostrare": true
-          },
-          {
             "nome": "Acrobazie di Squadra",
             "mostrare": true
           },
           {
             "nome": "Acume Forense",
-            "mostrare": true
-          },
-          {
-            "nome": "Acume nel Duello",
-            "mostrare": true
-          },
-          {
-            "nome": "Addestramento Fonetico",
             "mostrare": true
           },
           {
@@ -38032,15 +37980,11 @@
             "mostrare": true
           },
           {
-            "nome": "Aiuto per l'Armatura",
+            "nome": "Aiuto per l’Armatura",
             "mostrare": true
           },
           {
             "nome": "Alleati Silenziosi",
-            "mostrare": true
-          },
-          {
-            "nome": "Analizzare Idioletto",
             "mostrare": true
           },
           {
@@ -38064,10 +38008,6 @@
             "mostrare": true
           },
           {
-            "nome": "Artiglieria Nominale",
-            "mostrare": true
-          },
-          {
             "nome": "Artista Leggendario",
             "mostrare": true
           },
@@ -38076,15 +38016,7 @@
             "mostrare": true
           },
           {
-            "nome": "Assistenza Medica d'Emergenza",
-            "mostrare": true
-          },
-          {
             "nome": "Astuzia di Strada",
-            "mostrare": true
-          },
-          {
-            "nome": "Atterraggio Ammortizzato",
             "mostrare": true
           },
           {
@@ -38092,19 +38024,7 @@
             "mostrare": true
           },
           {
-            "nome": "Autista Espresso",
-            "mostrare": true
-          },
-          {
-            "nome": "Avventuriero Operistico",
-            "mostrare": true
-          },
-          {
             "nome": "Balzo Potente",
-            "mostrare": true
-          },
-          {
-            "nome": "Balzo Rapido",
             "mostrare": true
           },
           {
@@ -38128,23 +38048,11 @@
             "mostrare": true
           },
           {
-            "nome": "Cadre",
-            "mostrare": true
-          },
-          {
             "nome": "Caduta da Gatto",
             "mostrare": true
           },
           {
-            "nome": "Calcolo Diabolico",
-            "mostrare": true
-          },
-          {
             "nome": "Calmo e Centratо",
-            "mostrare": true
-          },
-          {
-            "nome": "Cambio di Faccia",
             "mostrare": true
           },
           {
@@ -38160,10 +38068,6 @@
             "mostrare": true
           },
           {
-            "nome": "Cifra Multilingue",
-            "mostrare": true
-          },
-          {
             "nome": "Coercizione Duratura",
             "mostrare": true
           },
@@ -38176,27 +38080,7 @@
             "mostrare": true
           },
           {
-            "nome": "Collegamenti Fabbricati",
-            "mostrare": true
-          },
-          {
-            "nome": "Comandi Efficienti",
-            "mostrare": true
-          },
-          {
-            "nome": "Comando Insistente",
-            "mostrare": true
-          },
-          {
             "nome": "Come Hai Detto!?",
-            "mostrare": true
-          },
-          {
-            "nome": "Complimento Riluttante",
-            "mostrare": true
-          },
-          {
-            "nome": "Condottiero Leggendario",
             "mostrare": true
           },
           {
@@ -38224,31 +38108,15 @@
             "mostrare": true
           },
           {
-            "nome": "Conoscevo gli Eroi",
-            "mostrare": true
-          },
-          {
-            "nome": "Conosci il Ritmo",
-            "mostrare": true
-          },
-          {
             "nome": "Contrabbandiere Esperto",
             "mostrare": true
           },
           {
-            "nome": "Corridore di Corde",
-            "mostrare": true
-          },
-          {
-            "nome": "Corsa sull'Acqua",
+            "nome": "Corsa sull’Acqua",
             "mostrare": true
           },
           {
             "nome": "Cosa Nascondi nella Manica?",
-            "mostrare": true
-          },
-          {
-            "nome": "Creare Falso",
             "mostrare": true
           },
           {
@@ -38276,10 +38144,6 @@
             "mostrare": true
           },
           {
-            "nome": "Creazione Improvvisata",
-            "mostrare": true
-          },
-          {
             "nome": "Creazione Magica",
             "mostrare": true
           },
@@ -38296,10 +38160,6 @@
             "mostrare": true
           },
           {
-            "nome": "Crossover Cognitivo di Kreighton",
-            "mostrare": true
-          },
-          {
             "nome": "Cuci la Carne",
             "mostrare": true
           },
@@ -38308,31 +38168,11 @@
             "mostrare": true
           },
           {
-            "nome": "Cura Olistica",
-            "mostrare": true
-          },
-          {
             "nome": "Cura Senza Dei",
             "mostrare": true
           },
           {
-            "nome": "Danzatore Solitario",
-            "mostrare": true
-          },
-          {
             "nome": "Decifrare Contenuti",
-            "mostrare": true
-          },
-          {
-            "nome": "Decodificatore di Testi",
-            "mostrare": true
-          },
-          {
-            "nome": "Depistaggio Svolazzante",
-            "mostrare": true
-          },
-          {
-            "nome": "Derapata Potente",
             "mostrare": true
           },
           {
@@ -38356,15 +38196,7 @@
             "mostrare": true
           },
           {
-            "nome": "Discorso dei Signori dei Mammut",
-            "mostrare": true
-          },
-          {
             "nome": "Disperazione di Ravening",
-            "mostrare": true
-          },
-          {
-            "nome": "Distrazione Lusinghiera",
             "mostrare": true
           },
           {
@@ -38377,18 +38209,6 @@
           },
           {
             "nome": "Doppio Linguaggio",
-            "mostrare": true
-          },
-          {
-            "nome": "Elegante Lavoro di Bisturi",
-            "mostrare": true
-          },
-          {
-            "nome": "Emissario di Pace",
-            "mostrare": true
-          },
-          {
-            "nome": "Entrata Forzata",
             "mostrare": true
           },
           {
@@ -38440,10 +38260,6 @@
             "mostrare": true
           },
           {
-            "nome": "Fantasma del Territorio",
-            "mostrare": true
-          },
-          {
             "nome": "Fissaggio Rapido",
             "mostrare": true
           },
@@ -38453,6 +38269,10 @@
           },
           {
             "nome": "Fuga di Fane",
+            "mostrare": true
+          },
+          {
+            "nome": "Furtivita in Armatura",
             "mostrare": true
           },
           {
@@ -38473,10 +38293,6 @@
           },
           {
             "nome": "Furto Subdolo",
-            "mostrare": true
-          },
-          {
-            "nome": "Gioca con la Folla",
             "mostrare": true
           },
           {
@@ -38512,11 +38328,11 @@
             "mostrare": true
           },
           {
-            "nome": "Identificazione Rapida",
+            "nome": "Ideatore",
             "mostrare": true
           },
           {
-            "nome": "Identificazione Scolastica",
+            "nome": "Identificazione Rapida",
             "mostrare": true
           },
           {
@@ -38528,19 +38344,11 @@
             "mostrare": true
           },
           {
-            "nome": "Impegno per l'Uguaglianza",
-            "mostrare": true
-          },
-          {
             "nome": "Impostore",
             "mostrare": true
           },
           {
             "nome": "Impressione di Gruppo",
-            "mostrare": true
-          },
-          {
-            "nome": "In Vista",
             "mostrare": true
           },
           {
@@ -38560,23 +38368,7 @@
             "mostrare": true
           },
           {
-            "nome": "Ingegneria Inversa",
-            "mostrare": true
-          },
-          {
-            "nome": "Ingredienti Freschi",
-            "mostrare": true
-          },
-          {
-            "nome": "Innestare Pietra dell’Eone",
-            "mostrare": true
-          },
-          {
             "nome": "Inoculazione",
-            "mostrare": true
-          },
-          {
-            "nome": "Inventore",
             "mostrare": true
           },
           {
@@ -38604,10 +38396,6 @@
             "mostrare": true
           },
           {
-            "nome": "Lettura dei Segni",
-            "mostrare": true
-          },
-          {
             "nome": "Lingua dei Segni",
             "mostrare": true
           },
@@ -38620,27 +38408,11 @@
             "mostrare": true
           },
           {
-            "nome": "Lucidatura Preternaturale",
-            "mostrare": true
-          },
-          {
-            "nome": "Lusinga Tagliente",
-            "mostrare": true
-          },
-          {
             "nome": "Maestria Acrobatica Aerea",
             "mostrare": true
           },
           {
-            "nome": "Maestro Mercante",
-            "mostrare": true
-          },
-          {
             "nome": "Maestro degli Apprendisti",
-            "mostrare": true
-          },
-          {
-            "nome": "Magia Nascosta",
             "mostrare": true
           },
           {
@@ -38657,18 +38429,6 @@
           },
           {
             "nome": "Marchio d’Ombra",
-            "mostrare": true
-          },
-          {
-            "nome": "Maschera del Sottoposto",
-            "mostrare": true
-          },
-          {
-            "nome": "Mascherata del Crociato",
-            "mostrare": true
-          },
-          {
-            "nome": "Medicina Benedetta",
             "mostrare": true
           },
           {
@@ -38692,10 +38452,6 @@
             "mostrare": true
           },
           {
-            "nome": "Memoria Uzunjati",
-            "mostrare": true
-          },
-          {
             "nome": "Mentire a Me",
             "mostrare": true
           },
@@ -38704,35 +38460,11 @@
             "mostrare": true
           },
           {
-            "nome": "Mimesi Muscolare",
-            "mostrare": true
-          },
-          {
-            "nome": "Montare Rapidamente",
-            "mostrare": true
-          },
-          {
-            "nome": "Mordente Meccanico",
-            "mostrare": true
-          },
-          {
-            "nome": "Mosse Eleganti",
-            "mostrare": true
-          },
-          {
-            "nome": "Movimento Malleabile",
-            "mostrare": true
-          },
-          {
             "nome": "Negoziante di Contratti",
             "mostrare": true
           },
           {
             "nome": "Negoziazione Leggendaria",
-            "mostrare": true
-          },
-          {
-            "nome": "Nemico Conosciuto",
             "mostrare": true
           },
           {
@@ -38756,19 +38488,11 @@
             "mostrare": true
           },
           {
-            "nome": "Occhio dei Signori dell'Arco",
+            "nome": "Occhio dei Signori dell’Arco",
             "mostrare": true
           },
           {
             "nome": "Occhio per i Numeri",
-            "mostrare": true
-          },
-          {
-            "nome": "Officina dei Motori",
-            "mostrare": true
-          },
-          {
-            "nome": "Offuscamento Magistrale",
             "mostrare": true
           },
           {
@@ -38777,10 +38501,6 @@
           },
           {
             "nome": "Osservazione della Fauna",
-            "mostrare": true
-          },
-          {
-            "nome": "Padronanza Ortografica",
             "mostrare": true
           },
           {
@@ -38796,18 +38516,6 @@
             "mostrare": true
           },
           {
-            "nome": "Paura Divina",
-            "mostrare": true
-          },
-          {
-            "nome": "Pelle d’Acciaio",
-            "mostrare": true
-          },
-          {
-            "nome": "Percezione Sociale",
-            "mostrare": true
-          },
-          {
             "nome": "Performance Distrattiva",
             "mostrare": true
           },
@@ -38817,10 +38525,6 @@
           },
           {
             "nome": "Pianificatore di Battaglia",
-            "mostrare": true
-          },
-          {
-            "nome": "Piede Sicuro",
             "mostrare": true
           },
           {
@@ -38845,14 +38549,6 @@
           },
           {
             "nome": "Predatore del Terreno",
-            "mostrare": true
-          },
-          {
-            "nome": "Predatore della Copertura",
-            "mostrare": true
-          },
-          {
-            "nome": "Predisporre l’Insediamento",
             "mostrare": true
           },
           {
@@ -38900,10 +38596,6 @@
             "mostrare": true
           },
           {
-            "nome": "Purista Ilverani",
-            "mostrare": true
-          },
-          {
             "nome": "Push it",
             "mostrare": true
           },
@@ -38924,23 +38616,7 @@
             "mostrare": true
           },
           {
-            "nome": "Raccolta Scattante",
-            "mostrare": true
-          },
-          {
-            "nome": "Racconti Uzunjati",
-            "mostrare": true
-          },
-          {
             "nome": "Radiestesia Popolare",
-            "mostrare": true
-          },
-          {
-            "nome": "Raduna Supporto",
-            "mostrare": true
-          },
-          {
-            "nome": "Rapporti Approfonditi",
             "mostrare": true
           },
           {
@@ -38976,23 +38652,7 @@
             "mostrare": true
           },
           {
-            "nome": "Riconoscere la Minaccia",
-            "mostrare": true
-          },
-          {
-            "nome": "Riconoscimento Diverso",
-            "mostrare": true
-          },
-          {
-            "nome": "Riparazione Rapida",
-            "mostrare": true
-          },
-          {
-            "nome": "Ripercorri Studi",
-            "mostrare": true
-          },
-          {
-            "nome": "Riposo Finale",
+            "nome": "Riparazione veloce",
             "mostrare": true
           },
           {
@@ -39004,15 +38664,7 @@
             "mostrare": true
           },
           {
-            "nome": "Ritualista Ingegnoso",
-            "mostrare": true
-          },
-          {
             "nome": "Rivelare il Nome Reale",
-            "mostrare": true
-          },
-          {
-            "nome": "Saltatore Aggraziato",
             "mostrare": true
           },
           {
@@ -39021,10 +38673,6 @@
           },
           {
             "nome": "Salto dal Muro",
-            "mostrare": true
-          },
-          {
-            "nome": "Salto sul Destriero",
             "mostrare": true
           },
           {
@@ -39052,15 +38700,7 @@
             "mostrare": true
           },
           {
-            "nome": "Scolastici degli Insediamenti",
-            "mostrare": true
-          },
-          {
             "nome": "Scrittura Automatica",
-            "mostrare": true
-          },
-          {
-            "nome": "Scuotiti!",
             "mostrare": true
           },
           {
@@ -39092,19 +38732,11 @@
             "mostrare": true
           },
           {
-            "nome": "Siamo nella Lista",
-            "mostrare": true
-          },
-          {
             "nome": "Sicurezza",
             "mostrare": true
           },
           {
             "nome": "Simbolo del Pellegrino",
-            "mostrare": true
-          },
-          {
-            "nome": "Smontaggio Esperto",
             "mostrare": true
           },
           {
@@ -39116,10 +38748,6 @@
             "mostrare": true
           },
           {
-            "nome": "Sopravvissuto Tenace",
-            "mostrare": true
-          },
-          {
             "nome": "Spaventare a Morte",
             "mostrare": true
           },
@@ -39128,15 +38756,7 @@
             "mostrare": true
           },
           {
-            "nome": "Stealth in Armatura",
-            "mostrare": true
-          },
-          {
             "nome": "Stenografia Magica",
-            "mostrare": true
-          },
-          {
-            "nome": "Stranezze Familiari",
             "mostrare": true
           },
           {
@@ -39160,15 +38780,11 @@
             "mostrare": true
           },
           {
-            "nome": "Svelare Misteri",
-            "mostrare": true
-          },
-          {
             "nome": "Svelare le Macchinazioni",
             "mostrare": true
           },
           {
-            "nome": "Tattiche d'Ambush",
+            "nome": "Tattiche d’imboscata",
             "mostrare": true
           },
           {
@@ -39185,10 +38801,6 @@
           },
           {
             "nome": "Testa di Auroch",
-            "mostrare": true
-          },
-          {
-            "nome": "Trattamento Condizioni",
             "mostrare": true
           },
           {
@@ -39216,11 +38828,7 @@
             "mostrare": true
           },
           {
-            "nome": "Tutto dell'Animale",
-            "mostrare": true
-          },
-          {
-            "nome": "Ululato Orribile",
+            "nome": "Tutto dell’Animale",
             "mostrare": true
           },
           {
@@ -39228,7 +38836,7 @@
             "mostrare": true
           },
           {
-            "nome": "Valutazione dell'Artigiano",
+            "nome": "Valutazione dell’Artigiano",
             "mostrare": true
           },
           {
@@ -39236,39 +38844,7 @@
             "mostrare": true
           },
           {
-            "nome": "Velo Cinereo",
-            "mostrare": true
-          },
-          {
-            "nome": "Verità Soggettiva",
-            "mostrare": true
-          },
-          {
-            "nome": "Veterinario della Megafauna",
-            "mostrare": true
-          },
-          {
             "nome": "Vista dell'Aura",
-            "mostrare": true
-          },
-          {
-            "nome": "Vitalità Nascosta",
-            "mostrare": true
-          },
-          {
-            "nome": "Voce Gelida come la Morte",
-            "mostrare": true
-          },
-          {
-            "nome": "Vorticare Attraverso",
-            "mostrare": true
-          },
-          {
-            "nome": "Voto Socievole",
-            "mostrare": true
-          },
-          {
-            "nome": "È Stato per un Pelo, Eh?",
             "mostrare": true
           }
         ]
