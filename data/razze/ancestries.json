@@ -22,7 +22,7 @@
   },
   {
     "Nome": "Elfo",
-    "DescFisica": "Pur essendo generalmente più alti degli esseri umani, gli elfi possiedono una grazia fragile, accentuata da lineamenti allungati e orecchie appuntite. I loro occhi sono ampi e arrotondati, con pupille grandi e spesso dai colori vivaci che occupano l’intera parte visibile dell’occhio. Queste pupille donano loro un aspetto alieno e permettono una visione nitida anche con pochissima luce. Gli elfi si adattano gradualmente all’ambiente e ai compagni con cui vivono, e spesso assumono tratti fisici che riflettono il loro contesto. Un elfo che ha vissuto per secoli in foreste primordiali, ad esempio, potrebbe avere capelli verdastri e dita nodose, mentre uno che ha abitato nel deserto potrebbe presentare pupille dorate e pelle dello stesso tono. Gli elfi raggiungono la maturità fisica intorno ai 20 anni, ma non sono considerati pienamente maturi dal punto di vista emotivo dagli altri elfi fino a quando non si avvicinano al compimento del primo secolo di vita. Un elfo tipico può vivere fino a circa 600 anni.",
+    "DescFisica": "Pur essendo generalmente più alti degli esseri umani, gli elfi possiedono una grazia fragile, accentuata da lineamenti allungati e orecchie appuntite. I loro occhi sono ampi e arrotondati, con pupille grandi e spesso dai colori vivaci che occupano l’intera parte visibile dell’occhio. Queste pupille donano loro un aspetto alieno e permettono una visione nitida anche con pochissima luce. Gli elfi si adattano gradualmente all’ambiente e ai compagni con cui vivono, e spesso assumono tratti fisici che riflettono il loro contesto. Un elfo che ha vissuto per secoli in foreste primordiali, ad esempio, potrebbe avere capelli verdastri e dita nodose, mentre uno che ha abitato nel deserto potrebbe presentare pupille dorate e pelle dello stesso tono. Gli elfi raggiungono la maturità fisica intorno ai 20 anni, ma non sono considerati pienamente maturi dal punto di vista Emozione dagli altri elfi fino a quando non si avvicinano al compimento del primo secolo di vita. Un elfo tipico può vivere fino a circa 600 anni.",
     "Desc": "Gli elfi sono un popolo alto e longevo, con una forte tradizione legata all’arte e alla magia.",
     "HP": "6",
     "Taglia": "Media",
@@ -317,7 +317,7 @@
   "Lingua": "Comune@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Elfico, Gnomo, Goblin, Halfling, Nano, Silvano e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
   "Abilita": [
     "++Visione Crepuscolare++@Puoi vedere nella luce fioca come se fosse luce intensa, ignorando la condizione di nascosto dovuta alla luce fioca.",
-    "++Cambia Forma++@Come kitsune, ottieni l'abilità Cambia Forma.@###{\"nome\": \"Cambia Forma\", \"tipoAzz\": \"azione\", \"tratti\": [\"Divino\", \"Kitsune\", \"Polimorfismo\", \"Trasmutazione\"], \"dettagli\": {}, \"desc\": \"Ti trasformi in una forma alternativa specifica determinata dalla tua eredità. Se la tua eredità non elenca una forma, la tua forma alternativa è la forma senza coda, che è una discendenza umanoide comune di taglia Media diffusa dove sei cresciuto (tipicamente umano). Questa forma ha la stessa età e tipo di corpo della tua vera forma e possiede tratti fisici analoghi, come il colore dei capelli. Usare Cambia Forma conta come creare un travestimento per l'uso di Inganno. Perdi eventuali Colpi a mani nude ottenuti da un talento di eredità kitsune o ancestrale in questa forma. Puoi rimanere indefinitamente nella forma alternativa e puoi tornare alla tua vera forma kitsune usando nuovamente questa azione.\"}###"
+    "++Cambia Forma++@Come kitsune, ottieni l'abilità Cambia Forma.@###{\"nome\": \"Cambia Forma\", \"tipoAzz\": \"azione\", \"tratti\": [\"Divino\", \"Kitsune\", \"Metamorfico\", \"Trasmutazione\"], \"dettagli\": {}, \"desc\": \"Ti trasformi in una forma alternativa specifica determinata dalla tua eredità. Se la tua eredità non elenca una forma, la tua forma alternativa è la forma senza coda, che è una discendenza umanoide comune di taglia Media diffusa dove sei cresciuto (tipicamente umano). Questa forma ha la stessa età e tipo di corpo della tua vera forma e possiede tratti fisici analoghi, come il colore dei capelli. Usare Cambia Forma conta come creare un travestimento per l'uso di Inganno. Perdi eventuali Colpi a mani nude ottenuti da un talento di eredità kitsune o ancestrale in questa forma. Puoi rimanere indefinitamente nella forma alternativa e puoi tornare alla tua vera forma kitsune usando nuovamente questa azione.\"}###"
   ],
   "Mostrare": true
 },
@@ -484,7 +484,7 @@
   "Tratti": ["Non comune", "Umanoide", "Tanuki"],
   "Lingua": "Comune@Tanuki@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo).@Scegli tra Elfico, Fey, Gnomo, Goblin, Kitsune, Tengu o qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
   "Abilita": [
-    "++Cambia Forma++###{\"nome\": \"Cambia Forma\", \"tipoAzz\": \"azione\", \"tratti\": [\"concentrazione\", \"polimorfismo\", \"primordiale\", \"tanuki\"], \"dettagli\": {\"Descrizione aggiuntiva\": \"Puoi trasformarti in un cane procione comune, usando le statistiche della forma di parassita. Questa forma ha la stessa età e tipo di corpo della tua forma vera e tratti fisici simili, come il colore del pelo. Usare Cambia Forma conta come creare un travestimento per l'uso di Imita tramite Inganno. Perdi eventuali colpi disarmati ottenuti da un talento di ascendenza tanuki. Puoi rimanere in questa forma indefinitamente e tornare alla forma tanuki usando di nuovo questa azione.\"}, \"desc\": \"Ti trasformi in un cane procione comune, assumendo statistiche e tratti simili alla tua forma originale. Puoi usare questa forma indefinitamente e tornare alla forma tanuki con la stessa azione.\"}###"
+    "++Cambia Forma++###{\"nome\": \"Cambia Forma\", \"tipoAzz\": \"azione\", \"tratti\": [\"concentrazione\", \"Metamorfico\", \"primordiale\", \"tanuki\"], \"dettagli\": {\"Descrizione aggiuntiva\": \"Puoi trasformarti in un cane procione comune, usando le statistiche della forma di parassita. Questa forma ha la stessa età e tipo di corpo della tua forma vera e tratti fisici simili, come il colore del pelo. Usare Cambia Forma conta come creare un travestimento per l'uso di Imita tramite Inganno. Perdi eventuali colpi disarmati ottenuti da un talento di ascendenza tanuki. Puoi rimanere in questa forma indefinitamente e tornare alla forma tanuki usando di nuovo questa azione.\"}, \"desc\": \"Ti trasformi in un cane procione comune, assumendo statistiche e tratti simili alla tua forma originale. Puoi usare questa forma indefinitamente e tornare alla forma tanuki con la stessa azione.\"}###"
   ],
   "Mostrare": true
 },
@@ -645,7 +645,7 @@
     "Libero"
   ],
   "Difetto": "Intelligenza",
-  "Tratti": ["Raro", "Animale", "Risvegliato"],
+  "Tratti": ["Raro", "Animale Risvegliato"],
   "Lingua": "Comune@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra le lingue comuni e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
   "Abilita": [
     "++Forma Risvegliata++@Il risveglio ha modificato la tua forma, permettendoti di parlare e stare su due gambe. Puoi indossare, impugnare, usare e manipolare oggetti. Quali arti usi per manipolare e quanti dipendono da te e dal GM, ma per le regole funziona come un umanoide con due mani.",
@@ -769,7 +769,7 @@
   "Tratti": ["Raro", "Umanoide"],
   "Lingua": "Comune@Kashrishi@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Aquan, Celestiale, Draconico, Fatato, Terran e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
   "Abilita": [
-    "++Senso Empatico++@I Kashrishi possono percepire lo stato emotivo attuale degli altri entro 4,5m. Questo si manifesta come una sensazione generale di felicità, rabbia o paura, senza dettagli specifici. Per coloro con cui hanno un legame emotivo, il contatto fisico può intensificare questa percezione, aumentando il livello di dettaglio e comprensione in base alla forza del legame. Funziona anche come senso impreciso che segnala la presenza, ma non la posizione precisa, di creature non prive di mente nell'area. Ottieni un bonus di circostanza +2 ai tiri di Percezione per Intuire le Motivazioni contro creature non prive di mente entro l'area del tuo senso empatico.",
+    "++Senso Empatico++@I Kashrishi possono percepire lo stato Emozione attuale degli altri entro 4,5m. Questo si manifesta come una sensazione generale di felicità, rabbia o paura, senza dettagli specifici. Per coloro con cui hanno un legame Emozione, il contatto fisico può intensificare questa percezione, aumentando il livello di dettaglio e comprensione in base alla forza del legame. Funziona anche come senso impreciso che segnala la presenza, ma non la posizione precisa, di creature non prive di mente nell'area. Ottieni un bonus di circostanza +2 ai tiri di Percezione per Intuire le Motivazioni contro creature non prive di mente entro l'area del tuo senso empatico.",
     "++Corna Luminose++@La tua corna reagisce all'energia psichica illuminandosi dolcemente. La corna emana luce fioca in un raggio di 3m fino all'inizio del tuo prossimo turno ogni volta che usi un'azione occulta ottenuta da un talento di ascendenza, lanci un incantesimo innato occulti o un incantesimo con tratto mentale."
   ],
   "Mostrare": true
@@ -870,10 +870,10 @@
     "Libero"
   ],
   "Difetto": "Intelligenza",
-  "Tratti": ["Raro", "Non-morto"],
+  "Tratti": ["Raro", "Non morto"],
   "Lingua": "Comune@Necril@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Aklo, Nani, Elfi, Infernale, Orchi, Sottocomune e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
   "Abilita": [
-    "++Non-morte++@Hai i benefici base dei non-morti. Per la tua fame da non-morto, non mangi carne come i ghoul né bevi sangue come i vampiri, ma raccogli ossa che puoi usare per aiutarti a riparare te stesso."
+    "++Non-morte++@Hai i benefici base dei non-morti. Per la tua fame da Non morto, non mangi carne come i ghoul né bevi sangue come i vampiri, ma raccogli ossa che puoi usare per aiutarti a riparare te stesso."
   ],
   "Mostrare": true
 },
@@ -910,7 +910,7 @@
     "Libero"
   ],
   "Difetto": "nessuno",
-  "Tratti": ["Raro", "Umanoide", "Aviano"],
+  "Tratti": ["Raro", "Umanoide", "Strix"],
   "Lingua": "Comune@Strix@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Draconico, Jotun, Gnomo, Infernale e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
   "Abilita": [
     "++Visione Crepuscolare++@Puoi vedere in luce fioca come se fosse luce piena, quindi ignori la condizione nascosto dovuta alla luce fioca.",
@@ -930,7 +930,7 @@
     "Libero"
   ],
   "Difetto": "nessuno",
-  "Tratti": ["Raro", "Umanoide", "Insettiforme"],
+  "Tratti": ["Raro", "Umanoide", "Surki"],
   "Lingua": "Comune@Surki@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Elfico, Fey, Sakvroth e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
   "Abilita": [
     "++Visione Crepuscolare++@Puoi vedere al buio e in luce fioca come se fosse piena luce, anche se la tua visione al buio è in bianco e nero.",
@@ -950,12 +950,11 @@
     "Libero"
   ],
   "Difetto": "nessuno",
-  "Tratti": ["Raro", "Umanoide", "Ofidico"],
+  "Tratti": ["Raro", "Umanoide", "Vishkanya"],
   "Lingua": "Comune@Vishkanya@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Aklo, Aquan, Draconico, Elfico, Goblin, Sottocomune, Vanaran e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
   "Abilita": [
     "++Visione Crepuscolare++@Puoi vedere in luce fioca come se fosse piena luce e ignori la condizione nascosto dovuta alla luce fioca.",
-    "++Veleno Innato++@Il tuo sangue trasporta tossine letali per tutti tranne che per te. Ottieni l'azione Envenom, che può applicare un veleno vishkanya minore. La CD per il tuo veleno è pari alla più alta tra la CD della tua classe o la CD degli incantesimi.",
-    "Envenom###{\"nome\": \"++Envenom++\", \"tipoAzz\": \"azione\", \"tratti\": [\"Vishkanya\"], \"dettagli\": {\"Frequenza\": \"una volta al giorno\"}, \"desc\": \"Attraverso l'uso di saliva o sangue, usi le tue tossine innate per applicare veleno vishkanya alla tua arma o a un munizionamento. Per usare il tuo sangue, devi essere ferito o puoi infliggerti 1 danno tagliente come parte dell'azione. Il veleno vishkanya rimane potente fino alla fine del tuo prossimo turno, o finché non lo utilizzi come normale veleno da ferita colpendo un bersaglio o fallendo critico un tiro per attacco.@Veleno vishkanya minore (ferita, veleno) Tiro Salvezza Tempra; Durata Massima 6 round; Fase 1 1d4 danno da veleno (1 round); Fase 2 1d4 danno da veleno (1 round); Fase 3 1d4 danno da veleno (1 round)\"}###"
+    "++Veleno Innato++@Il tuo sangue trasporta tossine letali per tutti tranne che per te. Ottieni l'azione Envenom, che può applicare un veleno vishkanya minore. La CD per il tuo veleno è pari alla più alta tra la CD della tua classe o la CD degli incantesimi.@###{\"nome\": \"Envenom\", \"tipoAzz\": \"azione\", \"tratti\": [\"Vishkanya\"], \"dettagli\": {\"Frequenza\": \"una volta al giorno\"}, \"desc\": \"Attraverso l'uso di saliva o sangue, usi le tue tossine innate per applicare veleno vishkanya alla tua arma o a un munizione. Per usare il tuo sangue, devi essere ferito o puoi infliggerti 1 danno tagliente come parte dell'azione. Il veleno vishkanya rimane potente fino alla fine del tuo prossimo turno, o finché non lo utilizzi come normale veleno da ferita colpendo un bersaglio o fallendo critico un tiro per attacco.@Veleno vishkanya minore (ferita, veleno) Tiro Salvezza Tempra; Durata Massima 6 round; Fase 1 1d4 danno da veleno (1 round); Fase 2 1d4 danno da veleno (1 round); Fase 3 1d4 danno da veleno (1 round)\"}###"
   ],
   "Mostrare": true
 },
@@ -995,7 +994,7 @@
   "Tratti": ["Raro", "Umanoide", "Yaoguai"],
   "Lingua": "Comune@Lingue aggiuntive pari al tuo modificatore di Intelligenza (se positivo). Scegli tra Aklo, Draconico, Elfico, Fey, Kitsune, Nagaji, Sakvroth, Tengu, Ysoki e qualsiasi altra lingua a cui hai accesso (come le lingue diffuse nella tua regione).",
   "Abilita": [
-    "++Cambia Forma++###{\"nome\": \"Cambia Forma\", \"tipoAzz\": \"azione\", \"tratti\": [\"concentrazione\", \"occulto\", \"polimorfismo\", \"yaoguai\"], \"dettagli\": {\"Descrizione Azione\": \"Puoi trasformarti dalla tua vera forma yaoguai a una forma umanoide alternativa, che è una comune discendenza umanoide Media prevalente nel luogo in cui sei nato (tipicamente umano). Questa forma ha la stessa età apparente e tipo di corpo della tua forma yaoguai e tratti fisici grosso modo analoghi, come il colore dei capelli. Usare Cambia Forma conta come creare un travestimento per l'uso di Inganno su Impersonare. Puoi rimanere nella forma umanoide indefinitamente, ma torni alla forma yaoguai dopo 1 ora di incoscienza o 1 minuto dopo la morte.\"}, \"desc\": \"Trasformazione dalla forma yaoguai alla forma umanoide e viceversa, mantenendo caratteristiche fisiche e tratti analoghi.\"}###"
+    "++Cambia Forma++###{\"nome\": \"Cambia Forma\", \"tipoAzz\": \"azione\", \"tratti\": [\"concentrazione\", \"occulto\", \"Metamorfico\", \"yaoguai\"], \"dettagli\": {\"Descrizione Azione\": \"Puoi trasformarti dalla tua vera forma yaoguai a una forma umanoide alternativa, che è una comune discendenza umanoide Media prevalente nel luogo in cui sei nato (tipicamente umano). Questa forma ha la stessa età apparente e tipo di corpo della tua forma yaoguai e tratti fisici grosso modo analoghi, come il colore dei capelli. Usare Cambia Forma conta come creare un travestimento per l'uso di Inganno su Impersonare. Puoi rimanere nella forma umanoide indefinitamente, ma torni alla forma yaoguai dopo 1 ora di incoscienza o 1 minuto dopo la morte.\"}, \"desc\": \"Trasformazione dalla forma yaoguai alla forma umanoide e viceversa, mantenendo caratteristiche fisiche e tratti analoghi.\"}###"
   ],
   "Mostrare": true
 }
