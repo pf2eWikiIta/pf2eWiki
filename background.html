@@ -51,15 +51,16 @@
     <script type="module">
         import * as common from './common.js';
         await common.init();
-        const htmlSidebar = common.creaSidebar();
-        const isMobile = window.matchMedia('(max-width: 767.98px)').matches;
-        if (isMobile) {
-        // Gestione sidebar mobile
-        common.render(document.getElementById("sidebar-mobile"),htmlSidebar);
-        } else {
-        // Gestione sidebar desktop
-        common.render(document.getElementById("sidebar-desktop"),htmlSidebar);
-        }
+        const isMobile = window.matchMedia('(max-width: 992px)').matches;
+
+        fetch("sidebar.html")
+        .then(response => response.text())
+        .then(data => {
+        if (isMobile)
+            common.render(document.getElementById("sidebar-mobile"), data);
+        else
+            common.render(document.getElementById("sidebar-desktop"),data);
+        });
         
         common.aprireSidebar("backgroundLista");
 
