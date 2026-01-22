@@ -2,7 +2,7 @@
   {
     "Nome": "Nano dal Sangue Antico",
     "Razza": "nano",
-    "Desc": "Gli eroi nani del passato riuscivano a resistere alla magia dei nemici, e parte di quella resistenza si manifesta in te. Ottieni la reazione Richiamo al Sangue Antico. ###{\"nome\": \"Richiamo al Sangue Antico\", \"tipoAzz\": \"reazione\", \"tratti\": [\"Invacazione\", \"Primitivo\"], \"dettagli\": {\"Trigger\": \"Stai per effettuare un tiro salvezza contro un effetto magico, ma non hai ancora tirato.\"}, \"desc\": \"Il potere innato dei tuoi antenati contro la magia affiora in te, prima di svanire lentamente. Ottieni un bonus di circostanza di +1 fino alla fine di questo turno. Questo bonus si applica anche al tiro salvezza che ha attivato la reazione.\"}###",
+    "Desc": "Gli eroi nani del passato riuscivano a resistere alla magia dei nemici, e parte di quella resistenza si manifesta in te. Ottieni la reazione Richiamo al Sangue Antico. ###{\"nome\": \"Richiamo al Sangue Antico\", \"tipoAzz\": \"reazione\", \"tratti\": [], \"dettagli\": {\"Trigger\": \"Stai per effettuare un tiro salvezza contro un effetto magico, ma non hai ancora tirato.\"}, \"desc\": \"Il potere innato dei tuoi antenati contro la magia affiora in te, prima di svanire lentamente. Ottieni un bonus di circostanza di +1 fino alla fine di questo turno. Questo bonus si applica anche al tiro salvezza che ha attivato la reazione.\"}###",
     "Mostrare": false
   },
   {
@@ -20,7 +20,7 @@
   {
     "Nome": "Nano dal Cuore Elementale",
     "Razza": "nano",
-    "Desc": "Sia per una connessione con la forgia di Torag, con gli azer del Piano del Fuoco, o con qualche altra fonte, puoi emanare un'esplosione di energia. I nani Mbe’ke e Taralu dell’Espanso Mwangi credono che questo dono provenga da draghi o spiriti elementali. Scegli uno dei seguenti tipi di danno: acido, freddo, elettricità o fuoco (non può essere cambiato dopo la scelta). Ottieni l’attività Emanazione Energetica.###{ \"nome\": \"Emanazione Energetica\", \"tipoAzz\": \"dueAzioni\", \"tratti\": [\"Evocazione\", \"Primitiva\"], \"dettagli\": { \"Frequenza\": \"Una volta al giorno\" }, \"desc\": \"L’energia esplode dal tuo corpo. Infliggi 1d6 danni del tipo scelto a tutte le creature adiacenti (Riflessi base, CD pari alla tua CD di classe o CD degli incantesimi, quella più alta). A partire dal 3° livello, e ogni 2 livelli successivi, i danni aumentano di 1d6.\" }###",
+    "Desc": "Sia per una connessione con la forgia di Torag, con gli azer del Piano del Fuoco, o con qualche altra fonte, puoi emanare un'esplosione di energia. I nani Mbe’ke e Taralu dell’Espanso Mwangi credono che questo dono provenga da draghi o spiriti elementali. Scegli uno dei seguenti tipi di danno: acido, freddo, elettricità o fuoco (non può essere cambiato dopo la scelta). Ottieni l’attività Emanazione Energetica.###{ \"nome\": \"Emanazione Energetica\", \"tipoAzz\": \"dueAzioni\", \"tratti\": [\"Evocazione\", \"Primordiale\"], \"dettagli\": { \"Frequenza\": \"Una volta al giorno\" }, \"desc\": \"L’energia esplode dal tuo corpo. Infliggi 1d6 danni del tipo scelto a tutte le creature adiacenti (Riflessi base, CD pari alla tua CD di classe o CD degli incantesimi, quella più alta). A partire dal 3° livello, e ogni 2 livelli successivi, i danni aumentano di 1d6.\" }###",
     "Mostrare": false
   },
   {
@@ -104,13 +104,13 @@
 {
     "Nome": "Tanuki coraggioso",
     "Razza": "tanuki",
-    "Desc": "Il tuo cuore batte con il coraggio di coloro che ti hanno preceduto, donandoti una bravura che solo un tanuki può dimostrare. Ogni volta che ottieni la condizione di fuga, ottieni anche un bonus di circostanza di +3 metri alle tue Velocità che dura finché stai fuggendo. Quando hai la condizione di fuga, invece di dover spendere tutte le tue azioni tentando di scappare, puoi agire normalmente per un'azione ma devi comunque spendere il resto delle tue azioni fuggendo. Ottieni anche l'abilità ++Ritirata tattica++.@###{\"nome\": \"Ritirata tattica\", \"tipoAzz\": \"reazione\", \"tratti\": [\"Emotivo\", \"Paura\", \"Mentale\", \"Tanuki\"], \"dettagli\": {\"Frequenza\": \"Una volta all'ora\", \"Trigger\": \"Ottieni la condizione di spaventato\"}, \"desc\": \"Realizzando che la discrezione è la parte migliore del valore, scegli di mettere distanza tra te e una minaccia. Ottieni la condizione di fuga fino all'inizio del tuo prossimo turno e muovi Stride.\"}###",
+    "Desc": "Il tuo cuore batte con il coraggio di coloro che ti hanno preceduto, donandoti una bravura che solo un tanuki può dimostrare. Ogni volta che ottieni la condizione di fuga, ottieni anche un bonus di circostanza di +3 metri alle tue Velocità che dura finché stai fuggendo. Quando hai la condizione di fuga, invece di dover spendere tutte le tue azioni tentando di scappare, puoi agire normalmente per un'azione ma devi comunque spendere il resto delle tue azioni fuggendo. Ottieni anche l'abilità ++Ritirata tattica++.@###{\"nome\": \"Ritirata tattica\", \"tipoAzz\": \"reazione\", \"tratti\": [\"Emozione\", \"Paura\", \"Mentale\", \"Tanuki\"], \"dettagli\": {\"Frequenza\": \"Una volta all'ora\", \"Trigger\": \"Ottieni la condizione di spaventato\"}, \"desc\": \"Realizzando che la discrezione è la parte migliore del valore, scegli di mettere distanza tra te e una minaccia. Ottieni la condizione di fuga fino all'inizio del tuo prossimo turno e muovi Stride.\"}###",
     "Mostrare": false
 },
 {
     "Nome": "Tanuki calmo",
     "Razza": "tanuki",
-    "Desc": "Possiedi una serenità rara tra gli altri tanuki, che sembrano sempre perdere la calma. Ottieni un +1 bonus di circostanza ai tiri salvezza contro effetti emotivi. Se ottieni un successo a un tiro salvezza contro un effetto emotivo, ottieni un successo critico invece; se ottieni un fallimento, ottieni un fallimento critico.",
+    "Desc": "Possiedi una serenità rara tra gli altri tanuki, che sembrano sempre perdere la calma. Ottieni un +1 bonus di circostanza ai tiri salvezza contro effetti emotivi. Se ottieni un successo a un tiro salvezza contro un effetto Emozione, ottieni un successo critico invece; se ottieni un fallimento, ottieni un fallimento critico.",
     "Mostrare": false
 },
 {
@@ -236,13 +236,13 @@
 {
     "Nome": "Vishkanya vecchio-sangue",
     "Razza": "vishkanya",
-    "Desc": "Hai una linea matrilineare diretta con il gruppo originale di vishkanya sulle navi Vudrani che vennero a reclamare Jalmeray. Da allora, la tua famiglia si è adattata bene a una nuova vita nel Mare Interno. Diventi addestrato in Società (o un'altra abilità a tua scelta se sei già addestrato in Società) e ottieni a scelta il talento ++Courtly Graces++ o ++Streetwise++.",
+    "Desc": "Hai una linea matrilineare diretta con il gruppo originale di vishkanya sulle navi Vudrani che vennero a reclamare Jalmeray. Da allora, la tua famiglia si è adattata bene a una nuova vita nel Mare Interno. Diventi addestrato in Società (o un'altra abilità a tua scelta se sei già addestrato in Società) e ottieni a scelta il talento (Grazie di Corte)[Grazie di Corte] o (Astuzia di Strada)[Astuzia di Strada].",
     "Mostrare": false
 },
 {
     "Nome": "Vishkanya prismatico",
     "Razza": "vishkanya",
-    "Desc": "Le tue scaglie scintillano e catturano la luce in un display di colori inebriante. Diventi addestrato in Performance (o un'altra abilità a tua scelta se sei già addestrato in Performance) e ottieni il talento ++Fascinating Performance++.",
+    "Desc": "Le tue scaglie scintillano e catturano la luce in un display di colori inebriante. Diventi addestrato in Performance (o un'altra abilità a tua scelta se sei già addestrato in Performance) e ottieni il talento (Esibizione affascinante)[Esibizione affascinante].",
     "Mostrare": false
 },
 {
@@ -272,7 +272,7 @@
 {
     "Nome": "Surki guscio-duro",
     "Razza": "surki",
-    "Desc": "Il tuo carapace è molto più denso di quello degli altri surki, fornendoti un'armatura personale. Il tuo carapace è un'armatura media nel gruppo armatura a piastre che concede +4 bonus oggetto alla CA, un limite di Destrezza di +1, penalità ai tiri di abilità di –2, penalità alla velocità di –1.5m, un valore di Forza di +3 e possiede il tratto comfort. Non puoi indossare altre armature o rimuovere il carapace. Puoi incidere rune di armatura sul tuo carapace.###{\"nome\": \"Evoluzione: carapace rinforzato\", \"tipoAzz\": \"reazione\", \"tratti\": [\"magical\"], \"dettagli\": {}, \"desc\": \"Il sistema circolatorio magico tra i tuoi nodi diventa una rete rinforzante che rafforza il carapace con energia magica. Se sei colpito da un colpo critico che infligge danni fisici, puoi usare la tua reazione per tentare un tiro piatto DC 17. Se riesci, l'attacco diventa un colpo normale.\"}###Evolution I nodi addominali possono proiettare un campo che ti protegge dal tipo di magia a cui sei più abituato. Ottieni l'azione ++Dampening Harmonics++.",
+    "Desc": "Il tuo carapace è molto più denso di quello degli altri surki, fornendoti un'armatura personale. Il tuo carapace è un'armatura media nel gruppo armatura a piastre che concede +4 bonus oggetto alla CA, un limite di Destrezza di +1, penalità ai tiri di abilità di –2, penalità alla velocità di –1.5m, un valore di Forza di +3 e possiede il tratto comfort. Non puoi indossare altre armature o rimuovere il carapace. Puoi incidere rune di armatura sul tuo carapace.###{\"nome\": \"Evoluzione: carapace rinforzato\", \"tipoAzz\": \"reazione\", \"tratti\": [\"Magico\"], \"dettagli\": {}, \"desc\": \"Il sistema circolatorio magico tra i tuoi nodi diventa una rete rinforzante che rafforza il carapace con energia magica. Se sei colpito da un colpo critico che infligge danni fisici, puoi usare la tua reazione per tentare un tiro piatto DC 17. Se riesci, l'attacco diventa un colpo normale.\"}###Evolution I nodi addominali possono proiettare un campo che ti protegge dal tipo di magia a cui sei più abituato. Ottieni l'azione ++Dampening Harmonics++.",
     "Mostrare": false
 },
 {
@@ -314,7 +314,7 @@
 {
     "Nome": "Dijiang",
     "Razza": "sprite",
-    "Desc": "Hai la forma di una palla senza volto, di pelle coriacea, con peluria corta, sei zampe e una connessione con il caos primordiale. Pur non avendo volto, testa, bocca, occhi o orecchie, riesci comunque a sentire, parlare, vedere, mangiare e respirare senza problemi (anche se non è chiaro esattamente come). La tua natura erratica significa che reagisci spesso agli stimoli in modi imprevedibili. Quando fallisci un tiro salvezza contro un effetto emotivo (ma non critico), ottieni invece un successo.",
+    "Desc": "Hai la forma di una palla senza volto, di pelle coriacea, con peluria corta, sei zampe e una connessione con il caos primordiale. Pur non avendo volto, testa, bocca, occhi o orecchie, riesci comunque a sentire, parlare, vedere, mangiare e respirare senza problemi (anche se non è chiaro esattamente come). La tua natura erratica significa che reagisci spesso agli stimoli in modi imprevedibili. Quando fallisci un tiro salvezza contro un effetto Emozione (ma non critico), ottieni invece un successo.",
     "Mostrare": false
 },
 {
@@ -386,7 +386,7 @@
 {
     "Nome": "Scheletro cambiabile",
     "Razza": "scheletro",
-    "Desc": "Costruito con le ossa di varie creature mutaforma, lo scheletro mutante mantiene una certa capacità di riconfigurazione, permettendogli di cambiare forma. Ottieni l'azione ++Rearrange Bones++###{\"nome\": \"Rearrange Bones\", \"tipoAzz\": \"azione\", \"tratti\": [\"manipulate\"], \"dettagli\": {}, \"desc\": \"Disponi le tue ossa nella forma dello scheletro di un umanoide Piccolo o Medio. Questo non cambia le tue Velocità, Attacchi o sensi normali. Se indossi abiti pesanti o stai impersonando uno scheletro, questo conta come predisposizione di un travestimento per l'uso di Impersonare con Inganno e concede un bonus di stato di +1 a quei tiri di Inganno.\"}###",
+    "Desc": "Costruito con le ossa di varie creature mutaforma, lo scheletro mutante mantiene una certa capacità di riconfigurazione, permettendogli di cambiare forma. Ottieni l'azione ++Rearrange Bones++###{\"nome\": \"Rearrange Bones\", \"tipoAzz\": \"azione\", \"tratti\": [\"Manipolare\"], \"dettagli\": {}, \"desc\": \"Disponi le tue ossa nella forma dello scheletro di un umanoide Piccolo o Medio. Questo non cambia le tue Velocità, Attacchi o sensi normali. Se indossi abiti pesanti o stai impersonando uno scheletro, questo conta come predisposizione di un travestimento per l'uso di Impersonare con Inganno e concede un bonus di stato di +1 a quei tiri di Inganno.\"}###",
     "Mostrare": false
 },
 {
@@ -650,7 +650,7 @@
 {
     "Nome": "Fleshwarp tecnologico",
     "Razza": "fleshwarp",
-    "Desc": "La tua trasformazione è dovuta alla manipolazione da parte di tecnologia avanzata, come quella presente in Numeria. Le tue emozioni sono smorzate e difficili da influenzare. Quando ottieni un successo in un tiro salvezza contro un effetto emotivo, ottieni un successo critico.",
+    "Desc": "La tua trasformazione è dovuta alla manipolazione da parte di tecnologia avanzata, come quella presente in Numeria. Le tue emozioni sono smorzate e difficili da influenzare. Quando ottieni un successo in un tiro salvezza contro un effetto Emozione, ottieni un successo critico.",
     "Mostrare": false
 },
 {
@@ -662,7 +662,7 @@
 {
     "Nome": "Rito di conoscenza",
     "Razza": "conrasu",
-    "Desc": "Hai potenziato il tuo esoscheletro con una connessione a Axis, permettendoti di attingere alla conoscenza infinita del piano. Ottieni l'azione Call to Axis.###{\"nome\": \"Call to Axis\", \"tipoAzz\": \"azioneGratis\", \"tratti\": [\"Fortune\"], \"dettagli\": {\"Frequenza\": \"una volta al giorno\", \"Requisiti\": \"Stai per effettuare un tiro per Recall Knowledge\"}, \"desc\": \"Invocate la conoscenza di Axis per garantire l'accuratezza delle informazioni. Tiri un secondo dado e utilizzi il risultato più alto. Se tiri un fallimento critico, ottieni un fallimento normale. Se ottieni un successo, ottieni un successo critico.\"}###",
+    "Desc": "Hai potenziato il tuo esoscheletro con una connessione a Axis, permettendoti di attingere alla conoscenza infinita del piano. Ottieni l'azione Call to Axis.###{\"nome\": \"Call to Axis\", \"tipoAzz\": \"azioneGratis\", \"tratti\": [\"Fortuna\"], \"dettagli\": {\"Frequenza\": \"una volta al giorno\", \"Requisiti\": \"Stai per effettuare un tiro per Recall Knowledge\"}, \"desc\": \"Invocate la conoscenza di Axis per garantire l'accuratezza delle informazioni. Tiri un secondo dado e utilizzi il risultato più alto. Se tiri un fallimento critico, ottieni un fallimento normale. Se ottieni un successo, ottieni un successo critico.\"}###",
     "Mostrare": false
 },
 {
@@ -812,7 +812,7 @@
 {
     "Nome": "Ombra del frabbro",
     "Razza": "wayang",
-    "Desc": "La tua ombra è densa e liquida, come se potesse spegnere il metallo più pregiato. Ottieni l'azione ++Inscribe Shadow Pamor++###{\"nome\": \"Inscribe Shadow Pamor\", \"tipoAzz\": \"azione\", \"tratti\": [\"occult\", \"shadow\"], \"dettagli\": {\"Frequenza\": \"una volta al minuto\"}, \"desc\": \"Immergi il tuo pugno o arma nella tua ombra, avvolgendola in un motivo ondulato simile a damasco di oscurità. Se la tua prossima azione è un Attacco, le ombre si attaccano al tuo nemico con il tuo attacco, oscurandone la visione. In caso di successo, il bersaglio del tuo Attacco diventa abbagliato fino all'inizio del tuo prossimo turno. Il bersaglio può usare un'azione Interagisci per strappare le ombre aderenti e rimuovere la condizione di abbagliamento. In caso di colpo critico, le ombre sono particolarmente ostinate e non possono essere strappate via.\"}###",
+    "Desc": "La tua ombra è densa e liquida, come se potesse spegnere il metallo più pregiato. Ottieni l'azione ++Inscribe Shadow Pamor++###{\"nome\": \"Inscribe Shadow Pamor\", \"tipoAzz\": \"azione\", \"tratti\": [\"Occulto\", \"Ombra\"], \"dettagli\": {\"Frequenza\": \"una volta al minuto\"}, \"desc\": \"Immergi il tuo pugno o arma nella tua ombra, avvolgendola in un motivo ondulato simile a damasco di oscurità. Se la tua prossima azione è un Attacco, le ombre si attaccano al tuo nemico con il tuo attacco, oscurandone la visione. In caso di successo, il bersaglio del tuo Attacco diventa abbagliato fino all'inizio del tuo prossimo turno. Il bersaglio può usare un'azione Interagisci per strappare le ombre aderenti e rimuovere la condizione di abbagliamento. In caso di colpo critico, le ombre sono particolarmente ostinate e non possono essere strappate via.\"}###",
     "Mostrare": false
 },
 {
@@ -842,7 +842,7 @@
 {
     "Nome": "Vanara Wajaghand",
     "Razza": "vanara",
-    "Desc": "I tuoi antenati furono costretti al lavoro dal rakshasa immortale Ravana, il Primo e l'Ultimo. Sebbene la loro astuzia durante la prigionia abbia salvato innumerevoli vite, e ora siano liberi, il tempo ha segnato la tua famiglia con cicatrici sulla mente che non guariranno mai del tutto, nemmeno attraverso le generazioni. Ottieni un bonus di circostanza di +1 ai tiri salvezza contro effetti emotivi, e ogni volta che ottieni un successo in un tiro salvezza contro un effetto emotivo, ottieni invece un successo critico.",
+    "Desc": "I tuoi antenati furono costretti al lavoro dal rakshasa immortale Ravana, il Primo e l'Ultimo. Sebbene la loro astuzia durante la prigionia abbia salvato innumerevoli vite, e ora siano liberi, il tempo ha segnato la tua famiglia con cicatrici sulla mente che non guariranno mai del tutto, nemmeno attraverso le generazioni. Ottieni un bonus di circostanza di +1 ai tiri salvezza contro effetti emotivi, e ogni volta che ottieni un successo in un tiro salvezza contro un effetto Emozione, ottieni invece un successo critico.",
     "Mostrare": false
 },
 {
@@ -1376,7 +1376,7 @@
 {
     "Nome": "Fetchling Risoluto",
     "Razza": "fetchling",
-    "Desc": "I tuoi antenati hanno affrontato a lungo l'orrore—nel Piano dell'Ombra o altrove—e tu possiedi la loro forza mentale. Quando ottieni un successo a un tiro salvezza contro un effetto emotivo, ottieni invece un successo critico.",
+    "Desc": "I tuoi antenati hanno affrontato a lungo l'orrore—nel Piano dell'Ombra o altrove—e tu possiedi la loro forza mentale. Quando ottieni un successo a un tiro salvezza contro un effetto Emozione, ottieni invece un successo critico.",
     "Mostrare": false
 },
 {
@@ -1904,7 +1904,7 @@
     "Mostrare": true
   },
   {
-    "Nome": "Sylph",
+    "Nome": "Silfo",
     "Razza": "Universale",
     "Dettagli": "I sylph sono un popolo intenso e vivace, volubile e tempestoso. Questi scion planari hanno parentela con esseri dell'aria elementale come djinni, stalker invisibili e draghi delle nuvole.@I sylph amano seguire i propri ritmi, passando da un'energia selvaggia che attira tutti gli sguardi all'incarnare lo spirito delle brezze invisibili che svaniscono senza lasciare traccia. Spesso costruiscono la loro identità attorno alla percezione del loro legame personale con l'elemento dell'aria, identificandosi con una brezza gentile, un lampo improvviso o una tempesta incontrollabile.@Alcuni sylph nascono con una connessione a un aspetto estremamente specifico dell'aria elementale, come fumo, tempeste o gas tossici. Sebbene accada, raramente un bambino nasce con un lignaggio diverso da quello dei genitori, poiché i geniekin di solito trasmettono questi doni insoliti alla loro discendenza. I lignaggi possono manifestarsi nei sylph come risultato del luogo di nascita, ad esempio quando i sylph stormsoul nascono in regioni soggette a tornado o tempeste di vento. Un lignaggio può anche riflettere l'eredità elementale del sylph, come nel caso dei sylph smokesoul, che spesso discendono dai belker. I sylph fumesoul, invece, sono associati a gas velenosi o comunque irrespirabili.",
     "Desc": "Discendi da elementali dell'aria o sei nato sotto l'influenza di questo elemento. Ottieni il tratto sylph, in aggiunta ai tratti della tua stirpe. Ottieni anche visione in penombra, oppure visione crepuscolare se la tua stirpe ha già la visione in penombra. Puoi scegliere tra talenti sylph e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.",
@@ -1927,8 +1927,8 @@
   {
     "Nome": "Pelle-bestiale",
     "Razza": "Universale",
-    "Dettagli": "I beastkin possiedono straordinarie capacità derivate dal mondo animale, che consentono loro di trasformarsi parzialmente o completamente in animali, conferendo zanne letali, sensi acuti e altri tratti simili. Un beastkin cammina sul confine tra natura e società, vivendo con un piede in ciascuna.@Beastkin è un termine generico per qualsiasi persona che abbia acquisito la capacità di trasformarsi parzialmente o completamente in un animale attraverso vari mezzi, mantenendo comunque un equilibrio con il proprio lato umanoide. La maggior parte dei beastkin nasce da licantropi o ha un antenato licantropo nella propria discendenza. La maledizione potrebbe non manifestarsi completamente nel figlio di un licantropo, donando al bambino la natura trasformativa della propria stirpe senza la debolezza all’argento o la perdita di controllo durante la luna piena. Nati o creati, i licantropi di solito considerano tali beastkin con grande rispetto, poiché incarnano molte delle loro forze senza alcuna delle loro debolezze.@Oltre ai licantropi, esistono vari altri modi per diventare un beastkin. In alcuni casi, una divinità o uno spirito della natura può concedere a un individuo scelto il potere della trasformazione. Altri hanno acquisito i poteri dei beastkin a causa di un trucco dei folletti o di una reazione insolita alla magia di metamorfosi. Ci sono persino voci secondo cui alcuni rari beastkin potrebbero essere animali mutaforma che hanno acquisito la forma di un'ascendenza senziente, piuttosto che il contrario.@Se desideri un personaggio che cammina sul confine tra razionalità e istinto, a suo agio sia nella società che nella natura selvaggia ma separato da entrambe, dovresti giocare un beastkin.",
-    "Desc": "Il sangue di una bestia scorre nelle tue vene, donandoti la ferocia e la forza degli animali. Solo le creature con il tratto umanoide possono prendere l’eredità versatile beastkin. Scegli un tipo di animale, come pipistrello, aquila, squalo, ragno, tirannosauro, vespa o lupo. Questo è il tipo di animale legato alla tua eredità ed è noto come il tuo animale innato. Ottieni i tratti bestia e beastkin, in aggiunta ai tratti della tua stirpe. Ottieni la capacità ++Cambia Forma++. La forma ibrida di un beastkin è la sua forma naturale. Puoi scegliere tra talenti beastkin e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.### {\"nome\": \"Cambia Forma\", \"tipoAzz\": \"azione\", \"tratti\": [\"Concentrazione\", \"Metamorfosi\", \"Primordiale\", \"Trasmutazione\"], \"desc\": \"Ti trasformi nella tua forma umanoide o ibrida. Ogni forma ha un aspetto specifico e costante, e la maggior parte dei beastkin rimane di default nella forma ibrida. In forma ibrida, appari come una combinazione tra la tua stirpe e il tuo animale innato. Mentre sei in forma ibrida, ottieni un colpo senz'armi con le mascelle che rispecchia i tratti del tuo animale innato (zanne per i pipistrelli, becchi per le aquile, mandibole per le vespe, e così via). Le tue mascelle infliggono 1d4 danni perforanti, hanno i tratti agile, finezza e senz'armi, e appartengono al gruppo di armi da lotta. Nella tua forma umanoide, mantieni l’aspetto della tua stirpe originale.\" } ###",
+    "Dettagli": "I Pelle-bestiale possiedono straordinarie capacità derivate dal mondo animale, che consentono loro di trasformarsi parzialmente o completamente in animali, conferendo zanne letali, sensi acuti e altri tratti simili. Un Pelle-bestiale cammina sul confine tra natura e società, vivendo con un piede in ciascuna.@Pelle-bestiale è un termine generico per qualsiasi persona che abbia acquisito la capacità di trasformarsi parzialmente o completamente in un animale attraverso vari mezzi, mantenendo comunque un equilibrio con il proprio lato umanoide. La maggior parte dei Pelle-bestiale nasce da licantropi o ha un antenato licantropo nella propria discendenza. La maledizione potrebbe non manifestarsi completamente nel figlio di un licantropo, donando al bambino la natura trasformativa della propria stirpe senza la debolezza all’argento o la perdita di controllo durante la luna piena. Nati o creati, i licantropi di solito considerano tali Pelle-bestiale con grande rispetto, poiché incarnano molte delle loro forze senza alcuna delle loro debolezze.@Oltre ai licantropi, esistono vari altri modi per diventare un Pelle-bestiale. In alcuni casi, una divinità o uno spirito della natura può concedere a un individuo scelto il potere della trasformazione. Altri hanno acquisito i poteri dei Pelle-bestiale a causa di un trucco dei folletti o di una reazione insolita alla magia di metamorfosi. Ci sono persino voci secondo cui alcuni rari Pelle-bestiale potrebbero essere animali mutaforma che hanno acquisito la forma di un'ascendenza senziente, piuttosto che il contrario.@Se desideri un personaggio che cammina sul confine tra razionalità e istinto, a suo agio sia nella società che nella natura selvaggia ma separato da entrambe, dovresti giocare un Pelle-bestiale.",
+    "Desc": "Il sangue di una bestia scorre nelle tue vene, donandoti la ferocia e la forza degli animali. Solo le creature con il tratto umanoide possono prendere l’eredità versatile Pelle-bestiale. Scegli un tipo di animale, come pipistrello, aquila, squalo, ragno, tirannosauro, vespa o lupo. Questo è il tipo di animale legato alla tua eredità ed è noto come il tuo animale innato. Ottieni i tratti bestia e Pelle-bestiale, in aggiunta ai tratti della tua stirpe. Ottieni la capacità ++Cambia Forma++. La forma ibrida di un Pelle-bestiale è la sua forma naturale. Puoi scegliere tra talenti Pelle-bestiale e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.### {\"nome\": \"Cambia Forma\", \"tipoAzz\": \"azione\", \"tratti\": [\"Concentrazione\", \"Metamorfosi\", \"Primordiale\", \"Trasmutazione\"], \"desc\": \"Ti trasformi nella tua forma umanoide o ibrida. Ogni forma ha un aspetto specifico e costante, e la maggior parte dei Pelle-bestiale rimane di default nella forma ibrida. In forma ibrida, appari come una combinazione tra la tua stirpe e il tuo animale innato. Mentre sei in forma ibrida, ottieni un colpo senz'armi con le mascelle che rispecchia i tratti del tuo animale innato (zanne per i pipistrelli, becchi per le aquile, mandibole per le vespe, e così via). Le tue mascelle infliggono 1d4 danni perforanti, hanno i tratti agile, finezza e senz'armi, e appartengono al gruppo di armi da lotta. Nella tua forma umanoide, mantieni l’aspetto della tua stirpe originale.\" } ###",
     "Mostrare": true
   },
   {
