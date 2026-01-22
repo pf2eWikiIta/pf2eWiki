@@ -94,13 +94,16 @@
     <script type="module">
         import * as common from './common.js';
         await common.init();
-        const htmlSidebar = common.creaSidebar();
-        const isMobile = window.matchMedia('(max-width: 767.98px)').matches;
-        if (isMobile) {
-            common.render(document.getElementById("sidebar-mobile"),htmlSidebar);
-        } else {
-            common.render(document.getElementById("sidebar-desktop"),htmlSidebar);
-        }
+        const isMobile = window.matchMedia('(max-width: 992px)').matches;
+
+        fetch("sidebar.html")
+        .then(response => response.text())
+        .then(data => {
+        if (isMobile)
+            common.render(document.getElementById("sidebar-mobile"), data);
+        else
+            common.render(document.getElementById("sidebar-desktop"),data);
+        });
         
         common.aprireSidebar("generali");
 
@@ -156,7 +159,7 @@
                     if(arr[3][i][j].includes("Prerequisiti"))
                         ind = j;
                 }
-                arr[3][i] = ind == -1? "" : arr[3][i][ind].replace("++Prerequisiti++ ", "");
+                arr[3][i] = ind == -1? "" : arr[3][i][ind];
             }
 		return arr;
 	}
