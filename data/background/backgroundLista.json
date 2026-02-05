@@ -852,7 +852,7 @@
   "Desc": "Come artigiano di professione, i tuoi materiali prediletti sono metalli e pietre preziose. Sei un gioielliere addestrato con occhio per la struttura e la bellezza. I tuoi progetti riflettono la tua creatività e anni di addestramento. Forse hai perfezionato il mestiere con tentativi ed errori, o forse ti è stato tramandato dalla famiglia. In ogni caso, hai scelto la vita dell’avventuriero.@@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di Conoscenze (gemme). Ottieni il talento di abilità Valutazione dell'Artigiano.",
   "Boost": "Saggezza o intelligenza, libero",
   "Skill": "Artigianato, conoscenze(gemme)",
-  "Talento": "Valutazione dell'Artigiano",
+  "Talento": "Valutazione dell’Artigiano",
   "Mostrare": true
 },
 {
@@ -860,7 +860,7 @@
   "Desc": "Vivi secondo il detto che l’immondizia di qualcuno è il tesoro di un altro. Che tu setacci cumuli di rottami o dissotterri vecchi campi di battaglia, sei sempre alla ricerca di oggetti persi o scartati che potresti trasformare in qualcosa di utile. Più spesso che no, ciò che trovi è solo spazzatura… ma sei convinto che un giorno farai il colpo grosso. Hai persino intrapreso la vita da avventuriero per ampliare l’accesso a ogni sorta di rottame, equipaggiamento e bottino.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di Conoscenze (ingegneria) o Conoscenze (miniere). Ottieni il talento di abilità Valutazione dell'Artigiano.",
   "Boost": "Destrezza o intelligenza, libero",
   "Skill": "Artigianato, conoscenze(ingegneria) o conoscenze(miniere)",
-  "Talento": "Valutazione dell'Artigiano",
+  "Talento": "Valutazione dell’Artigiano",
   "Mostrare": true
 },
 {
@@ -908,7 +908,7 @@
   "Desc": "Vendere oggetti magici non è come essere un mercante qualunque. Le merci che compri e vendi sono costose, rendendo ogni vendita rara e redditizia. Hai sviluppato una conoscenza della manifattura esperta per assicurarti di non cadere in truffe, poiché acquistare un singolo oggetto contraffatto può portare alla bancarotta. Che tu sia fallito e abbia dovuto trovare un altro impiego o che tu abbia intrapreso l’avventura per acquisire nuova merce, ora ti sei dedicato tu stesso alla vita da avventuriero.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di Conoscenze (mercantili). Ottieni il talento di abilità Valutazione dell'Artigiano.",
   "Boost": "Intelligenza o saggezza, libero",
   "Skill": "Artigianato, conoscenze(mercantili)",
-  "Talento": "Valutazione dell'Artigiano",
+  "Talento": "Valutazione dell’Artigiano",
   "Mostrare": true
 },
 {
@@ -1140,7 +1140,7 @@
   "Desc": "Erano cinque colpi o sei? In fin dei conti non importa, perché dopo che quelle brave persone hanno pagato da bere per tutta la sera, ti sei svegliato all’ultimo gradino della scala. Che tu fossi membro di un equipaggio su una nave, un coscritto in un esercito o qualcosa di peggio, non avevi altra direzione se non salire. Questo background di solito richiede l’accordo dell’intero gruppo per raccontare una storia che ti permetta di interpretare un personaggio che inizia l’avventura a causa di circostanze fuori dal proprio controllo. Tuttavia, puoi anche interpretare un personaggio che è stato arruolato a forza in passato ed è poi fuggito da quella vita.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Costituzione, e uno è un incremento libero.",
   "Boost": "Forza o Costituzione, libero",
   "Skill": "Atletica, conoscenza(lavoro)",
-  "Talento": "Aiuto per l'Armatura",
+  "Talento": "Aiuto per l’Armatura",
   "Mostrare": true
 },
 {
@@ -1460,7 +1460,7 @@
   "Desc": "Ti sei addestrato ai piedi di un cavaliere, curando il suo equipaggiamento e supportandolo nei tornei e in battaglia. Ora cerchi una sfida che dimostri il tuo valore per la piena investitura cavalleresca, oppure hai rinnegato sfarzo e cerimonie per metterti alla prova in combattimenti onesti, sebbene meno formali.@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Costituzione, e uno è un incremento libero.",
   "Boost": "Forza o Costituzione, libero",
   "Skill": "Atletica, conoscenza(araldica) o conoscenza(guerra)",
-  "Talento": "Aiuto per l'Armatura",
+  "Talento": "Aiuto per l’Armatura",
   "Mostrare": true
 },
 {
@@ -1668,7 +1668,7 @@
   "Desc": "Hai visto più battaglie di quante tu riesca a ricordare e sei riuscito a superarle quasi sempre indenne. Nulla ti sorprende più, se non forse quando le cose vanno davvero secondo i piani. Sei sempre piacevolmente sorpreso quando riesci a sopravvivere a un altro giorno.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.",
   "Boost": "Costituzione o Saggezza, libero",
   "Skill": "Atletica, conoscenza(guerra)",
-  "Talento": "Aiuto per l'Armatura",
+  "Talento": "Aiuto per l’Armatura",
   "Mostrare": true
 },
 {
