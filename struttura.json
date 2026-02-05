@@ -900,10 +900,6 @@
             "mostrare": false
           },
           {
-            "nome": "Abbattere",
-            "mostrare": false
-          },
-          {
             "nome": "Abbattere i Giganti",
             "mostrare": false
           },
@@ -968,11 +964,11 @@
             "mostrare": false
           },
           {
-            "nome": "Abilità Eclettica",
+            "nome": "Abilita Eclettica",
             "mostrare": false
           },
           {
-            "nome": "Abilità Guidata",
+            "nome": "Abilita Guidata",
             "mostrare": false
           },
           {
@@ -1968,14 +1964,6 @@
             "mostrare": false
           },
           {
-            "nome": "Attaccante Furtivo",
-            "mostrare": false
-          },
-          {
-            "nome": "Attaccante Furtivo",
-            "mostrare": false
-          },
-          {
             "nome": "Attaccante Reattivo",
             "mostrare": false
           },
@@ -2201,22 +2189,6 @@
           },
           {
             "nome": "Avvelenatore di Letargia",
-            "mostrare": false
-          },
-          {
-            "nome": "Avventuriero Operistico",
-            "mostrare": false
-          },
-          {
-            "nome": "Avventuriero Operistico",
-            "mostrare": false
-          },
-          {
-            "nome": "Avventuriero Operistico",
-            "mostrare": false
-          },
-          {
-            "nome": "Avventuriero Operistico",
             "mostrare": false
           },
           {
@@ -2536,10 +2508,6 @@
             "mostrare": false
           },
           {
-            "nome": "Blocco Rapido con Scudo",
-            "mostrare": false
-          },
-          {
             "nome": "Blocco Totale",
             "mostrare": false
           },
@@ -2745,30 +2713,6 @@
           },
           {
             "nome": "Cambio Rapido",
-            "mostrare": false
-          },
-          {
-            "nome": "Cambio Rapido",
-            "mostrare": false
-          },
-          {
-            "nome": "Cambio Rapido",
-            "mostrare": false
-          },
-          {
-            "nome": "Cambio di Costume",
-            "mostrare": false
-          },
-          {
-            "nome": "Cambio di Costume",
-            "mostrare": false
-          },
-          {
-            "nome": "Cambio di Costume",
-            "mostrare": false
-          },
-          {
-            "nome": "Cambio di Costume",
             "mostrare": false
           },
           {
@@ -2980,6 +2924,10 @@
             "mostrare": false
           },
           {
+            "nome": "Carica Impetuosa",
+            "mostrare": false
+          },
+          {
             "nome": "Carica Imponente",
             "mostrare": false
           },
@@ -3017,14 +2965,6 @@
           },
           {
             "nome": "Carica Stasiana",
-            "mostrare": false
-          },
-          {
-            "nome": "Carica Travolgente",
-            "mostrare": false
-          },
-          {
-            "nome": "Carica Travolgente",
             "mostrare": false
           },
           {
@@ -3444,11 +3384,11 @@
             "mostrare": false
           },
           {
-            "nome": "Colpo Discriminante",
+            "nome": "Colpo DisTrattivo Superiore",
             "mostrare": false
           },
           {
-            "nome": "Colpo Distrattivo Superiore",
+            "nome": "Colpo Discriminante",
             "mostrare": false
           },
           {
@@ -3520,7 +3460,7 @@
             "mostrare": false
           },
           {
-            "nome": "Colpo Incantato Distrattivo",
+            "nome": "Colpo Incantato DisTrattivo",
             "mostrare": false
           },
           {
@@ -4176,10 +4116,6 @@
             "mostrare": false
           },
           {
-            "nome": "Comunicazione Cruda",
-            "mostrare": false
-          },
-          {
             "nome": "Comunicazione Grezza",
             "mostrare": false
           },
@@ -4312,10 +4248,6 @@
             "mostrare": false
           },
           {
-            "nome": "Connessioni Fabbricate",
-            "mostrare": false
-          },
-          {
             "nome": "Conoscenza Bardica",
             "mostrare": false
           },
@@ -4345,10 +4277,6 @@
           },
           {
             "nome": "Conoscenza delle Forme",
-            "mostrare": false
-          },
-          {
-            "nome": "Conoscenza delle Voci",
             "mostrare": false
           },
           {
@@ -4996,6 +4924,14 @@
             "mostrare": true
           },
           {
+            "nome": "Dedicazione Discepolo del Drago",
+            "mostrare": true
+          },
+          {
+            "nome": "Dedicazione Duellante",
+            "mostrare": true
+          },
+          {
             "nome": "Dedicazione Duellante Aldori",
             "mostrare": true
           },
@@ -5056,11 +4992,23 @@
             "mostrare": true
           },
           {
+            "nome": "Dedicazione Guerriero a Due Armi",
+            "mostrare": true
+          },
+          {
             "nome": "Dedicazione Guerriero dello Spirito",
             "mostrare": true
           },
           {
             "nome": "Dedicazione Guerriglia",
+            "mostrare": true
+          },
+          {
+            "nome": "Dedicazione Incantatore",
+            "mostrare": true
+          },
+          {
+            "nome": "Dedicazione Incantatore Flessibile",
             "mostrare": true
           },
           {
@@ -5073,6 +5021,10 @@
           },
           {
             "nome": "Dedicazione Lama del Leone",
+            "mostrare": true
+          },
+          {
+            "nome": "Dedicazione Lama della Farfalla",
             "mostrare": true
           },
           {
@@ -5105,6 +5057,10 @@
           },
           {
             "nome": "Dedicazione Maestro di Spade",
+            "mostrare": true
+          },
+          {
+            "nome": "Dedicazione Mago Catartico",
             "mostrare": true
           },
           {
@@ -5160,6 +5116,14 @@
             "mostrare": true
           },
           {
+            "nome": "Dedicazione Patto degli Occhi occulti",
+            "mostrare": false
+          },
+          {
+            "nome": "Dedicazione Patto dell'Ultimo Respiro",
+            "mostrare": false
+          },
+          {
             "nome": "Dedicazione Pilota Acrobatico",
             "mostrare": true
           },
@@ -5176,6 +5140,10 @@
             "mostrare": true
           },
           {
+            "nome": "Dedicazione Prima Brina",
+            "mostrare": true
+          },
+          {
             "nome": "Dedicazione Profeta di Kalistrade",
             "mostrare": true
           },
@@ -5185,6 +5153,10 @@
           },
           {
             "nome": "Dedicazione Provocatore",
+            "mostrare": true
+          },
+          {
+            "nome": "Dedicazione Pugnale Spettrale",
             "mostrare": true
           },
           {
@@ -5218,6 +5190,10 @@
           {
             "nome": "Dedicazione Scudiero Cavaliere infernale",
             "mostrare": true
+          },
+          {
+            "nome": "Dedicazione Senso della Tomba",
+            "mostrare": false
           },
           {
             "nome": "Dedicazione Sentinella",
@@ -5292,6 +5268,10 @@
             "mostrare": true
           },
           {
+            "nome": "Dedicazione Voci del Mercato",
+            "mostrare": true
+          },
+          {
             "nome": "Dedicazione Wylderheart",
             "mostrare": true
           },
@@ -5301,6 +5281,10 @@
           },
           {
             "nome": "Dedicazione a Folklorista",
+            "mostrare": true
+          },
+          {
+            "nome": "Dedicazione ad Animista",
             "mostrare": true
           },
           {
@@ -5320,6 +5304,14 @@
             "mostrare": true
           },
           {
+            "nome": "Dedicazione del Barbaro",
+            "mostrare": true
+          },
+          {
+            "nome": "Dedicazione del Bardo",
+            "mostrare": false
+          },
+          {
             "nome": "Dedicazione del Cacciatore di Fantasmi",
             "mostrare": true
           },
@@ -5330,6 +5322,10 @@
           {
             "nome": "Dedicazione del Cacciatore di Selvaggina",
             "mostrare": true
+          },
+          {
+            "nome": "Dedicazione del Campione",
+            "mostrare": false
           },
           {
             "nome": "Dedicazione del Cavaliere",
@@ -5344,8 +5340,16 @@
             "mostrare": true
           },
           {
+            "nome": "Dedicazione del Chierico",
+            "mostrare": false
+          },
+          {
             "nome": "Dedicazione del Cineta",
             "mostrare": true
+          },
+          {
+            "nome": "Dedicazione del Comandante",
+            "mostrare": false
           },
           {
             "nome": "Dedicazione del Costruttore di Trappole",
@@ -5614,30 +5618,6 @@
           {
             "nome": "Dedicazione dell’Innesto Golemico",
             "mostrare": true
-          },
-          {
-            "nome": "Dedizione ad Animista",
-            "mostrare": true
-          },
-          {
-            "nome": "Dedizione del Barbaro",
-            "mostrare": true
-          },
-          {
-            "nome": "Dedizione del Bardo",
-            "mostrare": false
-          },
-          {
-            "nome": "Dedizione del Campione",
-            "mostrare": false
-          },
-          {
-            "nome": "Dedizione del Chierico",
-            "mostrare": false
-          },
-          {
-            "nome": "Dedizione del Comandante",
-            "mostrare": false
           },
           {
             "nome": "Deduzione Avanzata",
@@ -5924,10 +5904,6 @@
             "mostrare": false
           },
           {
-            "nome": "Discepolo del Drago Dedicazione",
-            "mostrare": true
-          },
-          {
             "nome": "Discepolo dell’Ombra",
             "mostrare": false
           },
@@ -6122,10 +6098,6 @@
           {
             "nome": "Dubbio Persistente",
             "mostrare": false
-          },
-          {
-            "nome": "Duellante Dedicazione",
-            "mostrare": true
           },
           {
             "nome": "Duellante Devastante",
@@ -6332,7 +6304,8 @@
             "mostrare": false
           },
           {
-            "nome": "Energia Intrecciata Ki"
+            "nome": "Energia Intrecciata Ki",
+            "mostrare": false
           },
           {
             "nome": "Energia Selettiva",
@@ -6587,11 +6560,11 @@
             "mostrare": false
           },
           {
-            "nome": "Esplosione Dispersa",
+            "nome": "Esplosione DisTrattiva",
             "mostrare": false
           },
           {
-            "nome": "Esplosione Distrattiva",
+            "nome": "Esplosione Dispersa",
             "mostrare": false
           },
           {
@@ -7139,7 +7112,7 @@
             "mostrare": false
           },
           {
-            "nome": "Finta Distrattiva",
+            "nome": "Finta DisTrattiva",
             "mostrare": false
           },
           {
@@ -7831,10 +7804,6 @@
             "mostrare": false
           },
           {
-            "nome": "Grande Esordio",
-            "mostrare": false
-          },
-          {
             "nome": "Grande Fendente",
             "mostrare": false
           },
@@ -7987,10 +7956,6 @@
             "mostrare": false
           },
           {
-            "nome": "Guerriero a Due Armi Dedicazione",
-            "mostrare": true
-          },
-          {
             "nome": "Guerrigliero Supremo",
             "mostrare": false
           },
@@ -8092,10 +8057,6 @@
           },
           {
             "nome": "Illusione Convincente",
-            "mostrare": false
-          },
-          {
-            "nome": "Illusione d’Ombra",
             "mostrare": false
           },
           {
@@ -8207,16 +8168,8 @@
             "mostrare": false
           },
           {
-            "nome": "Incantatore Dedicazione",
-            "mostrare": true
-          },
-          {
             "nome": "Incantatore Esperto (Incantesimi)",
             "mostrare": false
-          },
-          {
-            "nome": "Incantatore Flessibile",
-            "mostrare": true
           },
           {
             "nome": "Incantatore Maestro Incantesimi",
@@ -8959,10 +8912,6 @@
             "mostrare": false
           },
           {
-            "nome": "Intruso alle Feste",
-            "mostrare": false
-          },
-          {
             "nome": "Intuizione Magica Innata",
             "mostrare": false
           },
@@ -9039,7 +8988,8 @@
             "mostrare": false
           },
           {
-            "nome": "Ira del Monaco Offeso"
+            "nome": "Ira del Monaco Offeso",
+            "mostrare": false
           },
           {
             "nome": "Ira del Primo Ghoul",
@@ -9170,10 +9120,6 @@
             "mostrare": false
           },
           {
-            "nome": "Lama della Farfalla Dedicazione",
-            "mostrare": true
-          },
-          {
             "nome": "Lama della Ghigliottina",
             "mostrare": false
           },
@@ -9230,7 +9176,7 @@
             "mostrare": false
           },
           {
-            "nome": "Lancio Distrattivo",
+            "nome": "Lancio DisTrattivo",
             "mostrare": false
           },
           {
@@ -9375,10 +9321,6 @@
           },
           {
             "nome": "Leggenda del Rimbalzo",
-            "mostrare": false
-          },
-          {
-            "nome": "Leggere gli Shibboleth",
             "mostrare": false
           },
           {
@@ -9570,11 +9512,7 @@
             "mostrare": false
           },
           {
-            "nome": "Lusinga Distrattiva",
-            "mostrare": false
-          },
-          {
-            "nome": "Lusinga Distrattiva",
+            "nome": "Lusinga DisTrattiva",
             "mostrare": false
           },
           {
@@ -9782,14 +9720,6 @@
             "mostrare": false
           },
           {
-            "nome": "Magia d’Ombra",
-            "mostrare": false
-          },
-          {
-            "nome": "Magia d’Ombra Aggiuntiva",
-            "mostrare": false
-          },
-          {
             "nome": "Magia d’Ombra Aggiuntiva",
             "mostrare": false
           },
@@ -9800,10 +9730,6 @@
           {
             "nome": "Mago Ancestrale",
             "mostrare": false
-          },
-          {
-            "nome": "Mago Catartico Dedicazione",
-            "mostrare": true
           },
           {
             "nome": "Mai!",
@@ -10346,7 +10272,7 @@
             "mostrare": false
           },
           {
-            "nome": "Morsi Distrattivi",
+            "nome": "Morsi DisTrattivi",
             "mostrare": false
           },
           {
@@ -10742,10 +10668,6 @@
             "mostrare": false
           },
           {
-            "nome": "Ombra Fugace",
-            "mostrare": false
-          },
-          {
             "nome": "Ombra dell'Uccello Serpente",
             "mostrare": false
           },
@@ -11094,10 +11016,6 @@
             "mostrare": false
           },
           {
-            "nome": "Patto degli Occhi Eldritch",
-            "mostrare": false
-          },
-          {
             "nome": "Patto dei Sentieri Fatati",
             "mostrare": false
           },
@@ -11127,10 +11045,6 @@
           },
           {
             "nome": "Patto del Rinnovamento di Huldra",
-            "mostrare": false
-          },
-          {
-            "nome": "Patto dell'Ultimo Respiro",
             "mostrare": false
           },
           {
@@ -11770,10 +11684,6 @@
             "mostrare": false
           },
           {
-            "nome": "Potere d’Ombra",
-            "mostrare": false
-          },
-          {
             "nome": "Pozione Avanzata",
             "mostrare": false
           },
@@ -12018,10 +11928,6 @@
             "mostrare": false
           },
           {
-            "nome": "Prima Brina",
-            "mostrare": true
-          },
-          {
             "nome": "Prima Rivelazione",
             "mostrare": false
           },
@@ -12220,10 +12126,6 @@
           {
             "nome": "Pugnale Rivelatore",
             "mostrare": false
-          },
-          {
-            "nome": "Pugnale Spettrale",
-            "mostrare": true
           },
           {
             "nome": "Pugni Arcani",
@@ -13457,7 +13359,8 @@
             "mostrare": false
           },
           {
-            "nome": "Salto del Vento"
+            "nome": "Salto del Vento",
+            "mostrare": false
           },
           {
             "nome": "Salto tra Trappole",
@@ -13637,10 +13540,6 @@
           },
           {
             "nome": "Schivata Danzante",
-            "mostrare": false
-          },
-          {
-            "nome": "Schivata Incredibile",
             "mostrare": false
           },
           {
@@ -13940,10 +13839,6 @@
             "mostrare": false
           },
           {
-            "nome": "Sella Rapida",
-            "mostrare": false
-          },
-          {
             "nome": "Selvaggio Avanzato",
             "mostrare": false
           },
@@ -14009,10 +13904,6 @@
           },
           {
             "nome": "Senso del Verme",
-            "mostrare": false
-          },
-          {
-            "nome": "Senso della Tomba",
             "mostrare": false
           },
           {
@@ -14696,10 +14587,6 @@
             "mostrare": false
           },
           {
-            "nome": "Stendardo Inamovibile",
-            "mostrare": false
-          },
-          {
             "nome": "Stendardo Incoraggiante",
             "mostrare": false
           },
@@ -15156,7 +15043,7 @@
             "mostrare": false
           },
           {
-            "nome": "Tiro Distrattivo",
+            "nome": "Tiro DisTrattivo",
             "mostrare": false
           },
           {
@@ -15792,14 +15679,6 @@
             "mostrare": false
           },
           {
-            "nome": "Verità Soggettiva",
-            "mostrare": false
-          },
-          {
-            "nome": "Verità Soggettiva",
-            "mostrare": false
-          },
-          {
             "nome": "Verità del Patrono",
             "mostrare": false
           },
@@ -15966,10 +15845,6 @@
           {
             "nome": "Voce della Tomba",
             "mostrare": false
-          },
-          {
-            "nome": "Voci del Mercato Dedicazione",
-            "mostrare": true
           },
           {
             "nome": "Volare su Ali d’Ombra",
@@ -17479,6 +17354,1660 @@
       },
       {
         "tipo": "file",
+        "nome": "oggettiAlchemici.json",
+        "contenuto": [
+          {
+            "nome": "Accecador Solare",
+            "mostrare": true
+          },
+          {
+            "nome": "Aceto Arcobaleno",
+            "mostrare": true
+          },
+          {
+            "nome": "Acido Mnemonico",
+            "mostrare": true
+          },
+          {
+            "nome": "Aconito",
+            "mostrare": true
+          },
+          {
+            "nome": "Addlebrain",
+            "mostrare": true
+          },
+          {
+            "nome": "Adesivo Perpetuo",
+            "mostrare": true
+          },
+          {
+            "nome": "Agente Repellente per Parassiti",
+            "mostrare": true
+          },
+          {
+            "nome": "Albicocca della Forza Bestiale",
+            "mostrare": true
+          },
+          {
+            "nome": "Alcol",
+            "mostrare": true
+          },
+          {
+            "nome": "Alebicco Coagulante per Bombe",
+            "mostrare": true
+          },
+          {
+            "nome": "Ambrosia della Speranza Imperitura",
+            "mostrare": true
+          },
+          {
+            "nome": "Amico del Sabotatore",
+            "mostrare": true
+          },
+          {
+            "nome": "Ampolla Fantasma",
+            "mostrare": true
+          },
+          {
+            "nome": "Ampolla del Terrore",
+            "mostrare": true
+          },
+          {
+            "nome": "Ampolla del Tiranno",
+            "mostrare": true
+          },
+          {
+            "nome": "Ampolla di Acido",
+            "mostrare": true
+          },
+          {
+            "nome": "Ampolla di Allineamento",
+            "mostrare": true
+          },
+          {
+            "nome": "Ampolla di Tarantola",
+            "mostrare": true
+          },
+          {
+            "nome": "Antidoto",
+            "mostrare": true
+          },
+          {
+            "nome": "Antipiaga",
+            "mostrare": true
+          },
+          {
+            "nome": "Armatura Completa Alimentata",
+            "mostrare": true
+          },
+          {
+            "nome": "Armatura Dreadnought Ossea",
+            "mostrare": true
+          },
+          {
+            "nome": "Arsenico",
+            "mostrare": true
+          },
+          {
+            "nome": "Assenzio Elfico",
+            "mostrare": true
+          },
+          {
+            "nome": "Atomizzatore Alchemico",
+            "mostrare": true
+          },
+          {
+            "nome": "Bacchetta Luminosa",
+            "mostrare": true
+          },
+          {
+            "nome": "Bacio della Succube",
+            "mostrare": true
+          },
+          {
+            "nome": "Bacio di Achaekek",
+            "mostrare": true
+          },
+          {
+            "nome": "Bagliore Eldritch",
+            "mostrare": true
+          },
+          {
+            "nome": "Beatitudine di Vyre",
+            "mostrare": true
+          },
+          {
+            "nome": "Belladonna",
+            "mostrare": true
+          },
+          {
+            "nome": "Belladonna Spettrale",
+            "mostrare": true
+          },
+          {
+            "nome": "Benda di Radice di Achillea",
+            "mostrare": true
+          },
+          {
+            "nome": "Bile di Drago",
+            "mostrare": true
+          },
+          {
+            "nome": "Birra Piede di Ragno",
+            "mostrare": true
+          },
+          {
+            "nome": "Birra del Bravo",
+            "mostrare": true
+          },
+          {
+            "nome": "Bistecca di Grindlegrub",
+            "mostrare": true
+          },
+          {
+            "nome": "Blaze",
+            "mostrare": true
+          },
+          {
+            "nome": "Blisterwort",
+            "mostrare": true
+          },
+          {
+            "nome": "Bock Testadimasso",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba Anima d'Argento",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba Bruciatura Nefasta",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba Chiodata",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba Collante",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba Disfogliatrice",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba Frantumastone",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba Lodestone",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba Necrotica",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba Puzzola",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba a Pressione",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba della Piaga",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba di Alga Appiccicosa",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba di Bioluminescenza",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba di Durian",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba di Fango",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba di Lardo",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba di Pece Rossa",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba di Rottami",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba di Sangue",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba di Spore Perniciose",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba di Zolfo",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba d’Acqua",
+            "mostrare": true
+          },
+          {
+            "nome": "Borsa di Ragni",
+            "mostrare": true
+          },
+          {
+            "nome": "Bottiglia della Madre dell'Alveare",
+            "mostrare": true
+          },
+          {
+            "nome": "Bottiglia di Kraken",
+            "mostrare": true
+          },
+          {
+            "nome": "Bottiglia di Polpo",
+            "mostrare": true
+          },
+          {
+            "nome": "Brivido",
+            "mostrare": true
+          },
+          {
+            "nome": "Budino di Sangue di Drago",
+            "mostrare": true
+          },
+          {
+            "nome": "Caffè Occhio Sanguigno",
+            "mostrare": true
+          },
+          {
+            "nome": "Caffè della Saggezza",
+            "mostrare": true
+          },
+          {
+            "nome": "Cannella Veggente",
+            "mostrare": true
+          },
+          {
+            "nome": "Canto del Danzatore",
+            "mostrare": true
+          },
+          {
+            "nome": "Cappuccio Smorzasensi",
+            "mostrare": true
+          },
+          {
+            "nome": "Capsula di Sportlebore",
+            "mostrare": true
+          },
+          {
+            "nome": "Caramella allo Zenzero",
+            "mostrare": true
+          },
+          {
+            "nome": "Carica Spettrale",
+            "mostrare": true
+          },
+          {
+            "nome": "Carne Secca di Aurochs",
+            "mostrare": true
+          },
+          {
+            "nome": "Catarsi in Bottiglia",
+            "mostrare": true
+          },
+          {
+            "nome": "Catrame Mangia Incantesimi",
+            "mostrare": true
+          },
+          {
+            "nome": "Cervello Coltivato in Fiasca",
+            "mostrare": true
+          },
+          {
+            "nome": "Cetriolo Accigliato",
+            "mostrare": true
+          },
+          {
+            "nome": "Charcuterie del Diplomatico",
+            "mostrare": true
+          },
+          {
+            "nome": "Chewing Gum Scoppiettante",
+            "mostrare": true
+          },
+          {
+            "nome": "Cialda di Scintille",
+            "mostrare": true
+          },
+          {
+            "nome": "Cocktail di Furia",
+            "mostrare": true
+          },
+          {
+            "nome": "Colla Ripara-Veloce",
+            "mostrare": true
+          },
+          {
+            "nome": "Collare del Ragno Mutevole",
+            "mostrare": true
+          },
+          {
+            "nome": "Collirio del Sole Assonnato",
+            "mostrare": true
+          },
+          {
+            "nome": "Colpo Vitale",
+            "mostrare": true
+          },
+          {
+            "nome": "Concealer di Aromi",
+            "mostrare": true
+          },
+          {
+            "nome": "Concentratore di Veleni",
+            "mostrare": true
+          },
+          {
+            "nome": "Contagio Colerico",
+            "mostrare": true
+          },
+          {
+            "nome": "Curare",
+            "mostrare": true
+          },
+          {
+            "nome": "Cytillesh",
+            "mostrare": true
+          },
+          {
+            "nome": "Delizia Incauta",
+            "mostrare": true
+          },
+          {
+            "nome": "Demonade Speziata",
+            "mostrare": true
+          },
+          {
+            "nome": "Dito della Strega",
+            "mostrare": true
+          },
+          {
+            "nome": "Dolce Aroma",
+            "mostrare": true
+          },
+          {
+            "nome": "Dramma Soporifero",
+            "mostrare": true
+          },
+          {
+            "nome": "Eccellente Tonicino di Elsie",
+            "mostrare": true
+          },
+          {
+            "nome": "Effluvio Tossico",
+            "mostrare": true
+          },
+          {
+            "nome": "Elica",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir Orchidea Solare",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir Passo d’Inverno",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir Pugno di Pietra",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir Rinfrescante",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir Sei Dita",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir Tocco del Mare",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir Viperino",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir dei Colori Psichici",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir del Ghepardo",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir del Saltatore",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir dell'Occhio del Bombarolo",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir della Comprensione",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir della Nebbia",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir della Vista del Sangue",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir della Vita",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir delle Vette",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir dello Scettico",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir dell’Infiltratore",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir dell’Occhio di Gatto",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir dell’Occhio d’Aquila",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir di Sangue Amaro",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir di Scurovisione",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir di Trasformazione di Genere",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir di Witchwarg",
+            "mostrare": true
+          },
+          {
+            "nome": "Elmo del Terrore",
+            "mostrare": true
+          },
+          {
+            "nome": "Erba della Paura",
+            "mostrare": true
+          },
+          {
+            "nome": "Essenza dell’Oblio",
+            "mostrare": true
+          },
+          {
+            "nome": "Essenza di Mandragora",
+            "mostrare": true
+          },
+          {
+            "nome": "Essenza d’Ombra",
+            "mostrare": true
+          },
+          {
+            "nome": "Estratto del Burattinaio",
+            "mostrare": true
+          },
+          {
+            "nome": "Estratto di Loto Nero",
+            "mostrare": true
+          },
+          {
+            "nome": "Estratto di Toothwort",
+            "mostrare": true
+          },
+          {
+            "nome": "Estrusore di Fune Collosa",
+            "mostrare": true
+          },
+          {
+            "nome": "Euforium",
+            "mostrare": true
+          },
+          {
+            "nome": "Falsa Morte",
+            "mostrare": true
+          },
+          {
+            "nome": "Falsa Speranza",
+            "mostrare": true
+          },
+          {
+            "nome": "Falso Flayleaf",
+            "mostrare": true
+          },
+          {
+            "nome": "Fango Ossigenato",
+            "mostrare": true
+          },
+          {
+            "nome": "Feromoni Animali",
+            "mostrare": true
+          },
+          {
+            "nome": "Feyfoul",
+            "mostrare": true
+          },
+          {
+            "nome": "Fiala Gelida",
+            "mostrare": true
+          },
+          {
+            "nome": "Fiala Infiammante",
+            "mostrare": true
+          },
+          {
+            "nome": "Fiala del Turbine",
+            "mostrare": true
+          },
+          {
+            "nome": "Fiala del Verme",
+            "mostrare": true
+          },
+          {
+            "nome": "Fiala di Feromoni",
+            "mostrare": true
+          },
+          {
+            "nome": "Fiala di Musk Giallo",
+            "mostrare": true
+          },
+          {
+            "nome": "Fiala di Sargasso",
+            "mostrare": true
+          },
+          {
+            "nome": "Fiammifero",
+            "mostrare": true
+          },
+          {
+            "nome": "Fine del Bugiardo",
+            "mostrare": true
+          },
+          {
+            "nome": "Fiore di Luna Conservato",
+            "mostrare": true
+          },
+          {
+            "nome": "Flagello Ceruleo",
+            "mostrare": true
+          },
+          {
+            "nome": "Foglia di Scorticamento",
+            "mostrare": true
+          },
+          {
+            "nome": "Follia del Degustatore",
+            "mostrare": true
+          },
+          {
+            "nome": "Freddo Confortante",
+            "mostrare": true
+          },
+          {
+            "nome": "Frizzante Latte e Uova",
+            "mostrare": true
+          },
+          {
+            "nome": "Frizzante Velenoso",
+            "mostrare": true
+          },
+          {
+            "nome": "Fulmine in Bottiglia",
+            "mostrare": true
+          },
+          {
+            "nome": "Fumi di Zolfo",
+            "mostrare": true
+          },
+          {
+            "nome": "Fungo Predatore della Morte",
+            "mostrare": true
+          },
+          {
+            "nome": "Fuoco dell'Alchimista",
+            "mostrare": true
+          },
+          {
+            "nome": "Fuoco e Iceberg",
+            "mostrare": true
+          },
+          {
+            "nome": "Fusibile Alchemico",
+            "mostrare": true
+          },
+          {
+            "nome": "Gamba di Piombo",
+            "mostrare": true
+          },
+          {
+            "nome": "Gel Curativo Curled",
+            "mostrare": true
+          },
+          {
+            "nome": "Gocce Dimenticanti",
+            "mostrare": true
+          },
+          {
+            "nome": "Goccia dello Studioso",
+            "mostrare": true
+          },
+          {
+            "nome": "Granata Ammorbiditrice",
+            "mostrare": true
+          },
+          {
+            "nome": "Granata Spellsap",
+            "mostrare": true
+          },
+          {
+            "nome": "Granata Spine di Pesh",
+            "mostrare": true
+          },
+          {
+            "nome": "Granata Stella",
+            "mostrare": true
+          },
+          {
+            "nome": "Granata di Melma",
+            "mostrare": true
+          },
+          {
+            "nome": "Grilletto Remoto",
+            "mostrare": true
+          },
+          {
+            "nome": "Grit",
+            "mostrare": true
+          },
+          {
+            "nome": "Grolna",
+            "mostrare": true
+          },
+          {
+            "nome": "Guanto Alchemico",
+            "mostrare": true
+          },
+          {
+            "nome": "Hype",
+            "mostrare": true
+          },
+          {
+            "nome": "Hype Diluìto",
+            "mostrare": true
+          },
+          {
+            "nome": "Hype al Plasma",
+            "mostrare": true
+          },
+          {
+            "nome": "Impacco di Orchidea Solare",
+            "mostrare": true
+          },
+          {
+            "nome": "Impacco di Pepe",
+            "mostrare": true
+          },
+          {
+            "nome": "Inchiostro Dimenticante",
+            "mostrare": true
+          },
+          {
+            "nome": "Inchiostro Fantasma",
+            "mostrare": true
+          },
+          {
+            "nome": "Inchiostro Stupefacente del Dr. Ushernacht",
+            "mostrare": true
+          },
+          {
+            "nome": "Inchiostro al Chiaro di Luna",
+            "mostrare": true
+          },
+          {
+            "nome": "Inchiostro degli Amanti",
+            "mostrare": true
+          },
+          {
+            "nome": "Infuso del Ladro di Libri",
+            "mostrare": true
+          },
+          {
+            "nome": "Infuso dell’Isolamento",
+            "mostrare": true
+          },
+          {
+            "nome": "Infuso di Sangue Funesto",
+            "mostrare": true
+          },
+          {
+            "nome": "Intestino Verde",
+            "mostrare": true
+          },
+          {
+            "nome": "Intreccio di Foglie Viventi",
+            "mostrare": true
+          },
+          {
+            "nome": "Ippogrifo in Barattolo",
+            "mostrare": true
+          },
+          {
+            "nome": "Kit di Recupero del Corpo",
+            "mostrare": true
+          },
+          {
+            "nome": "Kit per Lucidare l'Armatura",
+            "mostrare": true
+          },
+          {
+            "nome": "Lacrime della Morte",
+            "mostrare": true
+          },
+          {
+            "nome": "Lacrime di Raganella",
+            "mostrare": true
+          },
+          {
+            "nome": "Lamento Danzante",
+            "mostrare": true
+          },
+          {
+            "nome": "Lanciafiamme dell’Alchimista",
+            "mostrare": true
+          },
+          {
+            "nome": "Latte di Mezzanotte",
+            "mostrare": true
+          },
+          {
+            "nome": "Lentezza del Predone",
+            "mostrare": true
+          },
+          {
+            "nome": "Lenti delle Vestigia",
+            "mostrare": true
+          },
+          {
+            "nome": "Linfa di Sangue",
+            "mostrare": true
+          },
+          {
+            "nome": "Linimento del Mana-Rattler",
+            "mostrare": true
+          },
+          {
+            "nome": "Luce in Bottiglia",
+            "mostrare": true
+          },
+          {
+            "nome": "Maledizione del Mago",
+            "mostrare": true
+          },
+          {
+            "nome": "Mana Condensata",
+            "mostrare": true
+          },
+          {
+            "nome": "Margherita Nanica",
+            "mostrare": true
+          },
+          {
+            "nome": "Maschera Segugio",
+            "mostrare": true
+          },
+          {
+            "nome": "Mascheratore Olfattivo",
+            "mostrare": true
+          },
+          {
+            "nome": "Masticabile Galvanico",
+            "mostrare": true
+          },
+          {
+            "nome": "Mela Fatata",
+            "mostrare": true
+          },
+          {
+            "nome": "Menta Messaggera",
+            "mostrare": true
+          },
+          {
+            "nome": "Metabolizzatore di Contagio",
+            "mostrare": true
+          },
+          {
+            "nome": "Mezzaluna d’Argento",
+            "mostrare": true
+          },
+          {
+            "nome": "Mezzanotte Piangente",
+            "mostrare": true
+          },
+          {
+            "nome": "Miscela Malleabile",
+            "mostrare": true
+          },
+          {
+            "nome": "Mito Tossina",
+            "mostrare": true
+          },
+          {
+            "nome": "Monarca Pagliaccio",
+            "mostrare": true
+          },
+          {
+            "nome": "Morte Strisciante",
+            "mostrare": true
+          },
+          {
+            "nome": "Munizione Aromatica",
+            "mostrare": true
+          },
+          {
+            "nome": "Munizione Congelante",
+            "mostrare": true
+          },
+          {
+            "nome": "Munizione Corrosiva",
+            "mostrare": true
+          },
+          {
+            "nome": "Munizione Elementale",
+            "mostrare": true
+          },
+          {
+            "nome": "Munizione Esanguinante",
+            "mostrare": true
+          },
+          {
+            "nome": "Munizione Vescicante",
+            "mostrare": true
+          },
+          {
+            "nome": "Munizione del Flagello",
+            "mostrare": true
+          },
+          {
+            "nome": "Munizione di Melma",
+            "mostrare": true
+          },
+          {
+            "nome": "Muschio del Passo Fungino",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno Bestiale",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno Cognitivo",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno Corpo di Pietra",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno Lingua d’Argento",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno Mercurio",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno Ommatoforico",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno Pallestetico",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno Sangue di Guerra",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno Sanguigno",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno Sereno",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno Teatrale",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno del Cuore di Drago",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno del Giuggernaut",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno della Preda",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno delle Braccia Elastiche",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno dell’Energia",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno dell’Ittiosi",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno di Canna di Mela",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno di Peso Morto",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutatore di Onice",
+            "mostrare": true
+          },
+          {
+            "nome": "Nebbia Rivelatrice",
+            "mostrare": true
+          },
+          {
+            "nome": "Nebbia Scarlatta",
+            "mostrare": true
+          },
+          {
+            "nome": "Nebbia della Mente",
+            "mostrare": true
+          },
+          {
+            "nome": "Nethershade",
+            "mostrare": true
+          },
+          {
+            "nome": "Nettare del Fiore della Paura",
+            "mostrare": true
+          },
+          {
+            "nome": "Noodles Aurici",
+            "mostrare": true
+          },
+          {
+            "nome": "Nota Autoimmolante",
+            "mostrare": true
+          },
+          {
+            "nome": "Notte in Bottiglia",
+            "mostrare": true
+          },
+          {
+            "nome": "Olio Bloccameccanismi",
+            "mostrare": true
+          },
+          {
+            "nome": "Olio Spezza-Frodi",
+            "mostrare": true
+          },
+          {
+            "nome": "Olio degli Antipodi",
+            "mostrare": true
+          },
+          {
+            "nome": "Olio della Benedizione di Lady",
+            "mostrare": true
+          },
+          {
+            "nome": "Olio della Fame",
+            "mostrare": true
+          },
+          {
+            "nome": "Olio della Furia",
+            "mostrare": true
+          },
+          {
+            "nome": "Olio di Cytillesh",
+            "mostrare": true
+          },
+          {
+            "nome": "Olio di Medusa Cromatica",
+            "mostrare": true
+          },
+          {
+            "nome": "Olio di Serpente",
+            "mostrare": true
+          },
+          {
+            "nome": "Ombra del Mietitore",
+            "mostrare": true
+          },
+          {
+            "nome": "Oozepick",
+            "mostrare": true
+          },
+          {
+            "nome": "Palla di Fumo",
+            "mostrare": true
+          },
+          {
+            "nome": "Pane del Viaggiatore",
+            "mostrare": true
+          },
+          {
+            "nome": "Pasta Emetica",
+            "mostrare": true
+          },
+          {
+            "nome": "Pasta di Pesh",
+            "mostrare": true
+          },
+          {
+            "nome": "Pasta di Radice di Malyass",
+            "mostrare": true
+          },
+          {
+            "nome": "Pelle di Melma",
+            "mostrare": true
+          },
+          {
+            "nome": "Pelle di Troll",
+            "mostrare": true
+          },
+          {
+            "nome": "Perla di Drago",
+            "mostrare": true
+          },
+          {
+            "nome": "Pesh Raffinato",
+            "mostrare": true
+          },
+          {
+            "nome": "Pietra Esplosiva",
+            "mostrare": true
+          },
+          {
+            "nome": "Pietra Filosofale",
+            "mostrare": true
+          },
+          {
+            "nome": "Pillola Energizzante",
+            "mostrare": true
+          },
+          {
+            "nome": "Piromite",
+            "mostrare": true
+          },
+          {
+            "nome": "Polline di Giglio Azzurro",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere Cieca",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere Demoniaca",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere Enervante",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere Implosiva",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere Lenitiva",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere Nera",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere Scoppiettante",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere Starnutante",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere dell’Esecuzione",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere di Abysium",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere di Cappello della Morte",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere di Esuvia",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere di Lich",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere di Pepe Nero",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere di Pepe Viola",
+            "mostrare": true
+          },
+          {
+            "nome": "Polvere di Senape",
+            "mostrare": true
+          },
+          {
+            "nome": "Popcorn Piede di Fuoco",
+            "mostrare": true
+          },
+          {
+            "nome": "Potenziatore del Sangue",
+            "mostrare": true
+          },
+          {
+            "nome": "Pozione Elementale Protettiva",
+            "mostrare": true
+          },
+          {
+            "nome": "Proiettile Collante",
+            "mostrare": true
+          },
+          {
+            "nome": "Proiettile Erosivo",
+            "mostrare": true
+          },
+          {
+            "nome": "Prurito Infinito",
+            "mostrare": true
+          },
+          {
+            "nome": "Qat",
+            "mostrare": true
+          },
+          {
+            "nome": "Radice Sepolcrale",
+            "mostrare": true
+          },
+          {
+            "nome": "Radice di Ragno",
+            "mostrare": true
+          },
+          {
+            "nome": "Repellente per Animali",
+            "mostrare": true
+          },
+          {
+            "nome": "Repellente per Vermi delle Caverne",
+            "mostrare": true
+          },
+          {
+            "nome": "Residuo di Ortica",
+            "mostrare": true
+          },
+          {
+            "nome": "Residuo di Vita",
+            "mostrare": true
+          },
+          {
+            "nome": "Resina di Blightburn",
+            "mostrare": true
+          },
+          {
+            "nome": "Resina di Repulsione",
+            "mostrare": true
+          },
+          {
+            "nome": "Respiro del Dio Mantide",
+            "mostrare": true
+          },
+          {
+            "nome": "Respiro dello Spauracchio",
+            "mostrare": true
+          },
+          {
+            "nome": "Respiro di Gorgone",
+            "mostrare": true
+          },
+          {
+            "nome": "Rimorso del Birraio",
+            "mostrare": true
+          },
+          {
+            "nome": "Rivestimento Colorato",
+            "mostrare": true
+          },
+          {
+            "nome": "Rivestimento di Ferro Freddo",
+            "mostrare": true
+          },
+          {
+            "nome": "Roc in Bottiglia",
+            "mostrare": true
+          },
+          {
+            "nome": "Rotolo Fantasma",
+            "mostrare": true
+          },
+          {
+            "nome": "Rovina Dito Nero",
+            "mostrare": true
+          },
+          {
+            "nome": "Sacco di Rami",
+            "mostrare": true
+          },
+          {
+            "nome": "Sale dell’Incubo",
+            "mostrare": true
+          },
+          {
+            "nome": "Sali Aurificanti",
+            "mostrare": true
+          },
+          {
+            "nome": "Sali Senza Tempo",
+            "mostrare": true
+          },
+          {
+            "nome": "Sbiadimento Pallido",
+            "mostrare": true
+          },
+          {
+            "nome": "Scaglia di Delve",
+            "mostrare": true
+          },
+          {
+            "nome": "Scour",
+            "mostrare": true
+          },
+          {
+            "nome": "Scrub Antiruggine",
+            "mostrare": true
+          },
+          {
+            "nome": "Scudo Magnetico",
+            "mostrare": true
+          },
+          {
+            "nome": "Serbatoio a Iniezione",
+            "mostrare": true
+          },
+          {
+            "nome": "Sfera d'Argento",
+            "mostrare": true
+          },
+          {
+            "nome": "Sfera di Nebbia Metallica",
+            "mostrare": true
+          },
+          {
+            "nome": "Sfere Eteriche",
+            "mostrare": true
+          },
+          {
+            "nome": "Siero Impetuoso",
+            "mostrare": true
+          },
+          {
+            "nome": "Sifone per Armi",
+            "mostrare": true
+          },
+          {
+            "nome": "Soffio del Tatzlwyrm",
+            "mostrare": true
+          },
+          {
+            "nome": "Solvente Assoluto",
+            "mostrare": true
+          },
+          {
+            "nome": "Solvente Universale",
+            "mostrare": true
+          },
+          {
+            "nome": "Sombra Luminosa",
+            "mostrare": true
+          },
+          {
+            "nome": "Sonno del Re",
+            "mostrare": true
+          },
+          {
+            "nome": "Soppressore di Afflizione",
+            "mostrare": true
+          },
+          {
+            "nome": "Soppressore di Dipendenza",
+            "mostrare": true
+          },
+          {
+            "nome": "Sostanza Sciogligelo",
+            "mostrare": true
+          },
+          {
+            "nome": "Spighe di Peperoncino Scintillanti",
+            "mostrare": true
+          },
+          {
+            "nome": "Spore del Terrore",
+            "mostrare": true
+          },
+          {
+            "nome": "Steelscour",
+            "mostrare": true
+          },
+          {
+            "nome": "Stelle Filanti",
+            "mostrare": true
+          },
+          {
+            "nome": "Suspensione di Artevil",
+            "mostrare": true
+          },
+          {
+            "nome": "Sutura Incandescente",
+            "mostrare": true
+          },
+          {
+            "nome": "Tavola Alchemica",
+            "mostrare": true
+          },
+          {
+            "nome": "Tinta Forense",
+            "mostrare": true
+          },
+          {
+            "nome": "Tinta Mimetica",
+            "mostrare": true
+          },
+          {
+            "nome": "Tintura Rilevante Non Morti",
+            "mostrare": true
+          },
+          {
+            "nome": "Tintura Senza Vista",
+            "mostrare": true
+          },
+          {
+            "nome": "Tintura di Pelle di Rana",
+            "mostrare": true
+          },
+          {
+            "nome": "Toddy Lenitivo",
+            "mostrare": true
+          },
+          {
+            "nome": "Tonico Intorpidente",
+            "mostrare": true
+          },
+          {
+            "nome": "Tonico Lenitivo",
+            "mostrare": true
+          },
+          {
+            "nome": "Tonico alla Capsaicina",
+            "mostrare": true
+          },
+          {
+            "nome": "Torta Impossibile",
+            "mostrare": true
+          },
+          {
+            "nome": "Tossina Sfaldante",
+            "mostrare": true
+          },
+          {
+            "nome": "Tossina della Crescita Colpente",
+            "mostrare": true
+          },
+          {
+            "nome": "Tossina di Gnawbone",
+            "mostrare": true
+          },
+          {
+            "nome": "Tossina di Radice Intrecciata",
+            "mostrare": true
+          },
+          {
+            "nome": "Tracciante Ectoplasmatico",
+            "mostrare": true
+          },
+          {
+            "nome": "Trapunta Ninfea Paludosa",
+            "mostrare": true
+          },
+          {
+            "nome": "Tubo di Pepe Accecante",
+            "mostrare": true
+          },
+          {
+            "nome": "Tè del Tempo dei Sogni",
+            "mostrare": true
+          },
+          {
+            "nome": "Uccidi-Eroi",
+            "mostrare": true
+          },
+          {
+            "nome": "Unguento Antifungino",
+            "mostrare": true
+          },
+          {
+            "nome": "Unguento Cicatrizzante",
+            "mostrare": true
+          },
+          {
+            "nome": "Unguento d'Argento",
+            "mostrare": true
+          },
+          {
+            "nome": "Unguento di Origine",
+            "mostrare": true
+          },
+          {
+            "nome": "Unguento di Pelle di Rospo",
+            "mostrare": true
+          },
+          {
+            "nome": "Uovo del Grido del Gufo",
+            "mostrare": true
+          },
+          {
+            "nome": "Vaccino",
+            "mostrare": true
+          },
+          {
+            "nome": "Vapore Irritante",
+            "mostrare": true
+          },
+          {
+            "nome": "Vapore Mozzafiato",
+            "mostrare": true
+          },
+          {
+            "nome": "Vapore dell'Incubo",
+            "mostrare": true
+          },
+          {
+            "nome": "Vapore di Luce Solare",
+            "mostrare": true
+          },
+          {
+            "nome": "Vaso di Mukradi",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno Astringente",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno Nero a Macchia",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno Stordente",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno Testa di Clava",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno Viola",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno Warpwobble",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno del Cobra Nero",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno del Millepiedi Gigante",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno del Verme Viola",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno del Verme della Caverna",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno della Lentezza",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno della Libellula Blu",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno della Rana Lancia",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno di Ragno",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno di Scorpione Gigante",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno di Vespa Gigante",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno di Wyvern",
+            "mostrare": true
+          },
+          {
+            "nome": "Velo Soffocante",
+            "mostrare": true
+          },
+          {
+            "nome": "Vino Medicinale di Matsuki",
+            "mostrare": true
+          },
+          {
+            "nome": "Vino del Sonno",
+            "mostrare": true
+          },
+          {
+            "nome": "Vino dell’Arbor",
+            "mostrare": true
+          },
+          {
+            "nome": "Vino di Ferro",
+            "mostrare": true
+          },
+          {
+            "nome": "Vino di Ghiaccio di Alkenstar",
+            "mostrare": true
+          },
+          {
+            "nome": "Waffles Cooperativi",
+            "mostrare": true
+          },
+          {
+            "nome": "Zerk",
+            "mostrare": true
+          },
+          {
+            "nome": "Zuppa del Riparatore",
+            "mostrare": true
+          },
+          {
+            "nome": "Zuppa del Tracciatore",
+            "mostrare": true
+          },
+          {
+            "nome": "Zuppa di Lastwall",
+            "mostrare": true
+          },
+          {
+            "nome": "Zuppa di Ravanello Lunare",
+            "mostrare": true
+          }
+        ]
+      },
+      {
+        "tipo": "file",
         "nome": "scudi.json",
         "contenuto": [
           {
@@ -17730,10 +19259,6 @@
             "mostrare": true
           },
           {
-            "nome": "Atterraggio Morbido",
-            "mostrare": true
-          },
-          {
             "nome": "Attirare Ira",
             "mostrare": true
           },
@@ -17779,10 +19304,6 @@
           },
           {
             "nome": "Battuta Mancata",
-            "mostrare": true
-          },
-          {
-            "nome": "Benedizione dell’Arma d’Assedio",
             "mostrare": true
           },
           {
@@ -17851,6 +19372,10 @@
           },
           {
             "nome": "Bufera Ululante",
+            "mostrare": true
+          },
+          {
+            "nome": "Buonodizione dell’Arma d’Assedio",
             "mostrare": true
           },
           {
@@ -18250,10 +19775,6 @@
             "mostrare": true
           },
           {
-            "nome": "Esercito d’Ombre",
-            "mostrare": true
-          },
-          {
             "nome": "Esilio",
             "mostrare": true
           },
@@ -18346,15 +19867,15 @@
             "mostrare": true
           },
           {
-            "nome": "Evocare Fleshforged Antico",
+            "nome": "Evocazione Fleshforged Antico",
             "mostrare": true
           },
           {
-            "nome": "Evocare Fluxwraith",
+            "nome": "Evocazione Fluxwraith",
             "mostrare": true
           },
           {
-            "nome": "Evocare Legione Draconica",
+            "nome": "Evocazione Legione Draconica",
             "mostrare": true
           },
           {
@@ -18950,10 +20471,6 @@
             "mostrare": true
           },
           {
-            "nome": "Marchio di Sangue",
-            "mostrare": true
-          },
-          {
             "nome": "Marchio di Ymeri",
             "mostrare": true
           },
@@ -19006,11 +20523,11 @@
             "mostrare": true
           },
           {
-            "nome": "Metalli Nocivi",
+            "nome": "Metallo Rovente",
             "mostrare": true
           },
           {
-            "nome": "Metallo Rovente",
+            "nome": "Metalloli Nocivi",
             "mostrare": true
           },
           {
@@ -19159,10 +20676,6 @@
           },
           {
             "nome": "Nulla nella Manica",
-            "mostrare": true
-          },
-          {
-            "nome": "Numero Fortunato",
             "mostrare": true
           },
           {
@@ -19602,10 +21115,6 @@
             "mostrare": true
           },
           {
-            "nome": "Raffica di Vento",
-            "mostrare": true
-          },
-          {
             "nome": "Raggio Ammonitore",
             "mostrare": true
           },
@@ -19647,14 +21156,6 @@
           },
           {
             "nome": "Repulsione",
-            "mostrare": true
-          },
-          {
-            "nome": "Repulsione Magnetica",
-            "mostrare": true
-          },
-          {
-            "nome": "Repulsione Magnetica",
             "mostrare": true
           },
           {
@@ -20130,10 +21631,6 @@
             "mostrare": true
           },
           {
-            "nome": "Spiriti del Legno Utili",
-            "mostrare": true
-          },
-          {
             "nome": "Spostare la Colpa",
             "mostrare": true
           },
@@ -20454,7 +21951,7 @@
             "mostrare": true
           },
           {
-            "nome": "Vitalità Falsa",
+            "nome": "Vitalitalita Falsa",
             "mostrare": true
           },
           {
@@ -20515,6 +22012,10 @@
           },
           {
             "nome": "Zona di Pressione",
+            "mostrare": true
+          },
+          {
+            "nome": "spiritoi del Legno Utili",
             "mostrare": true
           }
         ]
@@ -20640,10 +22141,6 @@
             "mostrare": true
           },
           {
-            "nome": "Gabbia Olografica",
-            "mostrare": true
-          },
-          {
             "nome": "Ghiaccio Aderente",
             "mostrare": true
           },
@@ -20653,10 +22150,6 @@
           },
           {
             "nome": "Grido di Vittoria",
-            "mostrare": true
-          },
-          {
-            "nome": "Idea Contagiosa",
             "mostrare": true
           },
           {
@@ -20693,10 +22186,6 @@
           },
           {
             "nome": "Ira dell’Eidolon",
-            "mostrare": true
-          },
-          {
-            "nome": "Lama Danzante",
             "mostrare": true
           },
           {
@@ -21086,22 +22575,6 @@
             "mostrare": true
           },
           {
-            "nome": "Benedizione",
-            "mostrare": true
-          },
-          {
-            "nome": "Benedizione",
-            "mostrare": true
-          },
-          {
-            "nome": "Benedizione della Sfida",
-            "mostrare": true
-          },
-          {
-            "nome": "Benedizione dell’Arma d’Assedio",
-            "mostrare": true
-          },
-          {
             "nome": "Bestie Sacre",
             "mostrare": true
           },
@@ -21135,6 +22608,18 @@
           },
           {
             "nome": "Budella da Arrampicata",
+            "mostrare": true
+          },
+          {
+            "nome": "Buonodizione",
+            "mostrare": true
+          },
+          {
+            "nome": "Buonodizione della Sfida",
+            "mostrare": true
+          },
+          {
+            "nome": "Buonodizione dell’Arma d’Assedio",
             "mostrare": true
           },
           {
@@ -21310,10 +22795,6 @@
             "mostrare": true
           },
           {
-            "nome": "Cura",
-            "mostrare": true
-          },
-          {
             "nome": "Danno",
             "mostrare": true
           },
@@ -21398,7 +22879,7 @@
             "mostrare": true
           },
           {
-            "nome": "Esecuzione",
+            "nome": "Eseguire",
             "mostrare": true
           },
           {
@@ -21482,7 +22963,7 @@
             "mostrare": true
           },
           {
-            "nome": "Evocare Fluxwraith",
+            "nome": "Evocazione Fluxwraith",
             "mostrare": true
           },
           {
@@ -21607,6 +23088,10 @@
           },
           {
             "nome": "Guardiano Spirituale",
+            "mostrare": true
+          },
+          {
+            "nome": "Guarigione",
             "mostrare": true
           },
           {
@@ -22788,10 +24273,6 @@
             "mostrare": true
           },
           {
-            "nome": "Cerchio di Ranage",
-            "mostrare": true
-          },
-          {
             "nome": "Cespuglio di Rovi",
             "mostrare": true
           },
@@ -22932,11 +24413,11 @@
             "mostrare": true
           },
           {
-            "nome": "Evocare Elementale",
+            "nome": "Evocazione Elementale",
             "mostrare": true
           },
           {
-            "nome": "Evocare Gigante",
+            "nome": "Evocazione Gigante",
             "mostrare": true
           },
           {
@@ -23144,10 +24625,6 @@
             "mostrare": true
           },
           {
-            "nome": "Liana Omicida",
-            "mostrare": true
-          },
-          {
             "nome": "Lignificazione",
             "mostrare": true
           },
@@ -23204,7 +24681,7 @@
             "mostrare": true
           },
           {
-            "nome": "Metalli Nocivi",
+            "nome": "Metalloli Nocivi",
             "mostrare": true
           },
           {
@@ -23397,10 +24874,6 @@
           },
           {
             "nome": "Protezione Antiscavo",
-            "mostrare": true
-          },
-          {
-            "nome": "Protezione della Fenice",
             "mostrare": true
           },
           {
@@ -23672,10 +25145,6 @@
             "mostrare": true
           },
           {
-            "nome": "Spiriti del Legno Collaborativi",
-            "mostrare": true
-          },
-          {
             "nome": "Stasi Soffocante",
             "mostrare": true
           },
@@ -23689,10 +25158,6 @@
           },
           {
             "nome": "Tempesta Irata",
-            "mostrare": true
-          },
-          {
-            "nome": "Tempesta di Petali",
             "mostrare": true
           },
           {
@@ -23829,6 +25294,10 @@
           },
           {
             "nome": "Zona di Pressione",
+            "mostrare": true
+          },
+          {
+            "nome": "spiritoi del Legno Collaborativi",
             "mostrare": true
           }
         ]
@@ -24034,14 +25503,6 @@
             "mostrare": true
           },
           {
-            "nome": "Benedizione del Guaritore",
-            "mostrare": true
-          },
-          {
-            "nome": "Benedizione della Non Morte",
-            "mostrare": true
-          },
-          {
             "nome": "Bile della Terra",
             "mostrare": true
           },
@@ -24051,6 +25512,14 @@
           },
           {
             "nome": "Bufera Personale",
+            "mostrare": true
+          },
+          {
+            "nome": "Buonodizione del Guaritore",
+            "mostrare": true
+          },
+          {
+            "nome": "Buonodizione della Non Morte",
             "mostrare": true
           },
           {
@@ -24171,14 +25640,6 @@
           },
           {
             "nome": "Cuore Vuoto",
-            "mostrare": true
-          },
-          {
-            "nome": "Curare Animale",
-            "mostrare": true
-          },
-          {
-            "nome": "Curare Compagno",
             "mostrare": true
           },
           {
@@ -24454,7 +25915,11 @@
             "mostrare": true
           },
           {
-            "nome": "Illusione d’Ombra",
+            "nome": "Guarigionere Animale",
+            "mostrare": true
+          },
+          {
+            "nome": "Guarigionere Compagno",
             "mostrare": true
           },
           {
@@ -24498,7 +25963,7 @@
             "mostrare": true
           },
           {
-            "nome": "Incarnazione della Battaglia",
+            "nome": "Incarnato della Battaglia",
             "mostrare": true
           },
           {
@@ -24654,7 +26119,7 @@
             "mostrare": true
           },
           {
-            "nome": "Metalli Preziosi",
+            "nome": "Metalloli Preziosi",
             "mostrare": true
           },
           {
@@ -25126,10 +26591,6 @@
             "mostrare": true
           },
           {
-            "nome": "Spirito della Bestia",
-            "mostrare": true
-          },
-          {
             "nome": "Spostamento Improvviso",
             "mostrare": true
           },
@@ -25343,6 +26804,14 @@
           },
           {
             "nome": "Zelo per la Battaglia",
+            "mostrare": true
+          },
+          {
+            "nome": "illusione d’Ombra",
+            "mostrare": true
+          },
+          {
+            "nome": "spirito della Bestia",
             "mostrare": true
           }
         ]
@@ -25572,10 +27041,6 @@
             "mostrare": true
           },
           {
-            "nome": "Benedizione dell’Arma d’Assedio",
-            "mostrare": true
-          },
-          {
             "nome": "Bersaglio Perfetto",
             "mostrare": true
           },
@@ -25620,6 +27085,10 @@
             "mostrare": true
           },
           {
+            "nome": "Buonodizione dell’Arma d’Assedio",
+            "mostrare": true
+          },
+          {
             "nome": "Cadavere Parlante",
             "mostrare": true
           },
@@ -25629,10 +27098,6 @@
           },
           {
             "nome": "Caligine Indolente",
-            "mostrare": true
-          },
-          {
-            "nome": "Calmare",
             "mostrare": true
           },
           {
@@ -25960,10 +27425,6 @@
             "mostrare": true
           },
           {
-            "nome": "Esercito d’Ombre",
-            "mostrare": true
-          },
-          {
             "nome": "Esilio",
             "mostrare": true
           },
@@ -26024,11 +27485,11 @@
             "mostrare": true
           },
           {
-            "nome": "Evocare Fleshforged Antico",
+            "nome": "Evocazione Fleshforged Antico",
             "mostrare": true
           },
           {
-            "nome": "Evocare Fluxwraith",
+            "nome": "Evocazione Fluxwraith",
             "mostrare": true
           },
           {
@@ -26580,10 +28041,6 @@
             "mostrare": true
           },
           {
-            "nome": "Marchio di Sangue",
-            "mostrare": true
-          },
-          {
             "nome": "Marcia Immortale",
             "mostrare": true
           },
@@ -26709,10 +28166,6 @@
           },
           {
             "nome": "Nulla nella Manica",
-            "mostrare": true
-          },
-          {
-            "nome": "Numero Fortunato",
             "mostrare": true
           },
           {
@@ -27704,7 +29157,7 @@
             "mostrare": true
           },
           {
-            "nome": "Vitalità Falsa",
+            "nome": "Vitalitalita Falsa",
             "mostrare": true
           },
           {
@@ -27862,10 +29315,6 @@
             "mostrare": true
           },
           {
-            "nome": "Atterraggio Morbido",
-            "mostrare": true
-          },
-          {
             "nome": "Attrazione Magnetica",
             "mostrare": true
           },
@@ -27895,10 +29344,6 @@
           },
           {
             "nome": "Barrage Esplosivo",
-            "mostrare": true
-          },
-          {
-            "nome": "Benedizione della Sfida",
             "mostrare": true
           },
           {
@@ -27955,6 +29400,10 @@
           },
           {
             "nome": "Bufera Ululante",
+            "mostrare": true
+          },
+          {
+            "nome": "Buonodizione della Sfida",
             "mostrare": true
           },
           {
@@ -28146,10 +29595,6 @@
             "mostrare": true
           },
           {
-            "nome": "Cura",
-            "mostrare": true
-          },
-          {
             "nome": "Danzatore di Fiamme",
             "mostrare": true
           },
@@ -28234,7 +29679,7 @@
             "mostrare": true
           },
           {
-            "nome": "Esecuzione",
+            "nome": "Eseguire",
             "mostrare": true
           },
           {
@@ -28334,7 +29779,7 @@
             "mostrare": true
           },
           {
-            "nome": "Evocare Carica",
+            "nome": "Evocazione Carica",
             "mostrare": true
           },
           {
@@ -28595,6 +30040,10 @@
           },
           {
             "nome": "Grido dell’Aquila",
+            "mostrare": true
+          },
+          {
+            "nome": "Guarigione",
             "mostrare": true
           },
           {
@@ -29294,10 +30743,6 @@
             "mostrare": true
           },
           {
-            "nome": "Raffica di Vento",
-            "mostrare": true
-          },
-          {
             "nome": "Raggio Radioso",
             "mostrare": true
           },
@@ -29331,14 +30776,6 @@
           },
           {
             "nome": "Referendum dei Bralani",
-            "mostrare": true
-          },
-          {
-            "nome": "Repulsione Magnetica",
-            "mostrare": true
-          },
-          {
-            "nome": "Repulsione Magnetica",
             "mostrare": true
           },
           {
@@ -29670,10 +31107,6 @@
             "mostrare": true
           },
           {
-            "nome": "Spiriti del Legno Utili",
-            "mostrare": true
-          },
-          {
             "nome": "Spruzzo Gelido",
             "mostrare": true
           },
@@ -29944,6 +31377,10 @@
           {
             "nome": "Zona di Pressione",
             "mostrare": true
+          },
+          {
+            "nome": "spiritoi del Legno Utili",
+            "mostrare": true
           }
         ]
       },
@@ -29992,11 +31429,11 @@
             "mostrare": true
           },
           {
-            "nome": "Benedizione della Madre",
+            "nome": "Boschi Incombenti",
             "mostrare": true
           },
           {
-            "nome": "Boschi Incombenti",
+            "nome": "Buonodizione della Madre",
             "mostrare": true
           },
           {
@@ -37949,11 +39386,2401 @@
   },
   {
     "tipo": "directory",
+    "nome": "regole",
+    "sottofile": [
+      {
+        "tipo": "file",
+        "nome": "condizioni.json",
+        "contenuto": [
+          {
+            "nome": "Abbagliato",
+            "mostrare": true
+          },
+          {
+            "nome": "Accecato",
+            "mostrare": true
+          },
+          {
+            "nome": "Accelerato",
+            "mostrare": true
+          },
+          {
+            "nome": "Affascinato",
+            "mostrare": true
+          },
+          {
+            "nome": "Affaticato",
+            "mostrare": true
+          },
+          {
+            "nome": "Afferrato",
+            "mostrare": true
+          },
+          {
+            "nome": "Amichevole",
+            "mostrare": true
+          },
+          {
+            "nome": "Assordato",
+            "mostrare": true
+          },
+          {
+            "nome": "Colto alla Sprovvista",
+            "mostrare": true
+          },
+          {
+            "nome": "Condannato",
+            "mostrare": true
+          },
+          {
+            "nome": "Confuso",
+            "mostrare": true
+          },
+          {
+            "nome": "Controllato",
+            "mostrare": true
+          },
+          {
+            "nome": "Danni Persistenti",
+            "mostrare": true
+          },
+          {
+            "nome": "Disponibile",
+            "mostrare": true
+          },
+          {
+            "nome": "Dissanguato",
+            "mostrare": true
+          },
+          {
+            "nome": "Ferito",
+            "mostrare": true
+          },
+          {
+            "nome": "Immobilizzato",
+            "mostrare": true
+          },
+          {
+            "nome": "In Fuga",
+            "mostrare": true
+          },
+          {
+            "nome": "Incosciente",
+            "mostrare": true
+          },
+          {
+            "nome": "Indebolito",
+            "mostrare": true
+          },
+          {
+            "nome": "Indifferente",
+            "mostrare": true
+          },
+          {
+            "nome": "Ingombrato",
+            "mostrare": true
+          },
+          {
+            "nome": "Invisibile",
+            "mostrare": true
+          },
+          {
+            "nome": "Maldestro",
+            "mostrare": true
+          },
+          {
+            "nome": "Morente",
+            "mostrare": true
+          },
+          {
+            "nome": "Nascosto",
+            "mostrare": true
+          },
+          {
+            "nome": "Nauseato",
+            "mostrare": true
+          },
+          {
+            "nome": "Non Notato",
+            "mostrare": true
+          },
+          {
+            "nome": "Non Rilevato",
+            "mostrare": true
+          },
+          {
+            "nome": "Occultato",
+            "mostrare": true
+          },
+          {
+            "nome": "Osservato",
+            "mostrare": true
+          },
+          {
+            "nome": "Ostile",
+            "mostrare": true
+          },
+          {
+            "nome": "Paralizzato",
+            "mostrare": true
+          },
+          {
+            "nome": "Pietrificato",
+            "mostrare": true
+          },
+          {
+            "nome": "Prono",
+            "mostrare": true
+          },
+          {
+            "nome": "Rallentato",
+            "mostrare": true
+          },
+          {
+            "nome": "Rotto",
+            "mostrare": true
+          },
+          {
+            "nome": "Sfavorevole",
+            "mostrare": true
+          },
+          {
+            "nome": "Spaventato",
+            "mostrare": true
+          },
+          {
+            "nome": "Stordito",
+            "mostrare": true
+          },
+          {
+            "nome": "Stordito Mentalmente",
+            "mostrare": true
+          },
+          {
+            "nome": "Trattenuto",
+            "mostrare": true
+          }
+        ]
+      },
+      {
+        "tipo": "file",
+        "nome": "tratti.json",
+        "contenuto": [
+          {
+            "nome": "A Due Mani",
+            "mostrare": true
+          },
+          {
+            "nome": "A Ripetizione",
+            "mostrare": true
+          },
+          {
+            "nome": "Aasimar",
+            "mostrare": true
+          },
+          {
+            "nome": "Aberrazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Abilita",
+            "mostrare": true
+          },
+          {
+            "nome": "Abiurazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Accurata",
+            "mostrare": true
+          },
+          {
+            "nome": "Acido",
+            "mostrare": true
+          },
+          {
+            "nome": "Acqua",
+            "mostrare": true
+          },
+          {
+            "nome": "Acquatico",
+            "mostrare": true
+          },
+          {
+            "nome": "Addestramento",
+            "mostrare": true
+          },
+          {
+            "nome": "Additivo",
+            "mostrare": true
+          },
+          {
+            "nome": "Aeon",
+            "mostrare": true
+          },
+          {
+            "nome": "Aesir",
+            "mostrare": true
+          },
+          {
+            "nome": "Agathion",
+            "mostrare": true
+          },
+          {
+            "nome": "Agganciata",
+            "mostrare": true
+          },
+          {
+            "nome": "Agile",
+            "mostrare": true
+          },
+          {
+            "nome": "Aiuvarin",
+            "mostrare": true
+          },
+          {
+            "nome": "Alchemico",
+            "mostrare": true
+          },
+          {
+            "nome": "Alchimista",
+            "mostrare": true
+          },
+          {
+            "nome": "Alta Gravità",
+            "mostrare": true
+          },
+          {
+            "nome": "Ambientale",
+            "mostrare": true
+          },
+          {
+            "nome": "Ammaliamento",
+            "mostrare": true
+          },
+          {
+            "nome": "Ammaliare",
+            "mostrare": true
+          },
+          {
+            "nome": "Amp",
+            "mostrare": true
+          },
+          {
+            "nome": "Anadi",
+            "mostrare": true
+          },
+          {
+            "nome": "Android",
+            "mostrare": true
+          },
+          {
+            "nome": "Anfibio",
+            "mostrare": true
+          },
+          {
+            "nome": "Angelo",
+            "mostrare": true
+          },
+          {
+            "nome": "Animale",
+            "mostrare": true
+          },
+          {
+            "nome": "Animale Risvegliato",
+            "mostrare": true
+          },
+          {
+            "nome": "Animista",
+            "mostrare": true
+          },
+          {
+            "nome": "Anugobu",
+            "mostrare": true
+          },
+          {
+            "nome": "Apertura",
+            "mostrare": true
+          },
+          {
+            "nome": "Apex",
+            "mostrare": true
+          },
+          {
+            "nome": "Aphorite",
+            "mostrare": true
+          },
+          {
+            "nome": "Apparizione",
+            "mostrare": true
+          },
+          {
+            "nome": "Aquadinamico",
+            "mostrare": true
+          },
+          {
+            "nome": "Araldo",
+            "mostrare": true
+          },
+          {
+            "nome": "Arcano",
+            "mostrare": true
+          },
+          {
+            "nome": "Archetipo",
+            "mostrare": true
+          },
+          {
+            "nome": "Archon",
+            "mostrare": true
+          },
+          {
+            "nome": "Ardande",
+            "mostrare": true
+          },
+          {
+            "nome": "Aria",
+            "mostrare": true
+          },
+          {
+            "nome": "Arrampicata",
+            "mostrare": true
+          },
+          {
+            "nome": "Artefatto",
+            "mostrare": true
+          },
+          {
+            "nome": "Ascendenza Universale",
+            "mostrare": true
+          },
+          {
+            "nome": "Assedio",
+            "mostrare": true
+          },
+          {
+            "nome": "Astrale",
+            "mostrare": true
+          },
+          {
+            "nome": "Asura",
+            "mostrare": true
+          },
+          {
+            "nome": "Athamaru",
+            "mostrare": true
+          },
+          {
+            "nome": "Attacco",
+            "mostrare": true
+          },
+          {
+            "nome": "Aura",
+            "mostrare": true
+          },
+          {
+            "nome": "Automa",
+            "mostrare": true
+          },
+          {
+            "nome": "Azarketi",
+            "mostrare": true
+          },
+          {
+            "nome": "Azata",
+            "mostrare": true
+          },
+          {
+            "nome": "Bacchetta",
+            "mostrare": true
+          },
+          {
+            "nome": "Baluardo",
+            "mostrare": true
+          },
+          {
+            "nome": "Barbaro",
+            "mostrare": true
+          },
+          {
+            "nome": "Bardatura",
+            "mostrare": true
+          },
+          {
+            "nome": "Bardo",
+            "mostrare": true
+          },
+          {
+            "nome": "Bassa Gravità",
+            "mostrare": true
+          },
+          {
+            "nome": "Bastone",
+            "mostrare": true
+          },
+          {
+            "nome": "Benefico",
+            "mostrare": true
+          },
+          {
+            "nome": "Bestia",
+            "mostrare": true
+          },
+          {
+            "nome": "Blight",
+            "mostrare": true
+          },
+          {
+            "nome": "Boggard",
+            "mostrare": true
+          },
+          {
+            "nome": "Bomba",
+            "mostrare": true
+          },
+          {
+            "nome": "Bravura",
+            "mostrare": true
+          },
+          {
+            "nome": "Brutale",
+            "mostrare": true
+          },
+          {
+            "nome": "Bugbear",
+            "mostrare": true
+          },
+          {
+            "nome": "Buono",
+            "mostrare": true
+          },
+          {
+            "nome": "Caccia Selvaggia",
+            "mostrare": true
+          },
+          {
+            "nome": "Caligni",
+            "mostrare": true
+          },
+          {
+            "nome": "Campeggio",
+            "mostrare": true
+          },
+          {
+            "nome": "Campione",
+            "mostrare": true
+          },
+          {
+            "nome": "Caotico",
+            "mostrare": true
+          },
+          {
+            "nome": "Capacità",
+            "mostrare": true
+          },
+          {
+            "nome": "Catalizzatore",
+            "mostrare": true
+          },
+          {
+            "nome": "Catfolk",
+            "mostrare": true
+          },
+          {
+            "nome": "Cavalca-Anime",
+            "mostrare": true
+          },
+          {
+            "nome": "Cavalleria",
+            "mostrare": true
+          },
+          {
+            "nome": "Celestiale",
+            "mostrare": true
+          },
+          {
+            "nome": "Centauro",
+            "mostrare": true
+          },
+          {
+            "nome": "Changeling",
+            "mostrare": true
+          },
+          {
+            "nome": "Charau-ka",
+            "mostrare": true
+          },
+          {
+            "nome": "Chiamata",
+            "mostrare": true
+          },
+          {
+            "nome": "Chierico",
+            "mostrare": true
+          },
+          {
+            "nome": "Cineta",
+            "mostrare": true
+          },
+          {
+            "nome": "Circo",
+            "mostrare": true
+          },
+          {
+            "nome": "Cittadina",
+            "mostrare": true
+          },
+          {
+            "nome": "Città",
+            "mostrare": true
+          },
+          {
+            "nome": "Civico",
+            "mostrare": true
+          },
+          {
+            "nome": "Classe",
+            "mostrare": true
+          },
+          {
+            "nome": "Coagulante",
+            "mostrare": true
+          },
+          {
+            "nome": "Coatl",
+            "mostrare": true
+          },
+          {
+            "nome": "Coda",
+            "mostrare": true
+          },
+          {
+            "nome": "Colpo alle Spalle",
+            "mostrare": true
+          },
+          {
+            "nome": "Colpo-incantato",
+            "mostrare": true
+          },
+          {
+            "nome": "Comandante",
+            "mostrare": true
+          },
+          {
+            "nome": "Combinata",
+            "mostrare": true
+          },
+          {
+            "nome": "Commercio",
+            "mostrare": true
+          },
+          {
+            "nome": "Comodo",
+            "mostrare": true
+          },
+          {
+            "nome": "Compagno",
+            "mostrare": true
+          },
+          {
+            "nome": "Complesso",
+            "mostrare": true
+          },
+          {
+            "nome": "Composito",
+            "mostrare": true
+          },
+          {
+            "nome": "Composizione",
+            "mostrare": true
+          },
+          {
+            "nome": "Comune",
+            "mostrare": true
+          },
+          {
+            "nome": "Concentrazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Concussivo",
+            "mostrare": true
+          },
+          {
+            "nome": "Conrasu",
+            "mostrare": true
+          },
+          {
+            "nome": "Consacrazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Conseguenza",
+            "mostrare": true
+          },
+          {
+            "nome": "Consumabile",
+            "mostrare": true
+          },
+          {
+            "nome": "Contatto",
+            "mostrare": true
+          },
+          {
+            "nome": "Contingenza",
+            "mostrare": true
+          },
+          {
+            "nome": "Continuo",
+            "mostrare": true
+          },
+          {
+            "nome": "Contraccolpo",
+            "mostrare": true
+          },
+          {
+            "nome": "Contratto",
+            "mostrare": true
+          },
+          {
+            "nome": "Corte dei Tarocchi",
+            "mostrare": true
+          },
+          {
+            "nome": "Cortile",
+            "mostrare": true
+          },
+          {
+            "nome": "Costrutto",
+            "mostrare": true
+          },
+          {
+            "nome": "Cuore d'Incantesimo",
+            "mostrare": true
+          },
+          {
+            "nome": "Daemon",
+            "mostrare": true
+          },
+          {
+            "nome": "Darvakka",
+            "mostrare": true
+          },
+          {
+            "nome": "Dedicazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Demone",
+            "mostrare": true
+          },
+          {
+            "nome": "Dero",
+            "mostrare": true
+          },
+          {
+            "nome": "Destino",
+            "mostrare": true
+          },
+          {
+            "nome": "Devastante",
+            "mostrare": true
+          },
+          {
+            "nome": "Deviante",
+            "mostrare": true
+          },
+          {
+            "nome": "Deviante",
+            "mostrare": true
+          },
+          {
+            "nome": "Dhampir",
+            "mostrare": true
+          },
+          {
+            "nome": "Diavolo",
+            "mostrare": true
+          },
+          {
+            "nome": "Diavolo Marino",
+            "mostrare": true
+          },
+          {
+            "nome": "Dinosauro",
+            "mostrare": true
+          },
+          {
+            "nome": "Disarmare",
+            "mostrare": true
+          },
+          {
+            "nome": "Dispersione",
+            "mostrare": true
+          },
+          {
+            "nome": "Div",
+            "mostrare": true
+          },
+          {
+            "nome": "Divinazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Divino",
+            "mostrare": true
+          },
+          {
+            "nome": "Doppia Canna",
+            "mostrare": true
+          },
+          {
+            "nome": "Draghetto",
+            "mostrare": true
+          },
+          {
+            "nome": "Drago",
+            "mostrare": true
+          },
+          {
+            "nome": "Droga",
+            "mostrare": true
+          },
+          {
+            "nome": "Dromaar",
+            "mostrare": true
+          },
+          {
+            "nome": "Drow",
+            "mostrare": true
+          },
+          {
+            "nome": "Druido",
+            "mostrare": true
+          },
+          {
+            "nome": "Duskwalker",
+            "mostrare": true
+          },
+          {
+            "nome": "Edificio",
+            "mostrare": true
+          },
+          {
+            "nome": "Edificio Monumentale",
+            "mostrare": true
+          },
+          {
+            "nome": "Eidolon",
+            "mostrare": true
+          },
+          {
+            "nome": "Elementale",
+            "mostrare": true
+          },
+          {
+            "nome": "Elettricita",
+            "mostrare": true
+          },
+          {
+            "nome": "Elfo",
+            "mostrare": true
+          },
+          {
+            "nome": "Elisir",
+            "mostrare": true
+          },
+          {
+            "nome": "Emozione",
+            "mostrare": true
+          },
+          {
+            "nome": "Empio",
+            "mostrare": true
+          },
+          {
+            "nome": "Eredità",
+            "mostrare": true
+          },
+          {
+            "nome": "Errante",
+            "mostrare": true
+          },
+          {
+            "nome": "Erratico",
+            "mostrare": true
+          },
+          {
+            "nome": "Esagono-KM",
+            "mostrare": true
+          },
+          {
+            "nome": "Esercito",
+            "mostrare": true
+          },
+          {
+            "nome": "Esoterica",
+            "mostrare": true
+          },
+          {
+            "nome": "Espandibile",
+            "mostrare": true
+          },
+          {
+            "nome": "Esplorazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Etereo",
+            "mostrare": true
+          },
+          {
+            "nome": "Evocato",
+            "mostrare": true
+          },
+          {
+            "nome": "Evocatore",
+            "mostrare": true
+          },
+          {
+            "nome": "Evocazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Evocazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Evoluzione",
+            "mostrare": true
+          },
+          {
+            "nome": "Exemplar",
+            "mostrare": true
+          },
+          {
+            "nome": "Extradimensionale",
+            "mostrare": true
+          },
+          {
+            "nome": "Famoso",
+            "mostrare": true
+          },
+          {
+            "nome": "Fantasma",
+            "mostrare": true
+          },
+          {
+            "nome": "Fantasma",
+            "mostrare": true
+          },
+          {
+            "nome": "Fanteria",
+            "mostrare": true
+          },
+          {
+            "nome": "Fata",
+            "mostrare": true
+          },
+          {
+            "nome": "Fatale",
+            "mostrare": true
+          },
+          {
+            "nome": "Ferita",
+            "mostrare": true
+          },
+          {
+            "nome": "Fetchling",
+            "mostrare": true
+          },
+          {
+            "nome": "Finale",
+            "mostrare": true
+          },
+          {
+            "nome": "Finito",
+            "mostrare": true
+          },
+          {
+            "nome": "Fioritura",
+            "mostrare": true
+          },
+          {
+            "nome": "Fleshwarp",
+            "mostrare": true
+          },
+          {
+            "nome": "Flessibile",
+            "mostrare": true
+          },
+          {
+            "nome": "Focalizzato",
+            "mostrare": true
+          },
+          {
+            "nome": "Focalizzazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Formian",
+            "mostrare": true
+          },
+          {
+            "nome": "Fortuna",
+            "mostrare": true
+          },
+          {
+            "nome": "Forza",
+            "mostrare": true
+          },
+          {
+            "nome": "Freddo",
+            "mostrare": true
+          },
+          {
+            "nome": "Fulu",
+            "mostrare": true
+          },
+          {
+            "nome": "Fungo",
+            "mostrare": true
+          },
+          {
+            "nome": "Fuoco",
+            "mostrare": true
+          },
+          {
+            "nome": "Furfante",
+            "mostrare": true
+          },
+          {
+            "nome": "Fusione Critici",
+            "mostrare": true
+          },
+          {
+            "nome": "Gadget",
+            "mostrare": true
+          },
+          {
+            "nome": "Ganzi",
+            "mostrare": true
+          },
+          {
+            "nome": "Gemellata",
+            "mostrare": true
+          },
+          {
+            "nome": "Generale",
+            "mostrare": true
+          },
+          {
+            "nome": "Geniekin",
+            "mostrare": true
+          },
+          {
+            "nome": "Genio",
+            "mostrare": true
+          },
+          {
+            "nome": "Ghoran",
+            "mostrare": true
+          },
+          {
+            "nome": "Ghoul",
+            "mostrare": true
+          },
+          {
+            "nome": "Ghul",
+            "mostrare": true
+          },
+          {
+            "nome": "Gigante",
+            "mostrare": true
+          },
+          {
+            "nome": "Gigas",
+            "mostrare": true
+          },
+          {
+            "nome": "Giostra",
+            "mostrare": true
+          },
+          {
+            "nome": "Girtablilu",
+            "mostrare": true
+          },
+          {
+            "nome": "Gittata",
+            "mostrare": true
+          },
+          {
+            "nome": "Giuramento",
+            "mostrare": true
+          },
+          {
+            "nome": "Gnomo",
+            "mostrare": true
+          },
+          {
+            "nome": "Goblin",
+            "mostrare": true
+          },
+          {
+            "nome": "Golem",
+            "mostrare": true
+          },
+          {
+            "nome": "Goloma",
+            "mostrare": true
+          },
+          {
+            "nome": "Graveknight",
+            "mostrare": true
+          },
+          {
+            "nome": "Gravità Soggettiva",
+            "mostrare": true
+          },
+          {
+            "nome": "Gravità Strana",
+            "mostrare": true
+          },
+          {
+            "nome": "Gregario",
+            "mostrare": true
+          },
+          {
+            "nome": "Gremlin",
+            "mostrare": true
+          },
+          {
+            "nome": "Grimorio",
+            "mostrare": true
+          },
+          {
+            "nome": "Grioth",
+            "mostrare": true
+          },
+          {
+            "nome": "Grippli",
+            "mostrare": true
+          },
+          {
+            "nome": "Guardiano",
+            "mostrare": true
+          },
+          {
+            "nome": "Guarigione",
+            "mostrare": true
+          },
+          {
+            "nome": "Guerriero",
+            "mostrare": true
+          },
+          {
+            "nome": "Halfling",
+            "mostrare": true
+          },
+          {
+            "nome": "Hantu",
+            "mostrare": true
+          },
+          {
+            "nome": "Hobgoblin",
+            "mostrare": true
+          },
+          {
+            "nome": "Hryngar",
+            "mostrare": true
+          },
+          {
+            "nome": "Hungerseed",
+            "mostrare": true
+          },
+          {
+            "nome": "Ifrit",
+            "mostrare": true
+          },
+          {
+            "nome": "Ikeshti",
+            "mostrare": true
+          },
+          {
+            "nome": "Ikon",
+            "mostrare": true
+          },
+          {
+            "nome": "Illusione",
+            "mostrare": true
+          },
+          {
+            "nome": "Imbrigliato",
+            "mostrare": true
+          },
+          {
+            "nome": "Immondo",
+            "mostrare": true
+          },
+          {
+            "nome": "Impattante",
+            "mostrare": true
+          },
+          {
+            "nome": "Impulso",
+            "mostrare": true
+          },
+          {
+            "nome": "Inalazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Incapacita",
+            "mostrare": true
+          },
+          {
+            "nome": "Incarnato",
+            "mostrare": true
+          },
+          {
+            "nome": "Incastro",
+            "mostrare": true
+          },
+          {
+            "nome": "Incommensurabile",
+            "mostrare": true
+          },
+          {
+            "nome": "Incorporeo",
+            "mostrare": true
+          },
+          {
+            "nome": "Individuazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Inevitabile",
+            "mostrare": true
+          },
+          {
+            "nome": "Infame",
+            "mostrare": true
+          },
+          {
+            "nome": "Infestazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Infrastruttura",
+            "mostrare": true
+          },
+          {
+            "nome": "Infusione",
+            "mostrare": true
+          },
+          {
+            "nome": "Infuso",
+            "mostrare": true
+          },
+          {
+            "nome": "Ingestione",
+            "mostrare": true
+          },
+          {
+            "nome": "Iniezione",
+            "mostrare": true
+          },
+          {
+            "nome": "Innesto",
+            "mostrare": true
+          },
+          {
+            "nome": "Inscritto",
+            "mostrare": true
+          },
+          {
+            "nome": "Insediamento",
+            "mostrare": true
+          },
+          {
+            "nome": "Instabile",
+            "mostrare": true
+          },
+          {
+            "nome": "Integrato",
+            "mostrare": true
+          },
+          {
+            "nome": "Intelligente",
+            "mostrare": true
+          },
+          {
+            "nome": "Intermezzo",
+            "mostrare": true
+          },
+          {
+            "nome": "Intralciata",
+            "mostrare": true
+          },
+          {
+            "nome": "Inventore",
+            "mostrare": true
+          },
+          {
+            "nome": "Investigatore",
+            "mostrare": true
+          },
+          {
+            "nome": "Investito",
+            "mostrare": true
+          },
+          {
+            "nome": "Invocazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Ira",
+            "mostrare": true
+          },
+          {
+            "nome": "Jotunborn",
+            "mostrare": true
+          },
+          {
+            "nome": "Kaiju",
+            "mostrare": true
+          },
+          {
+            "nome": "Kami",
+            "mostrare": true
+          },
+          {
+            "nome": "Kashrishi",
+            "mostrare": true
+          },
+          {
+            "nome": "Kholo",
+            "mostrare": true
+          },
+          {
+            "nome": "Kitsune",
+            "mostrare": true
+          },
+          {
+            "nome": "Kobold",
+            "mostrare": true
+          },
+          {
+            "nome": "Kovintus",
+            "mostrare": true
+          },
+          {
+            "nome": "Lacerante",
+            "mostrare": true
+          },
+          {
+            "nome": "Lamellare",
+            "mostrare": true
+          },
+          {
+            "nome": "Lancia",
+            "mostrare": true
+          },
+          {
+            "nome": "Lancio",
+            "mostrare": true
+          },
+          {
+            "nome": "Lancio dello Scudo",
+            "mostrare": true
+          },
+          {
+            "nome": "Leadership",
+            "mostrare": true
+          },
+          {
+            "nome": "Legale",
+            "mostrare": true
+          },
+          {
+            "nome": "Legno",
+            "mostrare": true
+          },
+          {
+            "nome": "Leshy",
+            "mostrare": true
+          },
+          {
+            "nome": "Licantropo",
+            "mostrare": true
+          },
+          {
+            "nome": "Lilu",
+            "mostrare": true
+          },
+          {
+            "nome": "Linea di Sangue",
+            "mostrare": true
+          },
+          {
+            "nome": "Linguistico",
+            "mostrare": true
+          },
+          {
+            "nome": "Litania",
+            "mostrare": true
+          },
+          {
+            "nome": "Lizardfolk",
+            "mostrare": true
+          },
+          {
+            "nome": "Luce",
+            "mostrare": true
+          },
+          {
+            "nome": "Maftet",
+            "mostrare": true
+          },
+          {
+            "nome": "Magia Pervasiva",
+            "mostrare": true
+          },
+          {
+            "nome": "Magico",
+            "mostrare": true
+          },
+          {
+            "nome": "Mago",
+            "mostrare": true
+          },
+          {
+            "nome": "Magus",
+            "mostrare": true
+          },
+          {
+            "nome": "Malattia",
+            "mostrare": true
+          },
+          {
+            "nome": "Maledetto",
+            "mostrare": true
+          },
+          {
+            "nome": "Maledizione",
+            "mostrare": true
+          },
+          {
+            "nome": "Malvagio",
+            "mostrare": true
+          },
+          {
+            "nome": "Manipolare",
+            "mostrare": true
+          },
+          {
+            "nome": "Mano Libera",
+            "mostrare": true
+          },
+          {
+            "nome": "Manovra",
+            "mostrare": true
+          },
+          {
+            "nome": "Mantenimento",
+            "mostrare": true
+          },
+          {
+            "nome": "Meccanico",
+            "mostrare": true
+          },
+          {
+            "nome": "Meccanismo a Orologeria",
+            "mostrare": true
+          },
+          {
+            "nome": "Megera",
+            "mostrare": true
+          },
+          {
+            "nome": "Melma",
+            "mostrare": true
+          },
+          {
+            "nome": "Mentale",
+            "mostrare": true
+          },
+          {
+            "nome": "Merfolk",
+            "mostrare": true
+          },
+          {
+            "nome": "Metallo",
+            "mostrare": true
+          },
+          {
+            "nome": "Metamagia",
+            "mostrare": true
+          },
+          {
+            "nome": "Metamorfico",
+            "mostrare": true
+          },
+          {
+            "nome": "Metamorfosi",
+            "mostrare": true
+          },
+          {
+            "nome": "Meteo",
+            "mostrare": true
+          },
+          {
+            "nome": "Metropoli",
+            "mostrare": true
+          },
+          {
+            "nome": "Microgravità",
+            "mostrare": true
+          },
+          {
+            "nome": "Minotauro",
+            "mostrare": true
+          },
+          {
+            "nome": "Mira Fatale",
+            "mostrare": true
+          },
+          {
+            "nome": "Missiva",
+            "mostrare": true
+          },
+          {
+            "nome": "Mitico",
+            "mostrare": true
+          },
+          {
+            "nome": "Modifica",
+            "mostrare": true
+          },
+          {
+            "nome": "Modifica",
+            "mostrare": true
+          },
+          {
+            "nome": "Modificato",
+            "mostrare": true
+          },
+          {
+            "nome": "Modulare",
+            "mostrare": true
+          },
+          {
+            "nome": "Monaco",
+            "mostrare": true
+          },
+          {
+            "nome": "Monitor",
+            "mostrare": true
+          },
+          {
+            "nome": "Montato",
+            "mostrare": true
+          },
+          {
+            "nome": "Morale",
+            "mostrare": true
+          },
+          {
+            "nome": "Morfologico",
+            "mostrare": true
+          },
+          {
+            "nome": "Morlock",
+            "mostrare": true
+          },
+          {
+            "nome": "Mortale",
+            "mostrare": true
+          },
+          {
+            "nome": "Morte",
+            "mostrare": true
+          },
+          {
+            "nome": "Mortico",
+            "mostrare": true
+          },
+          {
+            "nome": "Movimento",
+            "mostrare": true
+          },
+          {
+            "nome": "Multiclasse",
+            "mostrare": true
+          },
+          {
+            "nome": "Mummia",
+            "mostrare": true
+          },
+          {
+            "nome": "Munavri",
+            "mostrare": true
+          },
+          {
+            "nome": "Munsahir",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutaforma",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutageno",
+            "mostrare": true
+          },
+          {
+            "nome": "Mutante",
+            "mostrare": true
+          },
+          {
+            "nome": "Naari",
+            "mostrare": true
+          },
+          {
+            "nome": "Nagaji",
+            "mostrare": true
+          },
+          {
+            "nome": "Nano",
+            "mostrare": true
+          },
+          {
+            "nome": "Nato dalle Spore",
+            "mostrare": true
+          },
+          {
+            "nome": "Necromanzia",
+            "mostrare": true
+          },
+          {
+            "nome": "Nephilim",
+            "mostrare": true
+          },
+          {
+            "nome": "Nindoru",
+            "mostrare": true
+          },
+          {
+            "nome": "Ninfa",
+            "mostrare": true
+          },
+          {
+            "nome": "Nome reale",
+            "mostrare": true
+          },
+          {
+            "nome": "Non Comune",
+            "mostrare": true
+          },
+          {
+            "nome": "Non Letale",
+            "mostrare": true
+          },
+          {
+            "nome": "Non Morto",
+            "mostrare": true
+          },
+          {
+            "nome": "Occultabile",
+            "mostrare": true
+          },
+          {
+            "nome": "Occulto",
+            "mostrare": true
+          },
+          {
+            "nome": "Olfattivo",
+            "mostrare": true
+          },
+          {
+            "nome": "Olio",
+            "mostrare": true
+          },
+          {
+            "nome": "Ombra",
+            "mostrare": true
+          },
+          {
+            "nome": "Oni",
+            "mostrare": true
+          },
+          {
+            "nome": "Oracolo",
+            "mostrare": true
+          },
+          {
+            "nome": "Orco",
+            "mostrare": true
+          },
+          {
+            "nome": "Oread",
+            "mostrare": true
+          },
+          {
+            "nome": "Oscurità",
+            "mostrare": true
+          },
+          {
+            "nome": "Ostacolante",
+            "mostrare": true
+          },
+          {
+            "nome": "Paaridar",
+            "mostrare": true
+          },
+          {
+            "nome": "Palinthanos",
+            "mostrare": true
+          },
+          {
+            "nome": "Parata",
+            "mostrare": true
+          },
+          {
+            "nome": "Pastiglia",
+            "mostrare": true
+          },
+          {
+            "nome": "Pasto",
+            "mostrare": true
+          },
+          {
+            "nome": "Paura",
+            "mostrare": true
+          },
+          {
+            "nome": "Pelle-bestiale",
+            "mostrare": true
+          },
+          {
+            "nome": "Pergamena",
+            "mostrare": true
+          },
+          {
+            "nome": "Pericoloso",
+            "mostrare": true
+          },
+          {
+            "nome": "Pesante",
+            "mostrare": true
+          },
+          {
+            "nome": "Pianta",
+            "mostrare": true
+          },
+          {
+            "nome": "Pietra per Affilare",
+            "mostrare": true
+          },
+          {
+            "nome": "Pistola d'Incantesimi",
+            "mostrare": true
+          },
+          {
+            "nome": "Pistolero",
+            "mostrare": true
+          },
+          {
+            "nome": "Polena",
+            "mostrare": true
+          },
+          {
+            "nome": "Ponderoso",
+            "mostrare": true
+          },
+          {
+            "nome": "Poppet",
+            "mostrare": true
+          },
+          {
+            "nome": "Portata",
+            "mostrare": true
+          },
+          {
+            "nome": "Portatile",
+            "mostrare": true
+          },
+          {
+            "nome": "Posizione",
+            "mostrare": true
+          },
+          {
+            "nome": "Possessione",
+            "mostrare": true
+          },
+          {
+            "nome": "Pozione",
+            "mostrare": true
+          },
+          {
+            "nome": "Predizione",
+            "mostrare": true
+          },
+          {
+            "nome": "Presa",
+            "mostrare": true
+          },
+          {
+            "nome": "Pressione",
+            "mostrare": true
+          },
+          {
+            "nome": "Prezioso",
+            "mostrare": true
+          },
+          {
+            "nome": "Primordiale",
+            "mostrare": true
+          },
+          {
+            "nome": "Privo di Mente",
+            "mostrare": true
+          },
+          {
+            "nome": "Processato",
+            "mostrare": true
+          },
+          {
+            "nome": "Propulsivo",
+            "mostrare": true
+          },
+          {
+            "nome": "Protean",
+            "mostrare": true
+          },
+          {
+            "nome": "Prova",
+            "mostrare": true
+          },
+          {
+            "nome": "Psiche",
+            "mostrare": true
+          },
+          {
+            "nome": "Psicopompo",
+            "mostrare": true
+          },
+          {
+            "nome": "Psychic",
+            "mostrare": true
+          },
+          {
+            "nome": "Qlippoth",
+            "mostrare": true
+          },
+          {
+            "nome": "Radiazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Raffica",
+            "mostrare": true
+          },
+          {
+            "nome": "Rakshasa",
+            "mostrare": true
+          },
+          {
+            "nome": "Ranger",
+            "mostrare": true
+          },
+          {
+            "nome": "Raro",
+            "mostrare": true
+          },
+          {
+            "nome": "Ratajin",
+            "mostrare": true
+          },
+          {
+            "nome": "Ratfolk",
+            "mostrare": true
+          },
+          {
+            "nome": "Rattoppato",
+            "mostrare": true
+          },
+          {
+            "nome": "Recupero",
+            "mostrare": true
+          },
+          {
+            "nome": "Regione",
+            "mostrare": true
+          },
+          {
+            "nome": "Regno",
+            "mostrare": true
+          },
+          {
+            "nome": "Reincarnato",
+            "mostrare": true
+          },
+          {
+            "nome": "Reliquia",
+            "mostrare": true
+          },
+          {
+            "nome": "Residenziale",
+            "mostrare": true
+          },
+          {
+            "nome": "Respiro in Bottiglia",
+            "mostrare": true
+          },
+          {
+            "nome": "Ricarica",
+            "mostrare": true
+          },
+          {
+            "nome": "Richiudibile",
+            "mostrare": true
+          },
+          {
+            "nome": "Riflesso",
+            "mostrare": true
+          },
+          {
+            "nome": "Rinculo",
+            "mostrare": true
+          },
+          {
+            "nome": "Risonante",
+            "mostrare": true
+          },
+          {
+            "nome": "Rivelazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Rumoroso",
+            "mostrare": true
+          },
+          {
+            "nome": "Sacro",
+            "mostrare": true
+          },
+          {
+            "nome": "Saggorak",
+            "mostrare": true
+          },
+          {
+            "nome": "Sahkil",
+            "mostrare": true
+          },
+          {
+            "nome": "Samsaran",
+            "mostrare": true
+          },
+          {
+            "nome": "Sangue di Drago",
+            "mostrare": true
+          },
+          {
+            "nome": "Santificato",
+            "mostrare": true
+          },
+          {
+            "nome": "Sarangay",
+            "mostrare": true
+          },
+          {
+            "nome": "Satiro",
+            "mostrare": true
+          },
+          {
+            "nome": "Sbilanciare",
+            "mostrare": true
+          },
+          {
+            "nome": "Sbilanciare a Distanza",
+            "mostrare": true
+          },
+          {
+            "nome": "Scheletro",
+            "mostrare": true
+          },
+          {
+            "nome": "Schermaglia",
+            "mostrare": true
+          },
+          {
+            "nome": "Schermagliatore",
+            "mostrare": true
+          },
+          {
+            "nome": "Sciame",
+            "mostrare": true
+          },
+          {
+            "nome": "Scorrente",
+            "mostrare": true
+          },
+          {
+            "nome": "Scrutare",
+            "mostrare": true
+          },
+          {
+            "nome": "Sedacthy",
+            "mostrare": true
+          },
+          {
+            "nome": "Segreto",
+            "mostrare": true
+          },
+          {
+            "nome": "Semplice",
+            "mostrare": true
+          },
+          {
+            "nome": "Senz'Armi",
+            "mostrare": true
+          },
+          {
+            "nome": "Senza Confini",
+            "mostrare": true
+          },
+          {
+            "nome": "Senza Tempo",
+            "mostrare": true
+          },
+          {
+            "nome": "Senziente",
+            "mostrare": true
+          },
+          {
+            "nome": "Serpentfolk",
+            "mostrare": true
+          },
+          {
+            "nome": "Seugathi",
+            "mostrare": true
+          },
+          {
+            "nome": "Sfortuna",
+            "mostrare": true
+          },
+          {
+            "nome": "Sfumati",
+            "mostrare": true
+          },
+          {
+            "nome": "Shabti",
+            "mostrare": true
+          },
+          {
+            "nome": "Shisk",
+            "mostrare": true
+          },
+          {
+            "nome": "Shoony",
+            "mostrare": true
+          },
+          {
+            "nome": "Siktempora",
+            "mostrare": true
+          },
+          {
+            "nome": "Silfo",
+            "mostrare": true
+          },
+          {
+            "nome": "Skelm",
+            "mostrare": true
+          },
+          {
+            "nome": "Skulk",
+            "mostrare": true
+          },
+          {
+            "nome": "Sociale",
+            "mostrare": true
+          },
+          {
+            "nome": "Sogno",
+            "mostrare": true
+          },
+          {
+            "nome": "Sonno",
+            "mostrare": true
+          },
+          {
+            "nome": "Sonoro",
+            "mostrare": true
+          },
+          {
+            "nome": "Sottile",
+            "mostrare": true
+          },
+          {
+            "nome": "Sovraccarico",
+            "mostrare": true
+          },
+          {
+            "nome": "Spazzata",
+            "mostrare": true
+          },
+          {
+            "nome": "Spericolato",
+            "mostrare": true
+          },
+          {
+            "nome": "Spingere",
+            "mostrare": true
+          },
+          {
+            "nome": "Spirito",
+            "mostrare": true
+          },
+          {
+            "nome": "Spostamento Mentale",
+            "mostrare": true
+          },
+          {
+            "nome": "Spriggan",
+            "mostrare": true
+          },
+          {
+            "nome": "Sprite",
+            "mostrare": true
+          },
+          {
+            "nome": "Spruzzo",
+            "mostrare": true
+          },
+          {
+            "nome": "Stamina",
+            "mostrare": true
+          },
+          {
+            "nome": "Statico",
+            "mostrare": true
+          },
+          {
+            "nome": "Stendardo",
+            "mostrare": true
+          },
+          {
+            "nome": "Stheno",
+            "mostrare": true
+          },
+          {
+            "nome": "Strega",
+            "mostrare": true
+          },
+          {
+            "nome": "Stregone",
+            "mostrare": true
+          },
+          {
+            "nome": "Strigoi",
+            "mostrare": true
+          },
+          {
+            "nome": "Strix",
+            "mostrare": true
+          },
+          {
+            "nome": "Struttura",
+            "mostrare": true
+          },
+          {
+            "nome": "Suli",
+            "mostrare": true
+          },
+          {
+            "nome": "Surki",
+            "mostrare": true
+          },
+          {
+            "nome": "Sventolare",
+            "mostrare": true
+          },
+          {
+            "nome": "Swashbuckler",
+            "mostrare": true
+          },
+          {
+            "nome": "Talismano",
+            "mostrare": true
+          },
+          {
+            "nome": "Talos",
+            "mostrare": true
+          },
+          {
+            "nome": "Tandem",
+            "mostrare": true
+          },
+          {
+            "nome": "Tane",
+            "mostrare": true
+          },
+          {
+            "nome": "Tanggal",
+            "mostrare": true
+          },
+          {
+            "nome": "Tanuki",
+            "mostrare": true
+          },
+          {
+            "nome": "Tattica",
+            "mostrare": true
+          },
+          {
+            "nome": "Tatuaggio",
+            "mostrare": true
+          },
+          {
+            "nome": "Taumaturgo",
+            "mostrare": true
+          },
+          {
+            "nome": "Tecnologia",
+            "mostrare": true
+          },
+          {
+            "nome": "Telepatia",
+            "mostrare": true
+          },
+          {
+            "nome": "Teletrasporto",
+            "mostrare": true
+          },
+          {
+            "nome": "Tempo",
+            "mostrare": true
+          },
+          {
+            "nome": "Tengu",
+            "mostrare": true
+          },
+          {
+            "nome": "Terra",
+            "mostrare": true
+          },
+          {
+            "nome": "Tiefling",
+            "mostrare": true
+          },
+          {
+            "nome": "Titano",
+            "mostrare": true
+          },
+          {
+            "nome": "Trappola",
+            "mostrare": true
+          },
+          {
+            "nome": "Trappola",
+            "mostrare": true
+          },
+          {
+            "nome": "Trascendenza",
+            "mostrare": true
+          },
+          {
+            "nome": "Trasmutazione",
+            "mostrare": true
+          },
+          {
+            "nome": "Trincerarsi",
+            "mostrare": true
+          },
+          {
+            "nome": "Tripkee",
+            "mostrare": true
+          },
+          {
+            "nome": "Troll",
+            "mostrare": true
+          },
+          {
+            "nome": "Trucchetto",
+            "mostrare": true
+          },
+          {
+            "nome": "Truppa",
+            "mostrare": true
+          },
+          {
+            "nome": "Turibolo",
+            "mostrare": true
+          },
+          {
+            "nome": "Tè",
+            "mostrare": true
+          },
+          {
+            "nome": "Uccisione Certa",
+            "mostrare": true
+          },
+          {
+            "nome": "Uditivo",
+            "mostrare": true
+          },
+          {
+            "nome": "Umano",
+            "mostrare": true
+          },
+          {
+            "nome": "Umanoide",
+            "mostrare": true
+          },
+          {
+            "nome": "Undine",
+            "mostrare": true
+          },
+          {
+            "nome": "Unico",
+            "mostrare": true
+          },
+          {
+            "nome": "Urdefhan",
+            "mostrare": true
+          },
+          {
+            "nome": "Vampiro",
+            "mostrare": true
+          },
+          {
+            "nome": "Vanara",
+            "mostrare": true
+          },
+          {
+            "nome": "Vapore",
+            "mostrare": true
+          },
+          {
+            "nome": "Variabile",
+            "mostrare": true
+          },
+          {
+            "nome": "Veicolare",
+            "mostrare": true
+          },
+          {
+            "nome": "Veleno",
+            "mostrare": true
+          },
+          {
+            "nome": "Velenoso",
+            "mostrare": true
+          },
+          {
+            "nome": "Velstrac",
+            "mostrare": true
+          },
+          {
+            "nome": "Versatile",
+            "mostrare": true
+          },
+          {
+            "nome": "Vigilante",
+            "mostrare": true
+          },
+          {
+            "nome": "Villaggio",
+            "mostrare": true
+          },
+          {
+            "nome": "Vincolato",
+            "mostrare": true
+          },
+          {
+            "nome": "Vincolato all'Anima",
+            "mostrare": true
+          },
+          {
+            "nome": "Vincolato alla Maledizione",
+            "mostrare": true
+          },
+          {
+            "nome": "Virulento",
+            "mostrare": true
+          },
+          {
+            "nome": "Vishkanya",
+            "mostrare": true
+          },
+          {
+            "nome": "Visivo",
+            "mostrare": true
+          },
+          {
+            "nome": "Vitalita",
+            "mostrare": true
+          },
+          {
+            "nome": "Vocale",
+            "mostrare": true
+          },
+          {
+            "nome": "Vuoto",
+            "mostrare": true
+          },
+          {
+            "nome": "Wayang",
+            "mostrare": true
+          },
+          {
+            "nome": "Wight",
+            "mostrare": true
+          },
+          {
+            "nome": "Wraith",
+            "mostrare": true
+          },
+          {
+            "nome": "Wraithvine",
+            "mostrare": true
+          },
+          {
+            "nome": "Wyrwood",
+            "mostrare": true
+          },
+          {
+            "nome": "Xulgath",
+            "mostrare": true
+          },
+          {
+            "nome": "Yaksha",
+            "mostrare": true
+          },
+          {
+            "nome": "Yaoguai",
+            "mostrare": true
+          },
+          {
+            "nome": "Zombi",
+            "mostrare": true
+          },
+          {
+            "nome": "sortilegio",
+            "mostrare": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "directory",
     "nome": "talenti",
     "sottofile": [
       {
         "tipo": "file",
-        "nome": "abilita.json",
+        "nome": "abilitá.json",
         "contenuto": [
           {
             "nome": "Acrobazie di Squadra",

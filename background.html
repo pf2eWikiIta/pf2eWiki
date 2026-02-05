@@ -64,36 +64,11 @@
         
         common.aprireSidebar("backgroundLista");
 
-        let path = "./background/backgroundLista.json";
-        let bg = await common.trovaDati(path, ["Nome", "Boost", "Skill", "Talento",  "Desc"]);
-        for(let i = 0; i < bg[3].length; i++) {
-            console.log(bg[3][i])
-            let ris = "";
-            if(Array.isArray(bg[3][i]))  {
-                let sep = bg[3][i][bg[3][i].length - 1];
-                for(let j = 0; j < bg[3][i].length - 2; j++)
-                    ris += common.controllaTesto(common.vR(bg[3][i][j])) + ` ${sep} `;
-                ris += common.controllaTesto(common.vR(bg[3][i][bg[3][i].length - 2]));
-            }
-            else 
-                ris = common.controllaTesto(bg[3][i] == ""? "" : common.vR(bg[3][i])); 
-            console.log(ris);
-            bg[3][i] = ris;
-        }
-
-        for(let i = 0; i < bg[0].length - 1; i++)
-            for(let j = i+1; j < bg[0].length; j++)
-                if(bg[0][i] > bg[0][j]) {
-                    for(let k = 0; k < bg.length; k++) {
-                        let temp = bg[k][i];
-                        bg[k][i] = bg[k][j];
-                        bg[k][j] = temp;
-                    }
-                }
-        for(let i = 0; i < bg[4].length; i++) 
-            if(bg[4][i].length > 130)
-                bg[4][i] = common.controllaTesto(bg[4][i]).substring(0, 127) + "...";
-        common.render(document.getElementById("contenitore"), await common.creaTabella(bg, ["Nome", "Abilitá", "Competenze", "Talento", "Descrizione"], true), true);
+       fetch("tabBackground.html")
+        .then(response => response.text())
+        .then(data => {
+            common.render(document.getElementById("contenitore"), data, true);
+        });
 
         common.sBInit();
 window.cerca = (valore) => {

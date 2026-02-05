@@ -13,7 +13,7 @@
         <a class="navbar-brand" href="/index.html">
             <img src="/favicon.ico" alt="Home" width="30" height="24">
         </a>
-        <span class="navbar-brand mb-0 h1">ARCHETIPO</span>
+        <span class="navbar-brand mb-0 h1">RAZZE</span>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -80,6 +80,9 @@
         
     let listaTalenti = `<h2 class="mb-3">${archetipo}</h2><br>${common.controllaTesto(dedication.DescArc)}<br><br><h4>Talenti:</h4>`;
     let sudTalenti = [];
+    for(let i = 0; i < talenti.length; i++)
+        if(talenti[i].Archetipo.length > 1)
+            talenti[i].LivArc = Array.isArray(talenti[i].LivArc)? talenti[i].LivArc[talenti[i].Archetipo.indexOf(archetipo)] : talenti[i].LivArc;
     for(let i = 0; i < talenti.length; i++){
       let trovato = false;
       for(let j = 0 ;j < sudTalenti.length && !trovato; j++) 

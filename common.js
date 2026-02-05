@@ -10,7 +10,7 @@ export async function init() {
   struttura = await res.json();
   const res2 = await fetch('linkSpeciali.json');
   links = await res2.json();
-  const res3 = await fetch('tratti.json');
+  const res3 = await fetch('./data/regole/tratti.json');
   listaTratti = await res3.json();
   console.log('Struttura caricata:', struttura);
 }
@@ -168,7 +168,7 @@ function creaAzione(testo) {
     <div class="card mb-3">
       <div class="card-body">
         <strong>${ogg.nome}
-        ${Array.isArray(ogg.tipoAzz)? `da <img src="./immagini/${ogg.tipoAzz[0]}.png" alt="${ogg.tipoAzz[0]}" width="45" height="45"> a <img src="./immagini/${ogg.tipoAzz[1]}.png" alt="${ogg.tipoAzz[1]}" width="45" height="45">`: `<img src="./immagini/${ogg.tipoAzz}.png" alt="${ogg.tipoAzz}" width="45" height="45">`}</strong><br>
+        ${Array.isArray(ogg.tipoAzz)? mettiImmaginiAzioni(`da [[${ogg.tipoAzz[0]}]] a [[${ogg.tipoAzz[1]}]]`): mettiImmaginiAzioni(`[[${ogg.tipoAzz}]]`)}</strong><br>
         ${creaGraficaTratti(ogg.tratti)}`;
   for(let chiave in ogg.dettagli) {
     risultato += `<strong>${chiave}:</strong> ${ogg.dettagli[chiave]}<br>`;
@@ -188,7 +188,20 @@ export function aggiornaUrl(path) {
 }
 
 export function controllaTesto(testo) {
-  return cercaAzioni(creaHtmlLink(cercaACapo(trovaTitolo(chiamaStringFunc(trovaGrassetto(cercaTratti(testo)))))));
+  return mettiImmaginiAzioni(cercaAzioni(creaHtmlLink(cercaACapo(trovaTitolo(chiamaStringFunc(trovaGrassetto(cercaTratti(testo))))))));
+}
+
+function mettiImmaginiAzioni(testo) {
+  let iS;
+  let iF;
+  let nomeIm;
+  while(testo.includes("[[")) {
+    iS = testo.indexOf("[[");
+    iF = testo.indexOf("]]", iS);
+    nomeIm = testo.substring(iS + 2, iF);
+    testo = `${testo.substring(0, iS)}<img src="./immagini/${nomeIm}.png" alt="${nomeIm}" width="45" height="45"></img>${testo.substring(iF + 2)}`;
+  }
+  return testo;
 }
 
 export function aprireSidebar(posSidebar) {
@@ -289,7 +302,7 @@ export async function aprireIncantesimo(tradizione, id) {
     let info = [];
     if(dati.Azione) {
       let ogg = JSON.parse(dati.Desc.replaceAll("###", ""));
-      info.push(`${Array.isArray(ogg.tipoAzz)? `da <img src="./immagini/${ogg.tipoAzz[0]}.png" alt="${ogg.tipoAzz[0]}" width="45" height="45"> a <img src="./immagini/${ogg.tipoAzz[1]}.png" alt="${ogg.tipoAzz[1]}" width="45" height="45">`: `<img src="./immagini/${ogg.tipoAzz}.png" alt="${ogg.tipoAzz}" width="45" height="45">`}`);
+      info.push(`${Array.isArray(ogg.tipoAzz)? mettiImmaginiAzioni(`da [[${ogg.tipoAzz[0]}]] a [[${ogg.tipoAzz[1]}]]`): mettiImmaginiAzioni(`[[${ogg.tipoAzz}]]`)}`);
       info.push(creaGraficaTratti(ogg.tratti));
       let det = "";
       for (const key in ogg.dettagli)
@@ -333,7 +346,7 @@ ${htmlBottoneCopia(info[4])}
 
 
 export function controllaTestoIncolla(testo) {
-  return raddopiaQuadre(aggiungiSlash(copiaAzioniAnnidate(testo))).replaceAll("\\\\\'", "\\'");
+  return aggiungiSlash(copiaAzioniAnnidate(testo)).replaceAll("\\\\\'", "\\'");
 }
 
 function aggiungiSlash(testo) {
@@ -342,17 +355,6 @@ function aggiungiSlash(testo) {
     i = testo.indexOf("'", i);
     testo = `${testo.substring(0, i)}\\${testo.substring(i)}`;
     i = i+4;
-  }
-  return testo;
-}
-
-function raddopiaQuadre(testo) {
-  let i = 0;
-  while(testo.indexOf("[", i) != -1) {
-    i = testo.indexOf("[", i);
-    let iCh = testo.indexOf("]", i+1);
-    testo = `${testo.substring(0, i)}[${testo.substring(i+1, iCh)}]${testo.substring(iCh+1)}`;
-    i = iCh + 1;
   }
   return testo;
 }

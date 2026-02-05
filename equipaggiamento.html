@@ -7,6 +7,10 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="wiki.css">
+    <style>
+        .sezioneT { display: none; }
+        .attivaT { display: block; }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-sm">
@@ -23,6 +27,7 @@
                 <button class="btn btn-outline-success me-2" onclick='cambiaSezione("armature")'>Armature</button>
                 <button class="btn btn-outline-success me-2" onclick='cambiaSezione("armi")'>Armi</button>
                 <button class="btn btn-outline-success me-2" onclick='cambiaSezione("scudi")'>Scudi</button>
+                <button class="btn btn-outline-success me-2" onclick='cambiaSezione("oggettiAlchemici")'>Oggetti alchemici</button>
             </div>
         </div>
         </div>
@@ -57,6 +62,9 @@
                 <div id="armi" class="sezione">
                     <h2>Armi da mischia</h2>
                 </div>
+                <div id="oggettiAlchemici" class="sezione">
+                    <h2>Oggetti alchemici</h2>
+                </div>
             </div>
         </div>
     </div>
@@ -65,10 +73,12 @@
             const Armature = document.getElementById("armature");
             const Scudi = document.getElementById("scudi");
             const Armi = document.getElementById("armi");
+            const OggettiAlchemici = document.getElementById("oggettiAlchemici");
 
             Armature.classList.remove("attiva");
             Scudi.classList.remove("attiva");
             Armi.classList.remove("attiva");
+            OggettiAlchemici.classList.remove("attiva");
 
 
             switch (sezione) {
@@ -81,6 +91,17 @@
                 case "armi":
                     Armi.classList.add("attiva");
                     break;
+                case "oggettiAlchemici":
+                    OggettiAlchemici.classList.add("attiva");
+                    break;
+            }
+        }
+
+        function cambiaTab(sezione) {
+            for(let i = 0; i < window.tipi.length; i++) {
+                document.getElementById(window.tipi[i]).classList.remove("attivaT");
+                if(window.tipi[i] == sezione)
+                    document.getElementById(window.tipi[i]).classList.add("attivaT");
             }
         }
 
@@ -101,174 +122,55 @@
         });
         common.aprireSidebar("equipaggiamento");
 
-        function ordineAlfabetico(arr, iDiff) {
-            let j = 0;
-            while (j < arr[0].length) {
-                let ind = [j,j+1];
-                while(arr[iDiff][ind[0]] == (ind[1] > arr[iDiff].length?  "" : arr[iDiff][ind[1]])) ind[1]++;
-                for(let k = ind[0]; k < ind[1] - 1; k++)
-                    for(let h = k + 1; h < ind[1]; h++)
-                        if(arr[0][k] > arr[0][h])
-                            for(let i = 0; i < arr.length; i++) {
-                                let temp = arr[i][k];
-                                arr[i][k] = arr[i][h];
-                                arr[i][h] = temp;
-                            }
-                j = ind[1];
-            }
-        }
+        fetch("tabscudi.html")
+        .then(response => response.text())
+        .then(data => {
+            common.render(document.getElementById("scudi"), data, true);
+        });
 
-        function mettiGraficaTratti(arr) {
-            return arr.map(t => Array.isArray(t)? common.creaGraficaTratti(t) : t == ""? "": common.creaGraficaTratti([t]));
-        }
+        fetch("tabarmature.html")
+        .then(response => response.text())
+        .then(data => {
+            common.render(document.getElementById("armature"), data, true);
+        });
 
-        let pathArm = `./equipaggiamento/armature.json`;
-        let arm = await common.trovaDati(pathArm, ["Nome", "Categoria", "Tratti", "Bonus", "Cap", "Forza", "PenalitaTiri", "PenalitaVelocita", "Gruppo"]);
+        fetch("tabarmi.html")
+        .then(response => response.text())
+        .then(data => {
+            // 1. Parsiamo l'HTML
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(data, "text/html");
 
-        for(let i = 0; i < arm[0].length; i++) {
-            for(let j = 3; j < 6; j++)  arm[j][i] = (arm[j][i] == -1)?  `` : `+${arm[j][i]}`;
-            arm[6][i] = `${arm[6][i]}`;
-            arm[7][i] = `${arm[7][i]}m`;
-        }
+            // 2. Prendiamo i div singolarmente
+            const divA = doc.getElementById("a");
+            const divB = doc.getElementById("b");
+            const divC = doc.getElementById("c");
 
-        let categorie = ["Senz'armatura", "Leggera", "Media", "Pesante"];
-        for(let i = 0; i < arm[0].length - 1; i++) 
-            for(let j = i; j < arm[0].length; j++) 
-                if(categorie.indexOf(arm[1][i]) > categorie.indexOf(arm[1][j])) {
-                    console.log(`${categorie.indexOf(arm[1][i])} ${categorie.indexOf(arm[1][j])}`)
-                    for(let k = 0; k < arm.length; k++) {
-                        let temp = arm[k][i];
-                        arm[k][i] = arm[k][j];
-                        arm[k][j] = temp;
-                    }
-                }
-        ordineAlfabetico(arm, 1);
-        arm[2] = mettiGraficaTratti(arm[2]);
+            let contArmi = document.getElementById("armi");
 
-        common.render(document.getElementById("armature"), common.creaTabella(arm, ["Nome", "Categoria", "Tratti", "Bonus CA", "Cap Dex", "Req Forza", "Penalitá alle prove", "Penalitá alla velocita", "Gruppo"], true), true);
+            common.render(contArmi, divA.innerHTML, true);
+            common.render(contArmi, "<br><h2>Armi a distanza</h2>", true);
+            common.render(contArmi, divB.innerHTML, true);
+            common.render(contArmi, "<br><h2>Armi combinate</h2>", true);
+            common.render(contArmi, divC.innerHTML, true);
+        });
 
-        let pathScd = `./equipaggiamento/scudi.json`;
-        let scd = await common.trovaDati(pathScd, ["Nome", "Tratti", "CA", "Durezza", "Sr", "Hp", "PenalitaVelocita"]);
+        let tipi = ["Strumenti alchemici", "Piante alchemiche", "Bomba alchemica", "Elisir alchemico", "Cibo alchemico", "Droghe", "Altro", "Mostri in bottiglia", "Munizione alchemica"];
+        window.tipi = tipi;
+        tipi.map(t => common.render(document.getElementById("oggettiAlchemici"), `<button class="btn btn-outline-success me-2" onclick="cambiaTab('${t}')">${t}</button> `, true));
+        fetch("tabalchemici.html")
+        .then(response => response.text())
+        .then(data => {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(data, "text/html");
 
-        for(let i = 0; i < scd[0].length; i++) {
-            scd[1][i] = scd[1][i].join(", ");
-            scd[5][i] = `${scd[5][i]} (${scd[4][i]})`;
-            scd[2][i] = `${scd[2][i]}`;
-            scd[3][i] = `${scd[3][i]}`;
-            scd[6][i] = `${scd[6][i]}m`;
-        }
+            let contAlc = document.getElementById("oggettiAlchemici");
+            for(let i = 0; i < tipi.length; i++)
+                common.render(contAlc, `<div id = "${tipi[i]}" class = "sezioneT"><br><h4>${tipi[i]}</h4>${doc.getElementById(tipi[i]).innerHTML}</div>`, true);
+            cambiaTab(tipi[0]);
+        });
 
-        scd.splice(5,1);
-
-        ordineAlfabetico(scd, 0);
-        scd[1] = mettiGraficaTratti(scd[1]);
         
-
-        common.render(document.getElementById("scudi"),common.creaTabella(scd, ["Nome", "Tratti", "Bonus CA", "Durezza", "HP", "Penalitá alla velocitá"], true),true);
-
-        let pathArmi = `./equipaggiamento/armi.json`;
-        let armi = await common.trovaDati(pathArmi, ["Nome", "Tipo","Categoria","Gruppo","Tratti","Taglia","TipoDanni","Mani", "Raggio","Ricarica"]);
-
-        let armMisc = [];
-        let armDist = [];
-        
-        for(let i = 0; i < armi.length; i++) {
-            armMisc.push([]);
-            armDist.push([]);
-        }
-
-        for(let i = 0; i < armi[0].length; i++) {
-            let arr;
-            if(armi[1][i] == "Mischia")
-                arr = armMisc;
-            else
-                if(armi[1][i] == "Dist")
-                    arr = armDist;
-            if(arr != undefined)
-            for(let j = 0; j < armi.length; j++){
-                arr[j].push(armi[j][i]);
-            }   
-                
-        }
-            
-        let cat = ["Semplici", "Marziali", "Avanzate"];
-        for(let i = 0; i < armMisc[0].length - 1; i++) 
-            for(let j = i + 1; j < armMisc[0].length; j++) 
-                if(cat.indexOf(armMisc[2][i]) > cat.indexOf(armMisc[2][j])) {
-                    if(armMisc[0][i] == "Pugno")
-                        console.log(`i = ${i}`);
-                    if(armMisc[0][j] == "Pugno")
-                        console.log(`j = ${j}`);
-                    
-                        for(let k = 0; k < armMisc.length; k++) {
-                        let temp = armMisc[k][i];
-                        armMisc[k][i] = armMisc[k][j];
-                        armMisc[k][j] = temp;
-                    }
-                }
-
-        for(let i = 0; i < armDist[0].length - 1; i++) 
-            for(let j = i + 1; j < armDist[0].length; j++) 
-                if(cat.indexOf(armDist[2][i]) > cat.indexOf(armDist[2][j])) {
-                    for(let k = 0; k < armDist.length; k++) {
-                        let temp = armDist[k][i];
-                        armDist[k][i] = armDist[k][j];
-                        armDist[k][j] = temp;
-                    }
-                }
-
-        for(let i = 0; i < armMisc[0].length; i++) 
-            armMisc[5][i] = `1d${armMisc[5][i]} ${armMisc[6][i]}`;
-
-        armMisc.splice(6,1);
-
-        for(let i = 0; i < armDist[0].length; i++) 
-            armDist[5][i] = `1d${armDist[5][i]} ${armDist[6][i]}`;
-
-        armDist.splice(6,1);
-                
-        armMisc[4] = mettiGraficaTratti(armMisc[4]);
-        armMisc.splice(1,1);
-        armDist.splice(1,1);
-        ordineAlfabetico(armMisc, 1);
-        ordineAlfabetico(armDist, 1);
-        let colonne = ["Nome", "Categoria", "Gruppo", "Tratti", "Danni", "N. mani richieste"];
-        let contArmi = document.getElementById("armi");
-        common.render(contArmi,common.creaTabella(armMisc, colonne, true),true);
-
-        colonne.push("Raggio");
-        colonne.push("Ricarica");
-
-        common.render(contArmi,"<br><h2>Armi a distanza</h2>", true);
-        armDist[3] = mettiGraficaTratti(armDist[3]);
-        common.render(contArmi,common.creaTabella(armDist, colonne, true),true);
-
-        common.render(contArmi,"<br><h2>Armi combinate</h2>", true);
-        let armComb = await common.restituisciDatoAttributi("./data/" + pathArmi, ["Tipo"], ["Combinata"]);
-
-        let armCombTab = [];
-        for(let i = 0; i < colonne.length; i++)
-            armCombTab.push([]);
-        armCombTab[0] = armComb.map(t => t.Nome);
-        armCombTab[1] = armComb.map(t => t.Categoria);
-        armCombTab[2] = armComb.map(t => `${t.GruppoM}/${t.GruppoD}`);
-        armCombTab[3] = armComb.map(t => `${common.creaGraficaTratti(t.Tratti)} + ${common.creaGraficaTratti(t.TrattiM)}/${common.creaGraficaTratti(t.TrattiD)}`);
-        armCombTab[4] = armComb.map(t => `1d${t.TagliaM} ${t.TipoDanniM}/1d${t.TagliaD} ${t.TipoDanniD}`);
-        armCombTab[5] = armComb.map(t => t.Mani);
-        armCombTab[6] = armComb.map(t => t.Raggio);
-        armCombTab[7] = armComb.map(t => t.Ricarica);
-
-        for(let i = 0; i < armCombTab[0].length - 1; i++) 
-            for(let j = i + 1; j < armCombTab[0].length; j++) 
-                if(cat.indexOf(armCombTab[1][i]) > cat.indexOf(armCombTab[1][j])) {
-                    for(let k = 0; k < armCombTab.length; k++) {
-                        let temp = armCombTab[k][i];
-                        armCombTab[k][i] = armCombTab[k][j];
-                        armCombTab[k][j] = temp;
-                    }
-                }
-        ordineAlfabetico(armCombTab, 1);
-        common.render(contArmi,common.creaTabella(armCombTab, colonne, true),true);
 
         const urlParams = new URLSearchParams(window.location.search);
         const sez = urlParams.get('sezione');

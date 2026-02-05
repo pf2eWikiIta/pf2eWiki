@@ -124,7 +124,7 @@
         await common.init();
         const isMobile = window.matchMedia('(max-width: 992px)').matches;
 
-        fetch("sidebar.html")
+        await fetch("sidebar.html")
         .then(response => response.text())
         .then(data => {
         if (isMobile)
@@ -133,53 +133,13 @@
             common.render(document.getElementById("sidebar-desktop"),data);
         });
         common.aprireSidebar("incantesimi");
-
         let trad = ["arcana", "divina", "occulta", "primordiale", "elementale", "rituali", "focus", "classeSpec"];
-        let cont = document.getElementById("contenitore");
-        for(let i = 0; i < trad.length; i++) {
-            let path = `./incantesimi/${trad[i]}.json`;
-            let incantesimi = await common.trovaDati(path, ["Nome", "Liv"]);
-            for(let j = 0; j < incantesimi[1].length - 1; j++)
-                for(let k = j + 1; k < incantesimi[1].length; k++)
-                    if(incantesimi[1][j] > incantesimi[1][k]) {
-                        let temp = [incantesimi[0][j], incantesimi[1][j]];
-                        incantesimi[0][j] = incantesimi[0][k];
-                        incantesimi[1][j] = incantesimi[1][k];
-                        incantesimi[0][k] = temp[0];
-                        incantesimi[1][k] = temp[1];
-                    }
-            let nuovo = [];
-            for(let k = 0; k < incantesimi[1].length; k++)
-                    nuovo.push(incantesimi[1][k]);
-            let j = 0;
-            while (j < incantesimi[0].length) {
-                let ind = [j,j+1];
-                while(incantesimi[1][ind[0]] == (ind[1] > incantesimi[1].length?  -1 : incantesimi[1][ind[1]])) ind[1]++; 
-                for(let k = ind[0]; k < ind[1] - 1; k++)
-                    for(let h = k + 1; h < ind[1]; h++)
-                        if(incantesimi[0][k] > incantesimi[0][h]) {
-                        let temp = [incantesimi[0][h], incantesimi[1][h]];
-                        incantesimi[0][h] = incantesimi[0][k];
-                        incantesimi[1][h] = incantesimi[1][k];
-                        incantesimi[0][k] = temp[0];
-                        incantesimi[1][k] = temp[1];
-                    }
-                j = ind[1];
-            }
-            
-            for(let j = 0;j < incantesimi[1].length; j++){
-                let temp = `${incantesimi[1][j]}°`;
-                if(incantesimi[1][j] == 0)
-                    temp += "(trucchetto)";
-                incantesimi[1][j] = temp;
-            }
-            common.render(cont, 
-                `<div id="${trad[i]}" class="sezione">
-                    <h2 class="mb-3">${common.capitalize(trad[i])}</h2>
-                    ${common.creaTabella( incantesimi, ["Nome", "Livello"], true)}
-                </div>`, true);
-            
-        }
+        for(let i = 0; i < trad.length; i++)
+            await fetch(`tab${trad[i]}.html`)
+            .then(response => response.text())
+            .then(data => {
+                common.render(document.getElementById("contenitore"), data, true);
+            });
         
         const urlParams = new URLSearchParams(window.location.search);
         const sez = urlParams.get('sezione');

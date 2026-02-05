@@ -293,8 +293,7 @@
     let risultat = "";
     for(let i = 0; i < sudTalenti.length; i++) {
       risultat += `<br><h3>Livello ${sudTalenti[i][0]}</h3>`;
-      risultat += sudTalenti[i][1].map(t => 
-      `<div class="card mb-3">
+      risultat += sudTalenti[i][1].map(t => `<div class="card mb-3">
         <div class="card-body">
           ${t.Azione? common.controllaTesto(t.Desc): 
           `<h3 id="${common.controllaTesto(t.Nome)}">${common.controllaTesto(t.Nome)}</h3>

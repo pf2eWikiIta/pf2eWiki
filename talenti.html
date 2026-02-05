@@ -20,7 +20,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
             <button class="btn btn-outline-success me-2" onclick='cambiaSezione("generali")'>Generali</button>
-            <button class="btn btn-outline-success me-2" onclick='cambiaSezione("abilita")'>Abilità</button>
+            <button class="btn btn-outline-success me-2" onclick='cambiaSezione("abilitá")'>Abilità</button>
         </div>
         </div>
     </div>
@@ -69,7 +69,7 @@
             case "generali":
             Generali.classList.add("attiva");
             break;
-            case "abilita":
+            case "abilitá":
             Abilita.classList.add("attiva");
             break;
         }
@@ -108,7 +108,7 @@
         common.aprireSidebar("generali");
 
         let pathGen = "./talenti/generali.json";
-        let pathAb = "./talenti/abilita.json";
+        let pathAb = "./talenti/abilitá.json";
         let gen = await common.trovaDati(pathGen, ["Nome", "Tratti", "Liv", "Dettagli", "Desc", "Azione"]);
         let ab = await common.trovaDati(pathAb, ["Nome", "Tratti", "Liv", "Dettagli", "Desc", "Azione"]);
 
