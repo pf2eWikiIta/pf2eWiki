@@ -1,1 +1,2 @@
 -Fix abilità in sidebar
+-Rifare Tabellla background
