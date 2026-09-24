@@ -69,7 +69,7 @@
         const idTal = urlParams.get('id');
         common.aprireSidebar(idTal);
 
-        let path = "./data/talenti/abilita.json";
+        let path = "./data/talenti/abilitá.json";
         common.render(document.getElementById("titolo"), idTal);
         common.render(document.getElementById("contenitore"), await common.apriTalento(path, idTal));
 
