@@ -26,6 +26,8 @@ function creaLink(percorso) {
     case 2:
       return `./${percorso[0]}.html?sezione=${percorso[1]}`;
     case 3:
+      console.log(percorso);
+      console.log(links);
       for(let i = 0; i < links.length; i++) {
         if(percorso[1] == links[i])
           return `./${percorso[1]}Visualizzazione.html?id=${percorso[2]}`;
