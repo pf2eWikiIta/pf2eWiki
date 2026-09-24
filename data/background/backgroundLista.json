@@ -41,7 +41,7 @@
     },
     {
         "Nome": "Aeronauta",
-        "Desc": "Hai padroneggiato le tecniche per pilotare ogni tipo di aeronave: palloni, dirigibili, veicoli alati o qualcosa di ancora più fantastico. Hai sviluppato competenze nell’uso di questi mezzi per il trasporto, l’esplorazione e la battaglia. Vivi per la vista maestosa che questi veicoli offrono molto al di sopra dello scontro e sai sfruttare i venti che riempiono i cieli.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Destrezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Atletica e nell’abilità di conoscenza (pilotaggio). Ottieni il talento di abilità Sicurezza con conoscenza (pilotaggio).",
+        "Desc": "Hai padroneggiato le tecniche per pilotare ogni tipo di aeronave: palloni, dirigibili, veicoli alati o qualcosa di ancora più fantastico. Hai sviluppato competenze nell’uso di questi mezzi per il trasporto, l’esplorazione e la battaglia. Vivi per la vista maestosa che questi veicoli offrono molto al di sopra dello scontro e sai sfruttare i venti che riempiono i cieli.@@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Destrezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Atletica e nell’abilità di conoscenza (pilotaggio).",
         "Boost": "Forza o destrezza, libero",
         "Skill": "Atletica, conoscenza(pilotaggio)",
         "Talento": "Sicurezza",
@@ -745,7 +745,7 @@
     },
     {
         "Nome": "Armaiolo",
-        "Desc": "Fin da giovane sei stato apprendista di un armaiolo esperto e col tempo la tua abilità e conoscenza sono cresciute fino a eguagliare quelle del tuo maestro. Oggi puoi riparare, modificare o migliorare facilmente quasi ogni arma da fuoco che tu abbia visto e, anche se non l’hai mai incontrata prima, riesci a smontarla e capirne il funzionamento in breve tempo. Hai portato queste capacità in viaggio, usandole per aiutare te stesso e i tuoi alleati come avventuriero nella manutenzione di armi, scudi, armature e altro ancora.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di conoscenza (ingegneria). Ottieni il talento di abilità Riparazione Rapida.",
+        "Desc": "Fin da giovane sei stato apprendista di un armaiolo esperto e col tempo la tua abilità e conoscenza sono cresciute fino a eguagliare quelle del tuo maestro. Oggi puoi riparare, modificare o migliorare facilmente quasi ogni arma da fuoco che tu abbia visto e, anche se non l’hai mai incontrata prima, riesci a smontarla e capirne il funzionamento in breve tempo. Hai portato queste capacità in viaggio, usandole per aiutare te stesso e i tuoi alleati come avventuriero nella manutenzione di armi, scudi, armature e altro ancora.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di conoscenza (ingegneria). Ottieni il talento di abilità Riparazione veloce.",
         "Boost": "Destrezza o intelligenza, libero",
         "Skill": "Artigianato, conoscenza(ingegneria)",
         "Talento": "Riparazione rapida",
@@ -1001,7 +1001,7 @@
 },
 {
   "Nome": "Apprendista Necromante",
-  "Desc": "Hai fatto da apprendista presso un necromante—un’educazione dura in un campo in cui il cadavere che stavi dissezionando poteva improvvisamente animarsi e ogni artefatto magico sembrava mortale. Ora che sei per conto tuo, sei grato di aver imparato a identificare le minacce magiche in modo rapido e accurato.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Intelligenza, e uno è un incremento libero.",
+  "Desc": "Hai fatto da apprendista presso un necromante—un’educazione dura in un campo in cui il cadavere che stavi dissezionando poteva improvvisamente animarsi e ogni artefatto magico sembrava mortale. Ora che sei per conto tuo, sei grato di aver imparato a identificare le minacce magiche in modo rapido e accurato.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Intelligenza, e uno è un incremento libero. Diventi addestrato in arcano e conoscenza(necromanzia).",
   "Boost": "Costituzione o Intelligenza, libero",
   "Skill": "Arcano, conoscenza(necromanzia)",
   "Talento": "Identificazione Rapida",
@@ -1417,7 +1417,7 @@
 },
 {
   "Nome": "Allevatore di Seta",
-  "Desc": "Hai studiato e padroneggiato l’arte della sericoltura. L’allevamento dei bachi da seta per produrre seta è un’industria importante che richiede un’enorme quantità di studio e cura. La routine immutabile di un allevatore di seta potrebbe rendere qualsiasi avventura epica per contrasto, e forse proprio questa prospettiva ti ha spinto verso la vita dell’avventuriero.@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Intelligenza, e uno è un incremento libero.",
+  "Desc": "Hai studiato e padroneggiato l’arte della sericoltura. L’allevamento dei bachi da seta per produrre seta è un’industria importante che richiede un’enorme quantità di studio e cura. La routine immutabile di un allevatore di seta potrebbe rendere qualsiasi avventura epica per contrasto, e forse proprio questa prospettiva ti ha spinto verso la vita dell’avventuriero.@Scegli due incrementi di caratteristica. Uno deve essere a Saggezza o Intelligenza, e uno è un incremento libero. Sei addestrato in Arigianato e in conoscenza(sericoltura)",
   "Boost": "Saggezza o Intelligenza, libero",
   "Skill": "Artigianato, conoscenza(sericoltura)",
   "Talento": "Specialità di Creazione",
@@ -1609,7 +1609,7 @@
 },
 {
   "Nome": "Apripista",
-  "Desc": "Le regioni inesplorate ti hanno sempre affascinato, e hai esplorato e mappato vasti territori al servizio di mercanti, governi o della tua stessa curiosità. Dove alcuni vedono uno spazio vuoto su una mappa, tu vedi il potenziale per qualcosa di nuovo e ancora sconosciuto.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero.",
+  "Desc": "Le regioni inesplorate ti hanno sempre affascinato, e hai esplorato e mappato vasti territori al servizio di mercanti, governi o della tua stessa curiosità. Dove alcuni vedono uno spazio vuoto su una mappa, tu vedi il potenziale per qualcosa di nuovo e ancora sconosciuto.@Scegli due incrementi di caratteristica. Uno deve essere a Costituzione o Saggezza, e uno è un incremento libero. Diventi addestrato in sopravvivenza e Conoscenza(cartografia). Ottieni il talento Esperto dei Terreni in un terreno che hai esplorato (come foresta o sottosuolo)",
   "Boost": "Costituzione o Saggezza, libero",
   "Skill": "Sopravvivenza, conoscenza(cartografia)",
   "Talento": "Esperto dei Terreni",
