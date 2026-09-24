@@ -151,7 +151,7 @@ export async function restituisciOggetto(path, nomeCercato) {
     const data = await response.json();
     console.log(nomeCercato);
     console.log(data);
-    return data.find(obj => obj.Nome === nomeCercato) || null;
+    return data.find(obj => obj.Nome.toUpperCase() === nomeCercato.toUpperCase()) || null;
   } catch (error) {
     return { Nome: error.message };
   }
