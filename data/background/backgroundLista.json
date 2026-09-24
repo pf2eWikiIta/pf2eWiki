@@ -217,10 +217,10 @@
     },
     {
         "Nome": "Meccanico da Battaglia",
-        "Desc": "Tutti i veicoli prima o poi si rompono, sia per l’usura sia per il contatto con il nemico, e qualcuno deve ripararli. Hai esperienza nel riparare veicoli aerei, terrestri e marittimi di ogni tipo e conosci bene il loro funzionamento e gli strumenti specializzati necessari.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di conoscenza (veicoli). Ottieni il talento di abilità Riparazione Rapida.",
+        "Desc": "Tutti i veicoli prima o poi si rompono, sia per l’usura sia per il contatto con il nemico, e qualcuno deve ripararli. Hai esperienza nel riparare veicoli aerei, terrestri e marittimi di ogni tipo e conosci bene il loro funzionamento e gli strumenti specializzati necessari.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di conoscenza (veicoli). Ottieni il talento di abilità Riparazione veloce.",
         "Boost": "Intelligenza o saggezza, libero",
         "Skill": "Artigianato, conoscenza(veicoli)",
-        "Talento": "Riparazione rapida",
+        "Talento": "Riparazione veloce",
         "Mostrare": true
     },
     {
@@ -473,10 +473,10 @@
     },
     {
         "Nome": "Discepolo dell’Ingranaggio",
-        "Desc": "Mentre molti considerano scienza e fede incompatibili, tu credi che il progresso scientifico sia la volontà della tua divinità. Forse sei un seguace di Brigh, Casandalee o di un altro dio della tecnologia, oppure vedi le fornaci e le scintille della modernità come l’ultima manifestazione della fiamma di Sarenrae o del fulmine di Gozreh. In ogni caso, sei sempre disposto a diffondere la parola della tua divinità e hai imparato un po’ di meccanica di base per dimostrare come il suo credo possa migliorare il tenore di vita comune.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e in un’abilità di conoscenza legata alla divinità che veneri. Ottieni il talento di abilità Riparazione Rapida.",
+        "Desc": "Mentre molti considerano scienza e fede incompatibili, tu credi che il progresso scientifico sia la volontà della tua divinità. Forse sei un seguace di Brigh, Casandalee o di un altro dio della tecnologia, oppure vedi le fornaci e le scintille della modernità come l’ultima manifestazione della fiamma di Sarenrae o del fulmine di Gozreh. In ogni caso, sei sempre disposto a diffondere la parola della tua divinità e hai imparato un po’ di meccanica di base per dimostrare come il suo credo possa migliorare il tenore di vita comune.@@Scegli due incrementi di caratteristica. Uno deve essere a Intelligenza o Saggezza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e in un’abilità di conoscenza legata alla divinità che veneri. Ottieni il talento di abilità Riparazione veloce.",
         "Boost": "Intelligenza o saggezza, libero",
         "Skill": "Artigianato, conoscenza(divinità)",
-        "Talento": "Riparazione rapida",
+        "Talento": "Riparazione veloce",
         "Mostrare": true
     },
     {
@@ -748,7 +748,7 @@
         "Desc": "Fin da giovane sei stato apprendista di un armaiolo esperto e col tempo la tua abilità e conoscenza sono cresciute fino a eguagliare quelle del tuo maestro. Oggi puoi riparare, modificare o migliorare facilmente quasi ogni arma da fuoco che tu abbia visto e, anche se non l’hai mai incontrata prima, riesci a smontarla e capirne il funzionamento in breve tempo. Hai portato queste capacità in viaggio, usandole per aiutare te stesso e i tuoi alleati come avventuriero nella manutenzione di armi, scudi, armature e altro ancora.@@Scegli due incrementi di caratteristica. Uno deve essere a Destrezza o Intelligenza, e uno è un incremento libero.@@Sei addestrato nell’abilità Artigianato e nell’abilità di conoscenza (ingegneria). Ottieni il talento di abilità Riparazione veloce.",
         "Boost": "Destrezza o intelligenza, libero",
         "Skill": "Artigianato, conoscenza(ingegneria)",
-        "Talento": "Riparazione rapida",
+        "Talento": "Riparazione veloce",
         "Mostrare": true
     },
     {
@@ -940,7 +940,7 @@
   "Desc": "I complessi meccanismi interni delle macchine non ti sono estranei. Che si tratti di dispositivi comuni o di complessi congegni a orologeria, sai cosa li fa funzionare e come mantenerli. Un gruppo di avventurieri potrebbe tenerti con sé per riparare il proprio equipaggiamento, oppure potresti viaggiare offrendo i tuoi rari servizi a chi ne ha bisogno—naturalmente a un prezzo!@Scegli due incrementi di caratteristica. Uno deve essere a Forza o Intelligenza, e uno è un incremento libero.",
   "Boost": "Forza o Intelligenza, libero",
   "Skill": "Artigianato, conoscenza(ingegneria)",
-  "Talento": "Riparazione Rapida",
+  "Talento": "Riparazione veloce",
   "Mostrare": true
 },
 {
