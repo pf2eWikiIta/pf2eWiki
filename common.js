@@ -149,6 +149,7 @@ export async function restituisciOggetto(path, nomeCercato) {
     const response = await fetch(path);
     if (!response.ok) throw new Error('Errore nella richiesta');
     const data = await response.json();
+    console.log(nomeCercato);
     console.log(data);
     return data.find(obj => obj.Nome === nomeCercato) || null;
   } catch (error) {
