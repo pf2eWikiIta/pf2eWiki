@@ -27,7 +27,6 @@ function creaLink(percorso) {
       return `./${percorso[0]}.html?sezione=${percorso[1]}`;
     case 3:
       console.log(percorso);
-      console.log(links);
       for(let i = 0; i < links.length; i++) {
         if(percorso[1] == links[i])
           return `./${percorso[1]}Visualizzazione.html?id=${percorso[2]}`;
@@ -93,6 +92,7 @@ function creaGrafica(colonne, dati, linkAutomatici, ordinare) {
 }
 
 export function creaHtmlLink(testo) {
+  console.log(testo);
   let pos;
   let iT;
   let iQ;
@@ -100,6 +100,7 @@ export function creaHtmlLink(testo) {
     pos = testo.indexOf(")[");
     iT = testo.lastIndexOf("(", pos);
     iQ = testo.indexOf("]", pos);
+    console.log(testo.substring(pos + 2, iQ));//
     testo = `${testo.substring(0, iT)}<a href='${restituisciLink(testo.substring(pos + 2, iQ))}'>${testo.substring(iT + 1, pos)}</a>${testo.substring(iQ + 1)}`;
   }
   return testo;
@@ -190,6 +191,10 @@ function creaAzione(testo) {
 export function aggiornaUrl(path) {
   window.location.href = path; 
 }
+
+export function creaLinkDaTestoCercato(testo) {
+  return creaHtmlLink(vR(testo));
+} 
 
 export function controllaTesto(testo) {
   console.log(testo);

@@ -116,7 +116,7 @@
 {
     "Nome": "Tanuki risoluto",
     "Razza": "tanuki",
-    "Desc": "Il tuo orgoglio nella tua vera forma di tanuki non conosce limiti. Ottieni la tua scelta tra Forma Quotidiana o Forma Teiera come talento di ascendenza bonus.",
+    "Desc": "Il tuo orgoglio nella tua vera forma di tanuki non conosce limiti. Ottieni la tua scelta tra Forma Quotidiana o Forma Teiera come talento di razza bonus.",
     "Mostrare": false
 },
 {
@@ -128,7 +128,7 @@
 {
     "Nome": "Sarangay della luna piena",
     "Razza": "sarangay",
-    "Desc": "Sei stato allevato in una tradizione sciamanica che trascende una singola comunità o heritage sarangay. Hai passato la tua giovinezza sotto la guida di un anziano sciamano, che ti ha insegnato a comunicare con gli spiriti nella speranza che un giorno userai quella conoscenza per consigliare e guidare il tuo popolo. Coloro della tua tradizione sono sacerdoti o sciamani che canalizzano gli spiriti e vedono cose che altri non possono. Ottieni un aumento di attributo all'ascendenza in Saggezza invece che in Forza, e ottieni un difetto di attributo in Costituzione invece che in Saggezza. Ottieni il talento di ascendenza ++Folk Healer++.",
+    "Desc": "Sei stato allevato in una tradizione sciamanica che trascende una singola comunità o heritage sarangay. Hai passato la tua giovinezza sotto la guida di un anziano sciamano, che ti ha insegnato a comunicare con gli spiriti nella speranza che un giorno userai quella conoscenza per consigliare e guidare il tuo popolo. Coloro della tua tradizione sono sacerdoti o sciamani che canalizzano gli spiriti e vedono cose che altri non possono. Ottieni un aumento di attributo all'razza in Saggezza invece che in Forza, e ottieni un difetto di attributo in Costituzione invece che in Saggezza. Ottieni il talento di razza ++Folk Healer++.",
     "Mostrare": false
 },
 {
@@ -140,7 +140,7 @@
 {
     "Nome": "Sarangay della luna nuova",
     "Razza": "sarangay",
-    "Desc": "Alcuni ti chiamano sarangay nano e la tua gente 'coloro che si nascondono'. Altri sussurrano che esci con la luna quando la luna 'va a caccia'—un detto popolare quando la luna nuova scompare dal cielo. I tuoi antenati sfuggenti costruivano i loro alloggi all'ombra di boschetti di bambù, e le tue comunità ancestrali apprezzavano la cautela e l'indipendenza, trasmettendo la conoscenza di camminare leggero e muoversi come fumo tra il bambù. I tuoi antenati avevano pelliccia marrone scuro o grigia con segni bianchi e una coppia di corna piatte e triangolari a forma di V. La tua taglia è Piccola invece che Media. Ottieni 10 Punti Ferita dall'ascendenza invece di 8 e un +2 bonus di circostanza ai tiri di Atletica per Spingere.",
+    "Desc": "Alcuni ti chiamano sarangay nano e la tua gente 'coloro che si nascondono'. Altri sussurrano che esci con la luna quando la luna 'va a caccia'—un detto popolare quando la luna nuova scompare dal cielo. I tuoi antenati sfuggenti costruivano i loro alloggi all'ombra di boschetti di bambù, e le tue comunità ancestrali apprezzavano la cautela e l'indipendenza, trasmettendo la conoscenza di camminare leggero e muoversi come fumo tra il bambù. I tuoi antenati avevano pelliccia marrone scuro o grigia con segni bianchi e una coppia di corna piatte e triangolari a forma di V. La tua taglia è Piccola invece che Media. Ottieni 10 Punti Ferita dall'razza invece di 8 e un +2 bonus di circostanza ai tiri di Atletica per Spingere.",
     "Mostrare": false
 },
 {
@@ -164,25 +164,25 @@
 {
     "Nome": "Nato dai celestiali",
     "Razza": "yaoguai",
-    "Desc": "Un tempo eri un potente celestiale prima che una fuga o una grande punizione ti lasciasse intrappolato in un involucro mortale, con solo vaghi ricordi e poteri limitati. Grazie al tuo residuo potere divino, la tradizione di qualsiasi incantesimo o abilità magica ottenuta da un heritage o talento di ascendenza yaoguai è divina invece della tradizione normale (di solito occulta). Forma Umanoide: Frammenti di memoria divina permeano ancora la tua mente. Ottieni un +1 bonus di circostanza ai tiri di Religione. Forma Yaoguai: Il potere celestiale scorre attraverso di te. Scegli un cantrip dalla lista degli incantesimi divini. Puoi lanciare questo incantesimo come cantrip divino innato a volontà. Un cantrip è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
+    "Desc": "Un tempo eri un potente celestiale prima che una fuga o una grande punizione ti lasciasse intrappolato in un involucro mortale, con solo vaghi ricordi e poteri limitati. Grazie al tuo residuo potere divino, la tradizione di qualsiasi incantesimo o abilità magica ottenuta da un heritage o talento di razza yaoguai è divina invece della tradizione normale (di solito occulta). Forma Umanoide: Frammenti di memoria divina permeano ancora la tua mente. Ottieni un +1 bonus di circostanza ai tiri di Religione. Forma Yaoguai: Il potere celestiale scorre attraverso di te. Scegli un trucchetto dalla lista degli incantesimi divini. Puoi lanciare questo incantesimo come trucchetto divino innato a volontà. Un trucchetto è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
     "Mostrare": false
 },
 {
     "Nome": "Nato dagli elementi",
     "Razza": "yaoguai",
-    "Desc": "Eri un aspetto della natura—pioggia, vento, un raggio di luce—finché le essenze selvagge non ti hanno donato un'anima. Grazie alla tua connessione naturale, la tradizione di qualsiasi incantesimo o abilità magica ottenuta da un heritage o talento di ascendenza yaoguai è primordiale invece della tradizione normale (di solito occulta). Forma Umanoide: Rimani in sintonia con il mondo naturale. Ottieni un +1 bonus di circostanza ai tiri di Sopravvivenza per Percepire la Direzione e non subisci penalità se non possiedi una bussola. Forma Yaoguai: Il potere della natura scorre attraverso di te, pronto a scatenarsi. Scegli ==controllaTesto(`${vR('Arco elettrico')}, ${vR('Morso di gelo')}, ${vR('Accensione')}, ${vR('Dardi di ago')}, ${vR('Legname')}, ${vR('Spargirocce')}, ${vR('Ventro Lacenrante')}, o ${vR('Getto')}.`)== Puoi lanciare questo incantesimo come trucchetto primordiale innato a volontà. Un trucchetto è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
+    "Desc": "Eri un aspetto della natura—pioggia, vento, un raggio di luce—finché le essenze selvagge non ti hanno donato un'anima. Grazie alla tua connessione naturale, la tradizione di qualsiasi incantesimo o abilità magica ottenuta da un heritage o talento di razza yaoguai è primordiale invece della tradizione normale (di solito occulta). Forma Umanoide: Rimani in sintonia con il mondo naturale. Ottieni un +1 bonus di circostanza ai tiri di Sopravvivenza per Percepire la Direzione e non subisci penalità se non possiedi una bussola. Forma Yaoguai: Il potere della natura scorre attraverso di te, pronto a scatenarsi. Scegli ==console.log('c'); controllaTesto(`${vR('Arco elettrico')}, ${vR('Morso di gelo')}, ${vR('Accensione')}, ${vR('Dardi di ago')}, ${vR('Legname')}, ${vR('Spargirocce')}, ${vR('Vento Lacerante')}, o ${vR('Getto')}.`)== Puoi lanciare questo incantesimo come trucchetto primordiale innato a volontà. Un trucchetto è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
     "Mostrare": false
 },
 {
     "Nome": "Nato dagli oggetti",
     "Razza": "yaoguai",
-    "Desc": "Eri un oggetto finché la luna non ti ha donato vita. Scegli una skill Lore relativa al tipo di oggetto che eri; ad esempio, Conoscenza Cucina per un coltello da macellaio o Conoscenza Agricoltura per un rastrello. Diventi addestrato in questa skill. Forma Umanoide: Conservi i ricordi dei compiti che svolgevi come oggetto. Ottieni un +1 bonus di circostanza alla skill Lore ottenuta tramite questo heritage. Forma Yaoguai: Il tuo tempo come oggetto privo di mente rende più difficile influenzarti mentalmente. Se ottieni un successo su un effetto mentale, ottieni invece un successo critico.",
+    "Desc": "Eri un oggetto finché la luna non ti ha donato vita. Scegli un abilità di conoscenza relativa al tipo di oggetto che eri; ad esempio, Conoscenza(Cucina) per un coltello da macellaio o Conoscenza(Agricoltura)per un rastrello. Diventi addestrato in questa abilità. Forma Umanoide: Conservi i ricordi dei compiti che svolgevi come oggetto. Ottieni un +1 bonus di circostanza all'abilità di conoscenza ottenuta tramite questo heritage. Forma Yaoguai: Il tuo tempo come oggetto privo di mente rende più difficile influenzarti mentalmente. Se ottieni un successo su un effetto mentale, ottieni invece un successo critico.",
     "Mostrare": false
 },
 {
     "Nome": "Nato dalla vegetazione",
     "Razza": "yaoguai",
-    "Desc": "Eri una pianta o un fungo finché la pioggia non ti ha donato una mente. Ottieni il tratto pianta o fungo a tua scelta. Forma Umanoide: Con la vegetazione fresca, puoi meglio aiutare chi è in difficoltà. Ottieni un +1 bonus di circostanza ai tiri di Medicina per Somministrare Pronto Soccorso. Forma Yaoguai: Quando qualcuno usa la skill Medicina per Curare le tue Ferite, aggiungi il tuo livello ai Punti Ferita recuperati da quel trattamento. Inoltre, la creatura che tenta il tiro ottiene un +1 bonus di circostanza se possiedi il tratto pianta e sei alla luce del sole, o il tratto fungo e sei nell'oscurità.",
+    "Desc": "Eri una pianta o un fungo finché la pioggia non ti ha donato una mente. Ottieni il tratto pianta o fungo a tua scelta. Forma Umanoide: Con la vegetazione fresca, puoi meglio aiutare chi è in difficoltà. Ottieni un +1 bonus di circostanza ai tiri di Medicina per Somministrare Pronto Soccorso. Forma Yaoguai: Quando qualcuno usa l'abilità Medicina per Curare le tue Ferite, aggiungi il tuo livello ai Punti Ferita recuperati da quel trattamento. Inoltre, la creatura che tenta il tiro ottiene un +1 bonus di circostanza se possiedi il tratto pianta e sei alla luce del sole, o il tratto fungo e sei nell'oscurità.",
     "Mostrare": false
 },
 {
@@ -218,7 +218,7 @@
 {
     "Nome": "Rifugio di Terra e Foglia",
     "Razza": "yaksha",
-    "Desc": "Hai fatto un voto per preservare le fondamenta stesse del santuario: la grande terra e tutto ciò che vi cresce sopra. Il tuo voto ti concede il potere spirituale della terra; ottieni un cantrip dalla lista di incantesimi primordiali. Puoi lanciare questo incantesimo come cantrip innato primordiale a volontà. Un cantrip è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso. Le tue radici nel mondo ti conferiscono il tratto pianta. Edict aggiuntivo: cura o rimuovi la corruzione e l'inquinamento dalle piante e dal suolo che incontri.",
+    "Desc": "Hai fatto un voto per preservare le fondamenta stesse del santuario: la grande terra e tutto ciò che vi cresce sopra. Il tuo voto ti concede il potere spirituale della terra; ottieni un trucchetto dalla lista di incantesimi primordiali. Puoi lanciare questo incantesimo come trucchetto innato primordiale a volontà. Un trucchetto è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso. Le tue radici nel mondo ti conferiscono il tratto pianta. Edict aggiuntivo: cura o rimuovi la corruzione e l'inquinamento dalle piante e dal suolo che incontri.",
     "Mostrare": false
 },
 {
@@ -326,13 +326,13 @@
 {
     "Nome": "Gandharva",
     "Razza": "sprite",
-    "Desc": "Discendi dai musicisti, poeti e danzatori auto-proclamati degli dei, con un corpo parte umanoide e parte cavallo o uccello. Se ottieni ali, esse hanno molti colori brillanti differenti. Grazie alla tua connessione celeste, la tradizione di qualsiasi incantesimo o abilità magica che ottieni da un talento di eredità o ascendenza sprite è divina invece che della sua tradizione normale. Diventi addestrato in Performance (o in un'altra abilità a scelta se sei già addestrato in Performance) e puoi lanciare ++summon instrument++ come cantrip divino innato.",
+    "Desc": "Discendi dai musicisti, poeti e danzatori auto-proclamati degli dei, con un corpo parte umanoide e parte cavallo o uccello. Se ottieni ali, esse hanno molti colori brillanti differenti. Grazie alla tua connessione celeste, la tradizione di qualsiasi incantesimo o abilità magica che ottieni da un talento di eredità o razza sprite è divina invece che della sua tradizione normale. Diventi addestrato in Performance (o in un'altra abilità a scelta se sei già addestrato in Performance) e puoi lanciare ++summon instrument++ come trucchetto divino innato.",
     "Mostrare": false
 },
 {
     "Nome": "Grig",
     "Razza": "sprite",
-    "Desc": "Hai la parte posteriore di un grillo e adori l'arte e la musica. Le tue gambe da grillo ti conferiscono un bonus di circostanza +2 ai tiri di Atletica per Salto in Alto o in Lungo, e ottieni ++ghost sound++ come cantrip primordiale innato.",
+    "Desc": "Hai la parte posteriore di un grillo e adori l'arte e la musica. Le tue gambe da grillo ti conferiscono un bonus di circostanza +2 ai tiri di Atletica per Salto in Alto o in Lungo, e ottieni ++ghost sound++ come trucchetto primordiale innato.",
     "Mostrare": false
 },
 {
@@ -440,7 +440,7 @@
 {
     "Nome": "Shisk custode di incantesimi",
     "Razza": "shisk",
-    "Desc": "La tua conoscenza magica ti permette di lanciare incantesimi semplici. Scegli tra occulta o primordiale. Ottieni un cantrip dalla lista degli incantesimi di quella tradizione magica. Puoi lanciare questo incantesimo come incantesimo innato a volontà, come incantesimo della tradizione scelta. Un cantrip è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
+    "Desc": "La tua conoscenza magica ti permette di lanciare incantesimi semplici. Scegli tra occulta o primordiale. Ottieni un trucchetto dalla lista degli incantesimi di quella tradizione magica. Puoi lanciare questo incantesimo come incantesimo innato a volontà, come incantesimo della tradizione scelta. Un trucchetto è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
     "Mostrare": false
 },
 {
@@ -506,13 +506,13 @@
 {
     "Nome": "Nascent",
     "Razza": "kashrishi",
-    "Desc": "Mentre la maggior parte dei kashrishi è completamente adattata al proprio ambiente al raggiungimento dell'età adulta, alcuni conservano potenziale inespresso fino a tarda età prima di sbloccarlo. Ottieni un talento di ascendenza kashrishi di 1° livello per cui soddisfi i prerequisiti, se presenti.",
+    "Desc": "Mentre la maggior parte dei kashrishi è completamente adattata al proprio ambiente al raggiungimento dell'età adulta, alcuni conservano potenziale inespresso fino a tarda età prima di sbloccarlo. Ottieni un talento di razza kashrishi di 1° livello per cui soddisfi i prerequisiti, se presenti.",
     "Mostrare": false
 },
 {
     "Nome": "Trogloshi",
     "Razza": "kashrishi",
-    "Desc": "Sei adattato alle regioni senza luce delle fitte giungle e delle profondità delle caverne, con carne morbida priva di pigmento e corna cristalline insolitamente chiare. Ottieni il talento di ascendenza ++Crystal Luminescence++.",
+    "Desc": "Sei adattato alle regioni senza luce delle fitte giungle e delle profondità delle caverne, con carne morbida priva di pigmento e corna cristalline insolitamente chiare. Ottieni il talento di razza ++Crystal Luminescence++.",
     "Mostrare": false
 },
 {
@@ -530,7 +530,7 @@
 {
     "Nome": "Jotunborn attraversatore di piani",
     "Razza": "jotunborn",
-    "Desc": "Sei stato scelto per la tua taglia più piccola che ti permette di muoverti facilmente tra le soglie planari. Generalmente servi come messaggero o esploratore, e l'esposizione ai piani ti ha conferito una scintilla di potere magico. Invece di essere Grande, la tua taglia è Media. Ottieni un cantrip dalla lista degli incantesimi occulti. Puoi lanciare questo incantesimo come incantesimo innato occulto a volontà. Un cantrip è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
+    "Desc": "Sei stato scelto per la tua taglia più piccola che ti permette di muoverti facilmente tra le soglie planari. Generalmente servi come messaggero o esploratore, e l'esposizione ai piani ti ha conferito una scintilla di potere magico. Invece di essere Grande, la tua taglia è Media. Ottieni un trucchetto dalla lista degli incantesimi occulti. Puoi lanciare questo incantesimo come incantesimo innato occulto a volontà. Un trucchetto è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
     "Mostrare": false
 },
 {
@@ -578,7 +578,7 @@
 {
     "Nome": "Goloma vigile",
     "Razza": "goloma",
-    "Desc": "Hai imparato a essere consapevole non solo dei pericoli fisici evidenti, ma anche delle minacce magiche percepibili. Puoi lanciare il cantrip ++detect magic++ come incantesimo innato arcano a volontà. Un cantrip è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso. Inoltre, la tua consapevolezza ti permette di notare trappole magiche più facilmente. Il tuo grado di competenza in Percezione è considerato un passo migliore quando tenti di rilevare trappole magiche (Addestrato è considerato Esperto, Esperto è considerato Maestro, Maestro è considerato Leggendario).",
+    "Desc": "Hai imparato a essere consapevole non solo dei pericoli fisici evidenti, ma anche delle minacce magiche percepibili. Puoi lanciare il trucchetto ++detect magic++ come incantesimo innato arcano a volontà. Un trucchetto è elevato a livello di incantesimo pari a metà del tuo livello arrotondato per eccesso. Inoltre, la tua consapevolezza ti permette di notare trappole magiche più facilmente. Il tuo grado di competenza in Percezione è considerato un passo migliore quando tenti di rilevare trappole magiche (Addestrato è considerato Esperto, Esperto è considerato Maestro, Maestro è considerato Leggendario).",
     "Mostrare": false
 },
 {
@@ -656,7 +656,7 @@
 {
     "Nome": "Rito di invocazione",
     "Razza": "conrasu",
-    "Desc": "Hai potenziato il tuo esoscheletro con magia. Ottieni un cantrip dalla lista degli incantesimi arcani o occulti. Puoi lanciare questo incantesimo come incantesimo innato a volontà. Un cantrip viene innalzato a livello di incantesimo pari alla metà del tuo livello arrotondato per eccesso.",
+    "Desc": "Hai potenziato il tuo esoscheletro con magia. Ottieni un trucchetto dalla lista degli incantesimi arcani o occulti. Puoi lanciare questo incantesimo come incantesimo innato a volontà. Un trucchetto viene innalzato a livello di incantesimo pari alla metà del tuo livello arrotondato per eccesso.",
     "Mostrare": false
 },
 {
@@ -716,7 +716,7 @@
 {
     "Nome": "Automaton mago",
     "Razza": "automaton",
-    "Desc": "La camera che ospita il tuo nucleo ha una connessione più diretta con il resto della tua forma umanoide, permettendoti di attingere all'energia magica del nucleo. Ottieni un cantrip dalla lista degli incantesimi arcani. Puoi lanciare questo incantesimo come incantesimo innato arcano a volontà. Un cantrip è elevato a livello di incantesimo pari alla metà del tuo livello arrotondato per eccesso.",
+    "Desc": "La camera che ospita il tuo nucleo ha una connessione più diretta con il resto della tua forma umanoide, permettendoti di attingere all'energia magica del nucleo. Ottieni un trucchetto dalla lista degli incantesimi arcani. Puoi lanciare questo incantesimo come incantesimo innato arcano a volontà. Un trucchetto è elevato a livello di incantesimo pari alla metà del tuo livello arrotondato per eccesso.",
     "Mostrare": false
 },
 {
@@ -764,7 +764,7 @@
 {
     "Nome": "Anadi adattivo",
     "Razza": "anadi",
-    "Desc": "Discendi da una linea di anadi che lavorarono per perfezionare la loro magia di trasformazione, permettendo loro di integrarsi in una più ampia varietà di culture. Scegli un'ascendenza comune, umanoide Media. La tua forma umana viene sostituita con una forma che corrisponde a questa scelta. Ottieni anche il talento ++Adopted Ancestry++ per l'ascendenza umanoide scelta.",
+    "Desc": "Discendi da una linea di anadi che lavorarono per perfezionare la loro magia di trasformazione, permettendo loro di integrarsi in una più ampia varietà di culture. Scegli un'razza comune, umanoide Media. La tua forma umana viene sostituita con una forma che corrisponde a questa scelta. Ottieni anche il talento ++Adopted Ancestry++ per l'razza umanoide scelta.",
     "Mostrare": false
 },
 {
@@ -800,7 +800,7 @@
 {
     "Nome": "Ombra dell'eremita",
     "Razza": "wayang",
-    "Desc": "La tua ombra sembra in qualche modo piena di segreti e misteri—segreti che condivide con te. Scegli un cantrip dalla lista di incantesimi occulti. Puoi lanciare questo incantesimo come incantesimo innato occulto a volontà. Un cantrip è potenziato a un livello di incantesimo pari alla metà del tuo livello arrotondato per eccesso.",
+    "Desc": "La tua ombra sembra in qualche modo piena di segreti e misteri—segreti che condivide con te. Scegli un trucchetto dalla lista di incantesimi occulti. Puoi lanciare questo incantesimo come incantesimo innato occulto a volontà. Un trucchetto è potenziato a un livello di incantesimo pari alla metà del tuo livello arrotondato per eccesso.",
     "Mostrare": false
 },
 {
@@ -836,7 +836,7 @@
 {
     "Nome": "Vanara Ragdyan",
     "Razza": "vanara",
-    "Desc": "Custodi delle tradizioni e narratori di antiche storie, la tua famiglia traccia la sua discendenza da coloro nati direttamente dai capricci di Ragdya. Quando parli, gli altri sono inclini ad ascoltarti, forse a causa della scintilla divina della tua connessione con Ragdya. Ottieni un cantrip dalla lista di incantesimi divini; questo cantrip non può infliggere danni o causare danni diretti. Puoi lanciare questo incantesimo come incantesimo innato divino a volontà. Un cantrip è potenziato a un livello di incantesimo pari alla metà del tuo livello arrotondato per eccesso.",
+    "Desc": "Custodi delle tradizioni e narratori di antiche storie, la tua famiglia traccia la sua discendenza da coloro nati direttamente dai capricci di Ragdya. Quando parli, gli altri sono inclini ad ascoltarti, forse a causa della scintilla divina della tua connessione con Ragdya. Ottieni un trucchetto dalla lista di incantesimi divini; questo trucchetto non può infliggere danni o causare danni diretti. Puoi lanciare questo incantesimo come incantesimo innato divino a volontà. Un trucchetto è potenziato a un livello di incantesimo pari alla metà del tuo livello arrotondato per eccesso.",
     "Mostrare": false
 },
 {
@@ -872,7 +872,7 @@
 {
     "Nome": "Tripkee pelle-spessa",
     "Razza": "tripkee",
-    "Desc": "La tua pelle spessa e coriacea assomiglia a quella di un rospo. Ottieni 8 Punti Ferita dall'ascendenza invece di 6. Ottieni un bonus di circostanza di +1 ai tiri salvezza contro malattie e veleni.",
+    "Desc": "La tua pelle spessa e coriacea assomiglia a quella di un rospo. Ottieni 8 Punti Ferita dall'razza invece di 6. Ottieni un bonus di circostanza di +1 ai tiri salvezza contro malattie e veleni.",
     "Mostrare": false
 },
 {
@@ -896,7 +896,7 @@
 {
     "Nome": "Tengu custode delle montagne",
     "Razza": "tengu",
-    "Desc": "Proveni da una linea di asceti tengu, lasciandoti un legame con gli spiriti del mondo e del Grande Oltre. Puoi lanciare il cantrip frusta vitale come incantesimo innato primordiale a volontà. Un cantrip è elevato a rango di incantesimo pari a metà del tuo livello arrotondato per eccesso. Ogni volta che lanci un incantesimo da un talento di heritage o ascendenza tengu, puoi decidere se sia un incantesimo divino o primordiale.",
+    "Desc": "Proveni da una linea di asceti tengu, lasciandoti un legame con gli spiriti del mondo e del Grande Oltre. Puoi lanciare il trucchetto frusta vitale come incantesimo innato primordiale a volontà. Un trucchetto è elevato a rango di incantesimo pari a metà del tuo livello arrotondato per eccesso. Ogni volta che lanci un incantesimo da un talento di heritage o razza tengu, puoi decidere se sia un incantesimo divino o primordiale.",
     "Mostrare": false
 },
 {
@@ -938,7 +938,7 @@
 {
     "Nome": "Samsaran oracolare",
     "Razza": "samsaran",
-    "Desc": "Le tue vite passate ti hanno fornito una maggiore intuizione sul mondo spirituale e sugli eventi presenti e futuri, poiché la storia si ripete. Scegli arcano, divino o occulto. Ottieni un cantrip dalla lista degli incantesimi della tradizione magica scelta. Puoi Lanciare questo Incantesimo come incantesimo innato a volontà, come incantesimo della tradizione scelta. Un cantrip è elevato a rango di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
+    "Desc": "Le tue vite passate ti hanno fornito una maggiore intuizione sul mondo spirituale e sugli eventi presenti e futuri, poiché la storia si ripete. Scegli arcano, divino o occulto. Ottieni un trucchetto dalla lista degli incantesimi della tradizione magica scelta. Puoi Lanciare questo Incantesimo come incantesimo innato a volontà, come incantesimo della tradizione scelta. Un trucchetto è elevato a rango di incantesimo pari a metà del tuo livello arrotondato per eccesso.",
     "Mostrare": false
 },
 {
@@ -1034,7 +1034,7 @@
 {
     "Nome": "Minotauro toro-fantasma",
     "Razza": "minotauro",
-    "Desc": "Il tuo pelo è pallido come la morte, forse per qualche connessione tua o della tua famiglia con l'aldilà, che ti permette di orientarti sovrannaturalmente. Puoi lanciare ++Conoscere la Via++ come incantesimo innato occulti a volontà. Un cantrip è innalzato a grado di incantesimo pari alla metà del tuo livello arrotondato per eccesso. Inoltre, ottieni un bonus di circostanza +1 contro incantesimi o effetti che causano la condizione confuso.",
+    "Desc": "Il tuo pelo è pallido come la morte, forse per qualche connessione tua o della tua famiglia con l'aldilà, che ti permette di orientarti sovrannaturalmente. Puoi lanciare ++Conoscere la Via++ come incantesimo innato occulti a volontà. Un trucchetto è innalzato a grado di incantesimo pari alla metà del tuo livello arrotondato per eccesso. Inoltre, ottieni un bonus di circostanza +1 contro incantesimi o effetti che causano la condizione confuso.",
     "Mostrare": false
 },
 {
@@ -1136,7 +1136,7 @@
 {
     "Nome": "Makari Lizardfolk",
     "Razza": "lizardfolk",
-    "Desc": "Hai un muso simile a un tronco e un legame con il divino. La tradizione di qualsiasi incantesimo o abilità magica ottenuta da un talento o ascendenza lizardfolk è divina invece della sua tradizione normale (di solito primordiale). Ottieni a tua scelta i cantrip ++Lancia Divina++ o ++Guardia Proibente++, che puoi lanciare come cantrip innato divino a volontà. Un cantrip è innalzato a un livello di incantesimo pari a metà del tuo livello arrotondato per eccesso. Quando lanci questo cantrip, perde il tratto manipolare, poiché lo lanci solo ruggendo e spiegando il tuo muso.",
+    "Desc": "Hai un muso simile a un tronco e un legame con il divino. La tradizione di qualsiasi incantesimo o abilità magica ottenuta da un talento o razza lizardfolk è divina invece della sua tradizione normale (di solito primordiale). Ottieni a tua scelta i trucchetto ++Lancia Divina++ o ++Guardia Proibente++, che puoi lanciare come trucchetto innato divino a volontà. Un trucchetto è innalzato a un livello di incantesimo pari a metà del tuo livello arrotondato per eccesso. Quando lanci questo cantrip, perde il tratto manipolare, poiché lo lanci solo ruggendo e spiegando il tuo muso.",
     "Mostrare": false
 },
 {
@@ -1154,7 +1154,7 @@
 {
     "Nome": "Lizardfolk Paludoso",
     "Razza": "lizardfolk",
-    "Desc": "La tua famiglia discende dalla più comune ascendenza lizardfolk e sei abituato agli ambienti acquatici. Ottieni una Velocità di nuoto di 4,5 metri.",
+    "Desc": "La tua famiglia discende dalla più comune razza lizardfolk e sei abituato agli ambienti acquatici. Ottieni una Velocità di nuoto di 4,5 metri.",
     "Mostrare": false
 },
 {
@@ -1178,7 +1178,7 @@
 {
     "Nome": "Kobold Squamato",
     "Razza": "kobold",
-    "Desc": "Grazie all'associazione della tua tana con un drago, le tue scaglie sono più robuste di quelle degli altri kobold. Ottieni 10 Punti Ferita dalla tua ascendenza invece di 6. Ottieni un bonus di circostanza +1 ai tiri salvezza contro il respiro del drago, effetti con il tratto sonno e effetti che ti paralizzerebbero.",
+    "Desc": "Grazie all'associazione della tua tana con un drago, le tue scaglie sono più robuste di quelle degli altri kobold. Ottieni 10 Punti Ferita dalla tua razza invece di 6. Ottieni un bonus di circostanza +1 ai tiri salvezza contro il respiro del drago, effetti con il tratto sonno e effetti che ti paralizzerebbero.",
     "Mostrare": false
 },
 {
@@ -1196,13 +1196,13 @@
 {
     "Nome": "Kobold Caduta Potente",
     "Razza": "kobold",
-    "Desc": "La tua vicinanza a un potente kaiju ti ha reso forte e robusto. Ottieni 10 Punti Ferita dalla tua ascendenza invece di 6. Invece dei normali aumenti e difetti di attributo, puoi scegliere di ottenere un aumento a Forza, un aumento a Carisma e un difetto a Intelligenza.",
+    "Desc": "La tua vicinanza a un potente kaiju ti ha reso forte e robusto. Ottieni 10 Punti Ferita dalla tua razza invece di 6. Invece dei normali aumenti e difetti di attributo, puoi scegliere di ottenere un aumento a Forza, un aumento a Carisma e un difetto a Intelligenza.",
     "Mostrare": false
 },
 {
     "Nome": "Corno Magico Kobold",
     "Razza": "kobold",
-    "Desc": "Poiché sei nato vicino a una potente fonte di magia, una traccia di essa scorre nelle tue vene. Scegli un cantrip comune dalla lista degli incantesimi arcani. Puoi lanciare questo incantesimo come incantesimo innato arcano a volontà. Un cantrip è innalzato a un livello di incantesimo pari a metà del tuo livello arrotondato per eccesso. Sei addestrato nelle statistiche del modificatore di attacco e della CD degli incantesimi, e la tua abilità chiave di incantesimo è Carisma.",
+    "Desc": "Poiché sei nato vicino a una potente fonte di magia, una traccia di essa scorre nelle tue vene. Scegli un trucchetto comune dalla lista degli incantesimi arcani. Puoi lanciare questo incantesimo come incantesimo innato arcano a volontà. Un trucchetto è innalzato a un livello di incantesimo pari a metà del tuo livello arrotondato per eccesso. Sei addestrato nelle statistiche del modificatore di attacco e della CD degli incantesimi, e la tua abilità chiave di incantesimo è Carisma.",
     "Mostrare": false
 },
 {
@@ -1250,7 +1250,7 @@
 {
     "Nome": "Cielo Vuoto Kitsune",
     "Razza": "kitsune",
-    "Desc": "Il tuo spirito è aperto ai segreti dell'aldilà, concedendoti maggiore accesso alla magia kitsune. Ottieni il talento di ascendenza ++Familiarità con gli Incantesimi Kitsune++. La tua forma alternativa è un umanoide comune di taglia Media diffuso nella tua area di crescita (tipicamente umano), chiamata forma senza coda.",
+    "Desc": "Il tuo spirito è aperto ai segreti dell'aldilà, concedendoti maggiore accesso alla magia kitsune. Ottieni il talento di razza ++Familiarità con gli Incantesimi Kitsune++. La tua forma alternativa è un umanoide comune di taglia Media diffuso nella tua area di crescita (tipicamente umano), chiamata forma senza coda.",
     "Mostrare": false
 },
 {
@@ -1310,7 +1310,7 @@
 {
     "Nome": "Kholo Strega",
     "Razza": "kholo",
-    "Desc": "Sei un kholo dal pelo scuro e arruffato capace di produrre suoni davvero insoliti. Puoi lanciare il cantrip Figment come incantesimo innato occulto a volontà. Un cantrip viene elevato a un livello di incantesimo pari a metà del tuo livello arrotondato per eccesso. Inoltre, ottieni un bonus di circostanza +1 ai tiri per Creare una Distrazione e Per Imita usando solo la voce.",
+    "Desc": "Sei un kholo dal pelo scuro e arruffato capace di produrre suoni davvero insoliti. Puoi lanciare il trucchetto Figment come incantesimo innato occulto a volontà. Un trucchetto viene elevato a un livello di incantesimo pari a metà del tuo livello arrotondato per eccesso. Inoltre, ottieni un bonus di circostanza +1 ai tiri per Creare una Distrazione e Per Imita usando solo la voce.",
     "Mostrare": false
 },
 {
@@ -1520,7 +1520,7 @@
 {
     "Nome": "Athamaru Corallino",
     "Razza": "athamaru",
-    "Desc": "Il corallo ricopre alcune parti del tuo corpo, fornendo uno strato naturale di difesa. Gli athamaru corallini spesso scelgono Simbionti Corallini e altri talenti di ascendenza correlati. Le piastre di corallo sono un'armatura media del gruppo delle armature a piastre che garantisce un bonus oggetto di +4 alla CA, un limite di Destrezza di +1, una penalità alle prove di –2, una penalità alla Velocità di –1.5m, un valore di Forza di +3 e possiede i tratti idrodinamico e confortevole. Non puoi mai indossare altre armature o rimuovere il corallo. Puoi incidere rune d'armatura sul corallo.",
+    "Desc": "Il corallo ricopre alcune parti del tuo corpo, fornendo uno strato naturale di difesa. Gli athamaru corallini spesso scelgono Simbionti Corallini e altri talenti di razza correlati. Le piastre di corallo sono un'armatura media del gruppo delle armature a piastre che garantisce un bonus oggetto di +4 alla CA, un limite di Destrezza di +1, una penalità alle prove di –2, una penalità alla Velocità di –1.5m, un valore di Forza di +3 e possiede i tratti idrodinamico e confortevole. Non puoi mai indossare altre armature o rimuovere il corallo. Puoi incidere rune d'armatura sul corallo.",
     "Mostrare": false
 },
 {
@@ -1568,7 +1568,7 @@
 {
     "Nome": "Orco dalle Cicatrici del Clan",
     "Razza": "orco",
-    "Desc": "Fate parte di una comunità orchesca che pratica la scarificazione o il tatuaggio rituale. I segni sulla vostra pelle mostrano la vostra eccezionale resistenza e vitalità. Ottenete 12 Punti Ferita dalla vostra ascendenza invece di 10. Ottenete inoltre il talento Tenace.",
+    "Desc": "Fate parte di una comunità orchesca che pratica la scarificazione o il tatuaggio rituale. I segni sulla vostra pelle mostrano la vostra eccezionale resistenza e vitalità. Ottenete 12 Punti Ferita dalla vostra razza invece di 10. Ottenete inoltre il talento Tenace.",
     "Mostrare": false
 },
 {
@@ -1640,7 +1640,7 @@
 {
     "Nome": "Leshy Radice",
     "Razza": "leshy",
-    "Desc": "Il tuo corpo è fatto di radici resistenti che ti ancorano saldamente al suolo. Ottieni 10 Punti Ferita dalla tua ascendenza invece di 8. Puoi restare senza luce solare per 2 settimane prima di iniziare a morire di fame. Ottieni un bonus di circostanza +2 alla tua CD di Tempra o Riflessi contro i tentativi di Riposizionarti, Spingerti o Farti Cadere. Questo bonus si applica anche ai tiri salvezza contro incantesimi o effetti che tentano di muoverti o buttarti a terra.",
+    "Desc": "Il tuo corpo è fatto di radici resistenti che ti ancorano saldamente al suolo. Ottieni 10 Punti Ferita dalla tua razza invece di 8. Puoi restare senza luce solare per 2 settimane prima di iniziare a morire di fame. Ottieni un bonus di circostanza +2 alla tua CD di Tempra o Riflessi contro i tentativi di Riposizionarti, Spingerti o Farti Cadere. Questo bonus si applica anche ai tiri salvezza contro incantesimi o effetti che tentano di muoverti o buttarti a terra.",
     "Mostrare": false
 },
 {
@@ -1664,13 +1664,13 @@
 {
     "Nome": "Umano Versatile",
     "Razza": "umano",
-    "Desc": "La versatilità e l'ambizione dell'umanità hanno alimentato la sua ascesa fino a diventare l'ascendenza più comune nella maggior parte delle nazioni del mondo. Seleziona un talento generale a tua scelta per il quale soddisfi i prerequisiti (come per il tuo talento di ascendenza, puoi selezionare questo talento generale in qualsiasi momento durante la creazione del personaggio).",
+    "Desc": "La versatilità e l'ambizione dell'umanità hanno alimentato la sua ascesa fino a diventare l'razza più comune nella maggior parte delle nazioni del mondo. Seleziona un talento generale a tua scelta per il quale soddisfi i prerequisiti (come per il tuo talento di ascendenza, puoi selezionare questo talento generale in qualsiasi momento durante la creazione del personaggio).",
     "Mostrare": false
 },
 {
     "Nome": "Umano Toccato dall'Inverno",
     "Razza": "umano",
-    "Desc": "Il potere dell'inverno scorre in te. Questa ascendenza è più comune tra i Jadwiga di Irrisen, a causa della loro discendenza da Baba Yaga, e tra alcuni Erutaki toccati dagli spiriti. Ottieni resistenza al freddo pari alla metà del tuo livello (minimo 1), e tratti gli effetti ambientali di freddo come se fossero di un grado meno estremo (freddo incredibile diventa estremo, estremo diventa severo, e così via).",
+    "Desc": "Il potere dell'inverno scorre in te. Questa razza è più comune tra i Jadwiga di Irrisen, a causa della loro discendenza da Baba Yaga, e tra alcuni Erutaki toccati dagli spiriti. Ottieni resistenza al freddo pari alla metà del tuo livello (minimo 1), e tratti gli effetti ambientali di freddo come se fossero di un grado meno estremo (freddo incredibile diventa estremo, estremo diventa severo, e così via).",
     "Mostrare": false
 },
 {
@@ -1760,7 +1760,7 @@
 {
     "Nome": "Goblin Indistruttibile",
     "Razza": "goblin",
-    "Desc": "Sei in grado di riprenderti facilmente dalle ferite grazie a un cranio eccezionalmente spesso, ossa cartilaginee o qualche altra benedizione mista. Ottieni 10 Punti Ferita dalla tua ascendenza invece di 6. Quando cadi, riduci i danni da caduta che subisci come se fossi caduto da metà della distanza effettiva.",
+    "Desc": "Sei in grado di riprenderti facilmente dalle ferite grazie a un cranio eccezionalmente spesso, ossa cartilaginee o qualche altra benedizione mista. Ottieni 10 Punti Ferita dalla tua razza invece di 6. Quando cadi, riduci i danni da caduta che subisci come se fossi caduto da metà della distanza effettiva.",
     "Mostrare": false
 },
 {
@@ -1927,7 +1927,7 @@
   {
     "Nome": "Pelle-bestiale",
     "Razza": "Universale",
-    "Dettagli": "I Pelle-bestiale possiedono straordinarie capacità derivate dal mondo animale, che consentono loro di trasformarsi parzialmente o completamente in animali, conferendo zanne letali, sensi acuti e altri tratti simili. Un Pelle-bestiale cammina sul confine tra natura e società, vivendo con un piede in ciascuna.@Pelle-bestiale è un termine generico per qualsiasi persona che abbia acquisito la capacità di trasformarsi parzialmente o completamente in un animale attraverso vari mezzi, mantenendo comunque un equilibrio con il proprio lato umanoide. La maggior parte dei Pelle-bestiale nasce da licantropi o ha un antenato licantropo nella propria discendenza. La maledizione potrebbe non manifestarsi completamente nel figlio di un licantropo, donando al bambino la natura trasformativa della propria stirpe senza la debolezza all’argento o la perdita di controllo durante la luna piena. Nati o creati, i licantropi di solito considerano tali Pelle-bestiale con grande rispetto, poiché incarnano molte delle loro forze senza alcuna delle loro debolezze.@Oltre ai licantropi, esistono vari altri modi per diventare un Pelle-bestiale. In alcuni casi, una divinità o uno spirito della natura può concedere a un individuo scelto il potere della trasformazione. Altri hanno acquisito i poteri dei Pelle-bestiale a causa di un trucco dei folletti o di una reazione insolita alla magia di metamorfosi. Ci sono persino voci secondo cui alcuni rari Pelle-bestiale potrebbero essere animali mutaforma che hanno acquisito la forma di un'ascendenza senziente, piuttosto che il contrario.@Se desideri un personaggio che cammina sul confine tra razionalità e istinto, a suo agio sia nella società che nella natura selvaggia ma separato da entrambe, dovresti giocare un Pelle-bestiale.",
+    "Dettagli": "I Pelle-bestiale possiedono straordinarie capacità derivate dal mondo animale, che consentono loro di trasformarsi parzialmente o completamente in animali, conferendo zanne letali, sensi acuti e altri tratti simili. Un Pelle-bestiale cammina sul confine tra natura e società, vivendo con un piede in ciascuna.@Pelle-bestiale è un termine generico per qualsiasi persona che abbia acquisito la capacità di trasformarsi parzialmente o completamente in un animale attraverso vari mezzi, mantenendo comunque un equilibrio con il proprio lato umanoide. La maggior parte dei Pelle-bestiale nasce da licantropi o ha un antenato licantropo nella propria discendenza. La maledizione potrebbe non manifestarsi completamente nel figlio di un licantropo, donando al bambino la natura trasformativa della propria stirpe senza la debolezza all’argento o la perdita di controllo durante la luna piena. Nati o creati, i licantropi di solito considerano tali Pelle-bestiale con grande rispetto, poiché incarnano molte delle loro forze senza alcuna delle loro debolezze.@Oltre ai licantropi, esistono vari altri modi per diventare un Pelle-bestiale. In alcuni casi, una divinità o uno spirito della natura può concedere a un individuo scelto il potere della trasformazione. Altri hanno acquisito i poteri dei Pelle-bestiale a causa di un trucco dei folletti o di una reazione insolita alla magia di metamorfosi. Ci sono persino voci secondo cui alcuni rari Pelle-bestiale potrebbero essere animali mutaforma che hanno acquisito la forma di un'razza senziente, piuttosto che il contrario.@Se desideri un personaggio che cammina sul confine tra razionalità e istinto, a suo agio sia nella società che nella natura selvaggia ma separato da entrambe, dovresti giocare un Pelle-bestiale.",
     "Desc": "Il sangue di una bestia scorre nelle tue vene, donandoti la ferocia e la forza degli animali. Solo le creature con il tratto umanoide possono prendere l’eredità versatile Pelle-bestiale. Scegli un tipo di animale, come pipistrello, aquila, squalo, ragno, tirannosauro, vespa o lupo. Questo è il tipo di animale legato alla tua eredità ed è noto come il tuo animale innato. Ottieni i tratti bestia e Pelle-bestiale, in aggiunta ai tratti della tua stirpe. Ottieni la capacità ++Cambia Forma++. La forma ibrida di un Pelle-bestiale è la sua forma naturale. Puoi scegliere tra talenti Pelle-bestiale e talenti della tua stirpe ogni volta che ottieni un talento di stirpe.### {\"nome\": \"Cambia Forma\", \"tipoAzz\": \"azione\", \"tratti\": [\"Concentrazione\", \"Metamorfosi\", \"Primordiale\", \"Trasmutazione\"], \"desc\": \"Ti trasformi nella tua forma umanoide o ibrida. Ogni forma ha un aspetto specifico e costante, e la maggior parte dei Pelle-bestiale rimane di default nella forma ibrida. In forma ibrida, appari come una combinazione tra la tua stirpe e il tuo animale innato. Mentre sei in forma ibrida, ottieni un colpo senz'armi con le mascelle che rispecchia i tratti del tuo animale innato (zanne per i pipistrelli, becchi per le aquile, mandibole per le vespe, e così via). Le tue mascelle infliggono 1d4 danni perforanti, hanno i tratti agile, finezza e senz'armi, e appartengono al gruppo di armi da lotta. Nella tua forma umanoide, mantieni l’aspetto della tua stirpe originale.\" } ###",
     "Mostrare": true
   },
