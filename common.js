@@ -192,6 +192,7 @@ export function aggiornaUrl(path) {
 }
 
 export function controllaTesto(testo) {
+  console.log(testo);
   return mettiImmaginiAzioni(cercaAzioni(creaHtmlLink(cercaACapo(trovaTitolo(chiamaStringFunc(trovaGrassetto(cercaTratti(testo))))))));
 }
 
