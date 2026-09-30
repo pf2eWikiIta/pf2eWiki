@@ -19463,6 +19463,10 @@
             "mostrare": true
           },
           {
+            "nome": "Cecità",
+            "mostrare": true
+          },
+          {
             "nome": "Ceramica Istantanea",
             "mostrare": true
           },
@@ -20404,6 +20408,10 @@
           },
           {
             "nome": "Maledizione del Tempo Perduto",
+            "mostrare": true
+          },
+          {
+            "nome": "Maledizione dell’Escluso",
             "mostrare": true
           },
           {
@@ -21387,7 +21395,7 @@
             "mostrare": true
           },
           {
-            "nome": "Scarica di Forza",
+            "nome": "Raffica di forza",
             "mostrare": true
           },
           {
@@ -21911,6 +21919,10 @@
             "mostrare": true
           },
           {
+            "nome": "Vincola non morto",
+            "mostrare": true
+          },
+          {
             "nome": "Vincolo",
             "mostrare": true
           },
@@ -21931,7 +21943,7 @@
             "mostrare": true
           },
           {
-            "nome": "Visione Vera",
+            "nome": "Visione del vero",
             "mostrare": true
           },
           {
@@ -22369,6 +22381,10 @@
             "mostrare": true
           },
           {
+            "nome": "Simbolo della ninfa",
+            "mostrare": true
+          },
+          {
             "nome": "Sovraccarico Informativo",
             "mostrare": true
           },
@@ -22695,6 +22711,10 @@
             "mostrare": true
           },
           {
+            "nome": "Cecità",
+            "mostrare": true
+          },
+          {
             "nome": "Cerchio di Protezione",
             "mostrare": true
           },
@@ -22879,7 +22899,7 @@
             "mostrare": true
           },
           {
-            "nome": "Eseguire",
+            "nome": "Esecuzione",
             "mostrare": true
           },
           {
@@ -23332,6 +23352,10 @@
           },
           {
             "nome": "Maledizione del Reietto",
+            "mostrare": true
+          },
+          {
+            "nome": "Maledizione dell’Escluso",
             "mostrare": true
           },
           {
@@ -24071,6 +24095,10 @@
             "mostrare": true
           },
           {
+            "nome": "Vincola non morto",
+            "mostrare": true
+          },
+          {
             "nome": "Vincolo Planare",
             "mostrare": true
           },
@@ -24079,7 +24107,7 @@
             "mostrare": true
           },
           {
-            "nome": "Visione Vera",
+            "nome": "Visione del vero",
             "mostrare": true
           },
           {
@@ -25257,7 +25285,7 @@
             "mostrare": true
           },
           {
-            "nome": "Visione Vera",
+            "nome": "Visione del vero",
             "mostrare": true
           },
           {
@@ -25519,7 +25547,7 @@
             "mostrare": true
           },
           {
-            "nome": "Buonodizione della Non Morte",
+            "nome": "Benedizione della Non Morte",
             "mostrare": true
           },
           {
@@ -26687,7 +26715,7 @@
             "mostrare": true
           },
           {
-            "nome": "Tomba Artigliosa",
+            "nome": "Tomba Afferrante",
             "mostrare": true
           },
           {
@@ -27154,6 +27182,10 @@
           },
           {
             "nome": "Cavalcatura Meravigliosa",
+            "mostrare": true
+          },
+          {
+            "nome": "Cecità",
             "mostrare": true
           },
           {
@@ -27989,6 +28021,10 @@
             "mostrare": true
           },
           {
+            "nome": "Maledizione dell’Escluso",
+            "mostrare": true
+          },
+          {
             "nome": "Maledizione dell’Orchestra Spiritica",
             "mostrare": true
           },
@@ -28685,7 +28721,7 @@
             "mostrare": true
           },
           {
-            "nome": "Scarica di Forza",
+            "nome": "Raffica di forza",
             "mostrare": true
           },
           {
@@ -29117,6 +29153,10 @@
             "mostrare": true
           },
           {
+            "nome": "Vincola non morto",
+            "mostrare": true
+          },
+          {
             "nome": "Vincolo Planare",
             "mostrare": true
           },
@@ -29129,7 +29169,7 @@
             "mostrare": true
           },
           {
-            "nome": "Visione Vera",
+            "nome": "Visione del vero",
             "mostrare": true
           },
           {
@@ -29467,6 +29507,10 @@
             "mostrare": true
           },
           {
+            "nome": "Cecità",
+            "mostrare": true
+          },
+          {
             "nome": "Cena della Falena",
             "mostrare": true
           },
@@ -29679,7 +29723,7 @@
             "mostrare": true
           },
           {
-            "nome": "Eseguire",
+            "nome": "Esecuzione",
             "mostrare": true
           },
           {
@@ -31303,11 +31347,15 @@
             "mostrare": true
           },
           {
+            "nome": "Visione del vero",
+            "mostrare": true
+          },
+          {
             "nome": "Visione Termica",
             "mostrare": true
           },
           {
-            "nome": "Visione Vera",
+            "nome": "Vista Animale",
             "mostrare": true
           },
           {
