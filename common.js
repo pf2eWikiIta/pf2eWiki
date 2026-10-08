@@ -64,6 +64,7 @@ export async function trovaDati(nomeFile, datiRicercati) {
 }
 
 function creaGrafica(colonne, dati, linkAutomatici, ordinare) {
+  console.log(dati);
   let risultato = '<table class="table table-dark table-striped"><thead><tr>';
   for(let i = 0; i < colonne.length; i++) {
     risultato += `<th>${colonne[i]}</th>`;
@@ -198,7 +199,7 @@ export function creaLinkDaTestoCercato(testo) {
 
 export function controllaTesto(testo) {
   console.log(testo);
-  return mettiImmaginiAzioni(cercaAzioni(creaHtmlLink(cercaACapo(trovaTitolo(chiamaStringFunc(trovaGrassetto(cercaTratti(testo))))))));
+  return mettiImmaginiAzioni(cercaAzioni(creaHtmlLink(cercaACapo(trovaTitolo(chiamaStringFunc(trovaGrassetto(sottolineaTesto(rendiCorsivoTesto(cercaTratti(testo))))))))));
 }
 
 function mettiImmaginiAzioni(testo) {
@@ -268,6 +269,7 @@ function trovaTitolo(testo) {
 }
 
 export function chiamaStringFunc(testo) {
+  console.log("Testo: " + testo);
   let iP = 0;
   let pos = [];
 
@@ -547,6 +549,29 @@ export function creaGraficaTratti(arr) {
   testo += `</h5>`;
   return testo;
 }
+
+function sottolineaTesto(testo) {
+  let pos = testo.indexOf("::");
+  while(pos != -1) {
+      let nextPos = testo.indexOf("::", pos + 1);
+      testo = `${testo.substring(0, pos)}<u>${testo.substring(pos+2, nextPos)}</u>${testo.substring(nextPos+2)}`;
+      pos = testo.indexOf("::");
+  }
+
+  return testo;
+}
+
+function rendiCorsivoTesto(testo) {
+  let pos = testo.indexOf(";;");
+  while(pos != -1) {
+      let nextPos = testo.indexOf(";;", pos + 1);
+      testo = `${testo.substring(0, pos)}<i>${testo.substring(pos+2, nextPos)}</i>${testo.substring(nextPos+2)}`;
+      pos = testo.indexOf(";;");
+  }
+
+  return testo;
+}
+
 
 export function render(container, html, aggiungere = false) {
   if (aggiungere) container.innerHTML += html;
