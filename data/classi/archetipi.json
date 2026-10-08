@@ -8793,7 +8793,7 @@
 },
 {
 "Nome": "Maestria nella Metamagia",
-"Azione": true,
+"Azione": false,
 "Desc": "La tua maestria con la magia ti permette di modificare i tuoi incantesimi con la stessa facilità con cui li lanci normalmente. Puoi usare metamagie che usano una singola azione come se fossero azioni gratuite.",
 "Tratti": ["Mago","Stregone"],
 "Liv": 20,
