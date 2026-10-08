@@ -1720,7 +1720,7 @@
             "mostrare": false
           },
           {
-            "nome": "Artigli del Drago",
+            "nome": "Artigli Draconici",
             "mostrare": false
           },
           {
@@ -5069,7 +5069,7 @@
           },
           {
             "nome": "Dedicazione Mago del Tempo",
-            "mostrare": false
+            "mostrare": true
           },
           {
             "nome": "Dedicazione Mago della Sorgente",
@@ -5552,43 +5552,43 @@
             "mostrare": true
           },
           {
-            "nome": "Dedicazione dell Aruspice",
+            "nome": "Dedicazione dell’Aruspice",
             "mostrare": true
           },
           {
-            "nome": "Dedicazione dell Elementalista",
+            "nome": "Dedicazione dell’Elementalista",
             "mostrare": true
           },
           {
-            "nome": "Dedicazione dell Esorcista",
+            "nome": "Dedicazione dell’Esorcista",
             "mostrare": true
           },
           {
-            "nome": "Dedicazione dell Esploratore",
+            "nome": "Dedicazione dell’Esploratore",
             "mostrare": true
           },
           {
-            "nome": "Dedicazione dell Evocatore",
+            "nome": "Dedicazione dell’Evocatore",
             "mostrare": true
           },
           {
-            "nome": "Dedicazione dell Exemplar",
+            "nome": "Dedicazione dell’Exemplar",
             "mostrare": true
           },
           {
-            "nome": "Dedicazione dell Invocatore di Rivethun",
+            "nome": "Dedicazione dell’Invocatore di Rivethun",
             "mostrare": true
           },
           {
-            "nome": "Dedicazione dell Involuzionista di Rivethun",
+            "nome": "Dedicazione dell’Involuzionista di Rivethun",
             "mostrare": true
           },
           {
-            "nome": "Dedicazione dell Oracolo",
+            "nome": "Dedicazione dell’Oracolo",
             "mostrare": true
           },
           {
-            "nome": "Dedicazione dell Ospite Ostilli",
+            "nome": "Dedicazione dell’Ospite Ostilli",
             "mostrare": true
           },
           {
@@ -7296,7 +7296,7 @@
             "mostrare": false
           },
           {
-            "nome": "Forma Elementale",
+            "nome": "Forma dell’Elementale",
             "mostrare": false
           },
           {
@@ -7392,11 +7392,11 @@
             "mostrare": true
           },
           {
-            "nome": "Forma di Drago",
+            "nome": "Forma del Drago",
             "mostrare": false
           },
           {
-            "nome": "Forma di Drago Possente",
+            "nome": "Forma del Drago Possente",
             "mostrare": false
           },
           {
@@ -9484,7 +9484,7 @@
             "mostrare": false
           },
           {
-            "nome": "Luce Sacra",
+            "nome": "Sacra Luce",
             "mostrare": false
           },
           {
@@ -20071,7 +20071,7 @@
             "mostrare": true
           },
           {
-            "nome": "Frastornare",
+            "nome": "Stupefarre",
             "mostrare": true
           },
           {
@@ -21547,6 +21547,10 @@
             "mostrare": true
           },
           {
+            "nome": "Sfera liquida",
+            "mostrare": true
+          },
+          {
             "nome": "Sfortuna dello Specchio",
             "mostrare": true
           },
@@ -21679,7 +21683,7 @@
             "mostrare": true
           },
           {
-            "nome": "Strisciare",
+            "nome": "Scivolare",
             "mostrare": true
           },
           {
@@ -22899,7 +22903,7 @@
             "mostrare": true
           },
           {
-            "nome": "Esecuzione",
+            "nome": "Giustiziare",
             "mostrare": true
           },
           {
@@ -25747,7 +25751,7 @@
             "mostrare": true
           },
           {
-            "nome": "Esplosione Elementale",
+            "nome": "Deflagrazione Elementale",
             "mostrare": true
           },
           {
@@ -26167,7 +26171,7 @@
             "mostrare": true
           },
           {
-            "nome": "Moto Elementale",
+            "nome": "Movimento Elementale",
             "mostrare": true
           },
           {
@@ -26575,7 +26579,7 @@
             "mostrare": true
           },
           {
-            "nome": "Soffio del Drago",
+            "nome": "Soffio di Drago",
             "mostrare": true
           },
           {
@@ -27621,7 +27625,7 @@
             "mostrare": true
           },
           {
-            "nome": "Frastornare",
+            "nome": "Stupefarre",
             "mostrare": true
           },
           {
@@ -28933,7 +28937,7 @@
             "mostrare": true
           },
           {
-            "nome": "Strisciare",
+            "nome": "Scivolare",
             "mostrare": true
           },
           {
@@ -29723,7 +29727,7 @@
             "mostrare": true
           },
           {
-            "nome": "Esecuzione",
+            "nome": "Giustiziare",
             "mostrare": true
           },
           {
@@ -31080,6 +31084,10 @@
           },
           {
             "nome": "Sfera del Tuono all’Orizzonte",
+            "mostrare": true
+          },
+          {
+            "nome": "Sfera liquida",
             "mostrare": true
           },
           {
@@ -40319,7 +40327,7 @@
             "mostrare": true
           },
           {
-            "nome": "Fantasma",
+            "nome": "Spettro",
             "mostrare": true
           },
           {
